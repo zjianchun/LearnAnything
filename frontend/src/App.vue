@@ -11,6 +11,7 @@
         <router-link to="/map">知识地图</router-link>
         <router-link to="/path">学习路径</router-link>
         <router-link to="/library">课件库</router-link>
+        <router-link to="/pbl">PBL探究</router-link>
         <router-link to="/diagnosis">诊断</router-link>
         <router-link to="/practice">练习</router-link>
         <router-link to="/errors">错题本</router-link>
