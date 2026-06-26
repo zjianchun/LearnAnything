@@ -9,6 +9,48 @@ from core.mastery import next_review_date, calc_mastery, get_status
 router = APIRouter()
 
 
+async def _recompute_daily_stats(db):
+    """根据当日 mastery_records 重算 daily_stats（家长看板数据源）。
+    按学科聚合做题数/正确数/时长；math/physics/english 单列存正确率与时长，
+    其余学科计入总数。单用户、每次答题重算，开销可忽略。"""
+    cursor = await db.execute(
+        """SELECT kn.subject AS subject, mr.correct AS correct,
+                  COALESCE(mr.time_spent_sec, 0) AS secs
+           FROM mastery_records mr
+           JOIN knowledge_nodes kn ON mr.node_id = kn.node_id
+           WHERE date(mr.timestamp) = date('now')"""
+    )
+    rows = await cursor.fetchall()
+    total = len(rows)
+    correct = sum(1 for r in rows if r["correct"] == 1)
+    # 按学科聚合
+    agg: dict[str, dict] = {}
+    for r in rows:
+        s = agg.setdefault(r["subject"], {"t": 0, "c": 0, "secs": 0})
+        s["t"] += 1
+        s["c"] += r["correct"]
+        s["secs"] += r["secs"]
+
+    def rate(s):
+        d = agg.get(s)
+        return (d["c"] / d["t"]) if d and d["t"] else None
+
+    def mins(s):
+        d = agg.get(s)
+        return round((d["secs"] / 60)) if d else 0
+
+    await db.execute(
+        """INSERT OR REPLACE INTO daily_stats
+           (date, math_minutes, physics_minutes, english_minutes,
+            math_correct_rate, physics_correct_rate, english_correct_rate,
+            questions_total, questions_correct, nodes_learned)
+           VALUES (date('now'), ?, ?, ?, ?, ?, ?, ?, ?, '[]')""",
+        (mins("math"), mins("physics"), mins("english"),
+         rate("math"), rate("physics"), rate("english"),
+         total, correct)
+    )
+
+
 @router.get("/practice/{node_id}")
 async def get_practice_questions(node_id: str, count: int = 5):
     """获取某知识点的练习题（智能选题）"""
@@ -170,6 +212,10 @@ async def check_answer(submit: AnswerSubmit):
                VALUES (?, ?, ?, datetime('now'), ?, ?)""",
             (submit.node_id, mastery, status, total, correct_count / total if total else 0)
         )
+        await db.commit()
+
+        # 更新当日学习统计（家长看板数据源）
+        await _recompute_daily_stats(db)
         await db.commit()
 
         return {
