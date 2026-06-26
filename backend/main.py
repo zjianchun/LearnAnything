@@ -4,8 +4,15 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from pathlib import Path
 
+# 加载根目录 .env（本地直跑uvicorn时；docker由compose注入env）
+try:
+    from dotenv import load_dotenv
+    load_dotenv(Path(__file__).parent.parent / ".env")
+except ImportError:
+    pass
+
 from db.database import init_db
-from api import diagnosis, questions, stats, study_plan, tts, graph
+from api import diagnosis, questions, stats, study_plan, tts, graph, tutor
 
 
 @asynccontextmanager
@@ -29,6 +36,7 @@ app.include_router(stats.router, prefix="/api/stats", tags=["统计"])
 app.include_router(study_plan.router, prefix="/api/plan", tags=["学习计划"])
 app.include_router(tts.router, prefix="/api/tts", tags=["语音"])
 app.include_router(graph.router, prefix="/api/graph", tags=["知识图谱"])
+app.include_router(tutor.router, prefix="/api/tutor", tags=["AI学伴"])
 
 # 静态课件目录
 courseware_dir = Path(__file__).parent.parent / "courseware"

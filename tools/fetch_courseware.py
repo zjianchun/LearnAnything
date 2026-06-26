@@ -98,8 +98,19 @@ def main():
     # 5. 重写绝对路径 /assets/scripts/ → /courseware/_assets/scripts/
     text = text.replace('"/assets/scripts/', '"/courseware/_assets/scripts/')
     text = text.replace('="assets/scripts/', '="/courseware/_assets/scripts/')
+
+    # 6. 注入 AI学伴代理配置（指向自建后端 /api/tutor，key留服务端）
+    inject = (
+        "<script>(function(){try{var K='teachany_tutor_config';"
+        "if(!localStorage.getItem(K)){localStorage.setItem(K,JSON.stringify("
+        "{provider:'custom',baseUrl:location.origin+'/api/tutor/v1',"
+        "apiKey:'self-hosted',model:'MiniMax-Text-01'}));}}catch(e){}})();</script>"
+    )
+    if "teachany_tutor_config" not in text:
+        text = text.replace("<head>", "<head>\n" + inject, 1)
+
     save(dest / "index.html", text.encode("utf-8"))
-    print(f"  ✅ index.html 已重写并保存")
+    print(f"  ✅ index.html 已重写+注入学伴配置并保存")
     print(f"\n访问: /courseware/{subject}/{node_id}/index.html")
 
 
