@@ -9,6 +9,9 @@ import sys
 import urllib.request
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+from wuhan_weights import match_weight
+
 DATA_DIR = Path(__file__).parent.parent / "data"
 
 # 远程 data/ 根（按序回退）
@@ -50,13 +53,17 @@ def fetch_json(rel_path: str):
 
 
 def load_existing_weights(subject: str) -> dict:
-    """读取已有 tree.json 的 exam_weight/exam_points（保留武汉校准）"""
+    """读取已有 tree.json 中**已校准**的 exam_weight/exam_points（非默认值才保留）"""
     f = DATA_DIR / subject / "tree.json"
     weights = {}
     if f.exists():
         try:
             for n in json.loads(f.read_text(encoding="utf-8")):
-                weights[n["node_id"]] = (n.get("exam_weight", "medium"), n.get("exam_points", ""))
+                ew = n.get("exam_weight", "medium")
+                ep = n.get("exam_points", "")
+                # 只保留真正校准过的（非 medium 或带分值），避免默认值挡住关键词匹配
+                if ew != "medium" or ep:
+                    weights[n["node_id"]] = (ew, ep)
         except Exception:
             pass
     return weights
@@ -67,7 +74,13 @@ def convert(subject: str, tree: dict, weights: dict) -> list:
     for dom in tree.get("domains", []):
         for n in dom.get("nodes", []):
             nid = n["id"]
-            ew, ep = weights.get(nid, ("medium", ""))
+            name = n["name"]
+            # 优先用已有精校权重；否则按武汉考频关键词匹配；再否则 medium
+            if nid in weights:
+                ew, ep = weights[nid]
+            else:
+                m = match_weight(subject, name)
+                ew, ep = m if m else ("medium", "")
             sem_raw = (n.get("textbook_semester") or "").strip()
             nodes_out.append({
                 "node_id": nid,

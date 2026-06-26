@@ -9,8 +9,8 @@
     "prerequisites": [
       "hist-m-song-yuan-ming-qing"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "hist-m-ancient-culture",
     "domain": "ancient-china",
@@ -96,7 +96,7 @@
       "hist-m-song-yuan-ming-qing"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "3-6",
     "estimated_minutes": 40,
     "teachany_node": "hist-m-ming-qing-economy",
     "domain": "ancient-china",
@@ -259,7 +259,7 @@
       "hist-m-imperial-unification"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "3-6",
     "estimated_minutes": 40,
     "teachany_node": "hist-m-sui-tang-ruling",
     "domain": "ancient-china",
@@ -344,8 +344,8 @@
     "prerequisites": [
       "hist-m-northern-expedition"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "hist-m-anti-japan-war",
     "domain": "modern-china",
@@ -365,8 +365,8 @@
     "prerequisites": [
       "hist-m-modern-china-development"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "hist-m-china-reform-opening",
     "domain": "modern-china",
@@ -406,8 +406,8 @@
     "prerequisites": [
       "hist-m-anti-japan-war"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "hist-m-liberation-war",
     "domain": "modern-china",
@@ -448,8 +448,8 @@
     "prerequisites": [
       "hist-m-new-democratic-revolution"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "hist-m-modern-china-development",
     "domain": "modern-china",
@@ -468,8 +468,8 @@
     "prerequisites": [
       "hist-m-cpc-founding"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "hist-m-northern-expedition",
     "domain": "modern-china",
@@ -489,8 +489,8 @@
     "prerequisites": [
       "hist-m-song-yuan-ming-qing"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "hist-m-opium-war",
     "domain": "modern-china",
@@ -509,8 +509,8 @@
     "prerequisites": [
       "hist-m-opium-war"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "hist-m-opium-war-era",
     "domain": "modern-china",
@@ -550,8 +550,8 @@
     "prerequisites": [
       "hist-m-reform-1898"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "hist-m-reform-revolution",
     "domain": "modern-china",
@@ -591,8 +591,8 @@
     "prerequisites": [
       "hist-m-reform-1898"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "hist-m-xinhai-revolution",
     "domain": "modern-china",
@@ -612,8 +612,8 @@
     "prerequisites": [
       "hist-m-liberation-war"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "hist-m-new-democratic-revolution",
     "domain": "modern-china",
@@ -630,8 +630,8 @@
     "semester": 1,
     "chapter": "",
     "prerequisites": [],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "hist-m-ancient-civilizations",
     "domain": "world-ancient",
@@ -691,8 +691,8 @@
     "prerequisites": [
       "hist-m-english-revolution"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "hist-m-american-revolution",
     "domain": "world-modern",
@@ -754,8 +754,8 @@
     "prerequisites": [
       "hist-m-renaissance"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "hist-m-english-revolution",
     "domain": "world-modern",
@@ -774,8 +774,8 @@
     "prerequisites": [
       "hist-m-english-revolution"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "hist-m-french-revolution",
     "domain": "world-modern",
@@ -813,8 +813,8 @@
     "prerequisites": [
       "hist-m-english-revolution"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "hist-m-industrial-revolution",
     "domain": "world-modern",
@@ -833,8 +833,8 @@
     "prerequisites": [
       "hist-m-industrial-revolution"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "8-14",
     "estimated_minutes": 40,
     "teachany_node": "hist-m-industrial-revolution-modernization",
     "domain": "world-modern",
@@ -855,7 +855,7 @@
       "hist-m-renaissance"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "3-6",
     "estimated_minutes": 40,
     "teachany_node": "hist-m-modern-world-formation",
     "domain": "world-modern",
@@ -895,8 +895,8 @@
     "prerequisites": [
       "hist-m-ww1"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "hist-m-russian-revolution",
     "domain": "world-modern",
@@ -914,8 +914,8 @@
     "prerequisites": [
       "hist-m-renaissance"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "hist-m-scientific-revolution",
     "domain": "world-modern",
@@ -954,8 +954,8 @@
     "prerequisites": [
       "hist-m-industrial-revolution"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "hist-m-ww1",
     "domain": "world-modern",
@@ -973,8 +973,8 @@
     "prerequisites": [
       "hist-m-ww1"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "hist-m-ww2",
     "domain": "world-modern",
@@ -995,8 +995,8 @@
     "prerequisites": [
       "hist-m-ww1"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "hist-m-ww2-asia-pacific",
     "domain": "world-modern",
@@ -1015,8 +1015,8 @@
     "prerequisites": [
       "hist-m-ww2"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "hist-m-world-wars-cold-war",
     "domain": "world-modern",

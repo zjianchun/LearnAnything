@@ -9,8 +9,8 @@
     "prerequisites": [
       "phy-m-sound-applications"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "low",
+    "exam_points": "2-4",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-acoustics-cross-disciplinary",
     "domain": "acoustics",
@@ -29,8 +29,8 @@
     "prerequisites": [
       "phy-m-sound-properties"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "low",
+    "exam_points": "2-4",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-noise-control",
     "domain": "acoustics",
@@ -49,8 +49,8 @@
     "prerequisites": [
       "phy-m-sound-properties"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "low",
+    "exam_points": "2-4",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-sound-applications",
     "domain": "acoustics",
@@ -69,8 +69,8 @@
     "prerequisites": [
       "sci-e-sound"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "low",
+    "exam_points": "2-4",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-sound-generation",
     "domain": "acoustics",
@@ -90,8 +90,8 @@
     "prerequisites": [
       "phy-m-sound-generation"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "low",
+    "exam_points": "2-4",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-sound-properties",
     "domain": "acoustics",
@@ -110,8 +110,8 @@
     "prerequisites": [
       "phy-m-pressure"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-atmospheric-pressure",
     "domain": "mechanics",
@@ -130,8 +130,8 @@
     "prerequisites": [
       "phy-m-atmospheric-pressure"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-fluid-flow",
     "domain": "mechanics",
@@ -150,8 +150,8 @@
     "prerequisites": [
       "phy-m-mass-density"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-force-basics",
     "domain": "mechanics",
@@ -171,8 +171,8 @@
     "prerequisites": [
       "phy-m-force-basics"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-gravity",
     "domain": "mechanics",
@@ -192,8 +192,8 @@
       "phy-m-pressure",
       "phy-m-mass-density"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-liquid-pressure-buoyancy",
     "domain": "mechanics",
@@ -213,7 +213,7 @@
       "phy-m-motion-description"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "3-5",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-mass-density",
     "domain": "mechanics",
@@ -235,8 +235,8 @@
       "sci-e-gravity",
       "sci-e-friction"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-motion-description",
     "domain": "mechanics",
@@ -257,8 +257,8 @@
       "phy-m-gravity",
       "phy-m-friction"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-newton-laws",
     "domain": "mechanics",
@@ -277,8 +277,8 @@
     "prerequisites": [
       "phy-m-newton-laws"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-pressure",
     "domain": "mechanics",
@@ -318,7 +318,7 @@
       "phy-m-light-refraction"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "4-8",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-lens",
     "domain": "optics",
@@ -338,7 +338,7 @@
       "phy-m-light-refraction"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "4-6",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-light-dispersion",
     "domain": "optics",
@@ -358,7 +358,7 @@
       "sci-e-light"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "4-6",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-light-propagation",
     "domain": "optics",
@@ -378,7 +378,7 @@
       "phy-m-light-propagation"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "4-6",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-light-reflection",
     "domain": "optics",
@@ -398,7 +398,7 @@
       "phy-m-light-reflection"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "4-6",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-light-refraction",
     "domain": "optics",
@@ -519,8 +519,8 @@
     "prerequisites": [
       "phy-m-force-basics"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-friction",
     "domain": "mechanics",
@@ -539,8 +539,8 @@
     "prerequisites": [
       "phy-m-current-circuit"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-circuit-basics",
     "domain": "electricity",
@@ -560,8 +560,8 @@
     "prerequisites": [
       "phy-m-ohms-law"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-circuit-calculation",
     "domain": "electricity",
@@ -580,8 +580,8 @@
     "prerequisites": [
       "phy-m-static-electricity"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-current-circuit",
     "domain": "electricity",
@@ -601,8 +601,8 @@
     "prerequisites": [
       "phy-m-series-parallel"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-current-measurement",
     "domain": "electricity",
@@ -622,8 +622,8 @@
     "prerequisites": [
       "phy-m-ohms-law"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "8-12",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-electric-power",
     "domain": "electricity",
@@ -642,8 +642,8 @@
     "prerequisites": [
       "phy-m-electric-power"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-electrical-safety",
     "domain": "electricity",
@@ -683,8 +683,8 @@
     "prerequisites": [
       "phy-m-resistance"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "8-12",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-ohms-law",
     "domain": "electricity",
@@ -725,8 +725,8 @@
     "prerequisites": [
       "phy-m-circuit-basics"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-series-parallel",
     "domain": "electricity",
@@ -806,8 +806,8 @@
     "prerequisites": [
       "phy-m-electromagnetism-basic"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "4-8",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-electromagnetic-induction",
     "domain": "electromagnetism",
@@ -828,8 +828,8 @@
       "phy-m-current-circuit",
       "phy-m-magnetism-basics"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-electromagnetism-basic",
     "domain": "electromagnetism",
@@ -911,8 +911,8 @@
     "prerequisites": [
       "phy-m-work-energy"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-mechanical-energy",
     "domain": "mechanics",
@@ -932,8 +932,8 @@
     "prerequisites": [
       "phy-m-newton-laws"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-simple-machines",
     "domain": "mechanics",
@@ -952,8 +952,8 @@
     "prerequisites": [
       "phy-m-simple-machines"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-work-energy",
     "domain": "mechanics",
@@ -974,7 +974,7 @@
       "phy-m-specific-heat"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "4-6",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-heat-calculation",
     "domain": "thermodynamics",
@@ -995,7 +995,7 @@
       "phy-m-heat-calculation"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "4-6",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-heat-engine",
     "domain": "thermodynamics",
@@ -1017,7 +1017,7 @@
       "phy-m-phase-change"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "4-8",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-internal-energy",
     "domain": "thermodynamics",
@@ -1036,7 +1036,7 @@
       "phy-m-internal-energy"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "4-6",
     "estimated_minutes": 40,
     "teachany_node": "phy-m-specific-heat",
     "domain": "thermodynamics",

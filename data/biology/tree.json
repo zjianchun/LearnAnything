@@ -10,7 +10,7 @@
       "bio-m-bio-characteristics"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "3-6",
     "estimated_minutes": 40,
     "teachany_node": "bio-m-biosphere",
     "domain": "biosphere",
@@ -31,8 +31,8 @@
     "prerequisites": [
       "bio-m-food-chain"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-8",
     "estimated_minutes": 40,
     "teachany_node": "bio-m-biosphere-largest",
     "domain": "biosphere",
@@ -53,7 +53,7 @@
       "bio-m-biosphere"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "3-6",
     "estimated_minutes": 40,
     "teachany_node": "bio-m-biosphere-scope",
     "domain": "biosphere",
@@ -73,8 +73,8 @@
     "prerequisites": [
       "bio-m-biosphere"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-8",
     "estimated_minutes": 40,
     "teachany_node": "bio-m-eco-factors",
     "domain": "biosphere",
@@ -139,8 +139,8 @@
     "prerequisites": [
       "bio-m-microscope-use"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "4-8",
     "estimated_minutes": 40,
     "teachany_node": "bio-m-cell-basics",
     "domain": "cell-basis",
@@ -160,8 +160,8 @@
     "prerequisites": [
       "bio-m-cell-division-m"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "4-8",
     "estimated_minutes": 40,
     "teachany_node": "bio-m-cell-division-junior",
     "domain": "cell-basis",
@@ -181,8 +181,8 @@
     "prerequisites": [
       "bio-m-cell-structure-m"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "4-8",
     "estimated_minutes": 40,
     "teachany_node": "bio-m-cell-life-activities",
     "domain": "cell-basis",
@@ -202,8 +202,8 @@
     "prerequisites": [
       "bio-m-cell-basics"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "4-8",
     "estimated_minutes": 40,
     "teachany_node": "bio-m-cell-structure-m",
     "domain": "cell-basis",
@@ -266,8 +266,8 @@
     "prerequisites": [
       "bio-m-circulatory-system"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "4-8",
     "estimated_minutes": 40,
     "teachany_node": "bio-m-circulation-respiration",
     "domain": "human-body",
@@ -287,8 +287,8 @@
     "prerequisites": [
       "bio-m-respiratory-system"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "4-8",
     "estimated_minutes": 40,
     "teachany_node": "bio-m-circulatory-system",
     "domain": "human-body",
@@ -308,8 +308,8 @@
     "prerequisites": [
       "bio-m-human-body-overview"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "4-8",
     "estimated_minutes": 40,
     "teachany_node": "bio-m-digestion-system",
     "domain": "human-body",
@@ -373,8 +373,8 @@
       "sci-e-human-body-systems",
       "sci-e-senses"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "bio-m-human-body-overview",
     "domain": "human-body",
@@ -395,7 +395,7 @@
       "bio-m-urinary-nervous"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "3-6",
     "estimated_minutes": 40,
     "teachany_node": "bio-m-nervous-system-m",
     "domain": "human-body",
@@ -414,8 +414,8 @@
     "prerequisites": [
       "bio-m-digestion-system"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "4-8",
     "estimated_minutes": 40,
     "teachany_node": "bio-m-respiratory-system",
     "domain": "human-body",
@@ -456,8 +456,8 @@
     "prerequisites": [
       "bio-m-fruit-seed-formation"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-8",
     "estimated_minutes": 40,
     "teachany_node": "bio-m-asexual-reproduction",
     "domain": "plant-life",
@@ -542,8 +542,8 @@
       "bio-m-cell-structure-m",
       "sci-e-photosynthesis-intro"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-8",
     "estimated_minutes": 40,
     "teachany_node": "bio-m-photosynthesis-m",
     "domain": "plant-life",
@@ -562,8 +562,8 @@
     "prerequisites": [
       "bio-m-asexual-reproduction"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-8",
     "estimated_minutes": 40,
     "teachany_node": "bio-m-plant-classification",
     "domain": "plant-life",
@@ -585,8 +585,8 @@
       "sci-e-plant-parts",
       "sci-e-plant-life-cycle"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-8",
     "estimated_minutes": 40,
     "teachany_node": "bio-m-plant-structure",
     "domain": "plant-life",
@@ -606,8 +606,8 @@
     "prerequisites": [
       "bio-m-photosynthesis-m"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "4-8",
     "estimated_minutes": 40,
     "teachany_node": "bio-m-respiration-m",
     "domain": "plant-life",
@@ -713,8 +713,8 @@
     "prerequisites": [
       "bio-m-cell-life-activities"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "4-8",
     "estimated_minutes": 40,
     "teachany_node": "bio-m-cell-division-m",
     "domain": "cell-basis",
@@ -796,7 +796,7 @@
       "bio-m-microorganism"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "3-5",
     "estimated_minutes": 40,
     "teachany_node": "bio-m-infectious-disease",
     "domain": "animal-microbe",
@@ -839,7 +839,7 @@
       "bio-m-infectious-disease"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "3-5",
     "estimated_minutes": 40,
     "teachany_node": "bio-m-microorganism-health",
     "domain": "animal-microbe",
@@ -925,8 +925,8 @@
       "sci-e-ecosystem",
       "sci-e-environment-protection"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-8",
     "estimated_minutes": 40,
     "teachany_node": "bio-m-ecosystem-junior",
     "domain": "biosphere",

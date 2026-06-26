@@ -9,8 +9,8 @@
     "prerequisites": [
       "eng-m-theme-vocabulary"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "20-25",
     "estimated_minutes": 40,
     "teachany_node": "eng-m-listening-basic",
     "domain": "communication",
@@ -99,8 +99,8 @@
       "eng-e-story-retelling",
       "eng-e-vocab-600-words"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "30-40",
     "estimated_minutes": 40,
     "teachany_node": "eng-m-reading-strategies",
     "domain": "reading-writing",
@@ -120,8 +120,8 @@
     "prerequisites": [
       "eng-m-ipa-transcription"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "10-15",
     "estimated_minutes": 40,
     "teachany_node": "eng-m-curriculum-vocabulary",
     "domain": "vocabulary",
@@ -163,8 +163,8 @@
       "eng-m-listening-basic",
       "eng-m-text-types"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "20-25",
     "estimated_minutes": 40,
     "teachany_node": "eng-m-listening-long",
     "domain": "communication",
@@ -185,7 +185,7 @@
       "eng-m-tenses-present"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "3-5",
     "estimated_minutes": 40,
     "teachany_node": "eng-m-modal-verbs",
     "domain": "grammar",
@@ -205,8 +205,8 @@
     "prerequisites": [
       "eng-m-sentence-patterns"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "eng-m-object-clause",
     "domain": "grammar",
@@ -313,8 +313,8 @@
       "eng-m-reading-strategies",
       "eng-m-word-formation-en"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "15-20",
     "estimated_minutes": 40,
     "teachany_node": "eng-m-cloze-test",
     "domain": "reading-writing",
@@ -355,8 +355,8 @@
     "prerequisites": [
       "eng-m-curriculum-vocabulary"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "10-15",
     "estimated_minutes": 40,
     "teachany_node": "eng-m-theme-vocabulary",
     "domain": "vocabulary",
@@ -419,8 +419,8 @@
     "prerequisites": [
       "eng-m-sentence-patterns"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "eng-m-adverbial-clause",
     "domain": "grammar",
@@ -440,8 +440,8 @@
     "prerequisites": [
       "eng-m-sentence-patterns"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "eng-m-attributive-clause",
     "domain": "grammar",
@@ -465,8 +465,8 @@
       "eng-e-simple-writing",
       "eng-e-writing-skills-primary"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "15-20",
     "estimated_minutes": 40,
     "teachany_node": "eng-m-basic-writing",
     "domain": "reading-writing",

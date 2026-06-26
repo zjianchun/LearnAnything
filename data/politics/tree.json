@@ -30,7 +30,7 @@
       "pol-m-g7-up-u2"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "3-6",
     "estimated_minutes": 40,
     "teachany_node": "pol-m-g7-up-u3",
     "domain": "health-safety",
@@ -87,8 +87,8 @@
     "prerequisites": [
       "pol-m-g7-lo-u3"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "pol-m-g7-lo-u4",
     "domain": "civic-duty",
@@ -108,7 +108,7 @@
       "pol-m-g7-lo-u2"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "3-6",
     "estimated_minutes": 40,
     "teachany_node": "pol-m-g7-lo-u3",
     "domain": "health-safety",
@@ -167,8 +167,8 @@
     "prerequisites": [
       "pol-m-g8-up-u3"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "pol-m-g8-up-u4",
     "domain": "civic-duty",
@@ -188,7 +188,7 @@
       "pol-m-g8-up-u2"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "3-6",
     "estimated_minutes": 40,
     "teachany_node": "pol-m-g8-up-u3",
     "domain": "health-safety",
@@ -247,8 +247,8 @@
     "prerequisites": [
       "pol-m-g8-lo-u3"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "pol-m-g8-lo-u4",
     "domain": "civic-duty",
@@ -287,8 +287,8 @@
     "prerequisites": [
       "pol-m-g8-lo-u1"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "pol-m-g8-lo-u2",
     "domain": "interpersonal",
@@ -307,8 +307,8 @@
     "prerequisites": [
       "pol-m-g8-up-u4"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "pol-m-g8-lo-u1",
     "domain": "self-growth",
@@ -368,7 +368,7 @@
       "pol-m-g8-lo-u4"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "3-6",
     "estimated_minutes": 40,
     "teachany_node": "pol-m-g9-up-u1",
     "domain": "national-situation",
@@ -388,7 +388,7 @@
       "pol-m-g9-up-u1"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "3-6",
     "estimated_minutes": 40,
     "teachany_node": "pol-m-g9-up-u2",
     "domain": "national-situation",

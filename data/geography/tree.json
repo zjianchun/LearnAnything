@@ -9,8 +9,8 @@
     "prerequisites": [
       "geo-m-earth-shape-size"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "geo-m-earth-basics",
     "domain": "earth-basics",
@@ -30,8 +30,8 @@
     "prerequisites": [
       "geo-m-globe-coordinates"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "geo-m-earth-motion-m",
     "domain": "earth-basics",
@@ -50,8 +50,8 @@
     "semester": 1,
     "chapter": "",
     "prerequisites": [],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "geo-m-earth-shape-size",
     "domain": "earth-basics",
@@ -70,8 +70,8 @@
     "prerequisites": [
       "geo-m-earth-shape-size"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "geo-m-globe-coordinates",
     "domain": "earth-basics",
@@ -91,8 +91,8 @@
     "prerequisites": [
       "geo-m-globe-coordinates"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "geo-m-map-reading",
     "domain": "earth-basics",
@@ -132,8 +132,8 @@
     "prerequisites": [
       "geo-m-map-reading"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "4-8",
     "estimated_minutes": 40,
     "teachany_node": "geo-m-topographic-map",
     "domain": "earth-basics",
@@ -152,8 +152,8 @@
     "prerequisites": [
       "geo-m-seasons-m"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "geo-m-climate-basics",
     "domain": "world-geography",
@@ -173,8 +173,8 @@
     "prerequisites": [
       "geo-m-climate-basics"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-10",
     "estimated_minutes": 40,
     "teachany_node": "geo-m-climate-m",
     "domain": "world-geography",
@@ -216,7 +216,7 @@
       "geo-m-climate-m"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "3-6",
     "estimated_minutes": 40,
     "teachany_node": "geo-m-population-distribution",
     "domain": "world-geography",
@@ -237,8 +237,8 @@
       "geo-m-continents-oceans",
       "geo-m-topographic-map"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "4-8",
     "estimated_minutes": 40,
     "teachany_node": "geo-m-terrain-types",
     "domain": "world-geography",
@@ -257,8 +257,8 @@
     "prerequisites": [
       "geo-m-world-regions"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "geo-m-world-countries",
     "domain": "world-geography",
@@ -280,8 +280,8 @@
       "geo-m-climate-m",
       "geo-m-continents-oceans"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "geo-m-world-regions",
     "domain": "world-geography",
@@ -302,8 +302,8 @@
       "geo-m-china-resources",
       "geo-m-china-population"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "8-14",
     "estimated_minutes": 40,
     "teachany_node": "geo-m-china-agriculture",
     "domain": "china-economy",
@@ -322,8 +322,8 @@
     "prerequisites": [
       "geo-m-china-resources"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "8-14",
     "estimated_minutes": 40,
     "teachany_node": "geo-m-china-industry",
     "domain": "china-economy",
@@ -343,8 +343,8 @@
       "geo-m-china-agriculture",
       "geo-m-china-industry"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "8-14",
     "estimated_minutes": 40,
     "teachany_node": "geo-m-china-transportation",
     "domain": "china-economy",
@@ -364,8 +364,8 @@
       "geo-m-china-terrain",
       "geo-m-climate-m"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "8-14",
     "estimated_minutes": 40,
     "teachany_node": "geo-m-china-climate",
     "domain": "china-geography",
@@ -384,8 +384,8 @@
     "prerequisites": [
       "geo-m-continents-oceans"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "8-14",
     "estimated_minutes": 40,
     "teachany_node": "geo-m-china-location",
     "domain": "china-geography",
@@ -404,8 +404,8 @@
     "prerequisites": [
       "geo-m-china-location"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "8-14",
     "estimated_minutes": 40,
     "teachany_node": "geo-m-china-overview",
     "domain": "china-geography",
@@ -425,8 +425,8 @@
     "prerequisites": [
       "geo-m-china-location"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "8-14",
     "estimated_minutes": 40,
     "teachany_node": "geo-m-china-population",
     "domain": "china-geography",
@@ -445,8 +445,8 @@
     "prerequisites": [
       "geo-m-china-rivers"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "8-14",
     "estimated_minutes": 40,
     "teachany_node": "geo-m-china-resources",
     "domain": "china-geography",
@@ -465,8 +465,8 @@
     "prerequisites": [
       "geo-m-china-climate"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "8-14",
     "estimated_minutes": 40,
     "teachany_node": "geo-m-china-rivers",
     "domain": "china-geography",
@@ -486,8 +486,8 @@
       "geo-m-china-location",
       "geo-m-terrain-types"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "8-14",
     "estimated_minutes": 40,
     "teachany_node": "geo-m-china-terrain",
     "domain": "china-geography",
@@ -609,8 +609,8 @@
       "geo-m-china-climate",
       "geo-m-china-terrain"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "8-14",
     "estimated_minutes": 40,
     "teachany_node": "geo-m-china-regions",
     "domain": "china-regions",

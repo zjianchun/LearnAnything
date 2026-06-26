@@ -30,8 +30,8 @@
       "chem-m-mass-conservation",
       "chem-m-chemical-formula"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "8-12",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-chemical-equation",
     "domain": "chemical-change",
@@ -51,8 +51,8 @@
     "prerequisites": [
       "chem-m-chemical-equation"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "8-12",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-equation-calculation",
     "domain": "chemical-change",
@@ -71,8 +71,8 @@
     "prerequisites": [
       "chem-m-atom-molecule"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-mass-conservation",
     "domain": "chemical-change",
@@ -157,8 +157,8 @@
     "prerequisites": [
       "chem-m-chemistry-intro"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-lab-safety",
     "domain": "matter-intro",
@@ -200,7 +200,7 @@
       "chem-m-chemistry-intro"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "4-6",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-atom-molecule",
     "domain": "matter-structure",
@@ -221,7 +221,7 @@
       "chem-m-atom-molecule"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "4-6",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-atom-structure",
     "domain": "matter-structure",
@@ -242,7 +242,7 @@
       "chem-m-atom-structure"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "4-6",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-atomic-structure",
     "domain": "matter-structure",
@@ -263,8 +263,8 @@
       "chem-m-element-concept",
       "chem-m-ion-concept"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-8",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-chemical-formula",
     "domain": "matter-structure",
@@ -285,7 +285,7 @@
       "chem-m-atom-structure"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "4-6",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-element-concept",
     "domain": "matter-structure",
@@ -348,7 +348,7 @@
       "chem-m-element-concept"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "4-6",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-periodic-table",
     "domain": "matter-structure",
@@ -389,8 +389,8 @@
       "chem-m-chemical-equation",
       "chem-m-ion-concept"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "8-12",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-acid-base-concept",
     "domain": "substance-properties",
@@ -410,8 +410,8 @@
     "prerequisites": [
       "chem-m-salt-reactions"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "8-12",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-acid-base-salt",
     "domain": "substance-properties",
@@ -432,8 +432,8 @@
     "prerequisites": [
       "chem-m-metals-activity"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-activity-series",
     "domain": "substance-properties",
@@ -454,7 +454,7 @@
       "chem-m-chemistry-intro"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "4-6",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-air-composition",
     "domain": "substance-properties",
@@ -474,8 +474,8 @@
     "prerequisites": [
       "chem-m-element-concept"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-8",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-carbon-allotropes",
     "domain": "substance-properties",
@@ -495,8 +495,8 @@
     "prerequisites": [
       "chem-m-co2-properties"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-8",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-co-properties",
     "domain": "substance-properties",
@@ -518,8 +518,8 @@
       "chem-m-carbon-allotropes",
       "chem-m-chemical-equation"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-8",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-co2-properties",
     "domain": "substance-properties",
@@ -560,8 +560,8 @@
     "prerequisites": [
       "chem-m-metal-properties"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-metal-corrosion",
     "domain": "substance-properties",
@@ -579,8 +579,8 @@
     "prerequisites": [
       "chem-m-chemical-equation"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-metal-properties",
     "domain": "substance-properties",
@@ -600,8 +600,8 @@
       "chem-m-activity-series",
       "chem-m-co-properties"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-metal-smelting",
     "domain": "substance-properties",
@@ -620,8 +620,8 @@
     "prerequisites": [
       "chem-m-metal-properties"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-metals-activity",
     "domain": "substance-properties",
@@ -662,8 +662,8 @@
       "chem-m-oxygen-properties",
       "chem-m-lab-safety"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-8",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-oxygen-preparation",
     "domain": "substance-properties",
@@ -683,8 +683,8 @@
     "prerequisites": [
       "chem-m-air-composition"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-8",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-oxygen-properties",
     "domain": "substance-properties",
@@ -702,8 +702,8 @@
     "prerequisites": [
       "chem-m-solution-concept"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "8-12",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-ph-indicators",
     "domain": "substance-properties",
@@ -723,8 +723,8 @@
       "chem-m-neutralization",
       "chem-m-activity-series"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "8-12",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-salt-reactions",
     "domain": "substance-properties",
@@ -744,8 +744,8 @@
     "prerequisites": [
       "chem-m-solubility"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-solution-concentration",
     "domain": "substance-properties",
@@ -766,7 +766,7 @@
       "chem-m-atom-molecule"
     ],
     "exam_weight": "medium",
-    "exam_points": "",
+    "exam_points": "4-6",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-water-properties",
     "domain": "substance-properties",
@@ -786,8 +786,8 @@
     "prerequisites": [
       "chem-m-solution-concept"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "5-8",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-solubility",
     "domain": "substance-properties",
@@ -806,8 +806,8 @@
     "prerequisites": [
       "chem-m-water-properties"
     ],
-    "exam_weight": "medium",
-    "exam_points": "",
+    "exam_weight": "high",
+    "exam_points": "6-10",
     "estimated_minutes": 40,
     "teachany_node": "chem-m-solution-concept",
     "domain": "substance-properties",
