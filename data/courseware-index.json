@@ -1,0 +1,2257 @@
+{
+  "chn-m-word-usage": [
+    {
+      "id": "chn-m-word-usage",
+      "name": "词语辨析与运用：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-word-usage/"
+    }
+  ],
+  "chn-m-sentence-components": [
+    {
+      "id": "chn-m-sentence-components",
+      "name": "句子成分分析：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-sentence-components/"
+    }
+  ],
+  "chn-m-rhetoric-figures": [
+    {
+      "id": "chn-m-rhetoric-figures",
+      "name": "常见修辞手法：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-rhetoric-figures/"
+    }
+  ],
+  "chn-m-rhetoric-analysis": [
+    {
+      "id": "chn-m-rhetoric-analysis",
+      "name": "修辞手法赏析：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-rhetoric-analysis/"
+    }
+  ],
+  "chn-m-sentence-transformations-zh": [
+    {
+      "id": "chn-m-sentence-transformations-zh",
+      "name": "句式变换与病句修改：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-sentence-transformations-zh/"
+    }
+  ],
+  "chn-m-sentence-logic": [
+    {
+      "id": "chn-m-sentence-logic",
+      "name": "句子逻辑与连贯：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-sentence-logic/"
+    }
+  ],
+  "chn-m-comprehensive-language": [
+    {
+      "id": "chn-m-comprehensive-language",
+      "name": "综合性语言运用：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-comprehensive-language/"
+    }
+  ],
+  "chn-m-narrative-reading": [
+    {
+      "id": "chn-m-narrative-reading",
+      "name": "记叙文阅读：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-narrative-reading/"
+    }
+  ],
+  "chn-m-expository-reading": [
+    {
+      "id": "chn-m-expository-reading",
+      "name": "说明文阅读：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-expository-reading/"
+    }
+  ],
+  "chn-m-prose-reading": [
+    {
+      "id": "chn-m-prose-reading",
+      "name": "散文阅读：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-prose-reading/"
+    }
+  ],
+  "chn-m-novel-reading": [
+    {
+      "id": "chn-m-novel-reading",
+      "name": "小说阅读：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-novel-reading/"
+    }
+  ],
+  "chn-m-argumentative-reading": [
+    {
+      "id": "chn-m-argumentative-reading",
+      "name": "议论文阅读：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-argumentative-reading/"
+    }
+  ],
+  "chn-m-literary-appreciation": [
+    {
+      "id": "chn-m-literary-appreciation",
+      "name": "文学类作品鉴赏：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-literary-appreciation/"
+    }
+  ],
+  "chn-m-classical-words": [
+    {
+      "id": "chn-m-classical-words",
+      "name": "文言实词与虚词：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-classical-words/"
+    }
+  ],
+  "chn-m-classical-sentences": [
+    {
+      "id": "chn-m-classical-sentences",
+      "name": "文言特殊句式：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-classical-sentences/"
+    }
+  ],
+  "chn-m-classical-translation": [
+    {
+      "id": "chn-m-classical-translation",
+      "name": "文言文翻译：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-classical-translation/"
+    }
+  ],
+  "chn-m-classical-prose": [
+    {
+      "id": "chn-m-classical-prose",
+      "name": "经典文言文精读：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-classical-prose/"
+    }
+  ],
+  "chn-m-classical-appreciation": [
+    {
+      "id": "chn-m-classical-appreciation",
+      "name": "文言文综合鉴赏：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-classical-appreciation/"
+    }
+  ],
+  "chn-m-poetry-recitation": [
+    {
+      "id": "chn-m-poetry-recitation",
+      "name": "初中古诗词背诵：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-poetry-recitation/"
+    }
+  ],
+  "chn-m-poetry-appreciation": [
+    {
+      "id": "chn-m-poetry-appreciation",
+      "name": "古诗词赏析入门：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-poetry-appreciation/"
+    }
+  ],
+  "chn-m-poetry-imagery": [
+    {
+      "id": "chn-m-poetry-imagery",
+      "name": "古诗词意象与意境：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-poetry-imagery/"
+    }
+  ],
+  "chn-m-poetry-techniques": [
+    {
+      "id": "chn-m-poetry-techniques",
+      "name": "古诗词表现手法：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-poetry-techniques/"
+    }
+  ],
+  "chn-m-poetry-comparison": [
+    {
+      "id": "chn-m-poetry-comparison",
+      "name": "古诗词比较阅读：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-poetry-comparison/"
+    }
+  ],
+  "chn-m-narrative-writing-m": [
+    {
+      "id": "chn-m-narrative-writing-m",
+      "name": "记叙文写作：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-narrative-writing-m/"
+    }
+  ],
+  "chn-m-descriptive-writing": [
+    {
+      "id": "chn-m-descriptive-writing",
+      "name": "描写方法与细节：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-descriptive-writing/"
+    }
+  ],
+  "chn-m-argumentative-writing-m": [
+    {
+      "id": "chn-m-argumentative-writing-m",
+      "name": "议论文写作：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-argumentative-writing-m/"
+    }
+  ],
+  "chn-m-essay-comprehensive": [
+    {
+      "id": "chn-m-essay-comprehensive",
+      "name": "综合性作文：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-essay-comprehensive/"
+    }
+  ],
+  "chn-m-whole-book-reading": [
+    {
+      "id": "chn-m-whole-book-reading",
+      "name": "整本书阅读方法：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-whole-book-reading/"
+    }
+  ],
+  "chn-m-journey-west": [
+    {
+      "id": "chn-m-journey-west",
+      "name": "《西游记》：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-journey-west/"
+    }
+  ],
+  "chn-m-erta-stories": [
+    {
+      "id": "chinese-erta-stories",
+      "name": "朝花夕拾 | 初中语文 · 七年级名著导读",
+      "download_url": "https://www.teachany.cn/community/chinese-erta-stories/"
+    },
+    {
+      "id": "chn-m-erta-stories",
+      "name": "《朝花夕拾》：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-erta-stories/"
+    }
+  ],
+  "chn-m-erta-tales-heroes": [
+    {
+      "id": "chn-m-erta-tales-heroes",
+      "name": "《骆驼祥子》/《水浒传》：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-erta-tales-heroes/"
+    }
+  ],
+  "chn-m-erta-foreign-novel": [
+    {
+      "id": "chn-m-erta-foreign-novel",
+      "name": "外国名著（《海底两万里》等）：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-erta-foreign-novel/"
+    }
+  ],
+  "chn-m-erta-essay-collection": [
+    {
+      "id": "chn-m-erta-essay-collection",
+      "name": "散文杂文集：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-erta-essay-collection/"
+    }
+  ],
+  "chn-m-dream-red-mansions": [
+    {
+      "id": "chn-m-dream-red-mansions",
+      "name": "《红楼梦》选读：从文本证据到表达效果",
+      "download_url": "https://www.teachany.cn/community/chn-m-dream-red-mansions/"
+    }
+  ],
+  "math-m-rational-number": [
+    {
+      "id": "math-m-rational-number",
+      "name": "有理数",
+      "download_url": "https://www.teachany.cn/community/math-m-rational-number/"
+    }
+  ],
+  "math-m-rational-operations": [
+    {
+      "id": "math-m-rational-operations",
+      "name": "有理数的运算",
+      "download_url": "https://www.teachany.cn/community/math-m-rational-operations/"
+    }
+  ],
+  "math-m-algebraic-expression": [
+    {
+      "id": "math-m-algebraic-expression",
+      "name": "整式",
+      "download_url": "https://www.teachany.cn/community/math-m-algebraic-expression/"
+    }
+  ],
+  "math-m-algebraic-expressions": [
+    {
+      "id": "math-m-algebraic-expressions",
+      "name": "整式的加减",
+      "download_url": "https://www.teachany.cn/community/math-m-algebraic-expressions/"
+    }
+  ],
+  "math-m-real-number": [
+    {
+      "id": "math-m-real-number",
+      "name": "实数",
+      "download_url": "https://www.teachany.cn/community/math-m-real-number/"
+    }
+  ],
+  "math-m-monomial-multiplication": [
+    {
+      "id": "math-m-monomial-multiplication",
+      "name": "整式的乘除与因式分解",
+      "download_url": "https://www.teachany.cn/community/math-m-monomial-multiplication/"
+    }
+  ],
+  "math-m-fraction-expression": [
+    {
+      "id": "math-m-fraction-expression",
+      "name": "分式",
+      "download_url": "https://www.teachany.cn/community/math-m-fraction-expression/"
+    }
+  ],
+  "math-m-quadratic-radical": [
+    {
+      "id": "math-m-quadratic-radical",
+      "name": "二次根式",
+      "download_url": "https://www.teachany.cn/community/math-m-quadratic-radical/"
+    }
+  ],
+  "math-m-linear-equation-one": [
+    {
+      "id": "math-m-linear-equation-one",
+      "name": "一元一次方程",
+      "download_url": "https://www.teachany.cn/community/math-m-linear-equation-one/"
+    }
+  ],
+  "math-m-linear-equations": [
+    {
+      "id": "math-m-linear-equations",
+      "name": "二元一次方程组",
+      "download_url": "https://www.teachany.cn/community/math-m-linear-equations/"
+    }
+  ],
+  "math-m-inequalities": [
+    {
+      "id": "math-m-inequalities",
+      "name": "不等式与不等式组",
+      "download_url": "https://www.teachany.cn/community/math-m-inequalities/"
+    }
+  ],
+  "math-m-linear-inequality": [
+    {
+      "id": "math-m-linear-inequality",
+      "name": "一元一次不等式",
+      "download_url": "https://www.teachany.cn/community/math-m-linear-inequality/"
+    }
+  ],
+  "math-m-linear-equation-two": [
+    {
+      "id": "math-m-linear-equation-two",
+      "name": "一元二次方程",
+      "download_url": "https://www.teachany.cn/community/math-m-linear-equation-two/"
+    }
+  ],
+  "math-m-fraction-equation": [
+    {
+      "id": "math-m-fraction-equation",
+      "name": "分式方程",
+      "download_url": "https://www.teachany.cn/community/math-m-fraction-equation/"
+    }
+  ],
+  "math-m-quadratic-equation": [
+    {
+      "id": "math-m-quadratic-equation",
+      "name": "一元二次方程的解法",
+      "download_url": "https://www.teachany.cn/community/math-m-quadratic-equation/"
+    }
+  ],
+  "math-m-coordinate-system": [
+    {
+      "id": "math-m-coordinate-system",
+      "name": "平面直角坐标系",
+      "download_url": "https://www.teachany.cn/community/math-m-coordinate-system/"
+    }
+  ],
+  "math-m-variable-and-function": [
+    {
+      "id": "math-variable-function",
+      "name": "变量与函数 - TeachAny 互动课件",
+      "download_url": "https://www.teachany.cn/community/math-variable-function/"
+    }
+  ],
+  "math-m-proportional-function": [
+    {
+      "id": "math-m-proportional-function",
+      "name": "正比例函数",
+      "download_url": "https://www.teachany.cn/community/math-m-proportional-function/"
+    }
+  ],
+  "math-m-linear-function": [
+    {
+      "id": "math-linear-function",
+      "name": "一次函数",
+      "download_url": "https://www.teachany.cn/community/math-linear-function/"
+    },
+    {
+      "id": "math-m-linear-func-demo",
+      "name": "一次函数",
+      "download_url": "https://www.teachany.cn/community/math-m-linear-func-demo/"
+    },
+    {
+      "id": "math-m-linear-function-inquiry-phone-plan",
+      "name": "一次函数探究课：手机套餐怎么选最划算？",
+      "download_url": "https://www.teachany.cn/community/math-m-linear-function-inquiry-phone-plan/"
+    }
+  ],
+  "math-m-linear-equation-system-graph": [
+    {
+      "id": "math-m-linear-equation-system-graph",
+      "name": "一次函数与方程组",
+      "download_url": "https://www.teachany.cn/community/math-m-linear-equation-system-graph/"
+    }
+  ],
+  "math-m-inverse-proportion": [
+    {
+      "id": "math-m-inverse-proportion",
+      "name": "反比例函数",
+      "download_url": "https://www.teachany.cn/community/math-m-inverse-proportion/"
+    }
+  ],
+  "math-m-quadratic-function": [
+    {
+      "id": "math-m-quadratic-transformations",
+      "name": "二次函数图像变换：数形结合看一般式",
+      "download_url": "https://www.teachany.cn/community/math-m-quadratic-transformations/"
+    },
+    {
+      "id": "math-quadratic-function",
+      "name": "二次函数 y=ax²+bx+c",
+      "download_url": "https://www.teachany.cn/community/math-quadratic-function/"
+    }
+  ],
+  "math-m-geometric-figure": [
+    {
+      "id": "math-m-geometric-figure",
+      "name": "几何图形初步",
+      "download_url": "https://www.teachany.cn/community/math-m-geometric-figure/"
+    }
+  ],
+  "math-m-line-angle": [
+    {
+      "id": "math-m-line-angle",
+      "name": "相交线与平行线",
+      "download_url": "https://www.teachany.cn/community/math-m-line-angle/"
+    }
+  ],
+  "math-m-triangle-basics": [
+    {
+      "id": "math-m-triangle-basics",
+      "name": "三角形基础",
+      "download_url": "https://www.teachany.cn/community/math-m-triangle-basics/"
+    }
+  ],
+  "math-m-ruler-compass-construction": [
+    {
+      "id": "math-m-ruler-compass-construction",
+      "name": "尺规作图",
+      "download_url": "https://www.teachany.cn/community/math-m-ruler-compass-construction/"
+    }
+  ],
+  "math-m-isosceles-triangle": [
+    {
+      "id": "math-m-isosceles-triangle",
+      "name": "等腰三角形",
+      "download_url": "https://www.teachany.cn/community/math-m-isosceles-triangle/"
+    }
+  ],
+  "math-m-pythagorean-theorem": [
+    {
+      "id": "math-m-pythagorean-theorem",
+      "name": "勾股定理",
+      "download_url": "https://www.teachany.cn/community/math-m-pythagorean-theorem/"
+    }
+  ],
+  "math-m-geometry-congruent-triangles": [
+    {
+      "id": "math-congruent-triangles",
+      "name": "全等三角形的判定",
+      "download_url": "https://www.teachany.cn/community/math-congruent-triangles/"
+    }
+  ],
+  "math-m-quadrilateral": [
+    {
+      "id": "math-m-quadrilateral",
+      "name": "平行四边形",
+      "download_url": "https://www.teachany.cn/community/math-m-quadrilateral/"
+    }
+  ],
+  "math-m-geometry-quadrilaterals": [
+    {
+      "id": "math-m-geometry-quadrilaterals",
+      "name": "多边形与内角和",
+      "download_url": "https://www.teachany.cn/community/math-m-geometry-quadrilaterals/"
+    }
+  ],
+  "math-m-special-quadrilateral": [
+    {
+      "id": "math-m-special-quadrilateral",
+      "name": "特殊平行四边形",
+      "download_url": "https://www.teachany.cn/community/math-m-special-quadrilateral/"
+    }
+  ],
+  "math-m-similar-triangles": [
+    {
+      "id": "math-m-similar-triangles",
+      "name": "相似三角形",
+      "download_url": "https://www.teachany.cn/community/math-m-similar-triangles/"
+    }
+  ],
+  "math-m-trig-ratio": [
+    {
+      "id": "math-m-trig-ratio",
+      "name": "锐角三角比",
+      "download_url": "https://www.teachany.cn/community/math-m-trig-ratio/"
+    }
+  ],
+  "math-m-axial-symmetry": [
+    {
+      "id": "math-m-axial-symmetry",
+      "name": "轴对称",
+      "download_url": "https://www.teachany.cn/community/math-m-axial-symmetry/"
+    }
+  ],
+  "math-m-rotation": [
+    {
+      "id": "math-m-rotation",
+      "name": "旋转",
+      "download_url": "https://www.teachany.cn/community/math-m-rotation/"
+    }
+  ],
+  "math-m-translation-dilation": [
+    {
+      "id": "math-m-translation-dilation",
+      "name": "平移与位似",
+      "download_url": "https://www.teachany.cn/community/math-m-translation-dilation/"
+    }
+  ],
+  "math-m-circle-basics": [
+    {
+      "id": "math-m-circle-basics",
+      "name": "圆的基本性质",
+      "download_url": "https://www.teachany.cn/community/math-m-circle-basics/"
+    }
+  ],
+  "math-m-circle-angle": [
+    {
+      "id": "math-m-circle-angle",
+      "name": "圆心角与圆周角",
+      "download_url": "https://www.teachany.cn/community/math-m-circle-angle/"
+    }
+  ],
+  "math-m-arc-sector": [
+    {
+      "id": "math-m-arc-sector",
+      "name": "弧长与扇形面积",
+      "download_url": "https://www.teachany.cn/community/math-m-arc-sector/"
+    }
+  ],
+  "math-m-circle-tangent": [
+    {
+      "id": "math-m-circle-tangent",
+      "name": "切线",
+      "download_url": "https://www.teachany.cn/community/math-m-circle-tangent/"
+    }
+  ],
+  "math-m-inscribed-circumscribed": [
+    {
+      "id": "math-m-inscribed-circumscribed",
+      "name": "内切圆与外接圆",
+      "download_url": "https://www.teachany.cn/community/math-m-inscribed-circumscribed/"
+    }
+  ],
+  "math-m-geometry-circle": [
+    {
+      "id": "math-m-geometry-circle",
+      "name": "圆的综合应用",
+      "download_url": "https://www.teachany.cn/community/math-m-geometry-circle/"
+    }
+  ],
+  "math-m-data-collection": [
+    {
+      "id": "math-m-data-collection",
+      "name": "数据的收集与整理",
+      "download_url": "https://www.teachany.cn/community/math-m-data-collection/"
+    }
+  ],
+  "math-m-data-description": [
+    {
+      "id": "math-m-data-description",
+      "name": "数据的描述",
+      "download_url": "https://www.teachany.cn/community/math-m-data-description/"
+    }
+  ],
+  "math-m-data-analysis": [
+    {
+      "id": "math-m-data-analysis",
+      "name": "数据的分析",
+      "download_url": "https://www.teachany.cn/community/math-m-data-analysis/"
+    }
+  ],
+  "math-m-sampling-estimation": [
+    {
+      "id": "math-m-sampling-estimation",
+      "name": "抽样与估计",
+      "download_url": "https://www.teachany.cn/community/math-m-sampling-estimation/"
+    }
+  ],
+  "math-m-probability-basic": [
+    {
+      "id": "math-m-probability-basic",
+      "name": "概率初步",
+      "download_url": "https://www.teachany.cn/community/math-m-probability-basic/"
+    }
+  ],
+  "math-m-probability-frequency": [
+    {
+      "id": "math-m-probability-frequency",
+      "name": "用频率估计概率",
+      "download_url": "https://www.teachany.cn/community/math-m-probability-frequency/"
+    }
+  ],
+  "math-m-statistics-probability-junior": [
+    {
+      "id": "math-m-statistics-probability-junior",
+      "name": "统计与概率综合",
+      "download_url": "https://www.teachany.cn/community/math-m-statistics-probability-junior/"
+    }
+  ],
+  "chem-m-chemistry-intro": [
+    {
+      "id": "chem-m-chemistry-intro",
+      "name": "走进化学世界",
+      "download_url": "https://www.teachany.cn/community/chem-m-chemistry-intro/"
+    }
+  ],
+  "chem-m-lab-safety": [
+    {
+      "id": "chem-m-lab-safety",
+      "name": "实验基本操作与安全",
+      "download_url": "https://www.teachany.cn/community/chem-m-lab-safety/"
+    }
+  ],
+  "chem-m-scientific-inquiry-experiment": [
+    {
+      "id": "chem-m-scientific-inquiry-experiment",
+      "name": "科学探究方法",
+      "download_url": "https://www.teachany.cn/community/chem-m-scientific-inquiry-experiment/"
+    }
+  ],
+  "chem-m-atom-molecule": [
+    {
+      "id": "chem-m-atom-molecule",
+      "name": "分子与原子",
+      "download_url": "https://www.teachany.cn/community/chem-m-atom-molecule/"
+    }
+  ],
+  "chem-m-atom-structure": [
+    {
+      "id": "chem-m-atom-structure",
+      "name": "原子的结构",
+      "download_url": "https://www.teachany.cn/community/chem-m-atom-structure/"
+    }
+  ],
+  "chem-m-atomic-structure": [
+    {
+      "id": "chem-m-atomic-structure-demo",
+      "name": "原子结构",
+      "download_url": "https://www.teachany.cn/community/chem-m-atomic-structure-demo/"
+    }
+  ],
+  "chem-m-element-concept": [
+    {
+      "id": "chem-m-element-concept",
+      "name": "元素",
+      "download_url": "https://www.teachany.cn/community/chem-m-element-concept/"
+    }
+  ],
+  "chem-m-ion-concept": [
+    {
+      "id": "chem-m-ion-concept",
+      "name": "离子的形成",
+      "download_url": "https://www.teachany.cn/community/chem-m-ion-concept/"
+    }
+  ],
+  "chem-m-periodic-table": [
+    {
+      "id": "chem-periodic-table",
+      "name": "元素周期表",
+      "download_url": "https://www.teachany.cn/community/chem-periodic-table/"
+    }
+  ],
+  "chem-m-chemical-formula": [
+    {
+      "id": "chem-m-chemical-formula",
+      "name": "化学式与化合价",
+      "download_url": "https://www.teachany.cn/community/chem-m-chemical-formula/"
+    }
+  ],
+  "chem-m-matter-classification": [
+    {
+      "id": "chem-m-matter-classification",
+      "name": "物质的分类",
+      "download_url": "https://www.teachany.cn/community/chem-m-matter-classification/"
+    }
+  ],
+  "chem-m-substance-classification": [
+    {
+      "id": "chem-m-substance-classification",
+      "name": "纯净物、混合物、化合物",
+      "download_url": "https://www.teachany.cn/community/chem-m-substance-classification/"
+    }
+  ],
+  "chem-m-mass-conservation": [
+    {
+      "id": "chem-m-mass-conservation",
+      "name": "质量守恒定律",
+      "download_url": "https://www.teachany.cn/community/chem-m-mass-conservation/"
+    }
+  ],
+  "chem-m-chemical-equation": [
+    {
+      "id": "chem-m-chemical-equation",
+      "name": "化学方程式",
+      "download_url": "https://www.teachany.cn/community/chem-m-chemical-equation/"
+    }
+  ],
+  "chem-m-equation-calculation": [
+    {
+      "id": "chem-m-equation-calculation",
+      "name": "根据化学方程式计算",
+      "download_url": "https://www.teachany.cn/community/chem-m-equation-calculation/"
+    }
+  ],
+  "chem-m-reaction-types": [
+    {
+      "id": "chem-m-reaction-types",
+      "name": "化学反应基本类型",
+      "download_url": "https://www.teachany.cn/community/chem-m-reaction-types/"
+    }
+  ],
+  "chem-m-catalyst-concept": [
+    {
+      "id": "chem-m-catalyst-concept",
+      "name": "催化剂与催化作用",
+      "download_url": "https://www.teachany.cn/community/chem-m-catalyst-concept/"
+    }
+  ],
+  "chem-m-air-composition": [
+    {
+      "id": "chem-m-air-composition",
+      "name": "空气的组成",
+      "download_url": "https://www.teachany.cn/community/chem-m-air-composition/"
+    }
+  ],
+  "chem-m-oxygen-properties": [
+    {
+      "id": "chem-oxygen-properties",
+      "name": "氧气的性质",
+      "download_url": "https://www.teachany.cn/community/chem-oxygen-properties/"
+    }
+  ],
+  "chem-m-oxygen-preparation": [
+    {
+      "id": "chem-m-oxygen-preparation",
+      "name": "氧气的制取",
+      "download_url": "https://www.teachany.cn/community/chem-m-oxygen-preparation/"
+    }
+  ],
+  "chem-m-water-properties": [
+    {
+      "id": "chem-m-water-properties",
+      "name": "水的组成与净化",
+      "download_url": "https://www.teachany.cn/community/chem-m-water-properties/"
+    }
+  ],
+  "chem-m-hydrogen-properties": [
+    {
+      "id": "chem-m-hydrogen-properties",
+      "name": "氢气的性质",
+      "download_url": "https://www.teachany.cn/community/chem-m-hydrogen-properties/"
+    }
+  ],
+  "chem-m-solution-concept": [
+    {
+      "id": "chem-m-solution-concept",
+      "name": "溶液的形成",
+      "download_url": "https://www.teachany.cn/community/chem-m-solution-concept/"
+    }
+  ],
+  "chem-m-solubility": [
+    {
+      "id": "chem-m-solubility",
+      "name": "溶解度",
+      "download_url": "https://www.teachany.cn/community/chem-m-solubility/"
+    }
+  ],
+  "chem-m-solution-concentration": [
+    {
+      "id": "chem-m-solution-concentration",
+      "name": "溶液浓度（质量分数）",
+      "download_url": "https://www.teachany.cn/community/chem-m-solution-concentration/"
+    }
+  ],
+  "chem-m-carbon-allotropes": [
+    {
+      "id": "chem-m-carbon-allotropes",
+      "name": "碳的单质（金刚石/石墨/C60）",
+      "download_url": "https://www.teachany.cn/community/chem-m-carbon-allotropes/"
+    }
+  ],
+  "chem-m-co2-properties": [
+    {
+      "id": "chem-m-co2-properties",
+      "name": "二氧化碳的性质与制取",
+      "download_url": "https://www.teachany.cn/community/chem-m-co2-properties/"
+    }
+  ],
+  "chem-m-co-properties": [
+    {
+      "id": "chem-m-co-properties",
+      "name": "一氧化碳的性质",
+      "download_url": "https://www.teachany.cn/community/chem-m-co-properties/"
+    }
+  ],
+  "chem-m-metal-properties": [
+    {
+      "id": "chem-m-metal-properties",
+      "name": "金属的物理与化学性质",
+      "download_url": "https://www.teachany.cn/community/chem-m-metal-properties/"
+    }
+  ],
+  "chem-m-metals-activity": [
+    {
+      "id": "chem-m-metals-activity",
+      "name": "金属的活动性",
+      "download_url": "https://www.teachany.cn/community/chem-m-metals-activity/"
+    }
+  ],
+  "chem-m-activity-series": [
+    {
+      "id": "chem-m-activity-series",
+      "name": "金属活动性顺序",
+      "download_url": "https://www.teachany.cn/community/chem-m-activity-series/"
+    }
+  ],
+  "chem-m-metal-smelting": [
+    {
+      "id": "chem-m-metal-smelting",
+      "name": "金属冶炼",
+      "download_url": "https://www.teachany.cn/community/chem-m-metal-smelting/"
+    }
+  ],
+  "chem-m-metal-corrosion": [
+    {
+      "id": "chem-m-metal-corrosion",
+      "name": "金属的锈蚀与防护",
+      "download_url": "https://www.teachany.cn/community/chem-m-metal-corrosion/"
+    }
+  ],
+  "chem-m-ph-indicators": [
+    {
+      "id": "chem-m-ph-indicators",
+      "name": "酸碱指示剂与 pH",
+      "download_url": "https://www.teachany.cn/community/chem-m-ph-indicators/"
+    }
+  ],
+  "chem-m-acid-base-concept": [
+    {
+      "id": "chem-m-acid-base-concept",
+      "name": "酸和碱",
+      "download_url": "https://www.teachany.cn/community/chem-m-acid-base-concept/"
+    }
+  ],
+  "chem-m-neutralization": [
+    {
+      "id": "chem-m-neutralization",
+      "name": "初中化学",
+      "download_url": "https://www.teachany.cn/community/chem-m-neutralization/"
+    }
+  ],
+  "chem-m-salt-reactions": [
+    {
+      "id": "chem-m-salt-reactions",
+      "name": "盐的性质",
+      "download_url": "https://www.teachany.cn/community/chem-m-salt-reactions/"
+    }
+  ],
+  "chem-m-acid-base-salt": [
+    {
+      "id": "chem-m-acid-base-salt",
+      "name": "酸碱盐综合",
+      "download_url": "https://www.teachany.cn/community/chem-m-acid-base-salt/"
+    }
+  ],
+  "chem-m-chemistry-society-practice": [
+    {
+      "id": "chem-daily-life",
+      "name": "化学与生产生活（跨学科实践）",
+      "download_url": "https://www.teachany.cn/community/chem-daily-life/"
+    }
+  ],
+  "geo-m-earth-shape-size": [
+    {
+      "id": "geography-earth-shape-size",
+      "name": "地球的形状与大小",
+      "download_url": "https://www.teachany.cn/community/geography-earth-shape-size/"
+    }
+  ],
+  "geo-m-earth-basics": [
+    {
+      "id": "geo-m-earth-basics",
+      "name": "地球基础知识",
+      "download_url": "https://www.teachany.cn/community/geo-m-earth-basics/"
+    }
+  ],
+  "geo-m-globe-coordinates": [
+    {
+      "id": "geo-m-globe-coordinates",
+      "name": "经纬网与地球坐标",
+      "download_url": "https://www.teachany.cn/community/geo-m-globe-coordinates/"
+    }
+  ],
+  "geo-m-earth-motion-m": [
+    {
+      "id": "geo-m-earth-motion-m",
+      "name": "地球的自转与公转",
+      "download_url": "https://www.teachany.cn/community/geo-m-earth-motion-m/"
+    }
+  ],
+  "geo-m-seasons-m": [
+    {
+      "id": "geo-m-seasons-m",
+      "name": "四季更替与昼夜长短",
+      "download_url": "https://www.teachany.cn/community/geo-m-seasons-m/"
+    }
+  ],
+  "geo-m-map-reading": [
+    {
+      "id": "geo-m-map-reading",
+      "name": "地图的阅读（比例尺/方向/图例）",
+      "download_url": "https://www.teachany.cn/community/geo-m-map-reading/"
+    }
+  ],
+  "geo-m-topographic-map": [
+    {
+      "id": "geo-m-contour-topographic",
+      "name": "等高线与地形图",
+      "download_url": "https://www.teachany.cn/community/geo-m-contour-topographic/"
+    }
+  ],
+  "geo-m-continents-oceans": [
+    {
+      "id": "geo-m-continents-oceans",
+      "name": "大洲大洋与海陆变迁",
+      "download_url": "https://www.teachany.cn/community/geo-m-continents-oceans/"
+    }
+  ],
+  "geo-m-terrain-types": [
+    {
+      "id": "geo-m-terrain-types",
+      "name": "世界地形类型",
+      "download_url": "https://www.teachany.cn/community/geo-m-terrain-types/"
+    }
+  ],
+  "geo-m-climate-basics": [
+    {
+      "id": "geo-m-climate-basics",
+      "name": "气候基础（天气/气温/降水）",
+      "download_url": "https://www.teachany.cn/community/geo-m-climate-basics/"
+    }
+  ],
+  "geo-m-climate-m": [
+    {
+      "id": "geo-m-climate-m",
+      "name": "世界气候类型与分布",
+      "download_url": "https://www.teachany.cn/community/geo-m-climate-m/"
+    }
+  ],
+  "geo-m-population-distribution": [
+    {
+      "id": "geo-m-population-distribution",
+      "name": "世界人口与人种",
+      "download_url": "https://www.teachany.cn/community/geo-m-population-distribution/"
+    }
+  ],
+  "geo-m-world-regions": [
+    {
+      "id": "geo-m-world-regions",
+      "name": "世界地理分区",
+      "download_url": "https://www.teachany.cn/community/geo-m-world-regions/"
+    }
+  ],
+  "geo-m-world-countries": [
+    {
+      "id": "geo-m-world-countries",
+      "name": "世界主要国家（日/俄/美/澳/巴西等）",
+      "download_url": "https://www.teachany.cn/community/geo-m-world-countries/"
+    }
+  ],
+  "geo-m-china-location": [
+    {
+      "id": "geo-m-china-location",
+      "name": "中国的地理位置与疆域",
+      "download_url": "https://www.teachany.cn/community/geo-m-china-location/"
+    }
+  ],
+  "geo-m-china-overview": [
+    {
+      "id": "geo-m-china-overview",
+      "name": "中国地理总论",
+      "download_url": "https://www.teachany.cn/community/geo-m-china-overview/"
+    }
+  ],
+  "geo-m-china-terrain": [
+    {
+      "id": "geo-m-china-terrain",
+      "name": "中国地形与地势",
+      "download_url": "https://www.teachany.cn/community/geo-m-china-terrain/"
+    }
+  ],
+  "geo-m-china-climate": [
+    {
+      "id": "geo-m-china-climate",
+      "name": "中国气候",
+      "download_url": "https://www.teachany.cn/community/geo-m-china-climate/"
+    }
+  ],
+  "geo-m-china-rivers": [
+    {
+      "id": "geo-m-china-rivers",
+      "name": "中国河流湖泊",
+      "download_url": "https://www.teachany.cn/community/geo-m-china-rivers/"
+    }
+  ],
+  "geo-m-china-population": [
+    {
+      "id": "geo-m-china-population",
+      "name": "中国人口与民族",
+      "download_url": "https://www.teachany.cn/community/geo-m-china-population/"
+    }
+  ],
+  "geo-m-china-resources": [
+    {
+      "id": "geo-m-china-resources",
+      "name": "中国自然资源",
+      "download_url": "https://www.teachany.cn/community/geo-m-china-resources/"
+    }
+  ],
+  "geo-m-china-agriculture": [
+    {
+      "id": "geography-chinese-agriculture",
+      "name": "中国农业",
+      "download_url": "https://www.teachany.cn/community/geography-chinese-agriculture/"
+    }
+  ],
+  "geo-m-china-industry": [
+    {
+      "id": "geo-m-china-industry",
+      "name": "中国工业",
+      "download_url": "https://www.teachany.cn/community/geo-m-china-industry/"
+    }
+  ],
+  "geo-m-china-regions": [
+    {
+      "id": "geo-m-china-regions",
+      "name": "中国四大地理区域",
+      "download_url": "https://www.teachany.cn/community/geo-m-china-regions/"
+    }
+  ],
+  "geo-m-four-regions": [
+    {
+      "id": "geo-m-four-regions",
+      "name": "北方、南方、西北、青藏地区",
+      "download_url": "https://www.teachany.cn/community/geo-m-four-regions/"
+    }
+  ],
+  "geo-m-north-south": [
+    {
+      "id": "geo-m-north-south",
+      "name": "北方与南方地区对比",
+      "download_url": "https://www.teachany.cn/community/geo-m-north-south/"
+    }
+  ],
+  "geo-m-northwest-qinghai": [
+    {
+      "id": "geo-m-northwest-qinghai",
+      "name": "西北与青藏地区",
+      "download_url": "https://www.teachany.cn/community/geo-m-northwest-qinghai/"
+    }
+  ],
+  "geo-m-pearl-river-delta": [
+    {
+      "id": "geo-m-pearl-river-delta",
+      "name": "珠江三角洲",
+      "download_url": "https://www.teachany.cn/community/geo-m-pearl-river-delta/"
+    }
+  ],
+  "geo-m-yangtze-delta": [
+    {
+      "id": "geo-m-yangtze-delta",
+      "name": "长江三角洲",
+      "download_url": "https://www.teachany.cn/community/geo-m-yangtze-delta/"
+    }
+  ],
+  "hist-m-prehistoric": [
+    {
+      "id": "hist-m-prehistoric",
+      "name": "史前时期（元谋人/北京人/半坡/河姆渡）",
+      "download_url": "https://www.teachany.cn/community/hist-m-prehistoric/"
+    }
+  ],
+  "hist-m-early-civilizations": [
+    {
+      "id": "hist-m-early-civilizations",
+      "name": "早期国家的形成",
+      "download_url": "https://www.teachany.cn/community/hist-m-early-civilizations/"
+    }
+  ],
+  "hist-m-xia-shang-zhou": [
+    {
+      "id": "hist-m-xia-shang-zhou",
+      "name": "夏商西周",
+      "download_url": "https://www.teachany.cn/community/hist-m-xia-shang-zhou/"
+    }
+  ],
+  "hist-m-spring-autumn-warring": [
+    {
+      "id": "hist-m-spring-autumn-warring",
+      "name": "春秋战国",
+      "download_url": "https://www.teachany.cn/community/hist-m-spring-autumn-warring/"
+    }
+  ],
+  "hist-m-qin-han-unification": [
+    {
+      "id": "hist-m-qin-han-unification",
+      "name": "秦汉大一统",
+      "download_url": "https://www.teachany.cn/community/hist-m-qin-han-unification/"
+    }
+  ],
+  "hist-m-imperial-unification": [
+    {
+      "id": "imperial-unification",
+      "name": "秦汉统一多民族国家",
+      "download_url": "https://www.teachany.cn/community/imperial-unification/"
+    }
+  ],
+  "hist-m-three-kingdoms-sui-tang": [
+    {
+      "id": "history-sanguo-sui-tang",
+      "name": "三国两晋南北朝至隋唐",
+      "download_url": "https://www.teachany.cn/community/history-sanguo-sui-tang/"
+    }
+  ],
+  "hist-m-tang-song-prosperity": [
+    {
+      "id": "hist-m-tang-song-prosperity",
+      "name": "唐宋繁荣",
+      "download_url": "https://www.teachany.cn/community/hist-m-tang-song-prosperity/"
+    }
+  ],
+  "hist-m-song-yuan-ming-qing": [
+    {
+      "id": "hist-m-song-yuan-ming-qing",
+      "name": "宋元明清：统一多民族国家的形成与演变 · 初中历史七年级下",
+      "download_url": "https://www.teachany.cn/community/hist-m-song-yuan-ming-qing/"
+    }
+  ],
+  "hist-m-ming-qing-decline": [
+    {
+      "id": "hist-m-ming-qing-decline",
+      "name": "明清衰落与闭关锁国",
+      "download_url": "https://www.teachany.cn/community/hist-m-ming-qing-decline/"
+    }
+  ],
+  "hist-m-ancient-culture": [
+    {
+      "id": "hist-m-ancient-culture",
+      "name": "中国古代文化成就",
+      "download_url": "https://www.teachany.cn/community/hist-m-ancient-culture/"
+    }
+  ],
+  "hist-m-opium-war": [
+    {
+      "id": "hist-m-opium-war",
+      "name": "鸦片战争",
+      "download_url": "https://www.teachany.cn/community/hist-m-opium-war/"
+    }
+  ],
+  "hist-m-opium-war-era": [
+    {
+      "id": "hist-m-opium-war-era",
+      "name": "鸦片战争后的中国",
+      "download_url": "https://www.teachany.cn/community/hist-m-opium-war-era/"
+    }
+  ],
+  "hist-m-taiping-westernization": [
+    {
+      "id": "hist-m-taiping-westernization",
+      "name": "太平天国运动与洋务运动",
+      "download_url": "https://www.teachany.cn/community/hist-m-taiping-westernization/"
+    }
+  ],
+  "hist-m-reform-1898": [
+    {
+      "id": "hist-m-reform-1898",
+      "name": "戊戌变法",
+      "download_url": "https://www.teachany.cn/community/hist-m-reform-1898/"
+    }
+  ],
+  "hist-m-reform-revolution": [
+    {
+      "id": "hist-m-reform-revolution",
+      "name": "改革与革命",
+      "download_url": "https://www.teachany.cn/community/hist-m-reform-revolution/"
+    }
+  ],
+  "hist-m-xinhai-revolution": [
+    {
+      "id": "hist-m-xinhai-revolution",
+      "name": "辛亥革命",
+      "download_url": "https://www.teachany.cn/community/hist-m-xinhai-revolution/"
+    }
+  ],
+  "hist-m-may-fourth-movement": [
+    {
+      "id": "hist-m-may-fourth-movement",
+      "name": "五四运动",
+      "download_url": "https://www.teachany.cn/community/hist-m-may-fourth-movement/"
+    }
+  ],
+  "hist-m-cpc-founding": [
+    {
+      "id": "hist-m-cpc-founding",
+      "name": "中国共产党的诞生",
+      "download_url": "https://www.teachany.cn/community/hist-m-cpc-founding/"
+    }
+  ],
+  "hist-m-northern-expedition": [
+    {
+      "id": "hist-m-northern-expedition",
+      "name": "北伐战争与南京国民政府",
+      "download_url": "https://www.teachany.cn/community/hist-m-northern-expedition/"
+    }
+  ],
+  "hist-m-anti-japan-war": [
+    {
+      "id": "hist-m-anti-japan-war",
+      "name": "抗日战争",
+      "download_url": "https://www.teachany.cn/community/hist-m-anti-japan-war/"
+    }
+  ],
+  "hist-m-liberation-war": [
+    {
+      "id": "hist-m-liberation-war",
+      "name": "解放战争",
+      "download_url": "https://www.teachany.cn/community/hist-m-liberation-war/"
+    }
+  ],
+  "hist-m-new-democratic-revolution": [
+    {
+      "id": "hist-m-new-democratic-revolution",
+      "name": "新民主主义革命",
+      "download_url": "https://www.teachany.cn/community/hist-m-new-democratic-revolution/"
+    }
+  ],
+  "hist-m-modern-china-development": [
+    {
+      "id": "hist-m-modern-china-development",
+      "name": "新中国成立与发展",
+      "download_url": "https://www.teachany.cn/community/hist-m-modern-china-development/"
+    }
+  ],
+  "hist-m-ancient-civilizations": [
+    {
+      "id": "hist-m-ancient-civilizations",
+      "name": "古代亚非文明（古埃及/古巴比伦/古印度）",
+      "download_url": "https://www.teachany.cn/community/hist-m-ancient-civilizations/"
+    }
+  ],
+  "hist-m-greece-rome": [
+    {
+      "id": "hist-m-greece-rome",
+      "name": "古希腊与古罗马文明",
+      "download_url": "https://www.teachany.cn/community/hist-m-greece-rome/"
+    }
+  ],
+  "hist-m-medieval-europe": [
+    {
+      "id": "history-medieval-europe",
+      "name": "中世纪欧洲",
+      "download_url": "https://www.teachany.cn/community/history-medieval-europe/"
+    }
+  ],
+  "hist-m-renaissance": [
+    {
+      "id": "hist-m-renaissance",
+      "name": "文艺复兴与宗教改革",
+      "download_url": "https://www.teachany.cn/community/hist-m-renaissance/"
+    }
+  ],
+  "hist-m-modern-world-formation": [
+    {
+      "id": "hist-m-modern-world-formation",
+      "name": "资本主义制度初步确立",
+      "download_url": "https://www.teachany.cn/community/hist-m-modern-world-formation/"
+    }
+  ],
+  "hist-m-english-revolution": [
+    {
+      "id": "hist-m-english-revolution",
+      "name": "英国资产阶级革命",
+      "download_url": "https://www.teachany.cn/community/hist-m-english-revolution/"
+    }
+  ],
+  "hist-m-american-revolution": [
+    {
+      "id": "hist-m-american-revolution",
+      "name": "美国独立战争",
+      "download_url": "https://www.teachany.cn/community/hist-m-american-revolution/"
+    }
+  ],
+  "hist-m-french-revolution": [
+    {
+      "id": "hist-m-french-revolution",
+      "name": "法国大革命",
+      "download_url": "https://www.teachany.cn/community/hist-m-french-revolution/"
+    }
+  ],
+  "hist-m-industrial-revolution": [
+    {
+      "id": "hist-m-industrial-rev-demo",
+      "name": "工业革命",
+      "download_url": "https://www.teachany.cn/community/hist-m-industrial-rev-demo/"
+    },
+    {
+      "id": "hist-m-industrial-revolution",
+      "name": "工业革命",
+      "download_url": "https://www.teachany.cn/community/hist-m-industrial-revolution/"
+    },
+    {
+      "id": "history-industrial-revolution",
+      "name": "工业革命",
+      "download_url": "https://www.teachany.cn/community/history-industrial-revolution/"
+    }
+  ],
+  "hist-m-industrial-revolution-modernization": [
+    {
+      "id": "hist-m-industrial-revolution-modernization",
+      "name": "工业革命与近代化",
+      "download_url": "https://www.teachany.cn/community/hist-m-industrial-revolution-modernization/"
+    }
+  ],
+  "hist-m-ww1": [
+    {
+      "id": "hist-m-ww1",
+      "name": "第一次世界大战",
+      "download_url": "https://www.teachany.cn/community/hist-m-ww1/"
+    }
+  ],
+  "hist-m-russian-revolution": [
+    {
+      "id": "hist-m-russian-revolution",
+      "name": "俄国十月革命",
+      "download_url": "https://www.teachany.cn/community/hist-m-russian-revolution/"
+    }
+  ],
+  "hist-m-ww2": [
+    {
+      "id": "history-ww2",
+      "name": "第二次世界大战",
+      "download_url": "https://www.teachany.cn/community/history-ww2/"
+    }
+  ],
+  "hist-m-world-wars-cold-war": [
+    {
+      "id": "hist-m-world-wars-cold-war",
+      "name": "两次世界大战与冷战",
+      "download_url": "https://www.teachany.cn/community/hist-m-world-wars-cold-war/"
+    }
+  ],
+  "hist-m-cold-war": [
+    {
+      "id": "hist-m-cold-war",
+      "name": "冷战格局",
+      "download_url": "https://www.teachany.cn/community/hist-m-cold-war/"
+    }
+  ],
+  "hist-m-globalization": [
+    {
+      "id": "hist-m-globalization",
+      "name": "全球化与多极化",
+      "download_url": "https://www.teachany.cn/community/hist-m-globalization/"
+    }
+  ],
+  "eng-m-ipa-transcription": [
+    {
+      "id": "eng-m-ipa-transcription",
+      "name": "国际音标（IPA）",
+      "download_url": "https://www.teachany.cn/community/eng-m-ipa-transcription/"
+    }
+  ],
+  "eng-m-curriculum-vocabulary": [
+    {
+      "id": "eng-curriculum-vocabulary",
+      "name": "课标三级词汇总控",
+      "download_url": "https://www.teachany.cn/community/eng-curriculum-vocabulary/"
+    }
+  ],
+  "eng-m-word-formation-en": [
+    {
+      "id": "eng-m-word-formation-en",
+      "name": "构词法（前缀/后缀/合成）",
+      "download_url": "https://www.teachany.cn/community/eng-m-word-formation-en/"
+    }
+  ],
+  "eng-m-theme-vocabulary": [
+    {
+      "id": "eng-m-theme-vocabulary",
+      "name": "主题词汇（校园/家庭/社会/自然）",
+      "download_url": "https://www.teachany.cn/community/eng-m-theme-vocabulary/"
+    }
+  ],
+  "eng-m-phrasal-verbs": [
+    {
+      "id": "eng-m-phrasal-verbs",
+      "name": "动词短语",
+      "download_url": "https://www.teachany.cn/community/eng-m-phrasal-verbs/"
+    }
+  ],
+  "eng-m-nouns-articles": [
+    {
+      "id": "eng-m-nouns-articles",
+      "name": "名词、代词与冠词",
+      "download_url": "https://www.teachany.cn/community/eng-m-nouns-articles/"
+    }
+  ],
+  "eng-m-tenses-present": [
+    {
+      "id": "eng-m-tenses-present",
+      "name": "一般现在时与现在进行时",
+      "download_url": "https://www.teachany.cn/community/eng-m-tenses-present/"
+    }
+  ],
+  "eng-m-tenses-past": [
+    {
+      "id": "eng-m-tenses-past",
+      "name": "一般过去时与过去进行时",
+      "download_url": "https://www.teachany.cn/community/eng-m-tenses-past/"
+    }
+  ],
+  "eng-m-tenses-future": [
+    {
+      "id": "eng-m-tenses-future",
+      "name": "一般将来时与过去将来时",
+      "download_url": "https://www.teachany.cn/community/eng-m-tenses-future/"
+    }
+  ],
+  "eng-m-modal-verbs": [
+    {
+      "id": "eng-m-modal-verbs",
+      "name": "情态动词（can/may/must/should）",
+      "download_url": "https://www.teachany.cn/community/eng-m-modal-verbs/"
+    }
+  ],
+  "eng-m-tenses-perfect": [
+    {
+      "id": "eng-m-tenses-perfect",
+      "name": "现在完成时与过去完成时",
+      "download_url": "https://www.teachany.cn/community/eng-m-tenses-perfect/"
+    }
+  ],
+  "eng-m-passive-voice": [
+    {
+      "id": "eng-m-passive-voice",
+      "name": "被动语态",
+      "download_url": "https://www.teachany.cn/community/eng-m-passive-voice/"
+    }
+  ],
+  "eng-m-sentence-patterns": [
+    {
+      "id": "eng-m-sentence-patterns",
+      "name": "基本句型与复合句",
+      "download_url": "https://www.teachany.cn/community/eng-m-sentence-patterns/"
+    }
+  ],
+  "eng-m-object-clause": [
+    {
+      "id": "eng-m-object-clause",
+      "name": "宾语从句",
+      "download_url": "https://www.teachany.cn/community/eng-m-object-clause/"
+    }
+  ],
+  "eng-m-attributive-clause": [
+    {
+      "id": "eng-m-attributive-clause",
+      "name": "定语从句",
+      "download_url": "https://www.teachany.cn/community/eng-m-attributive-clause/"
+    }
+  ],
+  "eng-m-adverbial-clause": [
+    {
+      "id": "eng-m-adverbial-clause",
+      "name": "状语从句",
+      "download_url": "https://www.teachany.cn/community/eng-m-adverbial-clause/"
+    }
+  ],
+  "eng-m-reading-strategies": [
+    {
+      "id": "eng-m-reading-strategies",
+      "name": "阅读策略（略读/扫读/精读）",
+      "download_url": "https://www.teachany.cn/community/eng-m-reading-strategies/"
+    }
+  ],
+  "eng-m-text-types": [
+    {
+      "id": "eng-m-text-types",
+      "name": "语篇类型识别（记叙/说明/议论）",
+      "download_url": "https://www.teachany.cn/community/eng-m-text-types/"
+    }
+  ],
+  "eng-m-cloze-test": [
+    {
+      "id": "eng-m-cloze-test",
+      "name": "完形填空",
+      "download_url": "https://www.teachany.cn/community/eng-m-cloze-test/"
+    }
+  ],
+  "eng-m-basic-writing": [
+    {
+      "id": "eng-m-basic-writing",
+      "name": "基础写作（短文/书信/邮件）",
+      "download_url": "https://www.teachany.cn/community/eng-m-basic-writing/"
+    }
+  ],
+  "eng-m-listening-basic": [
+    {
+      "id": "eng-m-listening-basic",
+      "name": "基础听力（对话/短文）",
+      "download_url": "https://www.teachany.cn/community/eng-m-listening-basic/"
+    }
+  ],
+  "eng-m-listening-long": [
+    {
+      "id": "eng-m-listening-long",
+      "name": "长对话与语段听力",
+      "download_url": "https://www.teachany.cn/community/eng-m-listening-long/"
+    }
+  ],
+  "eng-m-oral-topic": [
+    {
+      "id": "eng-m-oral-topic",
+      "name": "话题口语表达",
+      "download_url": "https://www.teachany.cn/community/eng-m-oral-topic/"
+    }
+  ],
+  "bio-m-bio-characteristics": [
+    {
+      "id": "bio-characteristics",
+      "name": "生物的特征 — 七年级生物互动课件",
+      "download_url": "https://www.teachany.cn/community/bio-characteristics/"
+    }
+  ],
+  "bio-m-microscope-use": [
+    {
+      "id": "bio-microscope-use",
+      "name": "显微镜的使用 — 七年级生物互动课件",
+      "download_url": "https://www.teachany.cn/community/bio-microscope-use/"
+    }
+  ],
+  "bio-m-cell-basics": [
+    {
+      "id": "bio-m-cell-basics",
+      "name": "细胞基础",
+      "download_url": "https://www.teachany.cn/community/bio-m-cell-basics/"
+    }
+  ],
+  "bio-m-cell-structure-m": [
+    {
+      "id": "bio-cell-structure",
+      "name": "动植物细胞结构 — 七年级生物互动课件",
+      "download_url": "https://www.teachany.cn/community/bio-cell-structure/"
+    }
+  ],
+  "bio-m-cell-life-activities": [
+    {
+      "id": "bio-cell-life",
+      "name": "细胞的生活与能量 — 七年级生物互动课件",
+      "download_url": "https://www.teachany.cn/community/bio-cell-life/"
+    }
+  ],
+  "bio-m-cell-division-m": [
+    {
+      "id": "bio-cell-division",
+      "name": "细胞分裂与分化 — 七年级生物互动课件",
+      "download_url": "https://www.teachany.cn/community/bio-cell-division/"
+    },
+    {
+      "id": "bio-m-cell-division-m",
+      "name": "细胞分裂与分化",
+      "download_url": "https://www.teachany.cn/community/bio-m-cell-division-m/"
+    }
+  ],
+  "bio-m-cell-division-junior": [
+    {
+      "id": "biology-bio-m-cell-division-junior-6a130889",
+      "name": "细胞分化",
+      "download_url": "https://www.teachany.cn/community/biology-bio-m-cell-division-junior-6a130889/"
+    }
+  ],
+  "bio-m-tissue-types": [
+    {
+      "id": "bio-tissue-types",
+      "name": "组织",
+      "download_url": "https://www.teachany.cn/community/bio-tissue-types/"
+    }
+  ],
+  "bio-m-biosphere": [
+    {
+      "id": "bio-m-biosphere-scope",
+      "name": "生物圈",
+      "download_url": "https://www.teachany.cn/community/bio-m-biosphere-scope/"
+    },
+    {
+      "id": "biology-bio-m-biosphere-6a130aec",
+      "name": "生物圈",
+      "download_url": "https://www.teachany.cn/community/biology-bio-m-biosphere-6a130aec/"
+    }
+  ],
+  "bio-m-eco-factors": [
+    {
+      "id": "bio-eco-factors",
+      "name": "生态因素 — 七年级生物互动课件",
+      "download_url": "https://www.teachany.cn/community/bio-eco-factors/"
+    }
+  ],
+  "bio-m-biosphere-scope": [
+    {
+      "id": "bio-biosphere-scope",
+      "name": "生态系统的组成 — 七年级生物互动课件",
+      "download_url": "https://www.teachany.cn/community/bio-biosphere-scope/"
+    },
+    {
+      "id": "bio-m-biosphere-scope",
+      "name": "生物圈",
+      "download_url": "https://www.teachany.cn/community/bio-m-biosphere-scope/"
+    }
+  ],
+  "bio-m-food-chain": [
+    {
+      "id": "bio-food-chain",
+      "name": "食物链与食物网 — 七年级生物互动课件",
+      "download_url": "https://www.teachany.cn/community/bio-food-chain/"
+    }
+  ],
+  "bio-m-biosphere-largest": [
+    {
+      "id": "bio-biosphere-largest",
+      "name": "生物圈是最大的生态系统 — 七年级生物互动课件",
+      "download_url": "https://www.teachany.cn/community/bio-biosphere-largest/"
+    }
+  ],
+  "bio-m-ecosystem-junior": [
+    {
+      "id": "bio-m-ecosystem-junior",
+      "name": "生态系统的组成",
+      "download_url": "https://www.teachany.cn/community/bio-m-ecosystem-junior/"
+    }
+  ],
+  "bio-m-plant-structure": [
+    {
+      "id": "bio-m-plant-structure",
+      "name": "绿色植物的整体结构",
+      "download_url": "https://www.teachany.cn/community/bio-m-plant-structure/"
+    }
+  ],
+  "bio-m-seed-structure": [
+    {
+      "id": "bio-seed-structure",
+      "name": "种子的结构与萌发 — 七年级生物互动课件",
+      "download_url": "https://www.teachany.cn/community/bio-seed-structure/"
+    }
+  ],
+  "bio-m-root-tip": [
+    {
+      "id": "bio-root-tip",
+      "name": "根尖结构与水分吸收",
+      "download_url": "https://www.teachany.cn/community/bio-root-tip/"
+    }
+  ],
+  "bio-m-stem-transport": [
+    {
+      "id": "bio-stem-transport",
+      "name": "茎的输导功能",
+      "download_url": "https://www.teachany.cn/community/bio-stem-transport/"
+    }
+  ],
+  "bio-m-leaf-structure": [
+    {
+      "id": "bio-leaf-structure",
+      "name": "叶片结构与气孔",
+      "download_url": "https://www.teachany.cn/community/bio-leaf-structure/"
+    }
+  ],
+  "bio-m-photosynthesis-m": [
+    {
+      "id": "bio-m-photosynthesis-m",
+      "name": "《光合作用》 · 生物 G7 · TeachAny v7.14",
+      "download_url": "https://www.teachany.cn/community/bio-m-photosynthesis-m/"
+    },
+    {
+      "id": "bio-photosynthesis",
+      "name": "光合作用 — 七年级生物互动课件",
+      "download_url": "https://www.teachany.cn/community/bio-photosynthesis/"
+    }
+  ],
+  "bio-m-respiration-m": [
+    {
+      "id": "bio-respiration",
+      "name": "呼吸作用",
+      "download_url": "https://www.teachany.cn/community/bio-respiration/"
+    }
+  ],
+  "bio-m-transpiration": [
+    {
+      "id": "bio-transpiration",
+      "name": "蒸腾作用",
+      "download_url": "https://www.teachany.cn/community/bio-transpiration/"
+    }
+  ],
+  "bio-m-flower-structure": [
+    {
+      "id": "bio-flower-structure",
+      "name": "花的结构与传粉 — 七年级生物互动课件",
+      "download_url": "https://www.teachany.cn/community/bio-flower-structure/"
+    }
+  ],
+  "bio-m-fruit-seed-formation": [
+    {
+      "id": "bio-fruit-seed",
+      "name": "果实和种子的形成 — 七年级生物互动课件",
+      "download_url": "https://www.teachany.cn/community/bio-fruit-seed/"
+    }
+  ],
+  "bio-m-asexual-reproduction": [
+    {
+      "id": "bio-asexual-repro",
+      "name": "无性生殖 — 七年级生物互动课件",
+      "download_url": "https://www.teachany.cn/community/bio-asexual-repro/"
+    }
+  ],
+  "bio-m-plant-classification": [
+    {
+      "id": "bio-plant-classify",
+      "name": "植物类群",
+      "download_url": "https://www.teachany.cn/community/bio-plant-classify/"
+    }
+  ],
+  "bio-m-human-body-overview": [
+    {
+      "id": "bio-human-overview",
+      "name": "人体概述与营养物质 — 七年级生物互动课件",
+      "download_url": "https://www.teachany.cn/community/bio-human-overview/"
+    }
+  ],
+  "bio-m-digestion-system": [
+    {
+      "id": "bio-digestion",
+      "name": "消化系统 — 七年级生物互动课件",
+      "download_url": "https://www.teachany.cn/community/bio-digestion/"
+    }
+  ],
+  "bio-m-respiratory-system": [
+    {
+      "id": "bio-respiratory",
+      "name": "呼吸系统与气体交换 — 七年级生物互动课件",
+      "download_url": "https://www.teachany.cn/community/bio-respiratory/"
+    }
+  ],
+  "bio-m-circulatory-system": [
+    {
+      "id": "bio-circulation",
+      "name": "血液循环系统 — 七年级生物互动课件",
+      "download_url": "https://www.teachany.cn/community/bio-circulation/"
+    },
+    {
+      "id": "bio-m-circulatory-system",
+      "name": "循环与呼吸综合",
+      "download_url": "https://www.teachany.cn/community/bio-m-circulatory-system/"
+    }
+  ],
+  "bio-m-circulation-respiration": [
+    {
+      "id": "bio-m-circulation-respiration",
+      "name": "循环与呼吸综合",
+      "download_url": "https://www.teachany.cn/community/bio-m-circulation-respiration/"
+    }
+  ],
+  "bio-m-excretory-system": [
+    {
+      "id": "bio-excretory",
+      "name": "泌尿系统与排泄 — 七年级生物互动课件",
+      "download_url": "https://www.teachany.cn/community/bio-excretory/"
+    }
+  ],
+  "bio-m-urinary-nervous": [
+    {
+      "id": "bio-m-urinary-nervous",
+      "name": "泌尿系统",
+      "download_url": "https://www.teachany.cn/community/bio-m-urinary-nervous/"
+    }
+  ],
+  "bio-m-nervous-system-m": [
+    {
+      "id": "bio-nervous-system",
+      "name": "神经系统与神经调节 — 七年级生物互动课件",
+      "download_url": "https://www.teachany.cn/community/bio-nervous-system/"
+    }
+  ],
+  "bio-m-endocrine-system-m": [
+    {
+      "id": "bio-endocrine",
+      "name": "激素调节与内分泌系统 — 七年级生物互动课件",
+      "download_url": "https://www.teachany.cn/community/bio-endocrine/"
+    }
+  ],
+  "bio-m-reproduction-development": [
+    {
+      "id": "bio-reproduction",
+      "name": "人的生殖与发育",
+      "download_url": "https://www.teachany.cn/community/bio-reproduction/"
+    }
+  ],
+  "bio-m-animal-diversity": [
+    {
+      "id": "bio-m-animal-diversity",
+      "name": "动物的主要类群",
+      "download_url": "https://www.teachany.cn/community/bio-m-animal-diversity/"
+    }
+  ],
+  "bio-m-animal-behavior": [
+    {
+      "id": "bio-m-animal-behavior",
+      "name": "动物行为",
+      "download_url": "https://www.teachany.cn/community/bio-m-animal-behavior/"
+    }
+  ],
+  "bio-m-microorganism": [
+    {
+      "id": "bio-m-microorganism",
+      "name": "微生物：细菌/真菌/病毒",
+      "download_url": "https://www.teachany.cn/community/bio-m-microorganism/"
+    }
+  ],
+  "bio-m-infectious-disease": [
+    {
+      "id": "bio-m-infectious-disease",
+      "name": "传染病与免疫",
+      "download_url": "https://www.teachany.cn/community/bio-m-infectious-disease/"
+    }
+  ],
+  "bio-m-microorganism-health": [
+    {
+      "id": "bio-m-microorganism-health",
+      "name": "微生物与人类健康",
+      "download_url": "https://www.teachany.cn/community/bio-m-microorganism-health/"
+    }
+  ],
+  "bio-m-bio-classification": [
+    {
+      "id": "bio-classification",
+      "name": "生物分类 — 八年级生物互动课件",
+      "download_url": "https://www.teachany.cn/community/bio-classification/"
+    }
+  ],
+  "bio-m-biodiversity-m": [
+    {
+      "id": "bio-m-biodiversity-m",
+      "name": "生物多样性及其保护",
+      "download_url": "https://www.teachany.cn/community/bio-m-biodiversity-m/"
+    }
+  ],
+  "bio-m-biology-cross-disciplinary-practice": [
+    {
+      "id": "bio-cross-disciplinary",
+      "name": "跨学科实践",
+      "download_url": "https://www.teachany.cn/community/bio-cross-disciplinary/"
+    }
+  ],
+  "phy-m-sound-generation": [
+    {
+      "id": "phy-m-sound-generation",
+      "name": "声音的产生与传播：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-sound-generation/"
+    }
+  ],
+  "phy-m-sound-properties": [
+    {
+      "id": "phy-m-sound-properties",
+      "name": "声音的特性（音调/响度/音色）：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-sound-properties/"
+    }
+  ],
+  "phy-m-noise-control": [
+    {
+      "id": "phy-m-noise-control",
+      "name": "噪声与声污染：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-noise-control/"
+    }
+  ],
+  "phy-m-sound-applications": [
+    {
+      "id": "phy-m-sound-applications",
+      "name": "声的利用（超声/次声）：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-sound-applications/"
+    }
+  ],
+  "phy-m-acoustics-cross-disciplinary": [
+    {
+      "id": "phy-m-acoustics-cross-disciplinary",
+      "name": "声现象跨学科应用：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-acoustics-cross-disciplinary/"
+    }
+  ],
+  "phy-m-light-propagation": [
+    {
+      "id": "phy-m-light-propagation",
+      "name": "光的直线传播：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-light-propagation/"
+    }
+  ],
+  "phy-m-light-reflection": [
+    {
+      "id": "phy-m-light-reflection",
+      "name": "光的反射：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-light-reflection/"
+    }
+  ],
+  "phy-m-plane-mirror": [
+    {
+      "id": "phy-m-plane-mirror",
+      "name": "平面镜成像：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-plane-mirror/"
+    }
+  ],
+  "phy-m-spherical-mirror": [
+    {
+      "id": "phy-m-spherical-mirror",
+      "name": "球面镜（凹镜/凸镜）：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-spherical-mirror/"
+    }
+  ],
+  "phy-m-light-refraction": [
+    {
+      "id": "phy-light-refraction",
+      "name": "光的折射 | 物理互动课件",
+      "download_url": "https://www.teachany.cn/community/phy-light-refraction/"
+    },
+    {
+      "id": "phy-m-light-refraction",
+      "name": "光的折射：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-light-refraction/"
+    }
+  ],
+  "phy-m-refraction": [
+    {
+      "id": "phy-m-refraction",
+      "name": "折射规律应用：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-refraction/"
+    }
+  ],
+  "phy-m-light-dispersion": [
+    {
+      "id": "phy-m-light-dispersion",
+      "name": "光的色散：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-light-dispersion/"
+    }
+  ],
+  "phy-m-lens": [
+    {
+      "id": "phy-m-lens",
+      "name": "透镜（凸透镜/凹透镜）：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-lens/"
+    }
+  ],
+  "phy-m-eye-vision": [
+    {
+      "id": "phy-m-eye-vision",
+      "name": "眼睛与视觉矫正：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-eye-vision/"
+    }
+  ],
+  "phy-m-thermometer": [
+    {
+      "id": "phy-m-thermometer",
+      "name": "温度与温度计：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-thermometer/"
+    }
+  ],
+  "phy-m-phase-change": [
+    {
+      "id": "phy-m-phase-change",
+      "name": "物态变化（熔化/汽化/凝固）：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-phase-change/"
+    }
+  ],
+  "phy-m-internal-energy": [
+    {
+      "id": "phy-m-internal-energy",
+      "name": "内能与热量：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-internal-energy/"
+    }
+  ],
+  "phy-m-specific-heat": [
+    {
+      "id": "phy-m-specific-heat",
+      "name": "比热容：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-specific-heat/"
+    }
+  ],
+  "phy-m-heat-calculation": [
+    {
+      "id": "phy-m-heat-calculation",
+      "name": "热量计算：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-heat-calculation/"
+    }
+  ],
+  "phy-m-heat-engine": [
+    {
+      "id": "phy-m-heat-engine",
+      "name": "内燃机与热机效率：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-heat-engine/"
+    }
+  ],
+  "phy-m-motion-description": [
+    {
+      "id": "phy-m-motion-description",
+      "name": "机械运动：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-motion-description/"
+    }
+  ],
+  "phy-m-mass-density": [
+    {
+      "id": "phy-m-mass-density",
+      "name": "质量与密度：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-mass-density/"
+    }
+  ],
+  "phy-m-force-basics": [
+    {
+      "id": "phy-m-force-basics",
+      "name": "力的初步认识：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-force-basics/"
+    }
+  ],
+  "phy-m-gravity": [
+    {
+      "id": "phy-m-gravity",
+      "name": "重力：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-gravity/"
+    }
+  ],
+  "phy-m-friction": [
+    {
+      "id": "phy-m-friction",
+      "name": "摩擦力：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-friction/"
+    }
+  ],
+  "phy-m-newton-laws": [
+    {
+      "id": "phy-m-newton-laws",
+      "name": "牛顿第一定律与二力平衡：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-newton-laws/"
+    }
+  ],
+  "phy-m-pressure": [
+    {
+      "id": "phy-m-pressure",
+      "name": "压强：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-pressure/"
+    },
+    {
+      "id": "teachany-phy-mid-pressure",
+      "name": "压强 · 固体压强与液体压强",
+      "download_url": "https://www.teachany.cn/community/teachany-phy-mid-pressure/"
+    }
+  ],
+  "phy-m-liquid-pressure-buoyancy": [
+    {
+      "id": "phy-m-liquid-pressure-buoyancy",
+      "name": "液体压强与浮力：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-liquid-pressure-buoyancy/"
+    },
+    {
+      "id": "phy-pressure-buoyancy",
+      "name": "液体压强与浮力",
+      "download_url": "https://www.teachany.cn/community/phy-pressure-buoyancy/"
+    }
+  ],
+  "phy-m-atmospheric-pressure": [
+    {
+      "id": "phy-m-atmospheric-pressure",
+      "name": "大气压强：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-atmospheric-pressure/"
+    },
+    {
+      "id": "phy-mid-atmospheric-pressure",
+      "name": "大气压强 - TeachAny 互动课件",
+      "download_url": "https://www.teachany.cn/community/phy-mid-atmospheric-pressure/"
+    }
+  ],
+  "phy-m-fluid-flow": [
+    {
+      "id": "phy-m-fluid-flow",
+      "name": "流体压强与流速关系：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-fluid-flow/"
+    },
+    {
+      "id": "phy-mid-fluid-flow",
+      "name": "流体压强与流速 - TeachAny 互动课件",
+      "download_url": "https://www.teachany.cn/community/phy-mid-fluid-flow/"
+    }
+  ],
+  "phy-m-simple-machines": [
+    {
+      "id": "phy-m-simple-machines",
+      "name": "简单机械（杠杆/滑轮）：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-simple-machines/"
+    }
+  ],
+  "phy-m-work-energy": [
+    {
+      "id": "phy-m-work-energy",
+      "name": "功与功率：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-work-energy/"
+    }
+  ],
+  "phy-m-mechanical-energy": [
+    {
+      "id": "phy-m-mechanical-energy",
+      "name": "机械能（动能/势能）：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-mechanical-energy/"
+    }
+  ],
+  "phy-m-energy-conservation": [
+    {
+      "id": "phy-m-energy-conservation",
+      "name": "能量转化与守恒定律：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-energy-conservation/"
+    }
+  ],
+  "phy-m-static-electricity": [
+    {
+      "id": "phy-m-static-electricity",
+      "name": "静电现象：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-static-electricity/"
+    }
+  ],
+  "phy-m-current-circuit": [
+    {
+      "id": "phy-m-current-circuit",
+      "name": "电流与电路：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-current-circuit/"
+    }
+  ],
+  "phy-m-circuit-basics": [
+    {
+      "id": "phy-m-circuit-basics",
+      "name": "电路基本连接：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-circuit-basics/"
+    }
+  ],
+  "phy-m-series-parallel": [
+    {
+      "id": "phy-m-series-parallel",
+      "name": "串联与并联电路：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-series-parallel/"
+    }
+  ],
+  "phy-m-current-measurement": [
+    {
+      "id": "phy-m-current-measurement",
+      "name": "电流的测量：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-current-measurement/"
+    }
+  ],
+  "phy-m-voltage": [
+    {
+      "id": "phy-m-voltage",
+      "name": "电压：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-voltage/"
+    }
+  ],
+  "phy-m-resistance": [
+    {
+      "id": "phy-m-resistance",
+      "name": "电阻：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-resistance/"
+    }
+  ],
+  "phy-m-ohms-law": [
+    {
+      "id": "phy-m-ohms-law",
+      "name": "欧姆定律：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-ohms-law/"
+    },
+    {
+      "id": "phy-ohms-law",
+      "name": "欧姆定律 | 物理互动课件",
+      "download_url": "https://www.teachany.cn/community/phy-ohms-law/"
+    }
+  ],
+  "phy-m-circuit-calculation": [
+    {
+      "id": "phy-m-circuit-calculation",
+      "name": "电路综合计算：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-circuit-calculation/"
+    }
+  ],
+  "phy-m-electric-power": [
+    {
+      "id": "phy-m-electric-power",
+      "name": "电功率：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-electric-power/"
+    }
+  ],
+  "phy-m-joule-law": [
+    {
+      "id": "phy-m-joule-law",
+      "name": "焦耳定律：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-joule-law/"
+    }
+  ],
+  "phy-m-electrical-safety": [
+    {
+      "id": "phy-m-electrical-safety",
+      "name": "家庭电路与安全用电：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-electrical-safety/"
+    }
+  ],
+  "phy-m-magnetism-basics": [
+    {
+      "id": "phy-m-magnetism-basics",
+      "name": "磁现象：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-magnetism-basics/"
+    }
+  ],
+  "phy-m-electromagnetism-basic": [
+    {
+      "id": "phy-m-electromagnetism-basic",
+      "name": "电流的磁效应：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-electromagnetism-basic/"
+    }
+  ],
+  "phy-m-electric-motor": [
+    {
+      "id": "phy-m-electric-motor",
+      "name": "电动机原理：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-electric-motor/"
+    }
+  ],
+  "phy-m-electromagnetic-induction": [
+    {
+      "id": "phy-m-electromagnetic-induction",
+      "name": "电磁感应：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-electromagnetic-induction/"
+    }
+  ],
+  "phy-m-generator": [
+    {
+      "id": "phy-m-generator",
+      "name": "发电机原理：从实验现象到变量关系",
+      "download_url": "https://www.teachany.cn/community/phy-m-generator/"
+    }
+  ]
+}

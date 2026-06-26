@@ -6,6 +6,7 @@ const routes = [
   { path: '/map', component: () => import('../views/KnowledgeMap.vue') },
   { path: '/map/:subject', component: () => import('../views/KnowledgeMap.vue') },
   { path: '/path', component: () => import('../views/LearningPath.vue') },
+  { path: '/library', component: () => import('../views/CoursewareLib.vue') },
   { path: '/learn/:nodeId', component: () => import('../views/Learn.vue') },
   { path: '/practice', component: () => import('../views/Practice.vue') },
   { path: '/practice/:nodeId', component: () => import('../views/Practice.vue') },
