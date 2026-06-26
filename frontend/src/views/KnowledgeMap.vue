@@ -52,7 +52,7 @@ const layout = computed(() => {
   if (!mapData.value) return { positions: {}, lanes: [], width: 0, height: 0 }
   const positions: Record<string, { x: number; y: number; node: any }> = {}
   const lanes: any[] = []
-  let curY = 10
+  let curY = 40   // 顶部预留年级标题带
   const gradeX = (g: number) => PAD_X + grades.indexOf(g) * COL_W
 
   // 按 domain 分组
@@ -148,7 +148,8 @@ function gradeLabel(g: number) {
         <svg :width="layout.width" :height="layout.height" class="canvas">
           <!-- 年级列标题 -->
           <g v-for="(g, i) in grades" :key="'col'+g">
-            <text :x="PAD_X + i * COL_W + NODE_W/2" :y="6" class="col-label">{{ gradeLabel(g) }}</text>
+            <rect :x="PAD_X + i * COL_W - 4" :y="6" :width="NODE_W + 8" :height="26" rx="6" class="col-bg" />
+            <text :x="PAD_X + i * COL_W + NODE_W/2" :y="19" class="col-label">{{ gradeLabel(g) }}</text>
           </g>
           <!-- domain泳道 -->
           <g v-for="lane in layout.lanes" :key="lane.id">
@@ -232,7 +233,8 @@ function gradeLabel(g: number) {
 .map-wrap { display: flex; gap: 1rem; }
 .canvas-scroll { flex: 1; overflow: auto; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); max-height: calc(100vh - 230px); }
 .canvas { display: block; }
-.col-label { font-size: 13px; font-weight: 700; fill: #334155; text-anchor: middle; dominant-baseline: hanging; }
+.col-bg { fill: #eef2ff; }
+.col-label { font-size: 13px; font-weight: 700; fill: #4361ee; text-anchor: middle; dominant-baseline: middle; }
 .lane-bg { fill: #f8fafc; }
 .lane-label { font-size: 12px; font-weight: 600; fill: #94a3b8; dominant-baseline: hanging; }
 .edge { fill: none; stroke: #cbd5e1; stroke-width: 1.5; opacity: 0.6; }

@@ -29,7 +29,6 @@ SUBJECTS = {
     "geography":  "trees/cn/middle/geography.json",
     "history":    "trees/cn/middle/history.json",
     "politics":   "trees/cn/middle/politics.json",
-    "psychology": "trees/cn/middle/psychology.json",
 }
 
 SEM = {"上": 1, "下": 2, "七上": 1, "八上": 1, "八下": 2, "九上": 1, "九下": 2, "七上/八上": 1, "": 1}

@@ -16,7 +16,6 @@ SUBJECT_META = {
     "geography":  {"name": "地理", "icon": "🗺️", "order": 7},
     "history":    {"name": "历史", "icon": "📜", "order": 8},
     "politics":   {"name": "道法", "icon": "⚖️", "order": 9},
-    "psychology": {"name": "心理", "icon": "💚", "order": 10},
 }
 
 DOMAIN_NAMES = {
