@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
   { path: '/', component: () => import('../views/StudentHome.vue') },
+  { path: '/graph', component: () => import('../views/SubjectGraph.vue') },
   { path: '/map', component: () => import('../views/KnowledgeMap.vue') },
   { path: '/map/:subject', component: () => import('../views/KnowledgeMap.vue') },
   { path: '/learn/:nodeId', component: () => import('../views/Learn.vue') },

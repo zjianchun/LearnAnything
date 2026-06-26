@@ -7,6 +7,7 @@
       <router-link to="/" class="nav-brand">📚 LearnAnything</router-link>
       <div class="nav-links">
         <router-link to="/">首页</router-link>
+        <router-link to="/graph">全科图谱</router-link>
         <router-link to="/map">知识地图</router-link>
         <router-link to="/diagnosis">诊断</router-link>
         <router-link to="/practice">练习</router-link>
