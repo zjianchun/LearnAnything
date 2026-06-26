@@ -1,0 +1,40 @@
+services:
+  backend:
+    build: ./backend
+    restart: unless-stopped
+    volumes:
+      - ./data:/app/data
+      - ./courseware:/app/courseware
+      - db_data:/app/db
+    environment:
+      - MINIMAX_API_KEY=${MINIMAX_API_KEY}
+    networks:
+      - app
+
+  frontend:
+    build: ./frontend
+    restart: unless-stopped
+    networks:
+      - app
+
+  nginx:
+    image: nginx:alpine
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./courseware:/var/www/courseware:ro
+      - ./certs:/etc/nginx/certs:ro
+    depends_on:
+      - backend
+      - frontend
+    networks:
+      - app
+
+volumes:
+  db_data:
+
+networks:
+  app:
