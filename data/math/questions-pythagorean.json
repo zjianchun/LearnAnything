@@ -1,80 +1,149 @@
 [
   {
     "id": "math-q-pyth-001",
-    "node_id": "math-m-pythagorean",
+    "node_id": "math-m-pythagorean-theorem",
     "source": "人教版八下",
     "type": "choice",
     "difficulty": 1,
     "question": "在Rt△ABC中，∠C=90°，若a=3, b=4，则c=",
-    "options": ["5", "7", "25", "√7"],
+    "options": [
+      "5",
+      "7",
+      "25",
+      "√7"
+    ],
     "answer": "5",
-    "steps": ["勾股定理：a²+b²=c²", "3²+4²=9+16=25", "c=√25=5"],
-    "common_errors": [{"error": "直接把a+b当c", "hint": "勾股定理是平方关系，不是直接相加"}],
+    "steps": [
+      "勾股定理：a²+b²=c²",
+      "3²+4²=9+16=25",
+      "c=√25=5"
+    ],
+    "common_errors": [
+      {
+        "error": "直接把a+b当c",
+        "hint": "勾股定理是平方关系，不是直接相加"
+      }
+    ],
     "exam_frequency": 3
   },
   {
     "id": "math-q-pyth-002",
-    "node_id": "math-m-pythagorean",
+    "node_id": "math-m-pythagorean-theorem",
     "source": "人教版八下",
     "type": "solve",
     "difficulty": 1,
     "question": "在Rt△ABC中，∠C=90°，AC=5, AB=13，求BC",
     "options": [],
     "answer": "BC=12",
-    "steps": ["AB是斜边（直角的对边）", "AC²+BC²=AB²", "25+BC²=169", "BC²=144, BC=12"],
-    "common_errors": [{"error": "搞错哪条是斜边", "hint": "直角的对边才是斜边（最长边），∠C=90°时AB是斜边"}],
+    "steps": [
+      "AB是斜边（直角的对边）",
+      "AC²+BC²=AB²",
+      "25+BC²=169",
+      "BC²=144, BC=12"
+    ],
+    "common_errors": [
+      {
+        "error": "搞错哪条是斜边",
+        "hint": "直角的对边才是斜边（最长边），∠C=90°时AB是斜边"
+      }
+    ],
     "exam_frequency": 4
   },
   {
     "id": "math-q-pyth-003",
-    "node_id": "math-m-pythagorean",
+    "node_id": "math-m-pythagorean-theorem",
     "source": "2023武汉期末",
     "type": "solve",
     "difficulty": 2,
     "question": "一个梯子长5m，梯脚距墙底3m，梯子顶端距地面多高？",
     "options": [],
     "answer": "4m",
-    "steps": ["墙、地面、梯子构成直角三角形", "梯子=斜边=5m，梯脚距墙=一直角边=3m", "另一直角边²=5²-3²=25-9=16", "高=4m"],
-    "common_errors": [{"error": "没有建立直角三角形模型", "hint": "墙和地面垂直→直角，梯子是斜边"}],
+    "steps": [
+      "墙、地面、梯子构成直角三角形",
+      "梯子=斜边=5m，梯脚距墙=一直角边=3m",
+      "另一直角边²=5²-3²=25-9=16",
+      "高=4m"
+    ],
+    "common_errors": [
+      {
+        "error": "没有建立直角三角形模型",
+        "hint": "墙和地面垂直→直角，梯子是斜边"
+      }
+    ],
     "exam_frequency": 5
   },
   {
     "id": "math-q-pyth-004",
-    "node_id": "math-m-pythagorean",
+    "node_id": "math-m-pythagorean-theorem",
     "source": "2024武汉中考",
     "type": "solve",
     "difficulty": 3,
     "question": "如图，等腰三角形ABC中，AB=AC=10cm，底边BC=12cm，求底边上的高AD",
     "options": [],
     "answer": "AD=8cm",
-    "steps": ["等腰三角形底边上的高平分底边", "BD=BC/2=6cm", "在Rt△ABD中：AB²=AD²+BD²", "100=AD²+36", "AD²=64, AD=8cm"],
-    "common_errors": [{"error": "不知道高平分底边", "hint": "等腰三角形三线合一：底边上的高=中线=角平分线"}],
+    "steps": [
+      "等腰三角形底边上的高平分底边",
+      "BD=BC/2=6cm",
+      "在Rt△ABD中：AB²=AD²+BD²",
+      "100=AD²+36",
+      "AD²=64, AD=8cm"
+    ],
+    "common_errors": [
+      {
+        "error": "不知道高平分底边",
+        "hint": "等腰三角形三线合一：底边上的高=中线=角平分线"
+      }
+    ],
     "exam_frequency": 5
   },
   {
     "id": "math-q-pyth-005",
-    "node_id": "math-m-pythagorean-converse",
+    "node_id": "math-m-pythagorean-theorem",
     "source": "2023武汉模拟",
     "type": "choice",
     "difficulty": 2,
     "question": "下列长度的三条线段能组成直角三角形的是",
-    "options": ["3, 4, 6", "5, 12, 13", "1, 2, 3", "6, 7, 8"],
+    "options": [
+      "3, 4, 6",
+      "5, 12, 13",
+      "1, 2, 3",
+      "6, 7, 8"
+    ],
     "answer": "5, 12, 13",
-    "steps": ["勾股定理的逆定理：若a²+b²=c²则为直角三角形", "验证5,12,13：5²+12²=25+144=169=13² ✓", "其他选项不满足"],
-    "common_errors": [{"error": "忘记验证最大边", "hint": "要用最大的数作为c来验证a²+b²=c²"}],
+    "steps": [
+      "勾股定理的逆定理：若a²+b²=c²则为直角三角形",
+      "验证5,12,13：5²+12²=25+144=169=13² ✓",
+      "其他选项不满足"
+    ],
+    "common_errors": [
+      {
+        "error": "忘记验证最大边",
+        "hint": "要用最大的数作为c来验证a²+b²=c²"
+      }
+    ],
     "exam_frequency": 4
   },
   {
     "id": "math-q-pyth-006",
-    "node_id": "math-m-pythagorean",
+    "node_id": "math-m-pythagorean-theorem",
     "source": "2022武汉中考",
     "type": "solve",
     "difficulty": 3,
     "question": "在平面直角坐标系中，点A(3,0)，点B(0,4)，求线段AB的长度",
     "options": [],
     "answer": "AB=5",
-    "steps": ["A在x轴上，B在y轴上，O为原点", "OA=3, OB=4, ∠AOB=90°", "由勾股定理：AB²=OA²+OB²=9+16=25", "AB=5"],
-    "common_errors": [{"error": "坐标和距离关系搞混", "hint": "从原点到(3,0)距离是3，到(0,4)距离是4，两轴垂直形成直角三角形"}],
+    "steps": [
+      "A在x轴上，B在y轴上，O为原点",
+      "OA=3, OB=4, ∠AOB=90°",
+      "由勾股定理：AB²=OA²+OB²=9+16=25",
+      "AB=5"
+    ],
+    "common_errors": [
+      {
+        "error": "坐标和距离关系搞混",
+        "hint": "从原点到(3,0)距离是3，到(0,4)距离是4，两轴垂直形成直角三角形"
+      }
+    ],
     "exam_frequency": 5
   }
 ]

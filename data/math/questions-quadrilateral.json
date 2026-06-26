@@ -1,80 +1,164 @@
 [
   {
     "id": "math-q-quad-001",
-    "node_id": "math-m-quadrilateral-basic",
+    "node_id": "math-m-quadrilateral",
     "source": "人教版八下",
     "type": "choice",
     "difficulty": 1,
     "question": "平行四边形ABCD中，若∠A=70°，则∠B=",
-    "options": ["70°", "110°", "120°", "90°"],
+    "options": [
+      "70°",
+      "110°",
+      "120°",
+      "90°"
+    ],
     "answer": "110°",
-    "steps": ["平行四边形相邻角互补", "∠A+∠B=180°", "∠B=180°-70°=110°"],
-    "common_errors": [{"error": "以为对角相等就行了", "hint": "对角相等（∠A=∠C），但相邻角互补（∠A+∠B=180°）"}],
+    "steps": [
+      "平行四边形相邻角互补",
+      "∠A+∠B=180°",
+      "∠B=180°-70°=110°"
+    ],
+    "common_errors": [
+      {
+        "error": "以为对角相等就行了",
+        "hint": "对角相等（∠A=∠C），但相邻角互补（∠A+∠B=180°）"
+      }
+    ],
     "exam_frequency": 3
   },
   {
     "id": "math-q-quad-002",
-    "node_id": "math-m-quadrilateral-basic",
+    "node_id": "math-m-quadrilateral",
     "source": "2023武汉期中",
     "type": "choice",
     "difficulty": 2,
     "question": "平行四边形ABCD中，对角线AC和BD交于点O。若AO=3cm，BO=4cm，则对角线AC和BD的长度为",
-    "options": ["AC=6cm, BD=8cm", "AC=3cm, BD=4cm", "AC=6cm, BD=4cm", "AC=8cm, BD=6cm"],
+    "options": [
+      "AC=6cm, BD=8cm",
+      "AC=3cm, BD=4cm",
+      "AC=6cm, BD=4cm",
+      "AC=8cm, BD=6cm"
+    ],
     "answer": "AC=6cm, BD=8cm",
-    "steps": ["平行四边形对角线互相平分", "AC=2×AO=6cm", "BD=2×BO=8cm"],
-    "common_errors": [{"error": "忘记对角线互相平分", "hint": "平行四边形的对角线交点是各自的中点"}],
+    "steps": [
+      "平行四边形对角线互相平分",
+      "AC=2×AO=6cm",
+      "BD=2×BO=8cm"
+    ],
+    "common_errors": [
+      {
+        "error": "忘记对角线互相平分",
+        "hint": "平行四边形的对角线交点是各自的中点"
+      }
+    ],
     "exam_frequency": 4
   },
   {
     "id": "math-q-quad-003",
-    "node_id": "math-m-rectangle",
+    "node_id": "math-m-special-quadrilateral",
     "source": "2023武汉模拟",
     "type": "choice",
     "difficulty": 2,
     "question": "矩形ABCD中，对角线AC=10cm，则对角线BD=___cm，OA=___cm（O为对角线交点）",
-    "options": ["BD=10, OA=5", "BD=10, OA=10", "BD=5, OA=5", "BD=5, OA=2.5"],
+    "options": [
+      "BD=10, OA=5",
+      "BD=10, OA=10",
+      "BD=5, OA=5",
+      "BD=5, OA=2.5"
+    ],
     "answer": "BD=10, OA=5",
-    "steps": ["矩形对角线相等：BD=AC=10cm", "矩形对角线互相平分：OA=AC/2=5cm"],
-    "common_errors": [{"error": "矩形vs平行四边形性质混淆", "hint": "矩形比平行四边形多一条性质：对角线相等"}],
+    "steps": [
+      "矩形对角线相等：BD=AC=10cm",
+      "矩形对角线互相平分：OA=AC/2=5cm"
+    ],
+    "common_errors": [
+      {
+        "error": "矩形vs平行四边形性质混淆",
+        "hint": "矩形比平行四边形多一条性质：对角线相等"
+      }
+    ],
     "exam_frequency": 4
   },
   {
     "id": "math-q-quad-004",
-    "node_id": "math-m-rhombus",
+    "node_id": "math-m-special-quadrilateral",
     "source": "2024武汉中考",
     "type": "solve",
     "difficulty": 2,
     "question": "菱形ABCD的对角线AC=6cm，BD=8cm，求菱形的面积和边长",
     "options": [],
     "answer": "面积=24cm²，边长=5cm",
-    "steps": ["菱形面积=对角线乘积÷2 = 6×8÷2 = 24cm²", "对角线互相垂直平分：AO=3, BO=4", "由勾股定理：AB=√(3²+4²)=5cm"],
-    "common_errors": [{"error": "面积公式记错", "hint": "菱形面积=½×d₁×d₂（两对角线乘积的一半）"}, {"error": "求边长时忘了用勾股", "hint": "对角线垂直平分后形成直角三角形，用勾股定理求斜边"}],
+    "steps": [
+      "菱形面积=对角线乘积÷2 = 6×8÷2 = 24cm²",
+      "对角线互相垂直平分：AO=3, BO=4",
+      "由勾股定理：AB=√(3²+4²)=5cm"
+    ],
+    "common_errors": [
+      {
+        "error": "面积公式记错",
+        "hint": "菱形面积=½×d₁×d₂（两对角线乘积的一半）"
+      },
+      {
+        "error": "求边长时忘了用勾股",
+        "hint": "对角线垂直平分后形成直角三角形，用勾股定理求斜边"
+      }
+    ],
     "exam_frequency": 5
   },
   {
     "id": "math-q-quad-005",
-    "node_id": "math-m-quadrilateral-basic",
+    "node_id": "math-m-quadrilateral",
     "source": "2022武汉中考",
     "type": "choice",
     "difficulty": 2,
     "question": "下列条件能判定四边形ABCD是平行四边形的是",
-    "options": ["AB=CD, AD=BC", "AB∥CD, AD=BC", "AB=CD, AB∥CD", "∠A=∠B, ∠C=∠D"],
+    "options": [
+      "AB=CD, AD=BC",
+      "AB∥CD, AD=BC",
+      "AB=CD, AB∥CD",
+      "∠A=∠B, ∠C=∠D"
+    ],
     "answer": "AB=CD, AB∥CD",
-    "steps": ["判定方法：一组对边平行且相等 → 平行四边形", "选项A只说相等没说平行不够", "选项B一平行一相等但不是同一组边", "选项C正确：同一组对边平行且相等"],
-    "common_errors": [{"error": "混淆判定条件", "hint": "一组对边平行且相等（必须是同一组对边）"}],
+    "steps": [
+      "判定方法：一组对边平行且相等 → 平行四边形",
+      "选项A只说相等没说平行不够",
+      "选项B一平行一相等但不是同一组边",
+      "选项C正确：同一组对边平行且相等"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆判定条件",
+        "hint": "一组对边平行且相等（必须是同一组对边）"
+      }
+    ],
     "exam_frequency": 5
   },
   {
     "id": "math-q-quad-006",
-    "node_id": "math-m-square",
+    "node_id": "math-m-special-quadrilateral",
     "source": "人教版八下",
     "type": "choice",
     "difficulty": 1,
     "question": "正方形具有而矩形不一定具有的性质是",
-    "options": ["对角线相等", "对角线互相平分", "对角线互相垂直", "四个角都是直角"],
+    "options": [
+      "对角线相等",
+      "对角线互相平分",
+      "对角线互相垂直",
+      "四个角都是直角"
+    ],
     "answer": "对角线互相垂直",
-    "steps": ["正方形=矩形+菱形", "矩形有：对角线相等、互相平分、四个直角", "菱形额外有：对角线互相垂直、四边相等", "所以正方形有但矩形不一定有的是对角线互相垂直"],
-    "common_errors": [{"error": "四边形性质包含关系不清", "hint": "正方形⊂矩形⊂平行四边形，正方形⊂菱形⊂平行四边形"}],
+    "steps": [
+      "正方形=矩形+菱形",
+      "矩形有：对角线相等、互相平分、四个直角",
+      "菱形额外有：对角线互相垂直、四边相等",
+      "所以正方形有但矩形不一定有的是对角线互相垂直"
+    ],
+    "common_errors": [
+      {
+        "error": "四边形性质包含关系不清",
+        "hint": "正方形⊂矩形⊂平行四边形，正方形⊂菱形⊂平行四边形"
+      }
+    ],
     "exam_frequency": 3
   }
 ]

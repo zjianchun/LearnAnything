@@ -21,12 +21,11 @@ services:
     image: nginx:alpine
     restart: unless-stopped
     ports:
-      - "80:80"
-      - "443:443"
+      # cloudflared tunnel 回源到此端口（纯HTTP，TLS由Cloudflare边缘终结）
+      - "127.0.0.1:8088:80"
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
       - ./courseware:/var/www/courseware:ro
-      - ./certs:/etc/nginx/certs:ro
     depends_on:
       - backend
       - frontend

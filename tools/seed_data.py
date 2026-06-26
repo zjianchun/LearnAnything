@@ -17,11 +17,12 @@ async def load_tree(db, filepath: Path):
     for n in nodes:
         await db.execute(
             """INSERT OR REPLACE INTO knowledge_nodes
-               (node_id, subject, name, grade, semester, chapter, prerequisites, exam_weight, exam_points, estimated_minutes)
-               VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+               (node_id, subject, name, grade, semester, chapter, prerequisites, exam_weight, exam_points, estimated_minutes, teachany_node, curriculum_points)
+               VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
             (n["node_id"], n["subject"], n["name"], n["grade"], n["semester"],
              n["chapter"], json.dumps(n["prerequisites"], ensure_ascii=False),
-             n["exam_weight"], n["exam_points"], n["estimated_minutes"])
+             n["exam_weight"], n["exam_points"], n["estimated_minutes"],
+             n.get("teachany_node"), json.dumps(n.get("curriculum_points", []), ensure_ascii=False))
         )
     print(f"  loaded {len(nodes)} nodes from {filepath.name}")
 

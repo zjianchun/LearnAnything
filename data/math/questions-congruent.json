@@ -1,80 +1,160 @@
 [
   {
     "id": "math-q-cg-001",
-    "node_id": "math-m-congruent-triangles",
+    "node_id": "math-m-geometry-congruent-triangles",
     "source": "人教版八上课本",
     "type": "choice",
     "difficulty": 1,
     "question": "下列说法正确的是",
-    "options": ["全等三角形的面积相等", "面积相等的三角形全等", "形状相同的三角形全等", "周长相等的三角形全等"],
+    "options": [
+      "全等三角形的面积相等",
+      "面积相等的三角形全等",
+      "形状相同的三角形全等",
+      "周长相等的三角形全等"
+    ],
     "answer": "全等三角形的面积相等",
-    "steps": ["全等三角形形状大小完全相同", "因此面积必然相等", "但面积相等的三角形不一定全等（如底和高不同组合）"],
-    "common_errors": [{"error": "混淆充分条件和必要条件", "hint": "全等→面积相等（对），面积相等→全等（错）"}],
+    "steps": [
+      "全等三角形形状大小完全相同",
+      "因此面积必然相等",
+      "但面积相等的三角形不一定全等（如底和高不同组合）"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆充分条件和必要条件",
+        "hint": "全等→面积相等（对），面积相等→全等（错）"
+      }
+    ],
     "exam_frequency": 3
   },
   {
     "id": "math-q-cg-002",
-    "node_id": "math-m-congruent-sss-sas",
+    "node_id": "math-m-geometry-congruent-triangles",
     "source": "人教版八上练习",
     "type": "choice",
     "difficulty": 1,
     "question": "如图，AB=DC，AC=DB，则△ABC≌△DCB的依据是",
-    "options": ["SSS", "SAS", "ASA", "AAS"],
+    "options": [
+      "SSS",
+      "SAS",
+      "ASA",
+      "AAS"
+    ],
     "answer": "SSS",
-    "steps": ["AB=DC（已知）", "AC=DB（已知）", "BC=CB（公共边）", "三边对应相等，用SSS判定"],
-    "common_errors": [{"error": "忘记公共边", "hint": "两个三角形共用BC边，这是第三组相等的边"}],
+    "steps": [
+      "AB=DC（已知）",
+      "AC=DB（已知）",
+      "BC=CB（公共边）",
+      "三边对应相等，用SSS判定"
+    ],
+    "common_errors": [
+      {
+        "error": "忘记公共边",
+        "hint": "两个三角形共用BC边，这是第三组相等的边"
+      }
+    ],
     "exam_frequency": 4
   },
   {
     "id": "math-q-cg-003",
-    "node_id": "math-m-congruent-sss-sas",
+    "node_id": "math-m-geometry-congruent-triangles",
     "source": "2023武汉期中",
     "type": "choice",
     "difficulty": 2,
     "question": "如图，OA=OB，OC=OD，则△OAC≌△OBD的判定依据是",
-    "options": ["SAS", "SSS", "ASA", "HL"],
+    "options": [
+      "SAS",
+      "SSS",
+      "ASA",
+      "HL"
+    ],
     "answer": "SAS",
-    "steps": ["OA=OB（已知）", "∠AOC=∠BOD（对顶角相等）", "OC=OD（已知）", "夹角相等的两边对应相等，用SAS"],
-    "common_errors": [{"error": "没看出对顶角", "hint": "O是两条线段的交点，∠AOC和∠BOD是对顶角"}],
+    "steps": [
+      "OA=OB（已知）",
+      "∠AOC=∠BOD（对顶角相等）",
+      "OC=OD（已知）",
+      "夹角相等的两边对应相等，用SAS"
+    ],
+    "common_errors": [
+      {
+        "error": "没看出对顶角",
+        "hint": "O是两条线段的交点，∠AOC和∠BOD是对顶角"
+      }
+    ],
     "exam_frequency": 5
   },
   {
     "id": "math-q-cg-004",
-    "node_id": "math-m-congruent-asa-aas",
+    "node_id": "math-m-geometry-congruent-triangles",
     "source": "2022武汉中考",
     "type": "solve",
     "difficulty": 2,
     "question": "如图，∠A=∠D，∠B=∠E，BC=EF，求证：△ABC≌△DEF",
     "options": [],
     "answer": "由AAS判定，△ABC≌△DEF",
-    "steps": ["∠A=∠D（已知）", "∠B=∠E（已知）", "BC=EF（已知）", "两角和其中一角的对边相等，用AAS判定"],
-    "common_errors": [{"error": "混淆ASA和AAS", "hint": "ASA是两角及夹边，AAS是两角及其中一角的对边。本题BC是∠A的对边"}],
+    "steps": [
+      "∠A=∠D（已知）",
+      "∠B=∠E（已知）",
+      "BC=EF（已知）",
+      "两角和其中一角的对边相等，用AAS判定"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆ASA和AAS",
+        "hint": "ASA是两角及夹边，AAS是两角及其中一角的对边。本题BC是∠A的对边"
+      }
+    ],
     "exam_frequency": 5
   },
   {
     "id": "math-q-cg-005",
-    "node_id": "math-m-congruent-asa-aas",
+    "node_id": "math-m-geometry-congruent-triangles",
     "source": "2024武汉模拟",
     "type": "solve",
     "difficulty": 3,
     "question": "如图，点E在AB上，点F在CD上，BE=DF，AB∥CD。求证：AE=CF",
     "options": [],
     "answer": "由AAS判定△AEF≌△CFD推出AE=CF",
-    "steps": ["AB∥CD → ∠A=∠C（平行线内错角相等）", "∠AEB=∠CFD（对顶角相等）", "BE=DF（已知）", "由AAS得△ABE≌△CDF", "全等三角形对应边相等：AE=CF"],
-    "common_errors": [{"error": "找不到相等的角", "hint": "平行线产生内错角相等，交点处产生对顶角"}],
+    "steps": [
+      "AB∥CD → ∠A=∠C（平行线内错角相等）",
+      "∠AEB=∠CFD（对顶角相等）",
+      "BE=DF（已知）",
+      "由AAS得△ABE≌△CDF",
+      "全等三角形对应边相等：AE=CF"
+    ],
+    "common_errors": [
+      {
+        "error": "找不到相等的角",
+        "hint": "平行线产生内错角相等，交点处产生对顶角"
+      }
+    ],
     "exam_frequency": 5
   },
   {
     "id": "math-q-cg-006",
-    "node_id": "math-m-congruent-triangles",
+    "node_id": "math-m-geometry-congruent-triangles",
     "source": "人教版八上",
     "type": "choice",
     "difficulty": 1,
     "question": "△ABC≌△DEF，AB=3cm，BC=4cm，AC=5cm，则EF的长为",
-    "options": ["3cm", "4cm", "5cm", "无法确定"],
+    "options": [
+      "3cm",
+      "4cm",
+      "5cm",
+      "无法确定"
+    ],
     "answer": "4cm",
-    "steps": ["全等三角形对应边相等", "对应关系：A↔D, B↔E, C↔F", "BC对应EF", "所以EF=BC=4cm"],
-    "common_errors": [{"error": "对应关系搞错", "hint": "△ABC≌△DEF中，字母顺序决定对应关系：B↔E，C↔F，所以BC↔EF"}],
+    "steps": [
+      "全等三角形对应边相等",
+      "对应关系：A↔D, B↔E, C↔F",
+      "BC对应EF",
+      "所以EF=BC=4cm"
+    ],
+    "common_errors": [
+      {
+        "error": "对应关系搞错",
+        "hint": "△ABC≌△DEF中，字母顺序决定对应关系：B↔E，C↔F，所以BC↔EF"
+      }
+    ],
     "exam_frequency": 3
   }
 ]

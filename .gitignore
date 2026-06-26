@@ -8,8 +8,10 @@ venv/
 node_modules/
 dist/
 
-# DB
+# DB（运行时SQLite文件，源码目录backend/db/不忽略）
 *.db
+*.db-shm
+*.db-wal
 
 # Env
 .env
@@ -24,6 +26,3 @@ Thumbs.db
 
 # TTS generated audio (large files)
 courseware/**/tts/*.mp3
-
-# Docker volumes
-db/
