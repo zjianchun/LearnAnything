@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
   { path: '/', component: () => import('../views/StudentHome.vue') },
+  { path: '/map', component: () => import('../views/KnowledgeMap.vue') },
+  { path: '/map/:subject', component: () => import('../views/KnowledgeMap.vue') },
   { path: '/learn/:nodeId', component: () => import('../views/Learn.vue') },
   { path: '/practice', component: () => import('../views/Practice.vue') },
   { path: '/practice/:nodeId', component: () => import('../views/Practice.vue') },

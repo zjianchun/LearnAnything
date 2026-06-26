@@ -7,11 +7,11 @@
       <router-link to="/" class="nav-brand">📚 LearnAnything</router-link>
       <div class="nav-links">
         <router-link to="/">首页</router-link>
+        <router-link to="/map">知识地图</router-link>
         <router-link to="/diagnosis">诊断</router-link>
         <router-link to="/practice">练习</router-link>
         <router-link to="/errors">错题本</router-link>
         <router-link to="/progress">进度</router-link>
-        <router-link to="/parent">家长</router-link>
       </div>
     </nav>
     <main class="main-content">

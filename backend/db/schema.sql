@@ -11,7 +11,8 @@ CREATE TABLE IF NOT EXISTS knowledge_nodes (
     estimated_minutes INTEGER DEFAULT 30,
     courseware_path TEXT,
     teachany_node TEXT,                 -- 官方TeachAny课件挂载点(node_id)
-    curriculum_points TEXT DEFAULT '[]' -- 课标要求(JSON)，供课件生成与教材对齐
+    curriculum_points TEXT DEFAULT '[]', -- 课标要求(JSON)，供课件生成与教材对齐
+    domain TEXT                         -- 领域(number-algebra/geometry/statistics等)，知识地图分组用
 );
 
 CREATE TABLE IF NOT EXISTS mastery_records (

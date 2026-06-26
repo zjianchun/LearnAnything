@@ -5,7 +5,7 @@ from fastapi.staticfiles import StaticFiles
 from pathlib import Path
 
 from db.database import init_db
-from api import diagnosis, questions, stats, study_plan, tts
+from api import diagnosis, questions, stats, study_plan, tts, graph
 
 
 @asynccontextmanager
@@ -14,7 +14,7 @@ async def lifespan(app: FastAPI):
     yield
 
 
-app = FastAPI(title="LearnAnything", version="0.1.0", lifespan=lifespan)
+app = FastAPI(title="LearnAnything", version="0.2.0", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
@@ -28,6 +28,7 @@ app.include_router(questions.router, prefix="/api/questions", tags=["做题"])
 app.include_router(stats.router, prefix="/api/stats", tags=["统计"])
 app.include_router(study_plan.router, prefix="/api/plan", tags=["学习计划"])
 app.include_router(tts.router, prefix="/api/tts", tags=["语音"])
+app.include_router(graph.router, prefix="/api/graph", tags=["知识图谱"])
 
 # 静态课件目录
 courseware_dir = Path(__file__).parent.parent / "courseware"
