@@ -24,5 +24,3 @@ dist/
 .DS_Store
 Thumbs.db
 
-# TTS generated audio (large files)
-courseware/**/tts/*.mp3
