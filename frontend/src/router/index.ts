@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 const routes = [
   { path: '/', component: () => import('../views/StudentHome.vue') },
   { path: '/learn/:nodeId', component: () => import('../views/Learn.vue') },
+  { path: '/practice', component: () => import('../views/Practice.vue') },
   { path: '/practice/:nodeId', component: () => import('../views/Practice.vue') },
   { path: '/diagnosis', component: () => import('../views/Diagnosis.vue') },
   { path: '/errors', component: () => import('../views/ErrorBook.vue') },

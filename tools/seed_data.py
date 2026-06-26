@@ -2,12 +2,14 @@
 import json
 import asyncio
 import sys
+import os
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "backend"))
 from db.database import init_db, get_db
 
-DATA_DIR = Path(__file__).parent.parent / "data"
+# Docker 中 data 挂载在 /app/data，本地则在项目根目录
+DATA_DIR = Path(os.environ.get("DATA_DIR", Path(__file__).parent.parent / "data"))
 
 
 async def load_tree(db, filepath: Path):
@@ -44,14 +46,10 @@ async def main():
     await init_db()
     db = await get_db()
     try:
-        # Load all tree files
         for tree_file in DATA_DIR.rglob("tree.json"):
             await load_tree(db, tree_file)
-
-        # Load all question files
         for q_file in DATA_DIR.rglob("questions-*.json"):
             await load_questions(db, q_file)
-
         await db.commit()
         print("✅ Data loaded successfully!")
     finally:

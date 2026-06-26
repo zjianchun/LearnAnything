@@ -1,0 +1,67 @@
+[
+  {
+    "id": "math-q-ineq-001",
+    "node_id": "math-m-inequality",
+    "source": "人教版八下",
+    "type": "solve",
+    "difficulty": 1,
+    "question": "解不等式：2x - 3 > 5",
+    "options": [],
+    "answer": "x > 4",
+    "steps": ["移项：2x > 5+3=8", "两边除以2：x > 4"],
+    "common_errors": [{"error": "移项变号出错", "hint": "-3移到右边变成+3"}],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-q-ineq-002",
+    "node_id": "math-m-inequality",
+    "source": "人教版八下",
+    "type": "solve",
+    "difficulty": 1,
+    "question": "解不等式：-3x + 6 ≤ 0",
+    "options": [],
+    "answer": "x ≥ 2",
+    "steps": ["移项：-3x ≤ -6", "两边除以-3，不等号变向：x ≥ 2"],
+    "common_errors": [{"error": "除以负数忘记变号", "hint": "不等式两边同乘或同除以负数，不等号方向要反转！"}],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-q-ineq-003",
+    "node_id": "math-m-inequality-system",
+    "source": "2023武汉期末",
+    "type": "solve",
+    "difficulty": 2,
+    "question": "解不等式组：x + 1 > 0 且 2x - 4 < 0",
+    "options": [],
+    "answer": "-1 < x < 2",
+    "steps": ["解①：x > -1", "解②：x < 2", "取交集：-1 < x < 2"],
+    "common_errors": [{"error": "交集并集搞混", "hint": "不等式组求解集用交集（同时满足），口诀：同大取大，同小取小，大小小大取中间"}],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-q-ineq-004",
+    "node_id": "math-m-inequality-system",
+    "source": "2024武汉中考",
+    "type": "solve",
+    "difficulty": 2,
+    "question": "解不等式组：3x - 1 ≥ 2 且 x + 3 > 2x",
+    "options": [],
+    "answer": "1 ≤ x < 3",
+    "steps": ["解①：3x≥3，x≥1", "解②：3>x，即x<3", "取交集：1≤x<3"],
+    "common_errors": [{"error": "不等式②移项出错", "hint": "x+3>2x → 3>2x-x → 3>x"}],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-q-ineq-005",
+    "node_id": "math-m-inequality-application",
+    "source": "2023武汉模拟",
+    "type": "solve",
+    "difficulty": 3,
+    "question": "某商店购进一批商品，每件进价20元，售价不低于25元且不高于35元。若要利润率不低于30%，则售价x的范围是？",
+    "options": [],
+    "answer": "26 ≤ x ≤ 35",
+    "steps": ["售价范围：25≤x≤35", "利润率≥30%：(x-20)/20≥0.3", "x-20≥6，x≥26", "与原范围取交集：26≤x≤35"],
+    "common_errors": [{"error": "利润率公式搞错", "hint": "利润率=利润/成本=(售价-进价)/进价"}],
+    "exam_frequency": 4
+  }
+]

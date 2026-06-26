@@ -24,16 +24,40 @@
     "estimated_minutes": 25
   },
   {
+    "node_id": "math-m-triangle-exterior-angle",
+    "subject": "math",
+    "name": "三角形的外角",
+    "grade": 8,
+    "semester": 1,
+    "chapter": "第11章 三角形",
+    "prerequisites": ["math-m-triangle-angles"],
+    "exam_weight": "medium",
+    "exam_points": "3-5",
+    "estimated_minutes": 20
+  },
+  {
+    "node_id": "math-m-polygon-interior-angle",
+    "subject": "math",
+    "name": "多边形内角和",
+    "grade": 8,
+    "semester": 1,
+    "chapter": "第11章 三角形",
+    "prerequisites": ["math-m-triangle-angles"],
+    "exam_weight": "medium",
+    "exam_points": "3-5",
+    "estimated_minutes": 25
+  },
+  {
     "node_id": "math-m-congruent-triangles",
     "subject": "math",
-    "name": "全等三角形",
+    "name": "全等三角形的概念与性质",
     "grade": 8,
     "semester": 1,
     "chapter": "第12章 全等三角形",
     "prerequisites": ["math-m-triangle-angles"],
     "exam_weight": "high",
     "exam_points": "8-12",
-    "estimated_minutes": 60
+    "estimated_minutes": 40
   },
   {
     "node_id": "math-m-congruent-sss-sas",
@@ -60,16 +84,28 @@
     "estimated_minutes": 45
   },
   {
-    "node_id": "math-m-isosceles-triangle",
+    "node_id": "math-m-congruent-hl",
     "subject": "math",
-    "name": "等腰三角形",
+    "name": "全等判定HL（直角三角形）",
     "grade": 8,
     "semester": 1,
-    "chapter": "第13章 轴对称",
+    "chapter": "第12章 全等三角形",
+    "prerequisites": ["math-m-congruent-asa-aas"],
+    "exam_weight": "medium",
+    "exam_points": "4-6",
+    "estimated_minutes": 30
+  },
+  {
+    "node_id": "math-m-angle-bisector",
+    "subject": "math",
+    "name": "角平分线的性质",
+    "grade": 8,
+    "semester": 1,
+    "chapter": "第12章 全等三角形",
     "prerequisites": ["math-m-congruent-asa-aas"],
     "exam_weight": "high",
     "exam_points": "6-8",
-    "estimated_minutes": 40
+    "estimated_minutes": 35
   },
   {
     "node_id": "math-m-axial-symmetry",
@@ -81,6 +117,42 @@
     "prerequisites": ["math-m-triangle-sides"],
     "exam_weight": "medium",
     "exam_points": "3-5",
+    "estimated_minutes": 30
+  },
+  {
+    "node_id": "math-m-isosceles-triangle",
+    "subject": "math",
+    "name": "等腰三角形",
+    "grade": 8,
+    "semester": 1,
+    "chapter": "第13章 轴对称",
+    "prerequisites": ["math-m-axial-symmetry", "math-m-congruent-asa-aas"],
+    "exam_weight": "high",
+    "exam_points": "6-10",
+    "estimated_minutes": 45
+  },
+  {
+    "node_id": "math-m-equilateral-triangle",
+    "subject": "math",
+    "name": "等边三角形",
+    "grade": 8,
+    "semester": 1,
+    "chapter": "第13章 轴对称",
+    "prerequisites": ["math-m-isosceles-triangle"],
+    "exam_weight": "medium",
+    "exam_points": "4-6",
+    "estimated_minutes": 30
+  },
+  {
+    "node_id": "math-m-perpendicular-bisector",
+    "subject": "math",
+    "name": "线段垂直平分线",
+    "grade": 8,
+    "semester": 1,
+    "chapter": "第13章 轴对称",
+    "prerequisites": ["math-m-axial-symmetry"],
+    "exam_weight": "medium",
+    "exam_points": "4-6",
     "estimated_minutes": 30
   },
   {
@@ -132,40 +204,28 @@
     "estimated_minutes": 45
   },
   {
+    "node_id": "math-m-fraction-operations",
+    "subject": "math",
+    "name": "分式的运算",
+    "grade": 8,
+    "semester": 1,
+    "chapter": "第15章 分式",
+    "prerequisites": ["math-m-fraction-expression"],
+    "exam_weight": "high",
+    "exam_points": "6-8",
+    "estimated_minutes": 45
+  },
+  {
     "node_id": "math-m-fraction-equation",
     "subject": "math",
     "name": "分式方程",
     "grade": 8,
     "semester": 1,
     "chapter": "第15章 分式",
-    "prerequisites": ["math-m-fraction-expression"],
+    "prerequisites": ["math-m-fraction-operations"],
     "exam_weight": "high",
     "exam_points": "8-10",
     "estimated_minutes": 50
-  },
-  {
-    "node_id": "math-m-quadrilateral-basic",
-    "subject": "math",
-    "name": "多边形与平行四边形",
-    "grade": 8,
-    "semester": 2,
-    "chapter": "第18章 平行四边形",
-    "prerequisites": ["math-m-triangle-angles", "math-7-parallel-lines"],
-    "exam_weight": "high",
-    "exam_points": "8-12",
-    "estimated_minutes": 45
-  },
-  {
-    "node_id": "math-m-special-quadrilateral",
-    "subject": "math",
-    "name": "矩形、菱形、正方形",
-    "grade": 8,
-    "semester": 2,
-    "chapter": "第18章 平行四边形",
-    "prerequisites": ["math-m-quadrilateral-basic"],
-    "exam_weight": "high",
-    "exam_points": "8-12",
-    "estimated_minutes": 60
   },
   {
     "node_id": "math-m-linear-equation-system",
@@ -178,6 +238,18 @@
     "exam_weight": "high",
     "exam_points": "8-10",
     "estimated_minutes": 50
+  },
+  {
+    "node_id": "math-m-equation-system-application",
+    "subject": "math",
+    "name": "二元一次方程组的应用",
+    "grade": 8,
+    "semester": 2,
+    "chapter": "第16章 二元一次方程组",
+    "prerequisites": ["math-m-linear-equation-system"],
+    "exam_weight": "high",
+    "exam_points": "8-10",
+    "estimated_minutes": 45
   },
   {
     "node_id": "math-m-inequality",
@@ -204,16 +276,64 @@
     "estimated_minutes": 35
   },
   {
-    "node_id": "math-m-linear-function",
+    "node_id": "math-m-inequality-application",
     "subject": "math",
-    "name": "一次函数",
+    "name": "不等式的实际应用",
     "grade": 8,
     "semester": 2,
-    "chapter": "第19章 一次函数",
-    "prerequisites": ["math-m-linear-equation-system", "math-7-coordinate-system"],
+    "chapter": "第17章 不等式",
+    "prerequisites": ["math-m-inequality-system"],
+    "exam_weight": "medium",
+    "exam_points": "5-8",
+    "estimated_minutes": 35
+  },
+  {
+    "node_id": "math-m-quadrilateral-basic",
+    "subject": "math",
+    "name": "平行四边形",
+    "grade": 8,
+    "semester": 2,
+    "chapter": "第18章 平行四边形",
+    "prerequisites": ["math-m-congruent-asa-aas", "math-7-parallel-lines"],
     "exam_weight": "high",
-    "exam_points": "10-12",
-    "estimated_minutes": 60
+    "exam_points": "8-12",
+    "estimated_minutes": 50
+  },
+  {
+    "node_id": "math-m-rectangle",
+    "subject": "math",
+    "name": "矩形",
+    "grade": 8,
+    "semester": 2,
+    "chapter": "第18章 平行四边形",
+    "prerequisites": ["math-m-quadrilateral-basic"],
+    "exam_weight": "high",
+    "exam_points": "6-10",
+    "estimated_minutes": 40
+  },
+  {
+    "node_id": "math-m-rhombus",
+    "subject": "math",
+    "name": "菱形",
+    "grade": 8,
+    "semester": 2,
+    "chapter": "第18章 平行四边形",
+    "prerequisites": ["math-m-quadrilateral-basic"],
+    "exam_weight": "high",
+    "exam_points": "6-10",
+    "estimated_minutes": 40
+  },
+  {
+    "node_id": "math-m-square",
+    "subject": "math",
+    "name": "正方形",
+    "grade": 8,
+    "semester": 2,
+    "chapter": "第18章 平行四边形",
+    "prerequisites": ["math-m-rectangle", "math-m-rhombus"],
+    "exam_weight": "medium",
+    "exam_points": "4-6",
+    "estimated_minutes": 30
   },
   {
     "node_id": "math-m-proportional-function",
@@ -228,13 +348,37 @@
     "estimated_minutes": 30
   },
   {
+    "node_id": "math-m-linear-function",
+    "subject": "math",
+    "name": "一次函数",
+    "grade": 8,
+    "semester": 2,
+    "chapter": "第19章 一次函数",
+    "prerequisites": ["math-m-proportional-function", "math-m-linear-equation-system"],
+    "exam_weight": "high",
+    "exam_points": "10-12",
+    "estimated_minutes": 60
+  },
+  {
+    "node_id": "math-m-linear-function-graph",
+    "subject": "math",
+    "name": "一次函数的图象与性质",
+    "grade": 8,
+    "semester": 2,
+    "chapter": "第19章 一次函数",
+    "prerequisites": ["math-m-linear-function"],
+    "exam_weight": "high",
+    "exam_points": "8-10",
+    "estimated_minutes": 45
+  },
+  {
     "node_id": "math-m-linear-function-application",
     "subject": "math",
     "name": "一次函数与方程不等式",
     "grade": 8,
     "semester": 2,
     "chapter": "第19章 一次函数",
-    "prerequisites": ["math-m-linear-function", "math-m-inequality"],
+    "prerequisites": ["math-m-linear-function-graph", "math-m-inequality"],
     "exam_weight": "high",
     "exam_points": "10-14",
     "estimated_minutes": 50
@@ -249,6 +393,54 @@
     "prerequisites": [],
     "exam_weight": "medium",
     "exam_points": "5-8",
+    "estimated_minutes": 30
+  },
+  {
+    "node_id": "math-m-square-root",
+    "subject": "math",
+    "name": "二次根式",
+    "grade": 8,
+    "semester": 2,
+    "chapter": "第16章 二次根式",
+    "prerequisites": ["math-7-algebraic-expression"],
+    "exam_weight": "high",
+    "exam_points": "6-8",
+    "estimated_minutes": 40
+  },
+  {
+    "node_id": "math-m-square-root-operations",
+    "subject": "math",
+    "name": "二次根式的运算",
+    "grade": 8,
+    "semester": 2,
+    "chapter": "第16章 二次根式",
+    "prerequisites": ["math-m-square-root"],
+    "exam_weight": "high",
+    "exam_points": "6-8",
+    "estimated_minutes": 40
+  },
+  {
+    "node_id": "math-m-pythagorean",
+    "subject": "math",
+    "name": "勾股定理",
+    "grade": 8,
+    "semester": 2,
+    "chapter": "第17章 勾股定理",
+    "prerequisites": ["math-m-square-root", "math-m-triangle-angles"],
+    "exam_weight": "high",
+    "exam_points": "8-12",
+    "estimated_minutes": 50
+  },
+  {
+    "node_id": "math-m-pythagorean-converse",
+    "subject": "math",
+    "name": "勾股定理的逆定理",
+    "grade": 8,
+    "semester": 2,
+    "chapter": "第17章 勾股定理",
+    "prerequisites": ["math-m-pythagorean"],
+    "exam_weight": "medium",
+    "exam_points": "4-6",
     "estimated_minutes": 30
   },
   {
@@ -310,5 +502,17 @@
     "exam_weight": "medium",
     "exam_points": "3-5",
     "estimated_minutes": 25
+  },
+  {
+    "node_id": "math-7-rational-number",
+    "subject": "math",
+    "name": "有理数运算（回溯）",
+    "grade": 7,
+    "semester": 1,
+    "chapter": "七年级·有理数",
+    "prerequisites": [],
+    "exam_weight": "low",
+    "exam_points": "2-3",
+    "estimated_minutes": 20
   }
 ]

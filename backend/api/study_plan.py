@@ -11,11 +11,13 @@ async def get_today_plan():
     """获取今日学习计划"""
     db = await get_db()
     try:
-        row = await db.execute_fetchall("SELECT plan, actual, completed FROM daily_plans WHERE date=date('now')")
+        cursor = await db.execute("SELECT plan, actual, completed FROM daily_plans WHERE date=date('now')")
+        row = await cursor.fetchone()
         if row:
-            return {"has_plan": True, "plan": json.loads(row[0][0]), "actual": json.loads(row[0][1] or "{}"), "completed": row[0][2]}
+            return {"has_plan": True, "plan": json.loads(row["plan"]),
+                    "actual": json.loads(row["actual"] or "{}"), "completed": row["completed"]}
 
-        # 自动生成计划：找出最需要学习的知识点
+        # 自动生成计划
         plan = await _generate_plan(db)
         await db.execute(
             "INSERT OR REPLACE INTO daily_plans (date, plan) VALUES (date('now'), ?)",
@@ -29,22 +31,23 @@ async def get_today_plan():
 
 async def _generate_plan(db) -> dict:
     """根据当前学情自动生成每日计划"""
-    plan = {"math": [], "physics": [], "english": []}
+    plan: dict[str, list] = {"math": [], "physics": [], "english": []}
 
     for subject in ["math", "physics", "english"]:
         # 优先：错题本到期复习
-        errors = await db.execute_fetchall(
+        cursor = await db.execute(
             """SELECT eb.node_id, kn.name FROM error_book eb
                JOIN knowledge_nodes kn ON eb.node_id = kn.node_id
                WHERE kn.subject=? AND eb.next_review <= date('now')
                LIMIT 3""",
             (subject,)
         )
+        errors = await cursor.fetchall()
         for e in errors:
-            plan[subject].append({"type": "review", "node_id": e[0], "name": e[1], "minutes": 10})
+            plan[subject].append({"type": "review", "node_id": e["node_id"], "name": e["name"], "minutes": 10})
 
-        # 其次：掌握度最低的知识点
-        weak = await db.execute_fetchall(
+        # 其次：掌握度最低的知识点练习
+        cursor = await db.execute(
             """SELECT kn.node_id, kn.name, COALESCE(ms.mastery, 0) as mastery
                FROM knowledge_nodes kn
                LEFT JOIN mastery_summary ms ON kn.node_id = ms.node_id
@@ -53,19 +56,20 @@ async def _generate_plan(db) -> dict:
                LIMIT 2""",
             (subject,)
         )
+        weak = await cursor.fetchall()
         for w in weak:
-            task_type = "learn" if w[2] == 0 else "practice"
-            plan[subject].append({"type": task_type, "node_id": w[0], "name": w[1], "minutes": 20})
+            task_type = "learn" if w["mastery"] == 0 else "practice"
+            plan[subject].append({"type": task_type, "node_id": w["node_id"], "name": w["name"], "minutes": 20})
 
     return plan
 
 
 @router.get("/path/{subject}")
 async def get_learning_path(subject: str):
-    """获取某科的学习路径（按依赖关系排序）"""
+    """获取某科的学习路径"""
     db = await get_db()
     try:
-        rows = await db.execute_fetchall(
+        cursor = await db.execute(
             """SELECT kn.node_id, kn.name, kn.grade, kn.semester, kn.chapter, kn.prerequisites,
                       COALESCE(ms.mastery, 0) as mastery, COALESCE(ms.status, 'not_started') as status
                FROM knowledge_nodes kn
@@ -74,13 +78,12 @@ async def get_learning_path(subject: str):
                ORDER BY kn.grade, kn.semester, kn.node_id""",
             (subject,)
         )
-        path = []
-        for r in rows:
-            path.append({
-                "node_id": r[0], "name": r[1], "grade": r[2], "semester": r[3],
-                "chapter": r[4], "prerequisites": json.loads(r[5] or "[]"),
-                "mastery": r[6], "status": r[7]
-            })
-        return path
+        rows = await cursor.fetchall()
+        return [
+            {"node_id": r["node_id"], "name": r["name"], "grade": r["grade"], "semester": r["semester"],
+             "chapter": r["chapter"], "prerequisites": json.loads(r["prerequisites"] or "[]"),
+             "mastery": r["mastery"], "status": r["status"]}
+            for r in rows
+        ]
     finally:
         await db.close()

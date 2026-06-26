@@ -1,0 +1,80 @@
+[
+  {
+    "id": "math-q-fac-001",
+    "node_id": "math-m-factorization",
+    "source": "人教版八上",
+    "type": "solve",
+    "difficulty": 1,
+    "question": "分解因式：2x² + 4x",
+    "options": [],
+    "answer": "2x(x + 2)",
+    "steps": ["提取公因式2x", "2x² + 4x = 2x·x + 2x·2 = 2x(x + 2)"],
+    "common_errors": [{"error": "公因式提不完全", "hint": "2和4的公因数是2，x²和x的公因式是x，所以公因式是2x"}],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-q-fac-002",
+    "node_id": "math-m-factorization",
+    "source": "人教版八上",
+    "type": "solve",
+    "difficulty": 1,
+    "question": "分解因式：x² - 9",
+    "options": [],
+    "answer": "(x + 3)(x - 3)",
+    "steps": ["识别平方差公式：a²-b² = (a+b)(a-b)", "x²-9 = x²-3² = (x+3)(x-3)"],
+    "common_errors": [{"error": "忘记平方差公式", "hint": "a²-b² = (a+b)(a-b)，这里a=x，b=3"}],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-q-fac-003",
+    "node_id": "math-m-factorization",
+    "source": "人教版八上",
+    "type": "solve",
+    "difficulty": 2,
+    "question": "分解因式：x² + 6x + 9",
+    "options": [],
+    "answer": "(x + 3)²",
+    "steps": ["识别完全平方公式：a²+2ab+b² = (a+b)²", "x²+6x+9 = x²+2·3·x+3² = (x+3)²"],
+    "common_errors": [{"error": "没看出完全平方", "hint": "检查：首项x²是完全平方，末项9=3²是完全平方，中间项6x=2×x×3，符合(a+b)²"}],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-q-fac-004",
+    "node_id": "math-m-factorization",
+    "source": "2023武汉期末",
+    "type": "solve",
+    "difficulty": 2,
+    "question": "分解因式：3x² - 12",
+    "options": [],
+    "answer": "3(x + 2)(x - 2)",
+    "steps": ["先提公因式3：3(x²-4)", "再用平方差：3(x+2)(x-2)"],
+    "common_errors": [{"error": "只提了公因式没继续分解", "hint": "分解因式要分解到不能再分，x²-4还能用平方差公式"}],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-q-fac-005",
+    "node_id": "math-m-factorization",
+    "source": "2024武汉中考",
+    "type": "solve",
+    "difficulty": 3,
+    "question": "分解因式：(x+y)² - 4(x+y) + 4",
+    "options": [],
+    "answer": "(x + y - 2)²",
+    "steps": ["令t = x+y，原式 = t² - 4t + 4", "识别完全平方：t²-4t+4 = (t-2)²", "代回：(x+y-2)²"],
+    "common_errors": [{"error": "不会整体换元", "hint": "把(x+y)看作一个整体t，就变成了t²-4t+4的标准形式"}],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-q-fac-006",
+    "node_id": "math-m-factorization",
+    "source": "武汉中考模拟",
+    "type": "solve",
+    "difficulty": 2,
+    "question": "分解因式：-x² + 2x - 1",
+    "options": [],
+    "answer": "-(x - 1)²",
+    "steps": ["提取负号：-(x²-2x+1)", "识别完全平方：-(x-1)²"],
+    "common_errors": [{"error": "负号处理错误", "hint": "先提出-1，括号内各项变号：-x²→x², +2x→-2x, -1→+1"}],
+    "exam_frequency": 4
+  }
+]

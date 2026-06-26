@@ -1,0 +1,67 @@
+[
+  {
+    "id": "math-q-les-001",
+    "node_id": "math-m-linear-equation-system",
+    "source": "人教版八下",
+    "type": "solve",
+    "difficulty": 1,
+    "question": "解方程组：x + y = 5，x - y = 1",
+    "options": [],
+    "answer": "x=3, y=2",
+    "steps": ["两式相加消去y：2x=6，x=3", "代入第一式：3+y=5，y=2"],
+    "common_errors": [{"error": "加减消元方向选错", "hint": "两式相加可消y（+y和-y抵消），两式相减可消x"}],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-q-les-002",
+    "node_id": "math-m-linear-equation-system",
+    "source": "人教版八下",
+    "type": "solve",
+    "difficulty": 1,
+    "question": "解方程组：2x + y = 7，x + y = 4",
+    "options": [],
+    "answer": "x=3, y=1",
+    "steps": ["①-②消去y：x=3", "代入②：3+y=4，y=1"],
+    "common_errors": [{"error": "相减时符号出错", "hint": "(2x+y)-(x+y)=2x+y-x-y=x"}],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-q-les-003",
+    "node_id": "math-m-linear-equation-system",
+    "source": "2023武汉期中",
+    "type": "solve",
+    "difficulty": 2,
+    "question": "解方程组：3x + 2y = 12，2x - y = 1",
+    "options": [],
+    "answer": "x=2, y=3",
+    "steps": ["②×2得：4x-2y=2", "①+新②：7x=14，x=2", "代入②：4-y=1，y=3"],
+    "common_errors": [{"error": "凑系数时忘乘所有项", "hint": "②×2是每一项都×2：2x→4x, -y→-2y, 1→2"}],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-q-les-004",
+    "node_id": "math-m-equation-system-application",
+    "source": "2024武汉模拟",
+    "type": "solve",
+    "difficulty": 2,
+    "question": "甲乙两种商品共买了10件，花了230元。甲每件20元，乙每件25元。甲乙各买了几件？",
+    "options": [],
+    "answer": "甲4件，乙6件",
+    "steps": ["设甲x件，乙y件", "x+y=10", "20x+25y=230", "由①得x=10-y代入②：200-20y+25y=230", "5y=30，y=6，x=4"],
+    "common_errors": [{"error": "列方程时单位混乱", "hint": "数量关系：x+y=10（件数），价格关系：20x+25y=230（元）"}],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-q-les-005",
+    "node_id": "math-m-linear-equation-system",
+    "source": "2022武汉中考",
+    "type": "solve",
+    "difficulty": 3,
+    "question": "解方程组：(x+y)/2 = 3，(x-y)/3 = 1",
+    "options": [],
+    "answer": "x=9/2, y=3/2",
+    "steps": ["去分母：x+y=6 ①，x-y=3 ②", "①+②：2x=9，x=9/2", "代入①：9/2+y=6，y=3/2"],
+    "common_errors": [{"error": "去分母时只乘了一边", "hint": "等式两边同时乘以分母才能消去分母"}],
+    "exam_frequency": 4
+  }
+]

@@ -4,11 +4,14 @@ import api from '../api'
 
 const plan = ref<any>(null)
 const loading = ref(true)
+const error = ref(false)
 
 onMounted(async () => {
   try {
     const { data } = await api.get('/plan/today')
     plan.value = data.plan
+  } catch {
+    error.value = true
   } finally {
     loading.value = false
   }
@@ -21,7 +24,12 @@ onMounted(async () => {
 
     <div v-if="loading" class="loading">加载中...</div>
 
-    <div v-else-if="plan" class="plan-grid">
+    <div v-else-if="error || !plan" class="empty-state">
+      <p>📋 暂无今日计划</p>
+      <p class="hint">完成入学诊断后，系统将自动生成学习计划</p>
+    </div>
+
+    <div v-else class="plan-grid">
       <div v-for="(tasks, subject) in plan" :key="subject" class="subject-card">
         <h2>
           <span v-if="subject === 'math'">📐 数学</span>
@@ -30,7 +38,7 @@ onMounted(async () => {
         </h2>
         <ul>
           <li v-for="task in tasks" :key="task.node_id" class="task-item">
-            <span class="task-type" :class="task.type">
+            <span class="task-type">
               {{ task.type === 'learn' ? '📖 新学' : task.type === 'review' ? '🔄 复习' : '✏️ 练习' }}
             </span>
             <router-link :to="task.type === 'practice' ? `/practice/${task.node_id}` : `/learn/${task.node_id}`">
@@ -54,44 +62,31 @@ onMounted(async () => {
 <style scoped>
 .home h1 { margin-bottom: 1.5rem; }
 .plan-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1rem;
-  margin-bottom: 2rem;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem; margin-bottom: 2rem;
 }
 .subject-card {
-  background: #fff;
-  border-radius: 12px;
-  padding: 1.25rem;
+  background: #fff; border-radius: 12px; padding: 1.25rem;
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
 .subject-card h2 { font-size: 1.1rem; margin-bottom: 0.75rem; }
 .task-item {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.5rem 0;
-  border-bottom: 1px solid #f0f0f0;
+  display: flex; align-items: center; gap: 0.5rem;
+  padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0;
 }
 .task-item a { color: #333; text-decoration: none; flex: 1; }
 .task-item a:hover { color: #4361ee; }
 .task-time { font-size: 0.8rem; color: #999; }
 .task-type { font-size: 0.8rem; }
-.quick-actions {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
+.quick-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
 .action-btn {
-  padding: 0.75rem 1.5rem;
-  background: #4361ee;
-  color: #fff;
-  border-radius: 8px;
-  text-decoration: none;
-  font-size: 0.9rem;
-  transition: transform 0.1s;
+  padding: 0.75rem 1.5rem; background: #4361ee; color: #fff;
+  border-radius: 8px; text-decoration: none; font-size: 0.9rem; transition: transform 0.1s;
 }
 .action-btn:hover { transform: translateY(-2px); }
 .loading { text-align: center; padding: 3rem; color: #999; }
 .empty { color: #aaa; font-size: 0.9rem; }
+.empty-state { text-align: center; padding: 3rem; margin-bottom: 2rem; background: #fff; border-radius: 12px; }
+.empty-state p { font-size: 1.2rem; margin-bottom: 0.5rem; }
+.hint { font-size: 0.9rem; color: #888; }
 </style>
