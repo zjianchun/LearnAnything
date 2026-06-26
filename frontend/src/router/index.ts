@@ -5,6 +5,7 @@ const routes = [
   { path: '/graph', component: () => import('../views/SubjectGraph.vue') },
   { path: '/map', component: () => import('../views/KnowledgeMap.vue') },
   { path: '/map/:subject', component: () => import('../views/KnowledgeMap.vue') },
+  { path: '/path', component: () => import('../views/LearningPath.vue') },
   { path: '/learn/:nodeId', component: () => import('../views/Learn.vue') },
   { path: '/practice', component: () => import('../views/Practice.vue') },
   { path: '/practice/:nodeId', component: () => import('../views/Practice.vue') },
