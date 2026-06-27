@@ -1,0 +1,212 @@
+[
+  {
+    "id": "geo-m-map-reading-q-001",
+    "node_id": "geo-m-map-reading",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "地图上“1厘米代表实际距离500米”，该地图的比例尺为：",
+    "options": [
+      "A. 1:50000",
+      "B. 1:5000",
+      "C. 1:500000",
+      "D. 1:500"
+    ],
+    "answer": "A. 1:50000",
+    "steps": [
+      "1. 将实际距离转换为厘米：500米 = 50000厘米",
+      "2. 根据比例尺公式：图上距离:实际距离 = 1:50000",
+      "3. 因此，比例尺为1:50000"
+    ],
+    "common_errors": [
+      {
+        "error": "误将米直接作为比例尺单位",
+        "hint": "注意比例尺的单位应统一为厘米"
+      },
+      {
+        "error": "计算错误，忘记将米转换为厘米",
+        "hint": "1米 = 100厘米，500米 = 50000厘米"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-map-reading-q-002",
+    "node_id": "geo-m-map-reading",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "在地图上辨别方向时，通常“上北下南，___，___”。",
+    "answer": "左西右东",
+    "steps": [
+      "1. 回忆地图方向的基本规则",
+      "2. 填写缺失的方向词"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误，如“左东右西”",
+        "hint": "记住地图方向与现实方向一致"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-map-reading-q-003",
+    "node_id": "geo-m-map-reading",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "图例中“▲”代表什么？",
+    "options": [
+      "A. 山峰",
+      "B. 河流",
+      "C. 城市",
+      "D. 铁路"
+    ],
+    "answer": "A. 山峰",
+    "steps": [
+      "1. 观察图例中“▲”的标注",
+      "2. 对照常见图例含义",
+      "3. 确定“▲”代表山峰"
+    ],
+    "common_errors": [
+      {
+        "error": "误将“▲”理解为其他地理要素",
+        "hint": "熟悉常见图例符号及其含义"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-map-reading-q-004",
+    "node_id": "geo-m-map-reading",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "地图比例尺为1:200000，图上距离为4厘米，实际距离为多少？",
+    "options": [
+      "A. 8千米",
+      "B. 80千米",
+      "C. 800千米",
+      "D. 8000千米"
+    ],
+    "answer": "A. 8千米",
+    "steps": [
+      "1. 根据比例尺公式：实际距离 = 图上距离 × 比例尺分母",
+      "2. 计算：4厘米 × 200000 = 800000厘米",
+      "3. 将厘米转换为千米：800000厘米 = 8千米"
+    ],
+    "common_errors": [
+      {
+        "error": "计算错误，忘记将厘米转换为千米",
+        "hint": "注意单位转换，1千米 = 100000厘米"
+      },
+      {
+        "error": "误用比例尺公式",
+        "hint": "确保使用正确的比例尺公式"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-map-reading-q-005",
+    "node_id": "geo-m-map-reading",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "在地图上，指向标指向东方，则地图的上方是：",
+    "options": [
+      "A. 北方",
+      "B. 南方",
+      "C. 东方",
+      "D. 西方"
+    ],
+    "answer": "B. 南方",
+    "steps": [
+      "1. 理解指向标与地图方向的关系",
+      "2. 确定东方在地图上的位置",
+      "3. 根据“上北下南，左西右东”规则，确定上方为南方"
+    ],
+    "common_errors": [
+      {
+        "error": "误将指向标方向与地图方向混淆",
+        "hint": "指向标只是指示地图上的方向，不改变地图的基本方向规则"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-map-reading-q-006",
+    "node_id": "geo-m-map-reading",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "地图上某段铁路的实际长度为50千米，图上长度为5厘米，则该地图的比例尺为___。",
+    "answer": "1:1000000",
+    "steps": [
+      "1. 将实际长度转换为厘米：50千米 = 5000000厘米",
+      "2. 根据比例尺公式：比例尺 = 图上距离:实际距离 = 5:5000000 = 1:1000000"
+    ],
+    "common_errors": [
+      {
+        "error": "计算错误，忘记将千米转换为厘米",
+        "hint": "1千米 = 100000厘米"
+      },
+      {
+        "error": "比例尺表示错误",
+        "hint": "比例尺应表示为1:1000000，而不是5:5000000"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-map-reading-q-007",
+    "node_id": "geo-m-map-reading",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "如何在地图上确定某地的地理位置？",
+    "answer": "首先，确定该地所在的经纬度；其次，根据地图上的经纬网，找到该地的具体位置；最后，结合地图上的比例尺和方向，确定该地的地理位置。",
+    "steps": [
+      "1. 解释确定地理位置的基本方法",
+      "2. 强调经纬网的重要性",
+      "3. 结合比例尺和方向进行综合分析"
+    ],
+    "common_errors": [
+      {
+        "error": "忽略经纬网的作用",
+        "hint": "经纬网是确定地理位置的关键工具"
+      },
+      {
+        "error": "未结合比例尺和方向",
+        "hint": "地理位置的确定需要综合考虑比例尺和方向"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-map-reading-q-008",
+    "node_id": "geo-m-map-reading",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "地图比例尺大小对地图内容有什么影响？",
+    "answer": "比例尺越大，地图显示的范围越小，内容越详细；比例尺越小，地图显示的范围越大，内容越简略。",
+    "steps": [
+      "1. 解释比例尺大小与地图范围的关系",
+      "2. 解释比例尺大小与地图内容详细程度的关系",
+      "3. 举例说明不同比例尺地图的应用场景"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆比例尺大小与地图内容的关系",
+        "hint": "记住比例尺越大，内容越详细；比例尺越小，内容越简略"
+      },
+      {
+        "error": "未理解比例尺的应用场景",
+        "hint": "不同比例尺的地图适用于不同的用途，如大比例尺地图用于城市地图，小比例尺地图用于世界地图"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

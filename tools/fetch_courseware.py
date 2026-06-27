@@ -98,6 +98,8 @@ def main():
     # 5. 重写绝对路径 /assets/scripts/ → /courseware/_assets/scripts/
     text = text.replace('"/assets/scripts/', '"/courseware/_assets/scripts/')
     text = text.replace('="assets/scripts/', '="/courseware/_assets/scripts/')
+    # slide-v2.js 的相对路径也统一
+    text = re.sub(r'src="[^"]*teachany-slide-v2\.js[^"]*"', 'src="/courseware/_assets/scripts/teachany-slide-v2.js"', text)
 
     # 5b. 移除 teachany 外部导航（Gallery/Path等跳转到 teachany.cn 的链接块）
     text = re.sub(r'<!-- teachany-back-to-gallery -->.*?<!-- /teachany-back-to-gallery -->', '', text, flags=re.DOTALL)

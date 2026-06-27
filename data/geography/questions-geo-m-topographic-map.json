@@ -1,0 +1,231 @@
+[
+  {
+    "id": "geo-m-topographic-map-q-001",
+    "node_id": "geo-m-topographic-map",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列关于等高线的说法，正确的是：",
+    "options": [
+      "A. 等高线密集的地方，坡度较缓",
+      "B. 等高线稀疏的地方，坡度较陡",
+      "C. 等高线闭合的地方，表示山峰",
+      "D. 等高线相交的地方，表示盆地"
+    ],
+    "answer": "C. 等高线闭合的地方，表示山峰",
+    "steps": [
+      "1. 回顾等高线的定义：等高线是地面上高程相等的各点连接而成的闭合曲线。",
+      "2. 分析等高线的特点：等高线密集表示坡度陡峭，稀疏表示坡度平缓。",
+      "3. 理解等高线闭合的含义：等高线闭合表示山峰或盆地，但结合选项，C选项更符合题意。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为等高线密集表示坡度平缓",
+        "hint": "等高线密集表示坡度陡峭，稀疏表示坡度平缓。"
+      },
+      {
+        "error": "误认为等高线相交表示山峰",
+        "hint": "等高线相交是不符合实际情况的，等高线只能闭合或不相交。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-topographic-map-q-002",
+    "node_id": "geo-m-topographic-map",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "在等高线地形图中，等高距为50米，A点的高程为150米，B点的高程为350米，则A、B两点间的相对高度为________米。",
+    "answer": "200",
+    "steps": [
+      "1. 理解相对高度的概念：相对高度是指两点间的高程差。",
+      "2. 计算A、B两点间的相对高度：350米 - 150米 = 200米。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将等高距当作高程差",
+        "hint": "等高距是相邻等高线之间的高程差，而不是任意两点间的高程差。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-topographic-map-q-003",
+    "node_id": "geo-m-topographic-map",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列地形中，等高线呈闭合状态的是：",
+    "options": [
+      "A. 山脊",
+      "B. 山谷",
+      "C. 山顶",
+      "D. 鞍部"
+    ],
+    "answer": "C. 山顶",
+    "steps": [
+      "1. 理解等高线的闭合状态：等高线闭合表示地形的高点或低点。",
+      "2. 分析各选项：山脊和山谷的等高线呈弯曲状，鞍部的等高线呈马鞍状，山顶的等高线呈闭合状态。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为山脊的等高线呈闭合状态",
+        "hint": "山脊的等高线呈弯曲状，而不是闭合状态。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-topographic-map-q-004",
+    "node_id": "geo-m-topographic-map",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "在等高线地形图中，等高线向低处凸出表示：",
+    "options": [
+      "A. 山脊",
+      "B. 山谷",
+      "C. 山顶",
+      "D. 鞍部"
+    ],
+    "answer": "A. 山脊",
+    "steps": [
+      "1. 理解等高线的凸出方向：等高线向低处凸出表示山脊，向高处凸出表示山谷。",
+      "2. 分析各选项：山脊的等高线向低处凸出，山谷的等高线向高处凸出，山顶和鞍部的等高线不呈凸出状。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为等高线向低处凸出表示山谷",
+        "hint": "等高线向低处凸出表示山脊，向高处凸出表示山谷。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-topographic-map-q-005",
+    "node_id": "geo-m-topographic-map",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "在等高线地形图中，等高线密集的地方表示：",
+    "options": [
+      "A. 坡度陡峭",
+      "B. 坡度平缓",
+      "C. 高程较高",
+      "D. 高程较低"
+    ],
+    "answer": "A. 坡度陡峭",
+    "steps": [
+      "1. 理解等高线的密集程度与坡度的关系：等高线密集表示坡度陡峭，稀疏表示坡度平缓。",
+      "2. 分析各选项：等高线密集与高程高低无直接关系。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为等高线密集表示高程较高",
+        "hint": "等高线密集表示坡度陡峭，与高程高低无直接关系。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-topographic-map-q-006",
+    "node_id": "geo-m-topographic-map",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "在等高线地形图中，A、B两点位于同一等高线上，则A、B两点的高程________。",
+    "answer": "相等",
+    "steps": [
+      "1. 理解等高线的定义：等高线上各点的高程相等。",
+      "2. 得出结论：A、B两点位于同一等高线上，因此高程相等。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为A、B两点的高程不相等",
+        "hint": "等高线上各点的高程相等。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-topographic-map-q-007",
+    "node_id": "geo-m-topographic-map",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "在等高线地形图中，如何判断地形部位是山脊还是山谷？",
+    "answer": "等高线向低处凸出表示山脊，向高处凸出表示山谷。",
+    "steps": [
+      "1. 回顾等高线的凸出方向与地形的关系。",
+      "2. 解释判断方法：等高线向低处凸出的是山脊，向高处凸出的是山谷。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为等高线向高处凸出表示山脊",
+        "hint": "等高线向高处凸出表示山谷，向低处凸出表示山脊。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-topographic-map-q-008",
+    "node_id": "geo-m-topographic-map",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "在等高线地形图中，如何判断地形部位是山顶还是盆地？",
+    "answer": "等高线呈闭合状态且数值从外向内递增表示山顶，递减表示盆地。",
+    "steps": [
+      "1. 解释等高线闭合状态：等高线呈闭合状态表示地形的高点或低点。",
+      "2. 说明判断方法：等高线数值从外向内递增表示山顶，递减表示盆地。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为等高线呈闭合状态且数值从外向内递减表示山顶",
+        "hint": "等高线数值从外向内递增表示山顶，递减表示盆地。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-topographic-map-q-009",
+    "node_id": "geo-m-topographic-map",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "在等高线地形图中，如何判断地形坡度的大小？",
+    "answer": "等高线密集的地方坡度陡峭，稀疏的地方坡度平缓。",
+    "steps": [
+      "1. 解释等高线密集程度与坡度的关系。",
+      "2. 说明判断方法：等高线密集表示坡度陡峭，稀疏表示坡度平缓。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为等高线密集表示坡度平缓",
+        "hint": "等高线密集表示坡度陡峭，稀疏表示坡度平缓。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-topographic-map-q-010",
+    "node_id": "geo-m-topographic-map",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "在等高线地形图中，如何判断地形的高低起伏？",
+    "answer": "等高线数值越大表示地形越高，数值越小表示地形越低。",
+    "steps": [
+      "1. 解释等高线数值与地形高低的关系。",
+      "2. 说明判断方法：等高线数值越大表示地形越高，数值越小表示地形越低。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为等高线数值越小表示地形越高",
+        "hint": "等高线数值越大表示地形越高，数值越小表示地形越低。"
+      }
+    ],
+    "exam_frequency": 4
+  }
+]

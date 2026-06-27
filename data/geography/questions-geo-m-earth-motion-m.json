@@ -1,0 +1,226 @@
+[
+  {
+    "id": "geo-m-earth-motion-m-q-001",
+    "node_id": "geo-m-earth-motion-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "地球自转一周的时间大约是多久？",
+    "options": [
+      "A. 12小时",
+      "B. 24小时",
+      "C. 365天",
+      "D. 30天"
+    ],
+    "answer": "B. 24小时",
+    "steps": [
+      "地球自转是指地球绕着自身的轴旋转。",
+      "地球自转一周的时间是24小时，也就是一天。",
+      "因此，正确答案是B选项。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选C选项",
+        "hint": "C选项365天是地球公转一周的时间，不是自转时间。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-earth-motion-m-q-002",
+    "node_id": "geo-m-earth-motion-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "地球绕太阳公转一周的时间是_____。",
+    "answer": "一年",
+    "steps": [
+      "地球公转是指地球绕太阳的运动。",
+      "地球公转一周的时间是365.25天，通常称为一年。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写365天",
+        "hint": "公转周期实际上是365.25天，通常称为一年。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-earth-motion-m-q-003",
+    "node_id": "geo-m-earth-motion-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "地球自转的方向是？",
+    "options": [
+      "A. 自东向西",
+      "B. 自西向东",
+      "C. 自南向北",
+      "D. 自北向南"
+    ],
+    "answer": "B. 自西向东",
+    "steps": [
+      "地球自转的方向是从西向东。",
+      "从北极上空看，地球是逆时针方向旋转。",
+      "因此，正确答案是B选项。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A选项",
+        "hint": "自东向西是错误的，地球自转方向是自西向东。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-earth-motion-m-q-004",
+    "node_id": "geo-m-earth-motion-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列关于地球自转和公转的描述，正确的是？",
+    "options": [
+      "A. 自转和公转方向相同",
+      "B. 自转和公转周期相同",
+      "C. 自转和公转都导致昼夜交替",
+      "D. 自转导致昼夜交替，公转导致四季变化"
+    ],
+    "answer": "D. 自转导致昼夜交替，公转导致四季变化",
+    "steps": [
+      "地球自转导致昼夜交替。",
+      "地球公转导致四季变化。",
+      "因此，正确答案是D选项。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A选项",
+        "hint": "自转和公转方向不同，自转是自西向东，公转也是自西向东，但描述方式不同。"
+      },
+      {
+        "error": "误选B选项",
+        "hint": "自转周期是24小时，公转周期是365.25天。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-earth-motion-m-q-005",
+    "node_id": "geo-m-earth-motion-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "如果地球自转速度加快，地球上一天的长度会？",
+    "options": [
+      "A. 变长",
+      "B. 变短",
+      "C. 不变",
+      "D. 无法确定"
+    ],
+    "answer": "B. 变短",
+    "steps": [
+      "地球自转速度加快意味着自转一周的时间减少。",
+      "因此，一天的时间会变短。",
+      "正确答案是B选项。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A选项",
+        "hint": "自转速度加快会导致一天时间变短，而不是变长。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-earth-motion-m-q-006",
+    "node_id": "geo-m-earth-motion-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "解释为什么地球公转会导致四季变化。",
+    "answer": "地球公转导致太阳直射点在南北回归线之间移动。当太阳直射点位于北半球时，北半球获得更多阳光，温度较高，为夏季；反之，为冬季。",
+    "steps": [
+      "地球公转导致太阳直射点位置变化。",
+      "太阳直射点位置变化引起不同地区接收到的太阳热量不同。",
+      "因此，形成了四季变化。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到太阳直射点移动",
+        "hint": "需要解释直射点移动如何影响温度和季节。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-earth-motion-m-q-007",
+    "node_id": "geo-m-earth-motion-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列现象中，与地球自转无关的是？",
+    "options": [
+      "A. 昼夜交替",
+      "B. 太阳东升西落",
+      "C. 四季更替",
+      "D. 时区差异"
+    ],
+    "answer": "C. 四季更替",
+    "steps": [
+      "昼夜交替是由地球自转引起的。",
+      "太阳东升西落也是由地球自转引起的。",
+      "四季更替是由地球公转引起的。",
+      "时区差异是由地球自转引起的。",
+      "因此，正确答案是C选项。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选D选项",
+        "hint": "时区差异是由地球自转引起的。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-earth-motion-m-q-008",
+    "node_id": "geo-m-earth-motion-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "如果地球自转轴垂直于公转轨道平面，四季变化还会存在吗？为什么？",
+    "answer": "如果地球自转轴垂直于公转轨道平面，四季变化将不存在。因为四季变化是由于太阳直射点位置的变化引起的，而自转轴垂直于轨道平面意味着太阳直射点位置不变。",
+    "steps": [
+      "分析地球自转轴垂直于轨道平面的影响。",
+      "太阳直射点位置不变意味着不同地区接收到的太阳热量恒定。",
+      "因此，四季变化将不存在。"
+    ],
+    "common_errors": [
+      {
+        "error": "认为四季变化仍然存在",
+        "hint": "需要理解太阳直射点位置变化是四季变化的原因。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "geo-m-earth-motion-m-q-009",
+    "node_id": "geo-m-earth-motion-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "解释为什么武汉的昼夜长短会随季节变化。",
+    "answer": "由于地球公转和自转轴倾斜，太阳直射点在南北回归线之间移动。武汉位于北半球，随着太阳直射点位置的变化，昼夜长短也会变化。夏季昼长夜短，冬季昼短夜长。",
+    "steps": [
+      "分析地球公转和自转轴倾斜的影响。",
+      "太阳直射点位置变化引起昼夜长短变化。",
+      "武汉位于北半球，因此随季节变化出现昼夜长短变化。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到地球公转",
+        "hint": "需要结合自转轴倾斜和太阳直射点位置变化进行解释。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

@@ -1,0 +1,244 @@
+[
+  {
+    "id": "geo-m-globe-coordinates-q-001",
+    "node_id": "geo-m-globe-coordinates",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "地球仪上的经线指示什么方向？",
+    "options": [
+      "A. 东西方向",
+      "B. 南北方向",
+      "C. 东北-西南方向",
+      "D. 西北-东南方向"
+    ],
+    "answer": "B. 南北方向",
+    "steps": [
+      "1. 回忆经线的定义：经线是连接南北两极的线。",
+      "2. 确认经线在地球仪上的方向：经线连接南北两极，因此指示南北方向。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为经线指示东西方向",
+        "hint": "经线连接南北两极，指示的是南北方向，而不是东西方向。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-globe-coordinates-q-002",
+    "node_id": "geo-m-globe-coordinates",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "本初子午线的经度是多少？",
+    "options": [
+      "A. 0°",
+      "B. 90°",
+      "C. 180°",
+      "D. 360°"
+    ],
+    "answer": "A. 0°",
+    "steps": [
+      "1. 回忆本初子午线的定义：本初子午线是经过英国格林尼治天文台的经线。",
+      "2. 确认本初子午线的经度：作为经度的起点，本初子午线的经度为0°。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为本初子午线的经度是180°",
+        "hint": "本初子午线是经度的起点，经度为0°，而不是180°。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-globe-coordinates-q-003",
+    "node_id": "geo-m-globe-coordinates",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "东经和西经的划分界限是？",
+    "options": [
+      "A. 赤道",
+      "B. 本初子午线",
+      "C. 北回归线",
+      "D. 南回归线"
+    ],
+    "answer": "B. 本初子午线",
+    "steps": [
+      "1. 回忆经度的划分：东经和西经以本初子午线为界。",
+      "2. 确认东经和西经的划分界限：本初子午线以东为东经，以西为西经。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为东经和西经的划分界限是赤道",
+        "hint": "赤道是南北纬的划分界限，而不是东经和西经的划分界限。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-globe-coordinates-q-004",
+    "node_id": "geo-m-globe-coordinates",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "某地的经度是120°E，纬度是30°N，该地位于哪个半球？",
+    "options": [
+      "A. 东半球和北半球",
+      "B. 西半球和北半球",
+      "C. 东半球和南半球",
+      "D. 西半球和南半球"
+    ],
+    "answer": "A. 东半球和北半球",
+    "steps": [
+      "1. 确定经度范围：120°E位于东经范围，因此位于东半球。",
+      "2. 确定纬度范围：30°N位于北纬范围，因此位于北半球。",
+      "3. 综合判断：该地位于东半球和北半球。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为30°N位于南半球",
+        "hint": "北纬30°位于北半球，而不是南半球。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-globe-coordinates-q-005",
+    "node_id": "geo-m-globe-coordinates",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列关于经纬网的作用，正确的是？",
+    "options": [
+      "A. 确定地面的具体位置",
+      "B. 确定地面的海拔高度",
+      "C. 确定地面的温度",
+      "D. 确定地面的湿度"
+    ],
+    "answer": "A. 确定地面的具体位置",
+    "steps": [
+      "1. 回忆经纬网的基本作用：经纬网用于确定地面具体位置。",
+      "2. 排除错误选项：经纬网不能直接确定海拔、温度和湿度。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为经纬网可以确定海拔、温度和湿度",
+        "hint": "经纬网主要用于确定位置，不能直接确定海拔、温度和湿度。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-globe-coordinates-q-006",
+    "node_id": "geo-m-globe-coordinates",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "某地的经度是90°W，纬度是0°，该地位于？",
+    "options": [
+      "A. 赤道和西半球",
+      "B. 赤道和东半球",
+      "C. 北回归线和西半球",
+      "D. 南回归线和东半球"
+    ],
+    "answer": "A. 赤道和西半球",
+    "steps": [
+      "1. 确定纬度：0°表示赤道。",
+      "2. 确定经度：90°W位于西经范围，因此位于西半球。",
+      "3. 综合判断：该地位于赤道和西半球。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为90°W位于东半球",
+        "hint": "90°W位于西经范围，因此位于西半球。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-globe-coordinates-q-007",
+    "node_id": "geo-m-globe-coordinates",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "地球表面某点，北纬40°，东经116°，该点位于中国的哪个城市？",
+    "answer": "北京",
+    "steps": [
+      "1. 确定纬度范围：北纬40°。",
+      "2. 确定经度范围：东经116°。",
+      "3. 结合中国地理知识：北纬40°，东经116°位于中国北京。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为该点位于其他城市",
+        "hint": "北纬40°，东经116°是北京的大致坐标。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-globe-coordinates-q-008",
+    "node_id": "geo-m-globe-coordinates",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "地球表面某点，南纬23.5°，西经46°，该点位于哪个大洲？",
+    "answer": "南美洲",
+    "steps": [
+      "1. 确定纬度范围：南纬23.5°表示南回归线。",
+      "2. 确定经度范围：西经46°。",
+      "3. 结合世界地理知识：南纬23.5°，西经46°位于南美洲。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为该点位于其他大洲",
+        "hint": "南回归线穿过南美洲，因此该点位于南美洲。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-globe-coordinates-q-009",
+    "node_id": "geo-m-globe-coordinates",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释经纬网在地理学中的作用。",
+    "answer": "经纬网在地理学中主要用于确定地面具体位置。它通过经度和纬度的组合，可以精确地描述地球上任意一点的位置。此外，经纬网还用于航海、航空、测绘等领域，帮助人们进行定位和导航。",
+    "steps": [
+      "1. 解释经纬网的基本作用：确定地面具体位置。",
+      "2. 举例说明经纬网的应用：航海、航空、测绘等。",
+      "3. 总结经纬网的重要性：精确描述位置，支持各种地理活动。"
+    ],
+    "common_errors": [
+      {
+        "error": "仅提到经纬网用于定位，未提及具体应用",
+        "hint": "经纬网不仅用于定位，还广泛应用于航海、航空等领域。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "geo-m-globe-coordinates-q-010",
+    "node_id": "geo-m-globe-coordinates",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释如何利用经纬网进行定位。",
+    "answer": "利用经纬网进行定位时，首先确定经度和纬度的度数。例如，某地的经度是120°E，纬度是30°N，那么该地就位于东经120°和北纬30°的交点处。通过这样的方法，可以精确地找到该地的具体位置。",
+    "steps": [
+      "1. 解释定位的基本方法：确定经度和纬度的度数。",
+      "2. 举例说明：东经120°，北纬30°。",
+      "3. 总结定位的精确性：通过经纬网可以精确找到具体位置。"
+    ],
+    "common_errors": [
+      {
+        "error": "未提及经度和纬度的具体度数",
+        "hint": "定位时需要明确经度和纬度的度数。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

@@ -1,0 +1,238 @@
+[
+  {
+    "id": "geo-m-climate-basics-q-001",
+    "node_id": "geo-m-climate-basics",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列关于天气和气候的描述，正确的是？",
+    "options": [
+      "A. 天气是短时间的大气状况",
+      "B. 气候是短时间的大气状况",
+      "C. 天气是长时间的大气状况",
+      "D. 气候是短时间且变化剧烈的大气状况"
+    ],
+    "answer": "A. 天气是短时间的大气状况",
+    "steps": [
+      "1. 理解天气和气候的定义：天气是指短时间的大气状况，而气候是指长时间的大气平均状况",
+      "2. 分析选项：A选项符合天气的定义",
+      "3. 排除错误选项：B、C、D选项均与天气和气候的定义不符"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆天气和气候的定义",
+        "hint": "记住天气是短时间的，气候是长时间的"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-climate-basics-q-002",
+    "node_id": "geo-m-climate-basics",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "气温是指大气的________。",
+    "answer": "温度",
+    "steps": [
+      "1. 理解气温的定义：气温是指大气温度的度量",
+      "2. 填写答案：温度"
+    ],
+    "common_errors": [
+      {
+        "error": "填写其他无关词汇，如湿度、气压",
+        "hint": "气温仅指温度"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-climate-basics-q-003",
+    "node_id": "geo-m-climate-basics",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列关于降水的描述，正确的是？",
+    "options": [
+      "A. 降水是指空气中的水汽凝结成水滴落到地面的现象",
+      "B. 降水是指空气中的水汽直接变成水蒸气的现象",
+      "C. 降水是指空气中的水汽直接变成冰的现象",
+      "D. 降水是指空气中的水汽直接变成雪的现象"
+    ],
+    "answer": "A. 降水是指空气中的水汽凝结成水滴落到地面的现象",
+    "steps": [
+      "1. 理解降水的定义：降水是水汽凝结成水滴落到地面的过程",
+      "2. 分析选项：A选项符合降水的定义",
+      "3. 排除错误选项：B、C、D选项均与降水的定义不符"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆降水与其他大气现象",
+        "hint": "降水是水滴落到地面的过程"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-climate-basics-q-004",
+    "node_id": "geo-m-climate-basics",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列关于气温日变化的描述，正确的是？",
+    "options": [
+      "A. 一天中气温最高值出现在中午12点",
+      "B. 一天中气温最低值出现在日出前后",
+      "C. 一天中气温最高值出现在午后2点",
+      "D. 一天中气温最低值出现在午夜12点"
+    ],
+    "answer": "B. 一天中气温最低值出现在日出前后",
+    "steps": [
+      "1. 理解气温日变化规律：一天中气温最高值出现在午后2点，最低值出现在日出前后",
+      "2. 分析选项：B选项符合气温日变化的规律",
+      "3. 排除错误选项：A、C、D选项均与气温日变化的规律不符"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆气温日变化的规律",
+        "hint": "记住最高值在午后2点，最低值在日出前后"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-climate-basics-q-005",
+    "node_id": "geo-m-climate-basics",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请解释武汉地区夏季高温多雨的气候特点形成的原因。",
+    "answer": "武汉地区夏季高温多雨的原因主要有：1. 夏季受副热带高压控制，盛行下沉气流，天气晴朗，气温高；2. 同时，来自海洋的暖湿气流带来大量水汽，与南下冷空气相遇，形成降水。",
+    "steps": [
+      "1. 分析武汉的地理位置和气候特征",
+      "2. 解释高温的原因：副热带高压控制",
+      "3. 解释多雨的原因：暖湿气流与冷空气相遇"
+    ],
+    "common_errors": [
+      {
+        "error": "忽略地理位置和气候特征",
+        "hint": "结合武汉的地理位置和气候特征进行分析"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-climate-basics-q-006",
+    "node_id": "geo-m-climate-basics",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列关于世界气候类型的描述，正确的是？",
+    "options": [
+      "A. 热带雨林气候全年高温多雨",
+      "B. 地中海气候夏季高温多雨，冬季寒冷干燥",
+      "C. 温带海洋性气候全年高温少雨",
+      "D. 温带季风气候夏季高温少雨，冬季寒冷多雨"
+    ],
+    "answer": "A. 热带雨林气候全年高温多雨",
+    "steps": [
+      "1. 了解主要气候类型的特征",
+      "2. 分析选项：A选项符合热带雨林气候的特征",
+      "3. 排除错误选项：B、C、D选项均与实际气候类型特征不符"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆不同气候类型的特征",
+        "hint": "仔细区分各气候类型的特征"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-climate-basics-q-007",
+    "node_id": "geo-m-climate-basics",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析武汉地区冬季气温较低的原因。",
+    "answer": "武汉地区冬季气温较低的原因主要有：1. 冬季受蒙古-西伯利亚高压控制，盛行偏北风，带来冷空气；2. 纬度较高，太阳辐射较弱；3. 距离海洋较远，受海洋影响较小，降温较快。",
+    "steps": [
+      "1. 分析武汉的地理位置和冬季气候特征",
+      "2. 解释气温低的原因：冷空气影响、太阳辐射弱、海洋影响小"
+    ],
+    "common_errors": [
+      {
+        "error": "忽略地理位置和冬季气候特征",
+        "hint": "结合武汉的地理位置和冬季气候特征进行分析"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-climate-basics-q-008",
+    "node_id": "geo-m-climate-basics",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "武汉地区年降水量约为________毫米。",
+    "answer": "1200",
+    "steps": [
+      "1. 了解武汉地区的降水量数据",
+      "2. 填写答案：1200毫米"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误的数据",
+        "hint": "记住武汉地区年降水量约为1200毫米"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-climate-basics-q-009",
+    "node_id": "geo-m-climate-basics",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释武汉地区春秋季节气温变化剧烈的原因。",
+    "answer": "武汉地区春秋季节气温变化剧烈的原因主要有：1. 春季和秋季是冬夏季风交替的季节，气温波动较大；2. 冷暖气团频繁交汇，导致气温变化剧烈；3. 地形因素影响，气温变化更加明显。",
+    "steps": [
+      "1. 分析武汉的地理位置和春秋季节气候特征",
+      "2. 解释气温变化剧烈的原因：冬夏季风交替、冷暖气团交汇、地形因素"
+    ],
+    "common_errors": [
+      {
+        "error": "忽略地理位置和春秋季节气候特征",
+        "hint": "结合武汉的地理位置和春秋季节气候特征进行分析"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-climate-basics-q-010",
+    "node_id": "geo-m-climate-basics",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "下列关于气候对人类活动影响的描述，正确的是？",
+    "options": [
+      "A. 气候对农业生产没有影响",
+      "B. 气候对人类居住环境没有影响",
+      "C. 气候对交通出行没有影响",
+      "D. 气候对农业生产和居住环境都有重要影响"
+    ],
+    "answer": "D. 气候对农业生产和居住环境都有重要影响",
+    "steps": [
+      "1. 了解气候对人类活动的影响",
+      "2. 分析选项：D选项符合气候对人类活动的影响",
+      "3. 排除错误选项：A、B、C选项均与实际情况不符"
+    ],
+    "common_errors": [
+      {
+        "error": "忽略气候对人类活动的影响",
+        "hint": "气候对人类活动有重要影响"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

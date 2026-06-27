@@ -1,0 +1,203 @@
+[
+  {
+    "id": "geo-m-earth-shape-size-q-001",
+    "node_id": "geo-m-earth-shape-size",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "地球的形状是：",
+    "options": [
+      "A. 正球体",
+      "B. 椭球体",
+      "C. 扁球体",
+      "D. 梨形"
+    ],
+    "answer": "B. 椭球体",
+    "steps": [
+      "地球的形状并非完全球体，而是两极稍扁、赤道略鼓的椭球体。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为地球是正球体",
+        "hint": "地球是一个两极稍扁、赤道略鼓的椭球体。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-earth-shape-size-q-002",
+    "node_id": "geo-m-earth-shape-size",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "地球的平均半径约为_____千米。",
+    "answer": "6371",
+    "steps": [
+      "地球的平均半径为6371千米。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填为6000千米或6500千米",
+        "hint": "地球的平均半径是6371千米。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-earth-shape-size-q-003",
+    "node_id": "geo-m-earth-shape-size",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "地球的表面积约为：",
+    "options": [
+      "A. 4.1亿平方千米",
+      "B. 5.1亿平方千米",
+      "C. 6.1亿平方千米",
+      "D. 7.1亿平方千米"
+    ],
+    "answer": "B. 5.1亿平方千米",
+    "steps": [
+      "地球的表面积约为5.1亿平方千米。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为地球的表面积是4.1亿平方千米",
+        "hint": "地球的表面积是5.1亿平方千米。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-earth-shape-size-q-004",
+    "node_id": "geo-m-earth-shape-size",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列关于地球形状的描述，正确的是：",
+    "options": [
+      "A. 地球是一个完美的球体",
+      "B. 地球是一个两极稍扁、赤道略鼓的椭球体",
+      "C. 地球是一个正方体",
+      "D. 地球是一个不规则形状的球体"
+    ],
+    "answer": "B. 地球是一个两极稍扁、赤道略鼓的椭球体",
+    "steps": [
+      "地球的形状是两极稍扁、赤道略鼓的椭球体。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为地球是一个完美的球体",
+        "hint": "地球并非完美的球体，而是椭球体。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-earth-shape-size-q-005",
+    "node_id": "geo-m-earth-shape-size",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "地球的赤道周长约为_____千米。",
+    "answer": "40075",
+    "steps": [
+      "地球的赤道周长约为40075千米。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填为40000千米或50000千米",
+        "hint": "地球的赤道周长是40075千米。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-earth-shape-size-q-006",
+    "node_id": "geo-m-earth-shape-size",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "地球的极半径约为：",
+    "options": [
+      "A. 6356千米",
+      "B. 6371千米",
+      "C. 6378千米",
+      "D. 40075千米"
+    ],
+    "answer": "A. 6356千米",
+    "steps": [
+      "地球的极半径约为6356千米。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为地球的极半径是6371千米或6378千米",
+        "hint": "地球的极半径是6356千米。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-earth-shape-size-q-007",
+    "node_id": "geo-m-earth-shape-size",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "地球的赤道半径约为_____千米。",
+    "answer": "6378",
+    "steps": [
+      "地球的赤道半径约为6378千米。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填为6356千米或6371千米",
+        "hint": "地球的赤道半径是6378千米。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-earth-shape-size-q-008",
+    "node_id": "geo-m-earth-shape-size",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请简述地球形状的演变过程。",
+    "answer": "地球的形状从一开始的熔融状态，逐渐冷却凝固，形成了不规则形状。随着时间的推移，地球自转产生的离心力使得赤道部分向外膨胀，两极稍扁，最终形成了两极稍扁、赤道略鼓的椭球体。",
+    "steps": [
+      "地球最初是熔融状态",
+      "冷却凝固后形成不规则形状",
+      "自转产生的离心力使赤道向外膨胀",
+      "最终形成两极稍扁、赤道略鼓的椭球体"
+    ],
+    "common_errors": [
+      {
+        "error": "只描述了地球现在的形状而未提及演变过程",
+        "hint": "需要描述地球从熔融状态到最终形状的演变过程。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "geo-m-earth-shape-size-q-009",
+    "node_id": "geo-m-earth-shape-size",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释为什么地球不是正球体而是椭球体。",
+    "answer": "地球自转产生的离心力使得赤道部分向外膨胀，而两极则稍扁，因此地球不是正球体而是椭球体。",
+    "steps": [
+      "地球自转产生离心力",
+      "离心力使赤道向外膨胀",
+      "两极稍扁",
+      "最终形成椭球体"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为地球是正球体",
+        "hint": "离心力的作用使地球成为椭球体。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]
