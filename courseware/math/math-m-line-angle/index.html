@@ -411,16 +411,24 @@ function drawIntersect() {
   const ctx = c.getContext('2d'); const W=c.width,H=c.height;
   ctx.clearRect(0,0,W,H);
   const cx=W/2,cy=H/2;
+  // 两条相交线的方向角
+  const a1=Math.atan2(220-80,420-80); // 线1: 约22.4°
+  const a2=Math.atan2(80-220,420-80); // 线2: 约-22.4°
   // Draw two intersecting lines
   ctx.strokeStyle='#334155';ctx.lineWidth=2;
   ctx.beginPath();ctx.moveTo(80,80);ctx.lineTo(420,220);ctx.stroke();
   ctx.beginPath();ctx.moveTo(80,220);ctx.lineTo(420,80);ctx.stroke();
-  // Highlight angles
-  const angles=[[cx,cy,0.3,1.1,'#6366f1'],[cx,cy,1.1,2.0,'#f59e0b'],[cx,cy,2.0,3.3,'#6366f1'],[cx,cy,3.3,4.5,'#f59e0b']];
-  if(highlightMode==='vertical'){[0,2].forEach(i=>{const[x,y,a1,a2,col]=angles[i];ctx.fillStyle=col+'80';ctx.beginPath();ctx.moveTo(x,y);ctx.arc(x,y,50,a1,a2);ctx.closePath();ctx.fill();});}
-  if(highlightMode==='adjacent'){[0,1].forEach(i=>{const[x,y,a1,a2,col]=angles[i];ctx.fillStyle='#10b98160';ctx.beginPath();ctx.moveTo(x,y);ctx.arc(x,y,50,a1,a2);ctx.closePath();ctx.fill();});}
+  // 4个角的弧度范围（对顶角：∠1和∠3，∠2和∠4）
+  const angles=[
+    [cx,cy,a2,a1,'#6366f1'],         // ∠1 右方小角
+    [cx,cy,a1,a2+Math.PI,'#f59e0b'], // ∠2 下方大角
+    [cx,cy,a2+Math.PI,a1+Math.PI,'#6366f1'], // ∠3 左方小角(对顶∠1)
+    [cx,cy,a1+Math.PI,a2+2*Math.PI,'#f59e0b']  // ∠4 上方大角(对顶∠2)
+  ];
+  if(highlightMode==='vertical'){[0,2].forEach(i=>{const[x,y,aa1,aa2,col]=angles[i];ctx.fillStyle=col+'80';ctx.beginPath();ctx.moveTo(x,y);ctx.arc(x,y,50,aa1,aa2);ctx.closePath();ctx.fill();});
+  }else if(highlightMode==='adjacent'){[0,1].forEach(i=>{const[x,y,aa1,aa2,col]=angles[i];ctx.fillStyle='#10b98160';ctx.beginPath();ctx.moveTo(x,y);ctx.arc(x,y,50,aa1,aa2);ctx.closePath();ctx.fill();});}
   ctx.fillStyle='#334155';ctx.font='bold 14px sans-serif';ctx.textAlign='center';
-  ctx.fillText('∠1',cx+65,cy-15);ctx.fillText('∠2',cx+15,cy+60);ctx.fillText('∠3',cx-65,cy+15);ctx.fillText('∠4',cx-15,cy-60);
+  ctx.fillText('∠1',cx+55,cy);ctx.fillText('∠2',cx,cy+55);ctx.fillText('∠3',cx-55,cy);ctx.fillText('∠4',cx,cy-55);
 }
 function highlightAngles(mode){highlightMode=mode;drawIntersect();}
 
@@ -430,40 +438,52 @@ function drawTransversal(){
   const c=document.getElementById('transversal-canvas');if(!c)return;
   const ctx=c.getContext('2d');const W=c.width,H=c.height;
   ctx.clearRect(0,0,W,H);
-  // Two parallel lines
+  // 两条平行线
+  const y1=100, y2=200;
   ctx.strokeStyle='#1e40af';ctx.lineWidth=2.5;
-  ctx.beginPath();ctx.moveTo(60,100);ctx.lineTo(440,100);ctx.stroke();
-  ctx.beginPath();ctx.moveTo(60,200);ctx.lineTo(440,200);ctx.stroke();
-  // Transversal
+  ctx.beginPath();ctx.moveTo(60,y1);ctx.lineTo(440,y1);ctx.stroke();
+  ctx.beginPath();ctx.moveTo(60,y2);ctx.lineTo(440,y2);ctx.stroke();
+  // 截线: (200,40)→(300,260)
+  const tx1=200,ty1=40,tx2=300,ty2=260;
   ctx.strokeStyle='#ef4444';ctx.lineWidth=2.5;
-  ctx.beginPath();ctx.moveTo(150,40);ctx.lineTo(350,260);ctx.stroke();
-  // Labels
+  ctx.beginPath();ctx.moveTo(tx1,ty1);ctx.lineTo(tx2,ty2);ctx.stroke();
+  // 截线角度
+  const ta=Math.atan2(ty2-ty1,tx2-tx1); // 截线方向角
+  // 交点
+  const ix1=tx1+(y1-ty1)*(tx2-tx1)/(ty2-ty1), iy1=y1; // 截线与上平行线交点
+  const ix2=tx1+(y2-ty1)*(tx2-tx1)/(ty2-ty1), iy2=y2; // 截线与下平行线交点
+  // 标记
   ctx.fillStyle='#1e40af';ctx.font='bold 14px sans-serif';ctx.textAlign='left';
-  ctx.fillText('a',446,104);ctx.fillText('b',446,204);
-  ctx.fillStyle='#ef4444';ctx.fillText('c',354,258);
-  // Angle labels
+  ctx.fillText('a',446,y1+4);ctx.fillText('b',446,y2+4);
+  ctx.fillStyle='#ef4444';ctx.fillText('c',tx2+4,ty2);
+  // 角标签(上交点4个角：∠1右上,∠2左上,∠3左下,∠4右下)
   ctx.fillStyle='#334155';ctx.font='13px sans-serif';ctx.textAlign='center';
-  ctx.fillText('∠1',218,90);ctx.fillText('∠2',245,90);
-  ctx.fillText('∠3',218,115);ctx.fillText('∠4',245,115);
-  ctx.fillText('∠5',268,188);ctx.fillText('∠6',295,188);
-  ctx.fillText('∠7',268,215);ctx.fillText('∠8',295,215);
-  // Highlight pairs
+  ctx.fillText('∠1',ix1+25,iy1-10);ctx.fillText('∠2',ix1-25,iy1-10);
+  ctx.fillText('∠3',ix1-25,iy1+18);ctx.fillText('∠4',ix1+25,iy1+18);
+  // 下交点4个角：∠5右上,∠6左上,∠7左下,∠8右下
+  ctx.fillText('∠5',ix2+25,iy2-10);ctx.fillText('∠6',ix2-25,iy2-10);
+  ctx.fillText('∠7',ix2-25,iy2+18);ctx.fillText('∠8',ix2+25,iy2+18);
+  // 高亮
+  const r=28;
   const desc=document.getElementById('pair-desc');
   if(anglePairMode==='co-interior'){
+    // 同位角: ∠1和∠5(都在截线右上方)
     ctx.fillStyle='#6366f180';
-    ctx.beginPath();ctx.arc(230,100,18,-2.2,-0.9);ctx.lineTo(230,100);ctx.fill();
-    ctx.beginPath();ctx.arc(280,200,18,-2.2,-0.9);ctx.lineTo(280,200);ctx.fill();
-    desc.textContent='同位角：∠1 和 ∠5（都在截线右上方，位置相同）。平行时：同位角相等，∠1=∠5。';
+    ctx.beginPath();ctx.moveTo(ix1,iy1);ctx.arc(ix1,iy1,r,ta+Math.PI,0);ctx.closePath();ctx.fill();
+    ctx.beginPath();ctx.moveTo(ix2,iy2);ctx.arc(ix2,iy2,r,ta+Math.PI,0);ctx.closePath();ctx.fill();
+    desc.textContent='同位角：∠1 和 ∠5（都在截线同侧、平行线同侧，位置相同）。平行线性质：同位角相等，∠1=∠5。';
   }else if(anglePairMode==='alternate'){
+    // 内错角: ∠4和∠6(两线之间，截线两侧，Z形)
     ctx.fillStyle='#10b98180';
-    ctx.beginPath();ctx.arc(215,115,18,0.9,2.2);ctx.lineTo(215,115);ctx.fill();
-    ctx.beginPath();ctx.arc(290,188,18,-2.2,-0.9);ctx.lineTo(290,188);ctx.fill();
-    desc.textContent='内错角：∠3 和 ∠6（在两线之间，截线两侧，形如Z）。平行时：内错角相等，∠3=∠6。';
+    ctx.beginPath();ctx.moveTo(ix1,iy1);ctx.arc(ix1,iy1,r,0,ta);ctx.closePath();ctx.fill();
+    ctx.beginPath();ctx.moveTo(ix2,iy2);ctx.arc(ix2,iy2,r,Math.PI,ta+Math.PI);ctx.closePath();ctx.fill();
+    desc.textContent='内错角：∠4 和 ∠6（在两平行线之间，截线两侧，形如Z字）。平行线性质：内错角相等，∠4=∠6。';
   }else if(anglePairMode==='co-interior-sum'){
+    // 同旁内角: ∠4和∠5(两线之间，截线同侧，U形)
     ctx.fillStyle='#f59e0b80';
-    ctx.beginPath();ctx.arc(215,115,18,0.9,2.2);ctx.lineTo(215,115);ctx.fill();
-    ctx.beginPath();ctx.arc(280,188,18,-2.2,-0.9);ctx.lineTo(280,188);ctx.fill();
-    desc.textContent='同旁内角：∠3 和 ∠5（在两线之间，截线同侧，形如U/C）。平行时：同旁内角互补，∠3+∠5=180°。';
+    ctx.beginPath();ctx.moveTo(ix1,iy1);ctx.arc(ix1,iy1,r,0,ta);ctx.closePath();ctx.fill();
+    ctx.beginPath();ctx.moveTo(ix2,iy2);ctx.arc(ix2,iy2,r,ta+Math.PI,0);ctx.closePath();ctx.fill();
+    desc.textContent='同旁内角：∠4 和 ∠5（在两平行线之间，截线同侧，形如U字）。平行线性质：同旁内角互补，∠4+∠5=180°。';
   }else{desc.textContent='点击上方按钮，高亮显示不同的角对关系。';}
 }
 function showAnglePair(mode){anglePairMode=mode;drawTransversal();}

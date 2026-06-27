@@ -1,0 +1,203 @@
+[
+  {
+    "id": "math-m-special-quadrilateral-q-001",
+    "node_id": "math-m-special-quadrilateral",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列哪个选项是平行四边形的性质？",
+    "options": [
+      "对角线互相垂直",
+      "对角线相等",
+      "对角线互相平分",
+      "对角线长度不相等"
+    ],
+    "answer": "对角线互相平分",
+    "steps": [
+      "平行四边形的性质之一是对角线互相平分。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选对角线互相垂直",
+        "hint": "对角线互相垂直是菱形的性质。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-m-special-quadrilateral-q-002",
+    "node_id": "math-m-special-quadrilateral",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "矩形具有而一般平行四边形不具有的性质是？",
+    "options": [
+      "对角线互相平分",
+      "对角线相等",
+      "对角相等",
+      "邻角互补"
+    ],
+    "answer": "对角线相等",
+    "steps": [
+      "矩形是特殊的平行四边形，其对角线相等。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选对角线互相平分",
+        "hint": "对角线互相平分是平行四边形的性质。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-special-quadrilateral-q-003",
+    "node_id": "math-m-special-quadrilateral",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "菱形的对角线互相______。",
+    "answer": "垂直",
+    "steps": [
+      "菱形的对角线互相垂直且平分。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写‘垂直’或‘平分’",
+        "hint": "菱形的对角线既垂直又平分。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-special-quadrilateral-q-004",
+    "node_id": "math-m-special-quadrilateral",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "已知一个四边形对角线相等且互相平分，则该四边形是？",
+    "options": [
+      "平行四边形",
+      "矩形",
+      "菱形",
+      "正方形"
+    ],
+    "answer": "矩形",
+    "steps": [
+      "对角线相等且互相平分是矩形的性质。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选平行四边形",
+        "hint": "平行四边形对角线只互相平分。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-special-quadrilateral-q-005",
+    "node_id": "math-m-special-quadrilateral",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "正方形的对角线与边所成的角是？",
+    "options": [
+      "30度",
+      "45度",
+      "60度",
+      "90度"
+    ],
+    "answer": "45度",
+    "steps": [
+      "正方形的对角线与边所成的角是45度。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选30度或60度",
+        "hint": "正方形对角线与边所成的角是45度。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-special-quadrilateral-q-006",
+    "node_id": "math-m-special-quadrilateral",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "如果一个平行四边形的两条对角线互相垂直，那么这个平行四边形是______。",
+    "answer": "菱形",
+    "steps": [
+      "如果一个平行四边形的两条对角线互相垂直，那么这个平行四边形是菱形。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写‘正方形’",
+        "hint": "正方形是特殊的菱形，但题目只提到对角线互相垂直。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-special-quadrilateral-q-007",
+    "node_id": "math-m-special-quadrilateral",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "证明：矩形的对角线相等。",
+    "answer": "证明：\n1. 设矩形ABCD，AC和BD是对角线。\n2. 因为ABCD是矩形，所以∠ABC = ∠BCD = ∠CDA = ∠DAB = 90度。\n3. 在Rt△ABC和Rt△DCB中，AB = DC，BC = CB，∠ABC = ∠DCB = 90度。\n4. 所以Rt△ABC ≌ Rt△DCB（HL）。\n5. 因此AC = BD。\n6. 所以矩形的对角线相等。",
+    "steps": [
+      "设矩形ABCD，AC和BD是对角线。",
+      "证明Rt△ABC ≌ Rt△DCB（HL）。",
+      "得出AC = BD。"
+    ],
+    "common_errors": [
+      {
+        "error": "未利用矩形的性质",
+        "hint": "矩形的对角线相等是因为其对角线互相平分且垂直。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-special-quadrilateral-q-008",
+    "node_id": "math-m-special-quadrilateral",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "已知菱形ABCD的边长为5，对角线AC和BD相交于点O，且AC = 8，求BD的长。",
+    "answer": "BD = 6",
+    "steps": [
+      "利用菱形对角线互相垂直平分的性质。",
+      "在Rt△ABO中应用勾股定理。",
+      "计算BD的长度。"
+    ],
+    "common_errors": [
+      {
+        "error": "未利用菱形的性质",
+        "hint": "菱形对角线互相垂直且平分。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "math-m-special-quadrilateral-q-009",
+    "node_id": "math-m-special-quadrilateral",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "正方形ABCD的边长为a，求对角线AC的长。",
+    "answer": "AC = a√2",
+    "steps": [
+      "利用正方形对角线的性质。",
+      "在Rt△ABC中应用勾股定理。",
+      "计算AC的长度。"
+    ],
+    "common_errors": [
+      {
+        "error": "未利用正方形的性质",
+        "hint": "正方形对角线互相垂直且相等。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]
