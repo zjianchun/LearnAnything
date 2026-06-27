@@ -1,0 +1,270 @@
+[
+  {
+    "id": "eng-m-listening-basic-q-001",
+    "node_id": "eng-m-listening-basic",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "What is the man going to do tomorrow?",
+    "options": [
+      "A. Go to the park",
+      "B. Visit his friend",
+      "C. Watch a movie",
+      "D. Have a meeting"
+    ],
+    "answer": "B. Visit his friend",
+    "steps": [
+      "1. Listen to the conversation between the man and the woman.",
+      "2. Pay attention to the man's response about his plans for tomorrow.",
+      "3. Identify the correct option based on the information given."
+    ],
+    "common_errors": [
+      {
+        "error": "Choosing 'A. Go to the park'",
+        "hint": "The man mentions visiting his friend, not going to the park."
+      },
+      {
+        "error": "Choosing 'C. Watch a movie'",
+        "hint": "While movies are mentioned, they are not part of the man's plans for tomorrow."
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-listening-basic-q-002",
+    "node_id": "eng-m-listening-basic",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "The meeting will start at ______ o'clock.",
+    "answer": "9",
+    "steps": [
+      "1. Listen for the time mentioned in the dialogue about the meeting.",
+      "2. Identify the specific hour mentioned for the meeting to start.",
+      "3. Write the number in the blank."
+    ],
+    "common_errors": [
+      {
+        "error": "Writing 'nine' instead of '9'",
+        "hint": "The answer should be in numerical form."
+      },
+      {
+        "error": "Writing '10' instead of '9'",
+        "hint": "Double-check the time mentioned in the dialogue."
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-listening-basic-q-003",
+    "node_id": "eng-m-listening-basic",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 1,
+    "question": "What is the weather like today?",
+    "answer": "Sunny",
+    "steps": [
+      "1. Listen to the description of the weather in the dialogue.",
+      "2. Identify the adjective used to describe the weather.",
+      "3. Write the adjective as the answer."
+    ],
+    "common_errors": [
+      {
+        "error": "Writing 'rainy' instead of 'sunny'",
+        "hint": "The dialogue clearly indicates that it is sunny, not rainy."
+      },
+      {
+        "error": "Writing 'windy' instead of 'sunny'",
+        "hint": "Pay attention to the details mentioned in the dialogue."
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-listening-basic-q-004",
+    "node_id": "eng-m-listening-basic",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "What is the main topic of the conversation?",
+    "options": [
+      "A. Travel plans",
+      "B. School project",
+      "C. Family gathering",
+      "D. Job interview"
+    ],
+    "answer": "B. School project",
+    "steps": [
+      "1. Listen to the entire conversation carefully.",
+      "2. Identify the key points discussed.",
+      "3. Determine the main topic based on the overall content."
+    ],
+    "common_errors": [
+      {
+        "error": "Choosing 'A. Travel plans'",
+        "hint": "While travel is mentioned, it is not the main topic."
+      },
+      {
+        "error": "Choosing 'C. Family gathering'",
+        "hint": "The conversation does not focus on a family gathering."
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-listening-basic-q-005",
+    "node_id": "eng-m-listening-basic",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "The train leaves at ______ in the morning.",
+    "answer": "7:30",
+    "steps": [
+      "1. Listen for the time the train is scheduled to leave.",
+      "2. Identify the specific time mentioned in the dialogue.",
+      "3. Write the time in the blank."
+    ],
+    "common_errors": [
+      {
+        "error": "Writing '7:45' instead of '7:30'",
+        "hint": "Double-check the time mentioned in the dialogue."
+      },
+      {
+        "error": "Writing '8:00' instead of '7:30'",
+        "hint": "Ensure you are noting the correct time."
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-listening-basic-q-006",
+    "node_id": "eng-m-listening-basic",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "What is the woman's favorite food?",
+    "answer": "Sushi",
+    "steps": [
+      "1. Listen to the part of the conversation where the woman talks about her favorite food.",
+      "2. Identify the specific food item mentioned.",
+      "3. Write the name of the food as the answer."
+    ],
+    "common_errors": [
+      {
+        "error": "Writing 'pizza' instead of 'sushi'",
+        "hint": "The woman clearly states that her favorite food is sushi."
+      },
+      {
+        "error": "Writing 'pasta' instead of 'sushi'",
+        "hint": "Pay attention to the details mentioned in the dialogue."
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-listening-basic-q-007",
+    "node_id": "eng-m-listening-basic",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "What is the man's opinion about the new restaurant?",
+    "options": [
+      "A. He likes it",
+      "B. He dislikes it",
+      "C. He has no opinion",
+      "D. He hasn't been there"
+    ],
+    "answer": "D. He hasn't been there",
+    "steps": [
+      "1. Listen to the man's response about the new restaurant.",
+      "2. Identify whether he has visited the restaurant or not.",
+      "3. Determine his opinion based on his response."
+    ],
+    "common_errors": [
+      {
+        "error": "Choosing 'A. He likes it'",
+        "hint": "The man hasn't visited the restaurant, so he cannot have an opinion."
+      },
+      {
+        "error": "Choosing 'C. He has no opinion'",
+        "hint": "The man hasn't formed an opinion because he hasn't been there."
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-listening-basic-q-008",
+    "node_id": "eng-m-listening-basic",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "What is the name of the book the woman recommends?",
+    "answer": "The Great Gatsby",
+    "steps": [
+      "1. Listen to the part of the conversation where the woman talks about the book.",
+      "2. Identify the title of the book mentioned.",
+      "3. Write the title as the answer."
+    ],
+    "common_errors": [
+      {
+        "error": "Writing 'The Catcher in the Rye' instead of 'The Great Gatsby'",
+        "hint": "The woman recommends 'The Great Gatsby', not 'The Catcher in the Rye'."
+      },
+      {
+        "error": "Writing 'Pride and Prejudice' instead of 'The Great Gatsby'",
+        "hint": "Pay attention to the details mentioned in the dialogue."
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-listening-basic-q-009",
+    "node_id": "eng-m-listening-basic",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "The concert starts at ______ p.m.",
+    "answer": "8:00",
+    "steps": [
+      "1. Listen for the time the concert is scheduled to start.",
+      "2. Identify the specific time mentioned in the dialogue.",
+      "3. Write the time in the blank."
+    ],
+    "common_errors": [
+      {
+        "error": "Writing '7:30' instead of '8:00'",
+        "hint": "Double-check the time mentioned in the dialogue."
+      },
+      {
+        "error": "Writing '9:00' instead of '8:00'",
+        "hint": "Ensure you are noting the correct time."
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-listening-basic-q-010",
+    "node_id": "eng-m-listening-basic",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "What is the man's job?",
+    "answer": "Engineer",
+    "steps": [
+      "1. Listen to the part of the conversation where the man talks about his job.",
+      "2. Identify the job title mentioned.",
+      "3. Write the job title as the answer."
+    ],
+    "common_errors": [
+      {
+        "error": "Writing 'doctor' instead of 'engineer'",
+        "hint": "The man states that he is an engineer, not a doctor."
+      },
+      {
+        "error": "Writing 'teacher' instead of 'engineer'",
+        "hint": "Pay attention to the details mentioned in the dialogue."
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

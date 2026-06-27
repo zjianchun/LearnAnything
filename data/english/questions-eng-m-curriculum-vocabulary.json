@@ -1,0 +1,231 @@
+[
+  {
+    "id": "eng-m-curriculum-vocabulary-q-001",
+    "node_id": "eng-m-curriculum-vocabulary",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "The teacher asked us to _____ the text carefully.",
+    "options": [
+      "A. read",
+      "B. watch",
+      "C. see",
+      "D. look"
+    ],
+    "answer": "A. read",
+    "steps": [
+      "1. 分析句意：老师要求我们仔细地_____这篇文章。",
+      "2. 选择合适的动词：根据句意，需要选择一个表示“阅读”的动词。",
+      "3. 确定答案：'read'是“阅读”的意思，符合句意。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选D. look",
+        "hint": "'look'是不及物动词，后面不能直接接宾语，需要加介词at。"
+      },
+      {
+        "error": "误选B. watch",
+        "hint": "'watch'通常用于观看动态的事物，如电视、比赛等。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-curriculum-vocabulary-q-002",
+    "node_id": "eng-m-curriculum-vocabulary",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "I have two _____ (dictionary) on my desk.",
+    "answer": "dictionaries",
+    "steps": [
+      "1. 分析句子结构：句子缺少宾语，需要填入名词。",
+      "2. 确定名词形式：根据前面的数词'two'，可知需要填入复数形式。",
+      "3. 变形：'dictionary'的复数形式是'dictionaries'。"
+    ],
+    "common_errors": [
+      {
+        "error": "写成复数时忘记变y为i加es",
+        "hint": "以辅音字母+y结尾的名词，变复数时需要把y变为i再加es。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-curriculum-vocabulary-q-003",
+    "node_id": "eng-m-curriculum-vocabulary",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "He is good at _____ (play) basketball.",
+    "options": [
+      "A. play",
+      "B. playing",
+      "C. to play",
+      "D. plays"
+    ],
+    "answer": "B. playing",
+    "steps": [
+      "1. 分析句子结构：句子缺少宾语补足语，需要填入动词的非谓语形式。",
+      "2. 确定动词形式：根据固定搭配'be good at'，后面需要接动名词形式。",
+      "3. 变形：'play'的动名词形式是'playing'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A. play",
+        "hint": "'be good at'后面需要接动名词形式，不能直接接动词原形。"
+      },
+      {
+        "error": "误选C. to play",
+        "hint": "'be good at'后面不能接动词不定式。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-curriculum-vocabulary-q-004",
+    "node_id": "eng-m-curriculum-vocabulary",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "The book is very interesting. I can't _____ reading it.",
+    "options": [
+      "A. stop",
+      "B. finish",
+      "C. enjoy",
+      "D. mind"
+    ],
+    "answer": "A. stop",
+    "steps": [
+      "1. 分析句意：这本书很有趣。我无法_____阅读它。",
+      "2. 选择合适的动词：根据句意，需要选择一个表示“停止”的动词。",
+      "3. 确定答案：'stop'是“停止”的意思，符合句意。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B. finish",
+        "hint": "'finish'是“完成”的意思，与句意不符。"
+      },
+      {
+        "error": "误选C. enjoy",
+        "hint": "'enjoy'是“喜欢，享受”的意思，与句意不符。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-curriculum-vocabulary-q-005",
+    "node_id": "eng-m-curriculum-vocabulary",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "She _____ (study) English for five years before she went to college.",
+    "answer": "had studied",
+    "steps": [
+      "1. 分析句子结构：句子缺少谓语动词，需要填入动词的过去完成时形式。",
+      "2. 确定动词形式：根据时间状语'for five years'和'before'引导的时间状语从句，可知需要用过去完成时。",
+      "3. 变形：'study'的过去完成时形式是'had studied'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用一般过去时",
+        "hint": "当主句动作发生在从句动作之前时，需要用过去完成时。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-curriculum-vocabulary-q-006",
+    "node_id": "eng-m-curriculum-vocabulary",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "The teacher told us _____ in the river.",
+    "options": [
+      "A. not swim",
+      "B. don't swim",
+      "C. not to swim",
+      "D. to not swim"
+    ],
+    "answer": "C. not to swim",
+    "steps": [
+      "1. 分析句子结构：句子缺少宾语补足语，需要填入动词不定式的否定形式。",
+      "2. 确定动词形式：根据固定搭配'tell sb. to do sth.'的否定形式是'tell sb. not to do sth.'。",
+      "3. 确定答案：'not to swim'是动词不定式的否定形式，符合句意。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A. not swim",
+        "hint": "动词不定式的否定形式是'not to do'，而不是'not do'。"
+      },
+      {
+        "error": "误选B. don't swim",
+        "hint": "'don't swim'是祈使句的否定形式，不能用作宾语补足语。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-curriculum-vocabulary-q-007",
+    "node_id": "eng-m-curriculum-vocabulary",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "The students were made _____ (clean) the classroom after school.",
+    "answer": "to clean",
+    "steps": [
+      "1. 分析句子结构：句子缺少主语补足语，需要填入动词不定式形式。",
+      "2. 确定动词形式：根据固定搭配'make sb. do sth.'的被动形式是'sb. be made to do sth.'。",
+      "3. 确定答案：'to clean'是动词不定式形式，符合句意。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用动词原形",
+        "hint": "在被动语态中，make后面的动词不定式要加上to。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-curriculum-vocabulary-q-008",
+    "node_id": "eng-m-curriculum-vocabulary",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "Please explain the difference between 'look', 'see', and 'watch'.",
+    "answer": "1. 'look'表示看的动作，不及物动词，后面需要加介词at才能接宾语。\n2. 'see'表示看到的结果，是及物动词，后面可以直接接宾语。\n3. 'watch'表示观看，通常用于观看动态的事物，如电视、比赛等。",
+    "steps": [
+      "1. 分析三个单词的含义和用法。",
+      "2. 分别解释每个单词的含义和用法。",
+      "3. 给出例句进行说明。"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆三个单词的含义",
+        "hint": "仔细区分三个单词的含义和用法，必要时可以结合例句进行理解。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "eng-m-curriculum-vocabulary-q-009",
+    "node_id": "eng-m-curriculum-vocabulary",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "Please use the word 'suggest' in a sentence and explain its usage.",
+    "answer": "Sentence: I suggest that you should study hard. \nUsage: 'suggest' is a verb that means to recommend or propose something. It is often followed by a that-clause, and the verb in the that-clause should be in the subjunctive mood.",
+    "steps": [
+      "1. 构造一个包含'suggest'的句子。",
+      "2. 分析'suggest'的用法。",
+      "3. 解释'suggest'的含义和用法。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用虚拟语气",
+        "hint": "在表示建议、命令、要求等含义的动词后面的that从句中，谓语动词要用虚拟语气。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

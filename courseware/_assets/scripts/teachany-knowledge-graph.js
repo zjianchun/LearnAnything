@@ -51,7 +51,7 @@
     return "rgba(" + r + "," + g + "," + b + "," + alpha + ")";
   }
 
-  var COURSEWARE_BASE_URL = "https://www.teachany.cn";
+  var COURSEWARE_BASE_URL = "/";
 
   function coursewareUrl(course) {
     if (!course || !course.path) return null;

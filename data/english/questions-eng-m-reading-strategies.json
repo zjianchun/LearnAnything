@@ -1,0 +1,232 @@
+[
+  {
+    "id": "eng-m-reading-strategies-q-001",
+    "node_id": "eng-m-reading-strategies",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "What is the main purpose of skimming?",
+    "options": [
+      "To read every word carefully",
+      "To get a general idea of the text",
+      "To find specific information",
+      "To understand the writer's opinion"
+    ],
+    "answer": "To get a general idea of the text",
+    "steps": [
+      "Understand that skimming is a reading strategy used to quickly identify the main ideas of a text.",
+      "Review the options and identify which one aligns with the purpose of skimming.",
+      "Select the option that best describes the main purpose of skimming."
+    ],
+    "common_errors": [
+      {
+        "error": "Choosing the option that involves reading every word carefully",
+        "hint": "Skimming is about getting a general understanding, not detailed reading."
+      },
+      {
+        "error": "Confusing skimming with scanning, which is for finding specific information",
+        "hint": "Remember that skimming is for getting the main idea, while scanning is for locating specific details."
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-reading-strategies-q-002",
+    "node_id": "eng-m-reading-strategies",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "When you need to find a phone number in a text, you should use ________.",
+    "answer": "scanning",
+    "steps": [
+      "Identify the task: finding a specific piece of information (phone number).",
+      "Recall that scanning is the strategy used to locate specific details quickly.",
+      "Fill in the blank with the correct term: 'scanning'."
+    ],
+    "common_errors": [
+      {
+        "error": "Writing 'skimming' instead of 'scanning'",
+        "hint": "Skimming is for getting the main idea, not for finding specific details."
+      },
+      {
+        "error": "Writing 'reading' or 'searching'",
+        "hint": "While these terms are related, the specific strategy for finding details is called scanning."
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-reading-strategies-q-003",
+    "node_id": "eng-m-reading-strategies",
+    "source": "AI-generated-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "Which reading strategy involves looking for keywords and phrases?",
+    "options": [
+      "Skimming",
+      "Scanning",
+      "Intensive reading",
+      "Extensive reading"
+    ],
+    "answer": "Scanning",
+    "steps": [
+      "Understand that scanning involves looking for specific keywords or phrases.",
+      "Review the options and identify which one matches this description.",
+      "Select the option that best describes the strategy of looking for keywords and phrases."
+    ],
+    "common_errors": [
+      {
+        "error": "Choosing 'skimming' instead of 'scanning'",
+        "hint": "Skimming is for getting the main idea, not for locating specific details."
+      },
+      {
+        "error": "Choosing 'intensive reading'",
+        "hint": "Intensive reading is for detailed understanding, not for quickly finding specific information."
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-reading-strategies-q-004",
+    "node_id": "eng-m-reading-strategies",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "Which of the following is NOT a benefit of skimming?",
+    "options": [
+      "Saving time",
+      "Getting the main idea",
+      "Understanding detailed information",
+      "Identifying the text type"
+    ],
+    "answer": "Understanding detailed information",
+    "steps": [
+      "Understand that skimming is used to get a general idea quickly.",
+      "Review the options and identify which one does not align with the purpose of skimming.",
+      "Select the option that is NOT a benefit of skimming."
+    ],
+    "common_errors": [
+      {
+        "error": "Choosing 'saving time'",
+        "hint": "Skimming does help save time by providing a quick overview."
+      },
+      {
+        "error": "Choosing 'getting the main idea'",
+        "hint": "This is a key benefit of skimming."
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-reading-strategies-q-005",
+    "node_id": "eng-m-reading-strategies",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "Which reading strategy is most useful when you need to understand the writer's tone and style?",
+    "options": [
+      "Skimming",
+      "Scanning",
+      "Intensive reading",
+      "Speed reading"
+    ],
+    "answer": "Intensive reading",
+    "steps": [
+      "Understand that understanding tone and style requires detailed analysis.",
+      "Review the options and identify which strategy involves detailed analysis.",
+      "Select the option that best describes the strategy for understanding tone and style."
+    ],
+    "common_errors": [
+      {
+        "error": "Choosing 'skimming'",
+        "hint": "Skimming is for getting the main idea, not for detailed analysis."
+      },
+      {
+        "error": "Choosing 'scanning'",
+        "hint": "Scanning is for finding specific information, not for understanding tone and style."
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-reading-strategies-q-006",
+    "node_id": "eng-m-reading-strategies",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "Which of the following is a characteristic of scanning?",
+    "options": [
+      "Reading every word",
+      "Looking for specific information",
+      "Understanding the main idea",
+      "Analyzing the text structure"
+    ],
+    "answer": "Looking for specific information",
+    "steps": [
+      "Understand that scanning is used to locate specific information quickly.",
+      "Review the options and identify which one matches this description.",
+      "Select the option that best describes a characteristic of scanning."
+    ],
+    "common_errors": [
+      {
+        "error": "Choosing 'reading every word'",
+        "hint": "Scanning involves quickly searching for information, not reading every word."
+      },
+      {
+        "error": "Choosing 'understanding the main idea'",
+        "hint": "This is a characteristic of skimming, not scanning."
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-reading-strategies-q-007",
+    "node_id": "eng-m-reading-strategies",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "Explain the difference between skimming and scanning.",
+    "answer": "Skimming is used to get a general idea of the text and understand the main points, while scanning is used to locate specific information quickly. Skimming involves reading quickly to grasp the overall theme, whereas scanning involves searching for keywords or phrases to find particular details.",
+    "steps": [
+      "Identify the key characteristics of skimming and scanning.",
+      "Explain the purpose of each strategy.",
+      "Highlight the differences between the two strategies."
+    ],
+    "common_errors": [
+      {
+        "error": "Describing skimming as reading every word",
+        "hint": "Skimming is about getting a general overview, not detailed reading."
+      },
+      {
+        "error": "Confusing scanning with skimming",
+        "hint": "Remember that scanning is for finding specific details, while skimming is for getting the main idea."
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "eng-m-reading-strategies-q-008",
+    "node_id": "eng-m-reading-strategies",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "Describe a situation where you would use intensive reading.",
+    "answer": "Intensive reading is used when you need to understand the text in detail, such as when analyzing a literary work, studying for an exam, or when the text contains complex information that requires careful analysis. It involves reading slowly and thoroughly, often with the help of a dictionary or other resources to understand difficult words and concepts.",
+    "steps": [
+      "Identify the purpose of intensive reading.",
+      "Describe a scenario that requires detailed understanding.",
+      "Explain how intensive reading would be applied in that situation."
+    ],
+    "common_errors": [
+      {
+        "error": "Describing a situation where skimming or scanning would be more appropriate",
+        "hint": "Intensive reading is for detailed analysis, not for getting the main idea or finding specific information."
+      },
+      {
+        "error": "Suggesting that intensive reading is used for speed reading",
+        "hint": "Intensive reading is slow and thorough, unlike speed reading."
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

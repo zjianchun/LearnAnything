@@ -99,6 +99,9 @@ def main():
     text = text.replace('"/assets/scripts/', '"/courseware/_assets/scripts/')
     text = text.replace('="assets/scripts/', '="/courseware/_assets/scripts/')
 
+    # 5b. 移除 teachany 外部导航（Gallery/Path等跳转到 teachany.cn 的链接块）
+    text = re.sub(r'<!-- teachany-back-to-gallery -->.*?<!-- /teachany-back-to-gallery -->', '', text, flags=re.DOTALL)
+
     # 6. 注入 AI学伴代理配置（指向自建后端 /api/tutor，key留服务端）
     inject = (
         "<script>(function(){try{var K='teachany_tutor_config';"
