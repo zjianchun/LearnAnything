@@ -1,0 +1,196 @@
+[
+  {
+    "id": "hist-m-mongol-empire-q-001",
+    "node_id": "hist-m-mongol-empire",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "蒙古族最初兴起于今天的哪个地区？",
+    "options": [
+      "A. 蒙古高原",
+      "B. 青藏高原",
+      "C. 云贵高原",
+      "D. 内蒙古平原"
+    ],
+    "answer": "A. 蒙古高原",
+    "steps": [
+      "蒙古族起源于蒙古高原地区",
+      "蒙古高原位于今天的蒙古国以及中国内蒙古自治区北部",
+      "这是蒙古族形成和早期发展的核心区域"
+    ],
+    "common_errors": [
+      {
+        "error": "误选其他高原",
+        "hint": "注意蒙古族兴起于蒙古高原，而非其他高原地区"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-mongol-empire-q-002",
+    "node_id": "hist-m-mongol-empire",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "元朝建立于_____年。",
+    "answer": "1271",
+    "steps": [
+      "元朝由忽必烈建立",
+      "忽必烈于1271年改国号为元",
+      "因此元朝建立时间为1271年"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误年份",
+        "hint": "注意元朝建立于1271年，而非其他年份"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-mongol-empire-q-003",
+    "node_id": "hist-m-mongol-empire",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下哪一项不是成吉思汗的功绩？",
+    "options": [
+      "A. 统一蒙古各部",
+      "B. 建立蒙古汗国",
+      "C. 发动西征",
+      "D. 灭亡南宋"
+    ],
+    "answer": "D. 灭亡南宋",
+    "steps": [
+      "成吉思汗统一了蒙古各部",
+      "建立了蒙古汗国",
+      "发动了西征，但并未灭亡南宋",
+      "灭亡南宋是忽必烈在位时完成的"
+    ],
+    "common_errors": [
+      {
+        "error": "误选C",
+        "hint": "虽然成吉思汗发动了西征，但D选项才是正确答案"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-mongol-empire-q-004",
+    "node_id": "hist-m-mongol-empire",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "元朝在地方上实行什么制度来加强中央集权？",
+    "options": [
+      "A. 行省制度",
+      "B. 郡县制",
+      "C. 分封制",
+      "D. 州府制"
+    ],
+    "answer": "A. 行省制度",
+    "steps": [
+      "元朝在地方上实行行省制度",
+      "行省制度是中国古代地方行政制度的重大变革",
+      "这一制度加强了中央对地方的控制"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B或D",
+        "hint": "注意元朝的地方行政制度是行省制度，而非郡县制或州府制"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-mongol-empire-q-005",
+    "node_id": "hist-m-mongol-empire",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述蒙古崛起对世界历史的影响。",
+    "answer": "蒙古崛起对世界历史的影响主要体现在以下几个方面：1. 建立了横跨欧亚的大帝国，促进了东西方文化交流；2. 推动了欧亚大陆的商业贸易发展；3. 传播了中国的先进技术和文化；4. 对欧洲、中东等地产生了深远影响，例如引发了欧洲的宗教改革和文艺复兴的萌芽。",
+    "steps": [
+      "分析蒙古崛起对欧亚大陆的影响",
+      "考虑文化交流、商业贸易、技术传播等方面",
+      "总结对世界历史的长远影响"
+    ],
+    "common_errors": [
+      {
+        "error": "回答过于简略",
+        "hint": "需要全面分析蒙古崛起对世界历史的多方面影响"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-mongol-empire-q-006",
+    "node_id": "hist-m-mongol-empire",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "元朝统一全国后采取了哪些措施来巩固统治？",
+    "answer": "元朝统一全国后采取了以下措施来巩固统治：1. 实行行省制度，加强中央对地方的控制；2. 推行民族分化政策，将全国人口分为四等；3. 发展交通，修建驿道；4. 重视农业，恢复和发展生产；5. 改革科举制度，吸纳汉族士人进入官僚体系。",
+    "steps": [
+      "列举元朝巩固统治的主要措施",
+      "分析这些措施对元朝统治的影响",
+      "总结元朝统治政策的特点"
+    ],
+    "common_errors": [
+      {
+        "error": "遗漏重要措施",
+        "hint": "注意元朝巩固统治的措施包括政治、经济、文化等多个方面"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-mongol-empire-q-007",
+    "node_id": "hist-m-mongol-empire",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "元朝灭亡的主要原因是什么？",
+    "options": [
+      "A. 民族压迫政策",
+      "B. 内部权力斗争",
+      "C. 自然灾害频繁",
+      "D. 农民起义"
+    ],
+    "answer": "D. 农民起义",
+    "steps": [
+      "分析元朝灭亡的多种因素",
+      "民族压迫政策导致社会矛盾激化",
+      "自然灾害加剧了社会动荡",
+      "最终农民起义成为元朝灭亡的直接原因"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A或B",
+        "hint": "虽然民族压迫和内部权力斗争是重要因素，但农民起义才是主要原因"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "hist-m-mongol-empire-q-008",
+    "node_id": "hist-m-mongol-empire",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "试分析蒙古崛起对亚洲历史发展的深远影响。",
+    "answer": "蒙古崛起对亚洲历史发展的深远影响主要体现在：1. 促进了亚洲各民族之间的交流与融合；2. 推动了亚洲地区的经济、文化发展；3. 改变了亚洲的政治格局，奠定了现代亚洲国家的基础；4. 促进了亚洲与世界其他地区的联系。例如，蒙古帝国的扩张使得亚洲与欧洲、中东等地的联系更加紧密，推动了丝绸之路的繁荣。同时，元朝的建立也使得中国的文化和技术得以更广泛地传播，对亚洲其他国家产生了深远影响。",
+    "steps": [
+      "分析蒙古崛起对亚洲各民族的影响",
+      "考虑经济、文化、政治等方面",
+      "总结对亚洲历史发展的长远影响"
+    ],
+    "common_errors": [
+      {
+        "error": "回答过于片面",
+        "hint": "需要从多个角度分析蒙古崛起对亚洲历史的影响"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

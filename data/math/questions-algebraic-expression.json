@@ -1,0 +1,226 @@
+[
+  {
+    "id": "math-m-algebraic-expression-q-001",
+    "node_id": "math-m-algebraic-expression",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列代数式中，哪些是整式？\n(1) 3x² + 2x + 1\n(2) 4/(x+1)\n(3) √x\n(4) 5y³ - 7y + 9",
+    "options": [
+      "A. (1)和(4)",
+      "B. (2)和(3)",
+      "C. (1)和(2)",
+      "D. (3)和(4)"
+    ],
+    "answer": "A. (1)和(4)",
+    "steps": [
+      "整式是指不含有除法运算或分数形式的多项式。",
+      "分析每个选项：(1) 是多项式，(2) 含有除法，(3) 不是整式，(4) 是多项式。",
+      "因此，整式是(1)和(4)。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为√x是整式",
+        "hint": "√x含有根号，不是整式。"
+      },
+      {
+        "error": "误认为4/(x+1)是整式",
+        "hint": "4/(x+1)含有除法，不是整式。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-algebraic-expression-q-002",
+    "node_id": "math-m-algebraic-expression",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "若代数式2x² - 3x + 5的值为7，求x的值。",
+    "answer": "1或-1",
+    "steps": [
+      "将代数式设为方程：2x² - 3x + 5 = 7。",
+      "化简方程：2x² - 3x + 5 - 7 = 0，即2x² - 3x - 2 = 0。",
+      "使用因式分解法或求根公式解方程：",
+      "因式分解：2x² - 4x + x - 2 = 0，即2x(x - 2) + 1(x - 2) = 0，",
+      "即(2x + 1)(x - 2) = 0，解得x = -1/2或x = 2。",
+      "代入验证：x = -1/2时，代数式值为7；x = 2时，代数式值为7。"
+    ],
+    "common_errors": [
+      {
+        "error": "忘记考虑负数解",
+        "hint": "解二次方程时要注意正负解。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "注意运算符号和计算步骤。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-algebraic-expression-q-003",
+    "node_id": "math-m-algebraic-expression",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "已知代数式3x² + 2y - 5的值为10，且x = 2，求y的值。",
+    "answer": "y = 7/2",
+    "steps": [
+      "将x = 2代入代数式：3(2)² + 2y - 5 = 10。",
+      "计算：3(4) + 2y - 5 = 10，即12 + 2y - 5 = 10。",
+      "化简：7 + 2y = 10。",
+      "解方程：2y = 3，y = 3/2。"
+    ],
+    "common_errors": [
+      {
+        "error": "代入错误",
+        "hint": "确保正确代入x的值。"
+      },
+      {
+        "error": "符号错误",
+        "hint": "注意运算中的符号变化。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-algebraic-expression-q-004",
+    "node_id": "math-m-algebraic-expression",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "若代数式2x² - 3x + 4与x² + x - 2的和为5x² - 2x + 2，求x的值。",
+    "answer": "x = 1",
+    "steps": [
+      "将两个代数式相加：2x² - 3x + 4 + x² + x - 2 = 3x² - 2x + 2。",
+      "与题目给出的和5x² - 2x + 2比较：3x² - 2x + 2 = 5x² - 2x + 2。",
+      "化简：3x² - 2x + 2 - 5x² + 2x - 2 = 0，即-2x² = 0。",
+      "解方程：x = 0。"
+    ],
+    "common_errors": [
+      {
+        "error": "符号错误",
+        "hint": "注意代数式相加时的符号变化。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "确保每一步计算正确。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-algebraic-expression-q-005",
+    "node_id": "math-m-algebraic-expression",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "若代数式ax² + bx + c的值为0，则下列说法正确的是：",
+    "options": [
+      "A. x = 0",
+      "B. a = 0",
+      "C. b = 0",
+      "D. 以上都不对"
+    ],
+    "answer": "D. 以上都不对",
+    "steps": [
+      "若代数式ax² + bx + c的值为0，说明x是方程ax² + bx + c = 0的解。",
+      "x = 0不一定成立，除非c = 0。",
+      "a = 0、b = 0也不一定成立，除非方程有特殊形式。",
+      "因此，以上都不对。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为x = 0",
+        "hint": "x = 0只是方程的一个特例。"
+      },
+      {
+        "error": "误认为a = 0或b = 0",
+        "hint": "a、b、c的取值需具体分析。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-algebraic-expression-q-006",
+    "node_id": "math-m-algebraic-expression",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "已知代数式(x + 1)(x - 2) + 3x - 5的值为0，求x的值。",
+    "answer": "x = 1或x = -3",
+    "steps": [
+      "展开代数式：(x + 1)(x - 2) + 3x - 5 = x² - 2x + x - 2 + 3x - 5。",
+      "化简：x² + 2x - 7。",
+      "解方程：x² + 2x - 7 = 0。",
+      "使用求根公式：x = (-2 ± √(4 + 28))/2 = (-2 ± √32)/2 = (-2 ± 4√2)/2。",
+      "解得：x = -1 ± 2√2。"
+    ],
+    "common_errors": [
+      {
+        "error": "展开错误",
+        "hint": "注意展开时的符号变化。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "确保每一步计算正确。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-algebraic-expression-q-007",
+    "node_id": "math-m-algebraic-expression",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "若代数式(a + 2)(a - 3) + 5a - 10的值为0，求a的值。",
+    "answer": "a = 1或a = -4",
+    "steps": [
+      "展开代数式：(a + 2)(a - 3) + 5a - 10 = a² - 3a + 2a - 6 + 5a - 10。",
+      "化简：a² + 4a - 16。",
+      "解方程：a² + 4a - 16 = 0。",
+      "使用求根公式：a = (-4 ± √(16 + 64))/2 = (-4 ± √80)/2 = (-4 ± 4√5)/2。",
+      "解得：a = -2 ± 2√5。"
+    ],
+    "common_errors": [
+      {
+        "error": "展开错误",
+        "hint": "注意展开时的符号变化。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "确保每一步计算正确。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-algebraic-expression-q-008",
+    "node_id": "math-m-algebraic-expression",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "若代数式(2x - 1)(x + 3) - 3x² + 5的值为0，求x的值。",
+    "answer": "x = -2",
+    "steps": [
+      "展开代数式：(2x - 1)(x + 3) - 3x² + 5 = 2x² + 6x - x - 3 - 3x² + 5。",
+      "化简：-x² + 5x + 2。",
+      "解方程：-x² + 5x + 2 = 0。",
+      "使用求根公式：x = (-5 ± √(25 + 8))/-2 = (-5 ± √33)/-2。",
+      "解得：x = (5 ± √33)/2。"
+    ],
+    "common_errors": [
+      {
+        "error": "展开错误",
+        "hint": "注意展开时的符号变化。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "确保每一步计算正确。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

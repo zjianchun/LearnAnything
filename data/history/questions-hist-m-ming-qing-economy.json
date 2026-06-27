@@ -1,0 +1,167 @@
+[
+  {
+    "id": "hist-m-ming-qing-economy-q-001",
+    "node_id": "hist-m-ming-qing-economy",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "明朝时期，农业发展的主要表现不包括以下哪一项？",
+    "options": [
+      "A. 推广种植高产作物如玉米和甘薯",
+      "B. 采用一年两熟或三熟的耕作制度",
+      "C. 推行屯田制度以增加耕地面积",
+      "D. 开始使用铁犁牛耕"
+    ],
+    "answer": "D. 开始使用铁犁牛耕",
+    "steps": [
+      "1. 分析明朝农业发展的主要表现：推广高产作物、改进耕作制度、屯田制度等。",
+      "2. 铁犁牛耕在汉代已经开始使用，不是明朝的创新。",
+      "3. 排除法选择正确答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为铁犁牛耕是明朝的创新",
+        "hint": "铁犁牛耕在汉代已经广泛使用。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-ming-qing-economy-q-002",
+    "node_id": "hist-m-ming-qing-economy",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "清朝前期，经济发展中“摊丁入亩”政策的主要作用是？",
+    "options": [
+      "A. 减轻了农民负担",
+      "B. 增加了国家财政收入",
+      "C. 促进了人口增长",
+      "D. 推动了商品经济发展"
+    ],
+    "answer": "A. 减轻了农民负担",
+    "steps": [
+      "1. 理解“摊丁入亩”的含义：将丁银摊入田赋中征收。",
+      "2. 分析其影响：减轻了无地或少地农民的负担。",
+      "3. 确认其主要作用是减轻农民负担。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为“摊丁入亩”主要作用是增加财政收入",
+        "hint": "其主要目的是减轻农民负担。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-ming-qing-economy-q-003",
+    "node_id": "hist-m-ming-qing-economy",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "明朝时期，______（城市）成为当时世界上最大的城市之一。",
+    "answer": "北京",
+    "steps": [
+      "1. 回顾明朝城市发展情况。",
+      "2. 确认明朝首都北京的城市规模和发展状况。",
+      "3. 填写正确答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填为南京或杭州",
+        "hint": "明朝首都为北京，且其城市规模最大。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-ming-qing-economy-q-004",
+    "node_id": "hist-m-ming-qing-economy",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "清朝时期，______（港口）成为重要的对外贸易港口。",
+    "answer": "广州",
+    "steps": [
+      "1. 回顾清朝对外贸易政策。",
+      "2. 确认清朝对外贸易的主要港口。",
+      "3. 填写正确答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填为泉州或厦门",
+        "hint": "清朝时期广州是主要的对外贸易港口。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-ming-qing-economy-q-005",
+    "node_id": "hist-m-ming-qing-economy",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下哪一项不是清朝前期经济发展的特点？",
+    "options": [
+      "A. 农业生产力提高",
+      "B. 手工业技术进步",
+      "C. 对外贸易繁荣",
+      "D. 资本主义萌芽发展缓慢"
+    ],
+    "answer": "C. 对外贸易繁荣",
+    "steps": [
+      "1. 分析清朝前期经济发展的特点：农业、手工业、资本主义萌芽等。",
+      "2. 对外贸易因闭关政策而受限。",
+      "3. 确认对外贸易并非繁荣。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为清朝前期对外贸易繁荣",
+        "hint": "清朝前期实行闭关政策，对外贸易受到限制。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-ming-qing-economy-q-006",
+    "node_id": "hist-m-ming-qing-economy",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "简述明朝时期商品经济发展的表现。",
+    "answer": "1. 城市商业繁荣，出现了北京、南京等大型商业城市。\n2. 出现了山西商帮、徽商等大型商业集团。\n3. 白银成为主要流通货币。\n4. 长途贩运贸易发展迅速。",
+    "steps": [
+      "1. 分析明朝商品经济发展的各个方面：城市商业、商业集团、货币流通、贸易等。",
+      "2. 逐一列举具体表现。",
+      "3. 组织语言进行完整回答。"
+    ],
+    "common_errors": [
+      {
+        "error": "遗漏重要表现，如白银流通或商业集团",
+        "hint": "注意全面分析商品经济发展的各个方面。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-ming-qing-economy-q-007",
+    "node_id": "hist-m-ming-qing-economy",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析清朝前期经济发展的局限性。",
+    "answer": "1. 闭关政策限制了对外贸易的发展。\n2. 封建专制统治抑制了资本主义萌芽的成长。\n3. 农业生产力虽有提高，但总体上仍以传统农业为主。\n4. 手工业发展受到行会制度的限制。",
+    "steps": [
+      "1. 分析清朝前期经济发展的主要方面：农业、手工业、对外贸易等。",
+      "2. 指出各领域的局限性。",
+      "3. 总结归纳形成完整答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "未提及闭关政策的影响",
+        "hint": "闭关政策是清朝前期经济发展的重要限制因素。"
+      }
+    ],
+    "exam_frequency": 5
+  }
+]

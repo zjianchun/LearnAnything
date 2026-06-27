@@ -1,0 +1,226 @@
+[
+  {
+    "id": "chem-m-equation-calculation-q-001",
+    "node_id": "chem-m-equation-calculation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "在化学反应2H₂ + O₂ = 2H₂O中，4g氢气完全燃烧生成水的质量为多少克？",
+    "options": [
+      "A. 18g",
+      "B. 36g",
+      "C. 54g",
+      "D. 72g"
+    ],
+    "answer": "B. 36g",
+    "steps": [
+      "1. 根据化学方程式，2H₂ + O₂ = 2H₂O，2个H₂分子生成2个H₂O分子。",
+      "2. 计算氢气的摩尔质量：2g/mol × 2 = 4g/mol。",
+      "3. 计算4g氢气的物质的量：4g ÷ 4g/mol = 1mol。",
+      "4. 根据方程式，1mol氢气生成1mol水。",
+      "5. 计算水的质量：1mol × 18g/mol = 18g。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将氢气的质量直接乘以水的摩尔质量。",
+        "hint": "需要先计算氢气的物质的量，再根据化学方程式计算水的物质的量，最后计算水的质量。"
+      },
+      {
+        "error": "计算氢气的物质的量时忘记除以2。",
+        "hint": "氢气的摩尔质量是4g/mol，而不是2g/mol。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chem-m-equation-calculation-q-002",
+    "node_id": "chem-m-equation-calculation",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "在化学反应CaCO₃ = CaO + CO₂↑中，10g碳酸钙完全分解，生成二氧化碳的质量为多少克？（Ca:40, C:12, O:16）",
+    "answer": "4.4g",
+    "steps": [
+      "1. 计算碳酸钙的摩尔质量：40 + 12 + 16 × 3 = 100g/mol。",
+      "2. 计算10g碳酸钙的物质的量：10g ÷ 100g/mol = 0.1mol。",
+      "3. 根据化学方程式，1mol碳酸钙生成1mol二氧化碳。",
+      "4. 计算二氧化碳的质量：0.1mol × 44g/mol = 4.4g。"
+    ],
+    "common_errors": [
+      {
+        "error": "计算碳酸钙的物质的量时忘记除以摩尔质量。",
+        "hint": "物质的量 = 质量 ÷ 摩尔质量。"
+      },
+      {
+        "error": "计算二氧化碳的质量时忘记乘以二氧化碳的摩尔质量。",
+        "hint": "质量 = 物质的量 × 摩尔质量。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-equation-calculation-q-003",
+    "node_id": "chem-m-equation-calculation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "在化学反应Zn + 2HCl = ZnCl₂ + H₂↑中，6.5g锌与足量盐酸反应，生成氢气的质量为多少克？（Zn:65, H:1, Cl:35.5）",
+    "options": [
+      "A. 0.1g",
+      "B. 0.2g",
+      "C. 0.3g",
+      "D. 0.4g"
+    ],
+    "answer": "B. 0.2g",
+    "steps": [
+      "1. 计算锌的摩尔质量：65g/mol。",
+      "2. 计算6.5g锌的物质的量：6.5g ÷ 65g/mol = 0.1mol。",
+      "3. 根据化学方程式，1mol锌生成1mol氢气。",
+      "4. 计算氢气的质量：0.1mol × 2g/mol = 0.2g。"
+    ],
+    "common_errors": [
+      {
+        "error": "计算氢气的质量时忘记乘以2。",
+        "hint": "氢气的摩尔质量是2g/mol，而不是1g/mol。"
+      },
+      {
+        "error": "计算锌的物质的量时计算错误。",
+        "hint": "物质的量 = 质量 ÷ 摩尔质量。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-equation-calculation-q-004",
+    "node_id": "chem-m-equation-calculation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "在化学反应3Cu + 8HNO₃ = 3Cu(NO₃)₂ + 2NO↑ + 4H₂O中，32g铜与足量硝酸反应，生成一氧化氮的质量为多少克？（Cu:63.5, N:14, O:16）",
+    "answer": "4g",
+    "steps": [
+      "1. 计算铜的摩尔质量：63.5g/mol。",
+      "2. 计算32g铜的物质的量：32g ÷ 63.5g/mol = 0.504mol。",
+      "3. 根据化学方程式，3mol铜生成2mol一氧化氮。",
+      "4. 计算一氧化氮的物质的量：0.504mol × (2/3) = 0.336mol。",
+      "5. 计算一氧化氮的质量：0.336mol × 30g/mol = 10.08g。"
+    ],
+    "common_errors": [
+      {
+        "error": "计算一氧化氮的物质的量时比例错误。",
+        "hint": "根据化学方程式，3mol铜生成2mol一氧化氮。"
+      },
+      {
+        "error": "计算一氧化氮的质量时忘记乘以一氧化氮的摩尔质量。",
+        "hint": "质量 = 物质的量 × 摩尔质量。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-equation-calculation-q-005",
+    "node_id": "chem-m-equation-calculation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "在化学反应2NaOH + CO₂ = Na₂CO₃ + H₂O中，80g氢氧化钠与足量二氧化碳反应，生成碳酸钠的质量为多少克？（Na:23, O:16, H:1, C:12）",
+    "answer": "106g",
+    "steps": [
+      "1. 计算氢氧化钠的摩尔质量：23 + 16 + 1 = 40g/mol。",
+      "2. 计算80g氢氧化钠的物质的量：80g ÷ 40g/mol = 2mol。",
+      "3. 根据化学方程式，2mol氢氧化钠生成1mol碳酸钠。",
+      "4. 计算碳酸钠的质量：1mol × 106g/mol = 106g。"
+    ],
+    "common_errors": [
+      {
+        "error": "计算碳酸钠的质量时忘记乘以碳酸钠的摩尔质量。",
+        "hint": "质量 = 物质的量 × 摩尔质量。"
+      },
+      {
+        "error": "计算氢氧化钠的物质的量时计算错误。",
+        "hint": "物质的量 = 质量 ÷ 摩尔质量。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-equation-calculation-q-006",
+    "node_id": "chem-m-equation-calculation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "在化学反应4P + 5O₂ = 2P₂O₅中，24.8g磷与足量氧气反应，生成五氧化二磷的质量为多少克？（P:31, O:16）",
+    "answer": "56.8g",
+    "steps": [
+      "1. 计算磷的摩尔质量：31g/mol。",
+      "2. 计算24.8g磷的物质的量：24.8g ÷ 31g/mol = 0.8mol。",
+      "3. 根据化学方程式，4mol磷生成2mol五氧化二磷。",
+      "4. 计算五氧化二磷的物质的量：0.8mol × (2/4) = 0.4mol。",
+      "5. 计算五氧化二磷的质量：0.4mol × 142g/mol = 56.8g。"
+    ],
+    "common_errors": [
+      {
+        "error": "计算五氧化二磷的物质的量时比例错误。",
+        "hint": "根据化学方程式，4mol磷生成2mol五氧化二磷。"
+      },
+      {
+        "error": "计算五氧化二磷的质量时忘记乘以五氧化二磷的摩尔质量。",
+        "hint": "质量 = 物质的量 × 摩尔质量。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-equation-calculation-q-007",
+    "node_id": "chem-m-equation-calculation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "在化学反应Fe₂O₃ + 3CO = 2Fe + 3CO₂中，16g氧化铁与足量一氧化碳反应，生成铁的质量为多少克？（Fe:55.5, O:16, C:12）",
+    "answer": "11.1g",
+    "steps": [
+      "1. 计算氧化铁的摩尔质量：111g/mol。",
+      "2. 计算16g氧化铁的物质的量：16g ÷ 111g/mol = 0.144mol。",
+      "3. 根据化学方程式，1mol氧化铁生成2mol铁。",
+      "4. 计算铁的物质的量：0.144mol × 2 = 0.288mol。",
+      "5. 计算铁的质量：0.288mol × 55.5g/mol = 16g。"
+    ],
+    "common_errors": [
+      {
+        "error": "计算铁的物质的量时比例错误。",
+        "hint": "根据化学方程式，1mol氧化铁生成2mol铁。"
+      },
+      {
+        "error": "计算铁的质量时忘记乘以铁的摩尔质量。",
+        "hint": "质量 = 物质的量 × 摩尔质量。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "chem-m-equation-calculation-q-008",
+    "node_id": "chem-m-equation-calculation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "在化学反应2Al + 3H₂SO₄ = Al₂(SO₄)₃ + 3H₂↑中，54g铝与足量硫酸反应，生成氢气的质量为多少克？（Al:27, H:1, S:32, O:16）",
+    "answer": "6g",
+    "steps": [
+      "1. 计算铝的摩尔质量：27g/mol。",
+      "2. 计算54g铝的物质的量：54g ÷ 27g/mol = 2mol。",
+      "3. 根据化学方程式，2mol铝生成3mol氢气。",
+      "4. 计算氢气的质量：3mol × 2g/mol = 6g。"
+    ],
+    "common_errors": [
+      {
+        "error": "计算氢气的物质的量时比例错误。",
+        "hint": "根据化学方程式，2mol铝生成3mol氢气。"
+      },
+      {
+        "error": "计算氢气的质量时忘记乘以氢气的摩尔质量。",
+        "hint": "质量 = 物质的量 × 摩尔质量。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

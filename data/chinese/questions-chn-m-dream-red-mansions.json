@@ -1,0 +1,194 @@
+[
+  {
+    "id": "chn-m-dream-red-mansions-q-001",
+    "node_id": "chn-m-dream-red-mansions",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "《红楼梦》的作者是以下哪位？",
+    "options": [
+      "A. 吴承恩",
+      "B. 曹雪芹",
+      "C. 罗贯中",
+      "D. 施耐庵"
+    ],
+    "answer": "B. 曹雪芹",
+    "steps": [
+      "《红楼梦》是中国古典四大名著之一",
+      "其作者是清代作家曹雪芹",
+      "其他选项分别是《西游记》《三国演义》《水浒传》的作者"
+    ],
+    "common_errors": [
+      {
+        "error": "误选吴承恩",
+        "hint": "吴承恩是《西游记》的作者"
+      },
+      {
+        "error": "误选罗贯中",
+        "hint": "罗贯中是《三国演义》的作者"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chn-m-dream-red-mansions-q-002",
+    "node_id": "chn-m-dream-red-mansions",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "《红楼梦》中“金陵十二钗”指的是哪十二位女子？请写出其中四位：______、______、______、______。",
+    "answer": "林黛玉、薛宝钗、王熙凤、贾元春",
+    "steps": [
+      "金陵十二钗是《红楼梦》中最优秀的十二位女子",
+      "常见人物包括林黛玉、薛宝钗、王熙凤、贾元春、贾迎春、贾探春、贾惜春等",
+      "任选四位即可"
+    ],
+    "common_errors": [
+      {
+        "error": "写出男性角色",
+        "hint": "金陵十二钗均为女性角色"
+      },
+      {
+        "error": "写出非主要人物",
+        "hint": "应选择书中重要女性角色"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chn-m-dream-red-mansions-q-003",
+    "node_id": "chn-m-dream-red-mansions",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下哪个人物不是贾宝玉的姐妹？",
+    "options": [
+      "A. 贾元春",
+      "B. 贾探春",
+      "C. 史湘云",
+      "D. 贾惜春"
+    ],
+    "answer": "C. 史湘云",
+    "steps": [
+      "贾元春、贾探春、贾惜春都是贾宝玉的姐妹",
+      "史湘云是贾母的侄孙女，不属于宝玉的姐妹"
+    ],
+    "common_errors": [
+      {
+        "error": "误选贾元春",
+        "hint": "贾元春是宝玉的姐姐"
+      },
+      {
+        "error": "误选贾惜春",
+        "hint": "贾惜春是宝玉的妹妹"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-dream-red-mansions-q-004",
+    "node_id": "chn-m-dream-red-mansions",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请简述《红楼梦》中林黛玉进贾府时的主要情节。",
+    "answer": "林黛玉因母亲去世，被外祖母接入贾府。她初到贾府时小心翼翼，观察到贾府的富贵和规矩。在贾府中，她见到了贾母、王夫人、邢夫人等长辈，以及贾宝玉，两人初次见面便产生了特殊的情感。",
+    "steps": [
+      "林黛玉因母亲去世被接入贾府",
+      "她在贾府见到了众多长辈",
+      "与贾宝玉初次见面"
+    ],
+    "common_errors": [
+      {
+        "error": "情节描述不完整",
+        "hint": "应包含主要人物和事件"
+      },
+      {
+        "error": "遗漏重要细节",
+        "hint": "注意描述林黛玉的谨慎和与贾宝玉的初次见面"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-dream-red-mansions-q-005",
+    "node_id": "chn-m-dream-red-mansions",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下哪项不是《红楼梦》中的经典情节？",
+    "options": [
+      "A. 黛玉葬花",
+      "B. 宝玉挨打",
+      "C. 黛玉焚稿",
+      "D. 孙悟空三打白骨精"
+    ],
+    "answer": "D. 孙悟空三打白骨精",
+    "steps": [
+      "黛玉葬花、宝玉挨打、黛玉焚稿都是《红楼梦》中的重要情节",
+      "孙悟空三打白骨精是《西游记》中的情节"
+    ],
+    "common_errors": [
+      {
+        "error": "误选黛玉葬花",
+        "hint": "黛玉葬花是《红楼梦》中的经典情节"
+      },
+      {
+        "error": "误选宝玉挨打",
+        "hint": "宝玉挨打是《红楼梦》中的重要情节"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-dream-red-mansions-q-006",
+    "node_id": "chn-m-dream-red-mansions",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析《红楼梦》中贾宝玉的人物形象。",
+    "answer": "贾宝玉是《红楼梦》的男主角，他性格叛逆，不喜读书，却对女儿们有着深厚的情感。他追求自由恋爱，反对封建礼教的束缚。他与林黛玉的爱情故事是全书的核心线索，体现了对封建社会的批判。",
+    "steps": [
+      "分析贾宝玉的性格特点",
+      "分析他对封建礼教的反抗",
+      "分析他与林黛玉的爱情故事"
+    ],
+    "common_errors": [
+      {
+        "error": "人物形象分析不全面",
+        "hint": "应包含性格、行为和思想等多个方面"
+      },
+      {
+        "error": "遗漏关键情节",
+        "hint": "注意描述他与林黛玉的爱情故事"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "chn-m-dream-red-mansions-q-007",
+    "node_id": "chn-m-dream-red-mansions",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请简述《红楼梦》的艺术成就。",
+    "answer": "《红楼梦》是中国古典文学的巅峰之作，其艺术成就主要体现在以下几个方面：1. 人物塑造生动，众多人物形象鲜明；2. 结构严谨，情节跌宕起伏；3. 语言优美，富有诗意；4. 对封建社会的深刻批判，体现了作者对人生的思考和对人性的洞察。",
+    "steps": [
+      "分析人物塑造",
+      "分析结构与情节",
+      "分析语言特色",
+      "分析思想内涵"
+    ],
+    "common_errors": [
+      {
+        "error": "分析不全面",
+        "hint": "应包含人物、结构、语言和思想等多个方面"
+      },
+      {
+        "error": "遗漏关键点",
+        "hint": "注意对封建社会的批判"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

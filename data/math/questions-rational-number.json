@@ -1,0 +1,205 @@
+[
+  {
+    "id": "math-m-rational-number-q-001",
+    "node_id": "math-m-rational-number",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列各数中，是有理数的是：",
+    "options": [
+      "A. π",
+      "B. √2",
+      "C. 0.333...",
+      "D. √3"
+    ],
+    "answer": "C. 0.333...",
+    "steps": [
+      "有理数包括整数和分数。",
+      "π是无理数，√2是无理数，0.333...是无限循环小数，属于有理数，√3是无理数。",
+      "因此，0.333...是有理数。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为0.333...是无理数",
+        "hint": "无限循环小数是有理数，因为它可以表示为分数形式，例如0.333... = 1/3。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-rational-number-q-002",
+    "node_id": "math-m-rational-number",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "将-7/8化为小数形式，结果是：",
+    "answer": "-0.875",
+    "steps": [
+      "-7除以8等于-0.875。",
+      "因此，-7/8 = -0.875。"
+    ],
+    "common_errors": [
+      {
+        "error": "计算错误，例如误算为-0.78",
+        "hint": "注意除法运算的步骤，确保每一位都正确计算。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-rational-number-q-003",
+    "node_id": "math-m-rational-number",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列运算结果为负数的是：",
+    "options": [
+      "A. (-3) + (-2)",
+      "B. (-3) - (-2)",
+      "C. (-3) × (-2)",
+      "D. (-3) ÷ (-2)"
+    ],
+    "answer": "A. (-3) + (-2)",
+    "steps": [
+      "A选项：(-3) + (-2) = -5。",
+      "B选项：(-3) - (-2) = -3 + 2 = -1。",
+      "C选项：(-3) × (-2) = 6。",
+      "D选项：(-3) ÷ (-2) = 1.5。",
+      "因此，A选项结果为负数。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为C或D选项为负数",
+        "hint": "注意负数乘以负数或除以负数结果为正数。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-rational-number-q-004",
+    "node_id": "math-m-rational-number",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "计算：(-2)³ + 4 × (-3) - 5。",
+    "answer": "(-2)³ + 4 × (-3) - 5 = -8 - 12 - 5 = -25",
+    "steps": [
+      "首先计算(-2)³ = -8。",
+      "然后计算4 × (-3) = -12。",
+      "接着计算-8 - 12 - 5。",
+      "最后结果为-25。"
+    ],
+    "common_errors": [
+      {
+        "error": "误算(-2)³为-6",
+        "hint": "注意幂运算的优先级和计算规则，(-2)³ = -8。"
+      },
+      {
+        "error": "运算顺序错误",
+        "hint": "按照运算顺序，先算幂，再算乘除，最后算加减。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-rational-number-q-005",
+    "node_id": "math-m-rational-number",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列各数中，绝对值最小的是：",
+    "options": [
+      "A. -5",
+      "B. 3",
+      "C. -2",
+      "D. 0"
+    ],
+    "answer": "D. 0",
+    "steps": [
+      "绝对值的定义是：一个数的绝对值是指在数轴上该数与原点的距离。",
+      "A选项：|-5| = 5。",
+      "B选项：|3| = 3。",
+      "C选项：|-2| = 2。",
+      "D选项：|0| = 0。",
+      "因此，绝对值最小的是0。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为C选项绝对值最小",
+        "hint": "注意绝对值的定义，比较数值大小而非符号。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-rational-number-q-006",
+    "node_id": "math-m-rational-number",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "已知a = -3，b = 4，求(a + b)² - (a² + b²)的值。",
+    "answer": "(a + b)² - (a² + b²) = 2ab = 2 × (-3) × 4 = -24",
+    "steps": [
+      "首先计算(a + b)² = (-3 + 4)² = 1² = 1。",
+      "然后计算a² + b² = (-3)² + 4² = 9 + 16 = 25。",
+      "接着计算(a + b)² - (a² + b²) = 1 - 25 = -24。",
+      "最后结果为-24。"
+    ],
+    "common_errors": [
+      {
+        "error": "误算(a + b)²为9",
+        "hint": "注意(a + b)²展开为a² + 2ab + b²。"
+      },
+      {
+        "error": "运算顺序错误",
+        "hint": "先算括号内的内容，再算平方，最后算减法。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-rational-number-q-007",
+    "node_id": "math-m-rational-number",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "若x为有理数，且|x - 2| + |x + 3| = 5，则x的取值范围是：",
+    "answer": "-3 ≤ x ≤ 2",
+    "steps": [
+      "考虑绝对值的分段讨论：",
+      "当x < -3时，|x - 2| = 2 - x，|x + 3| = -x - 3，方程为(2 - x) + (-x - 3) = 5，解得x = -3。",
+      "当-3 ≤ x < 2时，|x - 2| = 2 - x，|x + 3| = x + 3，方程为(2 - x) + (x + 3) = 5，解得x = 0。",
+      "当x ≥ 2时，|x - 2| = x - 2，|x + 3| = x + 3，方程为(x - 2) + (x + 3) = 5，解得x = 2。",
+      "综上所述，x的取值范围是-3 ≤ x ≤ 2。"
+    ],
+    "common_errors": [
+      {
+        "error": "未考虑分段讨论",
+        "hint": "绝对值方程需要分段讨论不同情况。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-rational-number-q-008",
+    "node_id": "math-m-rational-number",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "若a和b为有理数，且a² + b² = 25，ab = 12，求(a + b)²的值。",
+    "answer": "(a + b)² = a² + 2ab + b² = 25 + 2 × 12 = 49",
+    "steps": [
+      "根据已知条件，a² + b² = 25，ab = 12。",
+      "求(a + b)² = a² + 2ab + b²。",
+      "代入已知条件，a² + 2ab + b² = 25 + 2 × 12 = 49。",
+      "因此，(a + b)² = 49。"
+    ],
+    "common_errors": [
+      {
+        "error": "误算(a + b)²为37",
+        "hint": "注意(a + b)²展开为a² + 2ab + b²。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

@@ -1,0 +1,236 @@
+[
+  {
+    "id": "chem-m-co-properties-q-001",
+    "node_id": "chem-m-co-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "一氧化碳的化学式是？",
+    "options": [
+      "A. CO2",
+      "B. CO",
+      "C. O2",
+      "D. C2O"
+    ],
+    "answer": "B. CO",
+    "steps": [
+      "一氧化碳的化学式是CO。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选CO2",
+        "hint": "CO2是一氧化碳的氧化物，而不是一氧化碳本身。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chem-m-co-properties-q-002",
+    "node_id": "chem-m-co-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "一氧化碳的物理性质不包括以下哪一项？",
+    "options": [
+      "A. 无色气体",
+      "B. 有刺激性气味",
+      "C. 难溶于水",
+      "D. 密度比空气略小"
+    ],
+    "answer": "B. 有刺激性气味",
+    "steps": [
+      "一氧化碳是无色、无味的气体。",
+      "它难溶于水，密度比空气略小。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选C",
+        "hint": "难溶于水是一氧化碳的物理性质。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-co-properties-q-003",
+    "node_id": "chem-m-co-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "一氧化碳燃烧的化学方程式是：________。",
+    "answer": "2CO + O2 =点燃= 2CO2",
+    "steps": [
+      "一氧化碳燃烧生成二氧化碳。",
+      "配平化学方程式：2CO + O2 =点燃= 2CO2。"
+    ],
+    "common_errors": [
+      {
+        "error": "方程式未配平",
+        "hint": "确保反应物和生成物的原子数相等。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chem-m-co-properties-q-004",
+    "node_id": "chem-m-co-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "一氧化碳与血红蛋白结合的能力比氧气强多少倍？",
+    "options": [
+      "A. 20倍",
+      "B. 200倍",
+      "C. 2000倍",
+      "D. 20000倍"
+    ],
+    "answer": "B. 200倍",
+    "steps": [
+      "一氧化碳与血红蛋白的结合能力是氧气的200倍。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选C或D",
+        "hint": "虽然一氧化碳的结合能力很强，但不至于达到2000或20000倍。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-co-properties-q-005",
+    "node_id": "chem-m-co-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一氧化碳在工业上有哪些主要用途？请列举至少两种。",
+    "answer": "一氧化碳在工业上可用于冶炼金属，如炼铁；也可用于合成甲醇等有机化合物。",
+    "steps": [
+      "一氧化碳具有还原性，可用于冶炼金属。",
+      "一氧化碳可作为化工原料，用于合成甲醇等。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到一种用途",
+        "hint": "需要列举至少两种用途。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-co-properties-q-006",
+    "node_id": "chem-m-co-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列关于一氧化碳的说法正确的是？",
+    "options": [
+      "A. 一氧化碳是酸性气体",
+      "B. 一氧化碳具有可燃性",
+      "C. 一氧化碳不能与氧气反应",
+      "D. 一氧化碳不能与金属氧化物反应"
+    ],
+    "answer": "B. 一氧化碳具有可燃性",
+    "steps": [
+      "一氧化碳可燃，燃烧生成二氧化碳。",
+      "一氧化碳具有还原性，可与金属氧化物反应。",
+      "一氧化碳不是酸性气体。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A或C",
+        "hint": "一氧化碳不是酸性气体，并且可以与氧气反应。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-co-properties-q-007",
+    "node_id": "chem-m-co-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一氧化碳中毒的原理是什么？请简要说明。",
+    "answer": "一氧化碳与血红蛋白结合形成碳氧血红蛋白，导致血红蛋白失去携氧能力，造成组织缺氧，从而引起中毒。",
+    "steps": [
+      "一氧化碳与血红蛋白结合能力比氧气强。",
+      "形成碳氧血红蛋白。",
+      "血红蛋白失去携氧能力，导致组织缺氧。"
+    ],
+    "common_errors": [
+      {
+        "error": "未提及碳氧血红蛋白",
+        "hint": "中毒的关键在于形成碳氧血红蛋白。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-co-properties-q-008",
+    "node_id": "chem-m-co-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "如何检验一氧化碳气体？请写出检验方法及现象。",
+    "answer": "将一氧化碳通过加热的氧化铜，现象是黑色氧化铜变红，生成的气体能使澄清石灰水变浑浊。",
+    "steps": [
+      "一氧化碳具有还原性，可还原氧化铜。",
+      "氧化铜变红，生成二氧化碳。",
+      "二氧化碳使澄清石灰水变浑浊。"
+    ],
+    "common_errors": [
+      {
+        "error": "未提及氧化铜变红",
+        "hint": "这是检验一氧化碳的关键现象。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-co-properties-q-009",
+    "node_id": "chem-m-co-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列哪种物质不能与一氧化碳反应？",
+    "options": [
+      "A. 氧化铜",
+      "B. 氧气",
+      "C. 氢气",
+      "D. 氯气"
+    ],
+    "answer": "C. 氢气",
+    "steps": [
+      "一氧化碳可与氧化铜反应生成铜和二氧化碳。",
+      "一氧化碳可与氧气反应生成二氧化碳。",
+      "一氧化碳不能与氢气反应。",
+      "一氧化碳不能与氯气反应。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选D",
+        "hint": "虽然一氧化碳不能与氯气反应，但氢气才是正确答案。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-co-properties-q-010",
+    "node_id": "chem-m-co-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释为什么在煤炉中燃烧煤时会产生一氧化碳？",
+    "answer": "煤在氧气不足的情况下不完全燃烧会产生一氧化碳。",
+    "steps": [
+      "煤的主要成分是碳。",
+      "在氧气不足的情况下，碳不完全燃烧生成一氧化碳。",
+      "而不是完全燃烧生成二氧化碳。"
+    ],
+    "common_errors": [
+      {
+        "error": "未提及氧气不足",
+        "hint": "不完全燃烧的关键在于氧气不足。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

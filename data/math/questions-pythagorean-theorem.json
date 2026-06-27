@@ -1,0 +1,199 @@
+[
+  {
+    "id": "math-m-pythagorean-theorem-q-001",
+    "node_id": "math-m-pythagorean-theorem",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "在直角三角形中，两条直角边的长度分别为3和4，则斜边的长度为多少？",
+    "options": [
+      "A. 5",
+      "B. 6",
+      "C. 7",
+      "D. 8"
+    ],
+    "answer": "A. 5",
+    "steps": [
+      "根据勾股定理，a² + b² = c²，其中a和b为直角边，c为斜边。",
+      "将已知值代入公式：3² + 4² = c²。",
+      "计算：9 + 16 = c²，即25 = c²。",
+      "因此，c = 5。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将斜边计算为3 + 4 = 7",
+        "hint": "勾股定理是平方和而非直接相加。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-m-pythagorean-theorem-q-002",
+    "node_id": "math-m-pythagorean-theorem",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "已知直角三角形的两条直角边分别为6和8，则斜边的长度为_____。",
+    "answer": "10",
+    "steps": [
+      "根据勾股定理，a² + b² = c²。",
+      "将已知值代入公式：6² + 8² = c²。",
+      "计算：36 + 64 = c²，即100 = c²。",
+      "因此，c = 10。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将斜边计算为6 + 8 = 14",
+        "hint": "勾股定理是平方和而非直接相加。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-pythagorean-theorem-q-003",
+    "node_id": "math-m-pythagorean-theorem",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "在直角三角形中，斜边长度为13，一条直角边长度为5，则另一条直角边的长度为多少？",
+    "options": [
+      "A. 10",
+      "B. 11",
+      "C. 12",
+      "D. 13"
+    ],
+    "answer": "C. 12",
+    "steps": [
+      "根据勾股定理，a² + b² = c²，其中c为斜边。",
+      "将已知值代入公式：5² + b² = 13²。",
+      "计算：25 + b² = 169。",
+      "解方程：b² = 144，因此b = 12。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将另一条直角边计算为13 - 5 = 8",
+        "hint": "勾股定理是平方和而非直接相减。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-pythagorean-theorem-q-004",
+    "node_id": "math-m-pythagorean-theorem",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一个直角三角形的周长为30，斜边长度为13，求该三角形的面积。",
+    "answer": "30",
+    "steps": [
+      "设两条直角边分别为a和b，根据勾股定理，a² + b² = 13²。",
+      "根据周长条件，a + b + 13 = 30，即a + b = 17。",
+      "解方程组：a + b = 17和a² + b² = 169。",
+      "将a = 17 - b代入a² + b² = 169，得到(17 - b)² + b² = 169。",
+      "展开并化简：289 - 34b + 2b² = 169。",
+      "解方程：2b² - 34b + 120 = 0。",
+      "解得b = 12或b = 5。",
+      "因此，a = 5，b = 12或a = 12，b = 5。",
+      "三角形的面积为(1/2) * 5 * 12 = 30。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将周长直接除以2计算面积",
+        "hint": "需要先求出直角边的长度，再计算面积。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-pythagorean-theorem-q-005",
+    "node_id": "math-m-pythagorean-theorem",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一个直角三角形的面积为40，一条直角边长为8，求另一条直角边的长度。",
+    "answer": "10",
+    "steps": [
+      "设另一条直角边为x，根据面积公式，(1/2) * 8 * x = 40。",
+      "解方程：4x = 40，因此x = 10。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将面积公式记为(1/2) * 8 + x = 40",
+        "hint": "面积公式是(1/2) * 底 * 高。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-pythagorean-theorem-q-006",
+    "node_id": "math-m-pythagorean-theorem",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一个直角三角形的斜边长为10，一条直角边长为6，求另一条直角边的长度。",
+    "answer": "8",
+    "steps": [
+      "根据勾股定理，a² + b² = c²，其中c为斜边。",
+      "将已知值代入公式：6² + b² = 10²。",
+      "计算：36 + b² = 100。",
+      "解方程：b² = 64，因此b = 8。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将另一条直角边计算为10 - 6 = 4",
+        "hint": "勾股定理是平方和而非直接相减。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-pythagorean-theorem-q-007",
+    "node_id": "math-m-pythagorean-theorem",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个直角三角形的周长为24，斜边长为10，求该三角形的面积。",
+    "answer": "24",
+    "steps": [
+      "设两条直角边分别为a和b，根据勾股定理，a² + b² = 10²。",
+      "根据周长条件，a + b + 10 = 24，即a + b = 14。",
+      "解方程组：a + b = 14和a² + b² = 100。",
+      "将a = 14 - b代入a² + b² = 100，得到(14 - b)² + b² = 100。",
+      "展开并化简：196 - 28b + 2b² = 100。",
+      "解方程：2b² - 28b + 96 = 0。",
+      "解得b = 6或b = 8。",
+      "因此，a = 8，b = 6或a = 6，b = 8。",
+      "三角形的面积为(1/2) * 6 * 8 = 24。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将周长直接除以2计算面积",
+        "hint": "需要先求出直角边的长度，再计算面积。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "math-m-pythagorean-theorem-q-008",
+    "node_id": "math-m-pythagorean-theorem",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个直角三角形的面积为12，两条直角边的长度之比为3:2，求该三角形的周长。",
+    "answer": "12",
+    "steps": [
+      "设两条直角边分别为3x和2x，根据面积公式，(1/2) * 3x * 2x = 12。",
+      "解方程：3x² = 12，因此x² = 4，x = 2。",
+      "直角边分别为6和4。",
+      "根据勾股定理，斜边长为√(6² + 4²) = √52 = 2√13。",
+      "三角形的周长为6 + 4 + 2√13 = 10 + 2√13。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将面积公式记为(1/2) * (3x + 2x) = 12",
+        "hint": "面积公式是(1/2) * 底 * 高。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

@@ -1,0 +1,187 @@
+[
+  {
+    "id": "math-m-geometric-figure-q-001",
+    "node_id": "math-m-geometric-figure",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列图形中，属于平面图形的是（   ）",
+    "options": [
+      "A. 球体",
+      "B. 圆锥",
+      "C. 圆柱",
+      "D. 长方形"
+    ],
+    "answer": "D. 长方形",
+    "steps": [
+      "1. 平面图形是指在一个平面上可以完全展开的图形。",
+      "2. 球体、圆锥和圆柱都是立体图形，只有长方形是平面图形。",
+      "3. 因此，正确答案是长方形。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选立体图形",
+        "hint": "注意区分平面图形和立体图形，平面图形是在一个平面上可以完全展开的图形。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-geometric-figure-q-002",
+    "node_id": "math-m-geometric-figure",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "一个正方形的边长为5cm，则它的周长是________cm。",
+    "answer": "20",
+    "steps": [
+      "1. 正方形的周长公式是边长乘以4。",
+      "2. 边长为5cm，所以周长是5cm × 4 = 20cm。"
+    ],
+    "common_errors": [
+      {
+        "error": "忘记乘以4",
+        "hint": "正方形的周长是边长的4倍，不要忘记乘以4。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-geometric-figure-q-003",
+    "node_id": "math-m-geometric-figure",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "一个三角形的两个内角分别是30度和60度，则第三个内角的度数是（   ）",
+    "options": [
+      "A. 60度",
+      "B. 90度",
+      "C. 100度",
+      "D. 120度"
+    ],
+    "answer": "B. 90度",
+    "steps": [
+      "1. 三角形的内角和为180度。",
+      "2. 已知两个内角为30度和60度，则第三个内角为180度 - 30度 - 60度 = 90度。",
+      "3. 因此，正确答案是90度。"
+    ],
+    "common_errors": [
+      {
+        "error": "计算错误",
+        "hint": "注意计算过程中不要漏掉任何一个步骤，确保计算正确。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-geometric-figure-q-004",
+    "node_id": "math-m-geometric-figure",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "一个长方形的长为8cm，宽为4cm，则它的面积是________cm²。",
+    "answer": "32",
+    "steps": [
+      "1. 长方形的面积公式是长乘以宽。",
+      "2. 长为8cm，宽为4cm，所以面积是8cm × 4cm = 32cm²。"
+    ],
+    "common_errors": [
+      {
+        "error": "单位错误",
+        "hint": "注意面积单位是平方厘米，不要忘记平方。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-geometric-figure-q-005",
+    "node_id": "math-m-geometric-figure",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "已知一个平行四边形的底为10cm，高为6cm，求它的面积。",
+    "answer": "平行四边形的面积 = 底 × 高 = 10cm × 6cm = 60cm²。",
+    "steps": [
+      "1. 平行四边形的面积公式是底乘以高。",
+      "2. 底为10cm，高为6cm。",
+      "3. 所以面积是10cm × 6cm = 60cm²。"
+    ],
+    "common_errors": [
+      {
+        "error": "公式错误",
+        "hint": "确保使用正确的面积公式：底乘以高。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-geometric-figure-q-006",
+    "node_id": "math-m-geometric-figure",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一个圆的半径为5cm，求它的周长和面积。",
+    "answer": "周长 = 2πr = 2 × π × 5cm = 10πcm；面积 = πr² = π × (5cm)² = 25πcm²。",
+    "steps": [
+      "1. 圆的周长公式是2πr，r为半径。",
+      "2. 半径为5cm，所以周长是2 × π × 5cm = 10πcm。",
+      "3. 圆的面积公式是πr²，所以面积是π × (5cm)² = 25πcm²。"
+    ],
+    "common_errors": [
+      {
+        "error": "忘记使用π",
+        "hint": "圆的周长和面积公式中都需要使用π。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-geometric-figure-q-007",
+    "node_id": "math-m-geometric-figure",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "一个圆柱的底面半径为3cm，高为8cm，则它的体积是（   ）",
+    "options": [
+      "A. 72πcm³",
+      "B. 144πcm³",
+      "C. 216πcm³",
+      "D. 288πcm³"
+    ],
+    "answer": "A. 72πcm³",
+    "steps": [
+      "1. 圆柱的体积公式是底面积乘以高。",
+      "2. 底面积是πr²，r为半径，所以底面积是π × (3cm)² = 9πcm²。",
+      "3. 高为8cm，所以体积是9πcm² × 8cm = 72πcm³。",
+      "4. 因此，正确答案是72πcm³。"
+    ],
+    "common_errors": [
+      {
+        "error": "底面积计算错误",
+        "hint": "注意底面积是πr²，不要忘记平方。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-geometric-figure-q-008",
+    "node_id": "math-m-geometric-figure",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个正方体的棱长为4cm，求它的表面积和体积。",
+    "answer": "表面积 = 6a² = 6 × (4cm)² = 96cm²；体积 = a³ = (4cm)³ = 64cm³。",
+    "steps": [
+      "1. 正方体的表面积公式是6a²，a为棱长。",
+      "2. 棱长为4cm，所以表面积是6 × (4cm)² = 96cm²。",
+      "3. 正方体的体积公式是a³，所以体积是(4cm)³ = 64cm³。"
+    ],
+    "common_errors": [
+      {
+        "error": "表面积公式错误",
+        "hint": "注意正方体的表面积是6a²，不是a²。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

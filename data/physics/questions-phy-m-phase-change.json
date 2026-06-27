@@ -1,0 +1,196 @@
+[
+  {
+    "id": "phy-m-phase-change-q-001",
+    "node_id": "phy-m-phase-change",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列物质中，属于晶体的是：",
+    "options": [
+      "A. 玻璃",
+      "B. 沥青",
+      "C. 冰",
+      "D. 橡胶"
+    ],
+    "answer": "C. 冰",
+    "steps": [
+      "晶体是具有规则几何形状的固体。",
+      "玻璃、沥青和橡胶是非晶体，没有固定的熔点。",
+      "冰是水的固态形式，具有固定的熔点，属于晶体。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将非晶体当作晶体。",
+        "hint": "记住晶体具有规则几何形状和固定熔点。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-phase-change-q-002",
+    "node_id": "phy-m-phase-change",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "物质从液态变为气态的过程叫做_____。",
+    "answer": "汽化",
+    "steps": [
+      "物质的三种状态是固态、液态和气态。",
+      "从液态变为气态的过程是汽化。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将汽化写成蒸发或沸腾。",
+        "hint": "汽化是蒸发和沸腾的总称。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-phase-change-q-003",
+    "node_id": "phy-m-phase-change",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列现象中，属于凝固的是：",
+    "options": [
+      "A. 冰雪融化",
+      "B. 露珠的形成",
+      "C. 铁水铸成铁锭",
+      "D. 湿衣服晾干"
+    ],
+    "answer": "C. 铁水铸成铁锭",
+    "steps": [
+      "凝固是物质从液态变为固态的过程。",
+      "冰雪融化是熔化过程。",
+      "露珠的形成是液化过程。",
+      "湿衣服晾干是汽化过程。",
+      "铁水铸成铁锭是凝固过程。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将熔化或液化当作凝固。",
+        "hint": "注意物质状态变化的起点和终点。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-phase-change-q-004",
+    "node_id": "phy-m-phase-change",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "解释为什么夏天在地面上洒水可以降温。",
+    "answer": "夏天在地面上洒水，水会吸收周围的热量而蒸发，蒸发是吸热过程，所以可以降低周围环境的温度。",
+    "steps": [
+      "水洒在地面上后，会吸收热量。",
+      "水变成水蒸气的过程是汽化，汽化是吸热过程。",
+      "因此，地面温度会降低，周围环境也会感到凉爽。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为水直接降温。",
+        "hint": "理解汽化是吸热过程是关键。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-phase-change-q-005",
+    "node_id": "phy-m-phase-change",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列关于熔化的说法中，正确的是：",
+    "options": [
+      "A. 熔化过程中温度保持不变",
+      "B. 熔化过程中温度不断上升",
+      "C. 晶体熔化过程中温度保持不变，非晶体熔化过程中温度不断上升",
+      "D. 非晶体熔化过程中温度保持不变，晶体熔化过程中温度不断上升"
+    ],
+    "answer": "C. 晶体熔化过程中温度保持不变，非晶体熔化过程中温度不断上升",
+    "steps": [
+      "晶体在熔化过程中吸收热量，但温度保持不变，直到完全熔化。",
+      "非晶体在熔化过程中吸收热量，温度不断上升。",
+      "因此，晶体和非晶体的熔化过程是不同的。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为所有物质熔化过程中温度都保持不变。",
+        "hint": "区分晶体和非晶体的熔化特性。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-phase-change-q-006",
+    "node_id": "phy-m-phase-change",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "为什么在高原地区，水的沸点会降低？",
+    "answer": "水的沸点与大气压有关，大气压越低，沸点越低。高原地区大气压低于标准大气压，因此水的沸点会降低。",
+    "steps": [
+      "沸点是指液体在一定压力下变为气体时的温度。",
+      "大气压强影响液体的沸点。",
+      "高原地区大气压低于标准大气压，所以水的沸点会降低。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为高原地区水的沸点升高。",
+        "hint": "理解大气压与沸点的关系是关键。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-phase-change-q-007",
+    "node_id": "phy-m-phase-change",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "下列关于物态变化的说法中，正确的是：",
+    "options": [
+      "A. 物质在熔化过程中要放出热量",
+      "B. 物质在凝固过程中要吸收热量",
+      "C. 物质在汽化过程中要吸收热量",
+      "D. 物质在液化过程中要吸收热量"
+    ],
+    "answer": "C. 物质在汽化过程中要吸收热量",
+    "steps": [
+      "熔化是吸热过程。",
+      "凝固是放热过程。",
+      "汽化是吸热过程。",
+      "液化是放热过程。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为汽化是放热过程。",
+        "hint": "记住汽化是吸热过程，液化是放热过程。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-phase-change-q-008",
+    "node_id": "phy-m-phase-change",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "解释为什么冰箱里的食物会结冰。",
+    "answer": "冰箱里的温度低于0℃，食物中的水分在低温下会结冰。结冰是凝固过程，食物中的液态水变成固态冰。",
+    "steps": [
+      "冰箱内的温度低于0℃。",
+      "食物中的水分在低温下会失去热能。",
+      "液态水失去热能后会变成固态冰，这是凝固过程。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为结冰是熔化过程。",
+        "hint": "结冰是凝固过程，从液态变为固态。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

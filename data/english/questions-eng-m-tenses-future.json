@@ -1,0 +1,229 @@
+[
+  {
+    "id": "eng-m-tenses-future-q-001",
+    "node_id": "eng-m-tenses-future",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "The students _____ (leave) for Beijing tomorrow morning.",
+    "options": [
+      "A. will leave",
+      "B. are leaving",
+      "C. leave",
+      "D. left"
+    ],
+    "answer": "A. will leave",
+    "steps": [
+      "1. 识别句子中的时间状语 'tomorrow morning'，表示将来时间。",
+      "2. 根据时间状语判断时态为一般将来时。",
+      "3. 一般将来时结构为 'will + 动词原形'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用现在进行时 'are leaving'",
+        "hint": "现在进行时表示将来计划，但本题强调的是一般将来时的用法。"
+      },
+      {
+        "error": "误用一般现在时 'leave'",
+        "hint": "一般现在时用于表示习惯性动作或客观事实，不适用于将来时间。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-tenses-future-q-002",
+    "node_id": "eng-m-tenses-future",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "She promised that she _____ (come) to the party.",
+    "answer": "would come",
+    "steps": [
+      "1. 识别句子中的时间状语 'promised'，表示过去时间。",
+      "2. 识别从句中的时间关系，表示将来。",
+      "3. 根据时间关系判断时态为过去将来时。",
+      "4. 过去将来时结构为 'would + 动词原形'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用过去将来进行时 'would be coming'",
+        "hint": "过去将来进行时表示在过去将来某一时间正在发生的动作，不适用于本题。"
+      },
+      {
+        "error": "误用一般过去时 'came'",
+        "hint": "一般过去时表示过去发生的动作，不适用于将来时间。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-tenses-future-q-003",
+    "node_id": "eng-m-tenses-future",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "By the end of next month, we _____ (finish) the project.",
+    "options": [
+      "A. will finish",
+      "B. will have finished",
+      "C. finish",
+      "D. are finishing"
+    ],
+    "answer": "B. will have finished",
+    "steps": [
+      "1. 识别句子中的时间状语 'By the end of next month'，表示将来完成时间。",
+      "2. 根据时间状语判断时态为将来完成时。",
+      "3. 将来完成时结构为 'will have + 过去分词'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用一般将来时 'will finish'",
+        "hint": "一般将来时表示将来某一时间发生的动作，不适用于将来完成时间。"
+      },
+      {
+        "error": "误用现在进行时 'are finishing'",
+        "hint": "现在进行时表示现在正在发生的动作，不适用于将来完成时间。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-tenses-future-q-004",
+    "node_id": "eng-m-tenses-future",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "What will you do if it rains tomorrow?",
+    "answer": "I will stay at home if it rains tomorrow.",
+    "steps": [
+      "1. 理解问题中的条件状语从句 'if it rains tomorrow'，表示将来条件。",
+      "2. 根据条件状语从句判断主句时态为一般将来时。",
+      "3. 回答时使用 'will + 动词原形' 结构。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用现在进行时 'I am staying at home'",
+        "hint": "现在进行时表示将来计划，但本题强调的是一般将来时的用法。"
+      },
+      {
+        "error": "误用一般现在时 'I stay at home'",
+        "hint": "一般现在时用于表示习惯性动作或客观事实，不适用于将来条件。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-tenses-future-q-005",
+    "node_id": "eng-m-tenses-future",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "They _____ (visit) the museum next week.",
+    "options": [
+      "A. visit",
+      "B. will visit",
+      "C. are visiting",
+      "D. visited"
+    ],
+    "answer": "B. will visit",
+    "steps": [
+      "1. 识别句子中的时间状语 'next week'，表示将来时间。",
+      "2. 根据时间状语判断时态为一般将来时。",
+      "3. 一般将来时结构为 'will + 动词原形'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用现在进行时 'are visiting'",
+        "hint": "现在进行时表示将来计划，但本题强调的是一般将来时的用法。"
+      },
+      {
+        "error": "误用一般现在时 'visit'",
+        "hint": "一般现在时用于表示习惯性动作或客观事实，不适用于将来时间。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-tenses-future-q-006",
+    "node_id": "eng-m-tenses-future",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "If you had the chance, what would you do in the future?",
+    "answer": "If I had the chance, I would travel around the world.",
+    "steps": [
+      "1. 理解问题中的条件状语从句 'If you had the chance'，表示与将来事实相反的假设。",
+      "2. 根据条件状语从句判断主句时态为过去将来时。",
+      "3. 回答时使用 'would + 动词原形' 结构。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用一般将来时 'will travel'",
+        "hint": "一般将来时用于表示将来某一时间发生的动作，不适用于与将来事实相反的假设。"
+      },
+      {
+        "error": "误用过去将来进行时 'would be traveling'",
+        "hint": "过去将来进行时表示在过去将来某一时间正在发生的动作，不适用于本题。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-tenses-future-q-007",
+    "node_id": "eng-m-tenses-future",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "The teacher said that the students _____ (take) the exam next Monday.",
+    "options": [
+      "A. will take",
+      "B. would take",
+      "C. take",
+      "D. took"
+    ],
+    "answer": "B. would take",
+    "steps": [
+      "1. 识别句子中的时间状语 'next Monday'，表示将来时间。",
+      "2. 识别主句中的动词 'said'，表示过去时间。",
+      "3. 根据主句时态判断从句时态为过去将来时。",
+      "4. 过去将来时结构为 'would + 动词原形'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用一般将来时 'will take'",
+        "hint": "一般将来时用于表示将来某一时间发生的动作，不适用于主句为过去时的宾语从句。"
+      },
+      {
+        "error": "误用一般过去时 'took'",
+        "hint": "一般过去时表示过去发生的动作，不适用于将来时间。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-tenses-future-q-008",
+    "node_id": "eng-m-tenses-future",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "He told me that he _____ (go) to the party next week.",
+    "answer": "would go",
+    "steps": [
+      "1. 识别句子中的时间状语 'next week'，表示将来时间。",
+      "2. 识别主句中的动词 'told'，表示过去时间。",
+      "3. 根据主句时态判断从句时态为过去将来时。",
+      "4. 过去将来时结构为 'would + 动词原形'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用一般将来时 'will go'",
+        "hint": "一般将来时用于表示将来某一时间发生的动作，不适用于主句为过去时的宾语从句。"
+      },
+      {
+        "error": "误用一般过去时 'went'",
+        "hint": "一般过去时表示过去发生的动作，不适用于将来时间。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

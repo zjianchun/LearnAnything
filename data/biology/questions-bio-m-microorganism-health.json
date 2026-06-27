@@ -1,0 +1,182 @@
+[
+  {
+    "id": "bio-m-microorganism-health-q-001",
+    "node_id": "bio-m-microorganism-health",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列哪种微生物对人类健康有益？",
+    "options": [
+      "A. 结核杆菌",
+      "B. 酵母菌",
+      "C. 霍乱弧菌",
+      "D. 痢疾杆菌"
+    ],
+    "answer": "B. 酵母菌",
+    "steps": [
+      "1. 了解常见微生物的种类及其对人类的影响",
+      "2. 区分有益微生物和有害微生物",
+      "3. 酵母菌常用于发酵食品，对人体有益"
+    ],
+    "common_errors": [
+      {
+        "error": "误选结核杆菌",
+        "hint": "结核杆菌是致病菌，会导致结核病"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-microorganism-health-q-002",
+    "node_id": "bio-m-microorganism-health",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "预防传染病最有效的方法是？",
+    "options": [
+      "A. 隔离病人",
+      "B. 接种疫苗",
+      "C. 勤洗手",
+      "D. 戴口罩"
+    ],
+    "answer": "B. 接种疫苗",
+    "steps": [
+      "1. 了解传染病预防的基本原则",
+      "2. 区分不同预防措施的效果",
+      "3. 接种疫苗可以有效预防传染病，是最有效的预防手段"
+    ],
+    "common_errors": [
+      {
+        "error": "误选勤洗手",
+        "hint": "勤洗手是日常防护措施，但并非最有效的预防方法"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-microorganism-health-q-003",
+    "node_id": "bio-m-microorganism-health",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "抗生素对___________有特效，但对__________无效。",
+    "answer": "细菌，病毒",
+    "steps": [
+      "1. 理解抗生素的作用机制",
+      "2. 区分细菌和病毒的结构特点",
+      "3. 抗生素主要针对细菌的细胞壁合成，对病毒无效"
+    ],
+    "common_errors": [
+      {
+        "error": "填成病毒，细菌",
+        "hint": "抗生素对病毒无效，这是常见的错误"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-microorganism-health-q-004",
+    "node_id": "bio-m-microorganism-health",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "细菌的繁殖方式主要是__________，而病毒的繁殖则需要__________。",
+    "answer": "分裂，宿主细胞",
+    "steps": [
+      "1. 了解细菌和病毒的基本繁殖方式",
+      "2. 细菌通过二分裂方式繁殖",
+      "3. 病毒需要寄生在宿主细胞内才能繁殖"
+    ],
+    "common_errors": [
+      {
+        "error": "填成分裂，宿主",
+        "hint": "宿主细胞是病毒繁殖的必要条件"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-microorganism-health-q-005",
+    "node_id": "bio-m-microorganism-health",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述细菌和病毒的主要区别。",
+    "answer": "细菌是单细胞生物，具有细胞结构，可以独立生存；病毒没有细胞结构，必须寄生在宿主细胞内才能生存。细菌可以通过分裂繁殖，而病毒则需要利用宿主细胞的物质和能量进行复制。",
+    "steps": [
+      "1. 明确细菌和病毒的基本结构特点",
+      "2. 比较两者的生存方式和繁殖方式",
+      "3. 总结两者的主要区别"
+    ],
+    "common_errors": [
+      {
+        "error": "认为病毒有细胞结构",
+        "hint": "病毒没有细胞结构，这是关键区别"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-microorganism-health-q-006",
+    "node_id": "bio-m-microorganism-health",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "为什么抗生素不能治疗病毒感染？",
+    "answer": "抗生素主要通过干扰细菌细胞壁的合成或抑制细菌蛋白质的合成来杀死细菌，而病毒没有细胞结构，抗生素无法对其产生作用。病毒感染需要使用抗病毒药物进行治疗。",
+    "steps": [
+      "1. 理解抗生素的作用机制",
+      "2. 了解病毒的结构特点",
+      "3. 解释抗生素对病毒无效的原因"
+    ],
+    "common_errors": [
+      {
+        "error": "认为抗生素对所有微生物都有效",
+        "hint": "抗生素只对细菌有效，对病毒无效"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-microorganism-health-q-007",
+    "node_id": "bio-m-microorganism-health",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请举例说明微生物在食品生产中的应用。",
+    "answer": "微生物在食品生产中有广泛应用，例如：1. 酵母菌用于面包、啤酒的发酵；2. 乳酸菌用于制作酸奶、泡菜；3. 醋酸菌用于酿造醋；4. 霉菌用于生产酱油、豆腐乳等。",
+    "steps": [
+      "1. 了解微生物在食品生产中的主要应用",
+      "2. 列举具体的微生物种类和食品类型",
+      "3. 解释微生物在食品生产中的作用"
+    ],
+    "common_errors": [
+      {
+        "error": "只列举一种微生物",
+        "hint": "微生物在食品生产中有多种应用，需要全面列举"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-microorganism-health-q-008",
+    "node_id": "bio-m-microorganism-health",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "如何有效预防食物中毒？",
+    "answer": "预防食物中毒的措施包括：1. 保持食物清洁，生熟分开；2. 彻底煮熟食物，特别是肉类和蛋类；3. 食物在安全的温度下保存，避免长时间放置在室温下；4. 使用安全的水和原材料；5. 注意个人卫生，勤洗手。",
+    "steps": [
+      "1. 了解食物中毒的主要原因",
+      "2. 列举预防食物中毒的具体措施",
+      "3. 强调关键预防步骤，如彻底煮熟和保持清洁"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到保持清洁",
+        "hint": "预防食物中毒需要多方面的措施，全面考虑才能有效预防"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

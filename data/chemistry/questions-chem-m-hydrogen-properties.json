@@ -1,0 +1,212 @@
+[
+  {
+    "id": "chem-m-hydrogen-properties-q-001",
+    "node_id": "chem-m-hydrogen-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列关于氢气的物理性质描述中，正确的是？",
+    "options": [
+      "A. 氢气是无色、无味、有毒的气体",
+      "B. 氢气难溶于水",
+      "C. 氢气的密度比空气大",
+      "D. 氢气在常温常压下为液态"
+    ],
+    "answer": "B. 氢气难溶于水",
+    "steps": [
+      "1. 回顾氢气的物理性质：氢气是无色、无味、无毒的气体。",
+      "2. 氢气难溶于水，密度比空气小。",
+      "3. 常温常压下，氢气为气态。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为氢气有毒",
+        "hint": "氢气是无毒的气体，常见于大气中。"
+      },
+      {
+        "error": "误认为氢气密度比空气大",
+        "hint": "氢气的密度比空气小，这是氢气球能够上升的原因。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-hydrogen-properties-q-002",
+    "node_id": "chem-m-hydrogen-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "氢气在空气中燃烧的化学方程式是？",
+    "options": [
+      "A. 2H₂ + O₂ = 2H₂O",
+      "B. H₂ + O₂ = H₂O₂",
+      "C. H₂ + O₂ = H₂O",
+      "D. 2H₂ + O₂ = H₂O"
+    ],
+    "answer": "A. 2H₂ + O₂ = 2H₂O",
+    "steps": [
+      "1. 氢气在空气中燃烧生成水。",
+      "2. 配平化学方程式：2H₂ + O₂ = 2H₂O。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为生成过氧化氢（H₂O₂）",
+        "hint": "氢气在空气中燃烧生成的是水（H₂O），而不是过氧化氢。"
+      },
+      {
+        "error": "化学方程式未配平",
+        "hint": "确保反应物和生成物的原子数相等。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-hydrogen-properties-q-003",
+    "node_id": "chem-m-hydrogen-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "氢气在点燃条件下与氧气反应生成_____，该反应属于_____反应。",
+    "answer": "水，化合",
+    "steps": [
+      "1. 氢气在点燃条件下与氧气反应生成水。",
+      "2. 该反应中两种反应物生成一种生成物，属于化合反应。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填生成物为过氧化氢",
+        "hint": "氢气与氧气反应生成的是水，而不是过氧化氢。"
+      },
+      {
+        "error": "误认为该反应是分解反应",
+        "hint": "该反应是两种物质生成一种物质，属于化合反应。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-hydrogen-properties-q-004",
+    "node_id": "chem-m-hydrogen-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请解释为什么氢气可以用作高空气球的填充气体。",
+    "answer": "因为氢气的密度比空气小，浮力大于重力，所以氢气可以用作高空气球的填充气体。",
+    "steps": [
+      "1. 氢气的密度比空气小。",
+      "2. 根据阿基米德原理，浮力大于重力时，物体会上浮。",
+      "3. 因此，氢气可以用作高空气球的填充气体。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为氢气密度比空气大",
+        "hint": "氢气的密度比空气小，这是氢气球能够上升的原因。"
+      },
+      {
+        "error": "未解释浮力原理",
+        "hint": "需要结合浮力原理进行解释。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-hydrogen-properties-q-005",
+    "node_id": "chem-m-hydrogen-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "氢气在点燃条件下与氧气反应的现象是什么？",
+    "answer": "氢气在点燃条件下与氧气反应，发出淡蓝色火焰，生成水。",
+    "steps": [
+      "1. 氢气在点燃条件下与氧气反应。",
+      "2. 观察到的现象是发出淡蓝色火焰。",
+      "3. 反应生成水。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为火焰是红色或黄色",
+        "hint": "氢气在氧气中燃烧发出的是淡蓝色火焰。"
+      },
+      {
+        "error": "未提到生成物水",
+        "hint": "反应生成水是重要的现象。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-hydrogen-properties-q-006",
+    "node_id": "chem-m-hydrogen-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "氢气在高温下与氧化铜反应生成_____和_____。",
+    "answer": "铜，水",
+    "steps": [
+      "1. 氢气在高温下与氧化铜反应。",
+      "2. 反应方程式为：H₂ + CuO = Cu + H₂O。",
+      "3. 生成物为铜和水。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为生成物是氧化铜和水",
+        "hint": "氧化铜是反应物而不是生成物。"
+      },
+      {
+        "error": "误认为生成物是铜和氢气",
+        "hint": "氢气是反应物而不是生成物。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-hydrogen-properties-q-007",
+    "node_id": "chem-m-hydrogen-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释氢气的还原性。",
+    "answer": "氢气具有还原性，能够在高温下将金属氧化物还原成金属单质，同时生成水。",
+    "steps": [
+      "1. 氢气在高温下与金属氧化物反应。",
+      "2. 例如，氢气与氧化铜反应生成铜和水。",
+      "3. 这种反应中，氢气将金属氧化物还原成金属单质，因此具有还原性。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为氢气是氧化剂",
+        "hint": "氢气是还原剂，而不是氧化剂。"
+      },
+      {
+        "error": "未提到生成水",
+        "hint": "反应生成水是还原反应的重要特征。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-hydrogen-properties-q-008",
+    "node_id": "chem-m-hydrogen-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请列举氢气的两种用途，并简要说明原因。",
+    "answer": "1. 用作高空气球的填充气体：因为氢气的密度比空气小，浮力大于重力。2. 作为工业原料：氢气可以用于合成氨、制造燃料电池等。",
+    "steps": [
+      "1. 列举氢气的用途。",
+      "2. 解释每种用途的原因。",
+      "3. 例如，高空气球的填充气体是因为氢气密度比空气小。"
+    ],
+    "common_errors": [
+      {
+        "error": "用途列举不完整",
+        "hint": "至少列举两种用途，并解释原因。"
+      },
+      {
+        "error": "未解释原因",
+        "hint": "每种用途都需要解释原因。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

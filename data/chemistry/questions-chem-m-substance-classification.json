@@ -1,0 +1,194 @@
+[
+  {
+    "id": "chem-m-substance-classification-q-001",
+    "node_id": "chem-m-substance-classification",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列物质中，属于纯净物的是（  ）",
+    "options": [
+      "A. 空气",
+      "B. 氧气",
+      "C. 海水",
+      "D. 矿泉水"
+    ],
+    "answer": "B. 氧气",
+    "steps": [
+      "1. 理解纯净物的定义：纯净物是由一种物质组成的物质。",
+      "2. 分析选项：空气是混合物，海水是混合物，矿泉水是混合物，氧气是由一种物质组成的纯净物。",
+      "3. 得出结论：氧气是纯净物。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将混合物认为是纯净物",
+        "hint": "注意区分纯净物和混合物的定义，纯净物只含一种物质。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chem-m-substance-classification-q-002",
+    "node_id": "chem-m-substance-classification",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "由两种或两种以上物质组成的物质称为______。",
+    "answer": "混合物",
+    "steps": [
+      "1. 理解混合物的定义：由两种或两种以上物质组成的物质称为混合物。",
+      "2. 填写答案：混合物。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填为纯净物或化合物",
+        "hint": "注意题目中提到的‘两种或两种以上物质’，这与纯净物和化合物的定义不符。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-substance-classification-q-003",
+    "node_id": "chem-m-substance-classification",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列物质中，属于化合物的是（  ）",
+    "options": [
+      "A. 氯化钠",
+      "B. 铜",
+      "C. 空气",
+      "D. 氢气"
+    ],
+    "answer": "A. 氯化钠",
+    "steps": [
+      "1. 理解化合物的定义：化合物是由两种或两种以上元素组成的纯净物。",
+      "2. 分析选项：氯化钠是由钠和氯两种元素组成的化合物，铜是单质，空气是混合物，氢气是单质。",
+      "3. 得出结论：氯化钠是化合物。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将单质认为是化合物",
+        "hint": "注意区分单质和化合物的定义，单质只含一种元素。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-substance-classification-q-004",
+    "node_id": "chem-m-substance-classification",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请解释纯净物和混合物的区别。",
+    "answer": "纯净物是由一种物质组成的物质，而混合物是由两种或两种以上物质组成的物质。",
+    "steps": [
+      "1. 明确纯净物的定义：由一种物质组成的物质。",
+      "2. 明确混合物的定义：由两种或两种以上物质组成的物质。",
+      "3. 总结区别：纯净物只有一种物质，而混合物有多种物质。"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆纯净物和混合物的定义",
+        "hint": "注意区分‘一种物质’和‘两种或两种以上物质’。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-substance-classification-q-005",
+    "node_id": "chem-m-substance-classification",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列物质中，属于混合物的是（  ）",
+    "options": [
+      "A. 蒸馏水",
+      "B. 糖水",
+      "C. 二氧化碳",
+      "D. 铁"
+    ],
+    "answer": "B. 糖水",
+    "steps": [
+      "1. 理解混合物的定义：由两种或两种以上物质组成的物质。",
+      "2. 分析选项：蒸馏水是纯净物，糖水是混合物，二氧化碳是纯净物，铁是纯净物。",
+      "3. 得出结论：糖水是混合物。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将纯净物认为是混合物",
+        "hint": "注意区分纯净物和混合物的定义，纯净物只含一种物质。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-substance-classification-q-006",
+    "node_id": "chem-m-substance-classification",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请举例说明日常生活中常见的纯净物和混合物，并解释原因。",
+    "answer": "纯净物：食盐（氯化钠），因为它只含一种物质；混合物：牛奶，因为牛奶中含有水、蛋白质、脂肪等多种物质。",
+    "steps": [
+      "1. 明确纯净物的例子：食盐（氯化钠）。",
+      "2. 明确混合物的例子：牛奶。",
+      "3. 解释原因：食盐只含一种物质，而牛奶含有多种物质。"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆纯净物和混合物的例子",
+        "hint": "注意区分纯净物和混合物的定义，选择合适的例子。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-substance-classification-q-007",
+    "node_id": "chem-m-substance-classification",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "下列说法正确的是（  ）",
+    "options": [
+      "A. 混合物中各成分的化学性质相同",
+      "B. 化合物中各元素的化学性质与单质相同",
+      "C. 纯净物中只含一种元素",
+      "D. 化合物是纯净物的一种"
+    ],
+    "answer": "D. 化合物是纯净物的一种",
+    "steps": [
+      "1. 分析选项A：混合物中各成分的化学性质可以不同。",
+      "2. 分析选项B：化合物中各元素的化学性质与单质不同。",
+      "3. 分析选项C：纯净物可以含有多种元素。",
+      "4. 分析选项D：化合物是由两种或两种以上元素组成的纯净物，所以化合物是纯净物的一种。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选其他选项",
+        "hint": "仔细分析每个选项，确保理解纯净物、混合物和化合物的定义。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-substance-classification-q-008",
+    "node_id": "chem-m-substance-classification",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释为什么化合物是纯净物的一种。",
+    "answer": "化合物是由两种或两种以上元素组成的纯净物。因为化合物只含一种物质，所以它是纯净物的一种。",
+    "steps": [
+      "1. 明确化合物的定义：由两种或两种以上元素组成的纯净物。",
+      "2. 明确纯净物的定义：由一种物质组成的物质。",
+      "3. 解释原因：化合物只含一种物质，所以它是纯净物的一种。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为化合物是混合物",
+        "hint": "注意化合物是纯净物的一种，因为它只含一种物质。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

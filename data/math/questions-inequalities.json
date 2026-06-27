@@ -1,0 +1,208 @@
+[
+  {
+    "id": "math-m-inequalities-q-001",
+    "node_id": "math-m-inequalities",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "若a > b，则下列不等式中正确的是（  ）",
+    "options": [
+      "A. a + 3 < b + 3",
+      "B. a - 5 > b - 5",
+      "C. 2a < 2b",
+      "D. -a > -b"
+    ],
+    "answer": "B. a - 5 > b - 5",
+    "steps": [
+      "1. 根据不等式的性质，如果a > b，则两边同时加或减相同的数，不等号方向不变。",
+      "2. 选项A中，a + 3 > b + 3，不符合。",
+      "3. 选项B中，a - 5 > b - 5，符合。",
+      "4. 选项C中，2a > 2b，不符合。",
+      "5. 选项D中，-a < -b，不符合。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为a > b时，a + 3 < b + 3",
+        "hint": "不等式两边同时加相同的数，不等号方向不变。"
+      },
+      {
+        "error": "误认为a > b时，2a < 2b",
+        "hint": "不等式两边同时乘以正数，不等号方向不变。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-m-inequalities-q-002",
+    "node_id": "math-m-inequalities",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "解不等式2x - 3 < 7。",
+    "answer": "x < 5",
+    "steps": [
+      "1. 将不等式中的常数项移到右边：2x < 7 + 3。",
+      "2. 计算右边：2x < 10。",
+      "3. 两边同时除以2：x < 5。"
+    ],
+    "common_errors": [
+      {
+        "error": "忘记将常数项移到右边",
+        "hint": "在解不等式时，要将常数项移到不等号的一边。"
+      },
+      {
+        "error": "两边同时除以2时，不等号方向错误",
+        "hint": "两边同时除以正数，不等号方向不变。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-inequalities-q-003",
+    "node_id": "math-m-inequalities",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "若关于x的不等式ax + b > 0的解集为x > -2，则下列说法正确的是（  ）",
+    "options": [
+      "A. a > 0, b > 0",
+      "B. a < 0, b < 0",
+      "C. a > 0, b < 0",
+      "D. a < 0, b > 0"
+    ],
+    "answer": "D. a < 0, b > 0",
+    "steps": [
+      "1. 解集为x > -2，说明不等式可以写成a(x + 2) > 0。",
+      "2. 因此，a < 0，b = 2a > 0。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为a > 0",
+        "hint": "如果a > 0，解集应为x < -2。"
+      },
+      {
+        "error": "误认为b < 0",
+        "hint": "b = 2a，a < 0，所以b > 0。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-inequalities-q-004",
+    "node_id": "math-m-inequalities",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "解不等式3(x - 1) ≤ 2(x + 2) - 5。",
+    "answer": "x ≤ 0",
+    "steps": [
+      "1. 展开不等式：3x - 3 ≤ 2x + 4 - 5。",
+      "2. 合并常数项：3x - 3 ≤ 2x - 1。",
+      "3. 将2x移到左边：3x - 2x ≤ -1 + 3。",
+      "4. 计算：x ≤ 2。",
+      "5. 验证：x ≤ 0。"
+    ],
+    "common_errors": [
+      {
+        "error": "忘记展开括号",
+        "hint": "在解不等式时，要先展开括号。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "仔细计算每一步，确保结果的准确性。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-inequalities-q-005",
+    "node_id": "math-m-inequalities",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "若关于x的不等式|x - 3| < 2的解集为（  ）",
+    "options": [
+      "A. 1 < x < 5",
+      "B. x < 1 或 x > 5",
+      "C. x < -1 或 x > 5",
+      "D. -1 < x < 5"
+    ],
+    "answer": "A. 1 < x < 5",
+    "steps": [
+      "1. |x - 3| < 2表示x - 3的绝对值小于2。",
+      "2. 因此，-2 < x - 3 < 2。",
+      "3. 解不等式：1 < x < 5。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为|x - 3| < 2的解集为x < 1 或 x > 5",
+        "hint": "绝对值不等式的解集是连续的区间。"
+      },
+      {
+        "error": "解错不等式",
+        "hint": "仔细解不等式，确保每一步都正确。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-inequalities-q-006",
+    "node_id": "math-m-inequalities",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "解不等式(x - 1)(x + 2) > 0。",
+    "answer": "x < -2 或 x > 1",
+    "steps": [
+      "1. 不等式为(x - 1)(x + 2) > 0。",
+      "2. 找到方程(x - 1)(x + 2) = 0的根：x = 1, x = -2。",
+      "3. 将数轴分为三个区间：x < -2, -2 < x < 1, x > 1。",
+      "4. 测试每个区间内的符号：",
+      "   - 当x < -2时，(x - 1)(x + 2) < 0。",
+      "   - 当-2 < x < 1时，(x - 1)(x + 2) < 0。",
+      "   - 当x > 1时，(x - 1)(x + 2) > 0。",
+      "5. 因此，解集为x < -2 或 x > 1。"
+    ],
+    "common_errors": [
+      {
+        "error": "解错不等式",
+        "hint": "仔细分析每个区间的符号，确保结果的准确性。"
+      },
+      {
+        "error": "遗漏区间",
+        "hint": "不要忘记考虑所有可能的区间。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "math-m-inequalities-q-007",
+    "node_id": "math-m-inequalities",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "若关于x的不等式x^2 - 4x + 3 < 0的解集为（  ）",
+    "answer": "1 < x < 3",
+    "steps": [
+      "1. 解方程x^2 - 4x + 3 = 0：",
+      "   - 找到根：x = 1, x = 3。",
+      "2. 将数轴分为三个区间：x < 1, 1 < x < 3, x > 3。",
+      "3. 测试每个区间内的符号：",
+      "   - 当x < 1时，x^2 - 4x + 3 > 0。",
+      "   - 当1 < x < 3时，x^2 - 4x + 3 < 0。",
+      "   - 当x > 3时，x^2 - 4x + 3 > 0。",
+      "4. 因此，解集为1 < x < 3。"
+    ],
+    "common_errors": [
+      {
+        "error": "解错方程",
+        "hint": "仔细解方程，找到正确的根。"
+      },
+      {
+        "error": "测试区间符号错误",
+        "hint": "确保在每个区间内正确计算符号。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

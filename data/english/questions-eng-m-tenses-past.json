@@ -1,0 +1,194 @@
+[
+  {
+    "id": "eng-m-tenses-past-q-001",
+    "node_id": "eng-m-tenses-past",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "When I ______ (arrive) at the station, the train ______ (leave).",
+    "options": [
+      "A. arrived, had left",
+      "B. arrived, was leaving",
+      "C. was arriving, left",
+      "D. was arriving, had left"
+    ],
+    "answer": "A. arrived, had left",
+    "steps": [
+      "1. 识别句子中的时间状语从句：When I ______ (arrive) at the station",
+      "2. 主句使用一般过去时：the train ______ (leave)",
+      "3. 从句动作发生在主句之前，所以用一般过去时"
+    ],
+    "common_errors": [
+      {
+        "error": "误用过去进行时",
+        "hint": "过去进行时表示过去某个时间正在发生的动作，而这里强调的是两个过去的动作先后发生"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-tenses-past-q-002",
+    "node_id": "eng-m-tenses-past",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "While I ______ (read) a book, my sister ______ (watch) TV.",
+    "options": [
+      "A. read, was watching",
+      "B. was reading, watched",
+      "C. was reading, was watching",
+      "D. read, watched"
+    ],
+    "answer": "C. was reading, was watching",
+    "steps": [
+      "1. 识别时间状语从句：While I ______ (read) a book",
+      "2. 主句和从句都表示过去某个时间段正在发生的动作",
+      "3. 使用过去进行时：was reading, was watching"
+    ],
+    "common_errors": [
+      {
+        "error": "误用一般过去时",
+        "hint": "一般过去时表示过去的某个动作已经完成，而这里强调的是动作在过去某个时间段正在发生"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-tenses-past-q-003",
+    "node_id": "eng-m-tenses-past",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "Yesterday, I ______ (work) in the garden when it ______ (start) to rain.",
+    "answer": "was working, started",
+    "steps": [
+      "1. 识别时间状语：Yesterday",
+      "2. 主句表示过去某个时间段正在发生的动作：was working",
+      "3. 从句表示过去某个时间点发生的动作：started"
+    ],
+    "common_errors": [
+      {
+        "error": "误用一般过去时",
+        "hint": "主句强调的是过去某个时间段正在发生的动作，所以要用过去进行时"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "eng-m-tenses-past-q-004",
+    "node_id": "eng-m-tenses-past",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "The students ______ (play) football when the teacher ______ (come) into the classroom.",
+    "answer": "were playing, came",
+    "steps": [
+      "1. 识别时间状语从句：when the teacher ______ (come) into the classroom",
+      "2. 主句表示过去某个时间段正在发生的动作：were playing",
+      "3. 从句表示过去某个时间点发生的动作：came"
+    ],
+    "common_errors": [
+      {
+        "error": "误用一般过去时",
+        "hint": "主句强调的是过去某个时间段正在发生的动作，所以要用过去进行时"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "eng-m-tenses-past-q-005",
+    "node_id": "eng-m-tenses-past",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "When we ______ (get) to the cinema, the film ______ (already, start).",
+    "options": [
+      "A. got, had already started",
+      "B. got, was already starting",
+      "C. was getting, had already started",
+      "D. was getting, was already starting"
+    ],
+    "answer": "A. got, had already started",
+    "steps": [
+      "1. 识别时间状语从句：When we ______ (get) to the cinema",
+      "2. 主句表示过去的过去发生的动作：had already started",
+      "3. 从句表示过去某个时间点发生的动作：got"
+    ],
+    "common_errors": [
+      {
+        "error": "误用过去进行时",
+        "hint": "过去进行时表示过去某个时间段正在发生的动作，而这里强调的是过去的过去已经完成的动作"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "eng-m-tenses-past-q-006",
+    "node_id": "eng-m-tenses-past",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "While the teacher ______ (explain) the lesson, the students ______ (listen) carefully.",
+    "options": [
+      "A. explained, were listening",
+      "B. was explaining, listened",
+      "C. was explaining, were listening",
+      "D. explained, listened"
+    ],
+    "answer": "C. was explaining, were listening",
+    "steps": [
+      "1. 识别时间状语从句：While the teacher ______ (explain) the lesson",
+      "2. 主句和从句都表示过去某个时间段正在发生的动作",
+      "3. 使用过去进行时：was explaining, were listening"
+    ],
+    "common_errors": [
+      {
+        "error": "误用一般过去时",
+        "hint": "一般过去时表示过去的某个动作已经完成，而这里强调的是动作在过去某个时间段正在发生"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "eng-m-tenses-past-q-007",
+    "node_id": "eng-m-tenses-past",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请用英语描述一个你过去正在做某事时发生的一个意外事件。",
+    "answer": "Last summer, I was swimming in the pool when I suddenly felt a sharp pain in my leg. I didn't know what was happening, so I quickly got out of the pool. My friends were surprised and asked me what was wrong. I told them that I had a cramp in my leg. They helped me to sit down and gave me some water. After a few minutes, the pain went away and I felt much better.",
+    "steps": [
+      "1. 确定描述的事件",
+      "2. 使用过去进行时描述事件发生时的背景",
+      "3. 使用一般过去时描述意外事件"
+    ],
+    "common_errors": [
+      {
+        "error": "时态使用错误",
+        "hint": "描述背景时使用过去进行时，描述意外事件时使用一般过去时"
+      }
+    ],
+    "exam_frequency": 1
+  },
+  {
+    "id": "eng-m-tenses-past-q-008",
+    "node_id": "eng-m-tenses-past",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请用英语描述一个你过去正在做某事时发生的惊喜事件。",
+    "answer": "One day, I was walking home from school when I saw a dog on the street. The dog looked lost and scared, so I decided to help it. I was trying to catch the dog when a woman came up to me and said that the dog was hers. She was very grateful and thanked me for helping. She gave me a reward and invited me to visit her house. I was surprised and happy because I had never expected to get a reward for helping a lost dog.",
+    "steps": [
+      "1. 确定描述的事件",
+      "2. 使用过去进行时描述事件发生时的背景",
+      "3. 使用一般过去时描述惊喜事件"
+    ],
+    "common_errors": [
+      {
+        "error": "时态使用错误",
+        "hint": "描述背景时使用过去进行时，描述惊喜事件时使用一般过去时"
+      }
+    ],
+    "exam_frequency": 1
+  }
+]

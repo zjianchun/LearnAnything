@@ -1,0 +1,220 @@
+[
+  {
+    "id": "hist-m-song-yuan-ming-qing-q-001",
+    "node_id": "hist-m-song-yuan-ming-qing",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "北宋的都城是以下哪个城市？",
+    "options": [
+      "A. 长安",
+      "B. 开封",
+      "C. 洛阳",
+      "D. 杭州"
+    ],
+    "answer": "B. 开封",
+    "steps": [
+      "1. 回忆北宋建立的历史背景",
+      "2. 确认北宋的都城是开封",
+      "3. 对照选项，选择正确答案"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为长安是北宋的都城",
+        "hint": "长安是唐朝的都城，北宋的都城是开封"
+      },
+      {
+        "error": "误以为杭州是北宋的都城",
+        "hint": "杭州是南宋的都城，北宋的都城是开封"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-song-yuan-ming-qing-q-002",
+    "node_id": "hist-m-song-yuan-ming-qing",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "元朝时期设立的管辖西藏地区的机构是以下哪个？",
+    "options": [
+      "A. 宣政院",
+      "B. 行省",
+      "C. 布政司",
+      "D. 御史台"
+    ],
+    "answer": "A. 宣政院",
+    "steps": [
+      "1. 回忆元朝对西藏地区的管辖措施",
+      "2. 确认元朝设立宣政院管理西藏事务",
+      "3. 对照选项，选择正确答案"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为行省是管理西藏的机构",
+        "hint": "行省是元朝的地方行政机构，不专门管理西藏"
+      },
+      {
+        "error": "误以为布政司是元朝设立的机构",
+        "hint": "布政司是明朝设立的机构"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-song-yuan-ming-qing-q-003",
+    "node_id": "hist-m-song-yuan-ming-qing",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "南宋时期著名的抗金将领是________。",
+    "answer": "岳飞",
+    "steps": [
+      "1. 回忆南宋时期的重大历史事件",
+      "2. 确认岳飞是南宋著名的抗金将领",
+      "3. 填写正确答案"
+    ],
+    "common_errors": [
+      {
+        "error": "填写成其他历史人物，如文天祥",
+        "hint": "文天祥是南宋末年的民族英雄，不是抗金将领"
+      },
+      {
+        "error": "填写成地名或事件",
+        "hint": "本题要求填写人物名称"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-song-yuan-ming-qing-q-004",
+    "node_id": "hist-m-song-yuan-ming-qing",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "明朝时期，郑和七次下西洋，最远到达________。",
+    "answer": "东非",
+    "steps": [
+      "1. 回忆郑和下西洋的路线和范围",
+      "2. 确认郑和最远到达东非",
+      "3. 填写正确答案"
+    ],
+    "common_errors": [
+      {
+        "error": "填写成其他地点，如东南亚",
+        "hint": "东南亚是郑和下西洋的途经地，不是最远到达地"
+      },
+      {
+        "error": "填写成时间或人物",
+        "hint": "本题要求填写地点"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-song-yuan-ming-qing-q-005",
+    "node_id": "hist-m-song-yuan-ming-qing",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "简述明朝加强君主专制的主要措施。",
+    "answer": "明朝加强君主专制的主要措施包括：1. 废除丞相制度，权分六部；2. 设立锦衣卫和东厂，加强特务统治；3. 实行廷杖制度，打击士大夫；4. 推行八股取士，控制思想文化。",
+    "steps": [
+      "1. 回忆明朝加强君主专制的具体措施",
+      "2. 整理思路，分点作答",
+      "3. 详细描述每项措施的内容"
+    ],
+    "common_errors": [
+      {
+        "error": "只列举部分措施",
+        "hint": "需要全面概括明朝加强君主专制的各项措施"
+      },
+      {
+        "error": "混淆不同朝代的措施",
+        "hint": "注意区分明朝与其他朝代的措施"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-song-yuan-ming-qing-q-006",
+    "node_id": "hist-m-song-yuan-ming-qing",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "清朝前期采取了哪些措施来巩固多民族国家的统一？",
+    "answer": "清朝前期巩固多民族国家统一的措施包括：1. 平定三藩之乱；2. 收复台湾；3. 平定准噶尔部叛乱；4. 设立驻藏大臣，加强对西藏的管理；5. 推行改土归流政策；6. 签订《尼布楚条约》，维护东北边疆安全。",
+    "steps": [
+      "1. 回忆清朝前期的重大历史事件",
+      "2. 整理思路，分点作答",
+      "3. 详细描述每项措施的具体内容"
+    ],
+    "common_errors": [
+      {
+        "error": "只列举部分措施",
+        "hint": "需要全面概括清朝巩固多民族国家统一的各项措施"
+      },
+      {
+        "error": "混淆不同历史时期的措施",
+        "hint": "注意区分清朝前期与后期的措施"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-song-yuan-ming-qing-q-007",
+    "node_id": "hist-m-song-yuan-ming-qing",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下哪一项不属于清朝前期加强中央集权的主要措施？",
+    "options": [
+      "A. 设立军机处",
+      "B. 推行文字狱",
+      "C. 设立理藩院",
+      "D. 实行分封制"
+    ],
+    "answer": "D. 实行分封制",
+    "steps": [
+      "1. 回忆清朝前期加强中央集权的主要措施",
+      "2. 对照选项，确认不属于的措施",
+      "3. 选择正确答案"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为分封制是清朝的措施",
+        "hint": "分封制是西周时期的制度，清朝没有实行分封制"
+      },
+      {
+        "error": "混淆了军机处和理藩院的职能",
+        "hint": "军机处是清朝中央机构，理藩院管理少数民族事务"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-song-yuan-ming-qing-q-008",
+    "node_id": "hist-m-song-yuan-ming-qing",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "宋元明清时期，中国古代科技有哪些重要成就？",
+    "answer": "宋元明清时期中国古代科技的重要成就包括：1. 活字印刷术的发明；2. 火药在军事上的广泛应用；3. 指南针用于航海；4. 《本草纲目》的编纂；5. 《天工开物》的出版；6. 四大发明的完善和发展。",
+    "steps": [
+      "1. 回忆宋元明清时期的重要科技成就",
+      "2. 整理思路，分点作答",
+      "3. 详细描述每项成就的具体内容"
+    ],
+    "common_errors": [
+      {
+        "error": "只列举部分成就",
+        "hint": "需要全面概括宋元明清时期的各项科技成就"
+      },
+      {
+        "error": "混淆不同朝代的科技成就",
+        "hint": "注意区分各项成就所属的朝代"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

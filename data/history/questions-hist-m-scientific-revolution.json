@@ -1,0 +1,247 @@
+[
+  {
+    "id": "hist-m-scientific-revolution-q-001",
+    "node_id": "hist-m-scientific-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "以下哪一位科学家被誉为“现代科学之父”？",
+    "options": [
+      "A. 哥白尼",
+      "B. 伽利略",
+      "C. 牛顿",
+      "D. 开普勒"
+    ],
+    "answer": "C. 牛顿",
+    "steps": [
+      "1. 了解“现代科学之父”这一称号的归属。",
+      "2. 回顾牛顿的主要贡献，包括经典力学体系的建立。",
+      "3. 对比其他科学家的主要贡献，确定牛顿在这一称号上的地位。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选哥白尼",
+        "hint": "哥白尼提出日心说，对科学革命有重大影响，但未获得“现代科学之父”称号。"
+      },
+      {
+        "error": "误选伽利略",
+        "hint": "伽利略是实验科学的奠基人之一，但“现代科学之父”称号通常指牛顿。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-scientific-revolution-q-002",
+    "node_id": "hist-m-scientific-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "启蒙运动的中心思想是_____。",
+    "answer": "理性",
+    "steps": [
+      "1. 理解启蒙运动的核心价值观。",
+      "2. 回顾启蒙运动的主要代表人物及其思想。",
+      "3. 确定启蒙运动中“理性”的核心地位。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写“自由”或“平等”",
+        "hint": "自由和平等是启蒙运动的重要理念，但中心思想是理性。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-scientific-revolution-q-003",
+    "node_id": "hist-m-scientific-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "启蒙运动中，哪位思想家提出了“三权分立”学说？",
+    "options": [
+      "A. 伏尔泰",
+      "B. 卢梭",
+      "C. 孟德斯鸠",
+      "D. 狄德罗"
+    ],
+    "answer": "C. 孟德斯鸠",
+    "steps": [
+      "1. 了解启蒙运动中主要思想家的核心观点。",
+      "2. 回顾“三权分立”学说的提出者。",
+      "3. 对比其他思想家的主要观点，确定孟德斯鸠的贡献。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选伏尔泰",
+        "hint": "伏尔泰主张开明君主制，未提出“三权分立”学说。"
+      },
+      {
+        "error": "误选卢梭",
+        "hint": "卢梭提出社会契约论，与“三权分立”学说无直接关联。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-scientific-revolution-q-004",
+    "node_id": "hist-m-scientific-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下哪一项不是科学革命带来的影响？",
+    "options": [
+      "A. 推动了技术进步",
+      "B. 改变了人类对宇宙的认识",
+      "C. 确立了教会对科学的绝对控制",
+      "D. 促进了启蒙运动的发展"
+    ],
+    "answer": "C. 确立了教会对科学的绝对控制",
+    "steps": [
+      "1. 分析科学革命对技术、思想和宗教的影响。",
+      "2. 回顾科学革命对教会地位的影响。",
+      "3. 确定科学革命削弱而非加强教会的控制。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A",
+        "hint": "技术进步是科学革命的重要影响之一。"
+      },
+      {
+        "error": "误选B",
+        "hint": "改变对宇宙的认识是科学革命的核心影响。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-scientific-revolution-q-005",
+    "node_id": "hist-m-scientific-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请简述启蒙运动对欧洲社会的影响。",
+    "answer": "启蒙运动推动了欧洲社会的思想解放，促进了民主、自由、平等理念的传播，为法国大革命等社会变革提供了思想基础。同时，启蒙运动推动了科学文化的进步，对欧洲乃至世界的政治、文化产生了深远影响。",
+    "steps": [
+      "1. 明确启蒙运动的核心思想。",
+      "2. 分析启蒙运动对欧洲政治、文化、社会的影响。",
+      "3. 总结启蒙运动的历史意义。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到思想影响，忽略社会变革",
+        "hint": "启蒙运动不仅影响思想，还推动了社会变革。"
+      },
+      {
+        "error": "忽略对科学文化的影响",
+        "hint": "启蒙运动对科学文化的进步有重要推动作用。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-scientific-revolution-q-006",
+    "node_id": "hist-m-scientific-revolution",
+    "source": "AI-生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下哪一项是启蒙运动时期的重要文献？",
+    "options": [
+      "A. 《神曲》",
+      "B. 《社会契约论》",
+      "C. 《荷马史诗》",
+      "D. 《物种起源》"
+    ],
+    "answer": "B. 《社会契约论》",
+    "steps": [
+      "1. 了解启蒙运动时期的重要文献。",
+      "2. 回顾《社会契约论》的作者及主要内容。",
+      "3. 对比其他选项，确定其与启蒙运动的关系。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A",
+        "hint": "《神曲》是文艺复兴时期的作品。"
+      },
+      {
+        "error": "误选D",
+        "hint": "《物种起源》是19世纪的科学著作。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-scientific-revolution-q-007",
+    "node_id": "hist-m-scientific-revolution",
+    "source": "AI-生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "科学革命中，_____提出了“日心说”。",
+    "answer": "哥白尼",
+    "steps": [
+      "1. 回顾科学革命中天文学的主要发展。",
+      "2. 了解“日心说”的提出者及其历史背景。",
+      "3. 确认哥白尼在科学革命中的地位。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写“伽利略”",
+        "hint": "伽利略支持日心说，但并非提出者。"
+      },
+      {
+        "error": "填写“牛顿”",
+        "hint": "牛顿主要贡献在力学，而非天文学。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-scientific-revolution-q-008",
+    "node_id": "hist-m-scientific-revolution",
+    "source": "AI-生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请比较科学革命和启蒙运动的异同。",
+    "answer": "相同点：两者都推动了人类思想的进步，对社会产生了深远影响。不同点：科学革命主要关注自然科学领域，强调实验和观察；启蒙运动则侧重于哲学、政治和社会思想，倡导理性、自由和平等。",
+    "steps": [
+      "1. 分析科学革命和启蒙运动的核心特征。",
+      "2. 比较两者在思想、社会影响方面的异同。",
+      "3. 总结两者的历史地位。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到思想影响，忽略社会影响",
+        "hint": "两者都对社会产生了重要影响。"
+      },
+      {
+        "error": "忽略科学革命在自然科学领域的贡献",
+        "hint": "科学革命主要关注自然科学的发展。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "hist-m-scientific-revolution-q-009",
+    "node_id": "hist-m-scientific-revolution",
+    "source": "AI-生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析启蒙运动对现代民主制度的影响。",
+    "answer": "启蒙运动提倡的理性、自由、平等理念为现代民主制度奠定了思想基础。启蒙思想家们倡导的民主、法治、分权等原则被广泛应用于现代国家的政治制度设计中，对现代民主制度的形成和发展产生了重要影响。",
+    "steps": [
+      "1. 明确启蒙运动的核心思想。",
+      "2. 分析启蒙运动对民主理念的贡献。",
+      "3. 探讨启蒙运动对现代政治制度的影响。"
+    ],
+    "common_errors": [
+      {
+        "error": "忽略启蒙运动对法治的影响",
+        "hint": "启蒙运动对法治理念的传播有重要作用。"
+      },
+      {
+        "error": "只提到民主，忽略自由和平等",
+        "hint": "自由和平等也是启蒙运动的重要理念。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

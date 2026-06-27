@@ -1,0 +1,194 @@
+[
+  {
+    "id": "eng-m-modal-verbs-q-001",
+    "node_id": "eng-m-modal-verbs",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "She _____ swim very well when she was only five years old.",
+    "options": [
+      "A) can",
+      "B) could",
+      "C) must",
+      "D) should"
+    ],
+    "answer": "B) could",
+    "steps": [
+      "1. 理解题意：题目描述的是她五岁时就会游泳。",
+      "2. 分析时态：主句使用了过去时态，因此情态动词也需要使用过去式。",
+      "3. 选择正确的情态动词：can的过去式是could，表示过去的能力。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用can",
+        "hint": "注意主句的时态为过去时，情态动词也需要使用过去式。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-modal-verbs-q-002",
+    "node_id": "eng-m-modal-verbs",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "You _____ hand in your homework on time.",
+    "answer": "must",
+    "steps": [
+      "1. 理解题意：题目表达的是你必须按时交作业。",
+      "2. 选择合适的词：根据句意，这里表达的是一种义务或必要性。",
+      "3. 确定答案：must表示必须，符合句意。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用should",
+        "hint": "should表示应该，语气较弱，不符合句意中的强烈义务。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-modal-verbs-q-003",
+    "node_id": "eng-m-modal-verbs",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "He _____ be at home now because his car is still in the driveway.",
+    "options": [
+      "A) must",
+      "B) can",
+      "C) should",
+      "D) may"
+    ],
+    "answer": "A) must",
+    "steps": [
+      "1. 理解题意：题目表达的是他一定在家，因为他的车还在车道上。",
+      "2. 分析逻辑关系：根据车的位置，推断他一定在家。",
+      "3. 选择正确的情态动词：must表示肯定的推测，符合句意。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用may",
+        "hint": "may表示可能性，语气较弱，不符合句意中的强烈推测。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-modal-verbs-q-004",
+    "node_id": "eng-m-modal-verbs",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "You _____ take an umbrella with you. It might rain later.",
+    "answer": "should",
+    "steps": [
+      "1. 理解题意：题目表达的是你最好带把伞，等会儿可能会下雨。",
+      "2. 选择合适的词：根据句意，这里表达的是一种建议或建议性的义务。",
+      "3. 确定答案：should表示应该，符合句意中的建议。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用must",
+        "hint": "must表示必须，语气太强，不符合句意中的建议。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-modal-verbs-q-005",
+    "node_id": "eng-m-modal-verbs",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "_____ I borrow your pen for a moment?",
+    "options": [
+      "A) May",
+      "B) Must",
+      "C) Should",
+      "D) Can"
+    ],
+    "answer": "A) May",
+    "steps": [
+      "1. 理解题意：题目表达的是我可以借你的笔用一下吗？",
+      "2. 分析句意：这里是在请求许可。",
+      "3. 选择正确的情态动词：may用于请求许可，符合句意。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用can",
+        "hint": "can虽然也可以表示请求许可，但may更正式，更符合礼貌请求的语境。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-modal-verbs-q-006",
+    "node_id": "eng-m-modal-verbs",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "Explain the difference in meaning between 'You must do your homework' and 'You should do your homework'.",
+    "answer": "The sentence 'You must do your homework' expresses a strong obligation or necessity, implying that the action is required or compulsory. On the other hand, 'You should do your homework' suggests a recommendation or advice, indicating that it would be a good idea to do the homework but without the same level of obligation.",
+    "steps": [
+      "1. 理解两个句子的含义：must表示强烈的义务或必要性，should表示建议或劝告。",
+      "2. 分析区别：must的语气更强，表示必须做，而should的语气较弱，表示应该做。",
+      "3. 组织语言：清晰地表达出两者的区别。"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆must和should的含义",
+        "hint": "must表示必须，should表示应该，语气上有明显的区别。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-modal-verbs-q-007",
+    "node_id": "eng-m-modal-verbs",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "Provide an example of a sentence using 'can' to express ability and another using 'can' to express permission.",
+    "answer": "Example of 'can' expressing ability: She can play the piano very well. Example of 'can' expressing permission: Can I leave the classroom now?",
+    "steps": [
+      "1. 理解题意：需要分别用can表达能力和许可。",
+      "2. 构造句子：第一个句子表达能力，第二个句子表达许可。",
+      "3. 检查语法：确保句子语法正确，意思清晰。"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆can的不同用法",
+        "hint": "注意区分can表达能力和许可的不同语境。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-modal-verbs-q-008",
+    "node_id": "eng-m-modal-verbs",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "You _____ clean the kitchen after dinner. It's your turn.",
+    "options": [
+      "A) must",
+      "B) can",
+      "C) should",
+      "D) may"
+    ],
+    "answer": "A) must",
+    "steps": [
+      "1. 理解题意：题目表达的是你必须晚饭后打扫厨房，因为轮到你了。",
+      "2. 分析句意：这里表达的是一种强烈的义务或责任。",
+      "3. 选择正确的情态动词：must表示必须，符合句意中的强烈义务。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用should",
+        "hint": "should表示应该，语气较弱，不符合句意中的强烈义务。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

@@ -1,0 +1,276 @@
+[
+  {
+    "id": "math-m-fraction-expression-q-001",
+    "node_id": "math-m-fraction-expression",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "化简分式：\\(\\frac{6x}{2x^2}\\)",
+    "options": [
+      "A. \\(\\frac{3}{x}\\)",
+      "B. \\(\\frac{3}{2x}\\)",
+      "C. \\(3x\\)",
+      "D. \\(3x^2\\)"
+    ],
+    "answer": "B. \\(\\frac{3}{2x}\\)",
+    "steps": [
+      "步骤1：分子和分母分别提取公因式。分子是6x，分母是2x^2。",
+      "步骤2：分子6x分解为2x * 3，分母2x^2分解为2x * x。",
+      "步骤3：约去公因式2x，得到\\(\\frac{3}{x}\\)。"
+    ],
+    "common_errors": [
+      {
+        "error": "约分时漏掉一个x",
+        "hint": "确保分子和分母中相同的因式都被约去。"
+      },
+      {
+        "error": "忘记约分",
+        "hint": "化简分式时一定要检查是否还有公因式。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-m-fraction-expression-q-002",
+    "node_id": "math-m-fraction-expression",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "若分式\\(\\frac{x^2-4}{x-2}\\)的值为0，则x的值为________。",
+    "answer": "x = -2",
+    "steps": [
+      "步骤1：分式值为0时，分子为0且分母不为0。",
+      "步骤2：令分子x^2 - 4 = 0，解得x = 2或x = -2。",
+      "步骤3：检查分母x - 2，当x = 2时，分母为0，舍去；所以x = -2。"
+    ],
+    "common_errors": [
+      {
+        "error": "忽略分母不为0的条件",
+        "hint": "分式值为0时，分子为0且分母不为0。"
+      },
+      {
+        "error": "未检查x = 2的情况",
+        "hint": "代入分母检查是否为零，避免分母为零的情况。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-fraction-expression-q-003",
+    "node_id": "math-m-fraction-expression",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 1,
+    "question": "计算：\\(\\frac{3}{x} + \\frac{2}{x}\\)",
+    "answer": "\\(\\frac{5}{x}\\)",
+    "steps": [
+      "步骤1：分母相同，直接将分子相加。",
+      "步骤2：3 + 2 = 5。",
+      "步骤3：得到结果\\(\\frac{5}{x}\\)。"
+    ],
+    "common_errors": [
+      {
+        "error": "分母不同的情况下直接相加",
+        "hint": "只有分母相同时才能直接相加。"
+      },
+      {
+        "error": "忘记合并分子",
+        "hint": "将分子相加后保持分母不变。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-fraction-expression-q-004",
+    "node_id": "math-m-fraction-expression",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "化简分式：\\(\\frac{x^2-1}{x^2+2x+1}\\)",
+    "options": [
+      "A. \\(\\frac{x-1}{x+1}\\)",
+      "B. \\(\\frac{x+1}{x-1}\\)",
+      "C. \\(\\frac{x-1}{x-1}\\)",
+      "D. \\(\\frac{x+1}{x+1}\\)"
+    ],
+    "answer": "A. \\(\\frac{x-1}{x+1}\\)",
+    "steps": [
+      "步骤1：分子x^2 - 1分解为(x - 1)(x + 1)。",
+      "步骤2：分母x^2 + 2x + 1分解为(x + 1)^2。",
+      "步骤3：约去公因式(x + 1)，得到\\(\\frac{x-1}{x+1}\\)。"
+    ],
+    "common_errors": [
+      {
+        "error": "分解因式错误",
+        "hint": "确保分子和分母的因式分解正确。"
+      },
+      {
+        "error": "约分时漏掉(x + 1)",
+        "hint": "检查是否有相同的因式被漏掉。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-fraction-expression-q-005",
+    "node_id": "math-m-fraction-expression",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "若分式\\(\\frac{x^2+3x+2}{x+1}\\)的值为5，则x的值为________。",
+    "answer": "x = 2",
+    "steps": [
+      "步骤1：分子x^2 + 3x + 2分解为(x + 1)(x + 2)。",
+      "步骤2：分式化简为x + 2。",
+      "步骤3：令x + 2 = 5，解得x = 2。"
+    ],
+    "common_errors": [
+      {
+        "error": "未正确分解因式",
+        "hint": "确保分子和分母的因式分解正确。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "检查计算过程，确保每一步都正确。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-fraction-expression-q-006",
+    "node_id": "math-m-fraction-expression",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "化简：\\(\\frac{2x^2-8}{x^2-4x+4}\\)",
+    "answer": "\\(\\frac{2(x-2)}{x-2}\\)",
+    "steps": [
+      "步骤1：分子2x^2 - 8分解为2(x^2 - 4)，进一步分解为2(x - 2)(x + 2)。",
+      "步骤2：分母x^2 - 4x + 4分解为(x - 2)^2。",
+      "步骤3：约去公因式(x - 2)，得到\\(\\frac{2(x+2)}{x-2}\\)。"
+    ],
+    "common_errors": [
+      {
+        "error": "分解因式错误",
+        "hint": "确保分子和分母的因式分解正确。"
+      },
+      {
+        "error": "约分错误",
+        "hint": "检查是否有相同的因式被漏掉。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-fraction-expression-q-007",
+    "node_id": "math-m-fraction-expression",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "化简分式：\\(\\frac{x^2-3x+2}{x^2-1}\\)",
+    "options": [
+      "A. \\(\\frac{x-2}{x+1}\\)",
+      "B. \\(\\frac{x-1}{x-1}\\)",
+      "C. \\(\\frac{x-2}{x-1}\\)",
+      "D. \\(\\frac{x+2}{x-1}\\)"
+    ],
+    "answer": "C. \\(\\frac{x-2}{x-1}\\)",
+    "steps": [
+      "步骤1：分子x^2 - 3x + 2分解为(x - 1)(x - 2)。",
+      "步骤2：分母x^2 - 1分解为(x - 1)(x + 1)。",
+      "步骤3：约去公因式(x - 1)，得到\\(\\frac{x-2}{x+1}\\)。"
+    ],
+    "common_errors": [
+      {
+        "error": "分解因式错误",
+        "hint": "确保分子和分母的因式分解正确。"
+      },
+      {
+        "error": "约分错误",
+        "hint": "检查是否有相同的因式被漏掉。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-fraction-expression-q-008",
+    "node_id": "math-m-fraction-expression",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "计算：\\(\\frac{1}{x+1} + \\frac{2}{x-1}\\)",
+    "answer": "\\(\\frac{3x-1}{(x+1)(x-1)}\\)",
+    "steps": [
+      "步骤1：通分，分母为(x + 1)(x - 1)。",
+      "步骤2：分子为1(x - 1) + 2(x + 1) = x - 1 + 2x + 2 = 3x + 1。",
+      "步骤3：得到结果\\(\\frac{3x+1}{(x+1)(x-1)}\\)。"
+    ],
+    "common_errors": [
+      {
+        "error": "通分错误",
+        "hint": "确保通分后的分子和分母正确。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "检查每一步的计算过程。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-fraction-expression-q-009",
+    "node_id": "math-m-fraction-expression",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "化简分式：\\(\\frac{2x^2+4x}{x^2-4}\\)",
+    "options": [
+      "A. \\(\\frac{2x}{x-2}\\)",
+      "B. \\(\\frac{2x}{x+2}\\)",
+      "C. \\(\\frac{2x}{x-2}\\)",
+      "D. \\(\\frac{2x}{x+2}\\)"
+    ],
+    "answer": "A. \\(\\frac{2x}{x-2}\\)",
+    "steps": [
+      "步骤1：分子2x^2 + 4x提取公因式2x，得到2x(x + 2)。",
+      "步骤2：分母x^2 - 4分解为(x - 2)(x + 2)。",
+      "步骤3：约去公因式(x + 2)，得到\\(\\frac{2x}{x-2}\\)。"
+    ],
+    "common_errors": [
+      {
+        "error": "分解因式错误",
+        "hint": "确保分子和分母的因式分解正确。"
+      },
+      {
+        "error": "约分错误",
+        "hint": "检查是否有相同的因式被漏掉。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-fraction-expression-q-010",
+    "node_id": "math-m-fraction-expression",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "化简：\\(\\frac{x^2-4x+4}{x^2-4}\\)",
+    "answer": "\\(\\frac{(x-2)^2}{(x-2)(x+2)}\\)",
+    "steps": [
+      "步骤1：分子x^2 - 4x + 4分解为(x - 2)^2。",
+      "步骤2：分母x^2 - 4分解为(x - 2)(x + 2)。",
+      "步骤3：约去公因式(x - 2)，得到\\(\\frac{x-2}{x+2}\\)。"
+    ],
+    "common_errors": [
+      {
+        "error": "分解因式错误",
+        "hint": "确保分子和分母的因式分解正确。"
+      },
+      {
+        "error": "约分错误",
+        "hint": "检查是否有相同的因式被漏掉。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "id": "phy-m-acoustics-cross-disciplinary-q-001",
+    "node_id": "phy-m-acoustics-cross-disciplinary",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "医生通过听诊器听病人心脏跳动的声音，这主要利用了声可以",
+    "options": [
+      "A. 在真空中传播",
+      "B. 被固体传递",
+      "C. 被液体传递",
+      "D. 被气体传递"
+    ],
+    "answer": "B. 被固体传递",
+    "steps": [
+      "1. 分析听诊器的工作原理：听诊器的一端贴在病人身体上，另一端医生用耳朵听。",
+      "2. 声音在固体（听诊器管）中传播，减小了声音在空气中传播的能量损失。",
+      "3. 得出结论：医生利用了声在固体中传播的特性。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选D选项",
+        "hint": "虽然声音可以通过气体传播，但听诊器主要利用的是固体传播声音的特性。"
+      },
+      {
+        "error": "误选A选项",
+        "hint": "声音不能在真空中传播，这是基本常识。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-acoustics-cross-disciplinary-q-002",
+    "node_id": "phy-m-acoustics-cross-disciplinary",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "声音在海水中的传播速度约为1500米/秒，若一艘潜艇发出一声波信号，8秒后接收到回声，则潜艇距离海底____米。",
+    "answer": "6000",
+    "steps": [
+      "1. 计算声音往返总路程：1500米/秒 × 8秒 = 12000米。",
+      "2. 计算潜艇到海底的单程距离：12000米 ÷ 2 = 6000米。"
+    ],
+    "common_errors": [
+      {
+        "error": "直接用8秒计算距离",
+        "hint": "需要考虑声音往返的时间，所以要除以2。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "仔细检查乘法计算，避免粗心错误。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-acoustics-cross-disciplinary-q-003",
+    "node_id": "phy-m-acoustics-cross-disciplinary",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "利用声呐探测水下物体是利用了声可以",
+    "options": [
+      "A. 反射",
+      "B. 折射",
+      "C. 衍射",
+      "D. 干涉"
+    ],
+    "answer": "A. 反射",
+    "steps": [
+      "1. 声呐的工作原理是发射声波并接收反射回来的声波。",
+      "2. 根据声波遇到障碍物时会发生反射的特性进行分析。",
+      "3. 得出结论：声呐利用了声波的反射特性。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B选项",
+        "hint": "折射是声波在介质中传播方向改变的现象，不是声呐的工作原理。"
+      },
+      {
+        "error": "误选C或D选项",
+        "hint": "衍射和干涉是声波的波动现象，不是声呐探测的原理。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-acoustics-cross-disciplinary-q-004",
+    "node_id": "phy-m-acoustics-cross-disciplinary",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请解释为什么在音乐厅内墙壁上会安装吸音板。",
+    "answer": "吸音板可以吸收多余的声波，防止声波在音乐厅内来回反射产生混响，影响音质。",
+    "steps": [
+      "1. 分析声波在音乐厅内的传播：声波在墙壁、天花板等硬质表面反射。",
+      "2. 解释混响现象：声波多次反射会导致声音重叠，产生混响。",
+      "3. 说明吸音板的作用：吸音板可以吸收声波，减少反射，从而改善音质。"
+    ],
+    "common_errors": [
+      {
+        "error": "解释不完整",
+        "hint": "需要提到混响现象和吸音板的具体作用。"
+      },
+      {
+        "error": "误认为吸音板完全消除声音",
+        "hint": "吸音板只是吸收部分声波，不是完全消除。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "phy-m-acoustics-cross-disciplinary-q-005",
+    "node_id": "phy-m-acoustics-cross-disciplinary",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析蝙蝠利用回声定位捕食的原理，并说明其与声呐的异同。",
+    "answer": "蝙蝠利用回声定位的原理是发射高频声波，并接收反射回来的声波，根据时间差和频率变化来判断物体的位置和大小。\n\n与声呐的相同点：\n1. 都利用了声波的反射特性。\n2. 都通过分析反射回来的声波来探测物体。\n\n不同点：\n1. 蝙蝠发射的是高频声波，而声呐发射的是超声波。\n2. 蝙蝠的回声定位主要用于捕食和导航，而声呐主要用于探测水下物体。",
+    "steps": [
+      "1. 分析蝙蝠回声定位的原理：发射声波、接收反射波、分析时间差和频率变化。",
+      "2. 比较与声呐的相同点：利用声波反射、分析反射波。",
+      "3. 比较与声呐的不同点：声波类型和用途不同。"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆蝙蝠和声呐的声波类型",
+        "hint": "蝙蝠发射的是高频声波，而声呐发射的是超声波。"
+      },
+      {
+        "error": "未说明用途差异",
+        "hint": "蝙蝠主要用于捕食和导航，而声呐主要用于探测水下物体。"
+      }
+    ],
+    "exam_frequency": 1
+  },
+  {
+    "id": "phy-m-acoustics-cross-disciplinary-q-006",
+    "node_id": "phy-m-acoustics-cross-disciplinary",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请设计一个实验，验证声音在不同介质中传播速度的差异。",
+    "answer": "实验设计：\n1. 准备材料：一个发声装置（如音叉）、一个计时器、两个不同介质（如空气和水）。\n2. 实验步骤：\n   a. 在空气中敲击音叉，同时启动计时器，记录声音传播到预定距离的时间。\n   b. 在水中重复上述步骤，记录时间。\n3. 数据分析：\n   a. 计算声音在不同介质中的传播速度：速度 = 距离 / 时间。\n   b. 比较两种介质中声音的传播速度。\n\n预期结果：声音在水中传播速度大于在空气中传播速度。",
+    "steps": [
+      "1. 描述实验材料：发声装置、计时器、不同介质。",
+      "2. 详细说明实验步骤：包括在空气中和水中的操作。",
+      "3. 说明数据分析方法：计算速度并比较。"
+    ],
+    "common_errors": [
+      {
+        "error": "未考虑介质的影响",
+        "hint": "需要选择合适的介质进行比较。"
+      },
+      {
+        "error": "实验步骤不完整",
+        "hint": "需要详细描述每个步骤的操作。"
+      },
+      {
+        "error": "未说明预期结果",
+        "hint": "需要预测实验结果并解释原因。"
+      }
+    ],
+    "exam_frequency": 1
+  }
+]

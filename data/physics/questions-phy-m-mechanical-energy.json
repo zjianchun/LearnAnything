@@ -1,0 +1,245 @@
+[
+  {
+    "id": "phy-m-mechanical-energy-q-001",
+    "node_id": "phy-m-mechanical-energy",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列物体中，具有动能的是（   ）",
+    "options": [
+      "A. 被举高的重锤",
+      "B. 被压缩的弹簧",
+      "C. 正在运动的汽车",
+      "D. 静止在桌面上的书"
+    ],
+    "answer": "C. 正在运动的汽车",
+    "steps": [
+      "1. 理解动能的概念：动能是物体由于运动而具有的能量。",
+      "2. 分析每个选项：A选项是重力势能，B选项是弹性势能，C选项是动能，D选项没有能量。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为被举高的重锤具有动能",
+        "hint": "被举高的重锤具有重力势能，而不是动能。"
+      },
+      {
+        "error": "误认为被压缩的弹簧具有动能",
+        "hint": "被压缩的弹簧具有弹性势能，而不是动能。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-mechanical-energy-q-002",
+    "node_id": "phy-m-mechanical-energy",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "物体由于被举高而具有的能量叫做________。",
+    "answer": "重力势能",
+    "steps": [
+      "1. 理解重力势能的概念：重力势能是物体由于被举高而具有的能量。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写为动能",
+        "hint": "动能是物体由于运动而具有的能量，而不是由于被举高而具有的能量。"
+      },
+      {
+        "error": "填写为弹性势能",
+        "hint": "弹性势能是物体由于发生弹性形变而具有的能量。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-mechanical-energy-q-003",
+    "node_id": "phy-m-mechanical-energy",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列关于机械能的说法中，正确的是（   ）",
+    "options": [
+      "A. 机械能就是动能",
+      "B. 机械能就是势能",
+      "C. 机械能是动能和势能的总和",
+      "D. 机械能是动能和弹性势能的总和"
+    ],
+    "answer": "C. 机械能是动能和势能的总和",
+    "steps": [
+      "1. 理解机械能的概念：机械能是动能和势能的总和。",
+      "2. 分析每个选项：A选项错误，因为机械能不仅包括动能；B选项错误，因为机械能不仅包括势能；C选项正确；D选项错误，因为机械能包括重力势能，而不仅仅是弹性势能。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为机械能只是动能",
+        "hint": "机械能是动能和势能的总和。"
+      },
+      {
+        "error": "误认为机械能只是势能",
+        "hint": "机械能是动能和势能的总和。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-mechanical-energy-q-004",
+    "node_id": "phy-m-mechanical-energy",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "一个物体从高处自由下落，不计空气阻力，在下落过程中（   ）",
+    "options": [
+      "A. 动能减小，重力势能增大",
+      "B. 动能增大，重力势能减小",
+      "C. 动能和重力势能都增大",
+      "D. 动能和重力势能都减小"
+    ],
+    "answer": "B. 动能增大，重力势能减小",
+    "steps": [
+      "1. 分析物体下落过程：物体下落时，高度降低，重力势能减小。",
+      "2. 根据能量守恒：重力势能转化为动能，动能增大。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为动能减小",
+        "hint": "物体下落时，速度增大，动能增大。"
+      },
+      {
+        "error": "误认为重力势能增大",
+        "hint": "物体下落时，高度降低，重力势能减小。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-mechanical-energy-q-005",
+    "node_id": "phy-m-mechanical-energy",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一个质量为2kg的物体，从10m高处自由下落，不计空气阻力，求物体落地时的动能。",
+    "answer": "解：\n1. 计算重力势能：Ep = mgh = 2kg * 9.8m/s² * 10m = 196J\n2. 根据能量守恒，物体落地时的动能等于初始重力势能\n3. 所以，物体落地时的动能Ek = 196J",
+    "steps": [
+      "1. 计算物体初始的重力势能：Ep = mgh。",
+      "2. 根据能量守恒，物体落地时的动能等于初始的重力势能。",
+      "3. 得出结论：物体落地时的动能Ek = 196J。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用动能公式Ek = mv²/2",
+        "hint": "在没有速度信息的情况下，应使用能量守恒定律。"
+      },
+      {
+        "error": "忘记考虑重力势能",
+        "hint": "物体从高处下落，重力势能转化为动能。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-mechanical-energy-q-006",
+    "node_id": "phy-m-mechanical-energy",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一根弹簧被压缩后，弹性势能为50J，求弹簧恢复原状时释放的能量。",
+    "answer": "解：\n1. 弹簧恢复原状时，弹性势能完全转化为动能\n2. 因此，释放的能量等于初始的弹性势能\n3. 所以，释放的能量为50J",
+    "steps": [
+      "1. 理解弹簧恢复过程：弹性势能转化为动能。",
+      "2. 根据能量守恒，释放的能量等于初始的弹性势能。",
+      "3. 得出结论：释放的能量为50J。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为释放的能量大于弹性势能",
+        "hint": "根据能量守恒，释放的能量等于初始的弹性势能。"
+      },
+      {
+        "error": "误认为释放的能量小于弹性势能",
+        "hint": "在理想情况下，弹性势能完全转化为动能。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-mechanical-energy-q-007",
+    "node_id": "phy-m-mechanical-energy",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "一辆汽车在平直公路上匀速行驶，下列说法正确的是（   ）",
+    "options": [
+      "A. 汽车的动能不变，重力势能不变",
+      "B. 汽车的动能增大，重力势能不变",
+      "C. 汽车的动能不变，重力势能增大",
+      "D. 汽车的动能增大，重力势能增大"
+    ],
+    "answer": "A. 汽车的动能不变，重力势能不变",
+    "steps": [
+      "1. 分析汽车运动状态：匀速行驶，速度不变，动能不变。",
+      "2. 分析汽车高度变化：平直公路，高度不变，重力势能不变。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为动能增大",
+        "hint": "匀速行驶，速度不变，动能不变。"
+      },
+      {
+        "error": "误认为重力势能变化",
+        "hint": "平直公路，高度不变，重力势能不变。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-mechanical-energy-q-008",
+    "node_id": "phy-m-mechanical-energy",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个质量为5kg的物体，从20m高处自由下落，求物体落地时的速度。",
+    "answer": "解：\n1. 计算初始重力势能：Ep = mgh = 5kg * 9.8m/s² * 20m = 980J\n2. 根据能量守恒，物体落地时的动能等于初始重力势能\n3. 所以，Ek = 980J\n4. 根据动能公式Ek = mv²/2，v = √(2Ek/m) = √(2 * 980J / 5kg) = 19.8m/s",
+    "steps": [
+      "1. 计算物体初始的重力势能：Ep = mgh。",
+      "2. 根据能量守恒，物体落地时的动能等于初始的重力势能。",
+      "3. 根据动能公式Ek = mv²/2，求出速度v。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用动能公式Ek = mv²/2",
+        "hint": "在没有速度信息的情况下，应先使用能量守恒定律。"
+      },
+      {
+        "error": "忘记考虑重力势能",
+        "hint": "物体从高处下落，重力势能转化为动能。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-mechanical-energy-q-009",
+    "node_id": "phy-m-mechanical-energy",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一根弹簧被压缩后，弹性势能为100J，求弹簧恢复原状时释放的能量，以及弹簧的最大速度。",
+    "answer": "解：\n1. 弹簧恢复原状时，弹性势能完全转化为动能\n2. 因此，释放的能量等于初始的弹性势能\n3. 所以，释放的能量为100J\n4. 根据能量守恒，弹簧的最大动能等于释放的能量\n5. 所以，Ek = 100J\n6. 根据动能公式Ek = mv²/2，v = √(2Ek/m)，其中m为弹簧质量（假设为1kg）\n7. v = √(2 * 100J / 1kg) = 14.14m/s",
+    "steps": [
+      "1. 计算弹簧恢复原状时释放的能量。",
+      "2. 根据能量守恒，弹簧的最大动能等于释放的能量。",
+      "3. 根据动能公式Ek = mv²/2，求出弹簧的最大速度。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为弹簧质量为0",
+        "hint": "弹簧有质量，应假设一个合理的质量值。"
+      },
+      {
+        "error": "误认为释放的能量小于弹性势能",
+        "hint": "在理想情况下，弹性势能完全转化为动能。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

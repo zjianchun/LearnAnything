@@ -1,0 +1,190 @@
+[
+  {
+    "id": "hist-m-three-kingdoms-sui-tang-q-001",
+    "node_id": "hist-m-three-kingdoms-sui-tang",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "三国时期，魏国的建立者是？",
+    "options": [
+      "A. 刘备",
+      "B. 孙权",
+      "C. 曹操",
+      "D. 曹丕"
+    ],
+    "answer": "D. 曹丕",
+    "steps": [
+      "1. 回顾三国建立的背景和过程。",
+      "2. 确认魏国的建立者是曹丕，他在220年废汉献帝，自立为帝，建立魏国。",
+      "3. 对比选项，确认D选项正确。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为曹操是魏国的建立者",
+        "hint": "曹操并未称帝，其子曹丕才是魏国的建立者。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-three-kingdoms-sui-tang-q-002",
+    "node_id": "hist-m-three-kingdoms-sui-tang",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "隋朝的开国皇帝是？",
+    "options": [
+      "A. 杨坚",
+      "B. 杨广",
+      "C. 李渊",
+      "D. 李世民"
+    ],
+    "answer": "A. 杨坚",
+    "steps": [
+      "1. 回顾隋朝建立的历史背景。",
+      "2. 确认隋朝的开国皇帝是杨坚，他在581年建立隋朝。",
+      "3. 对比选项，确认A选项正确。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为杨广是开国皇帝",
+        "hint": "杨广是隋朝的第二位皇帝，即隋炀帝。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-three-kingdoms-sui-tang-q-003",
+    "node_id": "hist-m-three-kingdoms-sui-tang",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "东晋时期著名的书法家是______。",
+    "answer": "王羲之",
+    "steps": [
+      "1. 回顾东晋时期的文化成就。",
+      "2. 确认东晋时期著名的书法家是王羲之，他的代表作是《兰亭序》。",
+      "3. 填写答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填其他书法家，如颜真卿",
+        "hint": "颜真卿是唐代书法家，而非东晋时期。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-three-kingdoms-sui-tang-q-004",
+    "node_id": "hist-m-three-kingdoms-sui-tang",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "唐朝由盛转衰的转折点是______。",
+    "answer": "安史之乱",
+    "steps": [
+      "1. 回顾唐朝历史，思考唐朝由盛转衰的事件。",
+      "2. 确认安史之乱是唐朝由盛转衰的转折点。",
+      "3. 填写答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填其他事件，如玄武门之变",
+        "hint": "玄武门之变是唐朝初年的事件，并非由盛转衰的转折点。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-three-kingdoms-sui-tang-q-005",
+    "node_id": "hist-m-three-kingdoms-sui-tang",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请简述三国鼎立局面形成的主要原因。",
+    "answer": "1. 东汉末年，天下大乱，各地割据势力崛起。2. 曹操统一北方后，在赤壁之战中被孙刘联军击败，形成三方对峙局面。3. 220年，曹丕建立魏国；221年，刘备建立蜀汉；229年，孙权建立东吴，正式形成三国鼎立局面。",
+    "steps": [
+      "1. 分析东汉末年的政治局势。",
+      "2. 阐述赤壁之战的影响。",
+      "3. 列举三国建立的时间和国家。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到赤壁之战，未提及其他重要因素",
+        "hint": "需要全面分析三国鼎立的原因，包括割据势力的崛起和三国建立的先后顺序。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-three-kingdoms-sui-tang-q-006",
+    "node_id": "hist-m-three-kingdoms-sui-tang",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "简述隋朝大运河的开凿对当时社会的影响。",
+    "answer": "1. 促进了南北经济交流，加强了中央对南方的控制。2. 改善了交通运输条件，促进了物资流通。3. 加重了人民的负担，导致社会矛盾激化。4. 为唐朝的繁荣奠定了基础。",
+    "steps": [
+      "1. 分析大运河对经济的影响。",
+      "2. 阐述大运河对交通和物资流通的作用。",
+      "3. 讨论大运河对当时社会矛盾的影响。",
+      "4. 总结大运河对后世的积极意义。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到积极影响，未提及消极影响",
+        "hint": "需要全面分析大运河的影响，包括对人民负担和社会矛盾的负面影响。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-three-kingdoms-sui-tang-q-007",
+    "node_id": "hist-m-three-kingdoms-sui-tang",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "唐朝时期，著名的对外交流使者是？",
+    "options": [
+      "A. 玄奘",
+      "B. 鉴真",
+      "C. 郑和",
+      "D. 班超"
+    ],
+    "answer": "A. 玄奘",
+    "steps": [
+      "1. 回顾唐朝对外交流的历史。",
+      "2. 确认玄奘是唐朝著名的对外交流使者，他曾前往印度取经。",
+      "3. 对比选项，确认A选项正确。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为鉴真是对外交流使者",
+        "hint": "鉴真是东渡日本的僧人，并非对外交流使者。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-three-kingdoms-sui-tang-q-008",
+    "node_id": "hist-m-three-kingdoms-sui-tang",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析隋朝灭亡的主要原因。",
+    "answer": "1. 隋炀帝的暴政导致民怨沸腾。2. 繁重的徭役和赋税加重了人民负担。3. 农民起义频繁，社会动荡不安。4. 统治阶级内部的矛盾加剧。",
+    "steps": [
+      "1. 分析隋炀帝的统治政策。",
+      "2. 讨论徭役和赋税对社会的负面影响。",
+      "3. 阐述农民起义的影响。",
+      "4. 总结统治阶级内部矛盾的作用。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到农民起义，未提及其他重要因素",
+        "hint": "需要全面分析隋朝灭亡的原因，包括隋炀帝的暴政和统治阶级内部的矛盾。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

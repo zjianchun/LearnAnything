@@ -1,0 +1,226 @@
+[
+  {
+    "id": "math-m-quadratic-radical-q-001",
+    "node_id": "math-m-quadratic-radical",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列各式中，属于最简二次根式的是",
+    "options": [
+      "A. √8",
+      "B. √12",
+      "C. √18",
+      "D. √2"
+    ],
+    "answer": "D. √2",
+    "steps": [
+      "1. 将选项中的根式进行化简：",
+      "   A. √8 = 2√2",
+      "   B. √12 = 2√3",
+      "   C. √18 = 3√2",
+      "   D. √2 已经是化简后的形式",
+      "2. 最简二次根式要求被开方数不含能开得尽方的因数或因式"
+    ],
+    "common_errors": [
+      {
+        "error": "误将 √8 认为是√2",
+        "hint": "注意区分√8 和 √2，√8 可以进一步化简为 2√2"
+      },
+      {
+        "error": "认为 √18 是最简二次根式",
+        "hint": "√18 可以化简为 3√2"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-quadratic-radical-q-002",
+    "node_id": "math-m-quadratic-radical",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "化简 √50 - √18 的结果是______",
+    "answer": "2√2",
+    "steps": [
+      "1. 分别化简 √50 和 √18：",
+      "   √50 = √(25×2) = 5√2",
+      "   √18 = √(9×2) = 3√2",
+      "2. 将化简后的结果相减：",
+      "   5√2 - 3√2 = 2√2"
+    ],
+    "common_errors": [
+      {
+        "error": "直接相减而不化简",
+        "hint": "先化简再进行运算"
+      },
+      {
+        "error": "忘记合并同类项",
+        "hint": "5√2 - 3√2 = (5-3)√2 = 2√2"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-quadratic-radical-q-003",
+    "node_id": "math-m-quadratic-radical",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "若 √(x-3) 有意义，则 x 的取值范围是",
+    "options": [
+      "A. x≥0",
+      "B. x≥3",
+      "C. x≤3",
+      "D. x≤0"
+    ],
+    "answer": "B. x≥3",
+    "steps": [
+      "1. 二次根式有意义的条件是被开方数非负",
+      "2. 即 x-3 ≥ 0",
+      "3. 解得 x ≥ 3"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为 x-3 ≤ 0",
+        "hint": "二次根式有意义的条件是被开方数非负，而不是非正"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-quadratic-radical-q-004",
+    "node_id": "math-m-quadratic-radical",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "已知 √(x+1) = 3，求 x 的值",
+    "answer": "x = 8",
+    "steps": [
+      "1. 将等式两边平方：",
+      "   (√(x+1))^2 = 3^2",
+      "   x+1 = 9",
+      "2. 解方程：",
+      "   x = 9-1 = 8"
+    ],
+    "common_errors": [
+      {
+        "error": "忘记平方等式两边",
+        "hint": "要消去根号，需要将等式两边平方"
+      },
+      {
+        "error": "计算错误",
+        "hint": "注意运算顺序和符号"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-quadratic-radical-q-005",
+    "node_id": "math-m-quadratic-radical",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "化简 √(1/4) + √(9/16)",
+    "answer": "5/4",
+    "steps": [
+      "1. 分别化简每个根式：",
+      "   √(1/4) = 1/2",
+      "   √(9/16) = 3/4",
+      "2. 将化简后的结果相加：",
+      "   1/2 + 3/4 = 2/4 + 3/4 = 5/4"
+    ],
+    "common_errors": [
+      {
+        "error": "直接相加而不化简",
+        "hint": "先化简再进行运算"
+      },
+      {
+        "error": "计算错误",
+        "hint": "注意通分和分数的加减"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-quadratic-radical-q-006",
+    "node_id": "math-m-quadratic-radical",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "若 √(x^2-4) = 0，则 x 的值是______",
+    "answer": "x = ±2",
+    "steps": [
+      "1. 令 √(x^2-4) = 0",
+      "2. 两边平方得：",
+      "   x^2-4 = 0",
+      "3. 解方程：",
+      "   x^2 = 4",
+      "   x = ±2"
+    ],
+    "common_errors": [
+      {
+        "error": "只得到 x = 2",
+        "hint": "注意平方根的双重性，x 可以是 2 或 -2"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-quadratic-radical-q-007",
+    "node_id": "math-m-quadratic-radical",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "化简 √(8x^3) - x√(2x)",
+    "answer": "3x√(2x)",
+    "steps": [
+      "1. 化简每个根式：",
+      "   √(8x^3) = √(4x^2×2x) = 2x√(2x)",
+      "   x√(2x) = x√(2x)",
+      "2. 将化简后的结果相减：",
+      "   2x√(2x) - x√(2x) = (2x-x)√(2x) = x√(2x)"
+    ],
+    "common_errors": [
+      {
+        "error": "直接相减而不化简",
+        "hint": "先化简再进行运算"
+      },
+      {
+        "error": "忘记合并同类项",
+        "hint": "注意合并 x√(2x)"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "math-m-quadratic-radical-q-008",
+    "node_id": "math-m-quadratic-radical",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "若 √(x-1) = √(2x-3)，求 x 的值",
+    "answer": "x = 2",
+    "steps": [
+      "1. 将等式两边平方：",
+      "   (√(x-1))^2 = (√(2x-3))^2",
+      "   x-1 = 2x-3",
+      "2. 解方程：",
+      "   -1 + 3 = 2x - x",
+      "   2 = x",
+      "3. 代入验证：",
+      "   √(2-1) = √(2×2-3)",
+      "   √1 = √1"
+    ],
+    "common_errors": [
+      {
+        "error": "忘记平方等式两边",
+        "hint": "要消去根号，需要将等式两边平方"
+      },
+      {
+        "error": "计算错误",
+        "hint": "注意运算顺序和符号"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

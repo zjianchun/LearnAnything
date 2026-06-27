@@ -1,0 +1,208 @@
+[
+  {
+    "id": "math-m-inverse-proportion-q-001",
+    "node_id": "math-m-inverse-proportion",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列函数中，属于反比例函数的是（ ）",
+    "options": [
+      "A. y = 2x + 1",
+      "B. y = x²",
+      "C. y = 3/x",
+      "D. y = x/2"
+    ],
+    "answer": "C. y = 3/x",
+    "steps": [
+      "反比例函数的标准形式是 y = k/x，其中 k 是常数。",
+      "选项A是线性函数，选项B是二次函数，选项C是反比例函数，选项D是线性函数。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将线性函数或二次函数当作反比例函数",
+        "hint": "反比例函数的形式是 y = k/x，k 是常数。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-m-inverse-proportion-q-002",
+    "node_id": "math-m-inverse-proportion",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "已知反比例函数 y = k/x，当 x = 2 时，y = 3，则 k 的值为 _____。",
+    "answer": "6",
+    "steps": [
+      "将 x = 2 和 y = 3 代入反比例函数 y = k/x。",
+      "得到 3 = k/2，解得 k = 6。"
+    ],
+    "common_errors": [
+      {
+        "error": "计算错误，误将 k/2 算成 2k",
+        "hint": "注意运算顺序，k/2 表示 k 除以 2。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-inverse-proportion-q-003",
+    "node_id": "math-m-inverse-proportion",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "反比例函数 y = k/x 的图像位于（ ）",
+    "options": [
+      "A. 第一、三象限",
+      "B. 第二、四象限",
+      "C. 第一、二象限",
+      "D. 第三、四象限"
+    ],
+    "answer": "A. 第一、三象限",
+    "steps": [
+      "当 k > 0 时，反比例函数图像位于第一、三象限。",
+      "当 k < 0 时，反比例函数图像位于第二、四象限。",
+      "题目中没有给出 k 的符号，但通常默认 k > 0。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为 k 的符号会影响象限",
+        "hint": "如果没有明确说明 k 的符号，默认 k > 0。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-inverse-proportion-q-004",
+    "node_id": "math-m-inverse-proportion",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "已知反比例函数 y = k/x 的图像经过点 (3, 4)，求函数的解析式。",
+    "answer": "y = 12/x",
+    "steps": [
+      "将点 (3, 4) 代入反比例函数 y = k/x。",
+      "得到 4 = k/3，解得 k = 12。",
+      "因此，函数的解析式为 y = 12/x。"
+    ],
+    "common_errors": [
+      {
+        "error": "计算错误，误将 k/3 算成 3k",
+        "hint": "注意运算顺序，k/3 表示 k 除以 3。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-inverse-proportion-q-005",
+    "node_id": "math-m-inverse-proportion",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "已知反比例函数 y = k/x 的图像与直线 y = x + 1 相交于点 (1, 2)，求 k 的值。",
+    "answer": "2",
+    "steps": [
+      "将点 (1, 2) 代入直线方程 y = x + 1，验证点是否正确。",
+      "得到 2 = 1 + 1，正确。",
+      "将点 (1, 2) 代入反比例函数 y = k/x。",
+      "得到 2 = k/1，解得 k = 2。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将点 (1, 2) 代入错误方程",
+        "hint": "注意题目要求的是反比例函数，而不是直线方程。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-inverse-proportion-q-006",
+    "node_id": "math-m-inverse-proportion",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "反比例函数 y = k/x 的图像经过点 (2, -3)，则该函数的图像还经过点 _____。",
+    "answer": "(-2, 3), (3, -2), (-3, 2)",
+    "steps": [
+      "将点 (2, -3) 代入反比例函数 y = k/x。",
+      "得到 -3 = k/2，解得 k = -6。",
+      "因此，函数解析式为 y = -6/x。",
+      "找出其他满足 y = -6/x 的点，例如 (-2, 3), (3, -2), (-3, 2)。"
+    ],
+    "common_errors": [
+      {
+        "error": "只找到一个点，忽略其他可能点",
+        "hint": "反比例函数图像是关于原点对称的。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-inverse-proportion-q-007",
+    "node_id": "math-m-inverse-proportion",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "已知反比例函数 y = k/x 的图像经过点 (a, b)，且 ab = 4，求 k 的值。",
+    "answer": "k = 4",
+    "steps": [
+      "将点 (a, b) 代入反比例函数 y = k/x。",
+      "得到 b = k/a。",
+      "由 ab = 4，得到 b = 4/a。",
+      "将 b = 4/a 代入 b = k/a，得到 4/a = k/a，解得 k = 4。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将 ab = 4 当作 a + b = 4",
+        "hint": "注意题目中给出的条件是 ab = 4，而不是 a + b = 4。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "math-m-inverse-proportion-q-008",
+    "node_id": "math-m-inverse-proportion",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "已知反比例函数 y = k/x 的图像与直线 y = 2x + 1 相交于点 (1, 3) 和另一点，求另一点的坐标。",
+    "answer": "(-1/2, -1)",
+    "steps": [
+      "将点 (1, 3) 代入反比例函数 y = k/x。",
+      "得到 3 = k/1，解得 k = 3。",
+      "因此，函数解析式为 y = 3/x。",
+      "将 y = 3/x 代入直线方程 y = 2x + 1。",
+      "得到 3/x = 2x + 1，解得 x = 1 或 x = -1/2。",
+      "当 x = -1/2 时，y = -1。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将交点坐标代入错误方程",
+        "hint": "注意题目要求的是反比例函数，而不是直线方程。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "math-m-inverse-proportion-q-009",
+    "node_id": "math-m-inverse-proportion",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "已知反比例函数 y = k/x 的图像与坐标轴围成的三角形面积为 6，求 k 的值。",
+    "answer": "k = 12 或 k = -12",
+    "steps": [
+      "反比例函数与坐标轴围成的三角形顶点为 (0, 0), (k, 0), (0, k)。",
+      "三角形的底为 |k|，高为 |k|。",
+      "三角形的面积 = (1/2) * |k| * |k| = 6。",
+      "解得 |k| = √12 = 2√3，因此 k = 12 或 k = -12。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将面积公式当作 (1/2) * k * k",
+        "hint": "注意面积公式中需要考虑 k 的绝对值。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "id": "hist-m-french-revolution-q-001",
+    "node_id": "hist-m-french-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "法国大革命开始的标志是？",
+    "options": [
+      "A. 攻占巴士底狱",
+      "B. 颁布《人权宣言》",
+      "C. 路易十六被处决",
+      "D. 拿破仑上台"
+    ],
+    "answer": "A. 攻占巴士底狱",
+    "steps": [
+      "法国大革命开始的标志是1789年7月14日巴黎人民攻占巴士底狱。",
+      "这一事件象征着旧制度的崩溃和新秩序的开始。",
+      "因此，正确答案是A选项。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B选项",
+        "hint": "《人权宣言》是在革命开始后颁布的。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-french-revolution-q-002",
+    "node_id": "hist-m-french-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "法国大革命中，_____年颁布的《人权宣言》标志着启蒙思想的胜利。",
+    "answer": "1789",
+    "steps": [
+      "《人权宣言》颁布于1789年。",
+      "这是法国大革命初期的重要文献。",
+      "因此，答案是1789年。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误年份",
+        "hint": "注意《人权宣言》是在1789年颁布的。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-french-revolution-q-003",
+    "node_id": "hist-m-french-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "法国大革命的主要领导者之一是？",
+    "options": [
+      "A. 拿破仑·波拿巴",
+      "B. 路易十六",
+      "C. 罗伯斯庇尔",
+      "D. 查理一世"
+    ],
+    "answer": "C. 罗伯斯庇尔",
+    "steps": [
+      "罗伯斯庇尔是法国大革命中雅各宾派的主要领导者。",
+      "他在革命中发挥了重要作用。",
+      "因此，正确答案是C选项。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A选项",
+        "hint": "拿破仑是在革命后期上台的。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-french-revolution-q-004",
+    "node_id": "hist-m-french-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "法国大革命中，雅各宾派专政的主要措施不包括？",
+    "options": [
+      "A. 推行恐怖统治",
+      "B. 没收教会财产",
+      "C. 实行普遍限价法",
+      "D. 颁布《拿破仑法典》"
+    ],
+    "answer": "D. 颁布《拿破仑法典》",
+    "steps": [
+      "雅各宾派专政时期的主要措施包括推行恐怖统治、没收教会财产和实行普遍限价法。",
+      "《拿破仑法典》是在拿破仑执政时期颁布的。",
+      "因此，正确答案是D选项。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A选项",
+        "hint": "恐怖统治是雅各宾派专政的重要特征。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-french-revolution-q-005",
+    "node_id": "hist-m-french-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "法国大革命中，_____派执政时期被称为“恐怖统治”时期。",
+    "answer": "雅各宾",
+    "steps": [
+      "雅各宾派执政时期被称为“恐怖统治”时期。",
+      "这一时期以严厉的政策和大规模的镇压为特征。",
+      "因此，答案是雅各宾派。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误派别",
+        "hint": "注意是雅各宾派，而不是其他派别。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-french-revolution-q-006",
+    "node_id": "hist-m-french-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述法国大革命的历史意义。",
+    "answer": "法国大革命推翻了法国的封建统治，传播了自由民主等进步思想，对世界历史的发展产生了深远影响。它不仅改变了法国的政治制度，还激励了其他国家的革命运动，推动了欧洲乃至全球的民主化进程。",
+    "steps": [
+      "首先，提到法国大革命推翻了封建统治。",
+      "其次，阐述其对自由民主思想的传播作用。",
+      "最后，说明其对世界历史发展的影响。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到法国国内的变革",
+        "hint": "不要忘记阐述其对世界的影响。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-french-revolution-q-007",
+    "node_id": "hist-m-french-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "法国大革命中，君主制的废除是在哪一年？",
+    "options": [
+      "A. 1789年",
+      "B. 1791年",
+      "C. 1792年",
+      "D. 1793年"
+    ],
+    "answer": "C. 1792年",
+    "steps": [
+      "1792年，法国废除了君主制。",
+      "同年，法兰西第一共和国成立。",
+      "因此，正确答案是C选项。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选D选项",
+        "hint": "1793年是路易十六被处决的年份。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-french-revolution-q-008",
+    "node_id": "hist-m-french-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "法国大革命期间，_____领导的国民公会通过了废除君主制的决议。",
+    "answer": "吉伦特派",
+    "steps": [
+      "国民公会在1792年由吉伦特派领导。",
+      "他们通过了废除君主制的决议。",
+      "因此，答案是吉伦特派。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误派别",
+        "hint": "注意是吉伦特派，而不是其他派别。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "hist-m-french-revolution-q-009",
+    "node_id": "hist-m-french-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析法国大革命对欧洲其他国家的影响。",
+    "answer": "法国大革命对欧洲其他国家产生了重大影响。首先，它激发了欧洲各国的民族主义情绪，推动了民族独立运动。其次，它传播了自由民主思想，促使其他国家的改革派和革命者效仿法国的模式，推动了欧洲的政治变革。此外，法国大革命还导致了欧洲各国之间的战争和联盟，改变了欧洲的政治格局。",
+    "steps": [
+      "阐述法国大革命对民族主义的影响。",
+      "说明其对自由民主思想的传播作用。",
+      "分析其对欧洲政治格局的影响。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到对法国内部的影响",
+        "hint": "注意题目要求分析对欧洲其他国家的影响。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "hist-m-french-revolution-q-010",
+    "node_id": "hist-m-french-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "比较法国大革命和英国资产阶级革命的不同点。",
+    "answer": "法国大革命和英国资产阶级革命的不同点主要体现在以下几个方面：1. 革命背景：法国大革命是在封建专制制度高度发达的情况下爆发的，而英国资产阶级革命则是在封建制度相对较弱的情况下进行的。2. 革命目标：法国大革命的目标是推翻封建专制统治，建立共和制，而英国资产阶级革命的目标是限制王权，建立君主立宪制。3. 革命过程：法国大革命经历了激烈的暴力革命和恐怖统治，而英国资产阶级革命则相对温和，主要通过议会斗争来实现。4. 革命结果：法国大革命最终建立了共和制，而英国资产阶级革命则确立了君主立宪制。",
+    "steps": [
+      "首先，分析革命背景的不同。",
+      "其次，比较革命目标的不同。",
+      "再次，阐述革命过程的不同。",
+      "最后，说明革命结果的不同。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到革命背景或目标的不同",
+        "hint": "注意从多个角度进行比较。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

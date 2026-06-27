@@ -1,0 +1,259 @@
+[
+  {
+    "id": "hist-m-russian-revolution-q-001",
+    "node_id": "hist-m-russian-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "俄国十月革命发生于哪一年？",
+    "options": [
+      "A. 1905年",
+      "B. 1914年",
+      "C. 1917年",
+      "D. 1922年"
+    ],
+    "answer": "C. 1917年",
+    "steps": [
+      "十月革命发生在1917年11月7日（俄历10月25日）。",
+      "这是俄国工人阶级和农民在布尔什维克党领导下发动的革命。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选1905年",
+        "hint": "1905年是俄国第一次革命，而非十月革命。"
+      },
+      {
+        "error": "误选1922年",
+        "hint": "1922年是苏维埃社会主义共和国联盟（苏联）成立的时间。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-russian-revolution-q-002",
+    "node_id": "hist-m-russian-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "十月革命的领导人是________。",
+    "answer": "列宁",
+    "steps": [
+      "列宁是布尔什维克党的领导人。",
+      "他提出了‘四月革命’和‘十月革命’的具体策略。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写斯大林",
+        "hint": "斯大林在十月革命时尚未成为主要领导人。"
+      },
+      {
+        "error": "填写托洛茨基",
+        "hint": "托洛茨基在革命中扮演重要角色，但列宁是主要领导人。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-russian-revolution-q-003",
+    "node_id": "hist-m-russian-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "十月革命后建立的政权是？",
+    "options": [
+      "A. 临时政府",
+      "B. 苏维埃政权",
+      "C. 沙皇专制",
+      "D. 资产阶级共和国"
+    ],
+    "answer": "B. 苏维埃政权",
+    "steps": [
+      "十月革命推翻了临时政府。",
+      "革命后建立了世界上第一个社会主义国家——苏维埃俄国。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选临时政府",
+        "hint": "临时政府在十月革命中被推翻。"
+      },
+      {
+        "error": "误选沙皇专制",
+        "hint": "沙皇专制在二月革命后已被推翻。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-russian-revolution-q-004",
+    "node_id": "hist-m-russian-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "十月革命的主要目的是什么？",
+    "options": [
+      "A. 推翻沙皇统治",
+      "B. 建立无产阶级专政",
+      "C. 实行资本主义改革",
+      "D. 恢复君主制"
+    ],
+    "answer": "B. 建立无产阶级专政",
+    "steps": [
+      "十月革命的目标是实现社会主义革命。",
+      "革命旨在推翻资产阶级临时政府，建立无产阶级政权。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选推翻沙皇统治",
+        "hint": "推翻沙皇统治是二月革命的目标。"
+      },
+      {
+        "error": "误选恢复君主制",
+        "hint": "十月革命是社会主义革命，与君主制相反。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-russian-revolution-q-005",
+    "node_id": "hist-m-russian-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述十月革命的历史意义。",
+    "answer": "十月革命是人类历史上第一次胜利的社会主义革命，建立了世界上第一个社会主义国家，开辟了人类历史的新纪元。它为世界各国无产阶级革命、殖民地和半殖民地的民族解放运动开辟了道路。",
+    "steps": [
+      "分析十月革命的世界历史地位。",
+      "阐述其对社会主义运动的影响。",
+      "说明其对殖民地半殖民地民族解放运动的影响。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到建立社会主义国家",
+        "hint": "还需提及对世界革命和民族解放运动的影响。"
+      },
+      {
+        "error": "忽略了社会主义革命的首次胜利",
+        "hint": "十月革命是第一次成功的社会主义革命。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-russian-revolution-q-006",
+    "node_id": "hist-m-russian-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "十月革命后，布尔什维克党采取了哪些措施？",
+    "options": [
+      "A. 实施战时共产主义政策",
+      "B. 实行新经济政策",
+      "C. 解散苏维埃",
+      "D. 恢复沙皇制度"
+    ],
+    "answer": "A. 实施战时共产主义政策",
+    "steps": [
+      "十月革命后，布尔什维克党面临内战和外部干涉。",
+      "为了集中资源，布尔什维克党实施了战时共产主义政策。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选新经济政策",
+        "hint": "新经济政策是在1921年实施的。"
+      },
+      {
+        "error": "误选恢复沙皇制度",
+        "hint": "十月革命后不可能恢复沙皇制度。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-russian-revolution-q-007",
+    "node_id": "hist-m-russian-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "十月革命对世界历史的影响是什么？",
+    "options": [
+      "A. 结束了第一次世界大战",
+      "B. 开启了社会主义新时代",
+      "C. 建立了资本主义世界体系",
+      "D. 引发了第二次世界大战"
+    ],
+    "answer": "B. 开启了社会主义新时代",
+    "steps": [
+      "十月革命建立了第一个社会主义国家。",
+      "它激励了全球范围内的社会主义运动。",
+      "标志着世界历史进入社会主义新时代。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选结束了第一次世界大战",
+        "hint": "一战结束是在1918年。"
+      },
+      {
+        "error": "误选引发第二次世界大战",
+        "hint": "二战爆发与十月革命无直接关系。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-russian-revolution-q-008",
+    "node_id": "hist-m-russian-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析十月革命对俄国社会的影响。",
+    "answer": "十月革命彻底改变了俄国社会的政治和经济结构，废除了资本主义制度，建立了社会主义制度。它使得俄国从一个落后的农业国逐步转变为工业国，并在教育、医疗等方面实现了社会改革，提升了工农阶级的地位。",
+    "steps": [
+      "分析政治结构的变化。",
+      "探讨经济制度的变化。",
+      "说明社会各阶层地位的改变。",
+      "总结对俄国整体发展的影响。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到政治变化",
+        "hint": "还需分析经济和社会方面的变化。"
+      },
+      {
+        "error": "忽略了社会各阶层的地位变化",
+        "hint": "十月革命对工农阶级的影响是重点。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "hist-m-russian-revolution-q-009",
+    "node_id": "hist-m-russian-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "十月革命对国际共产主义运动的影响是什么？",
+    "options": [
+      "A. 削弱了国际共产主义运动",
+      "B. 推动了国际共产主义运动的发展",
+      "C. 导致国际共产主义运动分裂",
+      "D. 终结了国际共产主义运动"
+    ],
+    "answer": "B. 推动了国际共产主义运动的发展",
+    "steps": [
+      "十月革命激励了全球无产阶级。",
+      "它为国际共产主义运动提供了实践范例。",
+      "促进了各国工人运动和社会主义运动的发展。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选削弱了国际共产主义运动",
+        "hint": "十月革命实际上增强了国际共产主义运动。"
+      },
+      {
+        "error": "误选终结了国际共产主义运动",
+        "hint": "国际共产主义运动在十月革命后继续发展。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

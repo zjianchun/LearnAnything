@@ -1,0 +1,188 @@
+[
+  {
+    "id": "math-m-trig-ratio-q-001",
+    "node_id": "math-m-trig-ratio",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "在Rt△ABC中，∠C=90°，若sinA=3/5，则cosA的值为多少？",
+    "options": [
+      "A. 3/5",
+      "B. 4/5",
+      "C. 5/4",
+      "D. 5/3"
+    ],
+    "answer": "B. 4/5",
+    "steps": [
+      "1. 根据sinA=3/5，设直角边BC=3k，斜边AB=5k。",
+      "2. 根据勾股定理，AC^2 + BC^2 = AB^2，求出AC=4k。",
+      "3. cosA = AC/AB = 4k/5k = 4/5。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用sinA=3/5直接求cosA。",
+        "hint": "需要先求出直角边AC，再计算cosA。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-trig-ratio-q-002",
+    "node_id": "math-m-trig-ratio",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "在Rt△ABC中，∠C=90°，tanA=3/4，则sinA的值为________。",
+    "answer": "3/5",
+    "steps": [
+      "1. 设直角边BC=3k，AC=4k。",
+      "2. 根据勾股定理，AB^2 = BC^2 + AC^2，求出AB=5k。",
+      "3. sinA = BC/AB = 3k/5k = 3/5。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用tanA=3/4直接求sinA。",
+        "hint": "需要先求出斜边AB，再计算sinA。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-trig-ratio-q-003",
+    "node_id": "math-m-trig-ratio",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "在Rt△ABC中，∠C=90°，cosB=5/13，则sinA的值为多少？",
+    "options": [
+      "A. 5/13",
+      "B. 12/13",
+      "C. 5/12",
+      "D. 12/5"
+    ],
+    "answer": "B. 12/13",
+    "steps": [
+      "1. 根据cosB=5/13，设AC=5k，AB=13k。",
+      "2. 根据勾股定理，BC^2 + AC^2 = AB^2，求出BC=12k。",
+      "3. sinA = BC/AB = 12k/13k = 12/13。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用cosB=5/13直接求sinB。",
+        "hint": "需要先求出直角边BC，再计算sinA。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-trig-ratio-q-004",
+    "node_id": "math-m-trig-ratio",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "在Rt△ABC中，∠C=90°，tanA=1/2，若BC=4，则AB的值为多少？",
+    "options": [
+      "A. 8",
+      "B. 10",
+      "C. 12",
+      "D. 14"
+    ],
+    "answer": "B. 10",
+    "steps": [
+      "1. 根据tanA=1/2，设BC=4，AC=8。",
+      "2. 根据勾股定理，AB^2 = BC^2 + AC^2，求出AB=10。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用tanA=1/2直接求AB。",
+        "hint": "需要先求出AC，再计算AB。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-trig-ratio-q-005",
+    "node_id": "math-m-trig-ratio",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "在Rt△ABC中，∠C=90°，sinA=1/3，AC=6，求BC和AB的值。",
+    "answer": "BC=2，AB=2√10",
+    "steps": [
+      "1. 根据sinA=1/3，设BC=2k，AB=6k。",
+      "2. 根据勾股定理，AC^2 + BC^2 = AB^2，求出k=1。",
+      "3. BC=2k=2，AB=6k=6√10/3=2√10。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用sinA=1/3直接求BC。",
+        "hint": "需要先求出k，再计算BC和AB。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-trig-ratio-q-006",
+    "node_id": "math-m-trig-ratio",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "在Rt△ABC中，∠C=90°，cosA=4/5，BC=3，求AC和AB的值。",
+    "answer": "AC=4，AB=5",
+    "steps": [
+      "1. 根据cosA=4/5，设AC=4k，AB=5k。",
+      "2. 根据勾股定理，BC^2 + AC^2 = AB^2，求出k=1。",
+      "3. AC=4k=4，AB=5k=5。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用cosA=4/5直接求AC。",
+        "hint": "需要先求出k，再计算AC和AB。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-trig-ratio-q-007",
+    "node_id": "math-m-trig-ratio",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "在Rt△ABC中，∠C=90°，tanA=3/4，AC=8，求sinA和cosA的值。",
+    "answer": "sinA=3/5，cosA=4/5",
+    "steps": [
+      "1. 根据tanA=3/4，设BC=3k，AC=4k。",
+      "2. 根据AC=8，求出k=2。",
+      "3. BC=3k=6，AB=√(BC^2 + AC^2)=10。",
+      "4. sinA=BC/AB=6/10=3/5，cosA=AC/AB=8/10=4/5。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用tanA=3/4直接求sinA和cosA。",
+        "hint": "需要先求出AB，再计算sinA和cosA。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "math-m-trig-ratio-q-008",
+    "node_id": "math-m-trig-ratio",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "在Rt△ABC中，∠C=90°，sinA=5/13，AB=20，求BC和AC的值。",
+    "answer": "BC=100/13，AC=240/13",
+    "steps": [
+      "1. 根据sinA=5/13，设BC=5k，AB=13k。",
+      "2. 根据AB=20，求出k=20/13。",
+      "3. BC=5k=100/13，AC=√(AB^2 - BC^2)=240/13。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用sinA=5/13直接求BC。",
+        "hint": "需要先求出k，再计算BC和AC。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

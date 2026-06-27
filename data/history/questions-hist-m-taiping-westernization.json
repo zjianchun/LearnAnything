@@ -1,0 +1,189 @@
+[
+  {
+    "id": "hist-m-taiping-westernization-q-001",
+    "node_id": "hist-m-taiping-westernization",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "太平天国运动的领导人是？",
+    "options": [
+      "A. 洪秀全",
+      "B. 孙中山",
+      "C. 李鸿章",
+      "D. 曾国藩"
+    ],
+    "answer": "A. 洪秀全",
+    "steps": [
+      "太平天国运动的领导人是洪秀全，他创立了拜上帝教，发动了金田起义。",
+      "其他选项中，孙中山是辛亥革命的领导人，李鸿章和曾国藩是洋务运动的代表人物。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B选项",
+        "hint": "孙中山是近代民主革命的先驱，与太平天国运动无关。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-taiping-westernization-q-002",
+    "node_id": "hist-m-taiping-westernization",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "洋务运动的代表人物有____、____等。",
+    "answer": "曾国藩, 李鸿章",
+    "steps": [
+      "洋务运动的代表人物包括曾国藩、李鸿章、左宗棠和张之洞等。",
+      "根据题目要求，填写两个即可。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误人物",
+        "hint": "注意区分洋务运动和太平天国运动的人物。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-taiping-westernization-q-003",
+    "node_id": "hist-m-taiping-westernization",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "太平天国运动失败的主要原因不包括以下哪一项？",
+    "options": [
+      "A. 内部矛盾重重",
+      "B. 缺乏科学的指导思想",
+      "C. 外国势力的支持",
+      "D. 清政府的镇压"
+    ],
+    "answer": "C. 外国势力的支持",
+    "steps": [
+      "太平天国运动失败的主要原因是内部矛盾重重，缺乏科学的指导思想，以及清政府的镇压。",
+      "外国势力虽然对太平天国运动有一定影响，但并未直接支持。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选D选项",
+        "hint": "清政府的镇压是太平天国运动失败的重要原因。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-taiping-westernization-q-004",
+    "node_id": "hist-m-taiping-westernization",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述洋务运动的主要内容和目的。",
+    "answer": "洋务运动的主要内容包括创办近代企业、建立新式海军、兴办新式学堂和派遣留学生等。其目的是通过学习西方的先进技术和制度，维护清朝的统治，实现富国强兵。",
+    "steps": [
+      "首先，列举洋务运动的主要内容。",
+      "其次，说明洋务运动的目的。",
+      "最后，总结洋务运动的实质是维护清朝统治。"
+    ],
+    "common_errors": [
+      {
+        "error": "未提及维护清朝统治",
+        "hint": "洋务运动的根本目的是维护清朝统治。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-taiping-westernization-q-005",
+    "node_id": "hist-m-taiping-westernization",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "太平天国运动中颁布的纲领性文件是？",
+    "options": [
+      "A. 《天朝田亩制度》",
+      "B. 《资政新篇》",
+      "C. 《海国图志》",
+      "D. 《四洲志》"
+    ],
+    "answer": "A. 《天朝田亩制度》",
+    "steps": [
+      "《天朝田亩制度》是太平天国运动的纲领性文件，提出了平均分配土地的理想。",
+      "《资政新篇》是洪仁玕提出的改革方案，但未实施。",
+      "《海国图志》和《四洲志》是魏源的作品，与太平天国运动无关。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B选项",
+        "hint": "《资政新篇》虽然重要，但并非纲领性文件。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-taiping-westernization-q-006",
+    "node_id": "hist-m-taiping-westernization",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析洋务运动对中国近代化的影响。",
+    "answer": "洋务运动是中国近代化的开端，推动了中国军事、经济、教育等方面的现代化进程。它引进了西方的先进技术和设备，建立了一批近代企业，促进了中国资本主义的发展。同时，洋务运动也促进了中国新式教育的兴起，培养了一批近代化人才。然而，洋务运动未能从根本上改变中国的社会制度，最终未能实现富国强兵的目标。",
+    "steps": [
+      "首先，概述洋务运动对中国近代化的积极影响。",
+      "其次，分析洋务运动的局限性。",
+      "最后，总结洋务运动的历史地位。"
+    ],
+    "common_errors": [
+      {
+        "error": "未提及局限性",
+        "hint": "洋务运动的局限性在于未能改变社会制度。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-taiping-westernization-q-007",
+    "node_id": "hist-m-taiping-westernization",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "以下哪一项不是洋务运动的内容？",
+    "options": [
+      "A. 创办近代企业",
+      "B. 建立新式海军",
+      "C. 废除科举制度",
+      "D. 兴办新式学堂"
+    ],
+    "answer": "C. 废除科举制度",
+    "steps": [
+      "洋务运动的内容包括创办近代企业、建立新式海军、兴办新式学堂等。",
+      "废除科举制度是清末新政的内容，而非洋务运动。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选D选项",
+        "hint": "兴办新式学堂是洋务运动的重要内容。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-taiping-westernization-q-008",
+    "node_id": "hist-m-taiping-westernization",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "太平天国运动爆发于____年，结束于____年。",
+    "answer": "1851, 1864",
+    "steps": [
+      "太平天国运动爆发于1851年，结束于1864年。",
+      "需要准确记忆这两个关键时间点。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误时间",
+        "hint": "注意区分太平天国运动和洋务运动的时间。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

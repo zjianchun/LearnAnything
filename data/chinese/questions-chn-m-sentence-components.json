@@ -1,0 +1,188 @@
+[
+  {
+    "id": "chn-m-sentence-components-q-001",
+    "node_id": "chn-m-sentence-components",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列句子中，主语是“我”的是：",
+    "options": [
+      "A. 我昨天去了图书馆。",
+      "B. 图书馆的书非常有趣。",
+      "C. 他告诉我一个秘密。",
+      "D. 这个问题很难解决。"
+    ],
+    "answer": "A. 我昨天去了图书馆。",
+    "steps": [
+      "1. 找出句子的主语，即动作的发出者。",
+      "2. 在选项A中，“我”是“去”这个动作的发出者。",
+      "3. 其他选项中主语分别是“图书馆的书”、“他”和“这个问题”。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将状语“我”当作主语。",
+        "hint": "主语是动作的发出者，而非时间或地点状语。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-sentence-components-q-002",
+    "node_id": "chn-m-sentence-components",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "在句子“美丽的花朵在阳光下绽放。”中，谓语是______。",
+    "answer": "绽放",
+    "steps": [
+      "1. 找出句子的谓语，即主语发出的动作。",
+      "2. 句子中“花朵”是主语，“绽放”是主语发出的动作。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将“在阳光下”当作谓语。",
+        "hint": "在阳光下是状语，修饰动词“绽放”。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-sentence-components-q-003",
+    "node_id": "chn-m-sentence-components",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列句子中，宾语是“书”的是：",
+    "options": [
+      "A. 我买了一本书。",
+      "B. 书放在桌子上。",
+      "C. 他喜欢读书。",
+      "D. 书的封面很漂亮。"
+    ],
+    "answer": "A. 我买了一本书。",
+    "steps": [
+      "1. 找出句子的宾语，即动作的承受者。",
+      "2. 在选项A中，“书”是“买”这个动作的承受者。",
+      "3. 其他选项中“书”分别是主语和定语。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将主语或定语当作宾语。",
+        "hint": "宾语是动作的承受者，而非动作的发出者或修饰名词的成分。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-sentence-components-q-004",
+    "node_id": "chn-m-sentence-components",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "分析句子“他在教室里认真地写作业。”的句子成分。",
+    "answer": "主语：他；谓语：写；宾语：作业；状语：在教室里、认真地",
+    "steps": [
+      "1. 找出句子的主语，即动作的发出者：“他”。",
+      "2. 找出句子的谓语，即主语发出的动作：“写”。",
+      "3. 找出句子的宾语，即动作的承受者：“作业”。",
+      "4. 找出句子的状语，修饰动词“写”：“在教室里”、“认真地”。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将状语当作主语或谓语。",
+        "hint": "状语是修饰动词或整个句子的成分，不是动作的发出者或动作本身。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-sentence-components-q-005",
+    "node_id": "chn-m-sentence-components",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列句子中，定语是“美丽的”的是：",
+    "options": [
+      "A. 美丽的花朵在阳光下绽放。",
+      "B. 他有一双美丽的眼睛。",
+      "C. 她的笑容很美丽。",
+      "D. 美丽是她的特点。"
+    ],
+    "answer": "A. 美丽的花朵在阳光下绽放。",
+    "steps": [
+      "1. 找出句子的定语，即修饰名词的成分。",
+      "2. 在选项A中，“美丽的”修饰“花朵”。",
+      "3. 其他选项中“美丽”分别是谓语和主语。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将谓语或主语当作定语。",
+        "hint": "定语是修饰名词的成分，不是动作或动作的发出者。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-sentence-components-q-006",
+    "node_id": "chn-m-sentence-components",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析句子“老师表扬了取得进步的同学。”的句子成分。",
+    "answer": "主语：老师；谓语：表扬；宾语：同学；定语：取得进步的",
+    "steps": [
+      "1. 找出句子的主语，即动作的发出者：“老师”。",
+      "2. 找出句子的谓语，即主语发出的动作：“表扬”。",
+      "3. 找出句子的宾语，即动作的承受者：“同学”。",
+      "4. 找出句子的定语，修饰“同学”：“取得进步的”。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将“取得进步”当作谓语。",
+        "hint": "“取得进步”是修饰“同学”的定语，不是句子的主要动作。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-sentence-components-q-007",
+    "node_id": "chn-m-sentence-components",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析句子“他在操场上快乐地奔跑着。”的句子成分。",
+    "answer": "主语：他；谓语：奔跑；状语：在操场上、快乐地、着",
+    "steps": [
+      "1. 找出句子的主语，即动作的发出者：“他”。",
+      "2. 找出句子的谓语，即主语发出的动作：“奔跑”。",
+      "3. 找出句子的状语，修饰动词“奔跑”：“在操场上”、“快乐地”、“着”。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将“着”当作谓语的一部分。",
+        "hint": "“着”是时态助词，表示动作的持续，不是谓语的一部分。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-sentence-components-q-008",
+    "node_id": "chn-m-sentence-components",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "在句子“这个问题值得我们深入思考。”中，宾语是______。",
+    "answer": "我们",
+    "steps": [
+      "1. 找出句子的宾语，即动作的承受者。",
+      "2. 句子中“值得”是谓语，“我们”是“值得”的宾语。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将“这个问题”当作宾语。",
+        "hint": "“这个问题”是主语，不是宾语。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

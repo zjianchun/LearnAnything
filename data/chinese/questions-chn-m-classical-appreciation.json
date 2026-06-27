@@ -1,0 +1,188 @@
+[
+  {
+    "id": "chn-m-classical-appreciation-q-001",
+    "node_id": "chn-m-classical-appreciation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列句子中加点词的解释，错误的一项是（）",
+    "options": [
+      "A. 温故而知新，可以为师矣（复习）",
+      "B. 择其善者而从之（跟从）",
+      "C. 学而不思则罔（迷惑）",
+      "D. 人不知而不愠（生气）"
+    ],
+    "answer": "A. 温故而知新，可以为师矣（复习）",
+    "steps": [
+      "1. 分析每个选项中加点词的含义。",
+      "2. 对照原句，结合上下文理解词义。",
+      "3. 确认选项A中“故”应解释为“旧的知识”，而非“复习”。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将“故”理解为“复习”",
+        "hint": "“故”在文言文中常作“旧的知识”解，应结合语境分析。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chn-m-classical-appreciation-q-002",
+    "node_id": "chn-m-classical-appreciation",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "《论语》中“________，不亦君子乎？”的横线处应填入“________”。",
+    "answer": "人不知而不愠",
+    "steps": [
+      "1. 回忆《论语》学而篇的内容。",
+      "2. 确定句子结构并回忆完整句。",
+      "3. 填写正确的句子内容。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误的内容，如“人不知而不愠”误填为“不知而不愠”。",
+        "hint": "注意句子开头是“人不知”，不要漏掉主语。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chn-m-classical-appreciation-q-003",
+    "node_id": "chn-m-classical-appreciation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列句子中“之”字的用法与其他三项不同的一项是（）",
+    "options": [
+      "A. 学而时习之",
+      "B. 择其善者而从之",
+      "C. 人不知而不愠",
+      "D. 学而不思则罔"
+    ],
+    "answer": "C. 人不知而不愠",
+    "steps": [
+      "1. 分析每个选项中“之”字的用法。",
+      "2. 对比“之”字在不同句子中的作用。",
+      "3. 确定C选项中“之”并非代词，而是连词“而”。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将C选项中的“之”理解为代词。",
+        "hint": "注意C选项中“之”实际是“而”的误写，应仔细辨别。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chn-m-classical-appreciation-q-004",
+    "node_id": "chn-m-classical-appreciation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "解释《论语》中“温故而知新，可以为师矣”的含义。",
+    "answer": "这句话的意思是：温习学过的知识，进而能够获得新的理解和体会，这样的人可以做老师了。",
+    "steps": [
+      "1. 解释“温故”的含义：温习学过的知识。",
+      "2. 解释“知新”的含义：获得新的理解和体会。",
+      "3. 解释整句话的含义：强调通过复习和思考获得新知识的重要性。"
+    ],
+    "common_errors": [
+      {
+        "error": "将“可以为师矣”理解为“可以做老师”。",
+        "hint": "注意“可以”是“能够”的意思，而不是“可以”。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chn-m-classical-appreciation-q-005",
+    "node_id": "chn-m-classical-appreciation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "分析《论语》中“学而不思则罔，思而不学则殆”的论证方法。",
+    "answer": "这句话运用了对偶的论证方法，通过对比“学而不思”和“思而不学”两种情况，说明了学习和思考相结合的重要性。",
+    "steps": [
+      "1. 解释“学而不思则罔，思而不学则殆”的含义。",
+      "2. 分析句子结构，识别对偶的论证方法。",
+      "3. 总结论证方法的作用：强调学习和思考相结合的重要性。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将“罔”和“殆”理解为相同的意思。",
+        "hint": "“罔”指迷惑，“殆”指疑惑或危险，注意区分。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chn-m-classical-appreciation-q-006",
+    "node_id": "chn-m-classical-appreciation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列句子中“而”字的用法与其他三项不同的一项是（）",
+    "options": [
+      "A. 学而时习之",
+      "B. 温故而知新",
+      "C. 学而不思则罔",
+      "D. 人不知而不愠"
+    ],
+    "answer": "B. 温故而知新",
+    "steps": [
+      "1. 分析每个选项中“而”字的用法。",
+      "2. 对比“而”字在不同句子中的作用。",
+      "3. 确定B选项中“而”是连词，表示递进关系，而其他选项中“而”表示转折关系。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将B选项中的“而”理解为转折关系。",
+        "hint": "注意“温故而知新”中“而”表示递进关系，而不是转折。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chn-m-classical-appreciation-q-007",
+    "node_id": "chn-m-classical-appreciation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请结合《论语》中“己所不欲，勿施于人”这句话，谈谈你对“仁”的理解。",
+    "answer": "这句话的意思是：自己不愿意做的事情，也不要强加给别人。这体现了孔子“仁”的思想，即要以己度人，尊重他人，关心他人。这种思想强调人与人之间的相互理解和尊重，是儒家思想的核心之一。",
+    "steps": [
+      "1. 解释“己所不欲，勿施于人”的含义。",
+      "2. 结合“仁”的思想，分析这句话的内涵。",
+      "3. 总结“仁”的核心思想：尊重他人，关心他人。"
+    ],
+    "common_errors": [
+      {
+        "error": "将“仁”理解为简单的同情或怜悯。",
+        "hint": "注意“仁”不仅仅是情感上的共鸣，更是一种道德准则和行为规范。"
+      }
+    ],
+    "exam_frequency": 6
+  },
+  {
+    "id": "chn-m-classical-appreciation-q-008",
+    "node_id": "chn-m-classical-appreciation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析《论语》中“知之者不如好之者，好之者不如乐之者”的论证结构。",
+    "answer": "这句话的论证结构是递进关系。首先提出“知之者”，接着提出“好之者”，最后提出“乐之者”，层层深入，说明了学习的三种境界：知道、喜欢、乐于学习。这种递进关系强调了“乐之者”的重要性，即学习要达到一种享受的状态。",
+    "steps": [
+      "1. 分析句子结构，识别递进关系。",
+      "2. 解释“知之者”、“好之者”、“乐之者”的含义。",
+      "3. 总结递进关系的作用：强调“乐之者”的重要性。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将“乐之者”理解为“快乐的人”。",
+        "hint": "注意“乐之者”是指乐于学习的人，而不是指性格上的快乐。"
+      }
+    ],
+    "exam_frequency": 6
+  }
+]

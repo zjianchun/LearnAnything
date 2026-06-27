@@ -1,0 +1,215 @@
+[
+  {
+    "id": "bio-m-fruit-seed-formation-q-001",
+    "node_id": "bio-m-fruit-seed-formation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "一朵花中最重要的结构是（  ）。",
+    "options": [
+      "A. 花萼",
+      "B. 花冠",
+      "C. 雄蕊和雌蕊",
+      "D. 花柄"
+    ],
+    "answer": "C. 雄蕊和雌蕊",
+    "steps": [
+      "1. 识别花的各个部分：花萼、花冠、雄蕊、雌蕊和花柄。",
+      "2. 理解花的主要功能是繁殖，而雄蕊产生花粉，雌蕊包含胚珠，是形成果实和种子的关键。",
+      "3. 得出结论：雄蕊和雌蕊是花最重要的结构。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选花萼或花冠",
+        "hint": "花萼和花冠主要起保护和支持作用，不是繁殖的关键结构。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "bio-m-fruit-seed-formation-q-002",
+    "node_id": "bio-m-fruit-seed-formation",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "果实由（ ）发育而来，种子由（ ）发育而来。",
+    "answer": "子房,胚珠",
+    "steps": [
+      "1. 回顾果实和种子的形成过程。",
+      "2. 明确果实由子房发育而来，种子由胚珠发育而来。",
+      "3. 填写答案：子房, 胚珠。"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆果实和种子的来源",
+        "hint": "果实由子房发育而来，种子由胚珠发育而来，不要混淆。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "bio-m-fruit-seed-formation-q-003",
+    "node_id": "bio-m-fruit-seed-formation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列关于果实和种子形成的叙述，正确的是（  ）。",
+    "options": [
+      "A. 果实由胚珠发育而来",
+      "B. 种子由子房发育而来",
+      "C. 受精后，子房壁发育成果皮",
+      "D. 受精后，珠被发育成果皮"
+    ],
+    "answer": "C. 受精后，子房壁发育成果皮",
+    "steps": [
+      "1. 明确果实和种子的形成过程：子房发育成果实，胚珠发育成种子。",
+      "2. 理解子房壁发育成果皮，珠被发育成种皮。",
+      "3. 得出结论：C选项正确。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A或B",
+        "hint": "果实由子房发育而来，种子由胚珠发育而来。"
+      },
+      {
+        "error": "误选D",
+        "hint": "珠被发育成种皮，不是果皮。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-fruit-seed-formation-q-004",
+    "node_id": "bio-m-fruit-seed-formation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请简述果实和种子的形成过程。",
+    "answer": "1. 传粉：花粉从花药落到雌蕊柱头上的过程。\n2. 受精：精子与卵细胞结合，形成受精卵。\n3. 发育：受精卵发育成胚，子房壁发育成果皮，胚珠发育成种子，子房发育成果实。",
+    "steps": [
+      "1. 解释传粉和受精的概念。",
+      "2. 描述受精后的发育过程：受精卵发育成胚，子房壁发育成果皮，胚珠发育成种子，子房发育成果实。",
+      "3. 总结：果实和种子的形成是传粉、受精和发育的结果。"
+    ],
+    "common_errors": [
+      {
+        "error": "遗漏传粉或受精步骤",
+        "hint": "传粉和受精是果实和种子形成的重要前提，不可遗漏。"
+      },
+      {
+        "error": "混淆各部分的发育来源",
+        "hint": "明确子房壁发育成果皮，胚珠发育成种子，子房发育成果实。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-fruit-seed-formation-q-005",
+    "node_id": "bio-m-fruit-seed-formation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列哪一项不是果实的作用？（  ）。",
+    "options": [
+      "A. 保护种子",
+      "B. 帮助种子传播",
+      "C. 制造养分",
+      "D. 吸引动物"
+    ],
+    "answer": "C. 制造养分",
+    "steps": [
+      "1. 明确果实的主要作用：保护种子、帮助种子传播、吸引动物。",
+      "2. 分析各选项：果实不直接制造养分。",
+      "3. 得出结论：C选项不是果实的作用。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A或B",
+        "hint": "保护种子和帮助种子传播是果实的重要作用。"
+      },
+      {
+        "error": "误选D",
+        "hint": "吸引动物有助于种子的传播，是果实的作用之一。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-fruit-seed-formation-q-006",
+    "node_id": "bio-m-fruit-seed-formation",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "被子植物的胚珠发育成（ ），子房壁发育成（ ）。",
+    "answer": "种子,果皮",
+    "steps": [
+      "1. 回顾胚珠和子房壁的发育过程。",
+      "2. 明确胚珠发育成种子，子房壁发育成果皮。",
+      "3. 填写答案：种子, 果皮。"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆胚珠和子房壁的发育结果",
+        "hint": "胚珠发育成种子，子房壁发育成果皮，不要混淆。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "bio-m-fruit-seed-formation-q-007",
+    "node_id": "bio-m-fruit-seed-formation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释为什么果实和种子的形成对植物的繁殖至关重要。",
+    "answer": "1. 果实和种子是植物繁殖的关键结构。\n2. 果实保护种子并帮助其传播，增加了种子的存活机会。\n3. 种子包含胚，是植物新个体的来源。\n4. 因此，果实和种子的形成对植物的繁殖至关重要。",
+    "steps": [
+      "1. 解释果实和种子在植物繁殖中的作用。",
+      "2. 描述果实对种子的保护作用和传播作用。",
+      "3. 强调种子包含胚，是新植物个体的来源。",
+      "4. 总结：果实和种子的形成对植物的繁殖至关重要。"
+    ],
+    "common_errors": [
+      {
+        "error": "忽略果实对种子的保护作用",
+        "hint": "果实不仅帮助种子传播，还提供保护。"
+      },
+      {
+        "error": "未提及种子包含胚",
+        "hint": "种子包含胚，是新植物个体的来源。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "bio-m-fruit-seed-formation-q-008",
+    "node_id": "bio-m-fruit-seed-formation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "下列关于果实和种子传播方式的叙述，正确的是（  ）。",
+    "options": [
+      "A. 所有的果实都依靠风力传播",
+      "B. 所有的果实都依靠动物传播",
+      "C. 果实和种子的传播方式多样",
+      "D. 果实和种子的传播方式只有一种"
+    ],
+    "answer": "C. 果实和种子的传播方式多样",
+    "steps": [
+      "1. 明确果实和种子的传播方式包括风力、水力、动物等。",
+      "2. 分析各选项：并非所有果实都依靠单一传播方式。",
+      "3. 得出结论：C选项正确。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A或B",
+        "hint": "果实和种子的传播方式多样，不局限于风力或动物传播。"
+      },
+      {
+        "error": "误选D",
+        "hint": "传播方式多样，不只有一种。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

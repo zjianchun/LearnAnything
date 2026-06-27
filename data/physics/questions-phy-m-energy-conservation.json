@@ -1,0 +1,229 @@
+[
+  {
+    "id": "phy-m-energy-conservation-q-001",
+    "node_id": "phy-m-energy-conservation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列现象中，属于动能转化为重力势能的是？",
+    "options": [
+      "A. 滚动的足球逐渐停下来",
+      "B. 自由下落的石块加速下落",
+      "C. 跳伞运动员在空中匀速下降",
+      "D. 向上抛出的篮球上升过程中"
+    ],
+    "answer": "D. 向上抛出的篮球上升过程中",
+    "steps": [
+      "1. 分析动能转化为重力势能的条件：物体的速度减小，高度增加。",
+      "2. 逐个分析选项：A项中足球停下，动能转化为内能；B项中石块加速下落，重力势能转化为动能；C项中运动员匀速下降，动能和重力势能均不发生变化；D项中篮球上升，速度减小，高度增加，动能转化为重力势能。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B项",
+        "hint": "注意题目要求的是动能转化为重力势能，而不是重力势能转化为动能。"
+      },
+      {
+        "error": "误选C项",
+        "hint": "匀速下降时，动能和重力势能均不发生变化，不存在能量转化。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-energy-conservation-q-002",
+    "node_id": "phy-m-energy-conservation",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "一个物体从高处自由下落，不计空气阻力，在下落过程中，物体的机械能_____（填“增大”、“减小”或“不变”）。",
+    "answer": "不变",
+    "steps": [
+      "1. 明确机械能的定义：机械能是动能和势能的总和。",
+      "2. 分析自由下落过程：物体只受重力作用，重力势能转化为动能，但机械能总量保持不变。"
+    ],
+    "common_errors": [
+      {
+        "error": "填“增大”或“减小”",
+        "hint": "注意题目中提到不计空气阻力，机械能守恒。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-energy-conservation-q-003",
+    "node_id": "phy-m-energy-conservation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "在水平面上滚动的足球最终停下来，是因为？",
+    "options": [
+      "A. 足球的动能消失了",
+      "B. 足球的机械能转化为内能",
+      "C. 足球的动能转化为势能",
+      "D. 足球的机械能守恒"
+    ],
+    "answer": "B. 足球的机械能转化为内能",
+    "steps": [
+      "1. 分析足球运动过程：足球在滚动过程中受到摩擦力作用。",
+      "2. 摩擦力做功：摩擦力做负功，机械能转化为内能。",
+      "3. 结论：足球停下来是因为机械能转化为内能，而不是动能消失或转化为势能。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A项",
+        "hint": "动能没有消失，而是转化为其他形式的能量。"
+      },
+      {
+        "error": "误选C项",
+        "hint": "足球在水平面上滚动，高度不变，不存在动能转化为势能。"
+      },
+      {
+        "error": "误选D项",
+        "hint": "有摩擦力做功，机械能不守恒。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-energy-conservation-q-004",
+    "node_id": "phy-m-energy-conservation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一辆汽车在平直公路上匀速行驶，速度为20m/s，发动机的输出功率为60kW。求汽车在10分钟内发动机所做的功。",
+    "answer": "3.6×10^7J",
+    "steps": [
+      "1. 明确已知条件：速度v=20m/s，功率P=60kW=60000W，时间t=10min=600s。",
+      "2. 功的计算公式：W=Pt。",
+      "3. 代入数据计算：W=60000W×600s=3.6×10^7J。"
+    ],
+    "common_errors": [
+      {
+        "error": "时间单位换算错误",
+        "hint": "注意时间单位从分钟转换为秒。"
+      },
+      {
+        "error": "功率单位换算错误",
+        "hint": "注意功率单位从kW转换为W。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-energy-conservation-q-005",
+    "node_id": "phy-m-energy-conservation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "在下列过程中，属于弹性势能转化为动能的是？",
+    "options": [
+      "A. 拉开的弓将箭射出去",
+      "B. 压缩的弹簧将小球弹起",
+      "C. 跳板跳水运动员起跳",
+      "D. 钟表里的发条带动指针转动"
+    ],
+    "answer": "B. 压缩的弹簧将小球弹起",
+    "steps": [
+      "1. 分析弹性势能转化为动能的条件：弹性物体恢复原状，释放能量。",
+      "2. 逐个分析选项：A项中弓的弹性势能转化为箭的动能；B项中弹簧的弹性势能转化为小球的动能；C项中跳板弹性势能转化为运动员的动能；D项中发条的弹性势能转化为指针的动能。",
+      "3. 结论：B项最符合题意。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A项",
+        "hint": "箭的动能来自于弓的弹性势能，但题目要求的是弹性势能转化为动能。"
+      },
+      {
+        "error": "误选C项",
+        "hint": "跳板跳水过程中，弹性势能转化为运动员的动能，但题目要求的是弹性势能转化为动能。"
+      },
+      {
+        "error": "误选D项",
+        "hint": "发条的弹性势能转化为指针的动能，但题目要求的是弹性势能转化为动能。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-energy-conservation-q-006",
+    "node_id": "phy-m-energy-conservation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个质量为2kg的物体从10m高处自由下落，不计空气阻力，求物体落地时的速度。",
+    "answer": "14.14m/s",
+    "steps": [
+      "1. 明确已知条件：质量m=2kg，高度h=10m，重力加速度g=9.8m/s²。",
+      "2. 分析能量转化：物体从高处下落，重力势能转化为动能。",
+      "3. 计算重力势能：Ep=mgh=2kg×9.8m/s²×10m=196J。",
+      "4. 根据能量守恒：动能Ek=Ep=196J。",
+      "5. 计算速度：Ek=½mv²，v=√(2Ek/m)=√(2×196J/2kg)=14.14m/s。"
+    ],
+    "common_errors": [
+      {
+        "error": "未考虑能量守恒",
+        "hint": "注意重力势能转化为动能，机械能守恒。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "注意单位换算和计算精度。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-energy-conservation-q-007",
+    "node_id": "phy-m-energy-conservation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一辆汽车以恒定功率P=50kW在平直公路上行驶，速度从10m/s增加到20m/s，求这段时间内汽车行驶的距离。",
+    "answer": "200m",
+    "steps": [
+      "1. 明确已知条件：功率P=50kW=50000W，初速度v1=10m/s，末速度v2=20m/s。",
+      "2. 分析能量转化：汽车功率恒定，动能增加，牵引力做功。",
+      "3. 计算动能变化：ΔEk=½m(v2²-v1²)。",
+      "4. 根据动能定理：Pt=ΔEk，t=ΔEk/P。",
+      "5. 计算距离：s=v1t+½at²，其中a=(v2-v1)/t。",
+      "6. 代入数据计算：s=200m。"
+    ],
+    "common_errors": [
+      {
+        "error": "未考虑功率恒定",
+        "hint": "注意汽车功率恒定，牵引力做功。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "注意单位换算和计算精度。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-energy-conservation-q-008",
+    "node_id": "phy-m-energy-conservation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个质量为1kg的物体从5m高处自由下落，落地后反弹到2m高处，求整个过程中物体损失的机械能。",
+    "answer": "29.4J",
+    "steps": [
+      "1. 明确已知条件：质量m=1kg，初高度h1=5m，反弹高度h2=2m，重力加速度g=9.8m/s²。",
+      "2. 分析能量转化：物体从高处下落，重力势能转化为动能，反弹后动能转化为重力势能。",
+      "3. 计算初重力势能：Ep1=mgh1=1kg×9.8m/s²×5m=49J。",
+      "4. 计算反弹后重力势能：Ep2=mgh2=1kg×9.8m/s²×2m=19.6J。",
+      "5. 计算损失的机械能：ΔE=Ep1-Ep2=49J-19.6J=29.4J。"
+    ],
+    "common_errors": [
+      {
+        "error": "未考虑反弹后重力势能",
+        "hint": "注意反弹后物体仍有重力势能。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "注意单位换算和计算精度。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

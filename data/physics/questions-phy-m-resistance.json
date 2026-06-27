@@ -1,0 +1,182 @@
+[
+  {
+    "id": "phy-m-resistance-q-001",
+    "node_id": "phy-m-resistance",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列关于电阻的说法，正确的是？",
+    "options": [
+      "A. 导体的电阻与导体两端的电压成正比",
+      "B. 导体的电阻与通过导体的电流成反比",
+      "C. 导体的电阻是导体本身的一种性质",
+      "D. 导体的电阻与导体的长度无关"
+    ],
+    "answer": "C. 导体的电阻是导体本身的一种性质",
+    "steps": [
+      "电阻是导体本身的一种性质，与导体两端的电压和通过导体的电流无关",
+      "导体的电阻与导体的材料、长度、横截面积和温度有关"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为电阻与电压或电流有关",
+        "hint": "电阻是导体本身的性质，不随电压或电流变化而变化"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-resistance-q-002",
+    "node_id": "phy-m-resistance",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "一根铜导线的电阻为R，若将其拉长为原来的2倍，则其电阻变为______。",
+    "answer": "4R",
+    "steps": [
+      "导线的长度变为原来的2倍，横截面积变为原来的1/2",
+      "根据电阻公式R=ρL/S，电阻变为原来的4倍"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为电阻变为2倍",
+        "hint": "注意横截面积的变化，电阻与长度成正比，与横截面积成反比"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-resistance-q-003",
+    "node_id": "phy-m-resistance",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "将一根电阻为R的导线对折后，其电阻变为？",
+    "options": [
+      "A. R/4",
+      "B. R/2",
+      "C. 2R",
+      "D. 4R"
+    ],
+    "answer": "A. R/4",
+    "steps": [
+      "对折后，导线的长度变为原来的1/2，横截面积变为原来的2倍",
+      "根据电阻公式R=ρL/S，电阻变为原来的1/4"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为电阻变为R/2",
+        "hint": "注意横截面积的变化，电阻与长度成正比，与横截面积成反比"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-resistance-q-004",
+    "node_id": "phy-m-resistance",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "某导体两端的电压为6V，通过的电流为2A，求导体的电阻。",
+    "answer": "R=U/I=6V/2A=3Ω",
+    "steps": [
+      "根据欧姆定律，R=U/I",
+      "代入数据，R=6V/2A=3Ω"
+    ],
+    "common_errors": [
+      {
+        "error": "误用公式或单位错误",
+        "hint": "注意欧姆定律的公式和单位换算"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-resistance-q-005",
+    "node_id": "phy-m-resistance",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列哪种材料制成的导体，其电阻率最小？",
+    "options": [
+      "A. 铜",
+      "B. 铝",
+      "C. 铁",
+      "D. 银"
+    ],
+    "answer": "D. 银",
+    "steps": [
+      "电阻率越小，导体的导电性能越好",
+      "银的电阻率最小，其次是铜、铝、铁"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为铜的电阻率最小",
+        "hint": "银的电阻率最小，铜次之"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-resistance-q-006",
+    "node_id": "phy-m-resistance",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一根镍铬合金丝，其电阻为10Ω，现将其拉长为原来的3倍，求其电阻。",
+    "answer": "R'=9×10Ω=90Ω",
+    "steps": [
+      "导线的长度变为原来的3倍，横截面积变为原来的1/3",
+      "根据电阻公式R=ρL/S，电阻变为原来的9倍",
+      "R'=9×10Ω=90Ω"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为电阻变为3倍",
+        "hint": "注意横截面积的变化，电阻与长度成正比，与横截面积成反比"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-resistance-q-007",
+    "node_id": "phy-m-resistance",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "某导体电阻为R，当其两端电压增大为原来的2倍时，其电阻为______。",
+    "answer": "R",
+    "steps": [
+      "电阻是导体本身的性质，不随电压变化而变化",
+      "因此电阻仍为R"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为电阻变为2R",
+        "hint": "电阻是导体本身的性质，不随电压变化而变化"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-resistance-q-008",
+    "node_id": "phy-m-resistance",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一根导线，其电阻为R，现将其对折后并联，求其总电阻。",
+    "answer": "R'=R/4",
+    "steps": [
+      "对折后，导线的电阻变为R/4",
+      "并联电阻公式为1/R'=1/(R/4)+1/(R/4)=4/R",
+      "因此R'=R/4"
+    ],
+    "common_errors": [
+      {
+        "error": "误用并联电阻公式",
+        "hint": "注意对折后电阻的变化，并正确使用并联电阻公式"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

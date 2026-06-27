@@ -1,0 +1,202 @@
+[
+  {
+    "id": "chem-m-scientific-inquiry-experiment-q-001",
+    "node_id": "chem-m-scientific-inquiry-experiment",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "在科学探究中，实验过程中观察到的现象和数据应该（   ）。",
+    "options": [
+      "只记录符合预期的现象",
+      "记录所有现象和数据",
+      "忽略异常现象",
+      "只记录与假设一致的现象"
+    ],
+    "answer": "记录所有现象和数据",
+    "steps": [
+      "科学探究的基本原则是客观性和全面性。",
+      "在实验过程中，任何现象和数据都可能是重要的信息源。",
+      "忽略或选择性地记录数据会导致结果偏差，影响结论的准确性。"
+    ],
+    "common_errors": [
+      {
+        "error": "只记录符合预期的现象",
+        "hint": "科学探究需要客观全面地记录所有现象，避免主观偏见。"
+      },
+      {
+        "error": "忽略异常现象",
+        "hint": "异常现象往往是发现新问题或新规律的关键。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chem-m-scientific-inquiry-experiment-q-002",
+    "node_id": "chem-m-scientific-inquiry-experiment",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "在探究金属活动性顺序的实验中，通常需要用到（   ）和（   ）。",
+    "answer": "酸溶液,金属单质",
+    "steps": [
+      "金属活动性顺序的探究通常涉及金属与酸的反应。",
+      "实验中需要使用酸溶液来测试不同金属的反应活性。",
+      "同时，需要不同种类的金属单质作为实验材料。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到酸溶液或金属单质中的一种",
+        "hint": "实验需要两者共同参与才能完成对金属活动性的比较。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-scientific-inquiry-experiment-q-003",
+    "node_id": "chem-m-scientific-inquiry-experiment",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "在探究影响化学反应速率的因素时，下列哪种方法是不恰当的（   ）。",
+    "options": [
+      "改变反应物的浓度",
+      "改变反应温度",
+      "改变催化剂的用量",
+      "改变反应物的质量"
+    ],
+    "answer": "改变反应物的质量",
+    "steps": [
+      "影响化学反应速率的因素主要包括浓度、温度、压强和催化剂等。",
+      "改变反应物的质量不会直接影响反应速率。",
+      "反应速率与单位体积内的反应物分子数量有关，而不是总质量。"
+    ],
+    "common_errors": [
+      {
+        "error": "选择改变反应物的质量",
+        "hint": "反应速率与反应物浓度有关，而不是质量。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-scientific-inquiry-experiment-q-004",
+    "node_id": "chem-m-scientific-inquiry-experiment",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "在探究酸碱中和反应时，通常需要使用（   ）和（   ）作为指示剂。",
+    "answer": "酚酞,甲基橙",
+    "steps": [
+      "酸碱中和反应需要通过指示剂来观察反应终点。",
+      "常用的酸碱指示剂有酚酞和甲基橙。",
+      "酚酞在酸性溶液中无色，在碱性溶液中呈红色。",
+      "甲基橙在酸性溶液中呈红色，在碱性溶液中呈黄色。"
+    ],
+    "common_errors": [
+      {
+        "error": "使用错误的指示剂",
+        "hint": "选择合适的指示剂对于准确判断反应终点至关重要。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-scientific-inquiry-experiment-q-005",
+    "node_id": "chem-m-scientific-inquiry-experiment",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请简述在探究二氧化碳与水反应的过程中，如何证明反应生成碳酸。",
+    "answer": "首先，将二氧化碳通入水中，然后使用紫色石蕊试液检验溶液的酸碱性。由于碳酸是酸性物质，紫色石蕊试液会变红，从而证明反应生成了碳酸。",
+    "steps": [
+      "将二氧化碳通入水中。",
+      "使用紫色石蕊试液检验溶液的酸碱性。",
+      "观察试液颜色变化，若变红，则证明生成了碳酸。"
+    ],
+    "common_errors": [
+      {
+        "error": "未使用合适的指示剂",
+        "hint": "紫色石蕊试液是检测酸碱性的常用指示剂。"
+      },
+      {
+        "error": "未考虑二氧化碳本身对试液的影响",
+        "hint": "二氧化碳溶于水后形成的碳酸才是使试液变红的原因。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "chem-m-scientific-inquiry-experiment-q-006",
+    "node_id": "chem-m-scientific-inquiry-experiment",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "在探究铁生锈的条件时，设计实验需要考虑哪些因素？请简要说明。",
+    "answer": "在探究铁生锈的条件时，需要考虑的因素包括氧气、水分和电解质。可以通过设计对比实验来验证这些因素的作用。例如，将铁钉分别置于干燥空气、含水空气和含盐水环境中，观察铁钉的生锈情况，从而得出铁生锈的条件。",
+    "steps": [
+      "确定需要验证的因素：氧气、水分和电解质。",
+      "设计对比实验，将铁钉置于不同环境中。",
+      "观察铁钉的生锈情况，记录结果。",
+      "分析结果，得出铁生锈的条件。"
+    ],
+    "common_errors": [
+      {
+        "error": "未考虑电解质的影响",
+        "hint": "电解质（如盐）可以加速铁的氧化反应，是铁生锈的重要因素。"
+      },
+      {
+        "error": "实验设计不严谨",
+        "hint": "实验应控制变量，确保每个因素的变化都独立且明确。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "chem-m-scientific-inquiry-experiment-q-007",
+    "node_id": "chem-m-scientific-inquiry-experiment",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "在探究燃烧的条件时，下列哪种方法最能有效证明燃烧需要可燃物（   ）。",
+    "options": [
+      "将可燃物与空气混合并加热",
+      "将可燃物与不燃物混合并加热",
+      "将可燃物置于真空中加热",
+      "将可燃物与纯氧气混合并加热"
+    ],
+    "answer": "将可燃物与不燃物混合并加热",
+    "steps": [
+      "燃烧需要可燃物、氧气和达到着火点。",
+      "通过对比实验，将可燃物与不燃物混合并加热。",
+      "观察燃烧现象，若只有可燃物燃烧，则证明燃烧需要可燃物。"
+    ],
+    "common_errors": [
+      {
+        "error": "选择错误的实验方法",
+        "hint": "实验应通过对比来验证可燃物的必要性。"
+      }
+    ],
+    "exam_frequency": 1
+  },
+  {
+    "id": "chem-m-scientific-inquiry-experiment-q-008",
+    "node_id": "chem-m-scientific-inquiry-experiment",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请设计一个实验，探究催化剂对过氧化氢分解速率的影响。",
+    "answer": "设计实验时，需要准备两支试管，分别加入等量的过氧化氢溶液。在其中一支试管中加入少量二氧化锰（催化剂），另一支试管中不加任何催化剂。然后，观察两支试管中气泡产生的速率和强度，记录结果并进行比较。",
+    "steps": [
+      "准备两支试管，加入等量的过氧化氢溶液。",
+      "在其中一支试管中加入少量二氧化锰。",
+      "观察两支试管中气泡产生的速率和强度。",
+      "记录结果，比较有无催化剂对分解速率的影响。"
+    ],
+    "common_errors": [
+      "未控制变量",
+      "未记录详细的实验现象",
+      "未考虑催化剂的用量对实验结果的影响"
+    ],
+    "exam_frequency": 1
+  }
+]

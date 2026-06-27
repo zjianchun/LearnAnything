@@ -1,0 +1,210 @@
+[
+  {
+    "id": "hist-m-modern-world-formation-q-001",
+    "node_id": "hist-m-modern-world-formation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列哪一事件标志着资本主义制度初步确立？",
+    "options": [
+      "A. 英国资产阶级革命",
+      "B. 美国独立战争",
+      "C. 法国大革命",
+      "D. 俄国十月革命"
+    ],
+    "answer": "A. 英国资产阶级革命",
+    "steps": [
+      "1. 分析各选项所代表的历史事件。",
+      "2. 英国资产阶级革命发生在17世纪，通过《权利法案》确立了君主立宪制。",
+      "3. 君主立宪制是资本主义制度的一种形式，标志着资本主义制度初步确立。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B选项",
+        "hint": "美国独立战争虽然也是资产阶级革命，但发生在18世纪，晚于英国资产阶级革命。"
+      },
+      {
+        "error": "误选C选项",
+        "hint": "法国大革命虽然重要，但其主要影响是传播了资产阶级自由民主思想，时间上也晚于英国。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-modern-world-formation-q-002",
+    "node_id": "hist-m-modern-world-formation",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "英国资产阶级革命后，议会通过的_________奠定了君主立宪制的基础。",
+    "answer": "《权利法案》",
+    "steps": [
+      "1. 回顾英国资产阶级革命的历史背景。",
+      "2. 革命后，议会通过《权利法案》来限制王权。",
+      "3. 《权利法案》的通过标志着英国君主立宪制的初步确立。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误法案名称",
+        "hint": "注意区分《权利法案》和《人权宣言》，后者是法国大革命时期的文件。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-modern-world-formation-q-003",
+    "node_id": "hist-m-modern-world-formation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "美国独立战争后，确立的政体是：",
+    "options": [
+      "A. 君主专制",
+      "B. 君主立宪制",
+      "C. 联邦共和制",
+      "D. 民主共和制"
+    ],
+    "answer": "D. 民主共和制",
+    "steps": [
+      "1. 回顾美国独立战争的结果。",
+      "2. 美国独立后，制定了1787年宪法，确立了联邦制和民主共和制。",
+      "3. 联邦共和制是民主共和制的一种形式。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B选项",
+        "hint": "美国没有君主，不存在君主立宪制。"
+      },
+      {
+        "error": "误选C选项",
+        "hint": "联邦共和制是民主共和制的一种具体形式，题目问的是政体类型。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-modern-world-formation-q-004",
+    "node_id": "hist-m-modern-world-formation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述法国大革命对资本主义制度确立的影响。",
+    "answer": "法国大革命推翻了法国的封建统治，传播了自由民主等进步思想，对欧洲乃至世界的资本主义发展产生了深远影响。它为资本主义制度在欧洲的扩展奠定了基础。",
+    "steps": [
+      "1. 回顾法国大革命的历史背景和过程。",
+      "2. 分析法国大革命对欧洲其他国家的影响。",
+      "3. 总结法国大革命对资本主义制度确立的贡献。"
+    ],
+    "common_errors": [
+      {
+        "error": "只描述大革命的过程",
+        "hint": "注意题目要求的是对资本主义制度确立的影响，而不是大革命本身。"
+      },
+      {
+        "error": "忽略对欧洲其他国家的影响",
+        "hint": "法国大革命的影响不仅限于法国国内，还包括对欧洲其他国家的影响。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-modern-world-formation-q-005",
+    "node_id": "hist-m-modern-world-formation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列哪一项不属于资本主义制度确立的条件？",
+    "options": [
+      "A. 资产阶级力量的壮大",
+      "B. 封建制度的瓦解",
+      "C. 工人阶级的兴起",
+      "D. 启蒙思想的传播"
+    ],
+    "answer": "C. 工人阶级的兴起",
+    "steps": [
+      "1. 分析资本主义制度确立的历史背景。",
+      "2. 资产阶级力量的壮大是资本主义制度确立的关键因素。",
+      "3. 封建制度的瓦解为资本主义发展扫清了障碍。",
+      "4. 启蒙思想的传播为资本主义制度提供了思想基础。",
+      "5. 工人阶级的兴起是工业革命后的现象，不是资本主义制度确立的条件。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选D选项",
+        "hint": "启蒙思想的传播是资本主义制度确立的重要思想基础。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-modern-world-formation-q-006",
+    "node_id": "hist-m-modern-world-formation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析英国资产阶级革命对世界历史发展的影响。",
+    "answer": "英国资产阶级革命推翻了封建君主专制，确立了君主立宪制，为资本主义发展开辟了道路。它不仅影响了欧洲其他国家，还对世界历史进程产生了深远影响，推动了全球资本主义的发展。",
+    "steps": [
+      "1. 回顾英国资产阶级革命的过程和结果。",
+      "2. 分析革命对欧洲其他国家的影响。",
+      "3. 探讨革命对世界历史发展的长远影响。"
+    ],
+    "common_errors": [
+      {
+        "error": "只描述革命对英国国内的影响",
+        "hint": "注意题目要求的是对世界历史发展的影响。"
+      },
+      {
+        "error": "忽略革命对资本主义发展的影响",
+        "hint": "革命为资本主义发展开辟了道路，这是其重要影响之一。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "hist-m-modern-world-formation-q-007",
+    "node_id": "hist-m-modern-world-formation",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "美国独立战争期间颁布的_________，宣告了美国的独立。",
+    "answer": "《独立宣言》",
+    "steps": [
+      "1. 回顾美国独立战争的关键事件。",
+      "2. 《独立宣言》于1776年7月4日通过，宣告了美国的独立。",
+      "3. 《独立宣言》是美国历史上重要的文献。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误文件名称",
+        "hint": "注意区分《独立宣言》和《权利法案》。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "hist-m-modern-world-formation-q-008",
+    "node_id": "hist-m-modern-world-formation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "论述资本主义制度初步确立对世界格局的影响。",
+    "answer": "资本主义制度初步确立后，资本主义国家逐渐崛起，推动了全球贸易和殖民扩张。欧洲列强在全球范围内进行殖民扩张，形成了以欧洲为中心的世界格局。同时，资本主义经济的发展也促进了科技和文化的进步，对世界历史进程产生了深远影响。",
+    "steps": [
+      "1. 分析资本主义制度确立后的经济发展。",
+      "2. 探讨资本主义国家对全球贸易和殖民扩张的影响。",
+      "3. 总结资本主义制度对世界格局的长远影响。"
+    ],
+    "common_errors": [
+      {
+        "error": "只描述资本主义制度对欧洲的影响",
+        "hint": "注意题目要求的是对世界格局的影响。"
+      },
+      {
+        "error": "忽略资本主义制度对科技和文化的影响",
+        "hint": "资本主义制度的确立不仅影响了经济和政治，还包括科技和文化的进步。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

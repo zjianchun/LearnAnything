@@ -1,0 +1,256 @@
+[
+  {
+    "id": "phy-m-current-measurement-q-001",
+    "node_id": "phy-m-current-measurement",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "在测量电流时，电流表应与被测电路元件如何连接？",
+    "options": [
+      "串联",
+      "并联",
+      "先串联后并联",
+      "先并联后串联"
+    ],
+    "answer": "串联",
+    "steps": [
+      "电流表测量电流时，应与被测电路元件串联。",
+      "串联时电流表测量的电流就是通过该元件的电流。",
+      "并联会导致电流分流，测量结果不准确。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为电流表应并联连接",
+        "hint": "电流表必须串联连接，否则会损坏电流表或影响测量结果。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-current-measurement-q-002",
+    "node_id": "phy-m-current-measurement",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "使用电流表测量电流时，若指针反向偏转，可能的原因是________。",
+    "answer": "电流表正负接线柱接反了",
+    "steps": [
+      "电流表指针反向偏转说明电流方向与预期相反。",
+      "检查电流表接线，发现正负接线柱接反。",
+      "纠正接线后重新测量。"
+    ],
+    "common_errors": [
+      {
+        "error": "认为电流表故障",
+        "hint": "先检查接线是否正确，再考虑电流表是否损坏。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-current-measurement-q-003",
+    "node_id": "phy-m-current-measurement",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "电流表的量程选择原则是？",
+    "options": [
+      "越大越好",
+      "越小越好",
+      "略大于被测电流",
+      "等于被测电流"
+    ],
+    "answer": "略大于被测电流",
+    "steps": [
+      "选择量程时，应使被测电流在电流表量程范围内。",
+      "量程过大，测量精度低；量程过小，可能损坏电流表。",
+      "选择略大于被测电流的量程最为合适。"
+    ],
+    "common_errors": [
+      {
+        "error": "选择过大量程",
+        "hint": "量程过大虽然安全，但测量精度会降低。"
+      },
+      {
+        "error": "选择过小量程",
+        "hint": "量程过小可能导致电流表损坏。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-current-measurement-q-004",
+    "node_id": "phy-m-current-measurement",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "在电路中，电流表指针偏转很小，可能的原因有哪些？",
+    "answer": "1. 电流表量程选择过大；2. 被测电流本身很小；3. 电路中电流表连接不良；4. 电源电压不足。",
+    "steps": [
+      "分析电流表指针偏转小的可能原因。",
+      "检查电流表量程是否合适。",
+      "确认电路连接是否正确。",
+      "考虑电源电压是否正常。"
+    ],
+    "common_errors": [
+      {
+        "error": "只考虑单一原因",
+        "hint": "应全面分析可能的原因，包括量程、连接和电源等方面。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-current-measurement-q-005",
+    "node_id": "phy-m-current-measurement",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "如何正确使用电流表测量干路电流？",
+    "answer": "1. 选择合适的量程；2. 将电流表串联在干路中；3. 确保电流从正接线柱流入，负接线柱流出；4. 读取电流表示数。",
+    "steps": [
+      "选择合适的电流表量程。",
+      "将电流表串联在干路中。",
+      "确认电流方向与电流表接线柱对应。",
+      "读取电流表示数并记录。"
+    ],
+    "common_errors": [
+      {
+        "error": "电流表连接在支路中",
+        "hint": "干路电流应测量整个电路的电流，电流表必须串联在干路中。"
+      },
+      {
+        "error": "未注意电流方向",
+        "hint": "电流方向错误会导致指针反向偏转，影响测量结果。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-current-measurement-q-006",
+    "node_id": "phy-m-current-measurement",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "在测量电流时，若电流表示数超出量程，应该如何处理？",
+    "options": [
+      "立即断开电路",
+      "调大电流表量程",
+      "调小电流表量程",
+      "继续测量"
+    ],
+    "answer": "立即断开电路",
+    "steps": [
+      "电流表示数超出量程时，应立即断开电路以保护电流表。",
+      "重新选择合适的量程。",
+      "重新连接电路进行测量。"
+    ],
+    "common_errors": [
+      {
+        "error": "调大电流表量程",
+        "hint": "超出量程时继续测量会损坏电流表，应立即断开电路。"
+      },
+      {
+        "error": "调小电流表量程",
+        "hint": "调小量程会使情况更糟，可能导致电流表损坏。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-current-measurement-q-007",
+    "node_id": "phy-m-current-measurement",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "在并联电路中，如何测量通过某个电阻的电流？",
+    "answer": "1. 选择合适的电流表量程；2. 将电流表串联在该电阻支路中；3. 确认电流方向正确；4. 读取电流表示数。",
+    "steps": [
+      "选择合适的电流表量程。",
+      "将电流表串联在该电阻支路中。",
+      "确认电流方向与电流表接线柱对应。",
+      "读取电流表示数并记录。"
+    ],
+    "common_errors": [
+      {
+        "error": "电流表连接在干路中",
+        "hint": "并联电路中测量某个电阻的电流，应将电流表串联在该电阻的支路中。"
+      },
+      {
+        "error": "未注意电流方向",
+        "hint": "电流方向错误会导致指针反向偏转，影响测量结果。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-current-measurement-q-008",
+    "node_id": "phy-m-current-measurement",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "在串联电路中，如何测量电路的总电流和各元件的电流？",
+    "answer": "1. 选择合适的电流表量程；2. 将电流表串联在电路的任意位置；3. 读取电流表示数；4. 由于串联电路电流处处相等，测得的总电流和各元件的电流相同。",
+    "steps": [
+      "选择合适的电流表量程。",
+      "将电流表串联在电路的任意位置。",
+      "读取电流表示数。",
+      "由于串联电路电流处处相等，测得的总电流和各元件的电流相同。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为串联电路中各元件电流不同",
+        "hint": "串联电路中电流处处相等，测得的总电流和各元件的电流相同。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-current-measurement-q-009",
+    "node_id": "phy-m-current-measurement",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "在测量电流时，若电流表指针偏转过大，可能的原因是________。",
+    "answer": "电流表量程选择过小",
+    "steps": [
+      "电流表指针偏转过大说明电流值超出量程。",
+      "检查电流表量程选择是否合适。",
+      "选择更大的量程重新测量。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为电流表故障",
+        "hint": "先检查量程是否合适，再考虑电流表是否损坏。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-current-measurement-q-010",
+    "node_id": "phy-m-current-measurement",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "在复杂电路中，如何准确测量某支路的电流？",
+    "answer": "1. 分析电路结构，确定支路位置；2. 选择合适的电流表量程；3. 将电流表串联在该支路中；4. 确认电流方向正确；5. 读取电流表示数。",
+    "steps": [
+      "分析电路结构，确定支路位置。",
+      "选择合适的电流表量程。",
+      "将电流表串联在该支路中。",
+      "确认电流方向正确。",
+      "读取电流表示数并记录。"
+    ],
+    "common_errors": [
+      {
+        "error": "电流表连接位置错误",
+        "hint": "准确测量某支路电流，电流表必须串联在该支路中。"
+      },
+      {
+        "error": "未注意电流方向",
+        "hint": "电流方向错误会导致指针反向偏转，影响测量结果。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

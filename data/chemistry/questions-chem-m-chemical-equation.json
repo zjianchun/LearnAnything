@@ -1,0 +1,223 @@
+[
+  {
+    "id": "chem-m-chemical-equation-q-001",
+    "node_id": "chem-m-chemical-equation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列化学方程式中，属于化合反应的是（   ）",
+    "options": [
+      "A. 2H₂O₂ = 2H₂O + O₂↑",
+      "B. 2Mg + O₂ = 2MgO",
+      "C. CuSO₄ + 2NaOH = Cu(OH)₂↓ + Na₂SO₄",
+      "D. CaCO₃ = CaO + CO₂↑"
+    ],
+    "answer": "B. 2Mg + O₂ = 2MgO",
+    "steps": [
+      "1. 化合反应的定义：由两种或两种以上物质生成一种物质的反应。",
+      "2. 分析每个选项：A选项是分解反应，C选项是复分解反应，D选项是分解反应。",
+      "3. B选项符合化合反应的定义：两种物质生成一种物质。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将分解反应或复分解反应当作化合反应。",
+        "hint": "牢记化合反应的定义，仔细分析每个反应的特点。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chem-m-chemical-equation-q-002",
+    "node_id": "chem-m-chemical-equation",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "写出铁丝在氧气中燃烧的化学方程式：________。",
+    "answer": "3Fe + 2O₂ = Fe₃O₄",
+    "steps": [
+      "1. 回忆铁丝在氧气中燃烧的实验现象：剧烈燃烧，火星四射，生成黑色固体。",
+      "2. 根据反应物和生成物写出化学方程式：3Fe + 2O₂ = Fe₃O₄。"
+    ],
+    "common_errors": [
+      {
+        "error": "化学方程式未配平。",
+        "hint": "检查反应前后各元素的原子数是否相等。"
+      },
+      {
+        "error": "生成物化学式错误。",
+        "hint": "铁在氧气中燃烧生成四氧化三铁，而不是氧化铁。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-chemical-equation-q-003",
+    "node_id": "chem-m-chemical-equation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列化学方程式书写正确的是（   ）",
+    "options": [
+      "A. 2H₂ + O₂ = 2H₂O",
+      "B. Mg + HCl = MgCl₂ + H₂↑",
+      "C. 2KClO₃ = 2KCl + 3O₂↑",
+      "D. Cu + 2AgNO₃ = Cu(NO₃)₂ + 2Ag"
+    ],
+    "answer": "D. Cu + 2AgNO₃ = Cu(NO₃)₂ + 2Ag",
+    "steps": [
+      "1. 检查每个选项的化学方程式是否配平。",
+      "2. A选项未配平：2H₂ + O₂ = 2H₂O。",
+      "3. B选项未配平：Mg + 2HCl = MgCl₂ + H₂↑。",
+      "4. C选项配平正确，但未注明条件。",
+      "5. D选项配平正确，条件省略不影响判断。"
+    ],
+    "common_errors": [
+      {
+        "error": "未检查化学方程式的配平。",
+        "hint": "仔细检查反应前后各元素的原子数是否相等。"
+      },
+      {
+        "error": "忽略反应条件。",
+        "hint": "注意反应条件是否需要注明。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-chemical-equation-q-004",
+    "node_id": "chem-m-chemical-equation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "写出实验室用高锰酸钾制取氧气的化学方程式，并注明反应条件。",
+    "answer": "2KMnO₄ = K₂MnO₄ + MnO₂ + O₂↑（条件：加热）",
+    "steps": [
+      "1. 回忆实验室制取氧气的反应物和生成物：高锰酸钾分解生成锰酸钾、二氧化锰和氧气。",
+      "2. 写出化学方程式：2KMnO₄ = K₂MnO₄ + MnO₂ + O₂↑。",
+      "3. 注明反应条件：加热。"
+    ],
+    "common_errors": [
+      {
+        "error": "化学方程式未配平。",
+        "hint": "检查反应前后各元素的原子数是否相等。"
+      },
+      {
+        "error": "反应条件错误或未注明。",
+        "hint": "实验室用高锰酸钾制取氧气需要加热。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chem-m-chemical-equation-q-005",
+    "node_id": "chem-m-chemical-equation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "写出盐酸与氢氧化钠溶液反应的化学方程式。",
+    "answer": "HCl + NaOH = NaCl + H₂O",
+    "steps": [
+      "1. 回忆盐酸与氢氧化钠的反应：酸碱中和反应，生成盐和水。",
+      "2. 写出化学方程式：HCl + NaOH = NaCl + H₂O。"
+    ],
+    "common_errors": [
+      {
+        "error": "化学方程式未配平。",
+        "hint": "检查反应前后各元素的原子数是否相等。"
+      },
+      {
+        "error": "生成物化学式错误。",
+        "hint": "酸碱中和反应生成盐和水。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chem-m-chemical-equation-q-006",
+    "node_id": "chem-m-chemical-equation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "写出碳与氧化铜在高温下反应的化学方程式。",
+    "answer": "C + 2CuO = 2Cu + CO₂↑（条件：高温）",
+    "steps": [
+      "1. 回忆碳与氧化铜的反应：碳还原氧化铜，生成铜和二氧化碳。",
+      "2. 写出化学方程式：C + 2CuO = 2Cu + CO₂↑。",
+      "3. 注明反应条件：高温。"
+    ],
+    "common_errors": [
+      {
+        "error": "化学方程式未配平。",
+        "hint": "检查反应前后各元素的原子数是否相等。"
+      },
+      {
+        "error": "反应条件错误或未注明。",
+        "hint": "碳与氧化铜的反应需要在高温下进行。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-chemical-equation-q-007",
+    "node_id": "chem-m-chemical-equation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "写出锌与稀硫酸反应的化学方程式，并计算生成0.2mol氢气需要多少克锌。",
+    "answer": "Zn + H₂SO₄ = ZnSO₄ + H₂↑；需要6.5克锌。",
+    "steps": [
+      "1. 写出化学方程式：Zn + H₂SO₄ = ZnSO₄ + H₂↑。",
+      "2. 计算锌的摩尔质量：65g/mol。",
+      "3. 根据化学方程式，1mol锌生成1mol氢气。",
+      "4. 生成0.2mol氢气需要0.2mol锌。",
+      "5. 计算锌的质量：0.2mol × 65g/mol = 13g。"
+    ],
+    "common_errors": [
+      {
+        "error": "化学方程式未配平。",
+        "hint": "检查反应前后各元素的原子数是否相等。"
+      },
+      {
+        "error": "未正确计算锌的摩尔质量。",
+        "hint": "锌的原子量是65g/mol。"
+      },
+      {
+        "error": "计算错误。",
+        "hint": "仔细计算，确保每一步都正确。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-chemical-equation-q-008",
+    "node_id": "chem-m-chemical-equation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "写出氯酸钾与二氧化锰混合加热制取氧气的化学方程式，并计算制取3.2g氧气需要多少克氯酸钾。",
+    "answer": "2KClO₃ = 2KCl + 3O₂↑（条件：MnO₂，加热）；需要8.17克氯酸钾。",
+    "steps": [
+      "1. 写出化学方程式：2KClO₃ = 2KCl + 3O₂↑（条件：MnO₂，加热）。",
+      "2. 计算氧气的摩尔质量：32g/mol。",
+      "3. 计算3.2g氧气的物质的量：3.2g ÷ 32g/mol = 0.1mol。",
+      "4. 根据化学方程式，2mol KClO₃生成3mol O₂。",
+      "5. 计算需要KClO₃的物质的量：0.1mol × (2/3) = 0.0667mol。",
+      "6. 计算KClO₃的质量：0.0667mol × 122.5g/mol = 8.17g。"
+    ],
+    "common_errors": [
+      {
+        "error": "化学方程式未配平。",
+        "hint": "检查反应前后各元素的原子数是否相等。"
+      },
+      {
+        "error": "未正确计算氧气的物质的量。",
+        "hint": "氧气的摩尔质量是32g/mol。"
+      },
+      {
+        "error": "计算错误。",
+        "hint": "仔细计算，确保每一步都正确。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

@@ -1,0 +1,176 @@
+[
+  {
+    "id": "phy-m-ohms-law-q-001",
+    "node_id": "phy-m-ohms-law",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "根据欧姆定律，当电阻R保持不变时，电压U与电流I的关系是：",
+    "options": [
+      "A. U与I成正比",
+      "B. U与I成反比",
+      "C. U与I无关",
+      "D. U与I的平方成正比"
+    ],
+    "answer": "A. U与I成正比",
+    "steps": [
+      "根据欧姆定律，U = IR",
+      "当R保持不变时，U与I成正比关系"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为U与I成反比",
+        "hint": "回顾欧姆定律公式，理解各物理量的关系"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-ohms-law-q-002",
+    "node_id": "phy-m-ohms-law",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "一个电阻为10Ω的导体两端电压为5V，则通过该导体的电流为______A。",
+    "answer": "0.5",
+    "steps": [
+      "根据欧姆定律，I = U/R",
+      "代入数值，I = 5V/10Ω = 0.5A"
+    ],
+    "common_errors": [
+      {
+        "error": "忘记单位换算",
+        "hint": "注意电压单位为V，电阻单位为Ω"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-ohms-law-q-003",
+    "node_id": "phy-m-ohms-law",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "当通过导体的电流增加时，导体的电阻：",
+    "options": [
+      "A. 增大",
+      "B. 减小",
+      "C. 不变",
+      "D. 无法确定"
+    ],
+    "answer": "C. 不变",
+    "steps": [
+      "电阻是导体本身的属性，与电流无关",
+      "根据欧姆定律，R = U/I，但电阻不随电流变化"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为电阻会随电流变化",
+        "hint": "理解电阻是导体本身的属性"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-ohms-law-q-004",
+    "node_id": "phy-m-ohms-law",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一个电阻为20Ω的导体，通过的电流为0.2A，求该导体两端的电压。",
+    "answer": "根据欧姆定律，U = IR。代入数值，U = 0.2A × 20Ω = 4V。",
+    "steps": [
+      "根据欧姆定律，U = IR",
+      "代入数值，U = 0.2A × 20Ω = 4V"
+    ],
+    "common_errors": [
+      {
+        "error": "忘记单位换算",
+        "hint": "注意电流单位为A，电阻单位为Ω"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-ohms-law-q-005",
+    "node_id": "phy-m-ohms-law",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一个导体两端的电压为12V，通过的电流为0.3A，求该导体的电阻。",
+    "answer": "根据欧姆定律，R = U/I。代入数值，R = 12V/0.3A = 40Ω。",
+    "steps": [
+      "根据欧姆定律，R = U/I",
+      "代入数值，R = 12V/0.3A = 40Ω"
+    ],
+    "common_errors": [
+      {
+        "error": "错误使用公式",
+        "hint": "明确欧姆定律公式中各物理量的关系"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-ohms-law-q-006",
+    "node_id": "phy-m-ohms-law",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一个导体两端的电压为6V，电阻为30Ω，求通过该导体的电流。",
+    "answer": "根据欧姆定律，I = U/R。代入数值，I = 6V/30Ω = 0.2A。",
+    "steps": [
+      "根据欧姆定律，I = U/R",
+      "代入数值，I = 6V/30Ω = 0.2A"
+    ],
+    "common_errors": [
+      {
+        "error": "错误使用公式",
+        "hint": "明确欧姆定律公式中各物理量的关系"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-ohms-law-q-007",
+    "node_id": "phy-m-ohms-law",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个导体两端的电压为10V，电阻为50Ω，求该导体在5分钟内消耗的电能。",
+    "answer": "根据欧姆定律，I = U/R = 10V/50Ω = 0.2A。电能W = UIt = 10V × 0.2A × (5 × 60s) = 600J。",
+    "steps": [
+      "根据欧姆定律，I = U/R",
+      "计算电流，I = 10V/50Ω = 0.2A",
+      "电能W = UIt = 10V × 0.2A × (5 × 60s) = 600J"
+    ],
+    "common_errors": [
+      {
+        "error": "错误计算时间",
+        "hint": "注意时间单位为秒，需将分钟转换为秒"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-ohms-law-q-008",
+    "node_id": "phy-m-ohms-law",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个导体两端的电压为15V，电阻为30Ω，求该导体在2小时内产生的热量。",
+    "answer": "根据欧姆定律，I = U/R = 15V/30Ω = 0.5A。热量Q = I²Rt = (0.5A)² × 30Ω × (2 × 3600s) = 54000J。",
+    "steps": [
+      "根据欧姆定律，I = U/R",
+      "计算电流，I = 15V/30Ω = 0.5A",
+      "热量Q = I²Rt = (0.5A)² × 30Ω × (2 × 3600s) = 54000J"
+    ],
+    "common_errors": [
+      {
+        "error": "错误计算时间",
+        "hint": "注意时间单位为秒，需将小时转换为秒"
+      }
+    ],
+    "exam_frequency": 4
+  }
+]

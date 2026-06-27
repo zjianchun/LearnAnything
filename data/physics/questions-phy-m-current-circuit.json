@@ -1,0 +1,193 @@
+[
+  {
+    "id": "phy-m-current-circuit-q-001",
+    "node_id": "phy-m-current-circuit",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "在电路中，电流的方向是（  ）。",
+    "options": [
+      "A. 从电源正极流向负极",
+      "B. 从电源负极流向正极",
+      "C. 在电源内部从正极流向负极",
+      "D. 在电源内部从负极流向正极"
+    ],
+    "answer": "A. 从电源正极流向负极",
+    "steps": [
+      "1. 电流的方向规定为正电荷移动的方向。",
+      "2. 在电源外部，电流从正极流向负极。",
+      "3. 在电源内部，电流从负极流向正极。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为电流在电源内部从正极流向负极",
+        "hint": "注意电流方向的规定，在电源内部电流方向与外部相反。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-current-circuit-q-002",
+    "node_id": "phy-m-current-circuit",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "一个电路中有两个灯泡串联，若通过一个灯泡的电流为0.5A，则通过另一个灯泡的电流为_____A。",
+    "answer": "0.5",
+    "steps": [
+      "1. 串联电路中电流处处相等。",
+      "2. 因此通过两个灯泡的电流相等。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为串联电路中电流不相等",
+        "hint": "牢记串联电路中电流处处相等。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-current-circuit-q-003",
+    "node_id": "phy-m-current-circuit",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列关于并联电路的说法中，正确的是（  ）。",
+    "options": [
+      "A. 各支路电流相等",
+      "B. 总电流等于各支路电流之和",
+      "C. 各支路电压不相等",
+      "D. 总电压等于各支路电压之差"
+    ],
+    "answer": "B. 总电流等于各支路电流之和",
+    "steps": [
+      "1. 并联电路中各支路电压相等。",
+      "2. 总电流等于各支路电流之和。",
+      "3. 各支路电流不一定相等。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为并联电路中各支路电流相等",
+        "hint": "并联电路中各支路电流不一定相等。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-current-circuit-q-004",
+    "node_id": "phy-m-current-circuit",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "在如图所示的电路中，电源电压为6V，R1=2Ω，R2=4Ω，则通过R1的电流为（  ）。",
+    "options": [
+      "A. 1A",
+      "B. 2A",
+      "C. 3A",
+      "D. 4A"
+    ],
+    "answer": "B. 2A",
+    "steps": [
+      "1. 计算R1和R2的等效电阻：R总=R1+R2=2Ω+4Ω=6Ω。",
+      "2. 根据欧姆定律，I=U/R总=6V/6Ω=1A。",
+      "3. 由于R1和R2串联，通过R1的电流等于总电流，即2A。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为通过R1的电流为1A",
+        "hint": "注意题目中电源电压为6V，而不是3V。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-current-circuit-q-005",
+    "node_id": "phy-m-current-circuit",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一个电路中有两个电阻R1和R2并联，R1=3Ω，R2=6Ω，电源电压为12V，求通过R1的电流。",
+    "answer": "通过R1的电流为4A。\n步骤：\n1. 并联电路中各支路电压相等，因此R1两端的电压为12V。\n2. 根据欧姆定律，I1=U/R1=12V/3Ω=4A。",
+    "steps": [
+      "1. 确定R1两端的电压为12V。",
+      "2. 应用欧姆定律计算通过R1的电流：I1=U/R1=12V/3Ω=4A。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为通过R1的电流为2A",
+        "hint": "注意并联电路中各支路电压相等，而不是电流相等。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-current-circuit-q-006",
+    "node_id": "phy-m-current-circuit",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "在如图所示的电路中，电源电压为9V，R1=3Ω，R2=6Ω，则R1和R2的总功率为（  ）。",
+    "options": [
+      "A. 9W",
+      "B. 18W",
+      "C. 27W",
+      "D. 36W"
+    ],
+    "answer": "B. 18W",
+    "steps": [
+      "1. 计算R1和R2的等效电阻：R总=R1+R2=3Ω+6Ω=9Ω。",
+      "2. 根据欧姆定律，I=U/R总=9V/9Ω=1A。",
+      "3. 总功率P=I²R总=1²×9Ω=9W。",
+      "4. 或者使用P=U²/R总=9²/9=9W。",
+      "5. 题目中要求的是R1和R2的总功率，因此为18W。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为总功率为9W",
+        "hint": "注意题目中要求的是R1和R2的总功率，而不是单个电阻的功率。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-current-circuit-q-007",
+    "node_id": "phy-m-current-circuit",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个电路中有三个电阻R1、R2和R3并联，R1=2Ω，R2=4Ω，R3=6Ω，电源电压为12V，求通过R1的电流。",
+    "answer": "通过R1的电流为6A。\n步骤：\n1. 并联电路中各支路电压相等，因此R1两端的电压为12V。\n2. 根据欧姆定律，I1=U/R1=12V/2Ω=6A。",
+    "steps": [
+      "1. 确定R1两端的电压为12V。",
+      "2. 应用欧姆定律计算通过R1的电流：I1=U/R1=12V/2Ω=6A。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为通过R1的电流为3A",
+        "hint": "注意并联电路中各支路电压相等，而不是电流相等。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "phy-m-current-circuit-q-008",
+    "node_id": "phy-m-current-circuit",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个电路中有两个电阻R1和R2串联，R1=3Ω，R2=6Ω，电源电压为18V，求R1两端的电压。",
+    "answer": "R1两端的电压为6V。\n步骤：\n1. 计算R1和R2的等效电阻：R总=R1+R2=3Ω+6Ω=9Ω。\n2. 根据欧姆定律，I=U/R总=18V/9Ω=2A。\n3. R1两端的电压U1=I×R1=2A×3Ω=6V。",
+    "steps": [
+      "1. 计算R1和R2的等效电阻。",
+      "2. 应用欧姆定律计算总电流。",
+      "3. 计算R1两端的电压。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为R1两端的电压为12V",
+        "hint": "注意串联电路中电压分配与电阻成正比。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

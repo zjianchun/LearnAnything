@@ -1,0 +1,204 @@
+[
+  {
+    "id": "bio-m-biology-cross-disciplinary-practice-q-001",
+    "node_id": "bio-m-biology-cross-disciplinary-practice",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "以下哪一项不属于生物学与其他学科交叉的领域？",
+    "options": [
+      "A. 生物物理学",
+      "B. 生物化学",
+      "C. 生物地理学",
+      "D. 生物历史学"
+    ],
+    "answer": "D. 生物历史学",
+    "steps": [
+      "1. 分析选项中各学科的定义和范围。",
+      "2. 生物物理学涉及物理原理在生物系统中的应用。",
+      "3. 生物化学研究生物体内的化学反应和分子机制。",
+      "4. 生物地理学研究生物分布及其与环境的关系。",
+      "5. 生物历史学不是公认的学科交叉领域。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选生物地理学",
+        "hint": "生物地理学是生物学与地理学的交叉学科，需仔细辨别。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-biology-cross-disciplinary-practice-q-002",
+    "node_id": "bio-m-biology-cross-disciplinary-practice",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "植物的光合作用涉及化学和物理学知识，其中光合作用的总反应式是：6CO₂ + 6H₂O + 光能 → C₆H₁₂O₆ + _____。",
+    "answer": "6O₂",
+    "steps": [
+      "1. 回忆光合作用的总反应式。",
+      "2. 确定反应物和生成物。",
+      "3. 光合作用生成氧气，化学式为O₂。",
+      "4. 根据化学计量数配平。"
+    ],
+    "common_errors": [
+      {
+        "error": "写成6O₃",
+        "hint": "注意化学计量数的正确配平，氧气分子是O₂。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-biology-cross-disciplinary-practice-q-003",
+    "node_id": "bio-m-biology-cross-disciplinary-practice",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "在研究生态系统时，常常需要用到数学模型来预测种群数量变化，这种方法属于：",
+    "options": [
+      "A. 生物数学",
+      "B. 生物统计学",
+      "C. 生物信息学",
+      "D. 生物工程学"
+    ],
+    "answer": "A. 生物数学",
+    "steps": [
+      "1. 理解题目中提到的种群数量变化预测。",
+      "2. 分析各选项的定义：生物数学涉及数学模型在生物学中的应用。",
+      "3. 生物统计学侧重于数据的收集和分析。",
+      "4. 生物信息学主要处理生物数据。",
+      "5. 生物工程学侧重于应用工程技术解决生物学问题。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选生物统计学",
+        "hint": "生物统计学侧重于数据分析，而种群数量变化预测主要依赖数学模型。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-biology-cross-disciplinary-practice-q-004",
+    "node_id": "bio-m-biology-cross-disciplinary-practice",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请简述生物学与化学在生物体内物质代谢过程中的交叉应用。",
+    "answer": "生物学与化学在生物体内物质代谢过程中交叉应用主要体现在：1. 化学反应：生物体内的物质代谢涉及多种化学反应，如氧化还原反应、水解反应等。2. 酶的作用：酶作为生物催化剂，加速化学反应。3. 能量转换：物质代谢过程中伴随能量转换，如ATP的合成与分解。4. 分子结构：生物大分子的结构和功能研究需要化学知识。",
+    "steps": [
+      "1. 明确物质代谢过程中涉及的化学反应。",
+      "2. 解释酶在代谢中的作用。",
+      "3. 描述能量转换过程。",
+      "4. 提及生物大分子的结构与功能。"
+    ],
+    "common_errors": [
+      {
+        "error": "忽略酶的作用",
+        "hint": "酶在生物体内物质代谢中起关键作用，不可忽略。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-biology-cross-disciplinary-practice-q-005",
+    "node_id": "bio-m-biology-cross-disciplinary-practice",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "在研究基因表达时，生物学家常常需要用到计算机技术来分析DNA序列，这种方法属于：",
+    "options": [
+      "A. 生物信息学",
+      "B. 生物统计学",
+      "C. 生物物理学",
+      "D. 生物化学"
+    ],
+    "answer": "A. 生物信息学",
+    "steps": [
+      "1. 理解题目中提到的DNA序列分析。",
+      "2. 分析各选项的定义：生物信息学涉及生物数据的处理和分析。",
+      "3. 生物统计学侧重于数据的收集和分析。",
+      "4. 生物物理学研究物理原理在生物系统中的应用。",
+      "5. 生物化学研究生物体内的化学反应和分子机制。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选生物统计学",
+        "hint": "生物统计学侧重于数据分析，而DNA序列分析主要依赖生物信息学。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-biology-cross-disciplinary-practice-q-006",
+    "node_id": "bio-m-biology-cross-disciplinary-practice",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请举例说明生物学与物理学在生物力学中的应用，并简述其重要性。",
+    "answer": "生物学与物理学在生物力学中的应用主要体现在：1. 骨骼和肌肉的运动：骨骼和肌肉的力学特性研究，如骨骼的承重能力和肌肉的收缩力。2. 血液循环：血液在血管中的流动规律研究，涉及流体力学。3. 呼吸运动：肺的扩张和收缩与呼吸力学。4. 重要性：生物力学的研究有助于理解生物体的运动机制，改进医疗设备，如假肢和人工关节的设计，以及运动损伤的预防和治疗。",
+    "steps": [
+      "1. 明确生物力学的定义和应用领域。",
+      "2. 举例说明生物学与物理学在生物力学中的具体应用。",
+      "3. 解释生物力学研究的重要性。"
+    ],
+    "common_errors": [
+      {
+        "error": "忽略生物力学的重要性",
+        "hint": "生物力学的研究对医学和生物工程学有重要意义，需详细阐述。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-biology-cross-disciplinary-practice-q-007",
+    "node_id": "bio-m-biology-cross-disciplinary-practice",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "在生态学研究中，地理信息系统（GIS）被广泛应用于分析生物多样性和生态系统分布，这种方法属于：",
+    "options": [
+      "A. 生物地理学",
+      "B. 生物信息学",
+      "C. 生物统计学",
+      "D. 生物物理学"
+    ],
+    "answer": "A. 生物地理学",
+    "steps": [
+      "1. 理解题目中提到的GIS应用。",
+      "2. 分析各选项的定义：生物地理学涉及生物分布及其与环境的关系。",
+      "3. 生物信息学主要处理生物数据。",
+      "4. 生物统计学侧重于数据的收集和分析。",
+      "5. 生物物理学研究物理原理在生物系统中的应用。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选生物信息学",
+        "hint": "GIS在生态学研究中主要用于生物分布分析，属于生物地理学范畴。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-biology-cross-disciplinary-practice-q-008",
+    "node_id": "bio-m-biology-cross-disciplinary-practice",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请简述生物学与计算机科学在生物信息学中的交叉应用，并举例说明其重要性。",
+    "answer": "生物学与计算机科学在生物信息学中的交叉应用主要体现在：1. DNA序列分析：利用计算机算法分析DNA序列，预测基因结构和功能。2. 蛋白质结构预测：计算机模拟蛋白质的三维结构。3. 数据管理：处理和存储大量的生物数据，如基因组数据。4. 重要性：生物信息学的研究有助于加速新药研发，理解疾病机制，以及推动生物技术的发展。例如，在新冠疫情期间，生物信息学在病毒基因组分析、疫苗研发和疫情追踪中发挥了重要作用。",
+    "steps": [
+      "1. 明确生物信息学的定义和应用领域。",
+      "2. 举例说明生物学与计算机科学的具体应用。",
+      "3. 阐述生物信息学的重要性。"
+    ],
+    "common_errors": [
+      {
+        "error": "忽略生物信息学的重要性",
+        "hint": "生物信息学对现代生物学研究和生物技术发展至关重要，需详细阐述。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

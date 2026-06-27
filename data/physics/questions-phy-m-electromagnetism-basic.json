@@ -1,0 +1,258 @@
+[
+  {
+    "id": "phy-m-electromagnetism-basic-q-001",
+    "node_id": "phy-m-electromagnetism-basic",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列现象中，属于电流的磁效应的是：",
+    "options": [
+      "A. 通电导线周围产生磁场",
+      "B. 磁铁吸引铁钉",
+      "C. 电磁感应现象",
+      "D. 磁铁吸引磁针"
+    ],
+    "answer": "A. 通电导线周围产生磁场",
+    "steps": [
+      "1. 理解电流的磁效应的定义：电流通过导体时，在其周围产生磁场。",
+      "2. 分析各选项：A选项描述了电流的磁效应；B选项是磁铁的固有性质；C选项是电磁感应现象，是磁生电的现象；D选项是磁铁的相互作用。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B选项",
+        "hint": "磁铁吸引铁钉是磁体的固有性质，不是电流的磁效应。"
+      },
+      {
+        "error": "误选C选项",
+        "hint": "电磁感应现象是磁生电的现象，与电流的磁效应相反。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-electromagnetism-basic-q-002",
+    "node_id": "phy-m-electromagnetism-basic",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "通电螺线管的极性可以通过__________来判断。",
+    "answer": "右手螺旋定则",
+    "steps": [
+      "1. 回忆判断通电螺线管极性的方法：右手螺旋定则。",
+      "2. 填写正确答案：右手螺旋定则。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误，如“左手定则”",
+        "hint": "左手定则用于判断通电导线在磁场中的受力方向，不是判断螺线管极性的方法。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-electromagnetism-basic-q-003",
+    "node_id": "phy-m-electromagnetism-basic",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列关于电流磁效应的说法中，正确的是：",
+    "options": [
+      "A. 电流越大，磁场越弱",
+      "B. 电流方向改变，磁场方向改变",
+      "C. 导线越长，磁场越弱",
+      "D. 导线越粗，磁场越弱"
+    ],
+    "answer": "B. 电流方向改变，磁场方向改变",
+    "steps": [
+      "1. 理解电流磁效应的基本规律：电流越大，磁场越强；电流方向改变，磁场方向也随之改变。",
+      "2. 分析各选项：A选项错误，电流越大，磁场越强；B选项正确；C选项错误，导线越长，磁场越强；D选项错误，导线越粗，磁场越强。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A选项",
+        "hint": "电流越大，磁场越强，而不是越弱。"
+      },
+      {
+        "error": "误选C或D选项",
+        "hint": "导线越长或越粗，磁场越强，而不是越弱。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-electromagnetism-basic-q-004",
+    "node_id": "phy-m-electromagnetism-basic",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请简要说明电流的磁效应的应用。",
+    "answer": "电流的磁效应在生活中有广泛的应用，例如电磁继电器、电磁起重机、电动机等。电磁继电器利用电流产生的磁场控制开关，实现远程控制；电磁起重机利用强大的磁场吸起铁制品；电动机则是利用电流产生的磁场与磁场中的通电线圈相互作用产生转动的装置。",
+    "steps": [
+      "1. 理解电流的磁效应的基本概念。",
+      "2. 列举电流磁效应的具体应用：电磁继电器、电磁起重机、电动机等。",
+      "3. 对每个应用进行简要说明。"
+    ],
+    "common_errors": [
+      {
+        "error": "列举的应用不全面",
+        "hint": "电流的磁效应应用广泛，除了列举的应用外，还可以提到电磁铁等。"
+      },
+      {
+        "error": "对应用说明不准确",
+        "hint": "需要准确描述每个应用的工作原理，例如电磁继电器是利用电流产生的磁场控制开关。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-electromagnetism-basic-q-005",
+    "node_id": "phy-m-electromagnetism-basic",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "通电螺线管内插入铁芯后，其磁性会：",
+    "options": [
+      "A. 减弱",
+      "B. 增强",
+      "C. 不变",
+      "D. 无法判断"
+    ],
+    "answer": "B. 增强",
+    "steps": [
+      "1. 理解铁芯对螺线管磁场的影响：铁芯被磁化后，会增强螺线管的磁场。",
+      "2. 分析各选项：B选项正确；A、C、D选项错误。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A选项",
+        "hint": "铁芯被磁化后，会增强而不是减弱螺线管的磁场。"
+      },
+      {
+        "error": "误选C选项",
+        "hint": "插入铁芯后，螺线管的磁性会发生变化，不是不变。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-electromagnetism-basic-q-006",
+    "node_id": "phy-m-electromagnetism-basic",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请解释为什么通电导线周围会产生磁场。",
+    "answer": "通电导线周围产生磁场的原理是：电流是电荷的定向运动，而电荷的定向运动会产生磁场。根据安培环路定理，电流通过导线时，会在其周围产生环形磁场。",
+    "steps": [
+      "1. 理解电流的磁效应的本质：电荷的定向运动产生磁场。",
+      "2. 解释安培环路定理：电流通过导线时，会在其周围产生环形磁场。",
+      "3. 总结：通电导线周围产生磁场的根本原因是电荷的定向运动。"
+    ],
+    "common_errors": [
+      {
+        "error": "解释不准确",
+        "hint": "需要明确指出电流的磁效应的本质是电荷的定向运动产生磁场。"
+      },
+      {
+        "error": "未提到安培环路定理",
+        "hint": "安培环路定理是解释电流磁效应的重要理论，需要提及。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-electromagnetism-basic-q-007",
+    "node_id": "phy-m-electromagnetism-basic",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "通电螺线管的磁场方向可以通过__________来判断。",
+    "answer": "右手螺旋定则",
+    "steps": [
+      "1. 回忆判断通电螺线管磁场方向的方法：右手螺旋定则。",
+      "2. 填写正确答案：右手螺旋定则。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误，如“左手定则”",
+        "hint": "左手定则用于判断通电导线在磁场中的受力方向，不是判断螺线管磁场方向的方法。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-electromagnetism-basic-q-008",
+    "node_id": "phy-m-electromagnetism-basic",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请详细说明电磁铁的工作原理。",
+    "answer": "电磁铁的工作原理是利用电流的磁效应和铁芯的磁化作用。当电流通过导线绕制的线圈时，导线周围产生磁场，插入铁芯后，铁芯被磁化，磁场增强。改变电流的方向，磁场的方向也随之改变，从而可以控制电磁铁的极性。",
+    "steps": [
+      "1. 解释电流的磁效应：电流通过导线时产生磁场。",
+      "2. 说明铁芯的作用：铁芯被磁化后，增强磁场。",
+      "3. 描述电磁铁的极性控制：改变电流方向，磁场方向改变。"
+    ],
+    "common_errors": [
+      {
+        "error": "未提到铁芯的作用",
+        "hint": "铁芯是电磁铁的重要组成部分，其磁化作用可以增强磁场。"
+      },
+      {
+        "error": "未说明极性控制",
+        "hint": "电磁铁的极性可以通过改变电流方向来控制。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "phy-m-electromagnetism-basic-q-009",
+    "node_id": "phy-m-electromagnetism-basic",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "下列关于电流磁效应的说法中，错误的是：",
+    "options": [
+      "A. 电流的磁效应是电磁感应的基础",
+      "B. 电流的磁效应是电动机的工作原理",
+      "C. 电流的磁效应是电磁继电器的工作原理",
+      "D. 电流的磁效应是电磁铁的工作原理"
+    ],
+    "answer": "A. 电流的磁效应是电磁感应的基础",
+    "steps": [
+      "1. 分析各选项：B、C、D选项正确，电流的磁效应是电动机、电磁继电器和电磁铁的工作原理；A选项错误，电磁感应是磁生电的现象，不是电流的磁效应。",
+      "2. 确定错误选项：A选项。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B、C或D选项",
+        "hint": "电流的磁效应确实是电动机、电磁继电器和电磁铁的工作原理。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "phy-m-electromagnetism-basic-q-010",
+    "node_id": "phy-m-electromagnetism-basic",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释为什么通电导线在磁场中会受到力的作用。",
+    "answer": "通电导线在磁场中受到力的作用是因为电流在磁场中会受到洛伦兹力的作用。根据左手定则，可以判断通电导线在磁场中的受力方向。当电流方向与磁场方向不平行时，导线会受到垂直于电流和磁场方向的作用力。",
+    "steps": [
+      "1. 解释洛伦兹力：电流在磁场中受到洛伦兹力的作用。",
+      "2. 说明左手定则：判断通电导线在磁场中的受力方向。",
+      "3. 总结：通电导线在磁场中受力是因为电流在磁场中受到洛伦兹力的作用。"
+    ],
+    "common_errors": [
+      {
+        "error": "未提到洛伦兹力",
+        "hint": "通电导线在磁场中受力是因为电流在磁场中受到洛伦兹力的作用。"
+      },
+      {
+        "error": "未说明左手定则",
+        "hint": "左手定则是判断通电导线在磁场中受力方向的重要工具。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

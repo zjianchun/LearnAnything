@@ -1,0 +1,188 @@
+[
+  {
+    "id": "math-m-variable-and-function-q-001",
+    "node_id": "math-m-variable-and-function",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列关于变量的说法中，正确的是（  ）",
+    "options": [
+      "A. 变量就是可以取任意值的字母",
+      "B. 变量在同一个问题中只能取一个值",
+      "C. 变量可以是常数",
+      "D. 变量是指在问题中可以变化的量"
+    ],
+    "answer": "D. 变量是指在问题中可以变化的量",
+    "steps": [
+      "1. 理解变量的定义：变量是指在问题中可以变化的量。",
+      "2. 分析每个选项：A选项中“可以取任意值”说法不准确，变量通常在一定范围内变化；B选项中“只能取一个值”与变量定义矛盾；C选项中“变量可以是常数”明显错误；D选项符合变量定义。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为变量可以取任意值",
+        "hint": "变量通常在一定范围内变化，而不是完全任意。"
+      },
+      {
+        "error": "混淆变量和常数的概念",
+        "hint": "变量是变化的量，而常数是固定不变的量。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-m-variable-and-function-q-002",
+    "node_id": "math-m-variable-and-function",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "已知函数 y = 2x + 3，当 x = 5 时，y 的值为______。",
+    "answer": "13",
+    "steps": [
+      "1. 将 x = 5 代入函数表达式 y = 2x + 3。",
+      "2. 计算：y = 2(5) + 3 = 10 + 3 = 13。"
+    ],
+    "common_errors": [
+      {
+        "error": "代入时忘记括号",
+        "hint": "确保正确代入变量值，避免运算错误。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "仔细进行数值计算，确保每一步都正确。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-variable-and-function-q-003",
+    "node_id": "math-m-variable-and-function",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "函数 y = -x² + 4 的图像是（  ）",
+    "options": [
+      "A. 开口向上的抛物线",
+      "B. 开口向下的抛物线",
+      "C. 直线",
+      "D. 双曲线"
+    ],
+    "answer": "B. 开口向下的抛物线",
+    "steps": [
+      "1. 观察函数表达式 y = -x² + 4，注意到二次项系数为负。",
+      "2. 根据二次函数图像性质，系数为负时，抛物线开口向下。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为系数为负时抛物线开口向上",
+        "hint": "二次函数中，系数为负时抛物线开口向下。"
+      },
+      {
+        "error": "误将二次函数图像识别为其他曲线",
+        "hint": "二次函数图像是抛物线，而不是直线或双曲线。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-variable-and-function-q-004",
+    "node_id": "math-m-variable-and-function",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "已知函数 y = 3x - 2，当 y = 7 时，求 x 的值。",
+    "answer": "解：\n1. 将 y = 7 代入函数表达式：7 = 3x - 2。\n2. 解方程：3x = 7 + 2\n   3x = 9\n   x = 3。\n所以，当 y = 7 时，x 的值为 3。",
+    "steps": [
+      "1. 将 y = 7 代入函数表达式 y = 3x - 2。",
+      "2. 解方程：7 = 3x - 2。",
+      "3. 移项并求解：3x = 9，x = 3。"
+    ],
+    "common_errors": [
+      {
+        "error": "代入时符号错误",
+        "hint": "确保正确代入变量值，注意符号。"
+      },
+      {
+        "error": "解方程时计算错误",
+        "hint": "仔细进行数值计算，避免错误。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-variable-and-function-q-005",
+    "node_id": "math-m-variable-and-function",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "函数 y = 2x + 1 的图像与 x 轴的交点坐标是______。",
+    "answer": "解：\n1. 图像与 x 轴的交点意味着 y = 0。\n2. 代入 y = 0：0 = 2x + 1。\n3. 解方程：2x = -1\n   x = -0.5。\n4. 所以交点坐标为 (-0.5, 0)。",
+    "steps": [
+      "1. 图像与 x 轴的交点意味着 y = 0。",
+      "2. 代入 y = 0：0 = 2x + 1。",
+      "3. 解方程：2x = -1，x = -0.5。",
+      "4. 交点坐标为 (-0.5, 0)。"
+    ],
+    "common_errors": [
+      {
+        "error": "忘记 y = 0 的条件",
+        "hint": "图像与 x 轴交点意味着 y = 0。"
+      },
+      {
+        "error": "解方程时计算错误",
+        "hint": "仔细进行数值计算，避免错误。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-variable-and-function-q-006",
+    "node_id": "math-m-variable-and-function",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "已知函数 y = x² - 4x + 3，求该函数的顶点坐标。",
+    "answer": "解：\n1. 函数为二次函数，形式为 y = ax² + bx + c，其中 a = 1，b = -4，c = 3。\n2. 顶点横坐标为 x = -b/(2a) = -(-4)/(2*1) = 2。\n3. 将 x = 2 代入原函数求 y 值：y = 2² - 4(2) + 3 = 4 - 8 + 3 = -1。\n4. 所以顶点坐标为 (2, -1)。",
+    "steps": [
+      "1. 确定二次函数的系数：a = 1，b = -4，c = 3。",
+      "2. 计算顶点横坐标：x = -b/(2a) = 2。",
+      "3. 代入 x = 2 求 y 值：y = -1。",
+      "4. 顶点坐标为 (2, -1)。"
+    ],
+    "common_errors": [
+      {
+        "error": "顶点坐标计算错误",
+        "hint": "使用顶点公式 x = -b/(2a) 计算横坐标，代入原函数求纵坐标。"
+      },
+      {
+        "error": "忘记代入求 y 值",
+        "hint": "顶点坐标需要同时确定 x 和 y 的值。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "math-m-variable-and-function-q-007",
+    "node_id": "math-m-variable-and-function",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "函数 y = (x - 1)(x + 3) 的图像与 y 轴的交点坐标是______。",
+    "answer": "解：\n1. 图像与 y 轴的交点意味着 x = 0。\n2. 代入 x = 0：y = (0 - 1)(0 + 3) = (-1)(3) = -3。\n3. 所以交点坐标为 (0, -3)。",
+    "steps": [
+      "1. 图像与 y 轴的交点意味着 x = 0。",
+      "2. 代入 x = 0：y = (0 - 1)(0 + 3) = -3。",
+      "3. 交点坐标为 (0, -3)。"
+    ],
+    "common_errors": [
+      {
+        "error": "代入时符号错误",
+        "hint": "确保正确代入变量值，注意符号。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "仔细进行数值计算，避免错误。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

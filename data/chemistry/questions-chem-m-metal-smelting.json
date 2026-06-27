@@ -1,0 +1,187 @@
+[
+  {
+    "id": "chem-m-metal-smelting-q-001",
+    "node_id": "chem-m-metal-smelting",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列金属中，通常采用热还原法冶炼的是：",
+    "options": [
+      "A. 钠",
+      "B. 铁",
+      "C. 铝",
+      "D. 银"
+    ],
+    "answer": "B. 铁",
+    "steps": [
+      "1. 回顾金属冶炼的方法：热还原法适用于中等活泼金属，如铁、锌等。",
+      "2. 钠和铝是活泼金属，通常采用电解法冶炼。",
+      "3. 银是不活泼金属，通常采用热分解法冶炼。",
+      "4. 铁是中等活泼金属，采用热还原法冶炼。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为活泼金属采用热还原法冶炼。",
+        "hint": "活泼金属如钠、钾、铝等通常采用电解法冶炼。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-metal-smelting-q-002",
+    "node_id": "chem-m-metal-smelting",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "工业上冶炼铝通常采用的方法是________。",
+    "answer": "电解法",
+    "steps": [
+      "1. 回顾金属铝的冶炼方法。",
+      "2. 铝是活泼金属，通常采用电解熔融氧化铝的方法冶炼。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为铝采用热还原法冶炼。",
+        "hint": "铝是活泼金属，不能用热还原法冶炼。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-metal-smelting-q-003",
+    "node_id": "chem-m-metal-smelting",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列金属中，通常采用热分解法冶炼的是：",
+    "options": [
+      "A. 铜",
+      "B. 铁",
+      "C. 银",
+      "D. 钠"
+    ],
+    "answer": "C. 银",
+    "steps": [
+      "1. 回顾金属冶炼的方法：热分解法适用于不活泼金属，如银、汞等。",
+      "2. 铜和铁是中等活泼金属，采用热还原法冶炼。",
+      "3. 钠是活泼金属，采用电解法冶炼。",
+      "4. 银是不活泼金属，采用热分解法冶炼。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为铜采用热分解法冶炼。",
+        "hint": "铜是中等活泼金属，采用热还原法冶炼。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-metal-smelting-q-004",
+    "node_id": "chem-m-metal-smelting",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请简述热还原法冶炼金属的原理，并举例说明。",
+    "answer": "热还原法是利用还原剂（如碳、一氧化碳、氢气等）将金属氧化物还原为金属单质。例如，用一氧化碳还原氧化铁：Fe2O3 + 3CO = 2Fe + 3CO2。",
+    "steps": [
+      "1. 解释热还原法的原理：利用还原剂将金属氧化物还原为金属单质。",
+      "2. 举例说明：例如用一氧化碳还原氧化铁。",
+      "3. 写出化学反应方程式：Fe2O3 + 3CO = 2Fe + 3CO2。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为热还原法是直接加热金属氧化物。",
+        "hint": "热还原法需要还原剂参与反应。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-metal-smelting-q-005",
+    "node_id": "chem-m-metal-smelting",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请解释为什么铝的冶炼通常采用电解法而不是热还原法。",
+    "answer": "因为铝是活泼金属，化学性质活泼，难以用还原剂将其氧化物还原为金属单质。电解法可以有效地将氧化铝电解为铝和氧气。",
+    "steps": [
+      "1. 解释铝的化学性质：铝是活泼金属，化学性质活泼。",
+      "2. 说明热还原法的局限性：难以用还原剂将铝的氧化物还原为金属单质。",
+      "3. 解释电解法的优势：可以有效地将氧化铝电解为铝和氧气。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为铝的冶炼可以用热还原法。",
+        "hint": "铝是活泼金属，不能用热还原法冶炼。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-metal-smelting-q-006",
+    "node_id": "chem-m-metal-smelting",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请简述电解法冶炼金属的原理，并举例说明。",
+    "answer": "电解法是在电流作用下，将金属化合物电解为金属单质和气体。例如，电解熔融氧化铝：2Al2O3 = 4Al + 3O2。",
+    "steps": [
+      "1. 解释电解法的原理：在电流作用下，将金属化合物电解为金属单质和气体。",
+      "2. 举例说明：例如电解熔融氧化铝。",
+      "3. 写出化学反应方程式：2Al2O3 = 4Al + 3O2。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为电解法是直接加热金属化合物。",
+        "hint": "电解法需要电流参与反应。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-metal-smelting-q-007",
+    "node_id": "chem-m-metal-smelting",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请比较热还原法和电解法冶炼金属的优缺点。",
+    "answer": "热还原法优点：设备简单，成本较低；缺点：能耗较高，金属纯度较低。电解法优点：金属纯度高，效率高；缺点：设备复杂，成本较高，能耗较高。",
+    "steps": [
+      "1. 分别列出热还原法和电解法的优点。",
+      "2. 分别列出热还原法和电解法的缺点。",
+      "3. 对比总结：热还原法适合成本敏感的场景，电解法适合高纯度金属的冶炼。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为热还原法适用于所有金属。",
+        "hint": "热还原法只适用于中等活泼金属。"
+      },
+      {
+        "error": "误以为电解法成本低廉。",
+        "hint": "电解法设备复杂，成本较高。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "chem-m-metal-smelting-q-008",
+    "node_id": "chem-m-metal-smelting",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析为什么某些金属的冶炼需要考虑环保问题，并举例说明。",
+    "answer": "因为某些金属冶炼过程中会产生有害气体和废弃物。例如，热还原法冶炼铁会产生二氧化碳和二氧化硫，电解法冶炼铝会产生氟化物等污染物。",
+    "steps": [
+      "1. 解释金属冶炼过程中的污染源：有害气体和废弃物。",
+      "2. 举例说明：热还原法冶炼铁和电解法冶炼铝。",
+      "3. 总结：金属冶炼需要环保措施以减少污染。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为所有金属冶炼过程都不会产生污染。",
+        "hint": "金属冶炼过程中会产生各种污染物，需要环保措施。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

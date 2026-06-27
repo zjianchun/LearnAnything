@@ -1,0 +1,166 @@
+[
+  {
+    "id": "eng-m-ipa-transcription-q-001",
+    "node_id": "eng-m-ipa-transcription",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列单词中，字母 'a' 的发音与其他三项不同的是：",
+    "options": [
+      "A. apple",
+      "B. cat",
+      "C. father",
+      "D. map"
+    ],
+    "answer": "C. father",
+    "steps": [
+      "1. 识别选项中每个单词的 'a' 发音：",
+      "   - apple /ˈæpəl/ - /æ/",
+      "   - cat /kæt/ - /æ/",
+      "   - father /ˈfɑːðə(r)/ - /ɑː/",
+      "   - map /mæp/ - /æ/",
+      "2. 比较发音：/æ/ 和 /ɑː/ 不同。",
+      "3. 得出结论：father 中的 'a' 发音为 /ɑː/，与其他选项不同。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为 'a' 在所有单词中发音相同。",
+        "hint": "注意区分 /æ/ 和 /ɑː/ 的不同发音。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-ipa-transcription-q-002",
+    "node_id": "eng-m-ipa-transcription",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列哪个单词的元音发音是 /iː/？",
+    "options": [
+      "A. see",
+      "B. sit",
+      "C. set",
+      "D. sad"
+    ],
+    "answer": "A. see",
+    "steps": [
+      "1. 识别选项中每个单词的元音发音：",
+      "   - see /siː/ - /iː/",
+      "   - sit /sɪt/ - /ɪ/",
+      "   - set /set/ - /e/",
+      "   - sad /sæd/ - /æ/",
+      "2. 比较发音：/iː/ 是长元音。",
+      "3. 得出结论：see 中的元音发音为 /iː/。"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆 /iː/ 和 /ɪ/ 的发音。",
+        "hint": "注意区分长元音 /iː/ 和短元音 /ɪ/。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-ipa-transcription-q-003",
+    "node_id": "eng-m-ipa-transcription",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "请写出单词 'phone' 的国际音标。",
+    "answer": "/fəʊn/",
+    "steps": [
+      "1. 识别单词 'phone' 的每个字母发音：",
+      "   - 'ph' 发音为 /f/",
+      "   - 'o' 发音为 /əʊ/",
+      "   - 'n' 发音为 /n/",
+      "   - 'e' 不发音。",
+      "2. 组合发音：/fəʊn/。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将 'ph' 写成 /p/ 或 /ph/。",
+        "hint": "记住 'ph' 在单词中通常发音为 /f/。"
+      },
+      {
+        "error": "误将 'o' 写成 /oʊ/ 或 /ɔː/。",
+        "hint": "在 'phone' 中，'o' 发音为 /əʊ/。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-ipa-transcription-q-004",
+    "node_id": "eng-m-ipa-transcription",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "请写出单词 'laugh' 的国际音标。",
+    "answer": "/lɑːf/",
+    "steps": [
+      "1. 识别单词 'laugh' 的每个字母发音：",
+      "   - 'l' 发音为 /l/",
+      "   - 'a' 发音为 /ɑː/",
+      "   - 'ugh' 发音为 /f/",
+      "2. 组合发音：/lɑːf/。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将 'a' 写成 /æ/ 或 /eɪ/。",
+        "hint": "在 'laugh' 中，'a' 发音为 /ɑː/。"
+      },
+      {
+        "error": "误将 'ugh' 写成 /g/ 或 /ʌf/。",
+        "hint": "在 'laugh' 中，'ugh' 发音为 /f/。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-ipa-transcription-q-005",
+    "node_id": "eng-m-ipa-transcription",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释为什么 'city' 和 'busy' 中的 's' 发音不同。",
+    "answer": "在 'city' 中，'s' 发音为 /s/，而在 'busy' 中，'s' 发音为 /z/。这是因为 'city' 中的 'i' 是短元音 /ɪ/，而 'busy' 中的 'u' 是短元音 /ɪ/，但 'y' 的发音影响使得 's' 在 'busy' 中变成 /z/。",
+    "steps": [
+      "1. 分析 'city' 和 'busy' 的发音：",
+      "   - 'city' /ˈsɪti/ - 's' 发音为 /s/。",
+      "   - 'busy' /ˈbɪzi/ - 's' 发音为 /z/。",
+      "2. 解释原因：",
+      "   - 'city' 中的 'i' 是短元音 /ɪ/，不影响 's' 的发音。",
+      "   - 'busy' 中的 'y' 影响 's' 的发音，使其变成 /z/。"
+    ],
+    "common_errors": [
+      {
+        "error": "认为 's' 在所有情况下发音相同。",
+        "hint": "注意元音和辅音的组合对发音的影响。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-ipa-transcription-q-006",
+    "node_id": "eng-m-ipa-transcription",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释 'though' 和 'through' 中的 'ough' 发音不同的原因。",
+    "answer": "在 'though' 中，'ough' 发音为 /əʊ/，而在 'through' 中，'ough' 发音为 /uː/。这是因为英语中 'ough' 的发音规则复杂，不同的组合和位置会导致不同的发音。'though' 中的 'ough' 遵循 /əʊ/ 的规则，而 'through' 中的 'ough' 遵循 /uː/ 的规则。",
+    "steps": [
+      "1. 分析 'though' 和 'through' 的发音：",
+      "   - 'though' /ðəʊ/ - 'ough' 发音为 /əʊ/。",
+      "   - 'through' /θruː/ - 'ough' 发音为 /uː/。",
+      "2. 解释原因：",
+      "   - 'ough' 的发音规则复杂，不同的组合和位置会导致不同的发音。"
+    ],
+    "common_errors": [
+      {
+        "error": "认为 'ough' 在所有情况下发音相同。",
+        "hint": "注意 'ough' 的发音规则在不同单词中可能不同。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

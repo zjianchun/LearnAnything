@@ -1,0 +1,211 @@
+[
+  {
+    "id": "math-m-linear-equation-system-graph-q-001",
+    "node_id": "math-m-linear-equation-system-graph",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "已知一次函数 y = 2x + 3 的图像与 x 轴的交点坐标是（ ），选项正确的是？",
+    "options": [
+      "A. (0, 3)",
+      "B. (3, 0)",
+      "C. (-3/2, 0)",
+      "D. (0, -3/2)"
+    ],
+    "answer": "C. (-3/2, 0)",
+    "steps": [
+      "1. 令 y = 0，求一次函数与 x 轴的交点。",
+      "2. 0 = 2x + 3，解方程得 x = -3/2。",
+      "3. 交点坐标为 (-3/2, 0)。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将 y = 0 代入错误。",
+        "hint": "求与 x 轴交点时，令 y = 0。"
+      },
+      {
+        "error": "计算错误，解方程出错。",
+        "hint": "仔细计算，确保解方程的准确性。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-linear-equation-system-graph-q-002",
+    "node_id": "math-m-linear-equation-system-graph",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "已知方程组 \\( \\begin{cases} x + y = 5 \\\\ 2x - y = 4 \\end{cases} \\)，则 x = ___, y = ___。",
+    "answer": "x = 3, y = 2",
+    "steps": [
+      "1. 用代入法或加减法解方程组。",
+      "2. 将第一个方程变为 y = 5 - x。",
+      "3. 代入第二个方程：2x - (5 - x) = 4，解得 x = 3。",
+      "4. 代入 y = 5 - x，得 y = 2。"
+    ],
+    "common_errors": [
+      {
+        "error": "代入错误或计算错误。",
+        "hint": "代入时注意符号和计算准确性。"
+      },
+      {
+        "error": "忘记解出 y 的值。",
+        "hint": "解出 x 后，代入求 y。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-m-linear-equation-system-graph-q-003",
+    "node_id": "math-m-linear-equation-system-graph",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 1,
+    "question": "求一次函数 y = -3x + 2 与 y = x - 4 的交点坐标。",
+    "answer": "交点坐标为 (1.5, -2.5)。",
+    "steps": [
+      "1. 令 -3x + 2 = x - 4。",
+      "2. 解方程：-3x + 2 = x - 4，得 -4x = -6，x = 1.5。",
+      "3. 代入 y = x - 4，得 y = 1.5 - 4 = -2.5。",
+      "4. 交点坐标为 (1.5, -2.5)。"
+    ],
+    "common_errors": [
+      {
+        "error": "解方程时计算错误。",
+        "hint": "仔细计算，确保解方程的准确性。"
+      },
+      {
+        "error": "代入错误或忘记代入求 y。",
+        "hint": "解出 x 后，代入求 y。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-linear-equation-system-graph-q-004",
+    "node_id": "math-m-linear-equation-system-graph",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "若一次函数 y = kx + b 的图像经过点 (2, 5) 和 (4, 9)，则 k 和 b 的值分别是？",
+    "options": [
+      "A. k = 2, b = 1",
+      "B. k = 1, b = 3",
+      "C. k = 1.5, b = 2",
+      "D. k = 3, b = -1"
+    ],
+    "answer": "A. k = 2, b = 1",
+    "steps": [
+      "1. 利用两点式求一次函数解析式。",
+      "2. k = (9 - 5) / (4 - 2) = 4 / 2 = 2。",
+      "3. 代入点 (2, 5) 得 5 = 2 * 2 + b，解得 b = 1。",
+      "4. k = 2, b = 1。"
+    ],
+    "common_errors": [
+      {
+        "error": "计算 k 时分母错误。",
+        "hint": "注意 x 坐标的差值作为分母。"
+      },
+      {
+        "error": "代入错误或计算 b 时出错。",
+        "hint": "代入时注意符号和计算准确性。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-linear-equation-system-graph-q-005",
+    "node_id": "math-m-linear-equation-system-graph",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "已知一次函数 y = 3x - 1 与直线 y = -x + 5 的交点坐标。",
+    "answer": "交点坐标为 (1.5, 3.5)。",
+    "steps": [
+      "1. 令 3x - 1 = -x + 5。",
+      "2. 解方程：3x - 1 = -x + 5，得 4x = 6，x = 1.5。",
+      "3. 代入 y = 3x - 1，得 y = 3 * 1.5 - 1 = 3.5。",
+      "4. 交点坐标为 (1.5, 3.5)。"
+    ],
+    "common_errors": [
+      {
+        "error": "解方程时计算错误。",
+        "hint": "仔细计算，确保解方程的准确性。"
+      },
+      {
+        "error": "代入错误或忘记代入求 y。",
+        "hint": "解出 x 后，代入求 y。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-linear-equation-system-graph-q-006",
+    "node_id": "math-m-linear-equation-system-graph",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "若直线 y = 2x + b 经过点 (1, 4)，则 b = ___。",
+    "answer": "b = 2",
+    "steps": [
+      "1. 将点 (1, 4) 代入直线方程 y = 2x + b。",
+      "2. 4 = 2 * 1 + b，解得 b = 2。"
+    ],
+    "common_errors": [
+      {
+        "error": "代入错误或计算错误。",
+        "hint": "代入时注意符号和计算准确性。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-m-linear-equation-system-graph-q-007",
+    "node_id": "math-m-linear-equation-system-graph",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "若直线 y = kx + 3 与直线 y = 2x - 1 平行，则 k = ___。",
+    "answer": "k = 2",
+    "steps": [
+      "1. 两直线平行，则斜率相等。",
+      "2. 直线 y = kx + 3 的斜率为 k。",
+      "3. 直线 y = 2x - 1 的斜率为 2。",
+      "4. 因此，k = 2。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将截距相等作为条件。",
+        "hint": "两直线平行，斜率相等，而不是截距相等。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-linear-equation-system-graph-q-008",
+    "node_id": "math-m-linear-equation-system-graph",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "若直线 y = 3x + b 与直线 y = -2x + 5 的交点坐标为 (1, y)，求 y 的值。",
+    "answer": "y = 5",
+    "steps": [
+      "1. 交点坐标为 (1, y)，代入直线 y = 3x + b 得 y = 3 * 1 + b。",
+      "2. 代入直线 y = -2x + 5 得 y = -2 * 1 + 5 = 3。",
+      "3. 因此，3 * 1 + b = 3，解得 b = 0。",
+      "4. 交点坐标为 (1, 3)。"
+    ],
+    "common_errors": [
+      {
+        "error": "代入错误或计算错误。",
+        "hint": "代入时注意符号和计算准确性。"
+      },
+      {
+        "error": "未正确理解题意。",
+        "hint": "明确交点坐标的含义，并代入求值。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

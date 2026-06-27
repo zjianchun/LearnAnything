@@ -1,0 +1,236 @@
+[
+  {
+    "id": "phy-m-light-propagation-q-001",
+    "node_id": "phy-m-light-propagation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列现象中，能说明光在同种均匀介质中沿直线传播的是：",
+    "options": [
+      "A. 平静湖面上倒映着岸边的景物",
+      "B. 太阳光穿过树叶间的缝隙形成光柱",
+      "C. 雨后天空出现的彩虹",
+      "D. 水中筷子看起来变弯了"
+    ],
+    "answer": "B. 太阳光穿过树叶间的缝隙形成光柱",
+    "steps": [
+      "1. 分析每个选项中光的传播现象。",
+      "2. A选项是光的反射现象。",
+      "3. B选项是光在同种均匀介质（空气）中沿直线传播形成的。",
+      "4. C选项是光的色散现象。",
+      "5. D选项是光的折射现象。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A",
+        "hint": "A选项是光的反射现象，不是直线传播。"
+      },
+      {
+        "error": "误选C",
+        "hint": "C选项是光的色散现象，与直线传播无关。"
+      },
+      {
+        "error": "误选D",
+        "hint": "D选项是光的折射现象，不是直线传播。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-light-propagation-q-002",
+    "node_id": "phy-m-light-propagation",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "光在_____中沿直线传播。",
+    "answer": "同种均匀介质",
+    "steps": [
+      "1. 回顾光的直线传播条件。",
+      "2. 光在同种均匀介质中沿直线传播。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写'真空中'",
+        "hint": "虽然光在真空中也沿直线传播，但题目要求的是普遍情况。"
+      },
+      {
+        "error": "填写'空气'",
+        "hint": "空气只是同种均匀介质中的一种特例。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-light-propagation-q-003",
+    "node_id": "phy-m-light-propagation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "在夜间行车时，车灯发出的光束是直的，这是因为：",
+    "options": [
+      "A. 光速很大",
+      "B. 光在空气中沿直线传播",
+      "C. 光是电磁波",
+      "D. 光的反射作用"
+    ],
+    "answer": "B. 光在空气中沿直线传播",
+    "steps": [
+      "1. 分析车灯发出的光在夜间传播的现象。",
+      "2. 光在空气中沿直线传播，所以光束是直的。",
+      "3. A选项与光的直线传播无关。",
+      "4. C选项是光的本质描述，与直线传播无关。",
+      "5. D选项是光的反射现象，与题目现象不符。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A",
+        "hint": "光速大与光束直线传播无直接关系。"
+      },
+      {
+        "error": "误选C",
+        "hint": "光是电磁波是光的本质属性，与直线传播无关。"
+      },
+      {
+        "error": "误选D",
+        "hint": "光的反射会使光束改变方向，不是直线传播的原因。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-light-propagation-q-004",
+    "node_id": "phy-m-light-propagation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "为什么我们能看见激光笔发出的光束？",
+    "answer": "激光笔发出的光束是沿直线传播的，当光束穿过空气中的尘埃或水汽时，这些微小的颗粒对光产生散射，使得光束被我们看见。",
+    "steps": [
+      "1. 解释激光笔发出的光沿直线传播。",
+      "2. 解释光束中光的散射现象。",
+      "3. 说明散射使光束可见。"
+    ],
+    "common_errors": [
+      {
+        "error": "回答'光速快'",
+        "hint": "光速快与看见光束无直接关系。"
+      },
+      {
+        "error": "回答'光的反射'",
+        "hint": "看见光束是由于散射，不是反射。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-light-propagation-q-005",
+    "node_id": "phy-m-light-propagation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列关于光的直线传播的说法，正确的是：",
+    "options": [
+      "A. 光在任何情况下都沿直线传播",
+      "B. 光在同种均匀介质中沿直线传播",
+      "C. 光在任何介质中都沿直线传播",
+      "D. 光在真空中不沿直线传播"
+    ],
+    "answer": "B. 光在同种均匀介质中沿直线传播",
+    "steps": [
+      "1. 分析每个选项的正确性。",
+      "2. A选项错误，光在不均匀介质中不沿直线传播。",
+      "3. B选项正确，符合光的直线传播条件。",
+      "4. C选项错误，光在不均匀介质中不沿直线传播。",
+      "5. D选项错误，光在真空中沿直线传播。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A",
+        "hint": "光在不均匀介质中不沿直线传播。"
+      },
+      {
+        "error": "误选C",
+        "hint": "光在不均匀介质中不沿直线传播。"
+      },
+      {
+        "error": "误选D",
+        "hint": "光在真空中沿直线传播。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-light-propagation-q-006",
+    "node_id": "phy-m-light-propagation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "解释日食和月食的形成原因。",
+    "answer": "日食是由于月球运行到地球和太阳之间，月球遮挡了太阳光，使得地球上的某些区域看不到太阳。月食是由于地球运行到月球和太阳之间，地球遮挡了太阳光，使得月球进入地球的阴影区。",
+    "steps": [
+      "1. 解释日食的形成原因。",
+      "2. 解释月食的形成原因。",
+      "3. 强调光的直线传播在日食和月食中的作用。"
+    ],
+    "common_errors": [
+      {
+        "error": "解释错误",
+        "hint": "日食和月食的形成都与光的直线传播有关。"
+      },
+      {
+        "error": "混淆日食和月食",
+        "hint": "日食是月球遮挡太阳光，月食是地球遮挡太阳光。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-light-propagation-q-007",
+    "node_id": "phy-m-light-propagation",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "光在密度不均匀的介质中传播时，会发生_____现象。",
+    "answer": "折射",
+    "steps": [
+      "1. 分析光在不同介质中传播的特点。",
+      "2. 光在密度不均匀的介质中传播时，会发生折射现象。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写'反射'",
+        "hint": "反射是光在介质界面处改变传播方向的现象。"
+      },
+      {
+        "error": "填写'散射'",
+        "hint": "散射是光被微小颗粒阻挡改变方向的现象。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-light-propagation-q-008",
+    "node_id": "phy-m-light-propagation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "为什么在夜晚，我们可以看到星星闪烁？",
+    "answer": "星星闪烁是由于大气层中空气密度的不均匀性，导致星光在传播过程中发生折射。空气的流动使得折射的方向不断变化，从而导致星星看起来在闪烁。",
+    "steps": [
+      "1. 解释星星闪烁的原因。",
+      "2. 说明大气层中空气密度不均匀性对光传播的影响。",
+      "3. 强调折射对星星闪烁的作用。"
+    ],
+    "common_errors": [
+      {
+        "error": "回答'星星本身发光不稳定'",
+        "hint": "星星闪烁与大气层中光的折射有关。"
+      },
+      {
+        "error": "回答'光的反射'",
+        "hint": "星星闪烁是由于折射，不是反射。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

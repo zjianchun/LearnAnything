@@ -1,0 +1,232 @@
+[
+  {
+    "id": "math-m-coordinate-system-q-001",
+    "node_id": "math-m-coordinate-system",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "在平面直角坐标系中，点A(3, -2)关于x轴对称的点的坐标是？",
+    "options": [
+      "A. (3, 2)",
+      "B. (-3, -2)",
+      "C. (-3, 2)",
+      "D. (2, -3)"
+    ],
+    "answer": "A. (3, 2)",
+    "steps": [
+      "1. 关于x轴对称的点的横坐标不变，纵坐标变为相反数。",
+      "2. 点A(3, -2)的横坐标是3，纵坐标是-2。",
+      "3. 关于x轴对称后，纵坐标变为2。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为纵坐标不变",
+        "hint": "关于x轴对称时，纵坐标变为相反数。"
+      },
+      {
+        "error": "误认为横坐标变为相反数",
+        "hint": "关于x轴对称时，横坐标不变。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-coordinate-system-q-002",
+    "node_id": "math-m-coordinate-system",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "已知点B的坐标为(-4, 5)，则点B到y轴的距离是________。",
+    "answer": "4",
+    "steps": [
+      "1. 点B的坐标为(-4, 5)。",
+      "2. 点到y轴的距离是横坐标的绝对值。",
+      "3. |-4| = 4。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为距离是横坐标本身",
+        "hint": "距离是横坐标的绝对值。"
+      },
+      {
+        "error": "误认为是纵坐标的绝对值",
+        "hint": "点到y轴的距离是横坐标的绝对值。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-coordinate-system-q-003",
+    "node_id": "math-m-coordinate-system",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "在平面直角坐标系中，点C(2, 3)关于原点对称的点的坐标是？",
+    "options": [
+      "A. (-2, 3)",
+      "B. (2, -3)",
+      "C. (-2, -3)",
+      "D. (3, 2)"
+    ],
+    "answer": "C. (-2, -3)",
+    "steps": [
+      "1. 关于原点对称的点的横坐标和纵坐标都变为相反数。",
+      "2. 点C(2, 3)的横坐标是2，纵坐标是3。",
+      "3. 关于原点对称后，横坐标变为-2，纵坐标变为-3。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为只有横坐标或纵坐标变为相反数",
+        "hint": "关于原点对称时，横坐标和纵坐标都变为相反数。"
+      },
+      {
+        "error": "误认为是关于x轴或y轴对称",
+        "hint": "题目要求的是关于原点对称。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-coordinate-system-q-004",
+    "node_id": "math-m-coordinate-system",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "已知点D的坐标为(1, -4)，点E的坐标为(-3, 2)，求线段DE的中点坐标。",
+    "answer": "点DE的中点坐标为(-1, -1)。",
+    "steps": [
+      "1. 线段的中点坐标公式为：((x1 + x2)/2, (y1 + y2)/2)。",
+      "2. 点D(1, -4)和点E(-3, 2)的横坐标和纵坐标分别为1和-3，-4和2。",
+      "3. 中点横坐标为：(1 + (-3))/2 = -2/2 = -1。",
+      "4. 中点纵坐标为：((-4) + 2)/2 = -2/2 = -1。",
+      "5. 因此，中点坐标为(-1, -1)。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用中点公式中的加法或除法",
+        "hint": "确保正确使用中点公式中的加法和除法。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "仔细计算每个步骤，确保结果正确。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-coordinate-system-q-005",
+    "node_id": "math-m-coordinate-system",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "在平面直角坐标系中，点F(5, 0)到原点的距离是？",
+    "options": [
+      "A. 5",
+      "B. 0",
+      "C. 25",
+      "D. 10"
+    ],
+    "answer": "A. 5",
+    "steps": [
+      "1. 点F(5, 0)到原点的距离公式为：√((x2 - x1)^2 + (y2 - y1)^2)。",
+      "2. 原点坐标为(0, 0)，点F(5, 0)的坐标为(5, 0)。",
+      "3. 距离为：√((5 - 0)^2 + (0 - 0)^2) = √(25 + 0) = √25 = 5。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用距离公式中的坐标",
+        "hint": "确保正确使用距离公式中的坐标。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "仔细计算每个步骤，确保结果正确。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-coordinate-system-q-006",
+    "node_id": "math-m-coordinate-system",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "已知点G的坐标为(a, b)，点H的坐标为(c, d)，求线段GH的中点坐标。",
+    "answer": "线段GH的中点坐标为((a + c)/2, (b + d)/2)。",
+    "steps": [
+      "1. 线段的中点坐标公式为：((x1 + x2)/2, (y1 + y2)/2)。",
+      "2. 点G(a, b)和点H(c, d)的横坐标和纵坐标分别为a和c，b和d。",
+      "3. 中点横坐标为：(a + c)/2。",
+      "4. 中点纵坐标为：(b + d)/2。",
+      "5. 因此，中点坐标为((a + c)/2, (b + d)/2)。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用中点公式中的加法或除法",
+        "hint": "确保正确使用中点公式中的加法和除法。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "仔细计算每个步骤，确保结果正确。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-coordinate-system-q-007",
+    "node_id": "math-m-coordinate-system",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "在平面直角坐标系中，点I(3, 4)到点J(6, 8)的距离是？",
+    "options": [
+      "A. 5",
+      "B. 25",
+      "C. 7",
+      "D. 13"
+    ],
+    "answer": "A. 5",
+    "steps": [
+      "1. 两点间的距离公式为：√((x2 - x1)^2 + (y2 - y1)^2)。",
+      "2. 点I(3, 4)和点J(6, 8)的横坐标和纵坐标分别为3和6，4和8。",
+      "3. 距离为：√((6 - 3)^2 + (8 - 4)^2) = √(3^2 + 4^2) = √(9 + 16) = √25 = 5。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用距离公式中的坐标",
+        "hint": "确保正确使用距离公式中的坐标。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "仔细计算每个步骤，确保结果正确。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-coordinate-system-q-008",
+    "node_id": "math-m-coordinate-system",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "在平面直角坐标系中，点K(2, 3)和点L(5, 7)的中点坐标是？",
+    "answer": "中点坐标为(3.5, 5)。",
+    "steps": [
+      "1. 线段的中点坐标公式为：((x1 + x2)/2, (y1 + y2)/2)。",
+      "2. 点K(2, 3)和点L(5, 7)的横坐标和纵坐标分别为2和5，3和7。",
+      "3. 中点横坐标为：(2 + 5)/2 = 7/2 = 3.5。",
+      "4. 中点纵坐标为：(3 + 7)/2 = 10/2 = 5。",
+      "5. 因此，中点坐标为(3.5, 5)。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用中点公式中的加法或除法",
+        "hint": "确保正确使用中点公式中的加法和除法。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "仔细计算每个步骤，确保结果正确。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

@@ -1,0 +1,220 @@
+[
+  {
+    "id": "bio-m-seed-structure-q-001",
+    "node_id": "bio-m-seed-structure",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "以下哪个结构不属于种子的基本结构？",
+    "options": [
+      "A. 种皮",
+      "B. 胚乳",
+      "C. 子叶",
+      "D. 花瓣"
+    ],
+    "answer": "D. 花瓣",
+    "steps": [
+      "步骤1：回顾种子的基本结构，包括种皮、胚、胚乳和子叶。",
+      "步骤2：分析每个选项，花瓣是花的一部分，不是种子结构。",
+      "步骤3：确认其他选项都是种子结构的一部分。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选胚乳",
+        "hint": "胚乳并非所有种子都具有，但它是种子结构之一。"
+      },
+      {
+        "error": "误选子叶",
+        "hint": "子叶是种子萌发的重要部分，属于种子结构。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "bio-m-seed-structure-q-002",
+    "node_id": "bio-m-seed-structure",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "种子萌发时，首先突破种皮的是____。",
+    "answer": "胚根",
+    "steps": [
+      "步骤1：回忆种子萌发的过程。",
+      "步骤2：明确种子萌发时，胚根先突破种皮向下生长，形成根。",
+      "步骤3：填写答案“胚根”。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写胚芽",
+        "hint": "胚芽是向上生长形成茎和叶的部分，不是首先突破种皮的。"
+      },
+      {
+        "error": "填写子叶",
+        "hint": "子叶主要作用是提供营养，不负责突破种皮。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-seed-structure-q-003",
+    "node_id": "bio-m-seed-structure",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列关于双子叶植物种子结构的描述，正确的是哪一项？",
+    "options": [
+      "A. 种子中只有一片子叶",
+      "B. 种子中有胚乳",
+      "C. 种子中子叶储存营养",
+      "D. 种子中没有胚"
+    ],
+    "answer": "C. 种子中子叶储存营养",
+    "steps": [
+      "步骤1：回顾双子叶植物种子的结构特点。",
+      "步骤2：明确双子叶植物种子有两片子叶，子叶储存营养。",
+      "步骤3：排除错误选项，A错误是因为双子叶植物有两片子叶，B错误是因为双子叶植物种子通常无胚乳，D错误是因为所有种子都有胚。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A",
+        "hint": "双子叶植物种子有两片子叶。"
+      },
+      {
+        "error": "误选B",
+        "hint": "双子叶植物种子通常无胚乳。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-seed-structure-q-004",
+    "node_id": "bio-m-seed-structure",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请简要说明单子叶植物种子和双子叶植物种子在结构上的主要区别。",
+    "answer": "单子叶植物种子有一片子叶，胚乳储存营养；双子叶植物种子有两片子叶，子叶储存营养。",
+    "steps": [
+      "步骤1：分别列出单子叶和双子叶植物种子的结构特点。",
+      "步骤2：比较两者在子叶数量和营养储存位置上的差异。",
+      "步骤3：组织语言，简洁明了地回答。"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆子叶数量",
+        "hint": "单子叶植物种子有一片子叶，双子叶植物种子有两片子叶。"
+      },
+      {
+        "error": "错误描述营养储存位置",
+        "hint": "单子叶植物种子中胚乳储存营养，双子叶植物种子中子叶储存营养。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-seed-structure-q-005",
+    "node_id": "bio-m-seed-structure",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "种子萌发过程中，下列哪种条件是必需的？",
+    "options": [
+      "A. 充足的光照",
+      "B. 适宜的温度",
+      "C. 土壤中的矿物质",
+      "D. 空气中的氮气"
+    ],
+    "answer": "B. 适宜的温度",
+    "steps": [
+      "步骤1：回顾种子萌发的必需条件，包括水分、温度和氧气。",
+      "步骤2：分析每个选项，光照不是必需条件，矿物质和氮气也不是萌发必需条件。",
+      "步骤3：确认适宜的温度是种子萌发的重要条件。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A",
+        "hint": "光照不是种子萌发必需条件。"
+      },
+      {
+        "error": "误选C",
+        "hint": "矿物质是植物生长所需，但不是萌发必需条件。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-seed-structure-q-006",
+    "node_id": "bio-m-seed-structure",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "种子萌发时，胚轴伸长使____和____相连。",
+    "answer": "胚芽,胚根",
+    "steps": [
+      "步骤1：回忆种子萌发过程中胚轴的作用。",
+      "步骤2：明确胚轴连接胚芽和胚根。",
+      "步骤3：填写答案“胚芽”和“胚根”。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写子叶",
+        "hint": "子叶是储存营养的部分，不与胚轴直接相连。"
+      },
+      {
+        "error": "填写种皮",
+        "hint": "种皮是包裹种子的部分，不与胚轴相连。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-seed-structure-q-007",
+    "node_id": "bio-m-seed-structure",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释为什么种子萌发时需要氧气？",
+    "answer": "种子萌发时，细胞进行呼吸作用，需要氧气参与以产生能量，支持种子萌发所需的各项生理活动。",
+    "steps": [
+      "步骤1：解释细胞呼吸作用的基本概念。",
+      "步骤2：说明种子萌发过程中细胞呼吸的重要性。",
+      "步骤3：强调氧气在能量产生中的关键作用。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为氧气用于光合作用",
+        "hint": "种子萌发时不需要光合作用，氧气用于呼吸作用。"
+      },
+      {
+        "error": "未提到能量产生",
+        "hint": "呼吸作用产生能量，支持种子萌发。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "bio-m-seed-structure-q-008",
+    "node_id": "bio-m-seed-structure",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "为什么有些种子在干燥环境下可以长期保存，而有些种子则不能？",
+    "answer": "干燥环境下可以长期保存的种子通常含水量低，代谢活动微弱；而不能长期保存的种子含水量较高，容易发生代谢活动，导致种子老化或霉变。",
+    "steps": [
+      "步骤1：解释种子保存的基本原理。",
+      "步骤2：比较含水量对种子保存的影响。",
+      "步骤3：说明代谢活动与种子保存的关系。"
+    ],
+    "common_errors": [
+      {
+        "error": "未提到含水量",
+        "hint": "含水量是影响种子保存的重要因素。"
+      },
+      {
+        "error": "未解释代谢活动",
+        "hint": "代谢活动影响种子的保存寿命。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

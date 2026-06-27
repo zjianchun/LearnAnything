@@ -1,0 +1,221 @@
+[
+  {
+    "id": "hist-m-world-wars-cold-war-q-001",
+    "node_id": "hist-m-world-wars-cold-war",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "第一次世界大战的导火索是？",
+    "options": [
+      "A. 萨拉热窝事件",
+      "B. 凡尔登战役",
+      "C. 索姆河战役",
+      "D. 日德兰海战"
+    ],
+    "answer": "A. 萨拉热窝事件",
+    "steps": [
+      "1. 了解第一次世界大战的起因",
+      "2. 明确萨拉热窝事件是奥匈帝国皇储被刺杀的事件",
+      "3. 确认该事件直接引发了第一次世界大战"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B或C",
+        "hint": "凡尔登战役和索姆河战役是第一次世界大战中的重要战役，但不是导火索"
+      },
+      {
+        "error": "误选D",
+        "hint": "日德兰海战是第一次世界大战中的一次海战，发生于战争期间"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-world-wars-cold-war-q-002",
+    "node_id": "hist-m-world-wars-cold-war",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "第二次世界大战的转折点是___________战役。",
+    "answer": "斯大林格勒",
+    "steps": [
+      "1. 了解第二次世界大战中的重要战役",
+      "2. 明确斯大林格勒战役是二战的转折点",
+      "3. 填写正确答案"
+    ],
+    "common_errors": [
+      {
+        "error": "填写其他战役名称",
+        "hint": "诺曼底登陆、中途岛战役等虽然重要，但不是二战的转折点"
+      },
+      {
+        "error": "拼写错误",
+        "hint": "注意‘斯大林格勒’的拼写"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-world-wars-cold-war-q-003",
+    "node_id": "hist-m-world-wars-cold-war",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "冷战时期，美国推行的政策是？",
+    "options": [
+      "A. 杜鲁门主义",
+      "B. 华沙条约",
+      "C. 改革开放",
+      "D. 和平共处五项原则"
+    ],
+    "answer": "A. 杜鲁门主义",
+    "steps": [
+      "1. 了解冷战时期的主要政策",
+      "2. 明确杜鲁门主义是美国对抗苏联的政策",
+      "3. 确认其他选项不符合题意"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B",
+        "hint": "华沙条约是苏联及其盟国签订的军事同盟条约"
+      },
+      {
+        "error": "误选C或D",
+        "hint": "改革开放是中国改革开放的政策，和平共处五项原则是中国提出的外交原则"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-world-wars-cold-war-q-004",
+    "node_id": "hist-m-world-wars-cold-war",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请简述第一次世界大战爆发的原因。",
+    "answer": "1. 帝国主义国家之间的矛盾激化；2. 民族主义情绪高涨；3. 军备竞赛加剧；4. 巴尔干半岛的紧张局势",
+    "steps": [
+      "1. 分析一战爆发的根本原因：帝国主义国家之间的矛盾",
+      "2. 阐述民族主义和军备竞赛的影响",
+      "3. 提及巴尔干半岛的紧张局势作为导火索"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到导火索事件",
+        "hint": "萨拉热窝事件只是导火索，需要阐述根本原因"
+      },
+      {
+        "error": "遗漏重要因素",
+        "hint": "军备竞赛和民族主义是重要因素，不能遗漏"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-world-wars-cold-war-q-005",
+    "node_id": "hist-m-world-wars-cold-war",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请简述冷战结束的标志。",
+    "answer": "1991年苏联解体标志着冷战的结束",
+    "steps": [
+      "1. 明确冷战结束的标志性事件",
+      "2. 阐述苏联解体对冷战的影响",
+      "3. 确认1991年为冷战结束的时间"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为是柏林墙的倒塌",
+        "hint": "柏林墙的倒塌是冷战中的一个重要事件，但不是结束的标志"
+      },
+      {
+        "error": "时间错误",
+        "hint": "注意冷战结束的时间是1991年"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-world-wars-cold-war-q-006",
+    "node_id": "hist-m-world-wars-cold-war",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "第二次世界大战中，反法西斯同盟的建立标志是？",
+    "options": [
+      "A. 莫斯科会议",
+      "B. 开罗宣言",
+      "C. 德黑兰会议",
+      "D. 《联合国家宣言》的签署"
+    ],
+    "answer": "D. 《联合国家宣言》的签署",
+    "steps": [
+      "1. 了解反法西斯同盟的建立过程",
+      "2. 明确《联合国家宣言》的签署标志着同盟的建立",
+      "3. 确认其他选项不符合题意"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A或C",
+        "hint": "莫斯科会议和德黑兰会议是同盟内部的重要会议，但不是建立标志"
+      },
+      {
+        "error": "误选B",
+        "hint": "开罗宣言是同盟国对战后秩序的宣言"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-world-wars-cold-war-q-007",
+    "node_id": "hist-m-world-wars-cold-war",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析冷战对世界格局的影响。",
+    "answer": "1. 世界分裂为两大阵营；2. 核军备竞赛加剧；3. 局部战争频繁；4. 国际关系紧张；5. 促进了科技和军事的发展",
+    "steps": [
+      "1. 分析冷战对世界政治格局的影响",
+      "2. 阐述冷战对军事和科技的影响",
+      "3. 提及冷战对国际关系的影响"
+    ],
+    "common_errors": [
+      {
+        "error": "只关注某一方面的影响",
+        "hint": "需要全面分析政治、军事、科技等多个方面"
+      },
+      {
+        "error": "遗漏重要影响",
+        "hint": "核军备竞赛和局部战争是冷战的重要影响，不能遗漏"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "hist-m-world-wars-cold-war-q-008",
+    "node_id": "hist-m-world-wars-cold-war",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请阐述第一次世界大战对世界历史的影响。",
+    "answer": "1. 欧洲列强地位下降；2. 美国和日本崛起；3. 民族解放运动兴起；4. 凡尔赛-华盛顿体系建立；5. 战争引发了社会变革",
+    "steps": [
+      "1. 分析一战对欧洲列强的影响",
+      "2. 阐述美国和日本在国际舞台上的崛起",
+      "3. 提及一战对民族解放运动的影响",
+      "4. 阐述凡尔赛-华盛顿体系的建立"
+    ],
+    "common_errors": [
+      {
+        "error": "只关注某一方面的影响",
+        "hint": "需要全面分析政治、经济、社会等多个方面"
+      },
+      {
+        "error": "遗漏重要影响",
+        "hint": "民族解放运动和凡尔赛-华盛顿体系是重要影响，不能遗漏"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

@@ -1,0 +1,230 @@
+[
+  {
+    "id": "phy-m-pressure-q-001",
+    "node_id": "phy-m-pressure",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列关于压强的说法，正确的是：",
+    "options": [
+      "A. 压力越大，压强越大",
+      "B. 受力面积越大，压强越大",
+      "C. 压力一定时，受力面积越大，压强越小",
+      "D. 受力面积一定时，压力越大，压强越小"
+    ],
+    "answer": "C. 压力一定时，受力面积越大，压强越小",
+    "steps": [
+      "1. 回顾压强公式：P = F / S，其中P为压强，F为压力，S为受力面积。",
+      "2. 分析选项A：压力越大，但未提及受力面积，无法判断压强大小。",
+      "3. 分析选项B：受力面积越大，压强应越小。",
+      "4. 分析选项C：压力一定时，受力面积越大，根据公式，压强越小。",
+      "5. 分析选项D：受力面积一定时，压力越大，压强应越大。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为压力越大，压强一定越大",
+        "hint": "压强不仅与压力有关，还与受力面积有关，需结合公式分析"
+      },
+      {
+        "error": "混淆压力与压强的概念",
+        "hint": "压力是力，压强是单位面积上的压力，概念不同"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-pressure-q-002",
+    "node_id": "phy-m-pressure",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "一个重为50N的物体放在水平地面上，与地面的接触面积为0.1m²，则物体对地面的压强为_____Pa。",
+    "answer": "500",
+    "steps": [
+      "1. 压强公式：P = F / S",
+      "2. 压力F等于物体的重力，即F = 50N",
+      "3. 受力面积S = 0.1m²",
+      "4. 代入公式：P = 50N / 0.1m² = 500Pa"
+    ],
+    "common_errors": [
+      {
+        "error": "误将重力与质量混淆",
+        "hint": "注意单位，重力单位为N，质量单位为kg"
+      },
+      {
+        "error": "计算时未注意单位换算",
+        "hint": "确保受力面积单位为m²"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-pressure-q-003",
+    "node_id": "phy-m-pressure",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列实例中，为了减小压强的是：",
+    "options": [
+      "A. 菜刀的刀刃很薄",
+      "B. 注射器的针头很尖",
+      "C. 坦克的履带很宽",
+      "D. 锥子尖很锋利"
+    ],
+    "answer": "C. 坦克的履带很宽",
+    "steps": [
+      "1. 减小压强的方法：增大受力面积或减小压力。",
+      "2. 分析选项A：刀刃很薄是为了增大压强。",
+      "3. 分析选项B：针头很尖是为了增大压强。",
+      "4. 分析选项C：履带很宽是为了减小压强。",
+      "5. 分析选项D：锥子尖很锋利是为了增大压强。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为减小受力面积可以减小压强",
+        "hint": "根据公式，减小受力面积会增大压强"
+      },
+      {
+        "error": "混淆增大压强与减小压强的实例",
+        "hint": "结合生活实例，理解压强变化规律"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-pressure-q-004",
+    "node_id": "phy-m-pressure",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一个质量为2kg的物体放在面积为0.5m²的桌面上，求物体对桌面的压强。（g取10N/kg）",
+    "answer": "40Pa",
+    "steps": [
+      "1. 计算物体的重力：F = mg = 2kg × 10N/kg = 20N",
+      "2. 压强公式：P = F / S",
+      "3. 代入数值：P = 20N / 0.5m² = 40Pa"
+    ],
+    "common_errors": [
+      {
+        "error": "计算重力时未考虑质量与重力的关系",
+        "hint": "重力等于质量乘以重力加速度"
+      },
+      {
+        "error": "计算时未注意单位换算",
+        "hint": "确保受力面积单位为m²"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-pressure-q-005",
+    "node_id": "phy-m-pressure",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一个边长为0.1m的正方体放在水平地面上，对地面的压强为2000Pa，求正方体的密度。（g取10N/kg）",
+    "answer": "2000kg/m³",
+    "steps": [
+      "1. 计算正方体的体积：V = 0.1m × 0.1m × 0.1m = 0.001m³",
+      "2. 压强公式：P = F / S，其中S = 0.1m × 0.1m = 0.01m²",
+      "3. 压力F = PS = 2000Pa × 0.01m² = 20N",
+      "4. 质量m = F / g = 20N / 10N/kg = 2kg",
+      "5. 密度ρ = m / V = 2kg / 0.001m³ = 2000kg/m³"
+    ],
+    "common_errors": [
+      {
+        "error": "未正确计算正方体的体积",
+        "hint": "体积等于边长的立方"
+      },
+      {
+        "error": "误将压力与重力混淆",
+        "hint": "压力等于压强乘以受力面积"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-pressure-q-006",
+    "node_id": "phy-m-pressure",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一个圆柱体容器内装有水，水深为0.3m，求水对容器底部的压强。（g取10N/kg，水的密度为1000kg/m³）",
+    "answer": "3000Pa",
+    "steps": [
+      "1. 液体压强公式：P = ρgh",
+      "2. 水的密度ρ = 1000kg/m³",
+      "3. 重力加速度g = 10N/kg",
+      "4. 深度h = 0.3m",
+      "5. 代入公式：P = 1000kg/m³ × 10N/kg × 0.3m = 3000Pa"
+    ],
+    "common_errors": [
+      {
+        "error": "误用公式P = F / S计算液体压强",
+        "hint": "液体压强需用P = ρgh公式"
+      },
+      {
+        "error": "未正确理解液体压强与深度的关系",
+        "hint": "液体压强与深度成正比"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-pressure-q-007",
+    "node_id": "phy-m-pressure",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个底面积为0.01m²的圆柱体容器内装有水，水对容器底部的压力为20N，求水的体积。（g取10N/kg，水的密度为1000kg/m³）",
+    "answer": "0.002m³",
+    "steps": [
+      "1. 压强公式：P = F / S",
+      "2. 压力F = 20N，底面积S = 0.01m²",
+      "3. 压强P = 20N / 0.01m² = 2000Pa",
+      "4. 液体压强公式：P = ρgh",
+      "5. 代入数值：2000Pa = 1000kg/m³ × 10N/kg × h",
+      "6. 解得h = 0.2m",
+      "7. 体积V = Sh = 0.01m² × 0.2m = 0.002m³"
+    ],
+    "common_errors": [
+      {
+        "error": "未正确计算水的深度",
+        "hint": "需先计算压强，再求深度"
+      },
+      {
+        "error": "误用公式P = F / S计算液体压强",
+        "hint": "液体压强需用P = ρgh公式"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-pressure-q-008",
+    "node_id": "phy-m-pressure",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个底面积为0.02m²的圆柱体容器内装有水，水对容器底部的压强为3000Pa，求水对容器侧壁的压力。（g取10N/kg，水的密度为1000kg/m³）",
+    "answer": "30N",
+    "steps": [
+      "1. 液体压强公式：P = ρgh",
+      "2. 压强P = 3000Pa，密度ρ = 1000kg/m³，g = 10N/kg",
+      "3. 代入公式：3000Pa = 1000kg/m³ × 10N/kg × h",
+      "4. 解得h = 0.3m",
+      "5. 侧壁面积S = 0.02m² × 0.3m = 0.006m²",
+      "6. 压力F = PS = 3000Pa × 0.006m² = 30N"
+    ],
+    "common_errors": [
+      {
+        "error": "未正确计算水的深度",
+        "hint": "需先计算压强，再求深度"
+      },
+      {
+        "error": "误认为水对侧壁的压力等于水对底部的压力",
+        "hint": "需计算侧壁面积，再求压力"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

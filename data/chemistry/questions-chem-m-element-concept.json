@@ -1,0 +1,179 @@
+[
+  {
+    "id": "chem-m-element-concept-q-001",
+    "node_id": "chem-m-element-concept",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列物质中，属于单质的是",
+    "options": [
+      "A. 水",
+      "B. 氧气",
+      "C. 二氧化碳",
+      "D. 氯化钠"
+    ],
+    "answer": "B. 氧气",
+    "steps": [
+      "1. 理解单质的定义：由同种元素组成的纯净物。",
+      "2. 分析各选项：",
+      "   - 水 (H₂O) 是化合物。",
+      "   - 氧气 (O₂) 是由氧元素组成的单质。",
+      "   - 二氧化碳 (CO₂) 是化合物。",
+      "   - 氯化钠 (NaCl) 是化合物。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将化合物当作单质。",
+        "hint": "注意区分单质和化合物，单质只含一种元素。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-element-concept-q-002",
+    "node_id": "chem-m-element-concept",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "地壳中含量最多的元素是____，其次是____。",
+    "answer": "氧, 硅",
+    "steps": [
+      "1. 回忆地壳中元素含量排序：氧、硅、铝、铁。",
+      "2. 填写地壳中含量最多的元素：氧。",
+      "3. 填写其次的元素：硅。"
+    ],
+    "common_errors": [
+      {
+        "error": "将地壳中含量最多的元素误认为是铝或铁。",
+        "hint": "牢记地壳中元素含量排序：氧 > 硅 > 铝 > 铁。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-element-concept-q-003",
+    "node_id": "chem-m-element-concept",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列元素符号书写正确的是",
+    "options": [
+      "A. 铜 CU",
+      "B. 铁 FE",
+      "C. 铝 AL",
+      "D. 锌 Zn"
+    ],
+    "answer": "D. 锌 Zn",
+    "steps": [
+      "1. 回顾元素符号的书写规则：第一个字母大写，第二个字母小写。",
+      "2. 分析各选项：",
+      "   - 铜的符号是 Cu，不是 CU。",
+      "   - 铁的符号是 Fe，不是 FE。",
+      "   - 铝的符号是 Al，不是 AL。",
+      "   - 锌的符号是 Zn，正确。"
+    ],
+    "common_errors": [
+      {
+        "error": "元素符号大小写错误。",
+        "hint": "注意元素符号中字母的大小写。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-element-concept-q-004",
+    "node_id": "chem-m-element-concept",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列关于元素与原子的说法，正确的是",
+    "options": [
+      "A. 元素是具有相同核电荷数的一类原子的总称。",
+      "B. 原子是构成物质的最小粒子。",
+      "C. 元素是构成物质的基本单位。",
+      "D. 原子是元素的最小单位。"
+    ],
+    "answer": "A. 元素是具有相同核电荷数的一类原子的总称。",
+    "steps": [
+      "1. 理解元素与原子的关系：元素是具有相同核电荷数的一类原子的总称。",
+      "2. 分析各选项：",
+      "   - A选项正确。",
+      "   - B选项错误，原子不是构成物质的最小粒子。",
+      "   - C选项错误，元素不是构成物质的基本单位。",
+      "   - D选项错误，原子不是元素的最小单位。"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆元素与原子的概念。",
+        "hint": "牢记元素是具有相同核电荷数的一类原子的总称。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-element-concept-q-005",
+    "node_id": "chem-m-element-concept",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "某物质由氢元素和氧元素组成，其化学式为H₂O，则该物质中氢元素与氧元素的质量比为____。",
+    "answer": "1:8",
+    "steps": [
+      "1. 写出氢和氧的相对原子质量：H=1，O=16。",
+      "2. 计算氢元素的质量：2×1=2。",
+      "3. 计算氧元素的质量：1×16=16。",
+      "4. 计算质量比：2:16=1:8。"
+    ],
+    "common_errors": [
+      {
+        "error": "计算质量比时出错。",
+        "hint": "注意相对原子质量的准确性和计算的步骤。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-element-concept-q-006",
+    "node_id": "chem-m-element-concept",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释为什么元素周期表中元素的排列是有规律的。",
+    "answer": "元素周期表中元素的排列是根据原子序数（即核电荷数）的增加顺序排列的。元素的化学性质随着原子序数的增加呈现周期性变化，这是因为元素的电子排布具有周期性。元素的化学性质主要由最外层电子数决定，而最外层电子数随着原子序数的增加呈现周期性变化，因此元素的排列是有规律的。",
+    "steps": [
+      "1. 解释元素周期表的排列依据：原子序数。",
+      "2. 解释元素化学性质的变化原因：电子排布的周期性。",
+      "3. 总结：元素的排列是有规律的，因为电子排布的周期性导致化学性质的周期性。"
+    ],
+    "common_errors": [
+      {
+        "error": "未能解释清楚元素周期表的排列规律。",
+        "hint": "从原子结构和电子排布的角度解释元素的排列规律。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-element-concept-q-007",
+    "node_id": "chem-m-element-concept",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请列举三种常见的金属元素，并说明它们在日常生活中的应用。",
+    "answer": "1. 铁 (Fe)：用于建筑材料、工具和机械制造。2. 铝 (Al)：用于制造易拉罐、飞机和建筑材料。3. 铜 (Cu)：用于电线、电缆和建筑管道。",
+    "steps": [
+      "1. 列举三种常见的金属元素：铁、铝、铜。",
+      "2. 说明每种元素的应用：",
+      "   - 铁：建筑材料、工具、机械制造。",
+      "   - 铝：易拉罐、飞机、建筑材料。",
+      "   - 铜：电线、电缆、建筑管道。"
+    ],
+    "common_errors": [
+      {
+        "error": "列举的应用与元素不匹配。",
+        "hint": "确保列举的应用与元素正确对应。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

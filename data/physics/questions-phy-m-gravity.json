@@ -1,0 +1,221 @@
+[
+  {
+    "id": "phy-m-gravity-q-001",
+    "node_id": "phy-m-gravity",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列关于重力的说法中，正确的是：",
+    "options": [
+      "A. 重力是由于地球对物体的吸引而产生的",
+      "B. 重力的方向总是垂直向下",
+      "C. 重力的大小与物体的质量无关",
+      "D. 重力在地球表面各处大小相同"
+    ],
+    "answer": "A. 重力是由于地球对物体的吸引而产生的",
+    "steps": [
+      "1. 重力是由于地球对物体的吸引而产生的，这是重力的定义。",
+      "2. 重力的方向是竖直向下，而不是垂直向下。",
+      "3. 重力的大小与物体的质量成正比。",
+      "4. 重力在地球表面各处大小不同，随纬度和高度变化。"
+    ],
+    "common_errors": [
+      {
+        "error": "认为重力的方向是垂直向下",
+        "hint": "重力的方向是竖直向下，垂直向下是指与水平面垂直的方向。"
+      },
+      {
+        "error": "认为重力的大小与物体的质量无关",
+        "hint": "重力的大小与物体的质量成正比，公式为G=mg。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-gravity-q-002",
+    "node_id": "phy-m-gravity",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "一个质量为2kg的物体受到的重力大小为_____N。（g取10N/kg）",
+    "answer": "20",
+    "steps": [
+      "1. 根据重力公式G=mg。",
+      "2. 代入数值，G=2kg×10N/kg=20N。"
+    ],
+    "common_errors": [
+      {
+        "error": "忘记公式G=mg",
+        "hint": "重力大小等于质量乘以重力加速度。"
+      },
+      {
+        "error": "单位换算错误",
+        "hint": "确保质量单位为kg，重力加速度单位为N/kg。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-gravity-q-003",
+    "node_id": "phy-m-gravity",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列关于重心的说法中，正确的是：",
+    "options": [
+      "A. 重心是重力的作用点",
+      "B. 重心一定在物体上",
+      "C. 重心是物体上最重的点",
+      "D. 重心是物体上密度最大的点"
+    ],
+    "answer": "A. 重心是重力的作用点",
+    "steps": [
+      "1. 重心是重力的等效作用点。",
+      "2. 重心不一定在物体上，例如环形物体的重心在环心。",
+      "3. 重心不是物体上最重的点，也不是密度最大的点。"
+    ],
+    "common_errors": [
+      {
+        "error": "认为重心一定在物体上",
+        "hint": "重心是重力的等效作用点，不一定在物体上。"
+      },
+      {
+        "error": "认为重心是物体上最重的点",
+        "hint": "重心是重力的等效作用点，不是物体上最重的点。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-gravity-q-004",
+    "node_id": "phy-m-gravity",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一个物体在地球表面受到的重力为490N，求该物体的质量。（g取9.8N/kg）",
+    "answer": "解：根据重力公式G=mg，得m=G/g=490N/9.8N/kg=50kg。",
+    "steps": [
+      "1. 根据重力公式G=mg。",
+      "2. 变形得到m=G/g。",
+      "3. 代入数值m=490N/9.8N/kg=50kg。"
+    ],
+    "common_errors": [
+      {
+        "error": "公式使用错误",
+        "hint": "注意公式变形，m=G/g。"
+      },
+      {
+        "error": "单位换算错误",
+        "hint": "确保重力单位为N，重力加速度单位为N/kg。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-gravity-q-005",
+    "node_id": "phy-m-gravity",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一个物体在月球表面受到的重力为81.5N，月球表面重力加速度为1.63N/kg，求该物体的质量。",
+    "answer": "解：根据重力公式G=mg，得m=G/g=81.5N/1.63N/kg=50kg。",
+    "steps": [
+      "1. 根据重力公式G=mg。",
+      "2. 变形得到m=G/g。",
+      "3. 代入数值m=81.5N/1.63N/kg=50kg。"
+    ],
+    "common_errors": [
+      {
+        "error": "公式使用错误",
+        "hint": "注意公式变形，m=G/g。"
+      },
+      {
+        "error": "单位换算错误",
+        "hint": "确保重力单位为N，重力加速度单位为N/kg。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-gravity-q-006",
+    "node_id": "phy-m-gravity",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "一个物体在地球表面和月球表面受到的重力之比为：",
+    "options": [
+      "A. 1:1",
+      "B. 6:1",
+      "C. 1:6",
+      "D. 2:1"
+    ],
+    "answer": "B. 6:1",
+    "steps": [
+      "1. 地球表面重力加速度约为9.8N/kg，月球表面重力加速度约为1.63N/kg。",
+      "2. 重力之比等于重力加速度之比。",
+      "3. 9.8:1.63≈6:1。"
+    ],
+    "common_errors": [
+      {
+        "error": "认为重力之比等于质量之比",
+        "hint": "重力之比等于重力加速度之比，而不是质量之比。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "注意小数点位数，计算准确。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-gravity-q-007",
+    "node_id": "phy-m-gravity",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个物体在地球表面受到的重力为588N，求该物体在月球表面受到的重力。（月球表面重力加速度为地球表面重力加速度的1/6）",
+    "answer": "解：根据重力公式G=mg，地球表面重力加速度为9.8N/kg，月球表面重力加速度为9.8/6N/kg。物体质量m=588N/9.8N/kg=60kg。在月球表面受到的重力G'=mg'=60kg×(9.8/6)N/kg=98N。",
+    "steps": [
+      "1. 根据重力公式G=mg，求出物体质量。",
+      "2. 代入数值m=588N/9.8N/kg=60kg。",
+      "3. 根据月球表面重力加速度为地球表面重力加速度的1/6，求出月球表面重力。"
+    ],
+    "common_errors": [
+      {
+        "error": "公式使用错误",
+        "hint": "注意公式变形，m=G/g。"
+      },
+      {
+        "error": "单位换算错误",
+        "hint": "确保重力单位为N，重力加速度单位为N/kg。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "phy-m-gravity-q-008",
+    "node_id": "phy-m-gravity",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个物体在地球表面和月球表面受到的重力之比为6:1，求该物体在月球表面受到的重力。（地球表面重力加速度为9.8N/kg）",
+    "answer": "解：设物体质量为m，地球表面重力为G=mg=9.8m。月球表面重力为G'=mg'=9.8m/6=1.63m。重力之比G:G'=6:1。已知G=588N，求出G'=98N。",
+    "steps": [
+      "1. 设物体质量为m，地球表面重力为G=mg=9.8m。",
+      "2. 月球表面重力为G'=mg'=9.8m/6=1.63m。",
+      "3. 重力之比G:G'=6:1。",
+      "4. 已知G=588N，求出G'=98N。"
+    ],
+    "common_errors": [
+      {
+        "error": "公式使用错误",
+        "hint": "注意公式变形，G=mg。"
+      },
+      {
+        "error": "比例关系错误",
+        "hint": "注意重力之比与重力加速度之比的关系。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

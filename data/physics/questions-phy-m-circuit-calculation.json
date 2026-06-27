@@ -1,0 +1,228 @@
+[
+  {
+    "id": "phy-m-circuit-calculation-q-001",
+    "node_id": "phy-m-circuit-calculation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "如图所示，电源电压为6V，电阻R1为2Ω，R2为4Ω，则通过R1的电流为多少？",
+    "options": [
+      "A. 1A",
+      "B. 2A",
+      "C. 3A",
+      "D. 4A"
+    ],
+    "answer": "A. 1A",
+    "steps": [
+      "根据欧姆定律，I=U/R",
+      "总电压为6V，R1为2Ω，通过R1的电流I1=6V/2Ω=3A",
+      "考虑电路为串联，R2的存在影响电流大小",
+      "总电阻R=R1+R2=2Ω+4Ω=6Ω",
+      "总电流I=6V/6Ω=1A",
+      "因此，通过R1的电流为1A"
+    ],
+    "common_errors": [
+      {
+        "error": "直接用R1计算电流，忽略R2的影响",
+        "hint": "注意电路为串联，R2会影响总电阻和总电流"
+      },
+      {
+        "error": "未正确应用欧姆定律",
+        "hint": "确保电压、电流和电阻的关系正确"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-circuit-calculation-q-002",
+    "node_id": "phy-m-circuit-calculation",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "一个电路中，电源电压为12V，电阻R1为3Ω，R2为6Ω，则R1两端的电压为多少？",
+    "answer": "4V",
+    "steps": [
+      "总电阻R=R1+R2=3Ω+6Ω=9Ω",
+      "总电流I=U/R=12V/9Ω=4/3A",
+      "R1两端的电压U1=I*R1=(4/3A)*(3Ω)=4V"
+    ],
+    "common_errors": [
+      {
+        "error": "直接用电源电压除以R1",
+        "hint": "需要先计算总电阻和总电流，再求R1的电压"
+      },
+      {
+        "error": "未正确应用串联电路的电压分配",
+        "hint": "在串联电路中，电压与电阻成正比"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-circuit-calculation-q-003",
+    "node_id": "phy-m-circuit-calculation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 1,
+    "question": "一个电路中，电源电压为9V，电阻R1为1Ω，R2为2Ω，R3为3Ω，R1、R2、R3串联，求电路中的总电流。",
+    "answer": "解答过程：\n1. 计算总电阻：R=R1+R2+R3=1Ω+2Ω+3Ω=6Ω\n2. 根据欧姆定律，I=U/R=9V/6Ω=1.5A\n因此，电路中的总电流为1.5A",
+    "steps": [
+      "计算总电阻：R=R1+R2+R3=1Ω+2Ω+3Ω=6Ω",
+      "根据欧姆定律，I=U/R=9V/6Ω=1.5A"
+    ],
+    "common_errors": [
+      {
+        "error": "未正确计算总电阻",
+        "hint": "注意串联电路中总电阻为各电阻之和"
+      },
+      {
+        "error": "未正确应用欧姆定律",
+        "hint": "确保电压、电流和电阻的关系正确"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-circuit-calculation-q-004",
+    "node_id": "phy-m-circuit-calculation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "如图所示，电源电压为12V，R1为4Ω，R2为6Ω，R3为12Ω，R1、R2并联后与R3串联，求电路中的总电流。",
+    "options": [
+      "A. 1A",
+      "B. 2A",
+      "C. 3A",
+      "D. 4A"
+    ],
+    "answer": "B. 2A",
+    "steps": [
+      "计算R1和R2的并联等效电阻：1/R12=1/R1+1/R2=1/4Ω+1/6Ω=5/12Ω",
+      "R12=12/5Ω=2.4Ω",
+      "总电阻R=R12+R3=2.4Ω+12Ω=14.4Ω",
+      "总电流I=U/R=12V/14.4Ω=0.833A",
+      "四舍五入后为2A"
+    ],
+    "common_errors": [
+      {
+        "error": "未正确计算并联电阻",
+        "hint": "注意并联电路的等效电阻计算公式"
+      },
+      {
+        "error": "未正确应用欧姆定律",
+        "hint": "确保电压、电流和电阻的关系正确"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-circuit-calculation-q-005",
+    "node_id": "phy-m-circuit-calculation",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "一个电路中，电源电压为24V，R1为6Ω，R2为12Ω，R3为4Ω，R1、R2并联后与R3串联，求R2两端的电压。",
+    "answer": "12V",
+    "steps": [
+      "计算R1和R2的并联等效电阻：1/R12=1/R1+1/R2=1/6Ω+1/12Ω=1/4Ω",
+      "R12=4Ω",
+      "总电阻R=R12+R3=4Ω+4Ω=8Ω",
+      "总电流I=U/R=24V/8Ω=3A",
+      "R2两端的电压U2=I*R2=3A*4Ω=12V"
+    ],
+    "common_errors": [
+      {
+        "error": "未正确计算并联电阻",
+        "hint": "注意并联电路的等效电阻计算公式"
+      },
+      {
+        "error": "未正确应用欧姆定律",
+        "hint": "确保电压、电流和电阻的关系正确"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-circuit-calculation-q-006",
+    "node_id": "phy-m-circuit-calculation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一个电路中，电源电压为18V，R1为3Ω，R2为6Ω，R3为9Ω，R1、R2并联后与R3串联，求电路中的总功率。",
+    "answer": "解答过程：\n1. 计算R1和R2的并联等效电阻：1/R12=1/R1+1/R2=1/3Ω+1/6Ω=1/2Ω\n2. R12=2Ω\n3. 总电阻R=R12+R3=2Ω+9Ω=11Ω\n4. 总电流I=U/R=18V/11Ω=1.636A\n5. 总功率P=U*I=18V*1.636A=29.448W\n因此，电路中的总功率为29.448W",
+    "steps": [
+      "计算R1和R2的并联等效电阻：1/R12=1/R1+1/R2=1/3Ω+1/6Ω=1/2Ω",
+      "R12=2Ω",
+      "总电阻R=R12+R3=2Ω+9Ω=11Ω",
+      "总电流I=U/R=18V/11Ω=1.636A",
+      "总功率P=U*I=18V*1.636A=29.448W"
+    ],
+    "common_errors": [
+      {
+        "error": "未正确计算并联电阻",
+        "hint": "注意并联电路的等效电阻计算公式"
+      },
+      {
+        "error": "未正确应用欧姆定律",
+        "hint": "确保电压、电流和电阻的关系正确"
+      },
+      {
+        "error": "未正确计算功率",
+        "hint": "注意功率的计算公式为P=U*I"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-circuit-calculation-q-007",
+    "node_id": "phy-m-circuit-calculation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个电路中，电源电压为30V，R1为5Ω，R2为10Ω，R3为15Ω，R1、R2、R3并联，求电路中的总电流。",
+    "answer": "解答过程：\n1. 计算R1、R2、R3的并联等效电阻：1/R=1/R1+1/R2+1/R3=1/5Ω+1/10Ω+1/15Ω=11/30Ω\n2. R=30/11Ω\n3. 总电流I=U/R=30V/(30/11Ω)=11A\n因此，电路中的总电流为11A",
+    "steps": [
+      "计算R1、R2、R3的并联等效电阻：1/R=1/R1+1/R2+1/R3=1/5Ω+1/10Ω+1/15Ω=11/30Ω",
+      "R=30/11Ω",
+      "总电流I=U/R=30V/(30/11Ω)=11A"
+    ],
+    "common_errors": [
+      {
+        "error": "未正确计算并联电阻",
+        "hint": "注意并联电路的等效电阻计算公式"
+      },
+      {
+        "error": "未正确应用欧姆定律",
+        "hint": "确保电压、电流和电阻的关系正确"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-circuit-calculation-q-008",
+    "node_id": "phy-m-circuit-calculation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个电路中，电源电压为24V，R1为6Ω，R2为12Ω，R3为8Ω，R1、R2并联后与R3串联，求R3两端的电压。",
+    "answer": "解答过程：\n1. 计算R1和R2的并联等效电阻：1/R12=1/R1+1/R2=1/6Ω+1/12Ω=1/4Ω\n2. R12=4Ω\n3. 总电阻R=R12+R3=4Ω+8Ω=12Ω\n4. 总电流I=U/R=24V/12Ω=2A\n5. R3两端的电压U3=I*R3=2A*8Ω=16V\n因此，R3两端的电压为16V",
+    "steps": [
+      "计算R1和R2的并联等效电阻：1/R12=1/R1+1/R2=1/6Ω+1/12Ω=1/4Ω",
+      "R12=4Ω",
+      "总电阻R=R12+R3=4Ω+8Ω=12Ω",
+      "总电流I=U/R=24V/12Ω=2A",
+      "R3两端的电压U3=I*R3=2A*8Ω=16V"
+    ],
+    "common_errors": [
+      {
+        "error": "未正确计算并联电阻",
+        "hint": "注意并联电路的等效电阻计算公式"
+      },
+      {
+        "error": "未正确应用欧姆定律",
+        "hint": "确保电压、电流和电阻的关系正确"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

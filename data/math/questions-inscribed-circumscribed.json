@@ -1,0 +1,186 @@
+[
+  {
+    "id": "math-m-inscribed-circumscribed-q-001",
+    "node_id": "math-m-inscribed-circumscribed",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "已知一个三角形的内切圆半径为3，外接圆半径为6，则该三角形的面积是？",
+    "options": [
+      "A. 18",
+      "B. 27",
+      "C. 36",
+      "D. 54"
+    ],
+    "answer": "B. 27",
+    "steps": [
+      "1. 设三角形的三边为a, b, c，内切圆半径为r=3，外接圆半径为R=6。",
+      "2. 根据三角形面积公式S=abc/4R和S=pr，其中p为半周长，r为内切圆半径。",
+      "3. 由S=pr=3p和S=abc/24，联立两式可得p=9。",
+      "4. 代入S=pr=3*9=27。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用面积公式S=abc/4R和S=pr时，忘记两式联立求解。",
+        "hint": "注意面积公式的两种表达形式，需要联立求解。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-inscribed-circumscribed-q-002",
+    "node_id": "math-m-inscribed-circumscribed",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "一个直角三角形的内切圆半径为2，外接圆半径为5，则该直角三角形的周长是？",
+    "options": [
+      "A. 24",
+      "B. 20",
+      "C. 18",
+      "D. 16"
+    ],
+    "answer": "A. 24",
+    "steps": [
+      "1. 设直角三角形的三边为a, b, c，其中c为斜边。",
+      "2. 根据直角三角形性质，斜边c=2R=10。",
+      "3. 内切圆半径r=(a+b-c)/2=2，代入c=10，得a+b=14。",
+      "4. 周长为a+b+c=14+10=24。"
+    ],
+    "common_errors": [
+      {
+        "error": "忽略直角三角形的性质，直接用一般三角形公式。",
+        "hint": "注意直角三角形的特殊性质，斜边等于外接圆直径。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-inscribed-circumscribed-q-003",
+    "node_id": "math-m-inscribed-circumscribed",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "已知一个三角形的周长为24，内切圆半径为2，则该三角形的面积是________。",
+    "answer": "24",
+    "steps": [
+      "1. 设三角形的三边为a, b, c，周长为a+b+c=24。",
+      "2. 内切圆半径r=2，根据面积公式S=pr，其中p为半周长。",
+      "3. 半周长p=12，代入S=pr=12*2=24。"
+    ],
+    "common_errors": [
+      {
+        "error": "忘记使用半周长p而不是周长。",
+        "hint": "注意面积公式中的p是半周长，不是周长。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-inscribed-circumscribed-q-004",
+    "node_id": "math-m-inscribed-circumscribed",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "一个三角形的内切圆半径为3，外接圆半径为5，则该三角形的面积是________。",
+    "answer": "30",
+    "steps": [
+      "1. 设三角形的三边为a, b, c，内切圆半径为r=3，外接圆半径为R=5。",
+      "2. 根据面积公式S=pr和S=abc/4R，联立两式可得p=10。",
+      "3. 代入S=pr=3*10=30。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用面积公式时，忘记联立求解。",
+        "hint": "注意面积公式的两种表达形式，需要联立求解。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-inscribed-circumscribed-q-005",
+    "node_id": "math-m-inscribed-circumscribed",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "已知一个三角形的外接圆半径为5，内切圆半径为2，求该三角形的面积。",
+    "answer": "20",
+    "steps": [
+      "1. 设三角形的三边为a, b, c，外接圆半径为R=5，内切圆半径为r=2。",
+      "2. 根据面积公式S=pr和S=abc/4R，联立两式可得p=10。",
+      "3. 代入S=pr=2*10=20。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用面积公式时，忘记联立求解。",
+        "hint": "注意面积公式的两种表达形式，需要联立求解。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-inscribed-circumscribed-q-006",
+    "node_id": "math-m-inscribed-circumscribed",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个三角形的内切圆半径为4，外接圆半径为6，求该三角形的周长。",
+    "answer": "24",
+    "steps": [
+      "1. 设三角形的三边为a, b, c，内切圆半径为r=4，外接圆半径为R=6。",
+      "2. 根据面积公式S=pr和S=abc/4R，联立两式可得p=12。",
+      "3. 周长为2p=24。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用面积公式时，忘记联立求解。",
+        "hint": "注意面积公式的两种表达形式，需要联立求解。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-inscribed-circumscribed-q-007",
+    "node_id": "math-m-inscribed-circumscribed",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个三角形的内切圆半径为3，外接圆半径为5，求该三角形的面积与周长的比值。",
+    "answer": "1/2",
+    "steps": [
+      "1. 设三角形的三边为a, b, c，内切圆半径为r=3，外接圆半径为R=5。",
+      "2. 根据面积公式S=pr和S=abc/4R，联立两式可得p=10。",
+      "3. 周长为2p=20，面积S=pr=3*10=30。",
+      "4. 面积与周长的比值为30/20=3/2。"
+    ],
+    "common_errors": [
+      {
+        "error": "计算错误，忘记面积与周长的比值。",
+        "hint": "注意比值的计算顺序，先求面积和周长，再求比值。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-inscribed-circumscribed-q-008",
+    "node_id": "math-m-inscribed-circumscribed",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个三角形的内切圆半径为2，外接圆半径为4，求该三角形的面积与周长的乘积。",
+    "answer": "48",
+    "steps": [
+      "1. 设三角形的三边为a, b, c，内切圆半径为r=2，外接圆半径为R=4。",
+      "2. 根据面积公式S=pr和S=abc/4R，联立两式可得p=8。",
+      "3. 周长为2p=16，面积S=pr=2*8=16。",
+      "4. 面积与周长的乘积为16*16=256。"
+    ],
+    "common_errors": [
+      {
+        "error": "计算错误，忘记面积与周长的乘积。",
+        "hint": "注意乘积的计算顺序，先求面积和周长，再求乘积。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

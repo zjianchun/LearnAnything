@@ -1,0 +1,218 @@
+[
+  {
+    "id": "math-m-circle-angle-q-001",
+    "node_id": "math-m-circle-angle",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "如图，∠AOB = 80°，则圆周角∠ACB的度数是（   ）。",
+    "options": [
+      "A. 40°",
+      "B. 80°",
+      "C. 160°",
+      "D. 20°"
+    ],
+    "answer": "A. 40°",
+    "steps": [
+      "1. 圆周角定理：圆周角的度数等于它所对的弧的圆心角度数的一半。",
+      "2. ∠AOB是圆心角，对应的弧为AB。",
+      "3. ∠ACB是圆周角，对应的弧也是AB。",
+      "4. 因此，∠ACB = ∠AOB / 2 = 80° / 2 = 40°。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将圆心角与圆周角直接等同。",
+        "hint": "记住圆周角等于圆心角的一半。"
+      },
+      {
+        "error": "混淆圆周角与圆心角的关系。",
+        "hint": "圆周角总是对应于圆心角的一半的弧。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-m-circle-angle-q-002",
+    "node_id": "math-m-circle-angle",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "如图，∠AOB是圆心角，∠ACB是圆周角，若∠AOB = 100°，则∠ACB = ______。",
+    "answer": "50°",
+    "steps": [
+      "1. 根据圆周角定理，圆周角等于圆心角的一半。",
+      "2. ∠ACB = ∠AOB / 2 = 100° / 2 = 50°。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用圆心角代替圆周角。",
+        "hint": "圆周角总是圆心角的一半。"
+      },
+      {
+        "error": "计算错误。",
+        "hint": "仔细计算，确保结果正确。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-circle-angle-q-003",
+    "node_id": "math-m-circle-angle",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "如图，∠AOB = 60°，则圆周角∠ACB的度数是（   ）。",
+    "options": [
+      "A. 60°",
+      "B. 30°",
+      "C. 120°",
+      "D. 90°"
+    ],
+    "answer": "B. 30°",
+    "steps": [
+      "1. 根据圆周角定理，圆周角等于圆心角的一半。",
+      "2. ∠ACB = ∠AOB / 2 = 60° / 2 = 30°。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将圆心角与圆周角直接等同。",
+        "hint": "圆周角总是圆心角的一半。"
+      },
+      {
+        "error": "计算错误。",
+        "hint": "仔细计算，确保结果正确。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-m-circle-angle-q-004",
+    "node_id": "math-m-circle-angle",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "如图，AB是直径，∠ACB = 45°，求∠AOB的度数。",
+    "answer": "90°",
+    "steps": [
+      "1. ∠ACB是圆周角，∠AOB是圆心角。",
+      "2. 根据圆周角定理，∠AOB = 2 * ∠ACB。",
+      "3. ∠AOB = 2 * 45° = 90°。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将圆周角与圆心角的关系颠倒。",
+        "hint": "圆心角等于2倍的圆周角。"
+      },
+      {
+        "error": "计算错误。",
+        "hint": "仔细计算，确保结果正确。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-circle-angle-q-005",
+    "node_id": "math-m-circle-angle",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "如图，AB是直径，∠ACB = 30°，求∠AOB的度数。",
+    "answer": "60°",
+    "steps": [
+      "1. ∠ACB是圆周角，∠AOB是圆心角。",
+      "2. 根据圆周角定理，∠AOB = 2 * ∠ACB。",
+      "3. ∠AOB = 2 * 30° = 60°。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将圆周角与圆心角的关系颠倒。",
+        "hint": "圆心角等于2倍的圆周角。"
+      },
+      {
+        "error": "计算错误。",
+        "hint": "仔细计算，确保结果正确。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-circle-angle-q-006",
+    "node_id": "math-m-circle-angle",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "如图，∠AOB = 120°，求圆周角∠ACB的度数。",
+    "answer": "60°",
+    "steps": [
+      "1. 根据圆周角定理，圆周角等于圆心角的一半。",
+      "2. ∠ACB = ∠AOB / 2 = 120° / 2 = 60°。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将圆心角与圆周角直接等同。",
+        "hint": "圆周角总是圆心角的一半。"
+      },
+      {
+        "error": "计算错误。",
+        "hint": "仔细计算，确保结果正确。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-circle-angle-q-007",
+    "node_id": "math-m-circle-angle",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "如图，AB是直径，∠ACB = 45°，求∠AOD的度数。",
+    "answer": "135°",
+    "steps": [
+      "1. ∠ACB是圆周角，∠AOD是圆心角。",
+      "2. 根据圆周角定理，∠AOD = 2 * ∠ACB。",
+      "3. ∠AOD = 2 * 45° = 90°。",
+      "4. ∠AOD + ∠DOB = 180°（直径上的圆心角）。",
+      "5. ∠DOB = 180° - 90° = 90°。",
+      "6. ∠AOD = 180° - ∠DOB = 180° - 90° = 135°。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将圆周角与圆心角的关系颠倒。",
+        "hint": "圆心角等于2倍的圆周角。"
+      },
+      {
+        "error": "计算错误。",
+        "hint": "仔细计算，确保结果正确。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-circle-angle-q-008",
+    "node_id": "math-m-circle-angle",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "如图，AB是直径，∠ACB = 60°，求∠AOD的度数。",
+    "answer": "120°",
+    "steps": [
+      "1. ∠ACB是圆周角，∠AOD是圆心角。",
+      "2. 根据圆周角定理，∠AOD = 2 * ∠ACB。",
+      "3. ∠AOD = 2 * 60° = 120°。",
+      "4. ∠AOD + ∠DOB = 180°（直径上的圆心角）。",
+      "5. ∠DOB = 180° - 120° = 60°。",
+      "6. ∠AOD = 180° - ∠DOB = 180° - 60° = 120°。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将圆周角与圆心角的关系颠倒。",
+        "hint": "圆心角等于2倍的圆周角。"
+      },
+      {
+        "error": "计算错误。",
+        "hint": "仔细计算，确保结果正确。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

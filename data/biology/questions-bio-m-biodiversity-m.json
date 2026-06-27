@@ -1,0 +1,181 @@
+[
+  {
+    "id": "bio-m-biodiversity-m-q-001",
+    "node_id": "bio-m-biodiversity-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列哪项不属于生物多样性的内容？",
+    "options": [
+      "A. 基因多样性",
+      "B. 物种多样性",
+      "C. 生态系统多样性",
+      "D. 环境多样性"
+    ],
+    "answer": "D. 环境多样性",
+    "steps": [
+      "生物多样性包括基因多样性、物种多样性和生态系统多样性。",
+      "环境多样性不属于生物多样性的范畴。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选C",
+        "hint": "生态系统多样性与环境多样性不同，前者是生物多样性的组成部分。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-biodiversity-m-q-002",
+    "node_id": "bio-m-biodiversity-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "保护生物多样性最有效的措施是建立________。",
+    "answer": "自然保护区",
+    "steps": [
+      "生物多样性保护措施包括建立自然保护区、迁地保护、法律法规等。",
+      "最有效的措施是建立自然保护区，因为它能保护生态系统的完整性。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写‘动物园’或‘植物园’",
+        "hint": "这些是迁地保护的例子，但不如自然保护区全面。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-biodiversity-m-q-003",
+    "node_id": "bio-m-biodiversity-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列关于生物多样性价值的说法，错误的是？",
+    "options": [
+      "A. 直接使用价值包括食物、药物等",
+      "B. 间接使用价值包括生态服务功能",
+      "C. 潜在使用价值指目前尚未发现的价值",
+      "D. 美学价值不属于生物多样性的使用价值"
+    ],
+    "answer": "D. 美学价值不属于生物多样性的使用价值",
+    "steps": [
+      "生物多样性的使用价值包括直接使用价值、间接使用价值和潜在使用价值。",
+      "美学价值属于直接使用价值的一种。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选C",
+        "hint": "潜在使用价值是生物多样性价值的重要组成部分。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-biodiversity-m-q-004",
+    "node_id": "bio-m-biodiversity-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述生物多样性面临的威胁有哪些？",
+    "answer": "生物多样性面临的威胁主要包括：栖息地破坏、环境污染、过度开发利用、外来物种入侵、气候变化等。",
+    "steps": [
+      "分析生物多样性面临的威胁因素。",
+      "分别列举各个威胁因素并简要说明。"
+    ],
+    "common_errors": [
+      {
+        "error": "遗漏‘气候变化’",
+        "hint": "气候变化对生物多样性的影响日益显著，是重要的威胁因素。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-biodiversity-m-q-005",
+    "node_id": "bio-m-biodiversity-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列哪项措施对保护生物多样性没有直接帮助？",
+    "options": [
+      "A. 禁止非法捕猎",
+      "B. 引进外来物种",
+      "C. 建立自然保护区",
+      "D. 开展人工繁育"
+    ],
+    "answer": "B. 引进外来物种",
+    "steps": [
+      "分析各项措施对生物多样性的影响。",
+      "引进外来物种可能破坏当地生态系统，反而威胁生物多样性。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选C",
+        "hint": "建立自然保护区是保护生物多样性的有效措施。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-biodiversity-m-q-006",
+    "node_id": "bio-m-biodiversity-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "生物多样性是________和________的基础。",
+    "answer": "生态平衡, 人类生存",
+    "steps": [
+      "理解生物多样性的重要性。",
+      "生物多样性是维持生态平衡和人类生存的基础。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写‘生态系统’",
+        "hint": "生态系统是生物多样性的组成部分，但不是其基础。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-biodiversity-m-q-007",
+    "node_id": "bio-m-biodiversity-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "试分析生物多样性保护与经济发展的关系。",
+    "answer": "生物多样性保护与经济发展之间存在复杂的关系。一方面，生物多样性为经济发展提供了资源基础，如药物资源、生态服务等。另一方面，过度开发会破坏生物多样性，限制经济的可持续发展。因此，需要在保护生物多样性的前提下，合理开发利用自然资源，实现经济发展与生态保护的协调。",
+    "steps": [
+      "分析生物多样性对经济发展的贡献。",
+      "分析过度开发对生物多样性的影响。",
+      "提出协调发展的策略。"
+    ],
+    "common_errors": [
+      {
+        "error": "片面强调保护或发展",
+        "hint": "需要全面考虑两者之间的关系，寻求平衡。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-biodiversity-m-q-008",
+    "node_id": "bio-m-biodiversity-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请列举三种生物多样性保护的方法，并简要说明其原理。",
+    "answer": "1. 建立自然保护区：保护生态系统的完整性，维持生物栖息地。2. 迁地保护：将濒危物种移至人工环境中进行保护，如动物园、植物园等。3. 法律法规：制定相关法律，禁止非法捕猎、采集等行为，保护生物多样性。",
+    "steps": [
+      "列举三种保护方法。",
+      "分别说明每种方法的原理。"
+    ],
+    "common_errors": [
+      {
+        "error": "遗漏‘法律法规’",
+        "hint": "法律法规是保护生物多样性的重要手段。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

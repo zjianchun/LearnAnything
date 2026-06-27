@@ -1,0 +1,183 @@
+[
+  {
+    "id": "bio-m-reproduction-development-q-001",
+    "node_id": "bio-m-reproduction-development",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "以下关于受精过程的描述中，正确的是：",
+    "options": [
+      "A. 精子与卵细胞在子宫内结合",
+      "B. 精子与卵细胞在输卵管内结合",
+      "C. 精子与卵细胞在卵巢内结合",
+      "D. 精子与卵细胞在阴道内结合"
+    ],
+    "answer": "B. 精子与卵细胞在输卵管内结合",
+    "steps": [
+      "1. 明确受精的场所：受精通常发生在输卵管内。",
+      "2. 分析各选项：子宫是胚胎发育的场所，卵巢是产生卵细胞的场所，阴道是精子进入的通道。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为受精发生在子宫内",
+        "hint": "受精发生在输卵管内，胚胎发育才在子宫内进行。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "bio-m-reproduction-development-q-002",
+    "node_id": "bio-m-reproduction-development",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "胚胎发育的主要场所是____。",
+    "answer": "子宫",
+    "steps": [
+      "1. 回忆胚胎发育的过程：胚胎在受精后进入子宫。",
+      "2. 确定子宫的功能：子宫是胚胎发育和胎儿成长的场所。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填为卵巢或输卵管",
+        "hint": "卵巢是产生卵细胞的场所，输卵管是受精的场所。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "bio-m-reproduction-development-q-003",
+    "node_id": "bio-m-reproduction-development",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下关于青春期的描述中，错误的是：",
+    "options": [
+      "A. 身高迅速增长",
+      "B. 第二性征发育",
+      "C. 生殖器官发育成熟",
+      "D. 生殖细胞开始形成"
+    ],
+    "answer": "D. 生殖细胞开始形成",
+    "steps": [
+      "1. 回顾青春期的特征：包括身高增长、第二性征发育、生殖器官成熟等。",
+      "2. 分析生殖细胞形成的时间：生殖细胞在胚胎期就开始形成，青春期只是成熟和排出。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为生殖细胞在青春期开始形成",
+        "hint": "生殖细胞在胚胎期就开始形成，青春期是成熟和排出的阶段。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-reproduction-development-q-004",
+    "node_id": "bio-m-reproduction-development",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "胎儿与母体进行物质交换的结构是____。",
+    "answer": "胎盘",
+    "steps": [
+      "1. 明确胎儿与母体交换物质的方式：通过胎盘进行。",
+      "2. 了解胎盘的功能：胎盘是连接胎儿与母体的桥梁，负责物质交换。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填为脐带",
+        "hint": "脐带是连接胎儿与胎盘的通道，胎盘才是进行物质交换的结构。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-reproduction-development-q-005",
+    "node_id": "bio-m-reproduction-development",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述受精卵的形成过程。",
+    "answer": "精子通过阴道进入子宫，再到达输卵管，在输卵管内与卵细胞结合形成受精卵。",
+    "steps": [
+      "1. 描述精子的运动路径：从阴道到子宫，再到输卵管。",
+      "2. 说明受精的场所：输卵管。",
+      "3. 描述受精的结果：形成受精卵。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为受精卵在子宫内形成",
+        "hint": "受精卵在输卵管内形成，然后进入子宫。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-reproduction-development-q-006",
+    "node_id": "bio-m-reproduction-development",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "简述胚胎发育的过程。",
+    "answer": "受精卵在输卵管内进行细胞分裂，形成胚泡，然后进入子宫，植入子宫内膜，开始胚胎发育。胚胎在子宫内继续发育，形成胎儿，最终成熟分娩。",
+    "steps": [
+      "1. 描述受精卵的分裂：在输卵管内进行细胞分裂。",
+      "2. 说明胚泡的形成和植入：形成胚泡后进入子宫，植入子宫内膜。",
+      "3. 描述胚胎的发育：在子宫内继续发育，形成胎儿。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为胚胎在输卵管内发育",
+        "hint": "胚胎在子宫内发育，输卵管只是受精和早期细胞分裂的场所。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-reproduction-development-q-007",
+    "node_id": "bio-m-reproduction-development",
+    "source": "AI-生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "以下关于胎儿发育的描述中，正确的是：",
+    "options": [
+      "A. 胎儿通过胎盘和脐带与母体进行物质交换",
+      "B. 胎儿在子宫内进行呼吸",
+      "C. 胎儿在子宫内进行消化",
+      "D. 胎儿在子宫内进行排泄"
+    ],
+    "answer": "A. 胎儿通过胎盘和脐带与母体进行物质交换",
+    "steps": [
+      "1. 明确胎儿与母体的联系：通过胎盘和脐带进行。",
+      "2. 分析各选项：胎儿不直接进行呼吸、消化和排泄，这些功能由母体代为完成。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为胎儿在子宫内进行呼吸",
+        "hint": "胎儿通过胎盘从母体获取氧气，不直接进行呼吸。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-reproduction-development-q-008",
+    "node_id": "bio-m-reproduction-development",
+    "source": "AI-生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "简述胎盘的功能。",
+    "answer": "胎盘是连接胎儿与母体的结构，负责胎儿与母体之间的物质交换，包括氧气、二氧化碳、营养物质和代谢废物的交换。同时，胎盘还具有内分泌功能，分泌激素调节妊娠过程。",
+    "steps": [
+      "1. 说明胎盘的结构：连接胎儿与母体的桥梁。",
+      "2. 描述物质交换功能：包括氧气、二氧化碳、营养物质和代谢废物的交换。",
+      "3. 描述内分泌功能：分泌激素调节妊娠反应。"
+    ],
+    "common_errors": [
+      {
+        "error": "忽略了胎盘的内分泌功能",
+        "hint": "胎盘不仅负责物质交换，还分泌激素调节妊娠反应。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

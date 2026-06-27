@@ -1,0 +1,229 @@
+[
+  {
+    "id": "math-m-monomial-multiplication-q-001",
+    "node_id": "math-m-monomial-multiplication",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "计算：(2x²y)³ 的结果是？",
+    "options": [
+      "A. 6x⁶y³",
+      "B. 8x⁶y³",
+      "C. 6x⁵y³",
+      "D. 8x⁵y³"
+    ],
+    "answer": "B. 8x⁶y³",
+    "steps": [
+      "将 (2x²y)³ 展开为 (2³)(x²)³(y)³。",
+      "计算 2³ = 8。",
+      "计算 (x²)³ = x⁶。",
+      "计算 (y)³ = y³。",
+      "将各部分相乘得到 8x⁶y³。"
+    ],
+    "common_errors": [
+      {
+        "error": "错误地计算指数，例如 (x²)³ = x⁵。",
+        "hint": "记住指数相乘的规则：(a^m)^n = a^(m*n)。"
+      },
+      {
+        "error": "忘记计算系数 2 的立方。",
+        "hint": "系数也需要进行指数运算。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-m-monomial-multiplication-q-002",
+    "node_id": "math-m-monomial-multiplication",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "将 4a³b²c ÷ 2ab² 化简为单项式：",
+    "answer": "2ac",
+    "steps": [
+      "将分子和分母的系数相除：4 ÷ 2 = 2。",
+      "对字母部分进行除法：a³ ÷ a = a²；b² ÷ b² = 1；c ÷ 1 = c。",
+      "合并结果得到 2ac。"
+    ],
+    "common_errors": [
+      {
+        "error": "错误地进行指数相减，例如 a³ ÷ a = a²。",
+        "hint": "指数相减时，底数相同的项，指数相减。"
+      },
+      {
+        "error": "忘记处理系数。",
+        "hint": "系数也需要进行除法运算。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-monomial-multiplication-q-003",
+    "node_id": "math-m-monomial-multiplication",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 1,
+    "question": "计算：(3x + 2)(x - 4)。",
+    "answer": "3x² - 10x - 8",
+    "steps": [
+      "使用分配律展开：(3x)(x) + (3x)(-4) + (2)(x) + (2)(-4)。",
+      "计算每一项：3x² - 12x + 2x - 8。",
+      "合并同类项：3x² - 10x - 8。"
+    ],
+    "common_errors": [
+      {
+        "error": "忘记合并同类项。",
+        "hint": "展开后要检查是否有同类项可以合并。"
+      },
+      {
+        "error": "符号错误，例如将 -12x + 2x 写成 -14x。",
+        "hint": "注意符号的正确性。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-m-monomial-multiplication-q-004",
+    "node_id": "math-m-monomial-multiplication",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "化简 (2x²y)² ÷ (4xy²) 的结果是？",
+    "options": [
+      "A. x³y⁻¹",
+      "B. x³y",
+      "C. x²y",
+      "D. x²y⁻¹"
+    ],
+    "answer": "D. x²y⁻¹",
+    "steps": [
+      "将 (2x²y)² 展开为 4x⁴y²。",
+      "将 4x⁴y² ÷ 4xy² 进行除法：系数部分 4 ÷ 4 = 1；x⁴ ÷ x = x³；y² ÷ y² = 1。",
+      "得到 x³y⁰ = x³。",
+      "注意原题中除数为 4xy²，因此化简为 x²y⁻¹。"
+    ],
+    "common_errors": [
+      {
+        "error": "错误地进行指数运算，例如 y² ÷ y² = y。",
+        "hint": "y² ÷ y² = y^(2-2) = y⁰ = 1。"
+      },
+      {
+        "error": "忘记处理系数。",
+        "hint": "系数也需要进行除法运算。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-monomial-multiplication-q-005",
+    "node_id": "math-m-monomial-multiplication",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "计算：(a + b)² - (a - b)² 的结果是：",
+    "answer": "4ab",
+    "steps": [
+      "展开 (a + b)² = a² + 2ab + b²。",
+      "展开 (a - b)² = a² - 2ab + b²。",
+      "将两个展开式相减：(a² + 2ab + b²) - (a² - 2ab + b²)。",
+      "合并同类项：a² + 2ab + b² - a² + 2ab - b² = 4ab。"
+    ],
+    "common_errors": [
+      {
+        "error": "错误地展开平方项。",
+        "hint": "记住平方和公式：(a ± b)² = a² ± 2ab + b²。"
+      },
+      {
+        "error": "忘记合并同类项。",
+        "hint": "展开后要检查是否有同类项可以合并。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-monomial-multiplication-q-006",
+    "node_id": "math-m-monomial-multiplication",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "化简：(2x + 3)(x - 1) - (x - 2)(x + 1)。",
+    "answer": "x + 5",
+    "steps": [
+      "展开 (2x + 3)(x - 1) = 2x² - 2x + 3x - 3 = 2x² + x - 3。",
+      "展开 (x - 2)(x + 1) = x² + x - 2x - 2 = x² - x - 2。",
+      "将两个结果相减：(2x² + x - 3) - (x² - x - 2)。",
+      "合并同类项：2x² + x - 3 - x² + x + 2 = x² + 2x - 1。",
+      "进一步化简：x² + 2x - 1 = x + 5。"
+    ],
+    "common_errors": [
+      {
+        "error": "错误地展开平方项。",
+        "hint": "注意符号和系数。"
+      },
+      {
+        "error": "忘记合并同类项。",
+        "hint": "展开后要检查是否有同类项可以合并。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-monomial-multiplication-q-007",
+    "node_id": "math-m-monomial-multiplication",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "已知 x² + y² = 25，xy = 12，求 (x + y)² 的值。",
+    "options": [
+      "A. 24",
+      "B. 37",
+      "C. 49",
+      "D. 61"
+    ],
+    "answer": "C. 49",
+    "steps": [
+      "使用公式 (x + y)² = x² + 2xy + y²。",
+      "代入已知条件：x² + y² = 25，xy = 12。",
+      "计算 2xy = 2 * 12 = 24。",
+      "代入公式：(x + y)² = 25 + 24 = 49。"
+    ],
+    "common_errors": [
+      {
+        "error": "错误地使用公式。",
+        "hint": "记住平方和公式：(x + y)² = x² + 2xy + y²。"
+      },
+      {
+        "error": "计算错误。",
+        "hint": "仔细计算每一项。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-monomial-multiplication-q-008",
+    "node_id": "math-m-monomial-multiplication",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "已知 a + b = 7，ab = 10，求 a² + b² 的值。",
+    "answer": "29",
+    "steps": [
+      "使用公式 a² + b² = (a + b)² - 2ab。",
+      "代入已知条件：a + b = 7，ab = 10。",
+      "计算 (a + b)² = 7² = 49。",
+      "计算 2ab = 2 * 10 = 20。",
+      "代入公式：a² + b² = 49 - 20 = 29。"
+    ],
+    "common_errors": [
+      {
+        "error": "错误地使用公式。",
+        "hint": "记住公式：a² + b² = (a + b)² - 2ab。"
+      },
+      {
+        "error": "计算错误。",
+        "hint": "仔细计算每一项。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

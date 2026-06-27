@@ -1,0 +1,190 @@
+[
+  {
+    "id": "chem-m-ion-concept-q-001",
+    "node_id": "chem-m-ion-concept",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "以下关于离子的说法，正确的是？",
+    "options": [
+      "A. 离子是带电的原子或原子团",
+      "B. 离子都是带正电的",
+      "C. 离子都是带负电的",
+      "D. 离子不能参与化学反应"
+    ],
+    "answer": "A. 离子是带电的原子或原子团",
+    "steps": [
+      "1. 回顾离子的定义：离子是带电的原子或原子团。",
+      "2. 分析选项B：离子可以是正离子（如Na+）或负离子（如Cl-），因此B错误。",
+      "3. 分析选项C：同上，C错误。",
+      "4. 分析选项D：离子可以参与化学反应，如Na+和Cl-可以结合成NaCl，因此D错误。"
+    ],
+    "common_errors": [
+      {
+        "error": "认为离子都是带正电或带负电",
+        "hint": "离子可以是正离子或负离子，具体取决于失去或获得电子的情况。"
+      },
+      {
+        "error": "认为离子不能参与化学反应",
+        "hint": "离子是化学反应中的重要参与者，可以与其他离子结合形成化合物。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-ion-concept-q-002",
+    "node_id": "chem-m-ion-concept",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "写出氯化钠（NaCl）溶液中存在的离子：______ 和 ______。",
+    "answer": "Na+ 和 Cl-",
+    "steps": [
+      "1. 回顾氯化钠的化学式：NaCl。",
+      "2. 氯化钠在水中会电离成钠离子（Na+）和氯离子（Cl-）。",
+      "3. 填写答案：Na+ 和 Cl-。"
+    ],
+    "common_errors": [
+      {
+        "error": "写错离子的符号，如写成Na+1或Cl--",
+        "hint": "注意离子的电荷表示方法，正确写法为Na+ 和 Cl-。"
+      },
+      {
+        "error": "漏写一种离子",
+        "hint": "氯化钠电离后会产生两种离子，分别是Na+ 和 Cl-。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-ion-concept-q-003",
+    "node_id": "chem-m-ion-concept",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下哪种物质在水中不能形成离子？",
+    "options": [
+      "A. 氯化钾（KCl）",
+      "B. 蔗糖（C12H22O11）",
+      "C. 硫酸（H2SO4）",
+      "D. 氢氧化钠（NaOH）"
+    ],
+    "answer": "B. 蔗糖（C12H22O11）",
+    "steps": [
+      "1. 分析每个选项：KCl、H2SO4和NaOH都是电解质，在水中会电离成离子。",
+      "2. 蔗糖（C12H22O11）是非电解质，在水中不电离成离子。",
+      "3. 因此，选项B是正确答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为所有化合物在水中都能形成离子",
+        "hint": "只有电解质在水中能形成离子，非电解质如蔗糖则不能。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-ion-concept-q-004",
+    "node_id": "chem-m-ion-concept",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列离子中，哪种离子的电子层结构与氖原子相同？",
+    "options": [
+      "A. Na+",
+      "B. Mg2+",
+      "C. Cl-",
+      "D. O2-"
+    ],
+    "answer": "B. Mg2+",
+    "steps": [
+      "1. 回顾氖原子的电子层结构：1s2 2s2 2p6。",
+      "2. 分析每个离子的电子层结构：",
+      "   - Na+：1s2 2s2 2p6",
+      "   - Mg2+：1s2 2s2 2p6",
+      "   - Cl-：1s2 2s2 2p6 3s2 3p6",
+      "   - O2-：1s2 2s2 2p6",
+      "3. 比较可知，Mg2+、Na+和O2-的电子层结构与氖原子相同。",
+      "4. 但题目要求选择一种，因此选择Mg2+。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为只有一种离子与氖原子电子层结构相同",
+        "hint": "注意题目要求选择一种，但也要了解其他离子的电子层结构。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-ion-concept-q-005",
+    "node_id": "chem-m-ion-concept",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "写出硫酸铝（Al2(SO4)3）溶液中存在的离子：______、______ 和 ______。",
+    "answer": "Al3+、SO42- 和 SO42-",
+    "steps": [
+      "1. 回顾硫酸铝的化学式：Al2(SO4)3。",
+      "2. 硫酸铝在水中会电离成铝离子（Al3+）和硫酸根离子（SO42-）。",
+      "3. 每个Al2(SO4)3分子电离出2个Al3+和3个SO42-。",
+      "4. 填写答案：Al3+、SO42- 和 SO42-。"
+    ],
+    "common_errors": [
+      {
+        "error": "写错离子的符号或电荷",
+        "hint": "注意离子的电荷表示方法，正确写法为Al3+ 和 SO42-。"
+      },
+      {
+        "error": "漏写某种离子或数量不对",
+        "hint": "硫酸铝电离后会产生2个Al3+和3个SO42-，注意数量。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-ion-concept-q-006",
+    "node_id": "chem-m-ion-concept",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "解释为什么氯化钙（CaCl2）在水中能形成离子，而蔗糖（C12H22O11）不能。",
+    "answer": "氯化钙是离子化合物，在水中会电离成Ca2+和Cl-离子。而蔗糖是非离子化合物，属于非电解质，在水中不能电离成离子。",
+    "steps": [
+      "1. 解释氯化钙的性质：氯化钙是离子化合物，由Ca2+和Cl-组成。",
+      "2. 解释蔗糖的性质：蔗糖是非离子化合物，属于非电解质。",
+      "3. 总结：氯化钙在水中能电离成离子，而蔗糖不能。"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆离子化合物和非离子化合物的概念",
+        "hint": "理解离子化合物的定义和电解质的概念。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-ion-concept-q-007",
+    "node_id": "chem-m-ion-concept",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "为什么在某些化学反应中，离子可以结合成新的化合物？请举例说明。",
+    "answer": "在化学反应中，离子可以结合成新的化合物是因为它们之间的静电引力。例如，钠离子（Na+）和氯离子（Cl-）可以结合成氯化钠（NaCl）。",
+    "steps": [
+      "1. 解释离子结合的原理：离子之间的静电引力。",
+      "2. 举例说明：钠离子（Na+）和氯离子（Cl-）结合成氯化钠（NaCl）。",
+      "3. 总结：离子结合成新的化合物是由于静电引力的作用。"
+    ],
+    "common_errors": [
+      {
+        "error": "不理解离子结合的原理",
+        "hint": "理解离子之间的静电引力是结合的关键。"
+      },
+      {
+        "error": "举例不当",
+        "hint": "选择常见的离子反应作为例子，如Na+和Cl-结合成NaCl。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

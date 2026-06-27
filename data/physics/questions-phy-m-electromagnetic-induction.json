@@ -1,0 +1,236 @@
+[
+  {
+    "id": "phy-m-electromagnetic-induction-q-001",
+    "node_id": "phy-m-electromagnetic-induction",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列现象中，属于电磁感应现象的是：",
+    "options": [
+      "A. 通电导体周围产生磁场",
+      "B. 导体在磁场中运动产生感应电流",
+      "C. 磁铁吸引铁钉",
+      "D. 电流通过电阻发热"
+    ],
+    "answer": "B. 导体在磁场中运动产生感应电流",
+    "steps": [
+      "电磁感应是指闭合电路的一部分导体在磁场中做切割磁感线运动时，导体中会产生感应电流。",
+      "分析各选项：A是电流的磁效应，C是磁体的基本性质，D是电流的热效应。",
+      "B选项描述了电磁感应的基本条件。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A",
+        "hint": "A是电流的磁效应，不是电磁感应。"
+      },
+      {
+        "error": "误选C",
+        "hint": "C是磁体的基本性质，与电磁感应无关。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-electromagnetic-induction-q-002",
+    "node_id": "phy-m-electromagnetic-induction",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "闭合电路的一部分导体在磁场中做切割磁感线运动时，导体中会产生________。",
+    "answer": "感应电流",
+    "steps": [
+      "根据电磁感应现象的定义，闭合电路的一部分导体在磁场中做切割磁感线运动时，导体中会产生感应电流。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写“电流”",
+        "hint": "缺少“感应”二字，不够准确。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-electromagnetic-induction-q-003",
+    "node_id": "phy-m-electromagnetic-induction",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列哪种情况不能产生感应电流？",
+    "options": [
+      "A. 导体在磁场中静止",
+      "B. 导体在磁场中做切割磁感线运动",
+      "C. 导体在磁场中做平行磁感线运动",
+      "D. 导体在磁场中做旋转运动"
+    ],
+    "answer": "A. 导体在磁场中静止",
+    "steps": [
+      "电磁感应产生的条件是：闭合电路的一部分导体在磁场中做切割磁感线运动。",
+      "分析各选项：A中导体静止，不满足运动条件；B、C、D均满足运动条件。",
+      "因此，A选项不能产生感应电流。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选C",
+        "hint": "平行磁感线运动虽然不产生感应电流，但题目问的是“不能”，需要考虑所有情况。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-electromagnetic-induction-q-004",
+    "node_id": "phy-m-electromagnetic-induction",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "如图所示，闭合线圈在磁场中绕垂直于磁场的轴匀速转动时，线圈中产生感应电流。以下说法正确的是：",
+    "options": [
+      "A. 线圈平面垂直于磁感线时，感应电流最大",
+      "B. 线圈平面平行于磁感线时，感应电流最大",
+      "C. 线圈平面垂直于磁感线时，感应电流为零",
+      "D. 线圈平面平行于磁感线时，感应电流为零"
+    ],
+    "answer": "D. 线圈平面平行于磁感线时，感应电流为零",
+    "steps": [
+      "线圈在磁场中转动时，感应电流的大小与磁通量的变化率有关。",
+      "当线圈平面平行于磁感线时，磁通量变化率为零，感应电流为零。",
+      "当线圈平面垂直于磁感线时，磁通量变化率最大，感应电流最大。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B",
+        "hint": "线圈平面平行于磁感线时，磁通量变化率为零，感应电流为零。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-electromagnetic-induction-q-005",
+    "node_id": "phy-m-electromagnetic-induction",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "法拉第电磁感应定律的表达式为：E=________。",
+    "answer": "E=nΔΦ/Δt",
+    "steps": [
+      "法拉第电磁感应定律的表达式为：E=nΔΦ/Δt，其中E为感应电动势，n为线圈匝数，ΔΦ为磁通量变化量，Δt为时间变化量。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误表达式",
+        "hint": "注意公式中各符号的含义和单位。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-electromagnetic-induction-q-006",
+    "node_id": "phy-m-electromagnetic-induction",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述电磁感应现象中，感应电流的方向如何判断。",
+    "answer": "根据楞次定律，感应电流的方向总是阻碍引起感应电流的磁通量的变化。具体判断方法是：先判断原磁场的方向，再判断磁通量的变化，最后根据右手定则确定感应电流的方向。",
+    "steps": [
+      "根据楞次定律，感应电流的方向总是阻碍引起感应电流的磁通量的变化。",
+      "判断原磁场的方向和磁通量的变化。",
+      "应用右手定则确定感应电流的方向。"
+    ],
+    "common_errors": [
+      {
+        "error": "只应用右手定则",
+        "hint": "忽略楞次定律，导致判断错误。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-electromagnetic-induction-q-007",
+    "node_id": "phy-m-electromagnetic-induction",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "如图所示，导体棒在磁场中向右运动时，下列说法正确的是：",
+    "options": [
+      "A. 导体棒中产生感应电流的方向向上",
+      "B. 导体棒中产生感应电流的方向向下",
+      "C. 导体棒中不产生感应电流",
+      "D. 导体棒中产生感应电流的方向向左"
+    ],
+    "answer": "B. 导体棒中产生感应电流的方向向下",
+    "steps": [
+      "根据右手定则，判断感应电流的方向。",
+      "右手定则：伸开右手，使拇指与其余四指垂直，并且都与手掌在同一平面内，让磁感线垂直穿过手心，拇指指向导体运动方向，其余四指所指的方向就是感应电流的方向。",
+      "应用右手定则，导体棒向右运动时，感应电流的方向向下。"
+    ],
+    "common_errors": [
+      {
+        "error": "应用左手定则",
+        "hint": "左手定则用于判断力的方向，不是感应电流的方向。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-electromagnetic-induction-q-008",
+    "node_id": "phy-m-electromagnetic-induction",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "如图所示，闭合线圈在磁场中绕垂直于磁场的轴匀速转动时，线圈中产生的感应电动势如何变化？",
+    "answer": "线圈中产生的感应电动势是随时间变化的正弦函数。具体来说，感应电动势的瞬时值E=BSωsin(ωt)，其中B为磁感应强度，S为线圈面积，ω为角速度，t为时间。",
+    "steps": [
+      "根据法拉第电磁感应定律，感应电动势与磁通量的变化率成正比。",
+      "线圈在磁场中转动时，磁通量随时间变化呈正弦函数关系。",
+      "因此，感应电动势也是随时间变化的正弦函数。"
+    ],
+    "common_errors": [
+      {
+        "error": "认为感应电动势是恒定的",
+        "hint": "忽略磁通量随时间的变化，导致判断错误。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-electromagnetic-induction-q-009",
+    "node_id": "phy-m-electromagnetic-induction",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "如图所示，导体棒在磁场中以速度v向右匀速运动时，导体棒两端的电压如何变化？",
+    "answer": "导体棒两端的电压随时间保持恒定。具体来说，导体棒两端的电压U=Bvl，其中B为磁感应强度，l为导体棒的长度，v为导体棒的速度。",
+    "steps": [
+      "根据电磁感应定律，导体棒中产生的感应电动势E=Bvl。",
+      "导体棒两端的电压等于感应电动势。",
+      "因此，导体棒两端的电压U=Bvl。"
+    ],
+    "common_errors": [
+      {
+        "error": "认为电压随时间变化",
+        "hint": "导体棒匀速运动，电压保持恒定。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-electromagnetic-induction-q-010",
+    "node_id": "phy-m-electromagnetic-induction",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "如图所示，闭合线圈在磁场中绕垂直于磁场的轴匀速转动时，线圈中产生的感应电流如何变化？",
+    "answer": "线圈中产生的感应电流是随时间变化的正弦函数。具体来说，感应电流的瞬时值I=(BSω/R)sin(ωt)，其中B为磁感应强度，S为线圈面积，ω为角速度，R为线圈电阻，t为时间。",
+    "steps": [
+      "根据法拉第电磁感应定律，感应电动势E=BSωsin(ωt)。",
+      "根据欧姆定律，感应电流I=E/R。",
+      "因此，感应电流I=(BSω/R)sin(ωt)。"
+    ],
+    "common_errors": [
+      {
+        "error": "认为感应电流是恒定的",
+        "hint": "忽略磁通量随时间的变化，导致判断错误。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

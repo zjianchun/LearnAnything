@@ -1,0 +1,221 @@
+[
+  {
+    "id": "math-m-circle-tangent-q-001",
+    "node_id": "math-m-circle-tangent",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "已知圆的半径为5，圆心到直线的距离为3，则直线与圆的位置关系是：",
+    "options": [
+      "A. 相交",
+      "B. 相切",
+      "C. 相离",
+      "D. 无法确定"
+    ],
+    "answer": "A. 相交",
+    "steps": [
+      "1. 判断直线与圆的位置关系，需要比较圆心到直线的距离d与圆的半径r。",
+      "2. 已知d=3，r=5。",
+      "3. 当d<r时，直线与圆相交；当d=r时，直线与圆相切；当d>r时，直线与圆相离。",
+      "4. 因为3<5，所以直线与圆相交。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为d=r时直线与圆相交",
+        "hint": "注意区分d=r时是相切而不是相交。"
+      },
+      {
+        "error": "忘记比较d与r",
+        "hint": "一定要先计算d与r，再进行比较。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-m-circle-tangent-q-002",
+    "node_id": "math-m-circle-tangent",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "若直线与圆相切，且圆的半径为6，则圆心到直线的距离为________。",
+    "answer": "6",
+    "steps": [
+      "1. 直线与圆相切时，圆心到直线的距离d等于圆的半径r。",
+      "2. 已知r=6，所以d=6。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为d=0",
+        "hint": "相切时d=r，而不是d=0。"
+      },
+      {
+        "error": "误认为d>r",
+        "hint": "相切时d=r，而不是d>r。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-circle-tangent-q-003",
+    "node_id": "math-m-circle-tangent",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "若直线与圆相离，且圆的半径为4，则圆心到直线的距离可能为：",
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 5",
+      "D. 6"
+    ],
+    "answer": "D. 6",
+    "steps": [
+      "1. 直线与圆相离时，圆心到直线的距离d大于圆的半径r。",
+      "2. 已知r=4，所以d>4。",
+      "3. 选项中只有d=6满足d>4。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为d<r",
+        "hint": "相离时d>r，而不是d<r。"
+      },
+      {
+        "error": "误认为d=r",
+        "hint": "相离时d>r，而不是d=r。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-circle-tangent-q-004",
+    "node_id": "math-m-circle-tangent",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "已知圆的方程为(x-2)^2 + (y-3)^2 = 25，直线y=x+1与圆的位置关系如何？",
+    "answer": "直线与圆相交",
+    "steps": [
+      "1. 圆的方程为(x-2)^2 + (y-3)^2 = 25，圆心为(2,3)，半径r=5。",
+      "2. 直线y=x+1的方程可以写成一般式：x-y+1=0。",
+      "3. 计算圆心到直线的距离d：d = |2-3+1| / sqrt(1^2 + (-1)^2) = 0 / sqrt(2) = 0。",
+      "4. 因为d=0<r=5，所以直线与圆相交。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为d=r",
+        "hint": "注意d=0，而不是d=r。"
+      },
+      {
+        "error": "误认为d>r",
+        "hint": "d=0<r，所以直线与圆相交，而不是相离。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-circle-tangent-q-005",
+    "node_id": "math-m-circle-tangent",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "若直线3x+4y-10=0与圆(x-1)^2 + (y-2)^2 = 4相切，求k的值。",
+    "answer": "k=5",
+    "steps": [
+      "1. 圆的方程为(x-1)^2 + (y-2)^2 = 4，圆心为(1,2)，半径r=2。",
+      "2. 直线3x+4y-10=0的方程可以写成一般式：3x+4y-10=0。",
+      "3. 计算圆心到直线的距离d：d = |3*1 + 4*2 - 10| / sqrt(3^2 + 4^2) = |3 + 8 - 10| / 5 = 1/5。",
+      "4. 因为直线与圆相切，所以d=r，即1/5=2。",
+      "5. 解得k=5。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为d=r时k=2",
+        "hint": "注意d=1/5，而不是d=2。"
+      },
+      {
+        "error": "误认为d>r",
+        "hint": "相切时d=r，而不是d>r。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-circle-tangent-q-006",
+    "node_id": "math-m-circle-tangent",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "若直线x-y+1=0与圆(x-3)^2 + (y-4)^2 = 9相交，求k的值。",
+    "answer": "k=3",
+    "steps": [
+      "1. 圆的方程为(x-3)^2 + (y-4)^2 = 9，圆心为(3,4)，半径r=3。",
+      "2. 直线x-y+1=0的方程可以写成一般式：x-y+1=0。",
+      "3. 计算圆心到直线的距离d：d = |3 - 4 + 1| / sqrt(1^2 + (-1)^2) = 0 / sqrt(2) = 0。",
+      "4. 因为d=0<r=3，所以直线与圆相交。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为d=r",
+        "hint": "注意d=0，而不是d=r。"
+      },
+      {
+        "error": "误认为d>r",
+        "hint": "d=0<r，所以直线与圆相交，而不是相离。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-circle-tangent-q-007",
+    "node_id": "math-m-circle-tangent",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "已知圆的方程为x^2 + y^2 = 25，直线y=2x+k与圆相交，求k的取值范围。",
+    "answer": "-5√5 < k < 5√5",
+    "steps": [
+      "1. 圆的方程为x^2 + y^2 = 25，圆心为(0,0)，半径r=5。",
+      "2. 直线y=2x+k的方程可以写成一般式：2x-y+k=0。",
+      "3. 计算圆心到直线的距离d：d = |k| / sqrt(2^2 + (-1)^2) = |k| / sqrt(5)。",
+      "4. 因为直线与圆相交，所以d<r，即|k| / sqrt(5) < 5。",
+      "5. 解得|k| < 5√5，所以-5√5 < k < 5√5。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为d=r",
+        "hint": "相交时d<r，而不是d=r。"
+      },
+      {
+        "error": "误认为d>r",
+        "hint": "相交时d<r，而不是d>r。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "math-m-circle-tangent-q-008",
+    "node_id": "math-m-circle-tangent",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "若直线x-y+1=0与圆(x-3)^2 + (y-4)^2 = 9相交，求k的值。",
+    "answer": "k=3",
+    "steps": [
+      "1. 圆的方程为(x-3)^2 + (y-4)^2 = 9，圆心为(3,4)，半径r=3。",
+      "2. 直线x-y+1=0的方程可以写成一般式：x-y+1=0。",
+      "3. 计算圆心到直线的距离d：d = |3 - 4 + 1| / sqrt(1^2 + (-1)^2) = 0 / sqrt(2) = 0。",
+      "4. 因为d=0<r=3，所以直线与圆相交。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为d=r",
+        "hint": "注意d=0，而不是d=r。"
+      },
+      {
+        "error": "误认为d>r",
+        "hint": "d=0<r，所以直线与圆相交，而不是相离。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

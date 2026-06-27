@@ -1,0 +1,209 @@
+[
+  {
+    "id": "math-m-data-description-q-001",
+    "node_id": "math-m-data-description",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列关于数据的描述中，哪个是集中趋势的度量？",
+    "options": [
+      "A. 方差",
+      "B. 中位数",
+      "C. 标准差",
+      "D. 四分位距"
+    ],
+    "answer": "B. 中位数",
+    "steps": [
+      "1. 集中趋势的度量包括平均数、中位数和众数。",
+      "2. 方差和标准差是离散趋势的度量。",
+      "3. 四分位距也是离散趋势的度量。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将方差或标准差作为集中趋势的度量。",
+        "hint": "记住集中趋势度量的是数据的中心位置，而方差和标准差度量的是数据的离散程度。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-data-description-q-002",
+    "node_id": "math-m-data-description",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "一组数据：3, 5, 7, 7, 9 的众数是___。",
+    "answer": "7",
+    "steps": [
+      "1. 众数是指数据中出现次数最多的数。",
+      "2. 在这组数据中，7 出现了两次，其他数都只出现一次。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将中位数或平均数作为众数。",
+        "hint": "众数是数据中出现次数最多的数，而不是中间位置的数或平均值。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-data-description-q-003",
+    "node_id": "math-m-data-description",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列关于数据的描述中，哪个是离散趋势的度量？",
+    "options": [
+      "A. 平均数",
+      "B. 众数",
+      "C. 方差",
+      "D. 中位数"
+    ],
+    "answer": "C. 方差",
+    "steps": [
+      "1. 离散趋势的度量包括方差、标准差和四分位距。",
+      "2. 平均数、众数和中位数是集中趋势的度量。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将平均数或中位数作为离散趋势的度量。",
+        "hint": "离散趋势度量的是数据的分散程度，而平均数和中位数是集中趋势的度量。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-data-description-q-004",
+    "node_id": "math-m-data-description",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一组数据：2, 4, 6, 8, 10 的平均数是多少？",
+    "answer": "6",
+    "steps": [
+      "1. 平均数 = (所有数据之和) / (数据个数)。",
+      "2. 数据之和为 2 + 4 + 6 + 8 + 10 = 30。",
+      "3. 数据个数为 5。",
+      "4. 平均数为 30 / 5 = 6。"
+    ],
+    "common_errors": [
+      {
+        "error": "计算过程中出现加法或除法错误。",
+        "hint": "仔细检查每一步的计算，确保没有错误。"
+      },
+      {
+        "error": "误将中位数或众数作为平均数。",
+        "hint": "平均数是所有数据的总和除以数据个数，而不是中间位置的数或出现次数最多的数。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-data-description-q-005",
+    "node_id": "math-m-data-description",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一组数据：1, 3, 5, 7, 9 的中位数是多少？",
+    "answer": "5",
+    "steps": [
+      "1. 中位数是指将数据按大小顺序排列后，处于中间位置的数。",
+      "2. 将数据按顺序排列：1, 3, 5, 7, 9。",
+      "3. 中间位置的数为 5。"
+    ],
+    "common_errors": [
+      {
+        "error": "未将数据按顺序排列。",
+        "hint": "中位数计算前必须将数据按大小顺序排列。"
+      },
+      {
+        "error": "误将平均数或众数作为中位数。",
+        "hint": "中位数是中间位置的数，而不是平均值或出现次数最多的数。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-data_description-q-006",
+    "node_id": "math-m-data-description",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一组数据：2, 4, 6, 8, 10 的方差是多少？",
+    "answer": "8",
+    "steps": [
+      "1. 方差 = [(每个数据 - 平均数)^2 的和] / 数据个数。",
+      "2. 平均数为 (2 + 4 + 6 + 8 + 10) / 5 = 6。",
+      "3. 每个数据与平均数的差的平方和为 (2-6)^2 + (4-6)^2 + (6-6)^2 + (8-6)^2 + (10-6)^2 = 16 + 4 + 0 + 4 + 16 = 40。",
+      "4. 方差为 40 / 5 = 8。"
+    ],
+    "common_errors": [
+      {
+        "error": "计算平均数时出现错误。",
+        "hint": "确保平均数计算正确，否则后续计算都会出错。"
+      },
+      {
+        "error": "平方和计算错误。",
+        "hint": "仔细检查每个数据的平方计算，确保没有遗漏或错误。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-data_description-q-007",
+    "node_id": "math-m-data-description",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一组数据：3, 6, 9, 12, 15 的标准差是多少？",
+    "answer": "4.47",
+    "steps": [
+      "1. 标准差是方差的平方根。",
+      "2. 首先计算平均数：平均数为 (3 + 6 + 9 + 12 + 15) / 5 = 9。",
+      "3. 计算方差：[(3-9)^2 + (6-9)^2 + (9-9)^2 + (12-9)^2 + (15-9)^2] / 5 = [36 + 9 + 0 + 9 + 36] / 5 = 90 / 5 = 18。",
+      "4. 标准差为 √18 ≈ 4.47。"
+    ],
+    "common_errors": [
+      {
+        "error": "计算平均数时出错。",
+        "hint": "确保平均数计算正确，否则后续计算都会出错。"
+      },
+      {
+        "error": "平方和计算错误。",
+        "hint": "仔细检查每个数据的平方计算，确保没有遗漏或错误。"
+      },
+      {
+        "error": "未计算标准差的平方根。",
+        "hint": "标准差是方差的平方根，而不是方差本身。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-data-description-q-008",
+    "node_id": "math-m-data-description",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一组数据：5, 7, 9, 11, 13 的四分位距是多少？",
+    "answer": "4",
+    "steps": [
+      "1. 四分位距是指上四分位数与下四分位数的差。",
+      "2. 首先将数据按顺序排列：5, 7, 9, 11, 13。",
+      "3. 下四分位数为第 2 位的数，即 7。",
+      "4. 上四分位数为第 4 位的数，即 11。",
+      "5. 四分位距为 11 - 7 = 4。"
+    ],
+    "common_errors": [
+      {
+        "error": "未将数据按顺序排列。",
+        "hint": "四分位距计算前必须将数据按大小顺序排列。"
+      },
+      {
+        "error": "误将平均数或中位数作为四分位数。",
+        "hint": "四分位数是特定位置上的数，而不是平均值或中间位置的数。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

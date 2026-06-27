@@ -1,0 +1,200 @@
+[
+  {
+    "id": "math-m-geometry-circle-q-001",
+    "node_id": "math-m-geometry-circle",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "已知圆的半径为5，圆心到直线的距离为3，则该直线与圆的位置关系是？",
+    "options": [
+      "A. 相交",
+      "B. 相切",
+      "C. 相离",
+      "D. 无法确定"
+    ],
+    "answer": "A. 相交",
+    "steps": [
+      "1. 圆的半径r=5，圆心到直线的距离d=3。",
+      "2. 比较d与r的大小：d < r。",
+      "3. 当d < r时，直线与圆相交。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为d=r时直线与圆相切",
+        "hint": "注意区分d=r（相切）、d<r（相交）和d>r（相离）的情况。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-geometry-circle-q-002",
+    "node_id": "math-m-geometry-circle",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "已知圆的直径为10，则圆的周长为_____。",
+    "answer": "31.4",
+    "steps": [
+      "1. 圆的直径d=10，半径r=d/2=5。",
+      "2. 圆的周长公式为C=2πr。",
+      "3. 代入数值：C=2×3.14×5=31.4。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用直径计算周长",
+        "hint": "周长公式C=2πr，使用半径r而非直径d。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-geometry-circle-q-003",
+    "node_id": "math-m-geometry-circle",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "若圆的两条弦AB和CD相等，且AB=CD=8，圆心到AB的距离为3，则圆心到CD的距离为？",
+    "options": [
+      "A. 3",
+      "B. 4",
+      "C. 5",
+      "D. 6"
+    ],
+    "answer": "A. 3",
+    "steps": [
+      "1. 根据垂径定理，圆心到弦的距离相等。",
+      "2. 已知圆心到AB的距离为3。",
+      "3. 因此，圆心到CD的距离也为3。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为圆心到弦的距离与弦长有关",
+        "hint": "圆心到弦的距离与弦长无关，只与圆心到弦的垂线段有关。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-geometry-circle-q-004",
+    "node_id": "math-m-geometry-circle",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "如图，⊙O的半径为5，弦AB=8，点P是AB上的一点，且OP⊥AB，求OP的长。",
+    "answer": "3",
+    "steps": [
+      "1. 连接OA和OB，则OA=OB=5，AB=8。",
+      "2. 在Rt△OAP中，OA²=OP²+AP²。",
+      "3. 设OP=x，则AP=AB/2=4。",
+      "4. 代入数值：5²=x²+4²。",
+      "5. 解方程：25=x²+16，x²=9，x=3。",
+      "6. 因此，OP的长为3。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为OP是圆心到弦AB的垂线段",
+        "hint": "OP是圆心到弦AB上一点的连线，而非垂线段。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-geometry-circle-q-005",
+    "node_id": "math-m-geometry-circle",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "如图，⊙O的半径为6，弦AB=6√3，求∠AOB的度数。",
+    "answer": "120°",
+    "steps": [
+      "1. 连接OA和OB，则OA=OB=6，AB=6√3。",
+      "2. 在等腰△AOB中，作OM⊥AB于M。",
+      "3. 根据垂径定理，AM=MB=AB/2=3√3。",
+      "4. 在Rt△OMA中，OM=√(OA²-AM²)=√(36-27)=3。",
+      "5. tan(∠AOM)=AM/OM=3√3/3=√3。",
+      "6. 因此，∠AOM=60°，∠AOB=2×60°=120°。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用弦长公式计算角度",
+        "hint": "应使用三角函数计算角度，而非直接用弦长公式。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-geometry-circle-q-006",
+    "node_id": "math-m-geometry-circle",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "如图，⊙O的半径为5，弦AB=8，点C是AB的中点，求OC的长。",
+    "answer": "3",
+    "steps": [
+      "1. 连接OA和OB，则OA=OB=5，AB=8。",
+      "2. 在Rt△OAC中，OA²=OC²+AC²。",
+      "3. 设OC=x，则AC=AB/2=4。",
+      "4. 代入数值：5²=x²+4²。",
+      "5. 解方程：25=x²+16，x²=9，x=3。",
+      "6. 因此，OC的长为3。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为OC是圆心到弦AB的垂线段",
+        "hint": "OC是圆心到弦AB中点的连线，而非垂线段。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-geometry-circle-q-007",
+    "node_id": "math-m-geometry-circle",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "如图，⊙O的半径为5，弦AB=6，点P是AB延长线上的一点，且OP⊥AB，延长OP交⊙O于C，求PC的长。",
+    "answer": "4",
+    "steps": [
+      "1. 连接OA和OB，则OA=OB=5，AB=6。",
+      "2. 在Rt△OAP中，OA²=OP²+AP²。",
+      "3. 设OP=x，则AP=AB/2=3。",
+      "4. 代入数值：5²=x²+3²。",
+      "5. 解方程：25=x²+9，x²=16，x=4。",
+      "6. 因此，OP的长为4。",
+      "7. 因为OP⊥AB，且C是OP延长线上的一点，所以PC=OP=4。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为PC=OP+OC",
+        "hint": "PC=OP，因为C是OP延长线上的一点。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "math-m-geometry-circle-q-008",
+    "node_id": "math-m-geometry-circle",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "如图，⊙O的半径为6，弦AB=6√2，点C是AB的中点，连接OC并延长交⊙O于D，求CD的长。",
+    "answer": "2√2",
+    "steps": [
+      "1. 连接OA和OB，则OA=OB=6，AB=6√2。",
+      "2. 在Rt△OAC中，OA²=OC²+AC²。",
+      "3. 设OC=x，则AC=AB/2=3√2。",
+      "4. 代入数值：6²=x²+(3√2)²。",
+      "5. 解方程：36=x²+18，x²=18，x=3√2。",
+      "6. 因此，OC的长为3√2。",
+      "7. 因为C是AB的中点，所以CD=OD-OC=6-3√2。",
+      "8. 根据垂径定理，CD=2√2。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为CD=OD+OC",
+        "hint": "CD=OD-OC，因为C是AB的中点。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

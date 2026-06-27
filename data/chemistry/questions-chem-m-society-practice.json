@@ -1,0 +1,218 @@
+[
+  {
+    "id": "chem-m-chemistry-society-practice-q-001",
+    "node_id": "chem-m-chemistry-society-practice",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列物质中，属于常见的复合肥料的是？",
+    "options": [
+      "A. 尿素 (CO(NH₂)₂)",
+      "B. 氯化钾 (KCl)",
+      "C. 硝酸铵 (NH₄NO₃)",
+      "D. 磷酸二氢铵 (NH₄H₂PO₄)"
+    ],
+    "answer": "D. 磷酸二氢铵 (NH₄H₂PO₄)",
+    "steps": [
+      "1. 复合肥料是指含有氮、磷、钾中两种或两种以上营养元素的肥料。",
+      "2. 分析各选项：尿素只含氮，氯化钾只含钾，硝酸铵只含氮，磷酸二氢铵含氮和磷。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为尿素是复合肥料",
+        "hint": "尿素只含氮元素，是氮肥，不是复合肥料。"
+      },
+      {
+        "error": "误认为硝酸铵是复合肥料",
+        "hint": "硝酸铵只含氮元素，是氮肥，不是复合肥料。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-chemistry-society-practice-q-002",
+    "node_id": "chem-m-chemistry-society-practice",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列关于水污染的说法，正确的是？",
+    "options": [
+      "A. 水体富营养化是由过多的氮、磷等营养物质引起的",
+      "B. 酸雨不会对水体造成污染",
+      "C. 生活污水不会造成水污染",
+      "D. 重金属污染不会影响水生生物"
+    ],
+    "answer": "A. 水体富营养化是由过多的氮、磷等营养物质引起的",
+    "steps": [
+      "1. 分析各选项：",
+      "2. 水体富营养化确实是由过多的氮、磷等营养物质引起的。",
+      "3. 酸雨会导致水体酸化，造成污染。",
+      "4. 生活污水含有大量有机物，会造成水污染。",
+      "5. 重金属污染会对水生生物造成严重危害。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为酸雨不会对水体造成污染",
+        "hint": "酸雨会导致水体酸化，造成污染。"
+      },
+      {
+        "error": "误认为生活污水不会造成水污染",
+        "hint": "生活污水含有大量有机物，会造成水污染。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-chemistry-society-practice-q-003",
+    "node_id": "chem-m-chemistry-society-practice",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "在农业生产中，为了提高农作物产量，常使用化肥。常用的氮肥有_____、_____等。",
+    "answer": "尿素, 硝酸铵",
+    "steps": [
+      "1. 回忆常见的氮肥种类。",
+      "2. 常见的氮肥包括尿素 (CO(NH₂)₂)、硝酸铵 (NH₄NO₃)、硫酸铵 ((NH₄)₂SO₄) 等。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误，例如填写磷肥或钾肥",
+        "hint": "氮肥是指含氮元素的肥料，例如尿素、硝酸铵等。"
+      },
+      {
+        "error": "填写不完整的氮肥名称",
+        "hint": "填写完整的化学式或名称，例如尿素 (CO(NH₂)₂) 或硝酸铵 (NH₄NO₃)。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-chemistry-society-practice-q-004",
+    "node_id": "chem-m-chemistry-society-practice",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "在工业生产中，煤炭燃烧会产生大量的_____，这是形成酸雨的主要原因之一。",
+    "answer": "二氧化硫 (SO₂)",
+    "steps": [
+      "1. 分析煤炭燃烧的产物。",
+      "2. 煤炭燃烧会产生二氧化硫 (SO₂) 和氮氧化物 (NOx)。",
+      "3. 这些物质与水反应生成硫酸和硝酸，导致酸雨。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误，例如填写二氧化碳 (CO₂)",
+        "hint": "二氧化碳不是形成酸雨的主要原因。"
+      },
+      {
+        "error": "填写不完整的化学式",
+        "hint": "填写完整的化学式，例如二氧化硫 (SO₂)。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-chemistry-society-practice-q-005",
+    "node_id": "chem-m-chemistry-society-practice",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释为什么在农业生产中，过量使用化肥会导致水体污染。",
+    "answer": "过量使用化肥会导致土壤中残留的化肥随雨水流入水体，造成水体富营养化。富营养化会促进藻类大量繁殖，消耗水中的氧气，导致水体缺氧，影响水生生物的生存。",
+    "steps": [
+      "1. 解释化肥过量使用的原因。",
+      "2. 化肥随雨水流入水体。",
+      "3. 解释水体富营养化的过程。",
+      "4. 说明水体富营养化的危害。"
+    ],
+    "common_errors": [
+      {
+        "error": "未解释水体富营养化的过程",
+        "hint": "需要说明化肥如何导致水体富营养化。"
+      },
+      {
+        "error": "未说明水体富营养化的危害",
+        "hint": "需要说明水体富营养化对水生生物的影响。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-chemistry-society-practice-q-006",
+    "node_id": "chem-m-chemistry-society-practice",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请列举三种减少水污染的措施，并简要说明。",
+    "answer": "1. 工业废水处理：工业废水在排放前进行净化处理，去除有害物质。\n2. 生活污水处理：建设污水处理厂，对生活污水进行集中处理。\n3. 农业污染控制：合理使用化肥和农药，减少化肥和农药的流失。",
+    "steps": [
+      "1. 列举三种减少水污染的措施。",
+      "2. 对每种措施进行简要说明。"
+    ],
+    "common_errors": [
+      {
+        "error": "列举的措施不具体",
+        "hint": "需要具体说明每种措施，例如工业废水处理的具体方法。"
+      },
+      {
+        "error": "未对措施进行说明",
+        "hint": "需要对每种措施进行简要说明，例如如何实施。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-chemistry-society-practice-q-007",
+    "node_id": "chem-m-chemistry-society-practice",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列关于垃圾分类的说法，错误的是？",
+    "options": [
+      "A. 垃圾分类可以减少环境污染",
+      "B. 垃圾分类可以提高资源利用率",
+      "C. 垃圾分类可以减少垃圾处理成本",
+      "D. 垃圾分类对环境没有影响"
+    ],
+    "answer": "D. 垃圾分类对环境没有影响",
+    "steps": [
+      "1. 分析各选项：",
+      "2. 垃圾分类可以减少环境污染。",
+      "3. 垃圾分类可以提高资源利用率。",
+      "4. 垃圾分类可以减少垃圾处理成本。",
+      "5. 垃圾分类对环境有积极影响。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为垃圾分类对环境没有影响",
+        "hint": "垃圾分类对环境有积极影响，例如减少污染、提高资源利用率等。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-chemistry-society-practice-q-008",
+    "node_id": "chem-m-chemistry-society-practice",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请结合化学知识，解释为什么使用无磷洗衣粉可以减少水体污染。",
+    "answer": "无磷洗衣粉不含磷元素，使用后不会向水体中排放磷。磷是水体富营养化的主要元素之一，减少磷的排放可以有效控制水体富营养化，从而减少水体污染。",
+    "steps": [
+      "1. 说明无磷洗衣粉的特点。",
+      "2. 解释磷元素对水体的影响。",
+      "3. 说明无磷洗衣粉对减少水体污染的作用。"
+    ],
+    "common_errors": [
+      {
+        "error": "未解释磷元素对水体的影响",
+        "hint": "需要说明磷元素如何导致水体富营养化。"
+      },
+      {
+        "error": "未说明无磷洗衣粉的作用",
+        "hint": "需要说明无磷洗衣粉如何减少磷的排放。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

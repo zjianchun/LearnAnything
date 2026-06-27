@@ -1,0 +1,216 @@
+[
+  {
+    "id": "phy-m-simple-machines-q-001",
+    "node_id": "phy-m-simple-machines",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "如图所示，杠杆处于平衡状态，若在B端再加一个相同的砝码，则要使杠杆重新平衡，需要（   ）",
+    "options": [
+      "A. 在A端加一个砝码",
+      "B. 在A端加两个砝码",
+      "C. 在A端加三个砝码",
+      "D. 在A端加四个砝码"
+    ],
+    "answer": "B. 在A端加两个砝码",
+    "steps": [
+      "1. 根据杠杆平衡条件：动力×动力臂=阻力×阻力臂",
+      "2. 初始状态：设每个砝码重力为G，则GA×LA = GB×LB",
+      "3. 加入砝码后：GA×LA = (GB+2G)×LB",
+      "4. 解得GA = 2G，即需要在A端加两个砝码"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为只需加一个砝码",
+        "hint": "注意杠杆平衡条件是力与力臂的乘积相等，而不是力相等"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-simple-machines-q-002",
+    "node_id": "phy-m-simple-machines",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "如图所示的滑轮组，不计绳重和摩擦，拉力F的大小为（   ）N。（已知物重G=300N，滑轮重20N）",
+    "answer": "160",
+    "steps": [
+      "1. 分析滑轮组结构：承担重物的绳子段数为3段",
+      "2. 根据滑轮组公式：F=(G+G动)/n",
+      "3. 代入数据：F=(300+20)/3=160N"
+    ],
+    "common_errors": [
+      {
+        "error": "误将滑轮重力忽略",
+        "hint": "题目明确说明不计绳重和摩擦，但滑轮重力需要考虑"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-simple-machines-q-003",
+    "node_id": "phy-m-simple-machines",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "如图所示的杠杆中，OA=3OB，物体A重10N，物体B重30N，则杠杆（   ）",
+    "options": [
+      "A. 顺时针转动",
+      "B. 逆时针转动",
+      "C. 保持平衡",
+      "D. 无法判断"
+    ],
+    "answer": "A. 顺时针转动",
+    "steps": [
+      "1. 计算力矩：OA×GA=3×10=30N·m，OB×GB=1×30=30N·m",
+      "2. 比较力矩：OA×GA < OB×GB",
+      "3. 结论：顺时针转动"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为力相等即平衡",
+        "hint": "杠杆平衡条件是力矩相等，而不是力相等"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-simple-machines-q-004",
+    "node_id": "phy-m-simple-machines",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "如图所示的杠杆，OA=1m，OB=3m，物体A重20N，物体B重10N。若在B端施加一个竖直向下的力F，使杠杆平衡，求力F的大小和方向。",
+    "answer": "力F的大小为30N，方向竖直向上。\n解题步骤：\n1. 设力F的方向为竖直向上，根据杠杆平衡条件：OA×GA + OB×F = OB×GB\n2. 代入数据：1×20 + 3×F = 3×10\n3. 解得：F=30/3=10N\n4. 由于初始不平衡力矩为顺时针方向，所以力F方向应为竖直向上",
+    "steps": [
+      "1. 设力F的方向为竖直向上，根据杠杆平衡条件：OA×GA + OB×F = OB×GB",
+      "2. 代入数据：1×20 + 3×F = 3×10",
+      "3. 解得：F=30/3=10N",
+      "4. 由于初始不平衡力矩为顺时针方向，所以力F方向应为竖直向上"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为力F方向向下",
+        "hint": "注意分析初始不平衡力矩的方向"
+      },
+      {
+        "error": "计算错误",
+        "hint": "仔细检查计算过程，确保数值准确"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-simple-machines-q-005",
+    "node_id": "phy-m-simple-machines",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "如图所示的滑轮组，不计绳重和摩擦，物体以0.2m/s的速度匀速上升，拉力F为50N，物体上升10s，求滑轮组的机械效率。",
+    "answer": "80%\n解题步骤：\n1. 计算物体上升高度：h=0.2m/s×10s=2m\n2. 计算有用功：W有=Gh\n3. 计算总功：W总=Fs，F=50N，s=3h=6m\n4. 代入数据：W有=50N×2m=100J，W总=50N×6m=300J\n5. 计算机械效率：η=W有/W总=100/300=80%",
+    "steps": [
+      "1. 计算物体上升高度：h=0.2m/s×10s=2m",
+      "2. 计算有用功：W有=Gh",
+      "3. 计算总功：W总=Fs，F=50N，s=3h=6m",
+      "4. 代入数据：W有=50N×2m=100J，W总=50N×6m=300J",
+      "5. 计算机械效率：η=W有/W总=100/300=80%"
+    ],
+    "common_errors": [
+      {
+        "error": "误将s计算为2m",
+        "hint": "注意滑轮组中s=3h"
+      },
+      {
+        "error": "机械效率计算错误",
+        "hint": "确保分子分母单位一致"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-simple-machines-q-006",
+    "node_id": "phy-m-simple-machines",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "如图所示的杠杆，OA=2m，OB=1m，物体A重40N，物体B重20N。若在A端施加一个水平向左的力F，使杠杆平衡，求力F的大小和方向。",
+    "answer": "力F的大小为10N，方向水平向右。\n解题步骤：\n1. 设力F的方向为水平向右，根据杠杆平衡条件：OA×GA + OB×F = OA×GB\n2. 代入数据：2×40 + 1×F = 2×20\n3. 解得：F=20/1=20N\n4. 由于初始不平衡力矩为逆时针方向，所以力F方向应为水平向右",
+    "steps": [
+      "1. 设力F的方向为水平向右，根据杠杆平衡条件：OA×GA + OB×F = OA×GB",
+      "2. 代入数据：2×40 + 1×F = 2×20",
+      "3. 解得：F=20/1=20N",
+      "4. 由于初始不平衡力矩为逆时针方向，所以力F方向应为水平向右"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为力F方向向左",
+        "hint": "注意分析初始不平衡力矩的方向"
+      },
+      {
+        "error": "计算错误",
+        "hint": "仔细检查计算过程，确保数值准确"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-simple-machines-q-007",
+    "node_id": "phy-m-simple-machines",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "如图所示的杠杆，OA=3m，OB=1m，物体A重60N，物体B重30N。若在A端施加一个水平向左的力F，使杠杆平衡，则力F的大小为（   ）N。",
+    "options": [
+      "A. 10",
+      "B. 20",
+      "C. 30",
+      "D. 40"
+    ],
+    "answer": "B. 20",
+    "steps": [
+      "1. 根据杠杆平衡条件：OA×GA + OB×F = OA×GB",
+      "2. 代入数据：3×60 + 1×F = 3×30",
+      "3. 解得：F=90-180=-90N",
+      "4. 由于负号表示方向相反，所以力F大小为20N"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为力F大小为10N",
+        "hint": "注意力的方向"
+      },
+      {
+        "error": "误认为力F大小为30N",
+        "hint": "仔细检查计算过程"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "phy-m-simple-machines-q-008",
+    "node_id": "phy-m-simple-machines",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "如图所示的滑轮组，不计绳重和摩擦，物体以0.5m/s的速度匀速上升，拉力F为100N，物体上升5s，求滑轮组的机械效率。（已知物体重200N）",
+    "answer": "66.7%\n解题步骤：\n1. 计算物体上升高度：h=0.5m/s×5s=2.5m\n2. 计算有用功：W有=Gh=200N×2.5m=500J\n3. 计算总功：W总=Fs，F=100N，s=3h=7.5m\n4. 代入数据：W总=100N×7.5m=750J\n5. 计算机械效率：η=W有/W总=500/750=66.7%",
+    "steps": [
+      "1. 计算物体上升高度：h=0.5m/s×5s=2.5m",
+      "2. 计算有用功：W有=Gh=200N×2.5m=500J",
+      "3. 计算总功：W总=Fs，F=100N，s=3h=7.5m",
+      "4. 代入数据：W总=100N×7.5m=750J",
+      "5. 计算机械效率：η=W有/W总=500/750=66.7%"
+    ],
+    "common_errors": [
+      {
+        "error": "误将s计算为2.5m",
+        "hint": "注意滑轮组中s=3h"
+      },
+      {
+        "error": "机械效率计算错误",
+        "hint": "确保分子分母单位一致"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

@@ -1,0 +1,215 @@
+[
+  {
+    "id": "phy-m-work-energy-q-001",
+    "node_id": "phy-m-work-energy",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列关于功的说法中，正确的是：",
+    "options": [
+      "A. 作用力越大，物体做的功越多",
+      "B. 物体运动越快，做的功越多",
+      "C. 力和物体在力的方向上移动的距离的乘积越大，做的功越多",
+      "D. 物体受到力的作用，就一定做了功"
+    ],
+    "answer": "C. 力和物体在力的方向上移动的距离的乘积越大，做的功越多",
+    "steps": [
+      "功的定义是力与物体在力的方向上移动的距离的乘积。",
+      "分析每个选项：A选项中只提到力的大小，没有提到距离；B选项中只提到速度，没有提到力和距离；C选项符合功的定义；D选项中物体受到力但没有移动距离，不一定做功。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为力越大，功就越大",
+        "hint": "功不仅与力有关，还与物体在力的方向上移动的距离有关。"
+      },
+      {
+        "error": "误认为物体运动快，功就大",
+        "hint": "功与速度无直接关系，只与力和距离有关。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-work-energy-q-002",
+    "node_id": "phy-m-work-energy",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "一个物体在水平面上受到10N的水平拉力，匀速移动了5m，则拉力做的功为_____J。",
+    "answer": "50",
+    "steps": [
+      "功的计算公式为W = F * s。",
+      "将已知条件代入公式：W = 10N * 5m = 50J。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用公式W = F / s",
+        "hint": "功的计算公式是力与距离的乘积，而不是力除以距离。"
+      },
+      {
+        "error": "忽略单位换算",
+        "hint": "确保所有物理量的单位一致后再进行计算。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-work-energy-q-003",
+    "node_id": "phy-m-work-energy",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "功率的单位是：",
+    "options": [
+      "A. 焦耳(J)",
+      "B. 瓦特(W)",
+      "C. 牛顿(N)",
+      "D. 帕斯卡(Pa)"
+    ],
+    "answer": "B. 瓦特(W)",
+    "steps": [
+      "功率的定义是单位时间内做的功。",
+      "功率的单位是焦耳每秒(J/s)，即瓦特(W)。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为功率的单位是焦耳",
+        "hint": "焦耳是功和能量的单位，而不是功率的单位。"
+      },
+      {
+        "error": "混淆力和功率的单位",
+        "hint": "牛顿是力的单位，帕斯卡是压强的单位，都不是功率的单位。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-work-energy-q-004",
+    "node_id": "phy-m-work-energy",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一辆汽车在平直公路上以20m/s的速度匀速行驶，受到的阻力为2000N，求汽车在10秒内做的功。",
+    "answer": "400000J",
+    "steps": [
+      "首先计算汽车在10秒内行驶的距离：s = v * t = 20m/s * 10s = 200m。",
+      "汽车匀速行驶时，牵引力等于阻力，即F = 2000N。",
+      "计算牵引力做的功：W = F * s = 2000N * 200m = 400000J。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为阻力做的功为负",
+        "hint": "题目中求的是牵引力做的功，而不是阻力做的功。"
+      },
+      {
+        "error": "计算距离时误用公式s = v / t",
+        "hint": "距离的计算公式是s = v * t，而不是s = v / t。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-work-energy-q-005",
+    "node_id": "phy-m-work-energy",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一个质量为2kg的物体在水平面上受到一个水平拉力F的作用，从静止开始运动，经过5秒后速度达到10m/s，求拉力F在5秒内做的功。",
+    "answer": "100J",
+    "steps": [
+      "首先计算物体的加速度：a = (v - u) / t = (10m/s - 0m/s) / 5s = 2m/s²。",
+      "计算物体在5秒内移动的距离：s = ut + (1/2)at² = 0 * 5 + (1/2) * 2m/s² * (5s)² = 25m。",
+      "根据牛顿第二定律计算拉力F：F = ma = 2kg * 2m/s² = 4N。",
+      "计算拉力F做的功：W = F * s = 4N * 25m = 100J。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用公式s = vt",
+        "hint": "物体从静止开始运动，不能使用s = vt计算距离。"
+      },
+      {
+        "error": "忽略加速度的计算",
+        "hint": "需要先计算加速度，再计算距离。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-work-energy-q-006",
+    "node_id": "phy-m-work-energy",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一个物体在光滑水平面上受到一个水平拉力F的作用，物体从静止开始运动，经过一段时间后，拉力F做的功为100J，物体的动能为50J，求拉力F在物体上做的额外功。",
+    "answer": "50J",
+    "steps": [
+      "根据能量守恒定律，拉力F做的功等于物体动能的增加量加上额外功。",
+      "设额外功为W_extra，则W = ΔEk + W_extra。",
+      "已知W = 100J，ΔEk = 50J，代入公式得100J = 50J + W_extra。",
+      "解得W_extra = 50J。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为拉力F做的功等于物体动能的增加量",
+        "hint": "拉力F做的功还包括额外功。"
+      },
+      {
+        "error": "忽略能量守恒定律的应用",
+        "hint": "需要应用能量守恒定律来求解。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-work-energy-q-007",
+    "node_id": "phy-m-work-energy",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一辆汽车以20kW的功率在平直公路上行驶，受到的阻力为1000N，求汽车的最大速度。",
+    "answer": "20m/s",
+    "steps": [
+      "功率的定义是力与速度的乘积，即P = F * v。",
+      "已知P = 20kW = 20000W，F = 1000N，代入公式得20000W = 1000N * v。",
+      "解得v = 20m/s。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为功率等于力除以速度",
+        "hint": "功率的计算公式是P = F * v，而不是P = F / v。"
+      },
+      {
+        "error": "忽略单位换算",
+        "hint": "确保所有物理量的单位一致后再进行计算。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "phy-m-work-energy-q-008",
+    "node_id": "phy-m-work-energy",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个质量为5kg的物体从高10m处自由下落，求物体落地时的动能。",
+    "answer": "500J",
+    "steps": [
+      "首先计算物体下落的高度：h = 10m。",
+      "物体自由下落，重力势能转化为动能。",
+      "根据机械能守恒，mgh = (1/2)mv²。",
+      "解得v = √(2gh) = √(2 * 9.8m/s² * 10m) = 14m/s。",
+      "计算落地时的动能：Ek = (1/2)mv² = (1/2) * 5kg * (14m/s)² = 500J。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为物体落地时的速度为0",
+        "hint": "物体落地时的速度不为0，需要计算。"
+      },
+      {
+        "error": "忽略重力势能转化为动能",
+        "hint": "需要应用机械能守恒定律来求解。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

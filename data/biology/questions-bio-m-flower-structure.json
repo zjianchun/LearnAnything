@@ -1,0 +1,189 @@
+[
+  {
+    "id": "bio-m-flower-structure-q-001",
+    "node_id": "bio-m-flower-structure",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "一朵完整的花的主要结构不包括下列哪一项？",
+    "options": [
+      "A. 花萼",
+      "B. 花瓣",
+      "C. 雄蕊",
+      "D. 果实"
+    ],
+    "answer": "D. 果实",
+    "steps": [
+      "1. 明确一朵完整花的主要结构包括花萼、花瓣、雄蕊和雌蕊。",
+      "2. 果实是花受精后发育形成的，不是花的主要结构。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选C，认为雄蕊不是花的主要结构。",
+        "hint": "雄蕊是花的重要生殖器官，是花的主要结构之一。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-flower-structure-q-002",
+    "node_id": "bio-m-flower-structure",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "传粉是指花粉从_____传到_____的过程。",
+    "answer": "雄蕊的花药, 雌蕊的柱头",
+    "steps": [
+      "1. 明确传粉的定义。",
+      "2. 传粉是花粉从雄蕊的花药传到雌蕊的柱头的过程。"
+    ],
+    "common_errors": [
+      {
+        "error": "将传粉的方向写反。",
+        "hint": "传粉是花粉从雄蕊传到雌蕊，而不是相反。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-flower-structure-q-003",
+    "node_id": "bio-m-flower-structure",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列哪种传粉方式属于异花传粉？",
+    "options": [
+      "A. 蜜蜂在同朵花中采蜜",
+      "B. 风将花粉从一朵花传到另一朵花",
+      "C. 花粉从花药落到同一朵花的柱头上",
+      "D. 人工授粉时将花粉涂在同一朵花的柱头上"
+    ],
+    "answer": "B. 风将花粉从一朵花传到另一朵花",
+    "steps": [
+      "1. 明确异花传粉的定义：花粉从一朵花传到另一朵花。",
+      "2. 分析各选项，A、C、D均为自花传粉，B为异花传粉。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A或C，认为蜜蜂采蜜或花粉落到同一朵花的柱头上是异花传粉。",
+        "hint": "异花传粉是指花粉从一朵花传到另一朵花，而不是同一朵花。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-flower-structure-q-004",
+    "node_id": "bio-m-flower-structure",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列关于花和传粉的叙述，正确的是",
+    "options": [
+      "A. 花的主要结构是花冠",
+      "B. 传粉是指花粉落到雌蕊柱头上的过程",
+      "C. 异花传粉比自花传粉更普遍",
+      "D. 传粉后，花瓣和花萼会立即凋落"
+    ],
+    "answer": "B. 传粉是指花粉落到雌蕊柱头上的过程",
+    "steps": [
+      "1. 分析选项A，花的主要结构是雄蕊和雌蕊，不是花冠。",
+      "2. 分析选项B，传粉是指花粉落到雌蕊柱头上的过程，正确。",
+      "3. 分析选项C，异花传粉和自花传粉的普遍性取决于植物种类，不能一概而论。",
+      "4. 分析选项D，传粉后，花瓣和花萼不一定立即凋落。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选C，认为异花传粉一定比自花传粉更普遍。",
+        "hint": "异花传粉和自花传粉的普遍性取决于植物种类和环境条件。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-flower-structure-q-005",
+    "node_id": "bio-m-flower-structure",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述虫媒花的特点。",
+    "answer": "虫媒花通常有鲜艳的花瓣和芳香的气味，花瓣上有蜜腺，能分泌花蜜吸引昆虫。花粉较大，表面有粘性，容易附着在昆虫身上。",
+    "steps": [
+      "1. 明确虫媒花的特点：吸引昆虫。",
+      "2. 从花瓣、气味、蜜腺、花粉等方面描述虫媒花的特点。"
+    ],
+    "common_errors": [
+      {
+        "error": "仅描述花瓣或气味，忽略其他特点。",
+        "hint": "虫媒花的特点包括花瓣、气味、蜜腺和花粉等多方面。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-flower-structure-q-006",
+    "node_id": "bio-m-flower-structure",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "为什么异花传粉比自花传粉更有利于植物的遗传多样性？",
+    "answer": "异花传粉使花粉来自不同的植物个体，增加了基因交流的机会，从而增加了后代的遗传变异，有利于植物的遗传多样性。",
+    "steps": [
+      "1. 明确异花传粉和自花传粉的区别。",
+      "2. 分析异花传粉对遗传多样性的影响：增加基因交流和遗传变异。"
+    ],
+    "common_errors": [
+      {
+        "error": "仅提到异花传粉增加基因交流，忽略遗传变异。",
+        "hint": "异花传粉不仅增加基因交流，还通过基因重组增加遗传变异。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-flower-structure-q-007",
+    "node_id": "bio-m-flower-structure",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "下列哪种植物的花适合风媒传粉？",
+    "options": [
+      "A. 玫瑰",
+      "B. 蒲公英",
+      "C. 玉米",
+      "D. 樱花"
+    ],
+    "answer": "C. 玉米",
+    "steps": [
+      "1. 分析风媒花的特点：花小、不鲜艳、无香味、花粉轻。",
+      "2. 对比各选项，玉米的花符合风媒花的特点。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B，认为蒲公英是风媒花。",
+        "hint": "蒲公英虽然是靠风传播种子，但花不是典型的风媒花。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-flower-structure-q-008",
+    "node_id": "bio-m-flower-structure",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "设计一个实验，验证传粉对果实形成的影响。",
+    "answer": "1. 选择两株相同种类的植物，确保它们的花朵处于相同的发育阶段。2. 对其中一株植物进行人工授粉，另一株不进行任何处理。3. 观察两株植物的果实形成情况。4. 结果：经过人工授粉的植物能形成果实，而未授粉的植物不能形成果实。",
+    "steps": [
+      "1. 明确实验目的：验证传粉对果实形成的影响。",
+      "2. 设计实验步骤：选择植物、人工授粉、观察结果。",
+      "3. 预期结果：传粉是果实形成的前提。"
+    ],
+    "common_errors": [
+      {
+        "error": "忽略对照组的设计。",
+        "hint": "对照组是验证传粉对果实形成影响的关键。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

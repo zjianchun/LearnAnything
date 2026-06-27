@@ -1,0 +1,231 @@
+[
+  {
+    "id": "chem-m-oxygen-preparation-q-001",
+    "node_id": "chem-m-oxygen-preparation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "实验室制取氧气时，使用的主要药品是？",
+    "options": [
+      "A. 高锰酸钾",
+      "B. 氯化钠",
+      "C. 硫酸铜",
+      "D. 氢氧化钠"
+    ],
+    "answer": "A. 高锰酸钾",
+    "steps": [
+      "实验室制取氧气常用高锰酸钾加热分解的方法。",
+      "氯化钠、硫酸铜和氢氧化钠不用于实验室制取氧气。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选其他选项",
+        "hint": "记住实验室制氧气的主要药品是高锰酸钾。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chem-m-oxygen-preparation-q-002",
+    "node_id": "chem-m-oxygen-preparation",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "实验室用高锰酸钾制取氧气的化学反应方程式是：______。",
+    "answer": "2KMnO₄ = K₂MnO₄ + MnO₂ + O₂↑",
+    "steps": [
+      "写出高锰酸钾受热分解的化学方程式。",
+      "注意反应物和生成物的化学式及配平。"
+    ],
+    "common_errors": [
+      {
+        "error": "方程式未配平",
+        "hint": "检查方程式两边的原子数是否相等。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chem-m-oxygen-preparation-q-003",
+    "node_id": "chem-m-oxygen-preparation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "检验氧气是否集满的方法是？",
+    "options": [
+      "A. 用带火星的木条伸入集气瓶中",
+      "B. 用带火星的木条放在集气瓶口",
+      "C. 用燃着的木条伸入集气瓶中",
+      "D. 用燃着的木条放在集气瓶口"
+    ],
+    "answer": "B. 用带火星的木条放在集气瓶口",
+    "steps": [
+      "氧气具有助燃性。",
+      "检验氧气集满时，应将带火星的木条放在集气瓶口。",
+      "若木条复燃，则说明氧气已集满。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选其他选项",
+        "hint": "记住检验氧气集满的方法是带火星的木条放在集气瓶口。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chem-m-oxygen-preparation-q-004",
+    "node_id": "chem-m-oxygen-preparation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "实验室用双氧水制取氧气的催化剂是？",
+    "options": [
+      "A. 二氧化锰",
+      "B. 氧化铜",
+      "C. 氯化铁",
+      "D. 硫酸铜"
+    ],
+    "answer": "A. 二氧化锰",
+    "steps": [
+      "双氧水在催化剂作用下分解生成氧气和水。",
+      "常用的催化剂是二氧化锰。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选其他选项",
+        "hint": "记住双氧水制氧气的催化剂是二氧化锰。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-oxygen-preparation-q-005",
+    "node_id": "chem-m-oxygen-preparation",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "实验室用双氧水制取氧气的化学反应方程式是：______。",
+    "answer": "2H₂O₂ = 2H₂O + O₂↑",
+    "steps": [
+      "写出双氧水分解的化学方程式。",
+      "注意反应物和生成物的化学式及配平。"
+    ],
+    "common_errors": [
+      {
+        "error": "方程式未配平",
+        "hint": "检查方程式两边的原子数是否相等。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-oxygen-preparation-q-006",
+    "node_id": "chem-m-oxygen-preparation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "实验室制取氧气时，如何检查装置的气密性？",
+    "answer": "将导管的一端放入水中，用手紧握试管外壁，若导管口有气泡冒出，松开手后导管内形成一段水柱，则说明装置气密性良好。",
+    "steps": [
+      "将导管放入水中。",
+      "用手紧握试管外壁，观察现象。",
+      "松开手后观察导管内是否形成水柱。"
+    ],
+    "common_errors": [
+      {
+        "error": "未说明具体操作步骤",
+        "hint": "详细描述检查气密性的操作步骤。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-oxygen-preparation-q-007",
+    "node_id": "chem-m-oxygen-preparation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "实验室制取氧气时，排水法收集氧气时导管口应？",
+    "options": [
+      "A. 插入集气瓶底部",
+      "B. 插入集气瓶中部",
+      "C. 插入集气瓶口",
+      "D. 插入水中即可"
+    ],
+    "answer": "A. 插入集气瓶底部",
+    "steps": [
+      "排水法收集氧气时，导管口应插入集气瓶底部。",
+      "这样可以有效地将水排出。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选其他选项",
+        "hint": "记住排水法收集氧气时导管口应插入集气瓶底部。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-oxygen-preparation-q-008",
+    "node_id": "chem-m-oxygen-preparation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "实验室制取氧气时，为什么要在试管口放一团棉花？",
+    "answer": "防止高锰酸钾粉末进入导管，堵塞导管。",
+    "steps": [
+      "高锰酸钾是粉末状固体。",
+      "加热时高锰酸钾粉末可能会进入导管。",
+      "放一团棉花可以阻挡粉末进入导管。"
+    ],
+    "common_errors": [
+      {
+        "error": "未说明具体原因",
+        "hint": "详细说明放棉花的原因。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-oxygen-preparation-q-009",
+    "node_id": "chem-m-oxygen-preparation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "实验室制取氧气时，如何收集干燥的氧气？",
+    "answer": "用向上排空气法收集，并在集气瓶口放一团干燥的棉花。",
+    "steps": [
+      "用向上排空气法收集氧气。",
+      "在集气瓶口放一团干燥的棉花。",
+      "这样可以吸收空气中的水分。"
+    ],
+    "common_errors": [
+      {
+        "error": "未说明具体方法",
+        "hint": "详细描述收集干燥氧气的方法。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-oxygen-preparation-q-010",
+    "node_id": "chem-m-oxygen-preparation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "实验室制取氧气时，为什么不能用排水法收集？",
+    "answer": "因为氧气不易溶于水，但排水法收集的氧气中含有水蒸气。",
+    "steps": [
+      "氧气不易溶于水。",
+      "排水法收集的氧气中会含有水蒸气。",
+      "如果需要干燥的氧气，则不能使用排水法。"
+    ],
+    "common_errors": [
+      {
+        "error": "未说明具体原因",
+        "hint": "详细说明为什么不能用排水法收集。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

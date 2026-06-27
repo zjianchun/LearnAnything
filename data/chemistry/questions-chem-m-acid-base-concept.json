@@ -1,0 +1,227 @@
+[
+  {
+    "id": "chem-m-acid-base-concept-q-001",
+    "node_id": "chem-m-acid-base-concept",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列物质中，属于酸的是：",
+    "options": [
+      "A. NaOH",
+      "B. HCl",
+      "C. NaCl",
+      "D. CaO"
+    ],
+    "answer": "B. HCl",
+    "steps": [
+      "1. 回顾酸的定义：酸是能够在水溶液中电离出氢离子（H⁺）的化合物。",
+      "2. 分析选项：A. NaOH是碱，B. HCl是盐酸，C. NaCl是盐，D. CaO是氧化物。",
+      "3. 确定HCl是酸，因为它在水溶液中电离出H⁺和Cl⁻。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将NaOH（氢氧化钠）认为是酸。",
+        "hint": "记住碱的定义：碱是能够在水溶液中电离出氢氧根离子（OH⁻）的化合物。"
+      },
+      {
+        "error": "误将NaCl（氯化钠）认为是酸。",
+        "hint": "NaCl是盐，由酸和碱反应生成，不属于酸。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chem-m-acid-base-concept-q-002",
+    "node_id": "chem-m-acid-base-concept",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "氢氧化钙的化学式是________。",
+    "answer": "Ca(OH)₂",
+    "steps": [
+      "1. 回忆氢氧化钙的组成：它由钙离子（Ca²⁺）和氢氧根离子（OH⁻）组成。",
+      "2. 由于钙离子带2个正电荷，而每个氢氧根离子带1个负电荷，因此需要2个氢氧根离子来平衡电荷。",
+      "3. 因此，化学式为Ca(OH)₂。"
+    ],
+    "common_errors": [
+      {
+        "error": "写成CaOH₂。",
+        "hint": "注意氢氧根离子（OH⁻）是一个整体，不能分开。"
+      },
+      {
+        "error": "写成Ca₂(OH)₂。",
+        "hint": "钙离子带2个正电荷，只需要2个氢氧根离子来平衡，不需要2个钙离子。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-acid-base-concept-q-003",
+    "node_id": "chem-m-acid-base-concept",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列物质中，能使紫色石蕊试液变红的是：",
+    "options": [
+      "A. NaOH溶液",
+      "B. 盐酸",
+      "C. 蒸馏水",
+      "D. NaCl溶液"
+    ],
+    "answer": "B. 盐酸",
+    "steps": [
+      "1. 回顾石蕊试液的性质：酸能使石蕊试液变红，碱能使石蕊试液变蓝。",
+      "2. 分析选项：A. NaOH溶液是碱，B. 盐酸是酸，C. 蒸馏水是中性的，D. NaCl溶液是中性的。",
+      "3. 确定盐酸能使石蕊试液变红。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将NaOH溶液认为是使石蕊试液变红的物质。",
+        "hint": "记住碱能使石蕊试液变蓝，而不是变红。"
+      },
+      {
+        "error": "误将蒸馏水或NaCl溶液认为是使石蕊试液变红的物质。",
+        "hint": "中性的物质不会使石蕊试液变色。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chem-m-acid-base-concept-q-004",
+    "node_id": "chem-m-acid-base-concept",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列关于酸和碱的说法，正确的是：",
+    "options": [
+      "A. 酸和碱都能导电。",
+      "B. 酸和碱都能与金属反应生成盐和氢气。",
+      "C. 酸和碱都能与氧化物反应。",
+      "D. 酸和碱都能与盐反应。"
+    ],
+    "answer": "A. 酸和碱都能导电。",
+    "steps": [
+      "1. 分析每个选项：A. 酸和碱在水溶液中都能电离出离子，因此都能导电；B. 酸能与金属反应生成盐和氢气，但碱不能；C. 酸和碱都能与某些氧化物反应；D. 酸和碱都能与某些盐反应。",
+      "2. 确定A选项是正确的，因为酸和碱在水溶液中都能电离出离子，具有导电性。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为酸和碱都能与金属反应生成盐和氢气。",
+        "hint": "只有酸能与金属反应生成盐和氢气，碱不能。"
+      },
+      {
+        "error": "误认为酸和碱都能与所有氧化物反应。",
+        "hint": "酸和碱并不是都能与所有氧化物反应，需要具体分析。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-acid-base-concept-q-005",
+    "node_id": "chem-m-acid-base-concept",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请写出盐酸和氢氧化钠反应的化学方程式，并说明反应类型。",
+    "answer": "HCl + NaOH → NaCl + H₂O；反应类型：中和反应。",
+    "steps": [
+      "1. 写出盐酸和氢氧化钠的化学式：HCl和NaOH。",
+      "2. 反应中，H⁺和OH⁻结合生成水（H₂O），Na⁺和Cl⁻结合生成盐（NaCl）。",
+      "3. 因此，化学方程式为：HCl + NaOH → NaCl + H₂O。",
+      "4. 该反应是酸和碱反应生成盐和水，属于中和反应。"
+    ],
+    "common_errors": [
+      {
+        "error": "化学方程式未配平。",
+        "hint": "确保反应前后原子数相等。"
+      },
+      {
+        "error": "未注明反应类型。",
+        "hint": "中和反应是酸和碱反应生成盐和水。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-acid-base-concept-q-006",
+    "node_id": "chem-m-acid-base-concept",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列物质中，属于碱的是：",
+    "options": [
+      "A. H₂SO₄",
+      "B. NaOH",
+      "C. CO₂",
+      "D. NaCl"
+    ],
+    "answer": "B. NaOH",
+    "steps": [
+      "1. 回顾碱的定义：碱是能够在水溶液中电离出氢氧根离子（OH⁻）的化合物。",
+      "2. 分析选项：A. H₂SO₄是酸，B. NaOH是碱，C. CO₂是氧化物，D. NaCl是盐。",
+      "3. 确定NaOH是碱，因为它在水溶液中电离出Na⁺和OH⁻。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将H₂SO₄（硫酸）认为是碱。",
+        "hint": "记住酸的定义：酸是能够在水溶液中电离出氢离子（H⁺）的化合物。"
+      },
+      {
+        "error": "误将CO₂（二氧化碳）认为是碱。",
+        "hint": "CO₂是氧化物，不属于碱。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-acid-base-concept-q-007",
+    "node_id": "chem-m-acid-base-concept",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释为什么酸和碱在水中能导电。",
+    "answer": "酸和碱在水中能电离出离子，离子在电场的作用下定向移动，形成电流，因此能导电。",
+    "steps": [
+      "1. 解释酸和碱的导电原理：酸和碱在水中能电离出离子。",
+      "2. 离子在电场的作用下定向移动，形成电流。",
+      "3. 因此，酸和碱在水中能导电。"
+    ],
+    "common_errors": [
+      {
+        "error": "未说明离子在电场中的作用。",
+        "hint": "导电的关键是离子的定向移动。"
+      },
+      {
+        "error": "误认为酸和碱本身能导电。",
+        "hint": "酸和碱只有在水中电离出离子后才能导电。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-acid-base-concept-q-008",
+    "node_id": "chem-m-acid-base-concept",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请写出硫酸和氢氧化钡反应的化学方程式，并说明反应类型。",
+    "answer": "H₂SO₄ + Ba(OH)₂ → BaSO₄↓ + 2H₂O；反应类型：中和反应。",
+    "steps": [
+      "1. 写出硫酸和氢氧化钡的化学式：H₂SO₄和Ba(OH)₂。",
+      "2. 反应中，H⁺和OH⁻结合生成水（H₂O），Ba²⁺和SO₄²⁻结合生成硫酸钡沉淀（BaSO₄）。",
+      "3. 因此，化学方程式为：H₂SO₄ + Ba(OH)₂ → BaSO₄↓ + 2H₂O。",
+      "4. 该反应是酸和碱反应生成盐和水，属于中和反应。"
+    ],
+    "common_errors": [
+      {
+        "error": "化学方程式未配平。",
+        "hint": "确保反应前后原子数相等。"
+      },
+      {
+        "error": "未注明反应类型。",
+        "hint": "中和反应是酸和碱反应生成盐和水。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

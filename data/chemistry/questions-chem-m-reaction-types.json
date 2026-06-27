@@ -1,0 +1,184 @@
+[
+  {
+    "id": "chem-m-reaction-types-q-001",
+    "node_id": "chem-m-reaction-types",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列反应中，属于化合反应的是（   ）",
+    "options": [
+      "A. 2H₂O₂ = 2H₂O + O₂↑",
+      "B. CaO + H₂O = Ca(OH)₂",
+      "C. Zn + 2HCl = ZnCl₂ + H₂↑",
+      "D. CuSO₄ + 2NaOH = Cu(OH)₂↓ + Na₂SO₄"
+    ],
+    "answer": "B. CaO + H₂O = Ca(OH)₂",
+    "steps": [
+      "化合反应的定义：两种或两种以上的物质生成一种新物质的反应。",
+      "分析每个选项的反应类型：A是分解反应，C是置换反应，D是复分解反应。",
+      "B选项中，CaO和H₂O反应生成Ca(OH)₂，符合化合反应的定义。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将分解反应认为是化合反应。",
+        "hint": "化合反应是多种物质生成一种物质，而分解反应是一种物质生成多种物质。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-reaction-types-q-002",
+    "node_id": "chem-m-reaction-types",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列反应中，属于置换反应的是（   ）",
+    "options": [
+      "A. 2Na + 2H₂O = 2NaOH + H₂↑",
+      "B. 2H₂ + O₂ = 2H₂O",
+      "C. CuSO₄ + Fe = FeSO₄ + Cu",
+      "D. AgNO₃ + NaCl = AgCl↓ + NaNO₃"
+    ],
+    "answer": "C. CuSO₄ + Fe = FeSO₄ + Cu",
+    "steps": [
+      "置换反应的定义：一种单质和一种化合物反应，生成另一种单质和另一种化合物的反应。",
+      "分析每个选项的反应类型：A是置换反应，B是化合反应，D是复分解反应。",
+      "C选项中，Fe和CuSO₄反应生成FeSO₄和Cu，符合置换反应的定义。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将复分解反应认为是置换反应。",
+        "hint": "置换反应必须有单质参与，而复分解反应没有单质参与。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-reaction-types-q-003",
+    "node_id": "chem-m-reaction-types",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "写出下列反应的化学方程式，并注明反应类型：锌和稀硫酸反应生成硫酸锌和氢气。",
+    "answer": "Zn + H₂SO₄ = ZnSO₄ + H₂↑，置换反应",
+    "steps": [
+      "写出锌和稀硫酸反应的化学方程式：Zn + H₂SO₄ = ZnSO₄ + H₂↑。",
+      "判断反应类型：由于反应物中有单质（Zn）和化合物（H₂SO₄），生成物中有单质（H₂）和化合物（ZnSO₄），所以是置换反应。"
+    ],
+    "common_errors": [
+      {
+        "error": "化学方程式未配平。",
+        "hint": "确保反应前后原子数相等。"
+      },
+      {
+        "error": "误将反应类型判断为复分解反应。",
+        "hint": "复分解反应必须有化合物之间的交换成分，而置换反应必须有单质参与。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "chem-m-reaction-types-q-004",
+    "node_id": "chem-m-reaction-types",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "写出下列反应的化学方程式，并注明反应类型：碳酸钙高温分解生成氧化钙和二氧化碳。",
+    "answer": "CaCO₃ = CaO + CO₂↑，分解反应",
+    "steps": [
+      "写出碳酸钙高温分解的化学方程式：CaCO₃ = CaO + CO₂↑。",
+      "判断反应类型：由于反应物是一种物质（CaCO₃），生成物是两种物质（CaO和CO₂），所以是分解反应。"
+    ],
+    "common_errors": [
+      {
+        "error": "化学方程式未配平。",
+        "hint": "确保反应前后原子数相等。"
+      },
+      {
+        "error": "误将反应类型判断为化合反应。",
+        "hint": "化合反应是多种物质生成一种物质，而分解反应是一种物质生成多种物质。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "chem-m-reaction-types-q-005",
+    "node_id": "chem-m-reaction-types",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析以下反应：2KMnO₄ = K₂MnO₄ + MnO₂ + O₂↑，判断反应类型并说明理由。",
+    "answer": "该反应是分解反应。因为反应物是一种物质（KMnO₄），而生成物是三种物质（K₂MnO₄、MnO₂和O₂），符合分解反应的定义。",
+    "steps": [
+      "观察反应物和生成物的种类：反应物是一种物质（KMnO₄），生成物是三种物质（K₂MnO₄、MnO₂和O₂）。",
+      "根据反应物和生成物的数量关系，判断反应类型：由于一种物质生成多种物质，所以是分解反应。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将反应类型判断为复分解反应。",
+        "hint": "复分解反应必须有化合物之间的交换成分，而该反应没有。"
+      }
+    ],
+    "exam_frequency": 1
+  },
+  {
+    "id": "chem-m-reaction-types-q-006",
+    "node_id": "chem-m-reaction-types",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析以下反应：Fe + CuSO₄ = FeSO₄ + Cu，判断反应类型并说明理由。",
+    "answer": "该反应是置换反应。因为反应物中一种是单质（Fe）和一个是化合物（CuSO₄），生成物中一个是单质（Cu）和一个是化合物（FeSO₄），符合置换反应的定义。",
+    "steps": [
+      "观察反应物和生成物的种类：反应物中一个是单质（Fe）和一个是化合物（CuSO₄），生成物中一个是单质（Cu）和一个是化合物（FeSO₄）。",
+      "根据反应物和生成物的种类关系，判断反应类型：由于单质和化合物反应生成另一种单质和另一种化合物，所以是置换反应。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将反应类型判断为复分解反应。",
+        "hint": "复分解反应必须有化合物之间的交换成分，而该反应没有。"
+      }
+    ],
+    "exam_frequency": 1
+  },
+  {
+    "id": "chem-m-reaction-types-q-007",
+    "node_id": "chem-m-reaction-types",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析以下反应：NaOH + HCl = NaCl + H₂O，判断反应类型并说明理由。",
+    "answer": "该反应是复分解反应。因为反应物和生成物都是两种化合物，且反应过程中发生了离子交换，符合复分解反应的定义。",
+    "steps": [
+      "观察反应物和生成物的种类：反应物和生成物都是两种化合物（NaOH、HCl和NaCl、H₂O）。",
+      "根据反应物和生成物的种类关系，判断反应类型：由于反应过程中发生了离子交换，所以是复分解反应。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将反应类型判断为置换反应。",
+        "hint": "置换反应必须有单质参与，而该反应没有。"
+      }
+    ],
+    "exam_frequency": 1
+  },
+  {
+    "id": "chem-m-reaction-types-q-008",
+    "node_id": "chem-m-reaction-types",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析以下反应：2H₂O = 2H₂ + O₂↑，判断反应类型并说明理由。",
+    "answer": "该反应是分解反应。因为反应物是一种物质（H₂O），而生成物是两种物质（H₂和O₂），符合分解反应的定义。",
+    "steps": [
+      "观察反应物和生成物的种类：反应物是一种物质（H₂O），生成物是两种物质（H₂和O₂）。",
+      "根据反应物和生成物的数量关系，判断反应类型：由于一种物质生成多种物质，所以是分解反应。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将反应类型判断为化合反应。",
+        "hint": "化合反应是多种物质生成一种物质，而该反应是多种物质生成多种物质。"
+      }
+    ],
+    "exam_frequency": 1
+  }
+]

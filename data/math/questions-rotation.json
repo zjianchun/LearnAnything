@@ -1,0 +1,227 @@
+[
+  {
+    "id": "math-m-rotation-q-001",
+    "node_id": "math-m-rotation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "将一个点A(2, 3)绕原点O逆时针旋转90°，得到的点A'的坐标是：",
+    "options": [
+      "A. (-3, 2)",
+      "B. (3, -2)",
+      "C. (-2, 3)",
+      "D. (2, -3)"
+    ],
+    "answer": "A. (-3, 2)",
+    "steps": [
+      "1. 旋转90°时，坐标变化为：(x, y) -> (-y, x)",
+      "2. 将点A(2, 3)的坐标代入变化公式",
+      "3. 得到新坐标(-3, 2)"
+    ],
+    "common_errors": [
+      {
+        "error": "误将旋转方向搞错",
+        "hint": "注意题目要求的是逆时针旋转"
+      },
+      {
+        "error": "坐标变化公式记错",
+        "hint": "旋转90°时，x和y坐标交换并改变符号"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-rotation-q-002",
+    "node_id": "math-m-rotation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "如图，△ABC是等边三角形，将它绕顶点C顺时针旋转60°，得到△A'B'C'，则∠ACA'的度数是：",
+    "options": [
+      "A. 30°",
+      "B. 60°",
+      "C. 90°",
+      "D. 120°"
+    ],
+    "answer": "B. 60°",
+    "steps": [
+      "1. 等边三角形旋转后，顶点C保持不变",
+      "2. 旋转角度为60°，因此∠ACA'等于旋转角度",
+      "3. 所以∠ACA' = 60°"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为旋转后角度会改变",
+        "hint": "旋转不改变角度大小，只改变位置"
+      },
+      {
+        "error": "混淆旋转方向与角度",
+        "hint": "注意顺时针旋转方向与角度的关系"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-rotation-q-003",
+    "node_id": "math-m-rotation",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "将△ABC绕点O顺时针旋转90°，点A的坐标从(1, 2)变为(3, 4)，则点O的坐标是：",
+    "answer": "(2, 3)",
+    "steps": [
+      "1. 旋转90°时，坐标变化公式为：(x, y) -> (y, -x)",
+      "2. 设点O坐标为(a, b)，则有旋转公式：(1-a, 2-b) -> (3-a, 4-b)",
+      "3. 根据坐标变化公式：(1-a, 2-b) -> (2-b, a-1) = (3-a, 4-b)",
+      "4. 解方程组：2-b = 3-a 和 a-1 = 4-b",
+      "5. 解得：a = 2, b = 3"
+    ],
+    "common_errors": [
+      {
+        "error": "旋转公式使用错误",
+        "hint": "注意旋转方向和坐标变化关系"
+      },
+      {
+        "error": "方程组解错",
+        "hint": "仔细检查计算过程"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-rotation-q-004",
+    "node_id": "math-m-rotation",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "将一个正方形ABCD绕其中心O旋转45°，则点A的轨迹长度是：",
+    "answer": "π√2",
+    "steps": [
+      "1. 正方形中心O为旋转中心",
+      "2. 旋转45°，点A的轨迹是以O为圆心，OA为半径的圆弧",
+      "3. OA为正方形边长的一半，设边长为a，则OA = a/√2",
+      "4. 圆弧长度为：θr = (π/4) * (a/√2) * 2 = πa/√2",
+      "5. 由于正方形边长a = 2OA = 2 * (边长/2) = √2",
+      "6. 代入得轨迹长度为：π√2"
+    ],
+    "common_errors": [
+      {
+        "error": "旋转角度计算错误",
+        "hint": "注意旋转角度为45°"
+      },
+      {
+        "error": "圆弧长度公式使用错误",
+        "hint": "使用正确的弧长公式：θr"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-rotation-q-005",
+    "node_id": "math-m-rotation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "如图，△ABC是直角三角形，∠ABC = 90°，将△ABC绕点B顺时针旋转90°，得到△A'B'C'。若AB = 3，BC = 4，求点C的旋转轨迹长度。",
+    "answer": "6π",
+    "steps": [
+      "1. 旋转90°，点C的轨迹是以B为圆心，BC为半径的圆弧",
+      "2. BC = 4，因此圆弧半径为4",
+      "3. 旋转角度为90°，即π/2弧度",
+      "4. 圆弧长度为：θr = (π/2) * 4 = 2π",
+      "5. 由于是顺时针旋转，完整轨迹为2个90°圆弧，总长度为4π"
+    ],
+    "common_errors": [
+      {
+        "error": "旋转角度计算错误",
+        "hint": "注意旋转角度为90°，而不是45°"
+      },
+      {
+        "error": "圆弧长度公式使用错误",
+        "hint": "使用正确的弧长公式：θr"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-rotation-q-006",
+    "node_id": "math-m-rotation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "如图，正五边形ABCDE绕其中心O旋转72°，求旋转后点A的坐标变化。",
+    "answer": "旋转后点A的坐标变化为：(x, y) -> (y, -x)",
+    "steps": [
+      "1. 正五边形中心O为旋转中心",
+      "2. 旋转72°，即2π/5弧度",
+      "3. 坐标变化公式为：(x, y) -> (cos(2π/5)x - sin(2π/5)y, sin(2π/5)x + cos(2π/5)y)",
+      "4. 由于72°不是特殊角度，直接应用旋转公式",
+      "5. 旋转后点A的坐标变化为：(x, y) -> (y, -x)"
+    ],
+    "common_errors": [
+      {
+        "error": "旋转角度计算错误",
+        "hint": "注意旋转角度为72°"
+      },
+      {
+        "error": "坐标变化公式使用错误",
+        "hint": "使用正确的旋转坐标变化公式"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-rotation-q-007",
+    "node_id": "math-m-rotation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "将一个正六边形ABCDEF绕其中心O旋转120°，求旋转后点A的坐标变化。",
+    "answer": "旋转后点A的坐标变化为：(x, y) -> (-y, x-y)",
+    "steps": [
+      "1. 正六边形中心O为旋转中心",
+      "2. 旋转120°，即2π/3弧度",
+      "3. 坐标变化公式为：(x, y) -> (cos(2π/3)x - sin(2π/3)y, sin(2π/3)x + cos(2π/3)y)",
+      "4. 代入cos(2π/3) = -1/2, sin(2π/3) = √3/2",
+      "5. 计算得旋转后点A的坐标变化为：(x, y) -> (-y, x-y)"
+    ],
+    "common_errors": [
+      {
+        "error": "旋转角度计算错误",
+        "hint": "注意旋转角度为120°"
+      },
+      {
+        "error": "坐标变化公式使用错误",
+        "hint": "使用正确的旋转坐标变化公式"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-rotation-q-008",
+    "node_id": "math-m-rotation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "将一个正三角形ABC绕其中心O旋转150°，求旋转后点A的坐标变化。",
+    "answer": "旋转后点A的坐标变化为：(x, y) -> (-√3/2x - 1/2y, 1/2x - √3/2y)",
+    "steps": [
+      "1. 正三角形中心O为旋转中心",
+      "2. 旋转150°，即5π/6弧度",
+      "3. 坐标变化公式为：(x, y) -> (cos(5π/6)x - sin(5π/6)y, sin(5π/6)x + cos(5π/6)y)",
+      "4. 代入cos(5π/6) = -√3/2, sin(5π/6) = 1/2",
+      "5. 计算得旋转后点A的坐标变化为：(x, y) -> (-√3/2x - 1/2y, 1/2x - √3/2y)"
+    ],
+    "common_errors": [
+      {
+        "error": "旋转角度计算错误",
+        "hint": "注意旋转角度为150°"
+      },
+      {
+        "error": "坐标变化公式使用错误",
+        "hint": "使用正确的旋转坐标变化公式"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

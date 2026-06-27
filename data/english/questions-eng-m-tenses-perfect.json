@@ -1,0 +1,220 @@
+[
+  {
+    "id": "eng-m-tenses-perfect-q-001",
+    "node_id": "eng-m-tenses-perfect",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "She _____ (live) in Wuhan since she was born.",
+    "options": [
+      "A) has lived",
+      "B) have lived",
+      "C) lived",
+      "D) had lived"
+    ],
+    "answer": "A) has lived",
+    "steps": [
+      "1. 识别句子中的时间状语 'since she was born'，表示从过去某一时间点持续到现在。",
+      "2. 现在完成时用于描述从过去开始并持续到现在的动作或状态。",
+      "3. 主语 'she' 是第三人称单数，所以助动词用 'has'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用 'have lived'",
+        "hint": "主语是第三人称单数时，助动词要用 'has' 而不是 'have'。"
+      },
+      {
+        "error": "误用过去时 'lived'",
+        "hint": "句子中有 'since'，表示动作从过去持续到现在，需要用现在完成时。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-tenses-perfect-q-002",
+    "node_id": "eng-m-tenses-perfect",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "By the time I got to the station, the train _____ (leave).",
+    "options": [
+      "A) has left",
+      "B) had left",
+      "C) left",
+      "D) was leaving"
+    ],
+    "answer": "B) had left",
+    "steps": [
+      "1. 识别句子中的时间状语 'By the time I got to the station'，表示在过去某一时间点之前完成的动作。",
+      "2. 过去完成时用于描述在过去某一时间点之前已经完成的动作。",
+      "3. 动词 'leave' 的过去分词是 'left'，所以过去完成时是 'had left'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用现在完成时 'has left'",
+        "hint": "句子描述的是过去某一时间点之前发生的动作，应该用过去完成时。"
+      },
+      {
+        "error": "误用过去时 'left'",
+        "hint": "句子中 'By the time' 表示过去完成时的时间状语，不能直接用过去时。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-tenses-perfect-q-003",
+    "node_id": "eng-m-tenses-perfect",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "They _____ (study) English for five years when they moved to the US.",
+    "answer": "had studied",
+    "steps": [
+      "1. 识别句子中的时间状语 'for five years' 和 'when they moved to the US'，表示在过去某一时间点之前持续的动作。",
+      "2. 过去完成时用于描述在过去某一时间点之前已经完成或持续的动作。",
+      "3. 动词 'study' 的过去分词是 'studied'，所以过去完成时是 'had studied'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用现在完成时 'have studied'",
+        "hint": "句子描述的是过去某一时间点之前发生的动作，应该用过去完成时。"
+      },
+      {
+        "error": "误用过去时 'studied'",
+        "hint": "句子中有 'for five years'，表示动作的持续性，需要用过去完成时。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-tenses-perfect-q-004",
+    "node_id": "eng-m-tenses-perfect",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "I _____ (not finish) my homework yet.",
+    "answer": "haven't finished",
+    "steps": [
+      "1. 识别句子中的时间状语 'yet'，表示到现在为止的动作。",
+      "2. 现在完成时用于描述从过去开始并持续到现在的动作或状态。",
+      "3. 否定形式在助动词 'have' 后加 'not'，缩写为 'haven't'，动词 'finish' 的过去分词是 'finished'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用过去时 'didn't finish'",
+        "hint": "句子中有 'yet'，表示到现在为止的动作，应该用现在完成时。"
+      },
+      {
+        "error": "误用 'hasn't finished'",
+        "hint": "主语 'I' 是第一人称单数，助动词要用 'have' 而不是 'has'。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-tenses-perfect-q-005",
+    "node_id": "eng-m-tenses-perfect",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "When I arrived at the party, everyone _____ (dance) already.",
+    "answer": "was dancing",
+    "steps": [
+      "1. 识别句子中的时间状语 'When I arrived at the party'，表示过去某一时间点发生的动作。",
+      "2. 过去进行时用于描述在过去某一时间点正在发生的动作。",
+      "3. 动词 'dance' 的现在分词是 'dancing'，所以过去进行时是 'was dancing'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用过去完成时 'had danced'",
+        "hint": "句子描述的是过去某一时间点正在发生的动作，应该用过去进行时。"
+      },
+      {
+        "error": "误用现在完成时 'have danced'",
+        "hint": "句子描述的是过去某一时间点发生的事情，不能用现在完成时。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-tenses-perfect-q-006",
+    "node_id": "eng-m-tenses-perfect",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "He _____ (live) in Beijing for ten years before he moved to Shanghai.",
+    "answer": "had lived",
+    "steps": [
+      "1. 识别句子中的时间状语 'for ten years' 和 'before he moved to Shanghai'，表示在过去某一时间点之前持续的动作。",
+      "2. 过去完成时用于描述在过去某一时间点之前已经完成或持续的动作。",
+      "3. 动词 'live' 的过去分词是 'lived'，所以过去完成时是 'had lived'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用现在完成时 'has lived'",
+        "hint": "句子描述的是过去某一时间点之前发生的事情，应该用过去完成时。"
+      },
+      {
+        "error": "误用过去时 'lived'",
+        "hint": "句子中有 'for ten years'，表示动作的持续性，需要用过去完成时。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-tenses-perfect-q-007",
+    "node_id": "eng-m-tenses-perfect",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "She _____ (not see) the movie before she watched it last night.",
+    "options": [
+      "A) hasn't seen",
+      "B) hadn't seen",
+      "C) didn't see",
+      "D) isn't seeing"
+    ],
+    "answer": "B) hadn't seen",
+    "steps": [
+      "1. 识别句子中的时间状语 'before she watched it last night'，表示在过去某一时间点之前完成的动作。",
+      "2. 过去完成时用于描述在过去某一时间点之前已经完成的动作。",
+      "3. 否定形式在助动词 'had' 后加 'not'，缩写为 'hadn't'，动词 'see' 的过去分词是 'seen'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用现在完成时 'hasn't seen'",
+        "hint": "句子描述的是过去某一时间点之前发生的事情，应该用过去完成时。"
+      },
+      {
+        "error": "误用过去时 'didn't see'",
+        "hint": "句子中有 'before'，表示过去完成时的时间状语，不能直接用过去时。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-tenses-perfect-q-008",
+    "node_id": "eng-m-tenses-perfect",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "By the end of last year, they _____ (build) a new house.",
+    "answer": "had built",
+    "steps": [
+      "1. 识别句子中的时间状语 'By the end of last year'，表示在过去某一时间点之前完成的动作。",
+      "2. 过去完成时用于描述在过去某一时间点之前已经完成的动作。",
+      "3. 动词 'build' 的过去分词是 'built'，所以过去完成时是 'had built'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用现在完成时 'have built'",
+        "hint": "句子描述的是过去某一时间点之前发生的事情，应该用过去完成时。"
+      },
+      {
+        "error": "误用过去时 'built'",
+        "hint": "句子中有 'By the end of'，表示过去完成时的时间状语，不能直接用过去时。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

@@ -1,0 +1,171 @@
+[
+  {
+    "id": "eng-m-word-formation-en-q-001",
+    "node_id": "eng-m-word-formation-en",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "The prefix 'un-' is often used to indicate ________.",
+    "options": [
+      "A. opposite",
+      "B. together",
+      "C. again",
+      "D. without"
+    ],
+    "answer": "A. opposite",
+    "steps": [
+      "1. Understand that prefixes are added to the beginning of words to change their meaning.",
+      "2. Recognize that 'un-' is a common prefix that typically means 'not' or 'opposite'.",
+      "3. Identify that 'opposite' is the correct meaning in this context."
+    ],
+    "common_errors": [
+      {
+        "error": "Choosing 'D. without'",
+        "hint": "While 'un-' can mean 'not', it does not mean 'without' in this context."
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-word-formation-en-q-002",
+    "node_id": "eng-m-word-formation-en",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "The word 'happiness' is formed by adding the suffix ________ to the word 'happy'.",
+    "answer": "-ness",
+    "steps": [
+      "1. Identify the base word 'happy'.",
+      "2. Recognize that the suffix '-ness' is often used to form nouns from adjectives.",
+      "3. Add '-ness' to 'happy' to form 'happiness'."
+    ],
+    "common_errors": [
+      {
+        "error": "Writing 'happyness'",
+        "hint": "Remember that the base word 'happy' drops the 'y' before adding '-ness'."
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-word-formation-en-q-003",
+    "node_id": "eng-m-word-formation-en",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "Which of the following words is formed by a prefix and a suffix?",
+    "options": [
+      "A. unhappy",
+      "B. kindness",
+      "C. dislike",
+      "D. disappear"
+    ],
+    "answer": "D. disappear",
+    "steps": [
+      "1. Identify the prefixes and suffixes in each option.",
+      "2. 'Un-' is a prefix and '-y' is a suffix in 'unhappy', but they are not both present.",
+      "3. 'Kind-' is the base and '-ness' is a suffix in 'kindness'.",
+      "4. 'Dis-' is a prefix and '-like' is a suffix in 'dislike'.",
+      "5. 'Dis-' is a prefix and '-appear' is a base word in 'disappear'."
+    ],
+    "common_errors": [
+      {
+        "error": "Choosing 'C. dislike'",
+        "hint": "While 'dis-' is a prefix, '-like' is not a suffix but a base word."
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-word-formation-en-q-004",
+    "node_id": "eng-m-word-formation-en",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "The word 'rewrite' is formed by combining the prefix 're-' with the verb 'write'. What does 're-' mean in this context?",
+    "answer": "again",
+    "steps": [
+      "1. Identify the prefix 're-' in 'rewrite'.",
+      "2. Understand that 're-' typically means 'again' or 'back'.",
+      "3. Determine that 'again' is the correct meaning in this context."
+    ],
+    "common_errors": [
+      {
+        "error": "Writing 'back'",
+        "hint": "While 're-' can mean 'back', in 'rewrite' it means 'again'."
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-word-formation-en-q-005",
+    "node_id": "eng-m-word-formation-en",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "Which of the following words is a compound word?",
+    "options": [
+      "A. sunlight",
+      "B. unhappy",
+      "C. disappear",
+      "D. kindness"
+    ],
+    "answer": "A. sunlight",
+    "steps": [
+      "1. Identify the structure of each word.",
+      "2. 'Sunlight' is composed of 'sun' and 'light', making it a compound word.",
+      "3. 'Unhappy' is a word with a prefix.",
+      "4. 'Disappear' is a word with a prefix.",
+      "5. 'Kindness' is a word with a suffix."
+    ],
+    "common_errors": [
+      {
+        "error": "Choosing 'B. unhappy'",
+        "hint": "Unhappy is a word with a prefix, not a compound word."
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-word-formation-en-q-006",
+    "node_id": "eng-m-word-formation-en",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "Explain how the word 'overcome' is formed and what it means.",
+    "answer": "The word 'overcome' is formed by combining the prefix 'over-' with the verb 'come'. The prefix 'over-' typically means 'above' or 'more than', and 'come' means 'to move toward'. Therefore, 'overcome' means to succeed in dealing with a problem or difficulty.",
+    "steps": [
+      "1. Identify the prefix 'over-' and the verb 'come'.",
+      "2. Understand the meaning of 'over-' as 'above' or 'more than'.",
+      "3. Combine the meanings to explain the overall meaning of 'overcome'."
+    ],
+    "common_errors": [
+      {
+        "error": "Misinterpreting 'over-' as 'more than' only",
+        "hint": "While 'over-' can mean 'more than', in 'overcome' it implies 'above' or 'surpassing'."
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "eng-m-word-formation-en-q-007",
+    "node_id": "eng-m-word-formation-en",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "What is the difference between the words 'disappear' and 'disappearence'?",
+    "answer": "The word 'disappear' is a verb meaning to no longer be visible or present. The word 'disappearance' is a noun, which is formed by adding the suffix '-ance' to the verb 'disappear', and it refers to the act or process of disappearing.",
+    "steps": [
+      "1. Identify the base verb 'disappear'.",
+      "2. Recognize that 'disappearance' is formed by adding the suffix '-ance'.",
+      "3. Explain the grammatical difference between the verb and the noun."
+    ],
+    "common_errors": [
+      {
+        "error": "Thinking 'disappearence' is the correct spelling",
+        "hint": "The correct spelling is 'disappearance', with an additional 'a'."
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

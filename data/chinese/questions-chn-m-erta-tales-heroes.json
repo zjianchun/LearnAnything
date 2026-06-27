@@ -1,0 +1,221 @@
+[
+  {
+    "id": "chn-m-erta-tales-heroes-q-001",
+    "node_id": "chn-m-erta-tales-heroes",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "《骆驼祥子》中，祥子最大的梦想是什么？",
+    "options": [
+      "A. 成为军官",
+      "B. 买一辆属于自己的车",
+      "C. 娶虎妞为妻",
+      "D. 参加革命"
+    ],
+    "answer": "B. 买一辆属于自己的车",
+    "steps": [
+      "1. 回顾《骆驼祥子》的主要情节，祥子是一个人力车夫。",
+      "2. 祥子最大的愿望是拥有一辆属于自己的车，这样他就可以不用租车拉活。",
+      "3. 分析各个选项，选项B最符合祥子的梦想。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选C",
+        "hint": "虎妞是祥子的妻子，但并不是祥子的梦想，而是他被迫接受的婚姻。"
+      },
+      {
+        "error": "误选D",
+        "hint": "参加革命并不是祥子的目标，他只是一个普通的劳动者。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chn-m-erta-tales-heroes-q-002",
+    "node_id": "chn-m-erta-tales-heroes",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "《水浒传》中，被称为“智多星”的是________。",
+    "answer": "吴用",
+    "steps": [
+      "1. 回忆《水浒传》中主要人物的外号。",
+      "2. “智多星”是吴用的外号，因为他足智多谋。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写“公孙胜”",
+        "hint": "公孙胜被称为“入云龙”，不是“智多星”。"
+      },
+      {
+        "error": "填写“卢俊义”",
+        "hint": "卢俊义被称为“玉麒麟”，与“智多星”无关。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chn-m-erta-tales-heroes-q-003",
+    "node_id": "chn-m-erta-tales-heroes",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "祥子在失去第一辆车后，是如何得到第二辆车的？",
+    "options": [
+      "A. 攒钱买的",
+      "B. 虎妞出钱买的",
+      "C. 偷来的",
+      "D. 捡来的"
+    ],
+    "answer": "B. 虎妞出钱买的",
+    "steps": [
+      "1. 回顾祥子失去第一辆车后的情节发展。",
+      "2. 祥子在失去第一辆车后，心情低落，但虎妞出钱帮他买了第二辆车。",
+      "3. 分析各个选项，选项B符合情节发展。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A",
+        "hint": "祥子虽然想攒钱买车，但第二辆车并非他自己攒钱买的。"
+      },
+      {
+        "error": "误选C",
+        "hint": "祥子虽然生活艰难，但并未通过偷窃获得车辆。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chn-m-erta-tales-heroes-q-004",
+    "node_id": "chn-m-erta-tales-heroes",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请简要分析《骆驼祥子》中祥子最终堕落的原因。",
+    "answer": "祥子最终堕落的原因是多方面的。首先，他经历了三次买车三次失去的打击，尤其是第三次失去车后，他失去了生活的希望。其次，虎妞的去世和小福子的自杀对他造成了巨大的精神打击。最后，社会环境的黑暗和残酷也加速了他的堕落。",
+    "steps": [
+      "1. 分析祥子经历的主要事件。",
+      "2. 探讨这些事件对祥子心理的影响。",
+      "3. 考虑社会环境对祥子的影响。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到个人原因，忽略社会环境",
+        "hint": "祥子的堕落不仅是个人原因，社会环境的黑暗也是重要因素。"
+      },
+      {
+        "error": "过于简略",
+        "hint": "需要详细分析多个方面的原因。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-erta-tales-heroes-q-005",
+    "node_id": "chn-m-erta-tales-heroes",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "《水浒传》中，谁被称为“花和尚”？",
+    "options": [
+      "A. 鲁智深",
+      "B. 武松",
+      "C. 林冲",
+      "D. 李逵"
+    ],
+    "answer": "A. 鲁智深",
+    "steps": [
+      "1. 回忆《水浒传》中主要人物的外号。",
+      "2. “花和尚”是鲁智深的外号，因为他身上有纹身，并且性格豪放。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B",
+        "hint": "武松被称为“行者”，不是“花和尚”。"
+      },
+      {
+        "error": "误选C",
+        "hint": "林冲被称为“豹子头”，与“花和尚”无关。"
+      },
+      {
+        "error": "误选D",
+        "hint": "李逵被称为“黑旋风”，与“花和尚”无关。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chn-m-erta-tales-heroes-q-006",
+    "node_id": "chn-m-erta-tales-heroes",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析《水浒传》中“智取生辰纲”这一情节中，吴用的智谋体现在哪些方面。",
+    "answer": "吴用的智谋主要体现在以下几个方面：首先，他选择了合适的时机和地点，利用黄泥冈的地形和环境。其次，他巧妙地伪装成卖酒商贩，骗过了杨志等人。最后，他利用白胜的表演和酒中的蒙汗药，成功地夺取了生辰纲。",
+    "steps": [
+      "1. 分析“智取生辰纲”的主要情节。",
+      "2. 探讨吴用的具体策略和行动。",
+      "3. 总结吴用的智谋体现。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到策略，忽略具体行动",
+        "hint": "需要详细分析吴用的具体策略和行动。"
+      },
+      {
+        "error": "过于简略",
+        "hint": "需要全面分析多个方面的智谋体现。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-erta-tales-heroes-q-007",
+    "node_id": "chn-m-erta-tales-heroes",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请简要分析《骆驼祥子》中祥子的性格特点及其变化。",
+    "answer": "祥子最初是一个勤劳、坚韧、充满希望的青年。他努力工作，梦想着拥有一辆属于自己的车。然而，随着他经历了一系列的挫折和打击，他的性格逐渐发生了变化。他变得消极、懒惰、绝望，最终堕落成一个麻木不仁的人。",
+    "steps": [
+      "1. 分析祥子最初的性格特点。",
+      "2. 探讨祥子经历的主要事件。",
+      "3. 分析祥子性格的变化及其原因。"
+    ],
+    "common_errors": [
+      {
+        "error": "忽略性格变化",
+        "hint": "祥子的性格并非一成不变，需要分析其变化过程。"
+      },
+      {
+        "error": "过于简略",
+        "hint": "需要详细分析性格特点及其变化。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-erta-tales-heroes-q-008",
+    "node_id": "chn-m-erta-tales-heroes",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "《水浒传》中，梁山好汉的领袖是________。",
+    "answer": "宋江",
+    "steps": [
+      "1. 回忆《水浒传》中梁山好汉的领袖。",
+      "2. 宋江是梁山好汉的领袖，被称为“及时雨”。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写“卢俊义”",
+        "hint": "卢俊义是梁山好汉中的重要人物，但不是领袖。"
+      },
+      {
+        "error": "填写“吴用”",
+        "hint": "吴用是军师，不是领袖。"
+      }
+    ],
+    "exam_frequency": 4
+  }
+]

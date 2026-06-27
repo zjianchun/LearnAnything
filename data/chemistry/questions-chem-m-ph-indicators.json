@@ -1,0 +1,230 @@
+[
+  {
+    "id": "chem-m-ph-indicators-q-001",
+    "node_id": "chem-m-ph-indicators",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列物质中，属于酸碱指示剂的是：",
+    "options": [
+      "A. 氯化钠",
+      "B. 酚酞",
+      "C. 氢氧化钠",
+      "D. 盐酸"
+    ],
+    "answer": "B. 酚酞",
+    "steps": [
+      "1. 回顾酸碱指示剂的定义：酸碱指示剂是能够通过颜色变化来指示溶液酸碱性的物质。",
+      "2. 分析选项：氯化钠是中性盐，氢氧化钠是碱，盐酸是酸，它们都不能通过颜色变化指示溶液的酸碱性。",
+      "3. 酚酞是一种常见的酸碱指示剂，在酸性溶液中无色，在碱性溶液中呈红色。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选C或D",
+        "hint": "氢氧化钠和盐酸是碱和酸，不是指示剂。"
+      },
+      {
+        "error": "误选A",
+        "hint": "氯化钠是中性盐，不能指示溶液的酸碱性。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-ph-indicators-q-002",
+    "node_id": "chem-m-ph-indicators",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "将紫色石蕊试液滴入稀硫酸中，溶液呈现的颜色是________。",
+    "answer": "红色",
+    "steps": [
+      "1. 回顾紫色石蕊试液的性质：在酸性溶液中呈红色，在中性溶液中呈紫色，在碱性溶液中呈蓝色。",
+      "2. 分析稀硫酸的性质：稀硫酸是酸性的。",
+      "3. 得出结论：紫色石蕊试液在酸性溶液中呈红色。"
+    ],
+    "common_errors": [
+      {
+        "error": "回答紫色",
+        "hint": "紫色是石蕊试液在中性溶液中的颜色。"
+      },
+      {
+        "error": "回答蓝色",
+        "hint": "蓝色是石蕊试液在碱性溶液中的颜色。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-ph-indicators-q-003",
+    "node_id": "chem-m-ph-indicators",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列关于酸碱指示剂的说法，正确的是：",
+    "options": [
+      "A. 酸碱指示剂只能指示酸性溶液",
+      "B. 酸碱指示剂只能指示碱性溶液",
+      "C. 酸碱指示剂可以指示溶液的酸碱性",
+      "D. 酸碱指示剂不能指示溶液的酸碱性"
+    ],
+    "answer": "C. 酸碱指示剂可以指示溶液的酸碱性",
+    "steps": [
+      "1. 回顾酸碱指示剂的定义和作用：酸碱指示剂可以通过颜色变化来指示溶液的酸碱性。",
+      "2. 分析选项：A和B都只提到了一种性质的溶液，错误；D与事实相反，错误。",
+      "3. 得出结论：C正确，酸碱指示剂可以指示溶液的酸碱性。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A或B",
+        "hint": "酸碱指示剂可以指示酸性和碱性溶液。"
+      },
+      {
+        "error": "误选D",
+        "hint": "酸碱指示剂可以指示溶液的酸碱性。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-ph-indicators-q-004",
+    "node_id": "chem-m-ph-indicators",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "将无色酚酞试液滴入某溶液中，溶液呈现红色，该溶液的pH值可能为：",
+    "options": [
+      "A. 3",
+      "B. 5",
+      "C. 7",
+      "D. 9"
+    ],
+    "answer": "D. 9",
+    "steps": [
+      "1. 回顾酚酞试液的性质：在酸性和中性溶液中无色，在碱性溶液中呈红色。",
+      "2. 分析pH值与酸碱性的关系：pH值小于7为酸性，pH值等于7为中性，pH值大于7为碱性。",
+      "3. 得出结论：溶液呈现红色，说明溶液为碱性，pH值大于7，可能为9。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A或B",
+        "hint": "pH值小于7为酸性，酚酞试液在酸性溶液中无色。"
+      },
+      {
+        "error": "误选C",
+        "hint": "pH值等于7为中性，酚酞试液在中性溶液中无色。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-ph-indicators-q-005",
+    "node_id": "chem-m-ph-indicators",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列关于pH值的说法，正确的是：",
+    "options": [
+      "A. pH值越大，溶液的酸性越强",
+      "B. pH值越小，溶液的酸性越强",
+      "C. pH值越大，溶液的碱性越强",
+      "D. pH值越小，溶液的碱性越强"
+    ],
+    "answer": "B. pH值越小，溶液的酸性越强",
+    "steps": [
+      "1. 回顾pH值的定义：pH值是衡量溶液酸碱性的指标。",
+      "2. 分析pH值与酸碱性的关系：pH值小于7为酸性，pH值越小，酸性越强；pH值大于7为碱性，pH值越大，碱性越强。",
+      "3. 得出结论：B正确，pH值越小，溶液的酸性越强。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A",
+        "hint": "pH值越大，溶液的酸性越弱。"
+      },
+      {
+        "error": "误选C",
+        "hint": "pH值越大，溶液的碱性越强。"
+      },
+      {
+        "error": "误选D",
+        "hint": "pH值越小，溶液的碱性越弱。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-ph-indicators-q-006",
+    "node_id": "chem-m-ph-indicators",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "某溶液的pH值为4，则该溶液的酸碱性为________。",
+    "answer": "酸性",
+    "steps": [
+      "1. 回顾pH值的定义：pH值是衡量溶液酸碱性的指标。",
+      "2. 分析pH值与酸碱性的关系：pH值小于7为酸性，pH值等于7为中性，pH值大于7为碱性。",
+      "3. 得出结论：pH值为4，溶液为酸性。"
+    ],
+    "common_errors": [
+      {
+        "error": "回答碱性",
+        "hint": "pH值小于7为酸性。"
+      },
+      {
+        "error": "回答中性",
+        "hint": "pH值等于7为中性。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-ph-indicators-q-007",
+    "node_id": "chem-m-ph-indicators",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "如何用pH试纸测定某溶液的酸碱性？请写出具体操作步骤。",
+    "answer": "1. 取一小片pH试纸。2. 用洁净的玻璃棒蘸取少量待测溶液。3. 将蘸有溶液的玻璃棒点在pH试纸上。4. 观察试纸颜色的变化，并与标准比色卡对照，确定溶液的pH值。5. 根据pH值判断溶液的酸碱性：pH值小于7为酸性，pH值等于7为中性，pH值大于7为碱性。",
+    "steps": [
+      "1. 回顾pH试纸的使用方法。",
+      "2. 详细描述操作步骤：包括取样、蘸取、点试纸、观察颜色变化等。",
+      "3. 解释如何根据pH值判断酸碱性。"
+    ],
+    "common_errors": [
+      {
+        "error": "操作步骤不完整",
+        "hint": "确保每个步骤都描述清楚。"
+      },
+      {
+        "error": "判断酸碱性错误",
+        "hint": "根据pH值小于7、等于7、大于7来判断。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "chem-m-ph-indicators-q-008",
+    "node_id": "chem-m-ph-indicators",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "某溶液滴入紫色石蕊试液后呈现红色，请推测该溶液的pH值，并说明理由。",
+    "answer": "该溶液的pH值小于7，理由是紫色石蕊试液在酸性溶液中呈现红色，而pH值小于7的溶液为酸性。",
+    "steps": [
+      "1. 回顾紫色石蕊试液的性质：在酸性溶液中呈现红色。",
+      "2. 分析pH值与酸碱性的关系：pH值小于7为酸性。",
+      "3. 得出结论：溶液呈现红色，说明溶液为酸性，pH值小于7。"
+    ],
+    "common_errors": [
+      {
+        "error": "判断错误",
+        "hint": "紫色石蕊试液在酸性溶液中呈现红色。"
+      },
+      {
+        "error": "pH值判断错误",
+        "hint": "pH值小于7的溶液为酸性。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

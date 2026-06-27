@@ -1,0 +1,190 @@
+[
+  {
+    "id": "geo-m-yangtze-delta-q-001",
+    "node_id": "geo-m-yangtze-delta",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "长江三角洲的核心城市是哪一个？",
+    "options": [
+      "A. 南京",
+      "B. 上海",
+      "C. 杭州",
+      "D. 苏州"
+    ],
+    "answer": "B. 上海",
+    "steps": [
+      "长江三角洲的核心城市是上海，因为上海是中国最大的经济中心和国际大都市。",
+      "南京和杭州是长三角的重要城市，但不是核心城市。",
+      "苏州是长三角的重要城市，但也不是核心城市。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选南京或杭州",
+        "hint": "注意题目问的是核心城市，上海的经济地位最为突出。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-yangtze-delta-q-002",
+    "node_id": "geo-m-yangtze-delta",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "长江三角洲的主要气候类型是______。",
+    "answer": "亚热带季风气候",
+    "steps": [
+      "长江三角洲位于中国东部沿海地区。",
+      "该地区的气候类型为亚热带季风气候，夏季炎热多雨，冬季温和少雨。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填为温带季风气候",
+        "hint": "注意长江三角洲的地理位置，中国东部沿海地区主要是亚热带季风气候。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-yangtze-delta-q-003",
+    "node_id": "geo-m-yangtze-delta",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "长江三角洲的农业类型主要是以下哪一种？",
+    "options": [
+      "A. 旱作农业",
+      "B. 水田农业",
+      "C. 畜牧业",
+      "D. 渔业"
+    ],
+    "answer": "B. 水田农业",
+    "steps": [
+      "长江三角洲地区降水丰富，地势低平。",
+      "该地区适合种植水稻等水田作物。",
+      "因此，农业类型主要是水田农业。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选渔业",
+        "hint": "虽然渔业也是长三角的重要产业，但题目问的是农业类型。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-yangtze-delta-q-004",
+    "node_id": "geo-m-yangtze-delta",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述长江三角洲发展经济的有利条件。",
+    "answer": "长江三角洲发展经济的有利条件包括：1. 地理位置优越，地处中国东部沿海，靠近长江入海口，交通便利；2. 气候适宜，降水丰富，适合农业发展；3. 人口密集，劳动力资源丰富；4. 科技教育水平高，创新能力强；5. 政策支持，国家对长三角地区的经济发展给予大力支持。",
+    "steps": [
+      "从地理位置、气候条件、人口资源、科技水平和政策支持等方面进行分析。",
+      "每个方面简要说明其对经济发展的影响。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到地理位置",
+        "hint": "注意题目要求简述多个有利条件，需全面分析。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-yangtze-delta-q-005",
+    "node_id": "geo-m-yangtze-delta",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "以下哪一项不是长江三角洲的特色产业？",
+    "options": [
+      "A. 钢铁工业",
+      "B. 汽车制造业",
+      "C. 纺织业",
+      "D. 石油化工"
+    ],
+    "answer": "D. 石油化工",
+    "steps": [
+      "长江三角洲的特色产业包括钢铁工业、汽车制造业和纺织业。",
+      "石油化工产业主要集中在其他地区，如东北和华北。",
+      "因此，石油化工不是长江三角洲的特色产业。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选纺织业",
+        "hint": "纺织业是长三角的传统优势产业，需仔细辨别。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-yangtze-delta-q-006",
+    "node_id": "geo-m-yangtze-delta",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析长江三角洲地区城市化进程快速发展的原因。",
+    "answer": "长江三角洲地区城市化进程快速发展的原因包括：1. 经济发展迅速，吸引了大量农村人口向城市转移；2. 交通基础设施完善，促进了区域一体化发展；3. 政策支持，国家对长三角地区的城市化给予政策倾斜；4. 产业结构优化，第三产业和高新技术产业发展迅速；5. 地理位置优越，对外开放程度高，吸引了大量外资和人才。",
+    "steps": [
+      "从经济发展、交通基础设施、政策支持、产业结构和地理位置等方面进行分析。",
+      "每个方面简要说明其对城市化进程的影响。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到经济发展",
+        "hint": "城市化进程受多种因素影响，需全面分析。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-yangtze-delta-q-007",
+    "node_id": "geo-m-yangtze-delta",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "长江三角洲的主要地形类型是______。",
+    "answer": "平原",
+    "steps": [
+      "长江三角洲位于长江下游地区，地势低平。",
+      "该地区的主要地形类型是平原。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填为丘陵",
+        "hint": "注意长江三角洲的地理位置，地势低平是主要特征。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-yangtze-delta-q-008",
+    "node_id": "geo-m-yangtze-delta",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "长江三角洲的交通枢纽城市是以下哪一个？",
+    "options": [
+      "A. 南京",
+      "B. 上海",
+      "C. 杭州",
+      "D. 宁波"
+    ],
+    "answer": "B. 上海",
+    "steps": [
+      "上海是长江三角洲的交通枢纽城市，拥有世界级的港口和航空枢纽。",
+      "南京、杭州和宁波也是重要的交通节点，但不具备上海的综合交通优势。",
+      "因此，上海是长江三角洲的交通枢纽城市。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选南京或杭州",
+        "hint": "注意题目问的是交通枢纽城市，上海的交通地位最为突出。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

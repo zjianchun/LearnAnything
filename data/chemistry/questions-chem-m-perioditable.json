@@ -1,0 +1,217 @@
+[
+  {
+    "id": "chem-m-periodic-table-q-001",
+    "node_id": "chem-m-periodic-table",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列元素中，属于第IA族的是（   ）",
+    "options": [
+      "A. 钠",
+      "B. 镁",
+      "C. 铝",
+      "D. 硅"
+    ],
+    "answer": "A. 钠",
+    "steps": [
+      "第IA族元素包括氢和碱金属：锂（Li）、钠（Na）、钾（K）、铷（Rb）、铯（Cs）、钫（Fr）。",
+      "根据元素周期表，钠（Na）位于第IA族。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选镁（Mg）",
+        "hint": "镁（Mg）属于第IIA族，不是第IA族。"
+      },
+      {
+        "error": "误选铝（Al）",
+        "hint": "铝（Al）属于第IIIA族，不是第IA族。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chem-m-periodic-table-q-002",
+    "node_id": "chem-m-periodic-table",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "地壳中含量最多的金属元素是____。",
+    "answer": "铝",
+    "steps": [
+      "地壳中元素含量排名：氧（O）、硅（Si）、铝（Al）、铁（Fe）。",
+      "在金属元素中，铝（Al）的含量最高。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写铁（Fe）",
+        "hint": "铁（Fe）的含量低于铝（Al），地壳中含量最多的金属元素是铝（Al）。"
+      },
+      {
+        "error": "填写硅（Si）",
+        "hint": "硅（Si）是非金属元素，不是金属元素。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-periodic-table-q-003",
+    "node_id": "chem-m-periodic-table",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列元素中，原子序数为16的元素是（   ）",
+    "options": [
+      "A. 硫",
+      "B. 氯",
+      "C. 氩",
+      "D. 钾"
+    ],
+    "answer": "A. 硫",
+    "steps": [
+      "原子序数是元素在元素周期表中的序号。",
+      "查找元素周期表，原子序数为16的元素是硫（S）。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选氯（Cl）",
+        "hint": "氯（Cl）的原子序数是17，不是16。"
+      },
+      {
+        "error": "误选氩（Ar）",
+        "hint": "氩（Ar）的原子序数是18，不是16。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-periodic-table-q-004",
+    "node_id": "chem-m-periodic-table",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "某元素在元素周期表中位于第四周期，第VIIA族，该元素是____。",
+    "answer": "溴",
+    "steps": [
+      "第四周期元素从钾（K）到氪（Kr）。",
+      "第VIIA族元素包括氟（F）、氯（Cl）、溴（Br）、碘（I）、砹（At）。",
+      "结合周期和族的信息，该元素是溴（Br）。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写氯（Cl）",
+        "hint": "氯（Cl）位于第三周期，不是第四周期。"
+      },
+      {
+        "error": "填写碘（I）",
+        "hint": "碘（I）位于第五周期，不是第四周期。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-periodic-table-q-005",
+    "node_id": "chem-m-periodic-table",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请解释元素周期表中，同一周期元素从左到右，金属性如何变化？",
+    "answer": "在同一周期中，元素从左到右，金属性逐渐减弱，非金属性逐渐增强。",
+    "steps": [
+      "同一周期元素从左到右，核外电子数增加。",
+      "核外电子数增加导致原子核对电子的吸引力增强。",
+      "因此，金属性逐渐减弱，非金属性逐渐增强。"
+    ],
+    "common_errors": [
+      {
+        "error": "金属性增强",
+        "hint": "金属性是逐渐减弱的，而非增强。"
+      },
+      {
+        "error": "非金属性减弱",
+        "hint": "非金属性是逐渐增强的，而非减弱。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-periodic-table-q-006",
+    "node_id": "chem-m-periodic-table",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "下列元素中，原子半径最大的是（   ）",
+    "options": [
+      "A. 锂",
+      "B. 钠",
+      "C. 钾",
+      "D. 铷"
+    ],
+    "answer": "D. 铷",
+    "steps": [
+      "原子半径在元素周期表中，同一主族元素从上到下，原子半径增大。",
+      "锂（Li）、钠（Na）、钾（K）、铷（Rb）位于同一主族。",
+      "铷（Rb）的原子序数最大，因此原子半径最大。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选钠（Na）",
+        "hint": "钠（Na）的原子半径小于铷（Rb）。"
+      },
+      {
+        "error": "误选钾（K）",
+        "hint": "钾（K）的原子半径小于铷（Rb）。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "chem-m-periodic-table-q-007",
+    "node_id": "chem-m-periodic-table",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释元素周期表中，同一族元素从上到下，元素的非金属性如何变化？",
+    "answer": "在同一主族中，元素从上到下，元素的非金属性逐渐减弱，金属性逐渐增强。",
+    "steps": [
+      "同一主族元素从上到下，核外电子层数增加。",
+      "核外电子层数增加导致原子半径增大。",
+      "因此，元素的非金属性逐渐减弱，金属性逐渐增强。"
+    ],
+    "common_errors": [
+      {
+        "error": "金属性减弱",
+        "hint": "金属性是逐渐增强的，而非减弱。"
+      },
+      {
+        "error": "非金属性增强",
+        "hint": "非金属性是逐渐减弱的，而非增强。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "chem-m-periodic-table-q-008",
+    "node_id": "chem-m-periodic-table",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "某元素位于元素周期表中的第六周期，第IIIB族，该元素的名称是____。",
+    "answer": "镥",
+    "steps": [
+      "第六周期元素从铯（Cs）到氡（Rn）。",
+      "第IIIB族元素包括钪（Sc）、钇（Y）、镥（Lu）。",
+      "结合周期和族的信息，该元素是镥（Lu）。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写钪（Sc）",
+        "hint": "钪（Sc）位于第四周期，不是第六周期。"
+      },
+      {
+        "error": "填写钇（Y）",
+        "hint": "钇（Y）位于第五周期，不是第六周期。"
+      }
+    ],
+    "exam_frequency": 1
+  }
+]

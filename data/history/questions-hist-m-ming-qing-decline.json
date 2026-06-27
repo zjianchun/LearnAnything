@@ -1,0 +1,194 @@
+[
+  {
+    "id": "hist-m-ming-qing-decline-q-001",
+    "node_id": "hist-m-ming-qing-decline",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "以下哪一项不属于明朝灭亡的主要原因？",
+    "options": [
+      "A. 政治腐败",
+      "B. 农民起义",
+      "C. 闭关锁国",
+      "D. 自然灾害"
+    ],
+    "answer": "C. 闭关锁国",
+    "steps": [
+      "1. 分析明朝灭亡的主要原因，包括政治腐败、农民起义、自然灾害等。",
+      "2. 闭关锁国政策主要在清朝前期实施，不是明朝灭亡的主要原因。",
+      "3. 排除法，确定正确答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为闭关锁国是明朝灭亡的主要原因",
+        "hint": "注意区分明朝和清朝的政策，明朝灭亡时闭关锁国尚未实施。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-ming-qing-decline-q-002",
+    "node_id": "hist-m-ming-qing-decline",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "清朝在________年颁布了闭关锁国政策。",
+    "answer": "1757",
+    "steps": [
+      "1. 回顾清朝闭关锁国政策的历史背景。",
+      "2. 明确闭关锁国政策的具体实施时间。",
+      "3. 填写正确答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填其他年份",
+        "hint": "闭关锁国政策在1757年由乾隆皇帝颁布。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-ming-qing-decline-q-003",
+    "node_id": "hist-m-ming-qing-decline",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下哪一项是清朝闭关锁国政策的影响？",
+    "options": [
+      "A. 促进了中外交流",
+      "B. 阻碍了经济发展",
+      "C. 增强了国防力量",
+      "D. 提高了国民生活水平"
+    ],
+    "answer": "B. 阻碍了经济发展",
+    "steps": [
+      "1. 分析闭关锁国政策的主要目的和实施效果。",
+      "2. 考虑该政策对经济、文化、科技等方面的影响。",
+      "3. 确定正确答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A，认为闭关锁国促进了中外交流",
+        "hint": "闭关锁国政策限制了中外交流，而非促进。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-ming-qing-decline-q-004",
+    "node_id": "hist-m-ming-qing-decline",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述清朝闭关锁国政策的主要内容。",
+    "answer": "清朝的闭关锁国政策主要包括：1. 限制对外贸易，仅开放广州一处作为通商口岸；2. 设立广州十三行作为对外贸易的垄断机构；3. 严格限制外国商人和传教士的活动。",
+    "steps": [
+      "1. 明确闭关锁国政策的核心内容。",
+      "2. 列出具体措施和限制。",
+      "3. 简要概括，形成完整答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "遗漏关键内容，如仅开放广州一处通商口岸",
+        "hint": "注意政策的具体措施，确保全面回答。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-ming-qing-decline-q-005",
+    "node_id": "hist-m-ming-qing-decline",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下哪一项是明朝和清朝都面临的问题？",
+    "options": [
+      "A. 北方游牧民族的入侵",
+      "B. 西方列强的侵略",
+      "C. 农民起义频繁",
+      "D. 经济衰退严重"
+    ],
+    "answer": "C. 农民起义频繁",
+    "steps": [
+      "1. 分析明朝和清朝各自面临的主要问题。",
+      "2. 比较这些问题的共性。",
+      "3. 确定正确答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B，认为明朝也面临西方列强的侵略",
+        "hint": "西方列强的侵略主要发生在清朝后期。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-ming-qing-decline-q-006",
+    "node_id": "hist-m-ming-qing-decline",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析清朝闭关锁国政策对中国社会发展的长远影响。",
+    "answer": "清朝的闭关锁国政策虽然在短期内起到了维护国家安全的作用，但从长远来看，它严重阻碍了中国与外界的交流，导致中国在科技、文化、经济等方面逐渐落后于西方。具体影响包括：1. 限制了对外贸易和交流，阻碍了经济发展；2. 抑制了科技进步，使中国错失了工业革命的机会；3. 削弱了国防力量，最终在面对西方列强的侵略时无力抵抗。",
+    "steps": [
+      "1. 明确闭关锁国政策的短期和长期影响。",
+      "2. 从经济、科技、国防等方面进行分析。",
+      "3. 形成完整的分析答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "只关注短期影响，忽略长期影响",
+        "hint": "注意题目要求分析长远影响，需全面考虑。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-ming-qing-decline-q-007",
+    "node_id": "hist-m-ming-qing-decline",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "明朝灭亡的标志性事件是________。",
+    "answer": "李自成攻占北京",
+    "steps": [
+      "1. 回顾明朝灭亡的历史背景。",
+      "2. 确定明朝灭亡的标志性事件。",
+      "3. 填写正确答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填其他事件，如崇祯皇帝自杀",
+        "hint": "李自成攻占北京是明朝灭亡的标志性事件。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-ming-qing-decline-q-008",
+    "node_id": "hist-m-ming-qing-decline",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "以下哪一项是清朝前期经济繁荣的原因？",
+    "options": [
+      "A. 闭关锁国政策",
+      "B. 农业生产的恢复和发展",
+      "C. 西方列强的经济援助",
+      "D. 农民起义的减少"
+    ],
+    "answer": "B. 农业生产的恢复和发展",
+    "steps": [
+      "1. 分析清朝前期经济繁荣的主要因素。",
+      "2. 考虑农业、手工业、商业等方面的发展。",
+      "3. 确定正确答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A，认为闭关锁国政策促进了经济繁荣",
+        "hint": "闭关锁国政策实际上阻碍了经济发展。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

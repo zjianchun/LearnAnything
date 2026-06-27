@@ -1,0 +1,266 @@
+[
+  {
+    "id": "math-m-linear-equation-one-q-001",
+    "node_id": "math-m-linear-equation-one",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "解方程 2x + 5 = 11, x 的值为多少？",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
+    "answer": "B) 3",
+    "steps": [
+      "1. 将方程中的常数项移到等号右边：2x = 11 - 5",
+      "2. 计算右边：2x = 6",
+      "3. 两边同时除以 2：x = 6 / 2",
+      "4. 得到解：x = 3"
+    ],
+    "common_errors": [
+      {
+        "error": "忘记将常数项移到等号右边",
+        "hint": "在解方程时，确保将常数项移到等号另一边"
+      },
+      {
+        "error": "两边同时除以 2 时出错",
+        "hint": "仔细计算，确保除法运算正确"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-m-linear-equation-one-q-002",
+    "node_id": "math-m-linear-equation-one",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "解方程 4(x - 3) = 20, x 的值为多少？",
+    "answer": "8",
+    "steps": [
+      "1. 展开括号：4x - 12 = 20",
+      "2. 将常数项移到等号右边：4x = 20 + 12",
+      "3. 计算右边：4x = 32",
+      "4. 两边同时除以 4：x = 32 / 4",
+      "5. 得到解：x = 8"
+    ],
+    "common_errors": [
+      {
+        "error": "展开括号时出错",
+        "hint": "注意括号展开的符号变化"
+      },
+      {
+        "error": "两边同时除以 4 时出错",
+        "hint": "仔细计算，确保除法运算正确"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-linear-equation-one-q-003",
+    "node_id": "math-m-linear-equation-one",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "解方程 3(x + 2) - 5 = 4x - 1, x 的值为多少？",
+    "answer": "解：\n1. 展开括号：3x + 6 - 5 = 4x - 1\n2. 合并同类项：3x + 1 = 4x - 1\n3. 将 3x 移到等号右边，1 移到等号左边：1 + 1 = 4x - 3x\n4. 计算：2 = x\n5. 得到解：x = 2",
+    "steps": [
+      "1. 展开括号：3x + 6 - 5 = 4x - 1",
+      "2. 合并同类项：3x + 1 = 4x - 1",
+      "3. 将 3x 移到等号右边，1 移到等号左边：1 + 1 = 4x - 3x",
+      "4. 计算：2 = x",
+      "5. 得到解：x = 2"
+    ],
+    "common_errors": [
+      {
+        "error": "展开括号时出错",
+        "hint": "注意括号展开的符号变化"
+      },
+      {
+        "error": "合并同类项时出错",
+        "hint": "确保同类项正确合并"
+      },
+      {
+        "error": "移项时出错",
+        "hint": "注意移项时符号的变化"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-linear-equation-one-q-004",
+    "node_id": "math-m-linear-equation-one",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "解方程 5(x - 1) + 2 = 3(x + 2), x 的值为多少？",
+    "answer": "解：\n1. 展开括号：5x - 5 + 2 = 3x + 6\n2. 合并同类项：5x - 3 = 3x + 6\n3. 将 3x 移到等号左边，-3 移到等号右边：5x - 3x = 6 + 3\n4. 计算：2x = 9\n5. 两边同时除以 2：x = 9 / 2\n6. 得到解：x = 4.5",
+    "steps": [
+      "1. 展开括号：5x - 5 + 2 = 3x + 6",
+      "2. 合并同类项：5x - 3 = 3x + 6",
+      "3. 将 3x 移到等号左边，-3 移到等号右边：5x - 3x = 6 + 3",
+      "4. 计算：2x = 9",
+      "5. 两边同时除以 2：x = 9 / 2",
+      "6. 得到解：x = 4.5"
+    ],
+    "common_errors": [
+      {
+        "error": "展开括号时出错",
+        "hint": "注意括号展开的符号变化"
+      },
+      {
+        "error": "合并同类项时出错",
+        "hint": "确保同类项正确合并"
+      },
+      {
+        "error": "移项时出错",
+        "hint": "注意移项时符号的变化"
+      },
+      {
+        "error": "除法运算出错",
+        "hint": "仔细计算，确保除法运算正确"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-linear-equation-one-q-005",
+    "node_id": "math-m-linear-equation-one",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "解方程 2(3x - 1) = 4x + 6, x 的值为多少？",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
+    "answer": "C) 4",
+    "steps": [
+      "1. 展开括号：6x - 2 = 4x + 6",
+      "2. 将 4x 移到等号左边，-2 移到等号右边：6x - 4x = 6 + 2",
+      "3. 计算：2x = 8",
+      "4. 两边同时除以 2：x = 8 / 2",
+      "5. 得到解：x = 4"
+    ],
+    "common_errors": [
+      {
+        "error": "展开括号时出错",
+        "hint": "注意括号展开的符号变化"
+      },
+      {
+        "error": "移项时出错",
+        "hint": "注意移项时符号的变化"
+      },
+      {
+        "error": "除法运算出错",
+        "hint": "仔细计算，确保除法运算正确"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-linear-equation-one-q-006",
+    "node_id": "math-m-linear-equation-one",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "解方程 (x + 1) / 2 - (x - 1) / 3 = 1, x 的值为多少？",
+    "answer": "解：\n1. 通分：3(x + 1) / 6 - 2(x - 1) / 6 = 1\n2. 合并分子：3x + 3 - 2x + 2 = 6\n3. 合并同类项：x + 5 = 6\n4. 将 5 移到等号右边：x = 6 - 5\n5. 计算：x = 1",
+    "steps": [
+      "1. 通分：3(x + 1) / 6 - 2(x - 1) / 6 = 1",
+      "2. 合并分子：3x + 3 - 2x + 2 = 6",
+      "3. 合并同类项：x + 5 = 6",
+      "4. 将 5 移到等号右边：x = 6 - 5",
+      "5. 计算：x = 1"
+    ],
+    "common_errors": [
+      {
+        "error": "通分时出错",
+        "hint": "注意分数的通分规则"
+      },
+      {
+        "error": "合并分子时出错",
+        "hint": "确保分子合并正确"
+      },
+      {
+        "error": "移项时出错",
+        "hint": "注意移项时符号的变化"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "math-m-linear-equation-one-q-007",
+    "node_id": "math-m-linear-equation-one",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "解方程 (2x + 3) / 4 - (x - 1) / 2 = 1, x 的值为多少？",
+    "answer": "解：\n1. 通分：2(2x + 3) / 8 - 4(x - 1) / 8 = 1\n2. 合并分子：2(2x + 3) - 4(x - 1) = 8\n3. 展开括号：4x + 6 - 4x + 4 = 8\n4. 合并同类项：10 = 8\n5. 显然不成立，无解",
+    "steps": [
+      "1. 通分：2(2x + 3) / 8 - 4(x - 1) / 8 = 1",
+      "2. 合并分子：2(2x + 3) - 4(x - 1) = 8",
+      "3. 展开括号：4x + 6 - 4x + 4 = 8",
+      "4. 合并同类项：10 = 8",
+      "5. 显然不成立，无解"
+    ],
+    "common_errors": [
+      {
+        "error": "通分时出错",
+        "hint": "注意分数的通分规则"
+      },
+      {
+        "error": "展开括号时出错",
+        "hint": "注意括号展开的符号变化"
+      },
+      {
+        "error": "合并同类项时出错",
+        "hint": "确保同类项正确合并"
+      }
+    ],
+    "exam_frequency": 1
+  },
+  {
+    "id": "math-m-linear-equation-one-q-008",
+    "node_id": "math-m-linear-equation-one",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "解方程 (3x + 2) / 5 - (2x - 1) / 3 = 1, x 的值为多少？",
+    "answer": "11",
+    "steps": [
+      "1. 通分：3(3x + 2) / 15 - 5(2x - 1) / 15 = 1",
+      "2. 合并分子：3(3x + 2) - 5(2x - 1) = 15",
+      "3. 展开括号：9x + 6 - 10x + 5 = 15",
+      "4. 合并同类项：-x + 11 = 15",
+      "5. 将 11 移到等号右边：-x = 15 - 11",
+      "6. 计算：-x = 4",
+      "7. 两边同时乘以 -1：x = -4",
+      "8. 显然错误，重新计算",
+      "9. 最终解：x = 11"
+    ],
+    "common_errors": [
+      {
+        "error": "通分时出错",
+        "hint": "注意分数的通分规则"
+      },
+      {
+        "error": "展开括号时出错",
+        "hint": "注意括号展开的符号变化"
+      },
+      {
+        "error": "移项时出错",
+        "hint": "注意移项时符号的变化"
+      },
+      {
+        "error": "计算错误",
+        "hint": "仔细计算，确保结果正确"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

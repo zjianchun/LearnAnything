@@ -1,0 +1,188 @@
+[
+  {
+    "id": "geo-m-population-distribution-q-001",
+    "node_id": "geo-m-population-distribution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "世界上人口最多的国家是？",
+    "options": [
+      "A. 美国",
+      "B. 印度",
+      "C. 中国",
+      "D. 印度尼西亚"
+    ],
+    "answer": "C. 中国",
+    "steps": [
+      "1. 回忆世界人口排名前几位的国家",
+      "2. 确认中国是世界上人口最多的国家",
+      "3. 选择对应选项"
+    ],
+    "common_errors": [
+      {
+        "error": "误选印度",
+        "hint": "印度人口排名第二，并非最多"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-population-distribution-q-002",
+    "node_id": "geo-m-population-distribution",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "世界人口分布不均，主要集中在北半球_____纬度附近的地区。",
+    "answer": "20-60",
+    "steps": [
+      "1. 回忆世界人口分布的特点",
+      "2. 确认人口主要集中在北半球中低纬度地区",
+      "3. 填写具体纬度范围"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误纬度范围",
+        "hint": "注意是北半球中低纬度，不是高纬度"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-population-distribution-q-003",
+    "node_id": "geo-m-population-distribution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列关于世界人口分布的描述，正确的是？",
+    "options": [
+      "A. 人口密集区主要在热带雨林地区",
+      "B. 人口密集区主要在温带沿海地区",
+      "C. 人口密集区主要在干旱的沙漠地区",
+      "D. 人口密集区主要在寒冷的极地地区"
+    ],
+    "answer": "B. 人口密集区主要在温带沿海地区",
+    "steps": [
+      "1. 分析各选项中提到的地理环境特点",
+      "2. 确认温带沿海地区气候适宜、交通便利",
+      "3. 排除其他不适合人口密集的环境"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A或C",
+        "hint": "热带雨林和沙漠地区都不适合大规模人口居住"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-population-distribution-q-004",
+    "node_id": "geo-m-population-distribution",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述影响人口分布的自然因素有哪些？",
+    "answer": "影响人口分布的自然因素包括地形、气候、水源、土壤等。地形平坦、气候适宜、水源充足、土壤肥沃的地区更适宜人口居住。",
+    "steps": [
+      "1. 回忆影响人口分布的自然因素",
+      "2. 列举主要因素：地形、气候、水源、土壤",
+      "3. 简要说明这些因素如何影响人口分布"
+    ],
+    "common_errors": [
+      {
+        "error": "遗漏关键因素",
+        "hint": "注意全面考虑自然环境的各个方面"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-population-distribution-q-005",
+    "node_id": "geo-m-population-distribution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列国家中，人口自然增长率最高的是？",
+    "options": [
+      "A. 日本",
+      "B. 德国",
+      "C. 尼日利亚",
+      "D. 加拿大"
+    ],
+    "answer": "C. 尼日利亚",
+    "steps": [
+      "1. 回忆世界人口自然增长率的分布特点",
+      "2. 确认非洲国家人口自然增长率普遍较高",
+      "3. 选择对应选项"
+    ],
+    "common_errors": [
+      {
+        "error": "误选发达国家",
+        "hint": "发达国家人口自然增长率普遍较低"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-population-distribution-q-006",
+    "node_id": "geo-m-population-distribution",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "世界人口密度最大的洲是_____。",
+    "answer": "亚洲",
+    "steps": [
+      "1. 回忆世界各大洲的人口密度",
+      "2. 确认亚洲人口密度最大",
+      "3. 填写答案"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误洲名",
+        "hint": "注意区分各大洲的人口密度"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-population-distribution-q-007",
+    "node_id": "geo-m-population-distribution",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析非洲人口分布的特点及其原因。",
+    "answer": "非洲人口分布不均，主要集中在北部非洲和东部非洲的沿海地区。原因包括：1. 沿海地区气候湿润，适合农业发展；2. 交通便利，有利于经济发展；3. 历史原因，早期文明和殖民活动集中在这些地区。",
+    "steps": [
+      "1. 回忆非洲人口分布的总体特点",
+      "2. 分析人口集中的地区及其原因",
+      "3. 总结主要影响因素"
+    ],
+    "common_errors": [
+      {
+        "error": "原因分析不全面",
+        "hint": "从自然和人文两方面分析原因"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "geo-m-population-distribution-q-008",
+    "node_id": "geo-m-population-distribution",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "结合世界人口分布特点，预测未来人口增长的趋势。",
+    "answer": "未来世界人口增长趋势主要体现在发展中国家，特别是非洲和亚洲的部分国家。原因是：1. 这些国家人口基数大；2. 人口自然增长率高；3. 医疗条件改善，死亡率下降。",
+    "steps": [
+      "1. 分析当前世界人口分布的特点",
+      "2. 考虑影响人口增长的因素",
+      "3. 预测未来人口增长的趋势"
+    ],
+    "common_errors": [
+      {
+        "error": "忽略发展中国家",
+        "hint": "重点关注发展中国家的人口增长趋势"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

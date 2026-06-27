@@ -1,0 +1,188 @@
+[
+  {
+    "id": "chn-m-erta-essay-collection-q-001",
+    "node_id": "chn-m-erta-essay-collection",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列哪一项不属于散文杂文集的主要特点？",
+    "options": [
+      "A. 形式自由灵活",
+      "B. 内容广泛多样",
+      "C. 语言华丽优美",
+      "D. 结构严谨规范"
+    ],
+    "answer": "D. 结构严谨规范",
+    "steps": [
+      "1. 分析散文杂文集的特点：形式自由、内容广泛、语言个性化。",
+      "2. 对比选项，找出不符合特点的选项。",
+      "3. 结构严谨规范通常用于议论文或说明文，而非散文杂文集。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选C",
+        "hint": "虽然散文语言优美，但华丽并非其主要特点。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-erta-essay-collection-q-002",
+    "node_id": "chn-m-erta-essay-collection",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "鲁迅的《_____》是中国现代文学史上的经典散文杂文集。",
+    "answer": "朝花夕拾",
+    "steps": [
+      "1. 回忆鲁迅的代表作。",
+      "2. 确认《朝花夕拾》是其著名的散文杂文集。",
+      "3. 填写正确答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写《呐喊》",
+        "hint": "《呐喊》是小说集，而非散文杂文集。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-erta-essay-collection-q-003",
+    "node_id": "chn-m-erta-essay-collection",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列哪一篇文章不属于鲁迅的《朝花夕拾》？",
+    "options": [
+      "A. 《从百草园到三味书屋》",
+      "B. 《藤野先生》",
+      "C. 《故乡》",
+      "D. 《阿长与<山海经>》"
+    ],
+    "answer": "C. 《故乡》",
+    "steps": [
+      "1. 回顾《朝花夕拾》中的主要篇目。",
+      "2. 对比选项，确认《故乡》不属于该文集。",
+      "3. 《故乡》是鲁迅的小说，而非《朝花夕拾》中的文章。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B",
+        "hint": "《藤野先生》是《朝花夕拾》中的篇目。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "chn-m-erta-essay-collection-q-004",
+    "node_id": "chn-m-erta-essay-collection",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请简要分析散文杂文集《朝花夕拾》的艺术特色。",
+    "answer": "《朝花夕拾》以回忆为主线，语言朴实而富有表现力，情感真挚。作者通过细腻的描写和深刻的思考，展现了童年生活、社会风貌以及个人成长。作品既有对往昔的怀念，也有对现实的批判，体现了鲁迅独特的艺术风格。",
+    "steps": [
+      "1. 回顾《朝花夕拾》的主要内容。",
+      "2. 分析其语言风格和情感表达。",
+      "3. 结合作品的主题和艺术手法进行总结。"
+    ],
+    "common_errors": [
+      {
+        "error": "只描述内容而忽略艺术特色",
+        "hint": "需结合语言、情感和主题进行分析。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "chn-m-erta-essay-collection-q-005",
+    "node_id": "chn-m-erta-essay-collection",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列哪一项不是散文杂文集常见的写作手法？",
+    "options": [
+      "A. 抒情",
+      "B. 议论",
+      "C. 说明",
+      "D. 叙述"
+    ],
+    "answer": "C. 说明",
+    "steps": [
+      "1. 分析散文杂文集常见的写作手法。",
+      "2. 对比选项，确认说明文手法较少出现在散文杂文中。",
+      "3. 散文杂文更注重情感表达和议论，而非说明。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选D",
+        "hint": "叙述是散文杂文集的基本手法之一。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "chn-m-erta-essay-collection-q-006",
+    "node_id": "chn-m-erta-essay-collection",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请结合具体作品，论述散文杂文集在文学史上的地位和作用。",
+    "answer": "散文杂文集在文学史上具有重要地位。它不仅记录了作者的思想变化和社会变迁，还为后世提供了丰富的文化资源和历史资料。例如，鲁迅的《朝花夕拾》通过个人经历反映了时代背景，对社会现象进行了深刻批判。巴金的《随想录》则以其真诚的反思和自我批判，推动了新时期的思想解放。散文杂文集以其独特的视角和深刻的思考，对文学和社会的发展起到了积极的推动作用。",
+    "steps": [
+      "1. 回顾散文杂文集的代表作品。",
+      "2. 分析其反映的社会背景和思想内涵。",
+      "3. 结合具体作品，论述其对文学和社会的影响。"
+    ],
+    "common_errors": [
+      {
+        "error": "缺乏具体作品的分析",
+        "hint": "需结合具体作品进行论述。"
+      }
+    ],
+    "exam_frequency": 1
+  },
+  {
+    "id": "chn-m-erta-essay-collection-q-007",
+    "node_id": "chn-m-erta-essay-collection",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "在《_____》中，鲁迅以生动的笔触描绘了童年生活的点滴，表达了对长妈妈的怀念和对封建教育的批判。",
+    "answer": "从百草园到三味书屋",
+    "steps": [
+      "1. 回顾鲁迅的散文作品。",
+      "2. 确认《从百草园到三味书屋》符合题目描述。",
+      "3. 填写正确答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写《藤野先生》",
+        "hint": "《藤野先生》主要描写的是师生情谊，而非童年生活。"
+      }
+    ],
+    "exam_frequency": 1
+  },
+  {
+    "id": "chn-m-erta-essay-collection-q-008",
+    "node_id": "chn-m-erta-essay-collection",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析巴金的《随想录》在思想内容上的主要特点。",
+    "answer": "《随想录》是巴金晚年的重要作品，主要特点是对历史的深刻反思和对自我的真诚批判。作者通过回忆个人经历，揭示了文化大革命期间的种种问题，表达了对人性、道德和社会的深刻思考。作品充满了对过去的忏悔和对未来的希望，体现了巴金作为知识分子的责任感和使命感。",
+    "steps": [
+      "1. 回顾《随想录》的主要内容和主题。",
+      "2. 分析其思想内涵和情感表达。",
+      "3. 结合作品的时代背景和作者的思想变化进行总结。"
+    ],
+    "common_errors": [
+      {
+        "error": "忽略作品的历史背景",
+        "hint": "需结合时代背景进行分析。"
+      }
+    ],
+    "exam_frequency": 1
+  }
+]

@@ -1,0 +1,263 @@
+[
+  {
+    "id": "eng-m-attributive-clause-q-001",
+    "node_id": "eng-m-attributive-clause",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "This is the book _____ I borrowed from the library yesterday.",
+    "options": [
+      "A. who",
+      "B. whom",
+      "C. which",
+      "D. whose"
+    ],
+    "answer": "C. which",
+    "steps": [
+      "1. 分析句子结构，确定先行词是 'the book'，指物。",
+      "2. 定语从句中缺少宾语成分。",
+      "3. 指物的先行词在定语从句中作宾语时，用关系代词 'which' 或 'that'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用 'who' 或 'whom'",
+        "hint": "'who' 和 'whom' 只能指人，不能指物。"
+      },
+      {
+        "error": "误用 'whose'",
+        "hint": "'whose' 表示所属关系，意为 '...的'，在此处不符合句意。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-attributive-clause-q-002",
+    "node_id": "eng-m-attributive-clause",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "The girl ______ is wearing a red dress is my sister.",
+    "answer": "who/that",
+    "steps": [
+      "1. 分析句子结构，确定先行词是 'The girl'，指人。",
+      "2. 定语从句中缺少主语成分。",
+      "3. 指人的先行词在定语从句中作主语时，用关系代词 'who' 或 'that'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用 'which'",
+        "hint": "'which' 只能指物，不能指人。"
+      },
+      {
+        "error": "误用 'whom'",
+        "hint": "'whom' 在定语从句中作宾语，不能作主语。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-attributive-clause-q-003",
+    "node_id": "eng-m-attributive-clause",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "This is the house ______ I lived two years ago.",
+    "options": [
+      "A. where",
+      "B. which",
+      "C. when",
+      "D. why"
+    ],
+    "answer": "A. where",
+    "steps": [
+      "1. 分析句子结构，确定先行词是 'the house'，指地点。",
+      "2. 定语从句中缺少地点状语。",
+      "3. 指地点的先行词在定语从句中作状语时，用关系副词 'where'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用 'which'",
+        "hint": "'which' 在此处不能作地点状语。"
+      },
+      {
+        "error": "误用 'when'",
+        "hint": "'when' 只能指时间，不能指地点。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-attributive-clause-q-004",
+    "node_id": "eng-m-attributive-clause",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "The boy ______ I talked with just now is my cousin.",
+    "options": [
+      "A. who",
+      "B. whom",
+      "C. whose",
+      "D. which"
+    ],
+    "answer": "B. whom",
+    "steps": [
+      "1. 分析句子结构，确定先行词是 'The boy'，指人。",
+      "2. 定语从句中缺少介词 'with' 的宾语。",
+      "3. 指人的先行词在定语从句中作宾语时，用关系代词 'whom' 或 'that'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用 'who'",
+        "hint": "'who' 在定语从句中作主语，不能作宾语。"
+      },
+      {
+        "error": "误用 'which'",
+        "hint": "'which' 只能指物，不能指人。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-attributive-clause-q-005",
+    "node_id": "eng-m-attributive-clause",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "I still remember the day ______ I first came to Wuhan.",
+    "options": [
+      "A. when",
+      "B. where",
+      "C. which",
+      "D. why"
+    ],
+    "answer": "A. when",
+    "steps": [
+      "1. 分析句子结构，确定先行词是 'the day'，指时间。",
+      "2. 定语从句中缺少时间状语。",
+      "3. 指时间的先行词在定语从句中作状语时，用关系副词 'when'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用 'where'",
+        "hint": "'where' 只能指地点，不能指时间。"
+      },
+      {
+        "error": "误用 'which'",
+        "hint": "'which' 在此处不能作时间状语。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-attributive-clause-q-006",
+    "node_id": "eng-m-attributive-clause",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "The reason ______ he was late is that he missed the bus.",
+    "options": [
+      "A. why",
+      "B. when",
+      "C. which",
+      "D. where"
+    ],
+    "answer": "A. why",
+    "steps": [
+      "1. 分析句子结构，确定先行词是 'The reason'，指原因。",
+      "2. 定语从句中缺少原因状语。",
+      "3. 指原因的先行词在定语从句中作状语时，用关系副词 'why'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用 'when'",
+        "hint": "'when' 只能指时间，不能指原因。"
+      },
+      {
+        "error": "误用 'which'",
+        "hint": "'which' 在此处不能作原因状语。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-attributive-clause-q-007",
+    "node_id": "eng-m-attributive-clause",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "This is the school ______ I studied three years ago.",
+    "options": [
+      "A. where",
+      "B. which",
+      "C. when",
+      "D. why"
+    ],
+    "answer": "A. where",
+    "steps": [
+      "1. 分析句子结构，确定先行词是 'the school'，指地点。",
+      "2. 定语从句中缺少地点状语。",
+      "3. 指地点的先行词在定语从句中作状语时，用关系副词 'where'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用 'which'",
+        "hint": "'which' 在此处不能作地点状语。"
+      },
+      {
+        "error": "误用 'when'",
+        "hint": "'when' 只能指时间，不能指地点。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-attributive-clause-q-008",
+    "node_id": "eng-m-attributive-clause",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请用定语从句改写句子：I have a friend. He lives in Beijing.",
+    "answer": "I have a friend who lives in Beijing.",
+    "steps": [
+      "1. 确定先行词是 'a friend'，指人。",
+      "2. 将第二个句子改为定语从句，缺少主语。",
+      "3. 用关系代词 'who' 或 'that' 引导定语从句。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用 'which'",
+        "hint": "'which' 只能指物，不能指人。"
+      },
+      {
+        "error": "缺少关系代词",
+        "hint": "定语从句中必须有关系代词或关系副词引导。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "eng-m-attributive-clause-q-009",
+    "node_id": "eng-m-attributive-clause",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请用定语从句改写句子：I visited a city. It is famous for its beautiful parks.",
+    "answer": "I visited a city which is famous for its beautiful parks.",
+    "steps": [
+      "1. 确定先行词是 'a city'，指物。",
+      "2. 将第二个句子改为定语从句，缺少主语。",
+      "3. 用关系代词 'which' 或 'that' 引导定语从句。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用 'who'",
+        "hint": "'who' 只能指人，不能指物。"
+      },
+      {
+        "error": "缺少关系代词",
+        "hint": "定语从句中必须有关系代词或关系副词引导。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

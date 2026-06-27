@@ -1,0 +1,189 @@
+[
+  {
+    "id": "phy-m-voltage-q-001",
+    "node_id": "phy-m-voltage",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列关于电压的说法中，正确的是（  ）",
+    "options": [
+      "A. 电压是形成电流的原因",
+      "B. 电压是自由电荷定向移动形成的",
+      "C. 电压的单位是安培",
+      "D. 电压是导体对电流的阻碍作用"
+    ],
+    "answer": "A. 电压是形成电流的原因",
+    "steps": [
+      "电压是使自由电荷定向移动形成电流的原因",
+      "电流是电荷的定向移动形成的",
+      "电压的单位是伏特，不是安培",
+      "电阻是导体对电流的阻碍作用"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为电压是电流形成的",
+        "hint": "明确电压是电流形成的原因，而不是电流本身"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-voltage-q-002",
+    "node_id": "phy-m-voltage",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "一节干电池的电压是_____伏特，家庭电路的电压是_____伏特。",
+    "answer": "1.5, 220",
+    "steps": [
+      "一节干电池的电压是1.5伏特",
+      "家庭电路的电压是220伏特"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为家庭电路的电压是110伏特",
+        "hint": "中国家庭电路电压是220伏特，不是110伏特"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-voltage-q-003",
+    "node_id": "phy-m-voltage",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "将电压表正确接入电路中，电压表的指针偏转角度与（  ）有关。",
+    "options": [
+      "A. 电压表的量程",
+      "B. 电源电压",
+      "C. 接入电路的电阻",
+      "D. 接入电路的电流"
+    ],
+    "answer": "B. 电源电压",
+    "steps": [
+      "电压表的指针偏转角度与被测电压的大小有关",
+      "被测电压的大小由电源电压决定",
+      "电压表的量程只是测量范围，不影响偏转角度",
+      "接入电路的电阻和电流不直接影响电压表的偏转角度"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为电压表的量程影响偏转角度",
+        "hint": "电压表的量程只是测量范围，不影响指针偏转角度"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-voltage-q-004",
+    "node_id": "phy-m-voltage",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "在测量小灯泡两端电压的实验中，电压表应如何连接？请简要说明。",
+    "answer": "电压表应与被测小灯泡并联，电流从电压表的正接线柱流入，从负接线柱流出。",
+    "steps": [
+      "电压表应与被测小灯泡并联",
+      "电流从电压表的正接线柱流入，从负接线柱流出",
+      "确保电压表的量程选择合适"
+    ],
+    "common_errors": [
+      {
+        "error": "误将电压表与被测小灯泡串联",
+        "hint": "电压表应并联在被测电路两端"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-voltage-q-005",
+    "node_id": "phy-m-voltage",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列电路中，电压表测量的是（  ）两端的电压。",
+    "options": [
+      "A. 电源",
+      "B. 电阻R1",
+      "C. 电阻R2",
+      "D. 电源和电阻R1"
+    ],
+    "answer": "B. 电阻R1",
+    "steps": [
+      "电压表与电阻R1并联",
+      "电压表测量的是与其并联部分的电压",
+      "电源和电阻R2的电压未被测量"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为电压表测量的是电源电压",
+        "hint": "电压表与电阻R1并联，测量的是电阻R1两端的电压"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-voltage-q-006",
+    "node_id": "phy-m-voltage",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "如何用电压表测量串联电路中某个电阻两端的电压？请简要说明。",
+    "answer": "将电压表与该电阻并联，电流从电压表的正接线柱流入，从负接线柱流出。",
+    "steps": [
+      "将电压表与被测电阻并联",
+      "确保电压表的正负接线柱连接正确",
+      "读取电压表的示数"
+    ],
+    "common_errors": [
+      {
+        "error": "误将电压表与电阻串联",
+        "hint": "电压表应并联在被测电阻两端"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-voltage-q-007",
+    "node_id": "phy-m-voltage",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "在电压为12伏特的电路中，若通过某电阻的电流为2安培，则该电阻两端的电压为_____伏特。",
+    "answer": "12",
+    "steps": [
+      "根据欧姆定律，电阻两端的电压等于电流乘以电阻",
+      "在串联电路中，电阻两端的电压等于电源电压",
+      "因此，该电阻两端的电压为12伏特"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为电阻两端的电压为24伏特",
+        "hint": "在串联电路中，电阻两端的电压等于电源电压"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "phy-m-voltage-q-008",
+    "node_id": "phy-m-voltage",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "在并联电路中，各支路两端的电压有什么关系？请说明理由。",
+    "answer": "在并联电路中，各支路两端的电压相等。因为并联电路中各支路共用电源，电压相同。",
+    "steps": [
+      "并联电路中各支路共用电源",
+      "电压是电源提供的",
+      "因此，各支路两端的电压相等"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为各支路两端的电压不相等",
+        "hint": "在并联电路中，各支路两端的电压相等"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

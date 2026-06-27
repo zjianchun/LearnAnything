@@ -1,0 +1,210 @@
+[
+  {
+    "id": "eng-m-basic-writing-q-001",
+    "node_id": "eng-m-basic-writing",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列哪一项是写电子邮件时正确的开头？",
+    "options": [
+      "A) Dear Sir/Madam,",
+      "B) Hi there,",
+      "C) Hello friend,",
+      "D) Hey!"
+    ],
+    "answer": "A) Dear Sir/Madam,",
+    "steps": [
+      "1. 分析题目要求：选择正确的电子邮件开头。",
+      "2. 考虑电子邮件的正式和非正式格式。",
+      "3. 正式电子邮件通常使用 'Dear Sir/Madam,' 作为开头。"
+    ],
+    "common_errors": [
+      {
+        "error": "选择非正式的开头",
+        "hint": "在正式邮件中，避免使用 'Hi there,' 或 'Hey!' 这样的非正式开头。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-basic-writing-q-002",
+    "node_id": "eng-m-basic-writing",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "请填写正确的句子：I am writing to __________ (询问) about the summer camp.",
+    "answer": "inquire",
+    "steps": [
+      "1. 分析句子结构：需要填写一个动词。",
+      "2. 理解句意：写信的目的是询问关于夏令营的信息。",
+      "3. 选择合适的动词：'inquire' 意为 '询问'，符合句意。"
+    ],
+    "common_errors": [
+      {
+        "error": "使用 'ask' 代替 'inquire'",
+        "hint": "'ask' 是口语化的表达，在正式书信中应使用 'inquire'。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-basic-writing-q-003",
+    "node_id": "eng-m-basic-writing",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "在书信结尾，哪一项是正确的表达？",
+    "options": [
+      "A) Yours truly,",
+      "B) See you later,",
+      "C) Best wishes,",
+      "D) All of the above"
+    ],
+    "answer": "C) Best wishes,",
+    "steps": [
+      "1. 分析题目要求：选择正确的书信结尾表达。",
+      "2. 考虑书信的正式和非正式结尾。",
+      "3. 'Best wishes,' 是常见的正式书信结尾。"
+    ],
+    "common_errors": [
+      {
+        "error": "选择过于非正式的结尾",
+        "hint": "在正式书信中，避免使用 'See you later,' 这样的非正式表达。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-basic-writing-q-004",
+    "node_id": "eng-m-basic-writing",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请写一封简短的电子邮件，询问关于学校开放日的信息。",
+    "answer": "Subject: Inquiry about School Open Day\n\nDear Sir/Madam,\n\nI hope this message finds you well. I am writing to inquire about the upcoming School Open Day. Could you please provide me with the date, time, and any other relevant details?\n\nThank you for your assistance.\n\nBest regards,\n[Your Name]",
+    "steps": [
+      "1. 确定邮件的主题：询问学校开放日的信息。",
+      "2. 邮件开头使用正式的称呼，如 'Dear Sir/Madam,'。",
+      "3. 邮件正文说明写信的目的：询问开放日的日期、时间和相关信息。",
+      "4. 邮件结尾使用礼貌的表达，如 'Thank you for your assistance.' 和 'Best regards,'。"
+    ],
+    "common_errors": [
+      {
+        "error": "使用非正式的称呼或结尾",
+        "hint": "在正式邮件中，避免使用 'Hi' 或 'See you' 这样的非正式表达。"
+      },
+      {
+        "error": "邮件内容过于简单或冗长",
+        "hint": "邮件应简明扼要，直接表达询问的内容。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-basic-writing-q-005",
+    "node_id": "eng-m-basic-writing",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请写一封感谢信，感谢朋友在你生病期间的照顾。",
+    "answer": "Dear [Friend's Name],\n\nI hope this letter finds you well. I am writing to express my heartfelt thanks for the care and support you provided while I was ill. Your kindness and generosity meant a lot to me during that difficult time.\n\nThank you once again for everything.\n\nYours sincerely,\n[Your Name]",
+    "steps": [
+      "1. 确定信件的主题：感谢朋友的照顾。",
+      "2. 信件开头使用正式的称呼，如 'Dear [Friend's Name],'。",
+      "3. 信件正文表达感谢之情，说明朋友的具体帮助和你的感受。",
+      "4. 信件结尾使用礼貌的表达，如 'Thank you once again for everything.' 和 'Yours sincerely,'。"
+    ],
+    "common_errors": [
+      {
+        "error": "信件内容过于简短或缺乏感情",
+        "hint": "感谢信应表达出真诚的感激之情，详细描述朋友的帮助。"
+      },
+      {
+        "error": "使用不恰当的结尾",
+        "hint": "在正式感谢信中，避免使用 'See you' 这样的非正式表达。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-basic-writing-q-006",
+    "node_id": "eng-m-basic-writing",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请写一封申请信，申请参加一个英语夏令营。",
+    "answer": "Dear Sir/Madam,\n\nI am writing to apply for the English Summer Camp. I am a student at [Your School] and I am very interested in improving my English skills. I believe that this camp will provide me with a great opportunity to enhance my language abilities and cultural understanding.\n\nCould you please provide me with the application details, including the deadline and any required documents?\n\nThank you for your consideration.\n\nYours sincerely,\n[Your Name]",
+    "steps": [
+      "1. 确定信件的主题：申请参加英语夏令营。",
+      "2. 信件开头使用正式的称呼，如 'Dear Sir/Madam,'。",
+      "3. 信件正文说明申请的目的，表达对夏令营的兴趣和期望。",
+      "4. 询问申请的具体细节，如截止日期和所需文件。",
+      "5. 信件结尾使用礼貌的表达，如 'Thank you for your consideration.' 和 'Yours sincerely,'。"
+    ],
+    "common_errors": [
+      {
+        "error": "信件内容缺乏具体细节",
+        "hint": "申请信应详细说明申请的目的和期望，并询问必要的申请信息。"
+      },
+      {
+        "error": "使用不恰当的结尾",
+        "hint": "在正式申请信中，避免使用 'See you' 这样的非正式表达。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-basic-writing-q-007",
+    "node_id": "eng-m-basic-writing",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请根据以下提示写一篇短文：介绍你的家乡武汉，包括地理位置、主要景点和特色美食。",
+    "answer": "Wuhan, the capital city of Hubei Province, is located in central China. It is known as the 'Nine Provinces' because of its strategic location and historical significance. Wuhan is famous for its beautiful scenery, such as the iconic Yellow Crane Tower and the picturesque East Lake. The city is also a hub of culture and history, with numerous museums and historical sites.\n\nWhen it comes to food, Wuhan is renowned for its delicious local cuisine. The most famous dish is the Wuhan hot dry noodles, which is a must-try for anyone visiting the city. Other popular dishes include duck neck and dumplings. Wuhan's food scene is a delightful blend of traditional and modern flavors, making it a paradise for food lovers.\n\nIn conclusion, Wuhan is a vibrant city that offers a rich blend of history, culture, and cuisine. It is a place where tradition meets modernity, and there is always something new to discover.",
+    "steps": [
+      "1. 确定短文的主题：介绍武汉。",
+      "2. 短文开头介绍武汉的地理位置和历史背景。",
+      "3. 描述武汉的主要景点，如黄鹤楼和东湖。",
+      "4. 介绍武汉的特色美食，如热干面、鸭脖和饺子。",
+      "5. 结尾总结武汉的特点，强调其历史、文化和美食的融合。"
+    ],
+    "common_errors": [
+      {
+        "error": "短文内容缺乏条理",
+        "hint": "在介绍城市时，应按照一定的逻辑顺序，如地理位置、主要景点、特色美食等。"
+      },
+      {
+        "error": "语法和拼写错误",
+        "hint": "注意语法和拼写，确保短文的准确性。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-basic-writing-q-008",
+    "node_id": "eng-m-basic-writing",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请写一篇关于环境保护的短文，呼吁大家保护环境。",
+    "answer": "Environmental protection is a critical issue that affects us all. With the rapid development of industry and technology, our planet is facing numerous environmental challenges, such as pollution, deforestation, and climate change. These problems not only threaten the natural world but also have a direct impact on our health and well-being.\n\nTo protect our environment, we need to take immediate action. Simple actions, such as reducing waste, recycling, and conserving energy, can make a big difference. We should also support environmental policies and initiatives that aim to reduce carbon emissions and promote sustainable development.\n\nIn conclusion, protecting the environment is a shared responsibility. Each of us has a role to play in preserving the planet for future generations. Let us work together to create a cleaner, healthier, and more sustainable world.",
+    "steps": [
+      "1. 确定短文的主题：环境保护。",
+      "2. 短文开头介绍环境问题的严重性和影响。",
+      "3. 描述当前面临的主要环境问题，如污染、森林砍伐和气候变化。",
+      "4. 提出保护环境的建议，如减少浪费、回收利用和节约能源。",
+      "5. 结尾呼吁大家共同努力，保护环境。"
+    ],
+    "common_errors": [
+      {
+        "error": "短文内容缺乏深度",
+        "hint": "在讨论环境问题时，应提供具体的例子和数据，以增强说服力。"
+      },
+      {
+        "error": "语法和拼写错误",
+        "hint": "注意语法和拼写，确保短文的准确性。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

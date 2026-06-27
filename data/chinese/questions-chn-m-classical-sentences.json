@@ -1,0 +1,198 @@
+[
+  {
+    "id": "chn-m-classical-sentences-q-001",
+    "node_id": "chn-m-classical-sentences",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列句子中，属于判断句的一项是：",
+    "options": [
+      "A. 臣诚知不如徐公美。",
+      "B. 陈胜者，阳城人也。",
+      "C. 吾妻之美我者，私我也。",
+      "D. 城北徐公，齐国之美丽者也。"
+    ],
+    "answer": "D. 城北徐公，齐国之美丽者也。",
+    "steps": [
+      "判断句是文言文中用来判断主语所表示的人或事物是什么或不是什么、属于什么或不属于什么的句子。",
+      "选项A是陈述句，选项B是判断句，选项C是判断句，选项D是判断句。",
+      "选项D中的“……者，……也”是典型的判断句标志。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将陈述句当作判断句",
+        "hint": "注意判断句的标志词，如“者”、“也”等。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-classical-sentences-q-002",
+    "node_id": "chn-m-classical-sentences",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "将“何陋之有”翻译成现代汉语，并指出其句式类型。",
+    "answer": "有什么简陋的呢？（倒装句中的宾语前置）",
+    "steps": [
+      "“何陋之有”是一个倒装句，正常语序为“有何陋”。",
+      "“之”是宾语前置的标志。",
+      "翻译时需将宾语前置部分调整回正常语序。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将“之”当作代词",
+        "hint": "注意“之”在宾语前置句中作为标志词，无实际意义。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-classical-sentences-q-003",
+    "node_id": "chn-m-classical-sentences",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列句子中，属于被动句的一项是：",
+    "options": [
+      "A. 帝感其诚。",
+      "B. 傅说举于版筑之间。",
+      "C. 战于长勺。",
+      "D. 生于忧患，死于安乐。"
+    ],
+    "answer": "B. 傅说举于版筑之间。",
+    "steps": [
+      "被动句是表示主语与谓语之间的关系是被动关系的句子。",
+      "选项A是主动句，选项B是被动句，选项C是介词结构后置，选项D是并列结构。",
+      "选项B中的“举于……”表示“被……举荐”。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将介词结构后置当作被动句",
+        "hint": "注意被动句中主语与谓语之间的关系是被动的。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-classical-sentences-q-004",
+    "node_id": "chn-m-classical-sentences",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请解释“见犯乃死，重负国”中“见”字的用法，并翻译句子。",
+    "answer": "“见”字在此表示被动，意思是“被”。整句翻译为：被侵犯才死，更对不起国家。",
+    "steps": [
+      "“见”字在文言文中常表示被动。",
+      "“见犯”表示“被侵犯”。",
+      "“乃”表示“才”。",
+      "“重”表示“更”。",
+      "“负”表示“对不起”。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将“见”当作动词",
+        "hint": "注意“见”在文言文中常表示被动。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-classical-sentences-q-005",
+    "node_id": "chn-m-classical-sentences",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列句子中，属于状语后置句的一项是：",
+    "options": [
+      "A. 战于长勺。",
+      "B. 吾长见笑于大方之家。",
+      "C. 甚矣，汝之不惠。",
+      "D. 苛政猛于虎也。"
+    ],
+    "answer": "A. 战于长勺。",
+    "steps": [
+      "状语后置句是指介词结构作状语时后置的句子。",
+      "选项A是状语后置句，选项B是被动句，选项C是主谓倒装，选项D是介词结构后置。",
+      "选项A中“于长勺”作状语后置。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将介词结构后置当作状语后置",
+        "hint": "注意状语后置句中，介词结构作状语时后置。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-classical-sentences-q-006",
+    "node_id": "chn-m-classical-sentences",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析“何以战”中“何以”的用法，并翻译句子。",
+    "answer": "“何以”是“以何”的倒装，表示“凭借什么”。整句翻译为：凭借什么作战？",
+    "steps": [
+      "“何以”是“以何”的倒装。",
+      "“以”表示“凭借”。",
+      "“何”表示“什么”。",
+      "翻译时需将“以何”调整为“何以”。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将“何以”当作固定搭配",
+        "hint": "注意“何以”是“以何”的倒装。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-classical-sentences-q-007",
+    "node_id": "chn-m-classical-sentences",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析“求人可使报秦者”中“者”的用法，并翻译句子。",
+    "answer": "“者”是定语后置的标志，表示“……的人”。整句翻译为：寻找可以出使回报秦国的使者。",
+    "steps": [
+      "“者”在文言文中常作定语后置的标志。",
+      "“可使报秦者”表示“可以出使回报秦国的”。",
+      "“人”表示“……的人”。",
+      "翻译时需将定语后置部分调整回正常语序。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将“者”当作代词",
+        "hint": "注意“者”在定语后置句中作为标志词，无实际意义。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-classical-sentences-q-008",
+    "node_id": "chn-m-classical-sentences",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "下列句子中，属于定语后置句的一项是：",
+    "options": [
+      "A. 马之千里者，一食或尽粟一石。",
+      "B. 蚓无爪牙之利，筋骨之强。",
+      "C. 居庙堂之高，则忧其民。",
+      "D. 村中少年好事者，驯养一虫。"
+    ],
+    "answer": "B. 蚓无爪牙之利，筋骨之强。",
+    "steps": [
+      "定语后置句是指定语后置的句子。",
+      "选项A是主谓倒装，选项B是定语后置句，选项C是主谓倒装，选项D是定语后置句。",
+      "选项B中“爪牙之利，筋骨之强”是定语后置。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将主谓倒装当作定语后置",
+        "hint": "注意定语后置句中，定语后置部分通常带有“之”字。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

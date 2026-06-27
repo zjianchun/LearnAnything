@@ -1,0 +1,233 @@
+[
+  {
+    "id": "chem-m-activity-series-q-001",
+    "node_id": "chem-m-activity-series",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "根据金属活动性顺序，下列金属中活动性最强的是：",
+    "options": [
+      "A. 钾(K)",
+      "B. 钠(Na)",
+      "C. 镁(Mg)",
+      "D. 铝(Al)"
+    ],
+    "answer": "A. 钾(K)",
+    "steps": [
+      "金属活动性顺序为：钾(K) > 钠(Na) > 镁(Mg) > 铝(Al) > 锌(Zn) > 铁(Fe) > 铜(Cu) > 银(Ag) > 金(Au)",
+      "根据顺序，钾(K)位于最前面，因此活动性最强"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为钠(Na)活动性最强",
+        "hint": "注意金属活动性顺序中钾(K)位于钠(Na)之前"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chem-m-activity-series-q-002",
+    "node_id": "chem-m-activity-series",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "在金属活动性顺序中，_____位于铜(Cu)和锌(Zn)之间。",
+    "answer": "铁(Fe)",
+    "steps": [
+      "金属活动性顺序为：钾(K) > 钠(Na) > 镁(Mg) > 铝(Al) > 锌(Zn) > 铁(Fe) > 铜(Cu) > 银(Ag) > 金(Au)",
+      "铜(Cu)和锌(Zn)之间是铁(Fe)"
+    ],
+    "common_errors": [
+      {
+        "error": "误填为铝(Al)或银(Ag)",
+        "hint": "仔细查看顺序中铜(Cu)和锌(Zn)之间的位置"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-activity-series-q-003",
+    "node_id": "chem-m-activity-series",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列金属中，不能与稀盐酸反应的是：",
+    "options": [
+      "A. 铁(Fe)",
+      "B. 铜(Cu)",
+      "C. 镁(Mg)",
+      "D. 铝(Al)"
+    ],
+    "answer": "B. 铜(Cu)",
+    "steps": [
+      "金属活动性顺序中，铜(Cu)位于氢(H)之后，因此不能与稀盐酸反应",
+      "其他金属均位于氢(H)之前，可以与稀盐酸反应"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为铁(Fe)不能与稀盐酸反应",
+        "hint": "铁(Fe)位于氢(H)之前，可以与稀盐酸反应"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-activity-series-q-004",
+    "node_id": "chem-m-activity-series",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "解释为什么金(Au)不与稀盐酸反应。",
+    "answer": "金(Au)位于金属活动性顺序的末尾，活性非常低，低于氢(H)，因此不能与稀盐酸反应。",
+    "steps": [
+      "金属活动性顺序中，金(Au)位于最末尾",
+      "金(Au)的活性低于氢(H)",
+      "因此金(Au)不能与稀盐酸反应"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为金(Au)可以与稀盐酸反应",
+        "hint": "金(Au)的活性非常低，低于氢(H)"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-activity-series-q-005",
+    "node_id": "chem-m-activity-series",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "将锌片插入硫酸铜溶液中，反应现象是：",
+    "options": [
+      "A. 锌片表面出现红色物质",
+      "B. 锌片表面出现蓝色物质",
+      "C. 溶液变成无色",
+      "D. 无明显现象"
+    ],
+    "answer": "A. 锌片表面出现红色物质",
+    "steps": [
+      "锌(Zn)与硫酸铜(CuSO4)反应生成硫酸锌(ZnSO4)和铜(Cu)",
+      "铜(Cu)为红色固体，因此锌片表面出现红色物质"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为溶液变成无色",
+        "hint": "反应后溶液仍然含有硫酸锌(ZnSO4)，不会变成无色"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-activity-series-q-006",
+    "node_id": "chem-m-activity-series",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请写出镁(Mg)与稀盐酸(HCl)反应的化学方程式，并解释反应现象。",
+    "answer": "化学方程式：Mg + 2HCl = MgCl2 + H2↑。反应现象：镁片逐渐溶解，产生无色气体。",
+    "steps": [
+      "镁(Mg)与盐酸(HCl)反应生成氯化镁(MgCl2)和氢气(H2)",
+      "反应过程中，镁片逐渐溶解，产生无色气体氢气(H2)"
+    ],
+    "common_errors": [
+      {
+        "error": "化学方程式书写错误",
+        "hint": "注意反应物和生成物的化学式及配平"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-activity-series-q-007",
+    "node_id": "chem-m-activity-series",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "将铁片放入_____溶液中，铁片表面会出现红色物质。",
+    "answer": "硫酸铜(CuSO4)",
+    "steps": [
+      "铁(Fe)与硫酸铜(CuSO4)反应生成硫酸亚铁(FeSO4)和铜(Cu)",
+      "铜(Cu)为红色固体，因此铁片表面会出现红色物质"
+    ],
+    "common_errors": [
+      {
+        "error": "误填为氯化钠(NaCl)",
+        "hint": "氯化钠(NaCl)与铁(Fe)不发生反应"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-activity-series-q-008",
+    "node_id": "chem-m-activity-series",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "下列金属中，与水反应最剧烈的是：",
+    "options": [
+      "A. 钾(K)",
+      "B. 钠(Na)",
+      "C. 镁(Mg)",
+      "D. 铝(Al)"
+    ],
+    "answer": "A. 钾(K)",
+    "steps": [
+      "金属活动性顺序中，钾(K)位于最前面，活性最强",
+      "钾(K)与水反应最剧烈，生成氢氧化钾(KOH)和氢气(H2)"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为钠(Na)与水反应最剧烈",
+        "hint": "钾(K)的活性比钠(Na)更强"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "chem-m-activity-series-q-009",
+    "node_id": "chem-m-activity-series",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释为什么铝(Al)与稀盐酸反应比镁(Mg)与稀盐酸反应慢。",
+    "answer": "金属活动性顺序中，镁(Mg)的活性比铝(Al)强，因此镁(Mg)与稀盐酸反应更快。",
+    "steps": [
+      "金属活动性顺序中，镁(Mg)位于铝(Al)之前，活性更强",
+      "活性更强的金属与稀盐酸反应更快"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为铝(Al)与稀盐酸反应比镁(Mg)快",
+        "hint": "注意金属活动性顺序中镁(Mg)的活性比铝(Al)强"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "chem-m-activity-series-q-010",
+    "node_id": "chem-m-activity-series",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "将铜片放入硝酸银(AgNO3)溶液中，反应现象是：",
+    "options": [
+      "A. 铜片表面出现黑色物质",
+      "B. 铜片表面出现白色物质",
+      "C. 溶液变成蓝色",
+      "D. 无明显现象"
+    ],
+    "answer": "C. 溶液变成蓝色",
+    "steps": [
+      "铜(Cu)与硝酸银(AgNO3)反应生成硝酸铜(Cu(NO3)2)和银(Ag)",
+      "硝酸铜(Cu(NO3)2)溶液为蓝色，因此溶液变成蓝色"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为铜片表面出现黑色物质",
+        "hint": "生成的银(Ag)为白色固体，不会使铜片表面变黑"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

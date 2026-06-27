@@ -1,0 +1,242 @@
+[
+  {
+    "id": "hist-m-industrial-revolution-q-001",
+    "node_id": "hist-m-industrial-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "工业革命首先发生在哪个国家？",
+    "options": [
+      "A. 美国",
+      "B. 法国",
+      "C. 英国",
+      "D. 德国"
+    ],
+    "answer": "C. 英国",
+    "steps": [
+      "1. 回顾工业革命的历史背景和起源。",
+      "2. 工业革命于18世纪中期首先在英国兴起。",
+      "3. 英国具备工业革命发生的必要条件，如资本积累、技术革新和市场需求。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选其他国家",
+        "hint": "注意工业革命首先在英国发生，随后才传播到其他国家。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-industrial-revolution-q-002",
+    "node_id": "hist-m-industrial-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "工业革命中，_____发明了蒸汽机。",
+    "answer": "瓦特",
+    "steps": [
+      "1. 回忆工业革命中的重要发明和发明者。",
+      "2. 蒸汽机的改良是由詹姆斯·瓦特完成的。",
+      "3. 确认瓦特对工业革命的重要贡献。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误的名字",
+        "hint": "注意区分瓦特和其他发明家，如史蒂芬森（铁路发明者）。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-industrial-revolution-q-003",
+    "node_id": "hist-m-industrial-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "以下哪一项不是工业革命的影响？",
+    "options": [
+      "A. 城市化进程加快",
+      "B. 工人阶级生活条件改善",
+      "C. 生产效率大幅提高",
+      "D. 环境污染问题出现"
+    ],
+    "answer": "B. 工人阶级生活条件改善",
+    "steps": [
+      "1. 分析工业革命对社会、经济和环境的影响。",
+      "2. 工业革命导致城市化和生产效率提高。",
+      "3. 工业革命初期，工人阶级生活条件恶劣，而非改善。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选其他选项",
+        "hint": "注意工业革命带来的负面影响，如环境污染和工人生活条件恶化。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-industrial-revolution-q-004",
+    "node_id": "hist-m-industrial-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "工业革命中，哪一项发明对交通运输产生了重大影响？",
+    "options": [
+      "A. 蒸汽机",
+      "B. 纺织机",
+      "C. 发电机",
+      "D. 电话"
+    ],
+    "answer": "A. 蒸汽机",
+    "steps": [
+      "1. 回顾工业革命中的重要发明及其应用领域。",
+      "2. 蒸汽机被应用于火车和轮船，推动交通运输革命。",
+      "3. 其他选项主要应用于其他领域，如纺织、电力和通讯。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选其他选项",
+        "hint": "注意蒸汽机在交通运输中的关键作用，如蒸汽火车和蒸汽船。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-industrial-revolution-q-005",
+    "node_id": "hist-m-industrial-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述工业革命对城市化的影响。",
+    "answer": "工业革命推动了城市化进程，大量农村人口涌入城市寻找工作机会，导致城市规模迅速扩大，城市人口比例增加。同时，城市化也带来了住房紧张、环境污染和卫生条件差等问题。",
+    "steps": [
+      "1. 分析工业革命对农村和城市的影响。",
+      "2. 描述人口流动和城市规模的变化。",
+      "3. 总结城市化带来的社会问题。"
+    ],
+    "common_errors": [
+      {
+        "error": "描述不完整",
+        "hint": "注意从多个角度分析城市化影响，包括人口、经济和社会方面。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-industrial-revolution-q-006",
+    "node_id": "hist-m-industrial-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "工业革命中，以下哪一项发明标志着纺织业的重大进步？",
+    "options": [
+      "A. 蒸汽机",
+      "B. 珍妮纺纱机",
+      "C. 发电机",
+      "D. 电灯"
+    ],
+    "answer": "B. 珍妮纺纱机",
+    "steps": [
+      "1. 回顾工业革命中纺织业的重要发明。",
+      "2. 珍妮纺纱机的发明极大地提高了纺织生产的效率。",
+      "3. 其他选项主要应用于其他领域，如蒸汽动力、电力和照明。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选其他选项",
+        "hint": "注意珍妮纺纱机在纺织业中的革命性作用。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-industrial-revolution-q-007",
+    "node_id": "hist-m-industrial-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "工业革命对环境造成了哪些影响？",
+    "answer": "工业革命带来了严重的环境污染问题，包括空气污染、水污染和土壤污染。大量工厂的建立和煤炭的广泛使用导致大量废气、废水和废渣排放，破坏了生态环境。",
+    "steps": [
+      "1. 分析工业革命对环境的影响因素。",
+      "2. 描述污染的类型和来源。",
+      "3. 总结环境污染的长期后果。"
+    ],
+    "common_errors": [
+      {
+        "error": "描述不全面",
+        "hint": "注意从空气、水和土壤等多个方面分析环境污染。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-industrial-revolution-q-008",
+    "node_id": "hist-m-industrial-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "工业革命对工人阶级的影响，以下哪一项是正确的？",
+    "options": [
+      "A. 生活条件大幅改善",
+      "B. 工作时间延长",
+      "C. 工资水平提高",
+      "D. 工会组织迅速发展"
+    ],
+    "answer": "B. 工作时间延长",
+    "steps": [
+      "1. 分析工业革命对工人阶级的影响。",
+      "2. 工业革命初期，工人阶级面临长时间工作、低工资和恶劣的工作环境。",
+      "3. 工人阶级的生活条件并未大幅改善，直到后来工人运动兴起才有所改变。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选其他选项",
+        "hint": "注意工业革命初期工人阶级的困境，而非改善。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-industrial-revolution-q-009",
+    "node_id": "hist-m-industrial-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "工业革命对世界经济格局产生了哪些影响？",
+    "answer": "工业革命使英国成为世界经济中心，确立了其在全球的霸主地位。同时，欧洲其他国家也相继进入工业化进程，形成了以欧洲为中心的全球经济格局。此外，工业革命促进了国际贸易和殖民扩张，加剧了全球经济的区域不平衡。",
+    "steps": [
+      "1. 分析工业革命对英国和欧洲的影响。",
+      "2. 描述全球经济和贸易格局的变化。",
+      "3. 总结工业革命对世界经济的影响。"
+    ],
+    "common_errors": [
+      {
+        "error": "分析不深入",
+        "hint": "注意从多个角度分析工业革命对世界经济的影响，包括区域不平衡和殖民扩张。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "hist-m-industrial-revolution-q-010",
+    "node_id": "hist-m-industrial-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "工业革命对社会的阶级结构产生了哪些影响？",
+    "answer": "工业革命导致了社会阶级结构的变化，形成了资产阶级和无产阶级两大对立阶级。资产阶级通过占有生产资料和资本积累，获得了巨大的财富和权力，而无产阶级则面临长时间工作、低工资和恶劣的工作环境。工业革命也促进了工人运动和工会组织的兴起，推动了社会变革。",
+    "steps": [
+      "1. 分析工业革命对阶级结构的影响。",
+      "2. 描述资产阶级和无产阶级的形成。",
+      "3. 总结工人运动和工会组织的作用。"
+    ],
+    "common_errors": [
+      {
+        "error": "描述不准确",
+        "hint": "注意工业革命对不同阶级的影响，以及工人运动的重要性。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

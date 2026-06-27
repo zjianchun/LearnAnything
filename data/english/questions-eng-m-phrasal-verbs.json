@@ -1,0 +1,222 @@
+[
+  {
+    "id": "eng-m-phrasal-verbs-q-001",
+    "node_id": "eng-m-phrasal-verbs",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "Please ______ your shoes before entering the house.",
+    "options": [
+      "A. take off",
+      "B. put on",
+      "C. get off",
+      "D. turn on"
+    ],
+    "answer": "A. take off",
+    "steps": [
+      "1. 理解句意：进入房子之前请脱掉你的鞋子。",
+      "2. 分析选项：'take off' 意为脱掉；'put on' 意为穿上；'get off' 意为下车；'turn on' 意为打开。",
+      "3. 根据句意选择正确的动词短语：脱掉鞋子。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选 'put on'",
+        "hint": "注意句意是脱掉鞋子而不是穿上鞋子。"
+      },
+      {
+        "error": "误选 'get off'",
+        "hint": "'get off' 通常用于下车，而不是脱掉鞋子。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-phrasal-verbs-q-002",
+    "node_id": "eng-m-phrasal-verbs",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "I can't ______ the meaning of this word. Can you help me?",
+    "options": [
+      "A. look up",
+      "B. find out",
+      "C. give up",
+      "D. put up"
+    ],
+    "answer": "B. find out",
+    "steps": [
+      "1. 理解句意：我不懂这个单词的意思。你能帮我吗？",
+      "2. 分析选项：'look up' 意为查找；'find out' 意为找出，发现；'give up' 意为放弃；'put up' 意为张贴。",
+      "3. 根据句意选择正确的动词短语：找出单词的意思。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选 'look up'",
+        "hint": "'look up' 通常用于查找信息，而不是理解意思。"
+      },
+      {
+        "error": "误选 'give up'",
+        "hint": "'give up' 意为放弃，与句意不符。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-phrasal-verbs-q-003",
+    "node_id": "eng-m-phrasal-verbs",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "The teacher asked us to ______ our homework before class.",
+    "answer": "hand in",
+    "steps": [
+      "1. 理解句意：老师要求我们在上课前上交作业。",
+      "2. 分析句意，选择合适的动词短语：上交作业。",
+      "3. 填写正确答案：'hand in'。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写 'give in'",
+        "hint": "'give in' 意为屈服，与句意不符。"
+      },
+      {
+        "error": "填写 'take in'",
+        "hint": "'take in' 意为吸收，理解，与句意不符。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-phrasal-verbs-q-004",
+    "node_id": "eng-m-phrasal-verbs",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "I need to ______ some time to finish my project.",
+    "answer": "set aside",
+    "steps": [
+      "1. 理解句意：我需要留出一些时间来完成我的项目。",
+      "2. 分析句意，选择合适的动词短语：留出时间。",
+      "3. 填写正确答案：'set aside'。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写 'put aside'",
+        "hint": "'put aside' 意为搁置，与句意不符。"
+      },
+      {
+        "error": "填写 'take aside'",
+        "hint": "'take aside' 意为把某人带到一边，与句意不符。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-phrasal-verbs-q-005",
+    "node_id": "eng-m-phrasal-verbs",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "The meeting was cancelled, so we had to ______ our plans.",
+    "options": [
+      "A. call off",
+      "B. take off",
+      "C. put off",
+      "D. give off"
+    ],
+    "answer": "C. put off",
+    "steps": [
+      "1. 理解句意：会议被取消了，所以我们不得不推迟我们的计划。",
+      "2. 分析选项：'call off' 意为取消；'take off' 意为起飞，脱掉；'put off' 意为推迟；'give off' 意为发出（光、热等）。",
+      "3. 根据句意选择正确的动词短语：推迟计划。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选 'call off'",
+        "hint": "'call off' 意为取消，与句意不符。"
+      },
+      {
+        "error": "误选 'take off'",
+        "hint": "'take off' 意为起飞，脱掉，与句意不符。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-phrasal-verbs-q-006",
+    "node_id": "eng-m-phrasal-verbs",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "The teacher told us to ______ the new words in the dictionary.",
+    "options": [
+      "A. look up",
+      "B. give up",
+      "C. take up",
+      "D. put up"
+    ],
+    "answer": "A. look up",
+    "steps": [
+      "1. 理解句意：老师让我们在字典中查找新单词。",
+      "2. 分析选项：'look up' 意为查找；'give up' 意为放弃；'take up' 意为开始从事；'put up' 意为张贴。",
+      "3. 根据句意选择正确的动词短语：查找新单词。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选 'give up'",
+        "hint": "'give up' 意为放弃，与句意不符。"
+      },
+      {
+        "error": "误选 'take up'",
+        "hint": "'take up' 意为开始从事，与句意不符。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-phrasal-verbs-q-007",
+    "node_id": "eng-m-phrasal-verbs",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "Please explain the difference between 'look for' and 'find'.",
+    "answer": "The phrase 'look for' means to search for something, while 'find' means to discover or to discover something that was lost or hidden.",
+    "steps": [
+      "1. 理解问题：解释 'look for' 和 'find' 之间的区别。",
+      "2. 分析短语：'look for' 意为寻找；'find' 意为找到。",
+      "3. 组织语言：解释两个短语的不同含义。"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆两个短语的意思",
+        "hint": "注意 'look for' 强调的是寻找的过程，而 'find' 强调的是找到的结果。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-phrasal-verbs-q-008",
+    "node_id": "eng-m-phrasal-verbs",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "How can we use the phrasal verb 'get along with' in a sentence?",
+    "answer": "The sentence could be 'I get along well with my classmates.'",
+    "steps": [
+      "1. 理解问题：用 'get along with' 造句。",
+      "2. 分析短语：'get along with' 意为与...相处融洽。",
+      "3. 组织语言：使用该短语造句。"
+    ],
+    "common_errors": [
+      {
+        "error": "使用错误的主语或宾语",
+        "hint": "注意 'get along with' 的主语通常是人，宾语也是人。"
+      },
+      {
+        "error": "使用错误的时态",
+        "hint": "根据语境选择正确的时态。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

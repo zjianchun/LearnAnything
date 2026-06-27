@@ -1,0 +1,243 @@
+[
+  {
+    "id": "chem-m-metals-activity-q-001",
+    "node_id": "chem-m-metals-activity",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列金属中，活动性最强的是：",
+    "options": [
+      "A. 铁",
+      "B. 铜",
+      "C. 银",
+      "D. 钾"
+    ],
+    "answer": "D. 钾",
+    "steps": [
+      "1. 回忆金属活动性顺序：钾(K) > 钙(Ca) > 钠(Na) > 镁(Mg) > 铝(Al) > 锌(Zn) > 铁(Fe) > 锡(Sn) > 铅(Pb) > (H) > 铜(Cu) > 汞(Hg) > 银(Ag) > 铂(Pt) > 金(Au)",
+      "2. 对比选项中金属的活动性顺序",
+      "3. 确定钾的活动性最强"
+    ],
+    "common_errors": [
+      {
+        "error": "误将铁或铜认为是活动性最强的金属",
+        "hint": "复习金属活动性顺序表，牢记钾是最活泼的金属"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chem-m-metals-activity-q-002",
+    "node_id": "chem-m-metals-activity",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "在金属活动性顺序中，_____的金属能与盐酸反应生成氢气。",
+    "answer": "氢前",
+    "steps": [
+      "1. 回忆金属活动性顺序：钾(K) > 钙(Ca) > 钠(Na) > 镁(Mg) > 铝(Al) > 锌(Zn) > 铁(Fe) > 锡(Sn) > 铅(Pb) > (H) > 铜(Cu) > 汞(Hg) > 银(Ag) > 铂(Pt) > 金(Au)",
+      "2. 金属活动性顺序中，氢前的金属能与酸反应生成氢气",
+      "3. 得出结论：氢前的金属能与盐酸反应生成氢气"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为所有金属都能与盐酸反应生成氢气",
+        "hint": "注意只有氢前的金属才能与酸反应生成氢气"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-metals-activity-q-003",
+    "node_id": "chem-m-metals-activity",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列金属中，不能与硫酸铜溶液发生置换反应的是：",
+    "options": [
+      "A. 锌",
+      "B. 铁",
+      "C. 银",
+      "D. 铝"
+    ],
+    "answer": "C. 银",
+    "steps": [
+      "1. 回忆金属活动性顺序：钾(K) > 钙(Ca) > 钠(Na) > 镁(Mg) > 铝(Al) > 锌(Zn) > 铁(Fe) > 锡(Sn) > 铅(Pb) > (H) > 铜(Cu) > 汞(Hg) > 银(Ag) > 铂(Pt) > 金(Au)",
+      "2. 判断银的活动性是否弱于铜",
+      "3. 由于银的活动性弱于铜，不能置换出硫酸铜中的铜"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为银能与硫酸铜反应",
+        "hint": "记住银的活动性弱于铜，不能置换出硫酸铜中的铜"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-metals-activity-q-004",
+    "node_id": "chem-m-metals-activity",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "将锌片放入下列溶液中，反应最慢的是：",
+    "options": [
+      "A. 稀盐酸",
+      "B. 硫酸铜溶液",
+      "C. 硝酸银溶液",
+      "D. 硫酸亚铁溶液"
+    ],
+    "answer": "D. 硫酸亚铁溶液",
+    "steps": [
+      "1. 比较锌与各溶液的反应活性",
+      "2. 锌与稀盐酸反应生成氢气，反应较快",
+      "3. 锌与硫酸铜、硝酸银反应生成铜和银，反应较快",
+      "4. 锌与硫酸亚铁反应生成铁，反应较慢"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为锌与稀盐酸反应最慢",
+        "hint": "锌与稀盐酸反应生成氢气，反应较快"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-metals-activity-q-005",
+    "node_id": "chem-m-metals-activity",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请解释为什么铝制品在空气中不易生锈。",
+    "answer": "铝在空气中与氧气反应生成一层致密的氧化铝薄膜，这层薄膜可以防止内部的铝进一步被氧化，因此铝制品在空气中不易生锈。",
+    "steps": [
+      "1. 解释铝的化学性质：铝是一种活泼金属，易与氧气反应",
+      "2. 说明氧化铝的性质：氧化铝是一层致密的氧化物薄膜",
+      "3. 解释保护作用：这层薄膜可以防止内部的铝进一步被氧化"
+    ],
+    "common_errors": [
+      {
+        "error": "认为铝不会与氧气反应",
+        "hint": "铝是一种活泼金属，会与氧气反应生成氧化铝"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-metals-activity-q-006",
+    "node_id": "chem-m-metals-activity",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列金属中，不能与稀硫酸反应生成氢气的是：",
+    "options": [
+      "A. 镁",
+      "B. 铁",
+      "C. 铜",
+      "D. 锌"
+    ],
+    "answer": "C. 铜",
+    "steps": [
+      "1. 回忆金属活动性顺序：钾(K) > 钙(Ca) > 钠(Na) > 镁(Mg) > 铝(Al) > 锌(Zn) > 铁(Fe) > 锡(Sn) > 铅(Pb) > (H) > 铜(Cu) > 汞(Hg) > 银(Ag) > 铂(Pt) > 金(Au)",
+      "2. 判断铜的活动性是否弱于氢",
+      "3. 由于铜的活动性弱于氢，不能与稀硫酸反应生成氢气"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为铜能与稀硫酸反应",
+        "hint": "铜的活动性弱于氢，不能与稀硫酸反应生成氢气"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-metals-activity-q-007",
+    "node_id": "chem-m-metals-activity",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请解释为什么铁制品在潮湿环境中容易生锈。",
+    "answer": "铁在潮湿环境中与氧气和水反应生成氢氧化铁，氢氧化铁进一步氧化成氧化铁，即铁锈。因此，铁制品在潮湿环境中容易生锈。",
+    "steps": [
+      "1. 解释铁的化学性质：铁是一种活泼金属，易与氧气和水反应",
+      "2. 说明反应过程：铁与氧气和水反应生成氢氧化铁，氢氧化铁进一步氧化成氧化铁",
+      "3. 解释生锈现象：氧化铁即铁锈"
+    ],
+    "common_errors": [
+      {
+        "error": "认为铁不会与水反应",
+        "hint": "铁在潮湿环境中与氧气和水反应生成氢氧化铁"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-metals-activity-q-008",
+    "node_id": "chem-m-metals-activity",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "将锌片放入硝酸汞溶液中，反应的化学方程式为：_____。",
+    "answer": "Zn + Hg(NO3)2 = Zn(NO3)2 + Hg",
+    "steps": [
+      "1. 确定反应物：锌片和硝酸汞溶液",
+      "2. 确定生成物：硝酸锌和汞",
+      "3. 写出化学方程式：Zn + Hg(NO3)2 = Zn(NO3)2 + Hg"
+    ],
+    "common_errors": [
+      {
+        "error": "误将硝酸汞的化学式写错",
+        "hint": "硝酸汞的化学式为Hg(NO3)2"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "chem-m-metals-activity-q-009",
+    "node_id": "chem-m-metals-activity",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释为什么金属的活动性顺序可以用来判断金属之间的置换反应。",
+    "answer": "金属的活动性顺序反映了金属的化学活泼性。活泼性强的金属可以将活泼性弱的金属从其盐溶液中置换出来。因此，金属的活动性顺序可以用来判断金属之间的置换反应。",
+    "steps": [
+      "1. 解释金属活动性顺序的意义：反映了金属的化学活泼性",
+      "2. 说明置换反应的原理：活泼性强的金属可以将活泼性弱的金属从其盐溶液中置换出来",
+      "3. 得出结论：金属的活动性顺序可以用来判断金属之间的置换反应"
+    ],
+    "common_errors": [
+      {
+        "error": "认为金属活动性顺序只适用于酸碱反应",
+        "hint": "金属活动性顺序同样适用于判断金属之间的置换反应"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "chem-m-metals-activity-q-010",
+    "node_id": "chem-m-metals-activity",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "下列金属中，能与氢氧化钠溶液反应的是：",
+    "options": [
+      "A. 铁",
+      "B. 铝",
+      "C. 铜",
+      "D. 银"
+    ],
+    "answer": "B. 铝",
+    "steps": [
+      "1. 回忆金属与碱的反应：只有少数金属能与碱反应",
+      "2. 铝能与氢氧化钠溶液反应生成偏铝酸钠和氢气",
+      "3. 其他金属不能与氢氧化钠溶液反应"
+    ],
+    "common_errors": [
+      {
+        "error": "认为所有金属都能与碱反应",
+        "hint": "只有少数金属能与碱反应，如铝"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

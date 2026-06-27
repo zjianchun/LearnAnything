@@ -1,0 +1,248 @@
+[
+  {
+    "id": "eng-m-sentence-patterns-q-001",
+    "node_id": "eng-m-sentence-patterns",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "I like apples, ______ I don't like bananas.",
+    "options": [
+      "A. and",
+      "B. but",
+      "C. or",
+      "D. so"
+    ],
+    "answer": "B. but",
+    "steps": [
+      "1. 分析句子结构，识别这是一个复合句。",
+      "2. 前半句 'I like apples' 和后半句 'I don't like bananas' 是两个独立的简单句。",
+      "3. 两个句子之间存在转折关系，所以需要使用表示转折的连词。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选 'and'",
+        "hint": "'and' 表示并列关系，不符合句意。"
+      },
+      {
+        "error": "误选 'or'",
+        "hint": "'or' 表示选择关系，不符合句意。"
+      },
+      {
+        "error": "误选 'so'",
+        "hint": "'so' 表示因果关系，不符合句意。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-sentence-patterns-q-002",
+    "node_id": "eng-m-sentence-patterns",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "She is a teacher, ______ she is also a mother.",
+    "answer": "and",
+    "steps": [
+      "1. 分析句子结构，识别这是一个复合句。",
+      "2. 前半句 'She is a teacher' 和后半句 'she is also a mother' 是两个独立的简单句。",
+      "3. 两个句子之间存在并列关系，所以需要使用表示并列的连词。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填 'but'",
+        "hint": "'but' 表示转折关系，不符合句意。"
+      },
+      {
+        "error": "误填 'so'",
+        "hint": "'so' 表示因果关系，不符合句意。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-sentence-patterns-q-003",
+    "node_id": "eng-m-sentence-patterns",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "He didn't go to school because he ______ ill.",
+    "options": [
+      "A. is",
+      "B. was",
+      "C. were",
+      "D. be"
+    ],
+    "answer": "B. was",
+    "steps": [
+      "1. 分析句子结构，识别这是一个复合句。",
+      "2. 主句 'He didn't go to school' 和从句 'because he ______ ill' 之间存在因果关系。",
+      "3. 从句中缺少系动词，根据主句时态，从句应为过去时态。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选 'is'",
+        "hint": "主句为过去时态，从句也应为过去时态。"
+      },
+      {
+        "error": "误选 'were'",
+        "hint": "'were' 用于复数主语，不符合句意。"
+      },
+      {
+        "error": "误选 'be'",
+        "hint": "'be' 为原形动词，不符合从句的语法结构。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-sentence-patterns-q-004",
+    "node_id": "eng-m-sentence-patterns",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "The book is very interesting, ______ I can't put it down.",
+    "answer": "so",
+    "steps": [
+      "1. 分析句子结构，识别这是一个复合句。",
+      "2. 前半句 'The book is very interesting' 和后半句 'I can't put it down' 是两个独立的简单句。",
+      "3. 两个句子之间存在因果关系，所以需要使用表示因果的连词。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填 'and'",
+        "hint": "'and' 表示并列关系，不符合句意。"
+      },
+      {
+        "error": "误填 'but'",
+        "hint": "'but' 表示转折关系，不符合句意。"
+      },
+      {
+        "error": "误填 'because'",
+        "hint": "'because' 引导原因状语从句，不符合句意。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-sentence-patterns-q-005",
+    "node_id": "eng-m-sentence-patterns",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "Although he is young, ______ he can do many things.",
+    "options": [
+      "A. but",
+      "B. so",
+      "C. and",
+      "D. /"
+    ],
+    "answer": "D. /",
+    "steps": [
+      "1. 分析句子结构，识别这是一个复合句。",
+      "2. 主句 'he can do many things' 和让步状语从句 'Although he is young' 之间存在让步关系。",
+      "3. 在英语中，although 和 but 不能同时使用。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选 'but'",
+        "hint": "although 和 but 不能同时使用。"
+      },
+      {
+        "error": "误选 'so'",
+        "hint": "'so' 表示因果关系，不符合句意。"
+      },
+      {
+        "error": "误选 'and'",
+        "hint": "'and' 表示并列关系，不符合句意。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-sentence-patterns-q-006",
+    "node_id": "eng-m-sentence-patterns",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请用合适的连词连接两个句子：He is very tired. He can't go to sleep.",
+    "answer": "Although he is very tired, he can't go to sleep.",
+    "steps": [
+      "1. 分析两个句子的逻辑关系。",
+      "2. 'He is very tired' 和 'he can't go to sleep' 之间存在转折关系。",
+      "3. 使用 although 引导让步状语从句，并注意句子的语序。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用 'but'",
+        "hint": "although 和 but 不能同时使用。"
+      },
+      {
+        "error": "误用 'so'",
+        "hint": "'so' 表示因果关系，不符合句意。"
+      },
+      {
+        "error": "误用 'because'",
+        "hint": "'because' 引导原因状语从句，不符合句意。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-sentence-patterns-q-007",
+    "node_id": "eng-m-sentence-patterns",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请用合适的连词连接两个句子：She is a doctor. She is very kind.",
+    "answer": "She is a doctor and she is very kind.",
+    "steps": [
+      "1. 分析两个句子的逻辑关系。",
+      "2. 'She is a doctor' 和 'she is very kind' 之间存在并列关系。",
+      "3. 使用 and 连接两个并列的句子。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用 'but'",
+        "hint": "'but' 表示转折关系，不符合句意。"
+      },
+      {
+        "error": "误用 'so'",
+        "hint": "'so' 表示因果关系，不符合句意。"
+      },
+      {
+        "error": "误用 'because'",
+        "hint": "'because' 引导原因状语从句，不符合句意。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-sentence-patterns-q-008",
+    "node_id": "eng-m-sentence-patterns",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请用合适的连词连接两个句子：The boy is very clever. He can solve the problem quickly.",
+    "answer": "The boy is very clever, so he can solve the problem quickly.",
+    "steps": [
+      "1. 分析两个句子的逻辑关系。",
+      "2. 'The boy is very clever' 和 'he can solve the problem quickly' 之间存在因果关系。",
+      "3. 使用 so 连接两个句子，并注意标点符号的使用。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用 'and'",
+        "hint": "'and' 表示并列关系，不符合句意。"
+      },
+      {
+        "error": "误用 'but'",
+        "hint": "'but' 表示转折关系，不符合句意。"
+      },
+      {
+        "error": "误用 'because'",
+        "hint": "'because' 引导原因状语从句，不符合句意。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

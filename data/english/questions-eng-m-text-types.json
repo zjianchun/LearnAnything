@@ -1,0 +1,188 @@
+[
+  {
+    "id": "eng-m-text-types-q-001",
+    "node_id": "eng-m-text-types",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "以下哪一段文字属于记叙文？\nA. 介绍如何种植花草的步骤。\nB. 描述一次难忘的旅行经历。\nC. 讨论智能手机的优缺点。\nD. 解释为什么我们需要锻炼身体。",
+    "options": [
+      "A选项",
+      "B选项",
+      "C选项",
+      "D选项"
+    ],
+    "answer": "B选项",
+    "steps": [
+      "1. 识别每个选项的内容主题。",
+      "2. 判断哪个选项描述了具体的事件或经历。",
+      "3. 记叙文通常包含时间、地点、人物和事件。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将说明文或议论文当作记叙文。",
+        "hint": "注意记叙文的特点：时间、地点、人物和事件。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-text-types-q-002",
+    "node_id": "eng-m-text-types",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "请判断以下文字的类型：'水是生命之源，它在地球上扮演着重要的角色。'",
+    "answer": "说明文",
+    "steps": [
+      "1. 阅读文字内容。",
+      "2. 分析文字是否在解释或说明某个概念或事物。",
+      "3. 确认文字没有叙述事件或表达观点。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为是记叙文或议论文。",
+        "hint": "说明文通常解释或说明某个概念或事物，不涉及具体事件或个人观点。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-text-types-q-003",
+    "node_id": "eng-m-text-types",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下哪一段文字属于议论文？\nA. 描述一只小狗的成长过程。\nB. 讨论为什么学习英语很重要。\nC. 介绍如何制作蛋糕的步骤。\nD. 叙述一次学校旅行的经历。",
+    "options": [
+      "A选项",
+      "B选项",
+      "C选项",
+      "D选项"
+    ],
+    "answer": "B选项",
+    "steps": [
+      "1. 阅读每个选项的内容。",
+      "2. 寻找表达观点或论证的句子。",
+      "3. 议论文通常包含论点、论据和论证过程。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将说明文或记叙文当作议论文。",
+        "hint": "注意议论文的特点：表达观点并进行论证。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-text-types-q-004",
+    "node_id": "eng-m-text-types",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "请判断以下文字的类型：'我们应该多吃蔬菜和水果，因为它们富含维生素。'",
+    "answer": "议论文",
+    "steps": [
+      "1. 阅读文字内容。",
+      "2. 分析文字是否在表达观点或建议。",
+      "3. 确认文字包含理由或论证。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为是说明文或记叙文。",
+        "hint": "议论文通常包含观点和论证，不仅仅是解释或叙述。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-text-types-q-005",
+    "node_id": "eng-m-text-types",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下哪一段文字属于说明文？\nA. 描述一个神秘的古老传说。\nB. 解释为什么地球是圆的。\nC. 讨论是否应该减少作业量。\nD. 叙述一次难忘的生日派对。",
+    "options": [
+      "A选项",
+      "B选项",
+      "C选项",
+      "D选项"
+    ],
+    "answer": "B选项",
+    "steps": [
+      "1. 阅读每个选项的内容。",
+      "2. 寻找解释或说明某个概念或事物的句子。",
+      "3. 说明文通常不涉及个人观点或具体事件。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将议论文或记叙文当作说明文。",
+        "hint": "注意说明文的特点：解释或说明某个概念或事物，不涉及个人观点或具体事件。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-text-types-q-006",
+    "node_id": "eng-m-text-types",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "请判断以下文字的类型：'在现代社会，科技发展迅速，给我们的生活带来了许多便利。'",
+    "answer": "议论文",
+    "steps": [
+      "1. 阅读文字内容。",
+      "2. 分析文字是否在表达观点或进行论证。",
+      "3. 确认文字包含对现代社会或科技发展的评价。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为是说明文或记叙文。",
+        "hint": "议论文通常包含观点和论证，不仅仅是解释或叙述。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-text-types-q-007",
+    "node_id": "eng-m-text-types",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请简要说明如何区分记叙文、说明文和议论文。",
+    "answer": "记叙文以叙述事件为主，包含时间、地点、人物和事件；说明文以解释或说明某个概念或事物为主，不涉及个人观点；议论文以表达观点并进行论证为主，包含论点、论据和论证过程。",
+    "steps": [
+      "1. 理解三种文体的基本概念。",
+      "2. 总结每种文体的主要特点。",
+      "3. 用简洁的语言进行描述。"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆三种文体的特点。",
+        "hint": "仔细区分每种文体的主要特点，避免混淆。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "eng-m-text-types-q-008",
+    "node_id": "eng-m-text-types",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析以下文字的类型并说明理由：'在日常生活中，我们常常需要做出选择，而这些选择会影响我们的生活。'",
+    "answer": "议论文。因为文字在表达观点（需要做出选择）并进行论证（选择会影响生活）。",
+    "steps": [
+      "1. 阅读文字内容。",
+      "2. 分析文字是否在表达观点。",
+      "3. 判断文字是否包含论证过程。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为是说明文或记叙文。",
+        "hint": "注意文字是否在表达观点并进行论证。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

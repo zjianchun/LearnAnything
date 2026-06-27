@@ -1,0 +1,189 @@
+[
+  {
+    "id": "phy-m-liquid-pressure-buoyancy-q-001",
+    "node_id": "phy-m-liquid-pressure-buoyancy",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列关于液体压强的说法，正确的是：",
+    "options": [
+      "A. 液体压强与液体密度无关",
+      "B. 液体压强与液体深度无关",
+      "C. 液体压强与重力加速度有关",
+      "D. 液体压强与容器形状有关"
+    ],
+    "answer": "C. 液体压强与重力加速度有关",
+    "steps": [
+      "1. 根据液体压强公式 P = ρgh，其中 ρ 为液体密度，g 为重力加速度，h 为液体深度。",
+      "2. 分析各选项，A选项错误，因为液体压强与液体密度有关；B选项错误，因为液体压强与液体深度有关；C选项正确，因为液体压强与重力加速度有关；D选项错误，因为液体压强与容器形状无关。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为液体压强与容器形状有关",
+        "hint": "液体压强只与液体密度、深度和重力加速度有关，与容器形状无关。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-liquid-pressure-buoyancy-q-002",
+    "node_id": "phy-m-liquid-pressure-buoyancy",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "一个装满水的圆柱形容器，底面积为 0.01 平方米，水深为 0.5 米，则水对容器底部的压强为 ______ 帕。",
+    "answer": "4900",
+    "steps": [
+      "1. 根据液体压强公式 P = ρgh，其中 ρ 为水的密度（1000 kg/m³），g 为重力加速度（9.8 m/s²），h 为液体深度（0.5 m）。",
+      "2. 代入公式计算：P = 1000 × 9.8 × 0.5 = 4900 帕。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用公式或单位换算错误",
+        "hint": "确保使用正确的公式和单位，注意重力加速度的单位为 m/s²。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-liquid-pressure-buoyancy-q-003",
+    "node_id": "phy-m-liquid-pressure-buoyancy",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "将一个木块放入水中，木块漂浮在水面上，则：",
+    "options": [
+      "A. 木块受到的浮力大于木块的重力",
+      "B. 木块受到的浮力等于木块的重力",
+      "C. 木块受到的浮力小于木块的重力",
+      "D. 无法判断"
+    ],
+    "answer": "B. 木块受到的浮力等于木块的重力",
+    "steps": [
+      "1. 根据漂浮条件，物体受到的浮力等于其重力。",
+      "2. 分析各选项，A选项错误，因为浮力不会大于重力；B选项正确；C选项错误，因为浮力不会小于重力；D选项错误，因为可以判断。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为浮力会大于或小于重力",
+        "hint": "漂浮时，浮力等于重力。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-liquid-pressure-buoyancy-q-004",
+    "node_id": "phy-m-liquid-pressure-buoyancy",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一个体积为 0.002 立方米，密度为 500 kg/m³ 的物体，完全浸没在水中，求物体受到的浮力。",
+    "answer": "19.6 N",
+    "steps": [
+      "1. 根据阿基米德原理，物体受到的浮力等于排开液体的重力。",
+      "2. 排开液体的体积等于物体的体积，即 0.002 立方米。",
+      "3. 水的密度为 1000 kg/m³，重力加速度为 9.8 m/s²。",
+      "4. 计算浮力：F = ρVg = 1000 × 0.002 × 9.8 = 19.6 N。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用公式或计算错误",
+        "hint": "确保使用正确的公式和单位，注意排开液体的体积等于物体的体积。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-liquid-pressure-buoyancy-q-005",
+    "node_id": "phy-m-liquid-pressure-buoyancy",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "一个质量为 2 千克的物体，漂浮在密度为 800 kg/m³ 的液体中，则物体排开液体的体积为 ______ 立方米。",
+    "answer": "0.0025",
+    "steps": [
+      "1. 根据漂浮条件，物体受到的浮力等于其重力。",
+      "2. 物体重力为 2 × 9.8 = 19.6 N。",
+      "3. 浮力等于排开液体的重力，即 ρVg = 19.6。",
+      "4. 代入液体密度 800 kg/m³ 和重力加速度 9.8 m/s²，得出 V = 0.0025 立方米。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用公式或计算错误",
+        "hint": "确保使用正确的公式和单位，注意漂浮时浮力等于重力。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-liquid-pressure-buoyancy-q-006",
+    "node_id": "phy-m-liquid-pressure-buoyancy",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "将一个铁球放入水中，铁球沉入水底，则：",
+    "options": [
+      "A. 铁球受到的浮力大于铁球的重力",
+      "B. 铁球受到的浮力等于铁球的重力",
+      "C. 铁球受到的浮力小于铁球的重力",
+      "D. 无法判断"
+    ],
+    "answer": "C. 铁球受到的浮力小于铁球的重力",
+    "steps": [
+      "1. 根据物体沉入水底的条件，物体受到的浮力小于其重力。",
+      "2. 分析各选项，A选项错误，因为浮力不会大于重力；B选项错误，因为浮力不会等于重力；C选项正确；D选项错误，因为可以判断。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为浮力会大于或等于重力",
+        "hint": "沉底时，浮力小于重力。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-liquid-pressure-buoyancy-q-007",
+    "node_id": "phy-m-liquid-pressure-buoyancy",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个密度为 2500 kg/m³ 的实心铁球，完全浸没在水中，求铁球受到的浮力。已知铁球的质量为 5 千克。",
+    "answer": "19.6 N",
+    "steps": [
+      "1. 根据阿基米德原理，物体受到的浮力等于排开液体的重力。",
+      "2. 铁球的体积为 5 / 2500 = 0.002 立方米。",
+      "3. 排开液体的体积等于铁球的体积，即 0.002 立方米。",
+      "4. 水的密度为 1000 kg/m³，重力加速度为 9.8 m/s²。",
+      "5. 计算浮力：F = ρVg = 1000 × 0.002 × 9.8 = 19.6 N。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用公式或计算错误",
+        "hint": "确保使用正确的公式和单位，注意排开液体的体积等于物体的体积。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "phy-m-liquid-pressure-buoyancy-q-008",
+    "node_id": "phy-m-liquid-pressure-buoyancy",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "一个质量为 1 千克的物体，漂浮在密度为 1200 kg/m³ 的液体中，则物体排开液体的体积为 ______ 立方米。",
+    "answer": "0.000817",
+    "steps": [
+      "1. 根据漂浮条件，物体受到的浮力等于其重力。",
+      "2. 物体重力为 1 × 9.8 = 9.8 N。",
+      "3. 浮力等于排开液体的重力，即 ρVg = 9.8。",
+      "4. 代入液体密度 1200 kg/m³ 和重力加速度 9.8 m/s²，得出 V = 0.000817 立方米。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用公式或计算错误",
+        "hint": "确保使用正确的公式和单位，注意漂浮时浮力等于重力。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

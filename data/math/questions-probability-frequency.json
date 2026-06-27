@@ -1,0 +1,228 @@
+[
+  {
+    "id": "math-m-probability-frequency-q-001",
+    "node_id": "math-m-probability-frequency",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "某班有40名学生，其中男生25人，女生15人。现从中随机抽取一名学生，抽到女生的概率是？",
+    "options": [
+      "A. 15/40",
+      "B. 25/40",
+      "C. 15/25",
+      "D. 25/15"
+    ],
+    "answer": "A. 15/40",
+    "steps": [
+      "1. 抽到女生的概率 = 女生人数 / 总人数",
+      "2. 女生人数 = 15，总人数 = 40",
+      "3. 概率 = 15/40 = 3/8"
+    ],
+    "common_errors": [
+      {
+        "error": "误用男生人数计算概率",
+        "hint": "注意题目要求的是抽到女生的概率，应使用女生人数"
+      },
+      {
+        "error": "未约分分数",
+        "hint": "最终结果应尽量化为最简分数"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-probability-frequency-q-002",
+    "node_id": "math-m-probability-frequency",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "某次考试中，50名学生中有10人获得满分。随机抽取一名学生，获得满分的频率是______。",
+    "answer": "0.2",
+    "steps": [
+      "1. 获得满分的频率 = 获得满分的人数 / 总人数",
+      "2. 获得满分的人数 = 10，总人数 = 50",
+      "3. 频率 = 10/50 = 1/5 = 0.2"
+    ],
+    "common_errors": [
+      {
+        "error": "误用人数直接作为频率",
+        "hint": "频率是比值，需要用人数除以总人数"
+      },
+      {
+        "error": "未将分数化为小数",
+        "hint": "题目要求填写频率，通常需要化为小数"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-probability-frequency-q-003",
+    "node_id": "math-m-probability-frequency",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "一个袋子里有3个红球，4个蓝球，5个绿球。从中随机抽取一个球，抽到蓝球的概率是？",
+    "options": [
+      "A. 1/4",
+      "B. 1/3",
+      "C. 1/5",
+      "D. 1/2"
+    ],
+    "answer": "B. 1/3",
+    "steps": [
+      "1. 总球数 = 3 + 4 + 5 = 12",
+      "2. 抽到蓝球的概率 = 蓝球数 / 总球数",
+      "3. 概率 = 4/12 = 1/3"
+    ],
+    "common_errors": [
+      {
+        "error": "误用红球或绿球数计算概率",
+        "hint": "注意题目要求的是抽到蓝球的概率，应使用蓝球数"
+      },
+      {
+        "error": "未正确计算总球数",
+        "hint": "应将所有球数相加得到总球数"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-probability-frequency-q-004",
+    "node_id": "math-m-probability-frequency",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "某班有30名学生，其中男生18人，女生12人。现从中随机抽取两名学生，求抽到两名女生的概率。",
+    "answer": "解答过程：\n1. 抽到两名女生的概率 = (C(12,2)) / (C(30,2))\n2. C(12,2) = 12! / (2! * (12-2)!) = 66\n3. C(30,2) = 30! / (2! * (30-2)!) = 435\n4. 概率 = 66/435 = 22/145",
+    "steps": [
+      "1. 计算从12名女生中抽取2名女生的组合数 C(12,2)",
+      "2. 计算从30名学生中抽取2名学生的组合数 C(30,2)",
+      "3. 概率 = C(12,2) / C(30,2)",
+      "4. 化简分数得到最终结果"
+    ],
+    "common_errors": [
+      {
+        "error": "误用排列数而非组合数",
+        "hint": "由于顺序不重要，应使用组合数计算"
+      },
+      {
+        "error": "未正确化简分数",
+        "hint": "最终结果应化为最简分数"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-probability-frequency-q-005",
+    "node_id": "math-m-probability-frequency",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "一个骰子掷一次，出现奇数点的概率是？",
+    "options": [
+      "A. 1/2",
+      "B. 1/3",
+      "C. 1/4",
+      "D. 1/6"
+    ],
+    "answer": "A. 1/2",
+    "steps": [
+      "1. 骰子有6个面，其中奇数点有1,3,5，共3个",
+      "2. 出现奇数点的概率 = 奇数点数 / 总点数",
+      "3. 概率 = 3/6 = 1/2"
+    ],
+    "common_errors": [
+      {
+        "error": "误用点数总数而非奇数点数",
+        "hint": "注意题目要求的是出现奇数点的概率"
+      },
+      {
+        "error": "计算错误",
+        "hint": "确保分数计算正确"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-probability-frequency-q-006",
+    "node_id": "math-m-probability-frequency",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个不透明的盒子里有10个球，其中3个是红球，7个是白球。现从中随机抽取3个球，求至少抽到1个红球的概率。",
+    "answer": "解答过程：\n1. 总的抽取方法数 = C(10,3) = 120\n2. 抽到0个红球的方法数 = C(7,3) = 35\n3. 至少抽到1个红球的概率 = 1 - (抽到0个红球的概率) = 1 - (35/120) = 17/24",
+    "steps": [
+      "1. 计算总的抽取方法数 C(10,3)",
+      "2. 计算抽到0个红球的方法数 C(7,3)",
+      "3. 至少抽到1个红球的概率 = 1 - (抽到0个红球的概率)",
+      "4. 计算最终结果"
+    ],
+    "common_errors": [
+      {
+        "error": "误用排列数而非组合数",
+        "hint": "由于顺序不重要，应使用组合数计算"
+      },
+      {
+        "error": "未正确计算至少抽到1个红球的概率",
+        "hint": "使用1减去抽到0个红球的概率"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-probability-frequency-q-007",
+    "node_id": "math-m-probability-frequency",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "一个班级有50名学生，其中30人喜欢数学，20人喜欢语文，10人既喜欢数学又喜欢语文。随机抽取一名学生，喜欢数学或语文的概率是？",
+    "options": [
+      "A. 1/2",
+      "B. 4/5",
+      "C. 3/5",
+      "D. 2/5"
+    ],
+    "answer": "B. 4/5",
+    "steps": [
+      "1. 喜欢数学或语文的人数 = 喜欢数学的人数 + 喜欢语文的人数 - 既喜欢数学又喜欢语文的人数",
+      "2. 喜欢数学或语文的人数 = 30 + 20 - 10 = 40",
+      "3. 喜欢数学或语文的概率 = 40/50 = 4/5"
+    ],
+    "common_errors": [
+      {
+        "error": "未考虑重复计算",
+        "hint": "应减去既喜欢数学又喜欢语文的人数"
+      },
+      {
+        "error": "计算错误",
+        "hint": "确保分数计算正确"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-probability-frequency-q-008",
+    "node_id": "math-m-probability-frequency",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "一个袋子里有5个红球，3个蓝球，2个绿球。现从中随机抽取一个球，然后放回，再抽取一个球。求两次都抽到红球的概率是______。",
+    "answer": "0.25",
+    "steps": [
+      "1. 第一次抽到红球的概率 = 5/10 = 1/2",
+      "2. 第二次抽到红球的概率 = 5/10 = 1/2",
+      "3. 两次都抽到红球的概率 = (1/2) * (1/2) = 1/4 = 0.25"
+    ],
+    "common_errors": [
+      {
+        "error": "未考虑放回的影响",
+        "hint": "由于放回，每次抽取的概率不变"
+      },
+      {
+        "error": "计算错误",
+        "hint": "确保乘法计算正确"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

@@ -1,0 +1,196 @@
+[
+  {
+    "id": "geo-m-pearl-river-delta-q-001",
+    "node_id": "geo-m-pearl-river-delta",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "珠江三角洲位于我国的哪个地区？",
+    "options": [
+      "A. 东北地区",
+      "B. 西北地区",
+      "C. 东南沿海地区",
+      "D. 西南地区"
+    ],
+    "answer": "C. 东南沿海地区",
+    "steps": [
+      "1. 珠江三角洲位于广东省的东南部",
+      "2. 属于我国东南沿海地区",
+      "3. 结合地图确认位置"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为珠江三角洲在北方",
+        "hint": "珠江三角洲位于广东省，靠近南海"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-pearl-river-delta-q-002",
+    "node_id": "geo-m-pearl-river-delta",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "珠江三角洲的核心城市是______和______。",
+    "answer": "广州,深圳",
+    "steps": [
+      "1. 回忆珠江三角洲的主要城市",
+      "2. 确定广州和深圳是该区域的核心城市",
+      "3. 填写答案"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误城市，如珠海或佛山",
+        "hint": "广州和深圳是该区域最重要的经济中心"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-pearl-river-delta-q-003",
+    "node_id": "geo-m-pearl-river-delta",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "珠江三角洲的经济发展模式主要依靠什么？",
+    "options": [
+      "A. 传统农业",
+      "B. 重工业",
+      "C. 出口导向型经济",
+      "D. 旅游业"
+    ],
+    "answer": "C. 出口导向型经济",
+    "steps": [
+      "1. 了解珠江三角洲的经济发展特点",
+      "2. 认识到该地区以制造业和出口为主",
+      "3. 结合改革开放政策理解其经济模式"
+    ],
+    "common_errors": [
+      {
+        "error": "选择传统农业或重工业",
+        "hint": "珠江三角洲以轻工业和出口导向型经济为主"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-pearl-river-delta-q-004",
+    "node_id": "geo-m-pearl-river-delta",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述珠江三角洲发展外向型经济的有利条件。",
+    "answer": "1. 地理位置优越，靠近港澳地区，便于对外贸易。2. 交通便利，拥有多个港口和机场。3. 政策支持，享受改革开放的优惠政策。4. 劳动力资源丰富且成本较低。",
+    "steps": [
+      "1. 分析地理位置对经济的影响",
+      "2. 考虑交通和政策因素",
+      "3. 评估劳动力资源的作用",
+      "4. 整理成条理清晰的答案"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到地理位置，忽略其他因素",
+        "hint": "需要全面考虑交通、政策和劳动力等多方面因素"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-pearl-river-delta-q-005",
+    "node_id": "geo-m-pearl-river-delta",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "珠江三角洲的农业以什么为主？",
+    "options": [
+      "A. 旱作农业",
+      "B. 水稻种植",
+      "C. 热带水果种植",
+      "D. 花卉种植"
+    ],
+    "answer": "B. 水稻种植",
+    "steps": [
+      "1. 了解珠江三角洲的气候条件",
+      "2. 认识到该地区气候湿热，适合水稻生长",
+      "3. 结合实际情况确认主要农业类型"
+    ],
+    "common_errors": [
+      {
+        "error": "选择热带水果或花卉种植",
+        "hint": "虽然也有种植，但水稻是主要农作物"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-pearl-river-delta-q-006",
+    "node_id": "geo-m-pearl-river-delta",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析珠江三角洲地区快速工业化的原因。",
+    "answer": "1. 地理位置优越，靠近港澳，便于引进外资和技术。2. 政策支持，享受改革开放的优惠政策。3. 交通便利，拥有完善的交通网络。4. 劳动力资源丰富且成本较低。5. 基础设施完善，投资环境良好。",
+    "steps": [
+      "1. 分析地理位置和政策因素",
+      "2. 考虑交通和劳动力资源",
+      "3. 评估基础设施的影响",
+      "4. 整理成条理清晰的答案"
+    ],
+    "common_errors": [
+      {
+        "error": "忽略政策或交通因素",
+        "hint": "需要全面考虑多方面因素"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "geo-m-pearl-river-delta-q-007",
+    "node_id": "geo-m-pearl-river-delta",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "珠江三角洲的______产业和______产业是其经济发展的两大支柱。",
+    "answer": "制造业,服务业",
+    "steps": [
+      "1. 了解珠江三角洲的经济结构",
+      "2. 确定制造业和服务业是其主要产业",
+      "3. 填写答案"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误产业，如农业或重工业",
+        "hint": "珠江三角洲以制造业和服务业为主"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "geo-m-pearl-river-delta-q-008",
+    "node_id": "geo-m-pearl-river-delta",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "珠江三角洲的快速城市化过程中，可能带来的环境问题是什么？",
+    "options": [
+      "A. 水土流失",
+      "B. 土地荒漠化",
+      "C. 水污染和空气污染",
+      "D. 地震和泥石流"
+    ],
+    "answer": "C. 水污染和空气污染",
+    "steps": [
+      "1. 分析快速城市化对环境的影响",
+      "2. 认识到工业化带来的污染问题",
+      "3. 结合实际情况确认主要环境问题"
+    ],
+    "common_errors": [
+      {
+        "error": "选择水土流失或土地荒漠化",
+        "hint": "珠江三角洲主要面临的是污染问题，而非水土流失或荒漠化"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

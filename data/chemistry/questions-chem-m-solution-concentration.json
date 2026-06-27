@@ -1,0 +1,186 @@
+[
+  {
+    "id": "chem-m-solution-concentration-q-001",
+    "node_id": "chem-m-solution-concentration",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "将10克食盐溶解在90克水中，所得溶液的质量分数为多少？",
+    "options": [
+      "A. 5%",
+      "B. 10%",
+      "C. 20%",
+      "D. 30%"
+    ],
+    "answer": "B. 10%",
+    "steps": [
+      "计算溶液的总质量：10克（食盐） + 90克（水） = 100克",
+      "计算溶质的质量分数：10克 / 100克 × 100% = 10%"
+    ],
+    "common_errors": [
+      {
+        "error": "误将水的质量作为溶液的总质量",
+        "hint": "溶液总质量包括溶质和溶剂的质量"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chem-m-solution-concentration-q-002",
+    "node_id": "chem-m-solution-concentration",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "100克质量分数为20%的氢氧化钠溶液中含有多少克氢氧化钠？",
+    "answer": "20克",
+    "steps": [
+      "根据质量分数公式：溶质质量 = 溶液质量 × 质量分数",
+      "计算溶质质量：100克 × 20% = 20克"
+    ],
+    "common_errors": [
+      {
+        "error": "误用质量分数公式，将溶液质量与溶质质量混淆",
+        "hint": "质量分数公式为：溶质质量 = 溶液质量 × 质量分数"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-solution-concentration-q-003",
+    "node_id": "chem-m-solution-concentration",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "将50克质量分数为30%的硫酸溶液稀释至质量分数为10%，需要加多少克水？",
+    "options": [
+      "A. 50克",
+      "B. 100克",
+      "C. 150克",
+      "D. 200克"
+    ],
+    "answer": "B. 100克",
+    "steps": [
+      "计算原溶液中硫酸的质量：50克 × 30% = 15克",
+      "设稀释后溶液的总质量为x，则：15克 / x = 10%",
+      "解得x = 150克",
+      "需要加水的质量：150克 - 50克 = 100克"
+    ],
+    "common_errors": [
+      {
+        "error": "误将稀释后的溶液质量计算为原溶液质量加上水的质量",
+        "hint": "稀释后的溶液总质量应通过溶质质量和新的质量分数计算"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-solution-concentration-q-004",
+    "node_id": "chem-m-solution-concentration",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "将30克氯化钠溶解在70克水中，所得溶液的质量分数为多少？若再加入20克水，溶液的质量分数变为多少？",
+    "answer": "30%，24%",
+    "steps": [
+      "原溶液的质量分数：30克 / (30克 + 70克) × 100% = 30%",
+      "加入20克水后的溶液质量：30克 + 70克 + 20克 = 120克",
+      "新的质量分数：30克 / 120克 × 100% = 24.5%"
+    ],
+    "common_errors": [
+      {
+        "error": "误将加入的水的质量直接加到溶质质量上",
+        "hint": "加入水只影响溶液的总质量，不影响溶质质量"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-solution-concentration-q-005",
+    "node_id": "chem-m-solution-concentration",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "现有200克质量分数为15%的硝酸钾溶液，若要将其质量分数提高到20%，需要加入多少克硝酸钾？",
+    "answer": "12.5克",
+    "steps": [
+      "原溶液中硝酸钾的质量：200克 × 15% = 30克",
+      "设需要加入x克硝酸钾，则：(30克 + x) / (200克 + x) = 20%",
+      "解得x = 12.5克"
+    ],
+    "common_errors": [
+      {
+        "error": "误将加入的硝酸钾质量直接加到原溶液中",
+        "hint": "需要考虑加入硝酸钾后溶液总质量的变化"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-solution-concentration-q-006",
+    "node_id": "chem-m-solution-concentration",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "将100克质量分数为25%的氯化钠溶液与200克质量分数为10%的氯化钠溶液混合，所得溶液的质量分数为多少？",
+    "answer": "15%",
+    "steps": [
+      "计算混合溶液中氯化钠的总质量：100克 × 25% + 200克 × 10% = 25克 + 20克 = 45克",
+      "计算混合溶液的总质量：100克 + 200克 = 300克",
+      "混合溶液的质量分数：45克 / 300克 × 100% = 15%"
+    ],
+    "common_errors": [
+      {
+        "error": "误将两个溶液的质量分数直接平均",
+        "hint": "需要计算混合溶液中溶质的总质量和溶液的总质量"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chem-m-solution-concentration-q-007",
+    "node_id": "chem-m-solution-concentration",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "在100克水中加入一定量的硫酸铜晶体（CuSO4·5H2O），完全溶解后，所得溶液的质量分数为10%。求加入的硫酸铜晶体的质量。",
+    "answer": "18.9克",
+    "steps": [
+      "设加入的硫酸铜晶体的质量为x克",
+      "硫酸铜晶体的摩尔质量：249.7克/摩尔",
+      "硫酸铜的质量：x × (159.6 / 249.7) = 0.64x克",
+      "溶液的总质量：100克 + x克",
+      "根据质量分数公式：0.64x / (100 + x) = 10%",
+      "解得x = 18.9克"
+    ],
+    "common_errors": [
+      {
+        "error": "误将硫酸铜晶体的质量直接用于计算",
+        "hint": "需要考虑结晶水对溶质质量的影响"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-solution-concentration-q-008",
+    "node_id": "chem-m-solution-concentration",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "将50克质量分数为40%的氢氧化钠溶液与100克质量分数为10%的氢氧化钠溶液混合，所得溶液的质量分数为多少？若再加入50克水，溶液的质量分数变为多少？",
+    "answer": "20%，13.3%",
+    "steps": [
+      "混合溶液中氢氧化钠的总质量：50克 × 40% + 100克 × 10% = 20克 + 10克 = 30克",
+      "混合溶液的总质量：50克 + 100克 = 150克",
+      "混合溶液的质量分数：30克 / 150克 × 100% = 20%",
+      "加入50克水后的溶液总质量：150克 + 50克 = 200克",
+      "新的质量分数：30克 / 200克 × 100% = 15%"
+    ],
+    "common_errors": [
+      {
+        "error": "误将加入的水的质量直接加到溶质质量上",
+        "hint": "加入水只影响溶液的总质量，不影响溶质质量"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

@@ -1,0 +1,220 @@
+[
+  {
+    "id": "hist-m-decolonization-q-001",
+    "node_id": "hist-m-decolonization",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "以下哪一项是亚非拉民族解放运动的主要目标？",
+    "options": [
+      "A. 维护殖民统治",
+      "B. 实现民族独立",
+      "C. 推广殖民文化",
+      "D. 加强经济剥削"
+    ],
+    "answer": "B. 实现民族独立",
+    "steps": [
+      "1. 理解民族解放运动的核心是摆脱殖民统治",
+      "2. 分析各选项与民族解放运动目标的关联",
+      "3. 确定实现民族独立是运动的主要目标"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A或C",
+        "hint": "注意民族解放运动是反对殖民统治的，而不是维护或推广殖民统治"
+      },
+      {
+        "error": "误选D",
+        "hint": "经济剥削是殖民统治的特征，而不是民族解放运动的目标"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-decolonization-q-002",
+    "node_id": "hist-m-decolonization",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "印度独立运动的主要领导人是______。",
+    "answer": "甘地",
+    "steps": [
+      "1. 回忆印度独立运动的关键人物",
+      "2. 确定甘地在印度独立运动中的领导地位",
+      "3. 填写正确答案"
+    ],
+    "common_errors": [
+      {
+        "error": "填写尼赫鲁",
+        "hint": "尼赫鲁是印度独立后的首任总理，而甘地是独立运动的主要领导人"
+      },
+      {
+        "error": "填写其他无关人物",
+        "hint": "注意区分印度独立运动中的不同人物角色"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-decolonization-q-003",
+    "node_id": "hist-m-decolonization",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下哪一项不是亚非拉民族解放运动的主要方式？",
+    "options": [
+      "A. 非暴力抵抗",
+      "B. 武装斗争",
+      "C. 政治谈判",
+      "D. 经济封锁"
+    ],
+    "answer": "D. 经济封锁",
+    "steps": [
+      "1. 了解民族解放运动常见的斗争方式",
+      "2. 分析各选项在运动中的实际应用",
+      "3. 确定经济封锁不是主要方式"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A或B",
+        "hint": "非暴力抵抗和武装斗争都是常见的斗争方式"
+      },
+      {
+        "error": "误选C",
+        "hint": "政治谈判是民族解放运动中重要的策略之一"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-decolonization-q-004",
+    "node_id": "hist-m-decolonization",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述埃及独立运动的过程。",
+    "answer": "埃及独立运动始于19世纪末，经历了多次起义和反抗。1952年，纳赛尔领导的自由军官组织发动政变，推翻了法鲁克王朝。1953年，埃及宣布成立共和国。1956年，纳赛尔宣布收回苏伊士运河主权，标志着埃及完全独立。",
+    "steps": [
+      "1. 回顾埃及独立运动的关键事件",
+      "2. 按时间顺序整理运动过程",
+      "3. 总结运动的主要阶段和标志性事件"
+    ],
+    "common_errors": [
+      {
+        "error": "遗漏关键事件",
+        "hint": "注意纳赛尔政变和苏伊士运河国有化等重要事件"
+      },
+      {
+        "error": "时间顺序混乱",
+        "hint": "按照时间顺序描述运动过程"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-decolonization-q-005",
+    "node_id": "hist-m-decolonization",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "拉丁美洲独立运动中，被誉为“解放者”的是谁？",
+    "options": [
+      "A. 玻利瓦尔",
+      "B. 圣马丁",
+      "C. 贝拉斯科",
+      "D. 桑托斯"
+    ],
+    "answer": "A. 玻利瓦尔",
+    "steps": [
+      "1. 了解拉丁美洲独立运动中的重要人物",
+      "2. 确认玻利瓦尔在运动中的地位和贡献",
+      "3. 确定“解放者”的称号属于玻利瓦尔"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B",
+        "hint": "圣马丁也是重要人物，但“解放者”称号属于玻利瓦尔"
+      },
+      {
+        "error": "误选C或D",
+        "hint": "这些人物在拉丁美洲独立运动中并不突出"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-decolonization-q-006",
+    "node_id": "hist-m-decolonization",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析亚非拉民族解放运动对世界格局的影响。",
+    "answer": "亚非拉民族解放运动导致了殖民体系的瓦解，催生了大量新兴独立国家。这些国家在国际事务中逐渐形成第三世界力量，推动了不结盟运动的兴起，改变了全球政治格局。民族解放运动也促进了国际关系的民主化，推动了全球范围内的反殖民主义和人权运动。",
+    "steps": [
+      "1. 分析民族解放运动对殖民体系的影响",
+      "2. 探讨新兴独立国家在国际舞台上的作用",
+      "3. 总结对世界政治格局的长期影响"
+    ],
+    "common_errors": [
+      {
+        "error": "只关注局部影响",
+        "hint": "注意从全球视角分析对世界格局的影响"
+      },
+      {
+        "error": "忽略长期影响",
+        "hint": "考虑民族解放运动对后续国际关系的影响"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-decolonization-q-007",
+    "node_id": "hist-m-decolonization",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "非洲民族解放运动中，______会议标志着非洲独立运动进入新阶段。",
+    "answer": "万隆",
+    "steps": [
+      "1. 回顾非洲民族解放运动的重要会议",
+      "2. 确定万隆会议对非洲独立运动的影响",
+      "3. 填写正确答案"
+    ],
+    "common_errors": [
+      {
+        "error": "填写其他会议",
+        "hint": "注意区分万隆会议和其他国际会议"
+      },
+      {
+        "error": "填写错误名称",
+        "hint": "确认会议名称的正确性"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "hist-m-decolonization-q-008",
+    "node_id": "hist-m-decolonization",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "比较分析非洲和拉丁美洲民族解放运动的异同。",
+    "answer": "相同点：两者都旨在摆脱殖民统治，争取民族独立。不同点：非洲民族解放运动多受外部力量支持，而拉丁美洲独立运动则更多依靠内部力量。非洲的民族解放运动时间跨度较长，而拉丁美洲的独立运动相对集中。",
+    "steps": [
+      "1. 确定比较的维度：目标、过程、结果等",
+      "2. 分析两者的相同点和不同点",
+      "3. 总结比较结果"
+    ],
+    "common_errors": [
+      {
+        "error": "只关注相同点或不同点",
+        "hint": "注意全面比较两个方面"
+      },
+      {
+        "error": "混淆具体细节",
+        "hint": "准确区分非洲和拉丁美洲民族解放运动的特点"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

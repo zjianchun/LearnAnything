@@ -1,0 +1,225 @@
+[
+  {
+    "id": "eng-m-tenses-present-q-001",
+    "node_id": "eng-m-tenses-present",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "She ______ (play) basketball every Saturday morning.",
+    "options": [
+      "A. plays",
+      "B. is playing",
+      "C. played",
+      "D. will play"
+    ],
+    "answer": "A. plays",
+    "steps": [
+      "1. 分析句子时间状语 'every Saturday morning'，表示经常性、习惯性的动作。",
+      "2. 一般现在时用于描述习惯性动作或客观事实。",
+      "3. 主语 'She' 是第三人称单数，动词要用第三人称单数形式。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用现在进行时",
+        "hint": "现在进行时用于正在发生的动作，而非习惯性动作。"
+      },
+      {
+        "error": "动词形式错误",
+        "hint": "第三人称单数动词要加 -s 或 -es。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-tenses-present-q-002",
+    "node_id": "eng-m-tenses-present",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "Look! The children ______ (play) in the park.",
+    "answer": "are playing",
+    "steps": [
+      "1. 观察句首的 'Look!'，表示当前正在发生的动作。",
+      "2. 现在进行时用于描述此时此刻正在发生的动作。",
+      "3. 主语 'The children' 是复数，be 动词用 are，动词 play 要加 -ing。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用一般现在时",
+        "hint": "一般现在时不能用于描述此时此刻正在发生的动作。"
+      },
+      {
+        "error": "动词形式错误",
+        "hint": "现在分词要加 -ing。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-tenses-present-q-003",
+    "node_id": "eng-m-tenses-present",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "My brother usually ______ (go) to bed at 10:00 p.m., but tonight he ______ (watch) a movie.",
+    "options": [
+      "A. goes, watches",
+      "B. goes, is watching",
+      "C. is going, watches",
+      "D. is going, is watching"
+    ],
+    "answer": "B. goes, is watching",
+    "steps": [
+      "1. 第一空 'usually' 表示习惯性动作，用一般现在时，主语 'My brother' 是第三人称单数，go 变 goes。",
+      "2. 第二空 'tonight' 表示今晚正在发生的动作，用现在进行时，be 动词用 is，watch 加 -ing。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用动词形式",
+        "hint": "注意主谓一致和时态的正确使用。"
+      },
+      {
+        "error": "混淆两种时态",
+        "hint": "区分习惯性动作和正在发生的动作。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-tenses-present-q-004",
+    "node_id": "eng-m-tenses-present",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "你如何用英语表达 '我每天早上六点起床'？",
+    "answer": "I get up at six o'clock every morning.",
+    "steps": [
+      "1. 分析句子含义，表示习惯性动作。",
+      "2. 使用一般现在时，主语 'I'，动词用原形 get up。",
+      "3. 时间状语 'at six o'clock every morning' 表示具体时间。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用现在进行时",
+        "hint": "现在进行时不能用于描述习惯性动作。"
+      },
+      {
+        "error": "时间状语错误",
+        "hint": "注意时间状语的正确表达方式。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-tenses-present-q-005",
+    "node_id": "eng-m-tenses-present",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "______ you ______ (like) coffee? Yes, I do.",
+    "options": [
+      "A. Do, like",
+      "B. Are, like",
+      "C. Do, liking",
+      "D. Are, liking"
+    ],
+    "answer": "A. Do, like",
+    "steps": [
+      "1. 句中 'like' 是实义动词，疑问句要借助助动词 do。",
+      "2. 一般现在时中，主语是第二人称，助动词用 do。",
+      "3. 动词 like 用原形。"
+    ],
+    "common_errors": [
+      {
+        "error": "助动词错误",
+        "hint": "一般现在时中，疑问句要用 do 或 does 构成。"
+      },
+      {
+        "error": "动词形式错误",
+        "hint": "like 是实义动词，不加 -ing。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-tenses-present-q-006",
+    "node_id": "eng-m-tenses-present",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "用英语描述你正在做的事情。",
+    "answer": "I am studying for the exam.",
+    "steps": [
+      "1. 分析句子含义，表示此时此刻正在发生的动作。",
+      "2. 使用现在进行时，be 动词用 am，study 加 -ing。",
+      "3. 补充时间状语 'for the exam' 使句子完整。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用一般现在时",
+        "hint": "一般现在时不能用于描述正在发生的动作。"
+      },
+      {
+        "error": "动词形式错误",
+        "hint": "现在分词要加 -ing。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-tenses-present-q-007",
+    "node_id": "eng-m-tenses-present",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "The students ______ (prepare) for the final exam next week.",
+    "answer": "are preparing",
+    "steps": [
+      "1. 分析句子时间状语 'next week'，表示将来，但根据语境，这里强调准备的过程。",
+      "2. 现在进行时可用于表示将来计划或安排。",
+      "3. 主语 'The students' 是复数，be 动词用 are，prepare 加 -ing。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用一般现在时",
+        "hint": "一般现在时不能表示将来计划。"
+      },
+      {
+        "error": "时态选择错误",
+        "hint": "根据语境选择合适的时态。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-tenses-present-q-008",
+    "node_id": "eng-m-tenses-present",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "______ (be) your sister ______ (read) a book now?",
+    "options": [
+      "A. Is, reading",
+      "B. Does, read",
+      "C. Is, reads",
+      "D. Does, reading"
+    ],
+    "answer": "A. Is, reading",
+    "steps": [
+      "1. 句中 'now' 表示现在进行时。",
+      "2. 现在进行时中，be 动词用 is，read 加 -ing。",
+      "3. 构成疑问句时，将 be 动词提前。"
+    ],
+    "common_errors": [
+      {
+        "error": "时态错误",
+        "hint": "根据时间状语选择正确的时态。"
+      },
+      {
+        "error": "动词形式错误",
+        "hint": "现在分词要加 -ing。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

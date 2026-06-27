@@ -1,0 +1,282 @@
+[
+  {
+    "id": "hist-m-industrial-revolution-modernization-q-001",
+    "node_id": "hist-m-industrial-revolution-modernization",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "第一次工业革命中，标志性的发明是：",
+    "options": [
+      "A. 蒸汽机",
+      "B. 发电机",
+      "C. 计算机",
+      "D. 内燃机"
+    ],
+    "answer": "A. 蒸汽机",
+    "steps": [
+      "1. 回顾第一次工业革命的时间（18世纪60年代到19世纪40年代）。",
+      "2. 识别这一时期的主要发明：蒸汽机、纺织机械等。",
+      "3. 确定蒸汽机是第一次工业革命的核心发明，推动了机械化生产。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选D. 内燃机",
+        "hint": "内燃机是第二次工业革命的发明，与第一次工业革命无关。"
+      },
+      {
+        "error": "误选C. 计算机",
+        "hint": "计算机是第三次工业革命（信息技术革命）的产物，时间不符。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-industrial-revolution-modernization-q-002",
+    "node_id": "hist-m-industrial-revolution-modernization",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "工业革命使社会结构发生变化，________阶级逐渐兴起。",
+    "answer": "资产阶级",
+    "steps": [
+      "1. 理解工业革命对社会结构的影响。",
+      "2. 认识到工业化带来生产力的提升和财富的积累。",
+      "3. 明确新兴阶级是资产阶级，他们在经济上逐渐占据主导地位。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写'工人阶级'",
+        "hint": "工人阶级虽然数量增加，但经济上仍处于被剥削地位，不是主导阶级。"
+      },
+      {
+        "error": "填写'贵族阶级'",
+        "hint": "贵族阶级在工业革命中逐渐失去经济主导权。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-industrial-revolution-modernization-q-003",
+    "node_id": "hist-m-industrial-revolution-modernization",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "以下哪一项不是工业革命带来的影响？",
+    "options": [
+      "A. 城市化进程加快",
+      "B. 环境污染加剧",
+      "C. 农业人口减少",
+      "D. 手工业者收入增加"
+    ],
+    "answer": "D. 手工业者收入增加",
+    "steps": [
+      "1. 分析工业革命对经济、社会和环境的影响。",
+      "2. 确认城市化、农业人口变化和环境污染是工业革命的主要影响。",
+      "3. 识别手工业者在工业化过程中受到冲击，收入减少而非增加。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A. 城市化进程加快",
+        "hint": "城市化是工业革命的重要影响之一。"
+      },
+      {
+        "error": "误选B. 环境污染加剧",
+        "hint": "环境污染是工业革命带来的负面效应。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-industrial-revolution-modernization-q-004",
+    "node_id": "hist-m-industrial-revolution-modernization",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "第二次工业革命中，推动电力广泛应用的关键人物是：",
+    "options": [
+      "A. 瓦特",
+      "B. 爱迪生",
+      "C. 史蒂芬孙",
+      "D. 莱特兄弟"
+    ],
+    "answer": "B. 爱迪生",
+    "steps": [
+      "1. 回顾第二次工业革命的时间（19世纪70年代到20世纪初）。",
+      "2. 识别电力应用的关键人物：爱迪生、特斯拉等。",
+      "3. 确定爱迪生发明了电灯等电器设备，推动了电力的普及。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A. 瓦特",
+        "hint": "瓦特是第一次工业革命中蒸汽机的改良者。"
+      },
+      {
+        "error": "误选D. 莱特兄弟",
+        "hint": "莱特兄弟是航空领域的先驱，与电力应用无直接关系。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-industrial-revolution-modernization-q-005",
+    "node_id": "hist-m-industrial-revolution-modernization",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述工业革命对世界格局的影响。",
+    "answer": "工业革命使欧洲国家生产力大幅提升，经济实力增强，开始对外扩张，形成了以欧洲为中心的殖民体系。同时，工业化国家之间的竞争加剧，国际关系发生变化，世界格局逐渐向多极化发展。",
+    "steps": [
+      "1. 分析工业革命对欧洲国家的影响：生产力提升、经济实力增强。",
+      "2. 探讨工业化国家对世界的影响：殖民扩张、国际竞争。",
+      "3. 总结世界格局的变化：殖民体系形成、多极化趋势出现。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到经济影响，忽略政治和世界格局变化",
+        "hint": "需要全面分析工业革命对经济、政治和世界格局的综合影响。"
+      },
+      {
+        "error": "过度强调单一方面，如殖民扩张，忽略其他因素",
+        "hint": "要综合考虑多方面因素，避免片面分析。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-industrial-revolution-modernization-q-006",
+    "node_id": "hist-m-industrial-revolution-modernization",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下哪一项是第一次工业革命的技术特征？",
+    "options": [
+      "A. 电气化",
+      "B. 机械化",
+      "C. 信息化",
+      "D. 智能化"
+    ],
+    "answer": "B. 机械化",
+    "steps": [
+      "1. 回顾第一次工业革命的技术特点：蒸汽机、纺织机械等。",
+      "2. 对比各选项：电气化是第二次工业革命的特征，信息化和智能化是第三次工业革命的特征。",
+      "3. 确定机械化是第一次工业革命的主要技术特征。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A. 电气化",
+        "hint": "电气化是第二次工业革命的特征。"
+      },
+      {
+        "error": "误选C. 信息化",
+        "hint": "信息化是第三次工业革命的特征。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-industrial-revolution-modernization-q-007",
+    "node_id": "hist-m-industrial-revolution-modernization",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析工业革命对环境的影响，并说明现代社会的应对措施。",
+    "answer": "工业革命带来了严重的环境污染，如空气污染、水污染等，主要原因是工业化过程中大量使用煤炭等化石燃料。现代社会的应对措施包括：推广清洁能源、加强污染治理、制定环保法规、提高环保意识等。",
+    "steps": [
+      "1. 分析工业革命对环境的具体影响：空气、水、土壤污染。",
+      "2. 探讨污染的原因：化石燃料的使用、工业废料排放。",
+      "3. 列举现代社会的应对措施：清洁能源、环保法规、污染治理等。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到污染，忽略应对措施",
+        "hint": "需要全面分析影响和应对措施。"
+      },
+      {
+        "error": "应对措施过于笼统，缺乏具体内容",
+        "hint": "应列举具体的应对措施，如清洁能源类型、环保法规名称等。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "hist-m-industrial-revolution-modernization-q-008",
+    "node_id": "hist-m-industrial-revolution-modernization",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "以下哪一项不是英国工业革命的前提条件？",
+    "options": [
+      "A. 圈地运动",
+      "B. 海外殖民扩张",
+      "C. 蒸汽机的发明",
+      "D. 手工工场的发展"
+    ],
+    "answer": "C. 蒸汽机的发明",
+    "steps": [
+      "1. 分析英国工业革命的前提条件：圈地运动、海外殖民扩张、手工工场发展等。",
+      "2. 确认蒸汽机是工业革命的结果，而非前提条件。",
+      "3. 排除其他选项：圈地运动、海外殖民扩张和手工工场发展都是工业革命的前提条件。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A. 圈地运动",
+        "hint": "圈地运动为工业革命提供了劳动力和土地资源。"
+      },
+      {
+        "error": "误选B. 海外殖民扩张",
+        "hint": "海外殖民扩张为工业革命提供了市场和资源。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "hist-m-industrial-revolution-modernization-q-009",
+    "node_id": "hist-m-industrial-revolution-modernization",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "工业革命后，交通运输业发生了重大变革，________和铁路成为主要交通工具。",
+    "answer": "蒸汽机车",
+    "steps": [
+      "1. 回顾工业革命对交通运输业的影响。",
+      "2. 识别蒸汽机车和铁路的发明和应用。",
+      "3. 确认蒸汽机车和铁路是工业革命后交通运输业的主要变革。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写'汽车'",
+        "hint": "汽车是第二次工业革命的产物。"
+      },
+      {
+        "error": "填写'飞机'",
+        "hint": "飞机是第二次工业革命后期的发明。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-industrial-revolution-modernization-q-010",
+    "node_id": "hist-m-industrial-revolution-modernization",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "论述工业革命对近代化的推动作用。",
+    "answer": "工业革命极大地推动了近代化进程，主要体现在：1. 经济上，推动了生产力的提升和资本主义经济的发展；2. 社会上，促进了城市化进程和社会结构的变化；3. 政治上，催生了新的社会阶层和政治力量，推动了民主化进程；4. 文化上，促进了科学技术的发展和教育的普及；5. 国际关系上，推动了殖民扩张和国际竞争，加速了全球化进程。",
+    "steps": [
+      "1. 从经济、社会、政治、文化和国际关系等方面分析工业革命的影响。",
+      "2. 探讨工业革命对近代化的具体推动作用。",
+      "3. 综合论述工业革命对近代化的全面影响。"
+    ],
+    "common_errors": [
+      {
+        "error": "只关注某一方面的影响，忽略其他方面",
+        "hint": "需要全面分析工业革命对近代化的多方面影响。"
+      },
+      {
+        "error": "论述过于笼统，缺乏具体内容",
+        "hint": "应列举具体的影响和推动作用。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

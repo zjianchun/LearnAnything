@@ -1,0 +1,197 @@
+[
+  {
+    "id": "phy-m-series-parallel-q-001",
+    "node_id": "phy-m-series-parallel",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "在如图所示的电路中，闭合开关后，电流表A1的示数为0.6A，电流表A2的示数为0.4A，则通过L1的电流是（  ）。",
+    "options": [
+      "A. 0.2A",
+      "B. 0.4A",
+      "C. 0.6A",
+      "D. 1.0A"
+    ],
+    "answer": "A. 0.2A",
+    "steps": [
+      "1. 根据电流表A1和A2的示数可知，电路为并联电路。",
+      "2. 根据并联电路中干路电流等于各支路电流之和，I总 = I1 + I2。",
+      "3. 代入数据，0.6A = I1 + 0.4A，解得I1 = 0.2A。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为电流表A1和A2的示数之和为通过L1的电流",
+        "hint": "注意并联电路中干路电流等于各支路电流之和。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-series-parallel-q-002",
+    "node_id": "phy-m-series-parallel",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "在如图所示的电路中，电源电压为6V，R1=2Ω，R2=3Ω，则通过R1的电流是______A。",
+    "answer": "2",
+    "steps": [
+      "1. 根据串联电路中总电阻等于各电阻之和，R总 = R1 + R2。",
+      "2. 代入数据，R总 = 2Ω + 3Ω = 5Ω。",
+      "3. 根据欧姆定律，I = U/R，I = 6V/5Ω = 1.2A。",
+      "4. 根据串联电路中电流处处相等，通过R1的电流是1.2A。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为通过R1的电流是6V/2Ω=3A",
+        "hint": "注意串联电路中电流处处相等，应先计算总电流。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-series-parallel-q-003",
+    "node_id": "phy-m-series-parallel",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 1,
+    "question": "在如图所示的电路中，电源电压为12V，R1=4Ω，R2=6Ω，R3=12Ω，求通过R1的电流。",
+    "answer": "通过R1的电流是1A。\n步骤：\n1. 根据串联电路中总电阻等于各电阻之和，R总 = R1 + R2 + R3。\n2. 代入数据，R总 = 4Ω + 6Ω + 12Ω = 22Ω。\n3. 根据欧姆定律，I = U/R，I = 12V/22Ω = 1A。\n4. 根据串联电路中电流处处相等，通过R1的电流是1A。",
+    "steps": [
+      "1. 计算总电阻：R总 = R1 + R2 + R3 = 4Ω + 6Ω + 12Ω = 22Ω。",
+      "2. 根据欧姆定律计算总电流：I = U/R = 12V/22Ω = 1A。",
+      "3. 根据串联电路中电流处处相等，通过R1的电流是1A。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为通过R1的电流是12V/4Ω=3A",
+        "hint": "注意串联电路中电流处处相等，应先计算总电流。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-series-parallel-q-004",
+    "node_id": "phy-m-series-parallel",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "在如图所示的电路中，电源电压为12V，R1=6Ω，R2=3Ω，R3=4Ω，则通过R2的电流是（  ）。",
+    "options": [
+      "A. 1A",
+      "B. 2A",
+      "C. 3A",
+      "D. 4A"
+    ],
+    "answer": "B. 2A",
+    "steps": [
+      "1. 根据并联电路中各支路电压相等，U1 = U2 = U3 = 12V。",
+      "2. 根据欧姆定律，I2 = U2/R2，I2 = 12V/3Ω = 4A。",
+      "3. 注意到R1和R2并联后与R3串联，R1和R2并联后的等效电阻为2Ω。",
+      "4. 电路总电阻为6Ω，总电流为2A。",
+      "5. 根据并联电路中电流分配关系，I2 = 2A。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为通过R2的电流是12V/3Ω=4A",
+        "hint": "注意并联电路中电流分配关系，应先计算总电流。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-series-parallel-q-005",
+    "node_id": "phy-m-series-parallel",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "在如图所示的电路中，电源电压为9V，R1=3Ω，R2=6Ω，R3=2Ω，则R2两端的电压是______V。",
+    "answer": "3",
+    "steps": [
+      "1. 根据并联电路中各支路电压相等，U1 = U2 = U3。",
+      "2. 根据欧姆定律，I1 = U1/R1 = 9V/3Ω = 3A。",
+      "3. I2 = U2/R2 = 9V/6Ω = 1.5A。",
+      "4. I3 = U3/R3 = 9V/2Ω = 4.5A。",
+      "5. 总电流为I总 = I1 + I2 + I3 = 9A。",
+      "6. R2两端的电压为9V/3 = 3V。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为R2两端的电压是9V",
+        "hint": "注意并联电路中各支路电压相等，但电流不同。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-series-parallel-q-006",
+    "node_id": "phy-m-series-parallel",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "在如图所示的电路中，电源电压为15V，R1=5Ω，R2=10Ω，R3=5Ω，求R1两端的电压。",
+    "answer": "R1两端的电压是7.5V。\n步骤：\n1. 根据并联电路中各支路电压相等，U1 = U2 = U3。\n2. 根据欧姆定律，I1 = U1/R1 = 15V/5Ω = 3A。\n3. I2 = U2/R2 = 15V/10Ω = 1.5A。\n4. I3 = U3/R3 = 15V/5Ω = 3A。\n5. 总电流为I总 = I1 + I2 + I3 = 7.5A。\n6. R1两端的电压为15V/2 = 7.5V。",
+    "steps": [
+      "1. 计算各支路电流：I1 = 15V/5Ω = 3A，I2 = 15V/10Ω = 1.5A，I3 = 15V/5Ω = 3A。",
+      "2. 计算总电流：I总 = 3A + 1.5A + 3A = 7.5A。",
+      "3. 根据欧姆定律，R1两端的电压为15V/2 = 7.5V。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为R1两端的电压是15V",
+        "hint": "注意并联电路中各支路电压相等，但电流不同。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-series-parallel-q-007",
+    "node_id": "phy-m-series-parallel",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "在如图所示的电路中，电源电压为24V，R1=8Ω，R2=12Ω，R3=4Ω，则R1两端的电压是（  ）。",
+    "options": [
+      "A. 8V",
+      "B. 12V",
+      "C. 16V",
+      "D. 24V"
+    ],
+    "answer": "B. 12V",
+    "steps": [
+      "1. 根据并联电路中各支路电压相等，U1 = U2 = U3。",
+      "2. 根据欧姆定律，I1 = U1/R1 = 24V/8Ω = 3A。",
+      "3. I2 = U2/R2 = 24V/12Ω = 2A。",
+      "4. I3 = U3/R3 = 24V/4Ω = 6A。",
+      "5. 总电流为I总 = I1 + I2 + I3 = 11A。",
+      "6. R1两端的电压为24V/2 = 12V。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为R1两端的电压是24V",
+        "hint": "注意并联电路中各支路电压相等，但电流不同。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-series-parallel-q-008",
+    "node_id": "phy-m-series-parallel",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "在如图所示的电路中，电源电压为18V，R1=6Ω，R2=3Ω，R3=9Ω，求R2两端的电压。",
+    "answer": "R2两端的电压是6V。\n步骤：\n1. 根据并联电路中各支路电压相等，U1 = U2 = U3。\n2. 根据欧姆定律，I1 = U1/R1 = 18V/6Ω = 3A。\n3. I2 = U2/R2 = 18V/3Ω = 6A。\n4. I3 = U3/R3 = 18V/9Ω = 2A。\n5. 总电流为I总 = I1 + I2 + I3 = 11A。\n6. R2两端的电压为18V/3 = 6V。",
+    "steps": [
+      "1. 计算各支路电流：I1 = 18V/6Ω = 3A，I2 = 18V/3Ω = 6A，I3 = 18V/9Ω = 2A。",
+      "2. 计算总电流：I总 = 3A + 6A + 2A = 11A。",
+      "3. 根据欧姆定律，R2两端的电压为18V/3 = 6V。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为R2两端的电压是18V",
+        "hint": "注意并联电路中各支路电压相等，但电流不同。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

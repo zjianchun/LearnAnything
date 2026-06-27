@@ -1,0 +1,187 @@
+[
+  {
+    "id": "math-m-similar-triangles-q-001",
+    "node_id": "math-m-similar-triangles",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "如图，△ABC∽△DEF，AB=6，DE=9，则BC:EF的值为多少？",
+    "options": [
+      "A. 2:3",
+      "B. 3:2",
+      "C. 1:2",
+      "D. 2:1"
+    ],
+    "answer": "A. 2:3",
+    "steps": [
+      "根据相似三角形的性质，相似三角形的对应边成比例。",
+      "设BC为x，EF为y，则有AB:DE = BC:EF，即6:9 = x:y。",
+      "化简得2:3 = x:y，所以BC:EF = 2:3。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将相似比与边长比混淆",
+        "hint": "相似比是边长的比值，而不是边长的差值。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-m-similar-triangles-q-002",
+    "node_id": "math-m-similar-triangles",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "如图，△ABC∽△A'B'C'，∠A=∠A'，AB=4，A'B'=6，则△ABC与△A'B'C'的相似比为多少？",
+    "answer": "2:3",
+    "steps": [
+      "相似三角形的相似比等于对应边的比值。",
+      "AB=4，A'B'=6，所以相似比为4:6，即2:3。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将相似比与面积比混淆",
+        "hint": "相似比是边长的比值，而不是面积的比值。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-similar-triangles-q-003",
+    "node_id": "math-m-similar-triangles",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列说法正确的是？",
+    "options": [
+      "A. 两个等腰三角形一定相似",
+      "B. 两个直角三角形一定相似",
+      "C. 两个等边三角形一定相似",
+      "D. 两个钝角三角形一定相似"
+    ],
+    "answer": "C. 两个等边三角形一定相似",
+    "steps": [
+      "等边三角形的每个角都是60度，所以两个等边三角形的对应角相等。",
+      "根据相似三角形的判定定理，两个三角形的对应角相等，则两个三角形相似。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为等腰三角形或直角三角形一定相似",
+        "hint": "等腰三角形或直角三角形只有满足特定条件时才相似。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-similar-triangles-q-004",
+    "node_id": "math-m-similar-triangles",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "如图，△ABC∽△DEF，AB=8，BC=12，AC=10，DE=6，求EF和DF的长。",
+    "answer": "EF=9，DF=7.5",
+    "steps": [
+      "根据相似三角形的性质，相似三角形的对应边成比例。",
+      "设EF为x，DF为y，则有AB:DE = BC:EF = AC:DF。",
+      "代入数值得8:6 = 12:x = 10:y。",
+      "解得x=9，y=7.5。"
+    ],
+    "common_errors": [
+      {
+        "error": "未正确应用相似比",
+        "hint": "注意对应边的顺序，确保比例关系正确。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-similar-triangles-q-005",
+    "node_id": "math-m-similar-triangles",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "如图，△ABC∽△A'B'C'，∠A=∠A'，AB=5，A'B'=7，BC=6，求B'C'的长。",
+    "answer": "8.4",
+    "steps": [
+      "根据相似三角形的性质，相似三角形的对应边成比例。",
+      "设B'C'为x，则有AB:A'B' = BC:B'C'。",
+      "代入数值得5:7 = 6:x。",
+      "解得x=8.4。"
+    ],
+    "common_errors": [
+      {
+        "error": "比例关系计算错误",
+        "hint": "确保比例关系的正确性，注意单位的一致性。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-m-similar-triangles-q-006",
+    "node_id": "math-m-similar-triangles",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "如图，△ABC∽△A'B'C'，∠A=∠A'，AB=6，A'B'=9，AC=8，求A'C'的长。",
+    "answer": "12",
+    "steps": [
+      "根据相似三角形的性质，相似三角形的对应边成比例。",
+      "设A'C'为x，则有AB:A'B' = AC:A'C'。",
+      "代入数值得6:9 = 8:x。",
+      "解得x=12。"
+    ],
+    "common_errors": [
+      {
+        "error": "比例关系计算错误",
+        "hint": "确保比例关系的正确性，注意单位的一致性。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-similar-triangles-q-007",
+    "node_id": "math-m-similar-triangles",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "如图，△ABC∽△A'B'C'，∠A=∠A'，AB=4，A'B'=6，BC=5，求△A'B'C'的周长。",
+    "answer": "13.5",
+    "steps": [
+      "根据相似三角形的性质，相似三角形的对应边成比例。",
+      "设△A'B'C'的周长为x，则有AB:A'B' = 周长(△ABC):x。",
+      "AB=4，A'B'=6，周长(△ABC)=4+5+BC=9。",
+      "代入数值得4:6 = 9:x。",
+      "解得x=13.5。"
+    ],
+    "common_errors": [
+      {
+        "error": "未正确应用相似比",
+        "hint": "注意相似比的应用范围，确保周长计算正确。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-similar-triangles-q-008",
+    "node_id": "math-m-similar-triangles",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "如图，△ABC∽△A'B'C'，∠A=∠A'，AB=5，A'B'=8，AC=6，求△A'B'C'的面积。",
+    "answer": "19.2",
+    "steps": [
+      "根据相似三角形的性质，相似三角形的对应边成比例。",
+      "设△A'B'C'的面积为x，则有(AB:A'B')^2 = 面积(△ABC):x。",
+      "AB=5，A'B'=8，面积(△ABC)=0.5*5*6=15。",
+      "代入数值得(5:8)^2 = 15:x。",
+      "解得x=19.2。"
+    ],
+    "common_errors": [
+      {
+        "error": "相似比应用错误",
+        "hint": "注意相似比与面积比的关系，面积比是相似比的平方。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

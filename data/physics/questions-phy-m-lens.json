@@ -1,0 +1,227 @@
+[
+  {
+    "id": "phy-m-lens-q-001",
+    "node_id": "phy-m-lens",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列关于凸透镜的说法，正确的是（  ）",
+    "options": [
+      "A. 凸透镜对光线有发散作用",
+      "B. 凸透镜的焦点是虚焦点",
+      "C. 平行于主光轴的光线通过凸透镜后会聚于焦点",
+      "D. 凸透镜的焦距越大，折射能力越强"
+    ],
+    "answer": "C. 平行于主光轴的光线通过凸透镜后会聚于焦点",
+    "steps": [
+      "1. 回顾凸透镜的基本性质：凸透镜对光线有会聚作用",
+      "2. 确认焦点是实焦点，而非虚焦点",
+      "3. 理解平行于主光轴的光线通过凸透镜后会聚于焦点",
+      "4. 焦距越大，折射能力越弱"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为凸透镜对光线有发散作用",
+        "hint": "凸透镜对光线有会聚作用，凹透镜才对光线有发散作用"
+      },
+      {
+        "error": "误认为焦点是虚焦点",
+        "hint": "凸透镜的焦点是实焦点"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-lens-q-002",
+    "node_id": "phy-m-lens",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "一个物体放在凸透镜前20cm处，成倒立放大的实像，则该凸透镜的焦距范围是_____cm。",
+    "answer": "10cm < f < 20cm",
+    "steps": [
+      "1. 回顾凸透镜成像规律：倒立放大的实像出现在2f之外",
+      "2. 设焦距为f，则有：f < 20cm < 2f",
+      "3. 解不等式：f < 20cm 和 20cm > f，解得：10cm < f < 20cm"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为倒立放大的实像出现在f和2f之间",
+        "hint": "倒立放大的实像出现在2f之外"
+      },
+      {
+        "error": "解不等式错误",
+        "hint": "注意不等式的方向"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-lens-q-003",
+    "node_id": "phy-m-lens",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "一个物体放在凸透镜前15cm处，成倒立缩小的实像，则该凸透镜的焦距可能是（  ）",
+    "options": [
+      "A. 5cm",
+      "B. 10cm",
+      "C. 15cm",
+      "D. 20cm"
+    ],
+    "answer": "B. 10cm",
+    "steps": [
+      "1. 回顾凸透镜成像规律：倒立缩小的实像出现在2f之外",
+      "2. 设焦距为f，则有：15cm > 2f",
+      "3. 解不等式：15cm > 2f，解得：f < 7.5cm",
+      "4. 对比选项，选择最接近的答案"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为倒立缩小的实像出现在f和2f之间",
+        "hint": "倒立缩小的实像出现在2f之外"
+      },
+      {
+        "error": "解不等式错误",
+        "hint": "注意不等式的方向"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-lens-q-004",
+    "node_id": "phy-m-lens",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一个物体放在凸透镜前30cm处，成倒立等大的实像，求该凸透镜的焦距。",
+    "answer": "解：根据凸透镜成像规律，倒立等大的实像出现在2f处。设焦距为f，则有：30cm = 2f，解得：f = 15cm。",
+    "steps": [
+      "1. 回顾凸透镜成像规律：倒立等大的实像出现在2f处",
+      "2. 设焦距为f，列出等式：30cm = 2f",
+      "3. 解等式：f = 15cm"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为倒立等大的实像出现在f和2f之间",
+        "hint": "倒立等大的实像出现在2f处"
+      },
+      {
+        "error": "解等式错误",
+        "hint": "注意等式的正确性"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-lens-q-005",
+    "node_id": "phy-m-lens",
+    "source": "AI-生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "一个物体放在凸透镜前10cm处，成正立放大的虚像，则该凸透镜的焦距可能是（  ）",
+    "options": [
+      "A. 5cm",
+      "B. 10cm",
+      "C. 15cm",
+      "D. 20cm"
+    ],
+    "answer": "A. 5cm",
+    "steps": [
+      "1. 回顾凸透镜成像规律：正立放大的虚像出现在f之内",
+      "2. 设焦距为f，则有：10cm < f",
+      "3. 对比选项，选择最接近的答案"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为正立放大的虚像出现在f和2f之间",
+        "hint": "正立放大的虚像出现在f之内"
+      },
+      {
+        "error": "解不等式错误",
+        "hint": "注意不等式的方向"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-lens-q-006",
+    "node_id": "phy-m-lens",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个物体放在凸透镜前5cm处，成正立放大的虚像，求该凸透镜的焦距范围。",
+    "answer": "解：根据凸透镜成像规律，正立放大的虚像出现在f之内。设焦距为f，则有：5cm < f。",
+    "steps": [
+      "1. 回顾凸透镜成像规律：正立放大的虚像出现在f之内",
+      "2. 设焦距为f，列出不等式：5cm < f"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为正立放大的虚像出现在f和2f之间",
+        "hint": "正立放大的虚像出现在f之内"
+      },
+      {
+        "error": "解不等式错误",
+        "hint": "注意不等式的方向"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "phy-m-lens-q-007",
+    "node_id": "phy-m-lens",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "一个物体放在凸透镜前40cm处，成倒立缩小的实像，且像距为10cm，则该凸透镜的焦距是（  ）",
+    "options": [
+      "A. 5cm",
+      "B. 8cm",
+      "C. 12cm",
+      "D. 15cm"
+    ],
+    "answer": "B. 8cm",
+    "steps": [
+      "1. 回顾凸透镜成像规律：倒立缩小的实像出现在2f之外",
+      "2. 设焦距为f，列出等式：1/40 + 1/10 = 1/f",
+      "3. 解等式：1/40 + 1/10 = 1/f，解得：f = 8cm"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为倒立缩小的实像出现在f和2f之间",
+        "hint": "倒立缩小的实像出现在2f之外"
+      },
+      {
+        "error": "解等式错误",
+        "hint": "注意等式的正确性"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "phy-m-lens-q-008",
+    "node_id": "phy-m-lens",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个物体放在凸透镜前20cm处，成倒立缩小的实像，且像距为15cm，求该凸透镜的焦距。",
+    "answer": "解：根据凸透镜成像规律，倒立缩小的实像出现在2f之外。设焦距为f，列出等式：1/20 + 1/15 = 1/f，解得：f = 8.57cm。",
+    "steps": [
+      "1. 回顾凸透镜成像规律：倒立缩小的实像出现在2f之外",
+      "2. 设焦距为f，列出等式：1/20 + 1/15 = 1/f",
+      "3. 解等式：1/20 + 1/15 = 1/f，解得：f = 8.57cm"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为倒立缩小的实像出现在f和2f之间",
+        "hint": "倒立缩小的实像出现在2f之外"
+      },
+      {
+        "error": "解等式错误",
+        "hint": "注意等式的正确性"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

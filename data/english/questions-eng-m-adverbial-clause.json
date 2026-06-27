@@ -1,0 +1,222 @@
+[
+  {
+    "id": "eng-m-adverbial-clause-q-001",
+    "node_id": "eng-m-adverbial-clause",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "Tom will call you as soon as he ______ home.",
+    "options": [
+      "A. gets",
+      "B. will get",
+      "C. got",
+      "D. has got"
+    ],
+    "answer": "A. gets",
+    "steps": [
+      "1. 识别主句和从句：主句是'Tom will call you'，从句是'as soon as he ______ home'。",
+      "2. 确定时态：从句中的'as soon as'表示时间状语从句，主句是一般将来时，从句应用一般现在时表示将来。",
+      "3. 选择正确答案：选项A 'gets' 是一般现在时，符合语法规则。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B 'will get'",
+        "hint": "记住，在时间状语从句中，一般现在时表示将来，不要误用将来时。"
+      },
+      {
+        "error": "误选C 'got'",
+        "hint": "过去时不符合主句的时态，应使用一般现在时。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-adverbial-clause-q-002",
+    "node_id": "eng-m-adverbial-clause",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "We will have a picnic tomorrow ______ it doesn't rain.",
+    "answer": "if",
+    "steps": [
+      "1. 分析句子结构：主句是'We will have a picnic tomorrow'，从句是'______ it doesn't rain'。",
+      "2. 确定逻辑关系：'it doesn't rain'是条件状语从句，表示如果不下雨就会去野餐。",
+      "3. 填入正确连词：根据逻辑关系，填入'if'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填'when'",
+        "hint": "逻辑关系是条件而非时间，应使用'if'。"
+      },
+      {
+        "error": "误填'although'",
+        "hint": "逻辑关系是条件而非让步，应使用'if'。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-adverbial-clause-q-003",
+    "node_id": "eng-m-adverbial-clause",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "I will finish my homework before you ______ back.",
+    "options": [
+      "A. come",
+      "B. will come",
+      "C. came",
+      "D. have come"
+    ],
+    "answer": "A. come",
+    "steps": [
+      "1. 识别主句和从句：主句是'I will finish my homework'，从句是'before you ______ back'。",
+      "2. 确定时态：从句中的'before'表示时间状语从句，主句是一般将来时，从句应用一般现在时表示将来。",
+      "3. 选择正确答案：选项A 'come' 是一般现在时，符合语法规则。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B 'will come'",
+        "hint": "在时间状语从句中，一般现在时表示将来，不要误用将来时。"
+      },
+      {
+        "error": "误选C 'came'",
+        "hint": "过去时不符合主句的时态，应使用一般现在时。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-adverbial-clause-q-004",
+    "node_id": "eng-m-adverbial-clause",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "Although he is very busy, he ______ time to study English every day.",
+    "options": [
+      "A. takes",
+      "B. takes up",
+      "C. makes",
+      "D. makes up"
+    ],
+    "answer": "C. makes",
+    "steps": [
+      "1. 分析句子结构：主句是'he ______ time to study English every day'，从句是'Although he is very busy'。",
+      "2. 确定逻辑关系：'Although'表示让步状语从句，主句应表达他每天都会抽出时间学习英语。",
+      "3. 选择正确答案：'make time'是固定搭配，表示'抽出时间'，因此选项C 'makes'是正确答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A 'takes'",
+        "hint": "'take time'表示'花费时间'，不符合句意。"
+      },
+      {
+        "error": "误选B 'takes up'",
+        "hint": "'take up'表示'占据'，不符合句意。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-adverbial-clause-q-005",
+    "node_id": "eng-m-adverbial-clause",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "______ you work harder, you will not pass the exam.",
+    "options": [
+      "A. If",
+      "B. Unless",
+      "C. Because",
+      "D. Although"
+    ],
+    "answer": "B. Unless",
+    "steps": [
+      "1. 分析句子结构：主句是'you will not pass the exam'，从句是'______ you work harder'。",
+      "2. 确定逻辑关系：主句表达不通过考试，从句表示努力工作，逻辑关系应为条件。",
+      "3. 选择正确答案：'Unless'表示'除非'，符合句意，因此选项B 'Unless'是正确答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A 'If'",
+        "hint": "'If'表示'如果'，不符合句意。"
+      },
+      {
+        "error": "误选C 'Because'",
+        "hint": "'Because'表示'因为'，不符合句意。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-adverbial-clause-q-006",
+    "node_id": "eng-m-adverbial-clause",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "He didn't go to bed ______ he finished his homework.",
+    "answer": "until",
+    "steps": [
+      "1. 分析句子结构：主句是'He didn't go to bed'，从句是'______ he finished his homework'。",
+      "2. 确定逻辑关系：主句表达没有上床睡觉，从句表示完成作业，逻辑关系应为时间。",
+      "3. 填入正确连词：根据句意，填入'until'，表示'直到'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填'before'",
+        "hint": "'before'表示'在...之前'，不符合句意。"
+      },
+      {
+        "error": "误填'when'",
+        "hint": "'when'表示'当...时'，不符合句意。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-adverbial-clause-q-007",
+    "node_id": "eng-m-adverbial-clause",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请根据句意选择合适的连词填空，并说明理由。The teacher speaks loudly ______ everyone can hear him.",
+    "answer": "so that",
+    "steps": [
+      "1. 分析句子结构：主句是'The teacher speaks loudly'，从句是'______ everyone can hear him'。",
+      "2. 确定逻辑关系：主句表达老师大声说话，从句表示每个人都能听见，逻辑关系应为目的。",
+      "3. 选择正确答案：根据句意，填入'so that'，表示'以便'，说明老师大声说话的目的是为了让每个人都能听见。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填'in order to'",
+        "hint": "'in order to'后面应接动词原形，不符合句意。"
+      },
+      {
+        "error": "误填'because'",
+        "hint": "'because'表示'因为'，不符合句意。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-adverbial-clause-q-008",
+    "node_id": "eng-m-adverbial-clause",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释为什么在时间状语从句中，主句用一般将来时，从句用一般现在时。",
+    "answer": "在时间状语从句中，从句用一般现在时表示将来，是因为从句的动作通常是按照计划或安排将要发生的，而主句的动作则是在将来某个时间点才会发生。例如：I will call you when I arrive.",
+    "steps": [
+      "1. 解释时间状语从句的时态规则：在时间状语从句中，从句用一般现在时表示将来。",
+      "2. 举例说明：例如 'I will call you when I arrive.'，'arrive'用一般现在时表示将来。",
+      "3. 解释原因：主句的动作是在将来某个时间点才会发生，而从句的动作通常是按照计划或安排将要发生的。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为从句用将来时",
+        "hint": "在时间状语从句中，从句用一般现在时表示将来，不要误用将来时。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "phy-m-electric-power-q-001",
+    "node_id": "phy-m-electric-power",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "一个电灯泡标有“220V 100W”，当它正常工作时，通过灯泡的电流是多大？",
+    "options": [
+      "A. 0.45A",
+      "B. 0.5A",
+      "C. 2A",
+      "D. 2.2A"
+    ],
+    "answer": "A. 0.45A",
+    "steps": [
+      "1. 根据电功率公式P=UI，得出电流I=P/U。",
+      "2. 代入已知数据：I=100W/220V。",
+      "3. 计算得出I≈0.45A。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用公式P=I²R或P=U²/R。",
+        "hint": "本题中已知的是额定电压和额定功率，应使用公式P=UI。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-electric-power-q-002",
+    "node_id": "phy-m-electric-power",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "一个电热水壶的功率是1500W，使用10分钟，消耗的电能是______kWh。",
+    "answer": "0.25",
+    "steps": [
+      "1. 将时间转换为小时：10分钟=1/6小时。",
+      "2. 使用电能公式W=Pt，W=1500W×(1/6)h。",
+      "3. 计算得出W=250Wh=0.25kWh。"
+    ],
+    "common_errors": [
+      {
+        "error": "时间单位未转换，直接用分钟计算。",
+        "hint": "电能计算中时间必须使用小时为单位。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-electric-power-q-003",
+    "node_id": "phy-m-electric-power",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "两个电阻R1和R2串联后接在电源上，R1=10Ω，R2=20Ω，电源电压为12V，则R1的电功率是______。",
+    "options": [
+      "A. 4.8W",
+      "B. 2.4W",
+      "C. 1.6W",
+      "D. 0.8W"
+    ],
+    "answer": "C. 1.6W",
+    "steps": [
+      "1. 计算总电阻：R总=R1+R2=30Ω。",
+      "2. 计算总电流：I=U/R总=12V/30Ω=0.4A。",
+      "3. 计算R1的电功率：P1=I²R1=(0.4A)²×10Ω=1.6W。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用并联电路公式。",
+        "hint": "本题中电阻是串联，应使用串联电路公式。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-electric-power-q-004",
+    "node_id": "phy-m-electric-power",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一个电热水器标有“220V 2000W”，当它接在电压为200V的电源上时，实际功率是多少？",
+    "answer": "1652.89W",
+    "steps": [
+      "1. 根据电阻不变，计算电热水器的电阻：R=U²/P=(220V)²/2000W=24.2Ω。",
+      "2. 计算实际功率：P=U²/R=(200V)²/24.2Ω=1652.89W。"
+    ],
+    "common_errors": [
+      {
+        "error": "直接用P=UI计算，未考虑电阻不变。",
+        "hint": "当电压改变时，应先计算电阻，再计算实际功率。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-electric-power-q-005",
+    "node_id": "phy-m-electric-power",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一个电灯泡接在电压为12V的电源上，消耗的功率为6W，求灯泡的电阻。",
+    "answer": "24Ω",
+    "steps": [
+      "1. 根据电功率公式P=U²/R，得出R=U²/P。",
+      "2. 代入已知数据：R=(12V)²/6W=24Ω。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用公式P=UI或P=I²R。",
+        "hint": "本题中已知的是电压和功率，应使用公式P=U²/R。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-electric-power-q-006",
+    "node_id": "phy-m-electric-power",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一个电风扇的功率为50W，使用5小时，消耗的电能是多少？",
+    "answer": "0.25kWh",
+    "steps": [
+      "1. 将时间转换为小时：5小时。",
+      "2. 使用电能公式W=Pt，W=50W×5h。",
+      "3. 计算得出W=250Wh=0.25kWh。"
+    ],
+    "common_errors": [
+      {
+        "error": "时间单位未转换，直接用小时计算。",
+        "hint": "电能计算中时间已经为小时，无需转换。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-electric-power-q-007",
+    "node_id": "phy-m-electric-power",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个电阻为10Ω的电阻器，接在电压为6V的电源上，求电阻器的电功率。",
+    "answer": "3.6W",
+    "steps": [
+      "1. 根据电功率公式P=U²/R，得出P=(6V)²/10Ω。",
+      "2. 计算得出P=3.6W。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用公式P=UI或P=I²R。",
+        "hint": "本题中已知的是电压和电阻，应使用公式P=U²/R。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "phy-m-electric-power-q-008",
+    "node_id": "phy-m-electric-power",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个电灯泡的电阻为5Ω，接在电压为10V的电源上，求灯泡的电流和电功率。",
+    "answer": "电流为2A，电功率为20W",
+    "steps": [
+      "1. 根据欧姆定律I=U/R，得出I=10V/5Ω=2A。",
+      "2. 根据电功率公式P=UI，得出P=10V×2A=20W。"
+    ],
+    "common_errors": [
+      {
+        "error": "未正确使用欧姆定律计算电流。",
+        "hint": "电流应使用公式I=U/R计算。"
+      },
+      {
+        "error": "误用公式P=I²R或P=U²/R。",
+        "hint": "本题中已知的是电压和电流，应使用公式P=UI。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

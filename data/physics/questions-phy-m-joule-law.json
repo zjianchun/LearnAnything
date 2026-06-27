@@ -1,0 +1,198 @@
+[
+  {
+    "id": "phy-m-joule-law-q-001",
+    "node_id": "phy-m-joule-law",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列关于焦耳定律的说法中，正确的是（ ）。",
+    "options": [
+      "A. 电流通过导体产生的热量与电流的平方成正比",
+      "B. 电流通过导体产生的热量与电阻成正比",
+      "C. 电流通过导体产生的热量与通电时间成正比",
+      "D. 以上说法都正确"
+    ],
+    "answer": "D. 以上说法都正确",
+    "steps": [
+      "1. 焦耳定律的公式为Q=I²Rt，其中Q为热量，I为电流，R为电阻，t为通电时间。",
+      "2. 从公式可以看出，热量与电流的平方、电阻和通电时间都成正比。",
+      "3. 因此，选项A、B、C都是正确的。"
+    ],
+    "common_errors": [
+      {
+        "error": "只考虑电流与热量的关系，忽略电阻和时间的影响。",
+        "hint": "焦耳定律中，热量与电流、电阻和时间都有关。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-joule-law-q-002",
+    "node_id": "phy-m-joule-law",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "一个电阻为10Ω的导体，通过的电流为2A，通电时间为5分钟，则产生的热量为_________J。",
+    "answer": "12000",
+    "steps": [
+      "1. 焦耳定律的公式为Q=I²Rt。",
+      "2. 将已知条件代入公式：I=2A，R=10Ω，t=5分钟=300秒。",
+      "3. Q=(2A)²×10Ω×300s=12000J。"
+    ],
+    "common_errors": [
+      {
+        "error": "未将时间单位转换为秒。",
+        "hint": "时间单位必须统一为秒。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-joule-law-q-003",
+    "node_id": "phy-m-joule-law",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "两个电阻分别为R1和R2的导体，串联后接入电路中，通电一段时间后，R1产生的热量为Q1，R2产生的热量为Q2，则Q1与Q2的关系是（ ）。",
+    "options": [
+      "A. Q1=Q2",
+      "B. Q1>Q2",
+      "C. Q1<Q2",
+      "D. 无法确定"
+    ],
+    "answer": "D. 无法确定",
+    "steps": [
+      "1. 串联电路中，电流相同。",
+      "2. 根据焦耳定律Q=I²Rt，产生的热量与电阻成正比。",
+      "3. 由于题目未给出R1和R2的具体关系，因此无法确定Q1与Q2的关系。"
+    ],
+    "common_errors": [
+      {
+        "error": "认为串联电路中电阻大的导体产生的热量一定大。",
+        "hint": "需要考虑电流和时间的共同影响。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-joule-law-q-004",
+    "node_id": "phy-m-joule-law",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "一个电热水壶，额定功率为1000W，额定电压为220V，求该电热水壶在额定电压下工作10分钟产生的热量。",
+    "answer": "Q=Pt=1000W×600s=600000J",
+    "steps": [
+      "1. 电热水壶的功率为1000W。",
+      "2. 工作时间为10分钟，即600秒。",
+      "3. 根据公式Q=Pt，产生的热量为1000W×600s=600000J。"
+    ],
+    "common_errors": [
+      {
+        "error": "未将时间单位转换为秒。",
+        "hint": "时间单位必须统一为秒。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-joule-law-q-005",
+    "node_id": "phy-m-joule-law",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "一个导体，电阻为R，通电一段时间后，产生的热量为Q。现将电阻变为2R，通电时间不变，则产生的热量为（ ）。",
+    "options": [
+      "A. Q/2",
+      "B. Q",
+      "C. 2Q",
+      "D. 4Q"
+    ],
+    "answer": "C. 2Q",
+    "steps": [
+      "1. 焦耳定律的公式为Q=I²Rt。",
+      "2. 当电阻变为2R时，电流变为I/2。",
+      "3. 新的热量Q'=(I/2)²×2R×t=I²Rt/2×2=2Q。"
+    ],
+    "common_errors": [
+      {
+        "error": "未考虑电流的变化。",
+        "hint": "电阻变化会导致电流变化。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-joule-law-q-006",
+    "node_id": "phy-m-joule-law",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "一个电热器，接入电压为220V的电路中，5分钟内产生的热量为2.2×10⁵J，则该电热器的电阻为_________Ω。",
+    "answer": "44",
+    "steps": [
+      "1. 焦耳定律的公式为Q=I²Rt。",
+      "2. 电压U=220V，时间t=5分钟=300秒。",
+      "3. 根据欧姆定律，U=IR，I=U/R。",
+      "4. 代入焦耳定律，Q=(U/R)²Rt=U²t/R。",
+      "5. 2.2×10⁵=(220V)²×300s/R，解得R=44Ω。"
+    ],
+    "common_errors": [
+      {
+        "error": "未正确使用欧姆定律。",
+        "hint": "电压、电流和电阻之间的关系必须正确应用。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "phy-m-joule-law-q-007",
+    "node_id": "phy-m-joule-law",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个电动机，效率为80%，输入功率为1000W，通电10分钟，求电动机产生的热量。",
+    "answer": "Q=Pt×(1-η)=1000W×600s×(1-0.8)=120000J",
+    "steps": [
+      "1. 输入功率为1000W。",
+      "2. 效率为80%，即0.8。",
+      "3. 电动机产生的热量为输入功率乘以时间再乘以(1-效率)。",
+      "4. Q=1000W×600s×(1-0.8)=120000J。"
+    ],
+    "common_errors": [
+      {
+        "error": "未正确理解效率的含义。",
+        "hint": "效率是指输出功率与输入功率的比值。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "phy-m-joule-law-q-008",
+    "node_id": "phy-m-joule-law",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "一个电热器，接入电压为220V的电路中，电阻为44Ω，通电一段时间后，产生的热量为2.2×10⁵J，则通电时间为（ ）。",
+    "options": [
+      "A. 5分钟",
+      "B. 10分钟",
+      "C. 15分钟",
+      "D. 20分钟"
+    ],
+    "answer": "A. 5分钟",
+    "steps": [
+      "1. 焦耳定律的公式为Q=I²Rt。",
+      "2. 电压U=220V，电阻R=44Ω。",
+      "3. 根据欧姆定律，I=U/R=220V/44Ω=5A。",
+      "4. 代入焦耳定律，2.2×10⁵J=(5A)²×44Ω×t，解得t=300s，即5分钟。"
+    ],
+    "common_errors": [
+      {
+        "error": "未正确使用欧姆定律和焦耳定律。",
+        "hint": "电压、电流、电阻和热量之间的关系必须正确应用。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

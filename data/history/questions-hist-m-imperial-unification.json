@@ -1,0 +1,204 @@
+[
+  {
+    "id": "hist-m-imperial-unification-q-001",
+    "node_id": "hist-m-imperial-unification",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "秦朝统一六国后，采取了哪些措施来巩固统一？",
+    "options": [
+      "A. 实行分封制",
+      "B. 统一文字和度量衡",
+      "C. 实行郡县制",
+      "D. 焚书坑儒"
+    ],
+    "answer": "B. 统一文字和度量衡",
+    "steps": [
+      "1. 回顾秦朝统一后的主要措施",
+      "2. 分析各选项：分封制是西周制度，郡县制是地方管理制度，焚书坑儒是思想控制措施",
+      "3. 确定统一文字和度量衡是巩固统一的重要经济文化措施"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A",
+        "hint": "分封制是西周制度，秦朝实行的是郡县制"
+      },
+      {
+        "error": "误选C",
+        "hint": "郡县制是地方管理制度，不是直接用于巩固统一的措施"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-imperial-unification-q-002",
+    "node_id": "hist-m-imperial-unification",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "汉朝在汉武帝时期设立了什么机构来管理西域事务？",
+    "answer": "西域都护府",
+    "steps": [
+      "1. 明确汉朝管理西域的时间是汉武帝时期",
+      "2. 回忆汉朝在西域设立的机构名称"
+    ],
+    "common_errors": [
+      {
+        "error": "写成西域都护",
+        "hint": "完整的名称是西域都护府"
+      },
+      {
+        "error": "写成安西都护府",
+        "hint": "安西都护府是唐朝设立的机构"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-imperial-unification-q-003",
+    "node_id": "hist-m-imperial-unification",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下关于秦朝统一的意义，描述正确的是？",
+    "options": [
+      "A. 结束了长期分裂割据局面",
+      "B. 开创了中央集权制度",
+      "C. 促进了民族融合",
+      "D. 以上都是"
+    ],
+    "answer": "D. 以上都是",
+    "steps": [
+      "1. 分析秦朝统一的历史背景：长期分裂割据",
+      "2. 回顾秦朝建立的中央集权制度：皇帝制度、三公九卿制等",
+      "3. 思考统一对民族融合的影响：打破地域限制，促进交流"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A或B",
+        "hint": "秦朝统一的意义是多方面的，需要全面考虑"
+      },
+      {
+        "error": "误选C",
+        "hint": "虽然C正确，但D选项更全面"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-imperial-unification-q-004",
+    "node_id": "hist-m-imperial-unification",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述汉朝对匈奴的战争及其影响。",
+    "answer": "汉朝对匈奴的战争主要发生在汉武帝时期，通过卫青、霍去病等将领的军事行动，取得了重大胜利。影响包括：1. 解决了匈奴对汉朝的威胁，保障了北方边境的安全；2. 促进了民族交流与融合；3. 拓展了汉朝的疆域，增强了汉朝的国力。",
+    "steps": [
+      "1. 明确汉朝对匈奴战争的时间：汉武帝时期",
+      "2. 列举主要将领：卫青、霍去病",
+      "3. 分析战争的影响：军事胜利、民族关系、疆域拓展"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到战争而未分析影响",
+        "hint": "需要全面回答战争的影响"
+      },
+      {
+        "error": "影响分析不全面",
+        "hint": "可以从军事、民族、疆域等方面展开"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-imperial-unification-q-005",
+    "node_id": "hist-m-imperial-unification",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下关于汉朝丝绸之路的描述，正确的是？",
+    "options": [
+      "A. 起点是洛阳",
+      "B. 促进了中西文化交流",
+      "C. 主要是海路交通",
+      "D. 终点是罗马"
+    ],
+    "answer": "B. 促进了中西文化交流",
+    "steps": [
+      "1. 回顾丝绸之路的起点：长安",
+      "2. 分析丝绸之路的作用：促进中西文化交流",
+      "3. 明确丝绸之路主要是陆路而非海路"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A",
+        "hint": "丝绸之路的起点是长安，不是洛阳"
+      },
+      {
+        "error": "误选C",
+        "hint": "丝绸之路主要是陆路交通"
+      },
+      {
+        "error": "误选D",
+        "hint": "终点是欧洲，而非特指罗马"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-imperial-unification-q-006",
+    "node_id": "hist-m-imperial-unification",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析秦朝和汉朝在加强中央集权方面的异同。",
+    "answer": "相同点：1. 都建立了中央集权制度；2. 都实行郡县制；3. 都重视思想控制。不同点：1. 秦朝以法家思想为指导，汉朝以儒家思想为指导；2. 秦朝实行严刑峻法，汉朝注重休养生息；3. 汉朝在地方管理上有所创新，如设立刺史制度。",
+    "steps": [
+      "1. 明确比较的主题：加强中央集权",
+      "2. 分析秦朝和汉朝的具体措施：制度、思想、政策",
+      "3. 总结异同：相同点和不同点"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到相同点或不同点",
+        "hint": "需要全面分析异同"
+      },
+      {
+        "error": "分析不深入",
+        "hint": "可以从制度、思想、政策等方面展开"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-imperial-unification-q-007",
+    "node_id": "hist-m-imperial-unification",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "以下关于秦朝灭亡的原因，描述不正确的是？",
+    "options": [
+      "A. 严刑峻法导致民怨沸腾",
+      "B. 焚书坑儒引起知识分子不满",
+      "C. 修建长城过度役使民力",
+      "D. 实行分封制导致地方割据"
+    ],
+    "answer": "D. 实行分封制导致地方割据",
+    "steps": [
+      "1. 分析秦朝灭亡的主要原因：暴政、役使民力、思想控制",
+      "2. 回顾秦朝的地方管理制度：郡县制而非分封制",
+      "3. 确认分封制是错误的说法"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A或B或C",
+        "hint": "这些都是秦朝灭亡的真正原因"
+      },
+      {
+        "error": "误选D",
+        "hint": "秦朝实行的是郡县制，不是分封制"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

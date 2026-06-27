@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math-m-quadratic-function-q-001",
+    "node_id": "math-m-quadratic-function",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "二次函数 y = 2x² - 4x + 1 的开口方向是：",
+    "options": [
+      "A. 向上",
+      "B. 向下",
+      "C. 向左",
+      "D. 向右"
+    ],
+    "answer": "A. 向上",
+    "steps": [
+      "二次函数的标准形式为 y = ax² + bx + c，其中 a 决定开口方向。",
+      "当 a > 0 时，抛物线开口向上；当 a < 0 时，抛物线开口向下。",
+      "在此题中，a = 2 > 0，所以抛物线开口向上。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为 a 的绝对值决定开口方向",
+        "hint": "开口方向只由 a 的正负决定，与绝对值无关。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-m-quadratic-function-q-002",
+    "node_id": "math-m-quadratic-function",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "二次函数 y = -3x² + 6x - 2 的顶点坐标是 ________。",
+    "answer": "(1, 1)",
+    "steps": [
+      "二次函数的顶点坐标公式为 x = -b/(2a)。",
+      "代入中，a = -3, b = 6，得到 x = -6/(2*(-3)) = 1。",
+      "将 x = 1 代入原函数求 y 值：y = -3(1)² + 6(1) - 2 = 1。",
+      "所以顶点坐标为 (1, 1)。"
+    ],
+    "common_errors": [
+      {
+        "error": "忘记代入 x 值求 y 值",
+        "hint": "顶点坐标需要同时满足 x 和 y 值。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-quadratic-function-q-003",
+    "node_id": "math-m-quadratic-function",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "二次函数 y = x² - 4x + 4 的图像与 x 轴的交点个数是：",
+    "options": [
+      "A. 0 个",
+      "B. 1 个",
+      "C. 2 个",
+      "D. 3 个"
+    ],
+    "answer": "B. 1 个",
+    "steps": [
+      "求交点个数即求方程 x² - 4x + 4 = 0 的解。",
+      "因式分解得 (x - 2)² = 0。",
+      "解得 x = 2，所以图像与 x 轴有 1 个交点。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为有两个交点",
+        "hint": "当判别式为零时，抛物线与 x 轴有 1 个交点。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-quadratic-function-q-004",
+    "node_id": "math-m-quadratic-function",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "已知二次函数 y = ax² + bx + c 的图像经过点 (1, 2), (2, 1), (-1, 4)，求 a, b, c 的值。",
+    "answer": "a = 1, b = -2, c = 3",
+    "steps": [
+      "将三个点代入二次函数方程得到方程组：",
+      "a(1)² + b(1) + c = 2",
+      "a(2)² + b(2) + c = 1",
+      "a(-1)² + b(-1) + c = 4",
+      "解方程组：",
+      "a + b + c = 2",
+      "4a + 2b + c = 1",
+      "a - b + c = 4",
+      "解得 a = 1, b = -2, c = 3。"
+    ],
+    "common_errors": [
+      {
+        "error": "计算错误或方程组解错",
+        "hint": "仔细检查每一步的计算过程。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-quadratic-function-q-005",
+    "node_id": "math-m-quadratic-function",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "二次函数 y = 2x² - 8x + 5 的对称轴和顶点坐标分别是多少？",
+    "answer": "对称轴为 x = 2，顶点坐标为 (2, -3)",
+    "steps": [
+      "对称轴公式为 x = -b/(2a)。",
+      "代入 a = 2, b = -8，得到 x = 8/(4) = 2。",
+      "将 x = 2 代入原函数求 y 值：y = 2(2)² - 8(2) + 5 = -3。",
+      "所以对称轴为 x = 2，顶点坐标为 (2, -3)。"
+    ],
+    "common_errors": [
+      {
+        "error": "对称轴计算错误",
+        "hint": "确保计算过程中不遗漏符号。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-m-quadratic-function-q-006",
+    "node_id": "math-m-quadratic-function",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "已知二次函数 y = x² - 6x + 5 的图像与 x 轴的交点坐标是多少？",
+    "answer": "交点坐标为 (1, 0) 和 (5, 0)",
+    "steps": [
+      "求交点坐标即求方程 x² - 6x + 5 = 0 的解。",
+      "因式分解得 (x - 1)(x - 5) = 0。",
+      "解得 x = 1 和 x = 5。",
+      "所以交点坐标为 (1, 0) 和 (5, 0)。"
+    ],
+    "common_errors": [
+      {
+        "error": "因式分解错误",
+        "hint": "仔细检查因式分解的步骤。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-m-quadratic-function-q-007",
+    "node_id": "math-m-quadratic-function",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "二次函数 y = x² - 4x + 3 的图像与 y 轴的交点坐标是多少？",
+    "answer": "交点坐标为 (0, 3)",
+    "steps": [
+      "求与 y 轴的交点即求 x = 0 时的 y 值。",
+      "代入 x = 0，得到 y = 0² - 4(0) + 3 = 3。",
+      "所以交点坐标为 (0, 3)。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将 y 轴交点理解为 x 轴交点",
+        "hint": "y 轴交点即 x = 0 时的点。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-quadratic-function-q-008",
+    "node_id": "math-m-quadratic-function",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "二次函数 y = -x² + 2x + 3 的图像的开口方向、对称轴和顶点坐标分别是多少？",
+    "answer": "开口方向向下，对称轴为 x = 1，顶点坐标为 (1, 4)",
+    "steps": [
+      "开口方向由 a 决定，a = -1 < 0，所以开口向下。",
+      "对称轴公式为 x = -b/(2a)。",
+      "代入 a = -1, b = 2，得到 x = -2/(-2) = 1。",
+      "将 x = 1 代入原函数求 y 值：y = -(1)² + 2(1) + 3 = 4。",
+      "所以顶点坐标为 (1, 4)。"
+    ],
+    "common_errors": [
+      {
+        "error": "开口方向判断错误",
+        "hint": "注意 a 的正负。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-quadratic-function-q-009",
+    "node_id": "math-m-quadratic-function",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "二次函数 y = x² - 2x + 1 的图像与 x 轴的交点坐标是多少？",
+    "answer": "交点坐标为 (1, 0)",
+    "steps": [
+      "求交点坐标即求方程 x² - 2x + 1 = 0 的解。",
+      "因式分解得 (x - 1)² = 0。",
+      "解得 x = 1。",
+      "所以交点坐标为 (1, 0)。"
+    ],
+    "common_errors": [
+      {
+        "error": "判别式计算错误",
+        "hint": "检查判别式是否为零。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-quadratic-function-q-010",
+    "node_id": "math-m-quadratic-function",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "已知二次函数 y = ax² + bx + c 的图像经过点 (0, 1), (1, 3), (2, 7)，求 a, b, c 的值。",
+    "answer": "a = 2, b = -1, c = 1",
+    "steps": [
+      "将三个点代入二次函数方程得到方程组：",
+      "a(0)² + b(0) + c = 1",
+      "a(1)² + b(1) + c = 3",
+      "a(2)² + b(2) + c = 7",
+      "解方程组：",
+      "c = 1",
+      "a + b + 1 = 3",
+      "4a + 2b + 1 = 7",
+      "解得 a = 2, b = -1, c = 1。"
+    ],
+    "common_errors": [
+      {
+        "error": "计算错误或方程组解错",
+        "hint": "仔细检查每一步的计算过程。"
+      }
+    ],
+    "exam_frequency": 4
+  }
+]

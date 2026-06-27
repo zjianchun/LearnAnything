@@ -1,0 +1,217 @@
+[
+  {
+    "id": "math-m-linear-equations-q-001",
+    "node_id": "math-m-linear-equations",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "某商店的某种商品售价为50元，比进价高出20%。那么该商品的进价是多少元？",
+    "options": [
+      "A. 40元",
+      "B. 41.67元",
+      "C. 42元",
+      "D. 45元"
+    ],
+    "answer": "B. 41.67元",
+    "steps": [
+      "设该商品的进价为x元。",
+      "根据题意，售价=进价+进价×20%，即50=x+0.2x。",
+      "解方程：50=1.2x，x=50/1.2=41.67。"
+    ],
+    "common_errors": [
+      {
+        "error": "直接用50×0.2计算错误",
+        "hint": "注意题目要求的是进价，而不是利润"
+      },
+      {
+        "error": "没有正确列出方程",
+        "hint": "根据题意列出正确的方程是解题的关键"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-linear-equations-q-002",
+    "node_id": "math-m-linear-equations",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "小明今年12岁，他的父亲比他大25岁。问多少年后，小明的年龄是他父亲年龄的一半？",
+    "answer": "13",
+    "steps": [
+      "设x年后，小明的年龄是他父亲年龄的一半。",
+      "根据题意，12+x=(37+x)/2。",
+      "解方程：2(12+x)=37+x，24+2x=37+x，x=13。"
+    ],
+    "common_errors": [
+      {
+        "error": "没有正确列出方程",
+        "hint": "注意父子年龄的关系"
+      },
+      {
+        "error": "计算错误",
+        "hint": "仔细计算，避免粗心"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-linear-equations-q-003",
+    "node_id": "math-m-linear-equations",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "某工程队计划在30天内完成一项工程，前10天完成了工程的1/4。问剩下的工程需要多少天才能完成？",
+    "answer": "60天",
+    "steps": [
+      "设整个工程量为1。",
+      "前10天完成的工程量为1/4。",
+      "剩下的工程量为1-1/4=3/4。",
+      "前10天完成的工程量对应的天数为10天，所以每天完成的工程量为1/4÷10=1/40。",
+      "剩下的工程量为3/4，需要的天数为(3/4)/(1/40)=30天。",
+      "总共需要的天数为10+30=40天。"
+    ],
+    "common_errors": [
+      {
+        "error": "没有正确理解题意",
+        "hint": "注意题目要求的是剩下的工程需要多少天"
+      },
+      {
+        "error": "计算错误",
+        "hint": "仔细计算，避免粗心"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-linear-equations-q-004",
+    "node_id": "math-m-linear-equations",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "某商品经过两次降价后，价格从100元降到81元。问平均每次降价的百分率是多少？",
+    "answer": "10%",
+    "steps": [
+      "设平均每次降价的百分率为x%。",
+      "根据题意，100×(1-x%)²=81。",
+      "解方程：(1-x%)²=0.81，1-x%=0.9，x%=10。"
+    ],
+    "common_errors": [
+      {
+        "error": "没有正确理解题意",
+        "hint": "注意题目要求的是平均每次降价的百分率"
+      },
+      {
+        "error": "计算错误",
+        "hint": "仔细计算，避免粗心"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-linear-equations-q-005",
+    "node_id": "math-m-linear-equations",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "某校学生总数为1200人，其中男生占60%。问女生有多少人？",
+    "answer": "480人",
+    "steps": [
+      "设女生有x人。",
+      "根据题意，男生人数为1200×60%=720人。",
+      "女生人数为1200-720=480人。"
+    ],
+    "common_errors": [
+      {
+        "error": "没有正确理解题意",
+        "hint": "注意题目要求的是女生人数"
+      },
+      {
+        "error": "计算错误",
+        "hint": "仔细计算，避免粗心"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-linear-equations-q-006",
+    "node_id": "math-m-linear-equations",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "某商品的成本为200元，售价为300元。问要达到50%的利润率，售价应是多少元？",
+    "answer": "300元",
+    "steps": [
+      "设售价为x元。",
+      "根据题意，(x-200)/200=50%。",
+      "解方程：x-200=100，x=300。"
+    ],
+    "common_errors": [
+      {
+        "error": "没有正确理解题意",
+        "hint": "注意题目要求的是达到50%的利润率"
+      },
+      {
+        "error": "计算错误",
+        "hint": "仔细计算，避免粗心"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-linear-equations-q-007",
+    "node_id": "math-m-linear-equations",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "某商店以每件80元的价格购进一批商品，按每件100元的价格出售。问售出多少件商品才能获得利润3000元？",
+    "options": [
+      "A. 150件",
+      "B. 200件",
+      "C. 250件",
+      "D. 300件"
+    ],
+    "answer": "A. 150件",
+    "steps": [
+      "设售出x件商品。",
+      "根据题意，(100-80)x=3000。",
+      "解方程：20x=3000，x=150。"
+    ],
+    "common_errors": [
+      {
+        "error": "没有正确理解题意",
+        "hint": "注意题目要求的是售出多少件商品"
+      },
+      {
+        "error": "计算错误",
+        "hint": "仔细计算，避免粗心"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-linear-equations-q-008",
+    "node_id": "math-m-linear-equations",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "某商店购进一批商品，售价为120元，利润率是20%。问该商品的成本是多少元？",
+    "answer": "100元",
+    "steps": [
+      "设成本为x元。",
+      "根据题意，(120-x)/x=20%。",
+      "解方程：120-x=0.2x，120=1.2x，x=100。"
+    ],
+    "common_errors": [
+      {
+        "error": "没有正确理解题意",
+        "hint": "注意题目要求的是成本"
+      },
+      {
+        "error": "计算错误",
+        "hint": "仔细计算，避免粗心"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

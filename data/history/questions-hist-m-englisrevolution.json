@@ -1,0 +1,223 @@
+[
+  {
+    "id": "hist-m-english-revolution-q-001",
+    "node_id": "hist-m-english-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "英国资产阶级革命开始的标志性事件是？",
+    "options": [
+      "A. 1640年议会重新召开",
+      "B. 1649年查理一世被处死",
+      "C. 1688年光荣革命",
+      "D. 1689年《权利法案》颁布"
+    ],
+    "answer": "A. 1640年议会重新召开",
+    "steps": [
+      "英国资产阶级革命开始于1640年查理一世为了筹集军费而被迫重新召开议会",
+      "这次议会的召开标志着英国资产阶级革命的开始",
+      "因此正确答案是A选项"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B选项",
+        "hint": "查理一世被处死是革命过程中的事件，不是开始的标志"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-english-revolution-q-002",
+    "node_id": "hist-m-english-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "英国资产阶级革命后，确立了__________的君主立宪制。",
+    "answer": "议会权力至上",
+    "steps": [
+      "英国资产阶级革命后，通过《权利法案》等一系列法律文件确立了君主立宪制",
+      "这种制度的核心是议会权力至上，国王权力受到限制",
+      "因此答案为议会权力至上"
+    ],
+    "common_errors": [
+      {
+        "error": "填写'君主权力至上'",
+        "hint": "英国革命后国王权力被削弱，议会成为权力中心"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-english-revolution-q-003",
+    "node_id": "hist-m-english-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "英国资产阶级革命完成的标志是？",
+    "options": [
+      "A. 1649年查理一世被处死",
+      "B. 1688年光荣革命",
+      "C. 1689年《权利法案》颁布",
+      "D. 1701年《王位继承法》颁布"
+    ],
+    "answer": "B. 1688年光荣革命",
+    "steps": [
+      "光荣革命标志着英国资产阶级革命的完成，因为它以不流血的方式实现了政权更迭",
+      "此后英国逐渐确立了君主立宪制",
+      "因此正确答案是B选项"
+    ],
+    "common_errors": [
+      {
+        "error": "误选C选项",
+        "hint": "《权利法案》颁布是巩固革命成果的重要步骤，但不是完成的标志"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-english-revolution-q-004",
+    "node_id": "hist-m-english-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下哪项不属于英国资产阶级革命的影响？",
+    "options": [
+      "A. 推翻了封建君主专制",
+      "B. 确立了议会权力至上的原则",
+      "C. 建立了民主共和制",
+      "D. 促进了资本主义的发展"
+    ],
+    "answer": "C. 建立了民主共和制",
+    "steps": [
+      "英国资产阶级革命推翻了封建君主专制，确立了君主立宪制",
+      "革命后议会权力至上，国王权力受到限制",
+      "革命促进了资本主义的发展",
+      "英国并未建立民主共和制，因此正确答案是C选项"
+    ],
+    "common_errors": [
+      {
+        "error": "误选D选项",
+        "hint": "英国资产阶级革命确实促进了资本主义的发展，这是其重要影响之一"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-english-revolution-q-005",
+    "node_id": "hist-m-english-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述英国资产阶级革命的意义。",
+    "answer": "英国资产阶级革命推翻了封建君主专制，确立了君主立宪制，为英国资本主义的发展开辟了道路。它标志着世界近代史的开端，对其他国家的资产阶级革命产生了深远影响。",
+    "steps": [
+      "首先指出革命推翻了封建君主专制，确立了君主立宪制",
+      "其次说明革命对英国资本主义发展的促进作用",
+      "最后阐述革命对世界近代史和其他国家革命的影响"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到革命对英国的影响，忽略对世界的影响",
+        "hint": "需要全面分析革命的意义，包括对世界的影响"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-english-revolution-q-006",
+    "node_id": "hist-m-english-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下哪项法律文件标志着英国君主立宪制的确立？",
+    "options": [
+      "A. 《权利法案》",
+      "B. 《王位继承法》",
+      "C. 《三年法案》",
+      "D. 《宽容法案》"
+    ],
+    "answer": "A. 《权利法案》",
+    "steps": [
+      "《权利法案》于1689年颁布，限制了国王的权力，确立了议会至上的原则",
+      "这是英国君主立宪制确立的标志",
+      "因此正确答案是A选项"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B选项",
+        "hint": "《王位继承法》是对王位继承问题的规定，不是君主立宪制确立的标志"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-english-revolution-q-007",
+    "node_id": "hist-m-english-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "为什么说英国资产阶级革命是世界近代史的开端？",
+    "answer": "英国资产阶级革命是世界近代史的开端，因为它推翻了封建制度，建立了资本主义制度，标志着人类社会从封建社会向资本主义社会的过渡。这种制度变革对世界历史发展产生了深远影响，引领了全球范围内的资产阶级革命浪潮。",
+    "steps": [
+      "首先说明革命推翻了封建制度，建立了资本主义制度",
+      "其次阐述这种制度变革对世界历史的影响",
+      "最后解释其对全球资产阶级革命的影响"
+    ],
+    "common_errors": [
+      {
+        "error": "仅从英国国内角度分析",
+        "hint": "需要从世界历史发展的角度进行阐述"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-english-revolution-q-008",
+    "node_id": "hist-m-english-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "以下哪项不是英国资产阶级革命的特点？",
+    "options": [
+      "A. 革命过程较为漫长",
+      "B. 革命以和平方式完成",
+      "C. 革命后建立了君主立宪制",
+      "D. 革命中宗教因素占主导"
+    ],
+    "answer": "D. 革命中宗教因素占主导",
+    "steps": [
+      "英国资产阶级革命过程较为漫长，经历了多次战争和政权更迭",
+      "光荣革命以和平方式完成",
+      "革命后建立了君主立宪制",
+      "宗教因素虽然存在，但不是革命的主导因素，因此正确答案是D选项"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B选项",
+        "hint": "光荣革命虽然以和平方式完成，但不能概括整个革命过程"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "hist-m-english-revolution-q-009",
+    "node_id": "hist-m-english-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析英国资产阶级革命对欧洲其他国家的影响。",
+    "answer": "英国资产阶级革命对欧洲其他国家产生了示范作用，推动了欧洲范围内的资产阶级革命浪潮。它促使欧洲其他国家思考和探索适合本国国情的政治制度变革道路，对欧洲的政治格局产生了深远影响。",
+    "steps": [
+      "首先说明革命对欧洲国家的示范作用",
+      "其次阐述其对欧洲资产阶级革命浪潮的推动作用",
+      "最后分析对欧洲政治格局的影响"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到对英国国内的影响",
+        "hint": "需要重点分析对欧洲其他国家的影响"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

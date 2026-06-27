@@ -1,0 +1,195 @@
+[
+  {
+    "id": "eng-m-nouns-articles-q-001",
+    "node_id": "eng-m-nouns-articles",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "I have _____ apple and _____ banana on the table.",
+    "options": [
+      "A. a, a",
+      "B. an, a",
+      "C. a, an",
+      "D. an, an"
+    ],
+    "answer": "B. an, a",
+    "steps": [
+      "1. 判断apple和banana的音标：apple /ˈæpəl/，banana /bəˈnænə/。",
+      "2. apple以元音音素开头，因此用an；banana以辅音音素开头，因此用a。",
+      "3. 确认选项B符合上述规则。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用a和an",
+        "hint": "记住，a用于辅音音素开头的单词，an用于元音音素开头的单词。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-nouns-articles-q-002",
+    "node_id": "eng-m-nouns-articles",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "There are ______ (many) books on the shelf.",
+    "answer": "many",
+    "steps": [
+      "1. 识别空格前的be动词are。",
+      "2. many作为形容词可以直接修饰复数名词books。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用much",
+        "hint": "much用于修饰不可数名词，而books是可数名词复数形式。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-nouns-articles-q-003",
+    "node_id": "eng-m-nouns-articles",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "She is ______ English teacher and she teaches ______ math.",
+    "options": [
+      "A. a, the",
+      "B. an, /",
+      "C. the, a",
+      "D. /, the"
+    ],
+    "answer": "B. an, /",
+    "steps": [
+      "1. English以元音音素开头，因此用an。",
+      "2. 在表示职业的名词前不加冠词，因此teacher前不加冠词。",
+      "3. teach后直接接学科名称时，不加冠词，因此math前不加冠词。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用a",
+        "hint": "English以元音音素开头，因此用an。"
+      },
+      {
+        "error": "误加冠词",
+        "hint": "在表示职业的名词和学科名称前通常不加冠词。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-nouns-articles-q-004",
+    "node_id": "eng-m-nouns-articles",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "The cat is sitting on ______ (it) own chair.",
+    "answer": "its",
+    "steps": [
+      "1. 识别空格后的own，说明空格处需要填一个形容词性物主代词。",
+      "2. it的形容词性物主代词是its。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用it's",
+        "hint": "it's是it is的缩写形式，而此处需要形容词性物主代词。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-nouns-articles-q-005",
+    "node_id": "eng-m-nouns-articles",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "There is ______ milk in the fridge. Do you want some?",
+    "options": [
+      "A. a",
+      "B. an",
+      "C. the",
+      "D. /"
+    ],
+    "answer": "D. /",
+    "steps": [
+      "1. milk是不可数名词。",
+      "2. 在表示泛指时，不可数名词前不加冠词。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用a或an",
+        "hint": "不可数名词前不加a或an。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-nouns-articles-q-006",
+    "node_id": "eng-m-nouns-articles",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请写出下列句子的正确形式：The boys are playing with a football. (改为复数形式)",
+    "answer": "The boys are playing with footballs.",
+    "steps": [
+      "1. 识别句子中的名词football。",
+      "2. football是可数名词，复数形式为footballs。",
+      "3. 确认句子其他部分保持不变。"
+    ],
+    "common_errors": [
+      {
+        "error": "误加冠词",
+        "hint": "在复数名词前不加不定冠词a。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "eng-m-nouns-articles-q-007",
+    "node_id": "eng-m-nouns-articles",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释为什么在句子“I have a pen and an eraser.”中，pen前用a，而eraser前用an。",
+    "answer": "pen以辅音音素开头，因此用a；eraser以元音音素开头，因此用an。",
+    "steps": [
+      "1. 分析pen和eraser的音标：pen /pen/，eraser /ɪˈreɪzə(r)/。",
+      "2. pen以辅音音素/p/开头，因此用a。",
+      "3. eraser以元音音素/ɪ/开头，因此用an。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用a或an",
+        "hint": "判断用a还是an取决于单词的第一个音素是辅音还是元音。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "eng-m-nouns-articles-q-008",
+    "node_id": "eng-m-nouns-articles",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "______ (he) brother is a doctor.",
+    "options": [
+      "A. He",
+      "B. His",
+      "C. Him",
+      "D. The"
+    ],
+    "answer": "B. His",
+    "steps": [
+      "1. 识别空格后的名词brother。",
+      "2. brother是名词，需要用形容词性物主代词来修饰。",
+      "3. he的形容词性物主代词是his。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用he或him",
+        "hint": "he和him是主格和宾格形式，而此处需要形容词性物主代词。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

@@ -1,0 +1,220 @@
+[
+  {
+    "id": "eng-m-oral-topic-q-001",
+    "node_id": "eng-m-oral-topic",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "When someone asks you 'How are you?', which of the following is the most appropriate response?",
+    "options": [
+      "A. I'm 20 years old.",
+      "B. I'm fine, thank you.",
+      "C. I'm a student.",
+      "D. I'm from Wuhan."
+    ],
+    "answer": "B. I'm fine, thank you.",
+    "steps": [
+      "1. Understand that 'How are you?' is a common greeting in English.",
+      "2. Recognize that the question is asking about your well-being, not for personal information.",
+      "3. Choose the response that acknowledges the greeting and expresses gratitude."
+    ],
+    "common_errors": [
+      {
+        "error": "Choosing a response that provides personal information (e.g., 'I'm 20 years old.').",
+        "hint": "Remember that 'How are you?' is a greeting, not a question about personal details."
+      },
+      {
+        "error": "Choosing a response that is unrelated to the greeting (e.g., 'I'm a student.').",
+        "hint": "Ensure the response is appropriate for the context of the question."
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-oral-topic-q-002",
+    "node_id": "eng-m-oral-topic",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "If someone says 'Thank you' to you, you should reply with '______.'",
+    "answer": "You're welcome",
+    "steps": [
+      "1. Recognize that 'Thank you' is an expression of gratitude.",
+      "2. Identify the appropriate polite response to express that the help was no trouble.",
+      "3. Fill in the blank with the correct phrase."
+    ],
+    "common_errors": [
+      {
+        "error": "Writing 'No problem' or 'No worries'.",
+        "hint": "While these are acceptable in casual conversation, 'You're welcome' is the most formal and widely accepted response."
+      },
+      {
+        "error": "Writing 'Thank you'.",
+        "hint": "Remember that the response should acknowledge the gratitude, not repeat it."
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-oral-topic-q-003",
+    "node_id": "eng-m-oral-topic",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "If you want to ask someone for directions to the library, which of the following is the most appropriate question?",
+    "options": [
+      "A. Where is the library?",
+      "B. Can you tell me where the library is?",
+      "C. How can I get to the library?",
+      "D. All of the above."
+    ],
+    "answer": "D. All of the above.",
+    "steps": [
+      "1. Understand that there are multiple ways to ask for directions in English.",
+      "2. Recognize that each option is a valid way to inquire about the library's location.",
+      "3. Choose the option that includes all the correct ways to ask for directions."
+    ],
+    "common_errors": [
+      {
+        "error": "Choosing only one of the options (e.g., 'A. Where is the library?').",
+        "hint": "Remember that all the options are appropriate ways to ask for directions."
+      },
+      {
+        "error": "Choosing 'None of the above'.",
+        "hint": "Ensure that you understand that each option is a valid question."
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-oral-topic-q-004",
+    "node_id": "eng-m-oral-topic",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "How would you ask a friend if they are free to hang out this weekend?",
+    "answer": "Are you free this weekend?/Do you want to hang out this weekend?/Are you available this weekend?",
+    "steps": [
+      "1. Identify the key elements of the question: asking about availability and suggesting an activity.",
+      "2. Formulate a question that is casual and friendly, suitable for a friend.",
+      "3. Provide one of the acceptable phrasings."
+    ],
+    "common_errors": [
+      {
+        "error": "Asking 'Do you have time this weekend?'.",
+        "hint": "While grammatically correct, this phrasing is slightly more formal than necessary for a friend."
+      },
+      {
+        "error": "Asking 'Can you hang out this weekend?'.",
+        "hint": "This implies capability rather than availability. It's better to ask if they are free or want to hang out."
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-oral-topic-q-005",
+    "node_id": "eng-m-oral-topic",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "Which of the following is a correct way to express an opinion?",
+    "options": [
+      "A. I think that...",
+      "B. I don't know...",
+      "C. I can't...",
+      "D. I am... "
+    ],
+    "answer": "A. I think that...",
+    "steps": [
+      "1. Recognize that expressing an opinion requires a phrase that indicates personal belief or judgment.",
+      "2. Identify the option that best conveys this meaning.",
+      "3. Choose the option that uses the correct grammatical structure for expressing an opinion."
+    ],
+    "common_errors": [
+      {
+        "error": "Choosing 'I don't know...'.",
+        "hint": "This phrase indicates uncertainty, not an opinion."
+      },
+      {
+        "error": "Choosing 'I am...'.",
+        "hint": "This phrase is used for descriptions, not for expressing opinions."
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-oral-topic-q-006",
+    "node_id": "eng-m-oral-topic",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "How would you politely disagree with someone's opinion during a discussion?",
+    "answer": "I see your point, but I have a different opinion./I understand what you're saying, but I disagree./I respect your opinion, but I have a different view.",
+    "steps": [
+      "1. Identify the need to balance politeness with the expression of disagreement.",
+      "2. Formulate a response that acknowledges the other person's perspective.",
+      "3. Provide a phrasing that expresses disagreement without being confrontational."
+    ],
+    "common_errors": [
+      {
+        "error": "Using a phrase that is too direct, such as 'I disagree with you.'.",
+        "hint": "Remember to be polite and avoid confrontation when expressing disagreement."
+      },
+      {
+        "error": "Ignoring the other person's opinion completely.",
+        "hint": "It's important to acknowledge their perspective before stating your own."
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-oral-topic-q-007",
+    "node_id": "eng-m-oral-topic",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "When inviting someone to a party, you might say, 'Would you like to come to my party on Saturday?' The response could be '______.'",
+    "answer": "Yes, I'd love to./Sure, thank you for inviting me./Yes, that sounds great.",
+    "steps": [
+      "1. Recognize that the response should convey acceptance and gratitude.",
+      "2. Identify the appropriate positive reply to the invitation.",
+      "3. Fill in the blank with the correct phrasing."
+    ],
+    "common_errors": [
+      {
+        "error": "Responding with 'No, I can't.'.",
+        "hint": "While grammatically correct, this response is negative and does not fit the context of accepting an invitation."
+      },
+      {
+        "error": "Responding with 'I don't know.'.",
+        "hint": "This response is too uncertain and does not provide a clear answer."
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-oral-topic-q-008",
+    "node_id": "eng-m-oral-topic",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "How would you apologize for being late to a meeting?",
+    "answer": "I'm sorry for being late./I apologize for my tardiness./Sorry for keeping you waiting.",
+    "steps": [
+      "1. Identify the need to express regret for the delay.",
+      "2. Formulate a response that is sincere and acknowledges the inconvenience caused.",
+      "3. Provide a phrasing that is appropriate for the situation."
+    ],
+    "common_errors": [
+      {
+        "error": "Offering an excuse without apologizing.",
+        "hint": "While providing a reason is okay, it should be preceded by an apology."
+      },
+      {
+        "error": "Using informal language, such as 'My bad.'.",
+        "hint": "Remember to use formal language in a professional setting."
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

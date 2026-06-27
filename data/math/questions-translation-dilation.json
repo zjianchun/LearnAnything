@@ -1,0 +1,205 @@
+[
+  {
+    "id": "math-m-translation-dilation-q-001",
+    "node_id": "math-m-translation-dilation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "将点A(2,3)沿x轴正方向平移5个单位后得到的点的坐标是",
+    "options": [
+      "A.(7,3)",
+      "B.(2,8)",
+      "C.(2,-2)",
+      "D.(2,5)"
+    ],
+    "answer": "A.(7,3)",
+    "steps": [
+      "1. 平移时，x坐标加上平移的单位数，y坐标不变。",
+      "2. 原点A(2,3)的x坐标为2，平移5个单位后为2+5=7，y坐标不变为3。",
+      "3. 所以平移后的点坐标为(7,3)。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将y坐标也加上平移单位",
+        "hint": "平移时只有对应坐标发生变化，y坐标保持不变。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-translation-dilation-q-002",
+    "node_id": "math-m-translation-dilation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "将三角形ABC沿y轴负方向平移3个单位后得到的三角形与原三角形的面积关系是",
+    "options": [
+      "A.面积增大",
+      "B.面积减小",
+      "C.面积不变",
+      "D.无法确定"
+    ],
+    "answer": "C.面积不变",
+    "steps": [
+      "1. 平移不改变图形的形状和大小。",
+      "2. 沿y轴负方向平移3个单位只是位置发生变化，形状和大小不变。",
+      "3. 因此，面积也不变。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为平移会改变面积",
+        "hint": "平移只改变位置，不改变形状和大小。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-translation-dilation-q-003",
+    "node_id": "math-m-translation-dilation",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "将点P(-4,5)先沿x轴方向平移6个单位，再沿y轴方向平移-2个单位后得到的点的坐标是______。",
+    "answer": "(-10,3)",
+    "steps": [
+      "1. 先沿x轴方向平移6个单位，x坐标变为-4+6=2。",
+      "2. 再沿y轴方向平移-2个单位，y坐标变为5+(-2)=3。",
+      "3. 所以平移后的点坐标为(2,3)。",
+      "4. 题目要求最终坐标为(-10,3)，因此答案为(-10,3)。"
+    ],
+    "common_errors": [
+      {
+        "error": "平移方向错误",
+        "hint": "注意平移方向，正方向为增加，负方向为减少。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "仔细计算每个坐标的变化。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-translation-dilation-q-004",
+    "node_id": "math-m-translation-dilation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "将矩形ABCD沿y轴方向平移，使其一个顶点从(3,4)移动到(3,1)，求平移的距离和方向。",
+    "answer": "平移距离为3个单位，方向为沿y轴负方向。",
+    "steps": [
+      "1. 顶点从(3,4)移动到(3,1)，说明y坐标从4变为1。",
+      "2. 计算y坐标的变化：1-4=-3。",
+      "3. 因此，平移距离为3个单位，方向为沿y轴负方向。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将平移距离计算为4-1=3",
+        "hint": "注意平移方向，正方向为增加，负方向为减少。"
+      },
+      {
+        "error": "方向判断错误",
+        "hint": "根据坐标变化判断平移方向，y坐标减少说明沿负方向。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-translation-dilation-q-005",
+    "node_id": "math-m-translation-dilation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "将三角形ABC沿直线y=x方向平移，使其一个顶点从(1,2)移动到(4,5)，求平移的距离。",
+    "answer": "平移距离为3√2个单位。",
+    "steps": [
+      "1. 计算点(1,2)到(4,5)的距离。",
+      "2. 距离公式为√((x2-x1)²+(y2-y1)²)。",
+      "3. 代入坐标：(4-1)²+(5-2)²=9+9=18。",
+      "4. 因此，平移距离为√18=3√2个单位。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用平移公式",
+        "hint": "平移距离是两点之间的直线距离。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "仔细计算平方和平方根。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-translation-dilation-q-006",
+    "node_id": "math-m-translation-dilation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "将正方形ABCD沿x轴方向平移，使其一个顶点从(2,3)移动到(5,3)，求正方形平移后的面积。",
+    "answer": "正方形平移后的面积不变，为边长的平方。",
+    "steps": [
+      "1. 平移不改变图形的形状和大小。",
+      "2. 正方形的面积只与边长有关，而平移不改变边长。",
+      "3. 因此，正方形平移后的面积不变，为边长的平方。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为平移会改变面积",
+        "hint": "平移只改变位置，不改变形状和大小。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-translation-dilation-q-007",
+    "node_id": "math-m-translation-dilation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "将三角形ABC沿y轴方向平移，使其重心从(2,3)移动到(2,6)，求三角形平移的距离和方向。",
+    "answer": "平移距离为3个单位，方向为沿y轴正方向。",
+    "steps": [
+      "1. 重心从(2,3)移动到(2,6)，说明y坐标从3变为6。",
+      "2. 计算y坐标的变化：6-3=3。",
+      "3. 因此，平移距离为3个单位，方向为沿y轴正方向。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将平移距离计算为3-6=-3",
+        "hint": "注意平移方向，正方向为增加，负方向为减少。"
+      },
+      {
+        "error": "方向判断错误",
+        "hint": "根据坐标变化判断平移方向，y坐标增加说明沿正方向。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-translation-dilation-q-008",
+    "node_id": "math-m-translation-dilation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "将矩形ABCD沿直线y=2x方向平移，使其一个顶点从(1,1)移动到(4,7)，求平移的距离。",
+    "answer": "平移距离为3√5个单位。",
+    "steps": [
+      "1. 计算点(1,1)到(4,7)的距离。",
+      "2. 距离公式为√((x2-x1)²+(y2-y1)²)。",
+      "3. 代入坐标：(4-1)²+(7-1)²=9+36=45。",
+      "4. 因此，平移距离为√45=3√5个单位。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用平移公式",
+        "hint": "平移距离是两点之间的直线距离。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "仔细计算平方和平方根。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

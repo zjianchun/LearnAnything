@@ -1,0 +1,194 @@
+[
+  {
+    "id": "geo-m-continents-oceans-q-001",
+    "node_id": "geo-m-continents-oceans",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "地球上面积最大的大洲是哪个？",
+    "options": [
+      "A. 亚洲",
+      "B. 非洲",
+      "C. 北美洲",
+      "D. 南美洲"
+    ],
+    "answer": "A. 亚洲",
+    "steps": [
+      "1. 回忆七大洲的面积大小排序",
+      "2. 亚洲是面积最大的大洲",
+      "3. 其他选项面积均小于亚洲"
+    ],
+    "common_errors": [
+      {
+        "error": "误选非洲为面积最大",
+        "hint": "非洲面积小于亚洲，亚洲是面积最大的大洲"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-continents-oceans-q-002",
+    "node_id": "geo-m-continents-oceans",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "地球上面积最大的大洋是______。",
+    "answer": "太平洋",
+    "steps": [
+      "1. 回忆四大洋的面积大小排序",
+      "2. 太平洋是面积最大的大洋"
+    ],
+    "common_errors": [
+      {
+        "error": "误填大西洋",
+        "hint": "太平洋面积大于大西洋，是面积最大的大洋"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-continents-oceans-q-003",
+    "node_id": "geo-m-continents-oceans",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下关于板块构造学说的描述，哪一项是正确的？",
+    "options": [
+      "A. 地球表面由七大板块构成",
+      "B. 板块内部地壳运动活跃",
+      "C. 板块交界处多火山、地震",
+      "D. 板块运动不会引起海陆变迁"
+    ],
+    "answer": "C. 板块交界处多火山、地震",
+    "steps": [
+      "1. 回顾板块构造学说的基本内容",
+      "2. 板块交界处是地壳运动活跃地带",
+      "3. 板块运动会导致火山、地震和海陆变迁"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A或B",
+        "hint": "板块数量不是固定的七大板块，板块内部地壳运动相对稳定"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-continents-oceans-q-004",
+    "node_id": "geo-m-continents-oceans",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列关于大陆漂移学说的说法，正确的是？",
+    "options": [
+      "A. 地球表面由一个整体大陆分裂而成",
+      "B. 大陆漂移是由地球自转引起的",
+      "C. 大陆漂移学说已被完全否定",
+      "D. 大陆漂移学说是板块构造学说的前身"
+    ],
+    "answer": "D. 大陆漂移学说是板块构造学说的前身",
+    "steps": [
+      "1. 了解大陆漂移学说的提出背景",
+      "2. 认识到大陆漂移学说是板块构造学说的理论基础之一",
+      "3. 排除其他错误选项"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A或B",
+        "hint": "大陆漂移学说并非由地球自转引起，地球表面并非一开始就分裂成现在的大陆形态"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-continents-oceans-q-005",
+    "node_id": "geo-m-continents-oceans",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述海陆变迁的主要原因。",
+    "answer": "海陆变迁的主要原因包括地壳运动（如板块运动）、海平面升降（如冰川融化导致的海平面上升）和人类活动（如填海造陆）。",
+    "steps": [
+      "1. 列举海陆变迁的自然原因",
+      "2. 补充人类活动对海陆变迁的影响",
+      "3. 整理语言，确保答案完整"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到地壳运动或海平面变化",
+        "hint": "海陆变迁是多种因素共同作用的结果，需要全面考虑"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-continents-oceans-q-006",
+    "node_id": "geo-m-continents-oceans",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "解释为什么板块交界处多火山、地震。",
+    "answer": "板块交界处是地壳运动最活跃的区域，板块之间的碰撞、挤压或分离会导致岩层断裂、变形，从而引发火山喷发和地震。",
+    "steps": [
+      "1. 说明板块交界处的地壳运动特点",
+      "2. 解释地壳运动如何引发火山、地震",
+      "3. 强调板块运动与火山、地震的因果关系"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到板块运动而未解释具体机制",
+        "hint": "需要具体说明板块运动如何导致火山、地震"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-continents-oceans-q-007",
+    "node_id": "geo-m-continents-oceans",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "下列关于海沟和岛弧的说法，正确的是？",
+    "options": [
+      "A. 海沟和岛弧总是成对出现",
+      "B. 海沟是板块张裂形成的",
+      "C. 岛弧是由火山喷发形成的",
+      "D. 海沟和岛弧是板块碰撞的产物"
+    ],
+    "answer": "D. 海沟和岛弧是板块碰撞的产物",
+    "steps": [
+      "1. 回顾海沟和岛弧的形成机制",
+      "2. 认识到海沟和岛弧是板块碰撞挤压形成的",
+      "3. 排除其他错误选项"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A或B",
+        "hint": "并非所有海沟和岛弧都成对出现，海沟不是由板块张裂形成的"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "geo-m-continents-oceans-q-008",
+    "node_id": "geo-m-continents-oceans",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析武汉地区是否会发生海陆变迁，并说明理由。",
+    "answer": "武汉地区不会发生显著的海陆变迁。因为武汉位于中国大陆内部，远离板块边界，地壳运动相对稳定，且没有明显的海平面升降趋势。",
+    "steps": [
+      "1. 考虑武汉的地理位置",
+      "2. 分析地壳运动对武汉的影响",
+      "3. 评估海平面变化的可能性",
+      "4. 得出结论并说明理由"
+    ],
+    "common_errors": [
+      {
+        "error": "认为武汉会发生海陆变迁",
+        "hint": "武汉远离板块边界，地壳运动不活跃"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

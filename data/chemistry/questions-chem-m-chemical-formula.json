@@ -1,0 +1,226 @@
+[
+  {
+    "id": "chem-m-chemical-formula-q-001",
+    "node_id": "chem-m-chemical-formula",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列物质中，氯元素的化合价为+1价的是：",
+    "options": [
+      "A. HCl",
+      "B. Cl2",
+      "C. HClO",
+      "D. KClO3"
+    ],
+    "answer": "C. HClO",
+    "steps": [
+      "1. 确定氯元素在不同物质中的化合价。",
+      "2. HCl中，H为+1价，Cl为-1价。",
+      "3. Cl2为单质，化合价为0。",
+      "4. HClO中，H为+1价，O为-2价，Cl为+1价。",
+      "5. KClO3中，K为+1价，O为-2价，Cl为+5价。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为HCl中Cl的化合价为+1",
+        "hint": "H的化合价通常为+1，Cl的化合价应为-1。"
+      },
+      {
+        "error": "误认为Cl2中Cl的化合价为+2",
+        "hint": "单质的化合价为0。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chem-m-chemical-formula-q-002",
+    "node_id": "chem-m-chemical-formula",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "写出硫酸钠的化学式：",
+    "answer": "Na2SO4",
+    "steps": [
+      "1. 确定钠元素的化合价为+1。",
+      "2. 确定硫酸根的化合价为-2。",
+      "3. 根据化合价代数和为0，确定钠离子的个数为2，硫酸根的个数为1。"
+    ],
+    "common_errors": [
+      {
+        "error": "误写为NaSO4",
+        "hint": "钠离子的个数应为2，以平衡硫酸根的-2价。"
+      },
+      {
+        "error": "误写为Na2S",
+        "hint": "硫酸根应包含硫和氧，而不是单独的硫。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-chemical-formula-q-003",
+    "node_id": "chem-m-chemical-formula",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列物质中，铁元素的化合价为+3价的是：",
+    "options": [
+      "A. FeO",
+      "B. Fe2O3",
+      "C. FeCl2",
+      "D. FeSO4"
+    ],
+    "answer": "B. Fe2O3",
+    "steps": [
+      "1. 确定铁元素在不同物质中的化合价。",
+      "2. FeO中，O为-2价，Fe为+2价。",
+      "3. Fe2O3中，O为-2价，Fe为+3价。",
+      "4. FeCl2中，Cl为-1价，Fe为+2价。",
+      "5. FeSO4中，SO4为-2价，Fe为+2价。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为FeO中Fe的化合价为+3",
+        "hint": "氧的化合价为-2，Fe的化合价应为+2。"
+      },
+      {
+        "error": "误认为FeCl2中Fe的化合价为+3",
+        "hint": "氯的化合价为-1，Fe的化合价应为+2。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chem-m-chemical-formula-q-004",
+    "node_id": "chem-m-chemical-formula",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "已知某金属元素M的氧化物化学式为M2O3，求M的化合价。",
+    "answer": "M的化合价为+3。",
+    "steps": [
+      "1. 确定氧元素的化合价为-2。",
+      "2. 设M的化合价为x，则2x + 3(-2) = 0。",
+      "3. 解方程：2x - 6 = 0，x = +3。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为M的化合价为+2",
+        "hint": "氧的化合价为-2，需根据化学式平衡计算。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "仔细检查方程的解。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-chemical-formula-q-005",
+    "node_id": "chem-m-chemical-formula",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "写出氯化铵的化学式，并计算其中氮元素的化合价。",
+    "answer": "NH4Cl，氮元素的化合价为-3。",
+    "steps": [
+      "1. 确定铵根（NH4+）的化合价为+1。",
+      "2. 确定氯元素的化合价为-1。",
+      "3. 铵根中，H的化合价为+1，氮的化合价为x，则x + 4(+1) = +1，解得x = -3。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为氮的化合价为+3",
+        "hint": "铵根中氮的化合价为-3。"
+      },
+      {
+        "error": "化学式写错",
+        "hint": "氯化铵的化学式为NH4Cl。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-chemical-formula-q-006",
+    "node_id": "chem-m-chemical-formula",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列物质中，氧元素的化合价为-1价的是：",
+    "options": [
+      "A. H2O",
+      "B. H2O2",
+      "C. CO2",
+      "D. Na2O"
+    ],
+    "answer": "B. H2O2",
+    "steps": [
+      "1. 确定氧元素在不同物质中的化合价。",
+      "2. H2O中，H为+1价，O为-2价。",
+      "3. H2O2中，H为+1价，O为-1价。",
+      "4. CO2中，C为+4价，O为-2价。",
+      "5. Na2O中，Na为+1价，O为-2价。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为H2O2中氧的化合价为-2",
+        "hint": "过氧化氢中氧的化合价为-1。"
+      },
+      {
+        "error": "误认为CO2中氧的化合价为-1",
+        "hint": "二氧化碳中氧的化合价为-2。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-chemical-formula-q-007",
+    "node_id": "chem-m-chemical-formula",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "已知某非金属元素X的氯化物化学式为XCl3，求X的化合价，并写出X的氧化物的化学式。",
+    "answer": "X的化合价为+3，X的氧化物的化学式为X2O3。",
+    "steps": [
+      "1. 确定氯元素的化合价为-1。",
+      "2. 设X的化合价为x，则x + 3(-1) = 0，解得x = +3。",
+      "3. X的氧化物中，X为+3价，氧为-2价，则化学式为X2O3。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为X的化合价为+2",
+        "hint": "氯的化合价为-1，需根据化学式平衡计算。"
+      },
+      {
+        "error": "化学式写错",
+        "hint": "X的氧化物的化学式应为X2O3。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-chemical-formula-q-008",
+    "node_id": "chem-m-chemical-formula",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "某金属元素Y的硝酸盐化学式为Y(NO3)2，求Y的化合价，并写出Y的氧化物的化学式。",
+    "answer": "Y的化合价为+2，Y的氧化物的化学式为YO。",
+    "steps": [
+      "1. 确定硝酸根（NO3-）的化合价为-1。",
+      "2. 设Y的化合价为y，则y + 2(-1) = 0，解得y = +2。",
+      "3. Y的氧化物中，Y为+2价，氧为-2价，则化学式为YO。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为Y的化合价为+1",
+        "hint": "硝酸根的化合价为-1，需根据化学式平衡计算。"
+      },
+      {
+        "error": "化学式写错",
+        "hint": "Y的氧化物的化学式应为YO。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

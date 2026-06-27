@@ -1,0 +1,234 @@
+[
+  {
+    "id": "chem-m-acid-base-salt-q-001",
+    "node_id": "chem-m-acid-base-salt",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列物质中，属于酸的是（  ）。",
+    "options": [
+      "A. NaOH",
+      "B. HCl",
+      "C. NaCl",
+      "D. CaCO₃"
+    ],
+    "answer": "B. HCl",
+    "steps": [
+      "1. 回顾酸的定义：酸是电离时生成的阳离子全部是氢离子（H⁺）的化合物。",
+      "2. 分析选项：A是碱，B是酸，C是盐，D是盐。",
+      "3. 得出结论：B选项HCl是酸。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将NaCl等盐类物质认为是酸。",
+        "hint": "牢记酸的定义，盐类物质电离时不会生成H⁺。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chem-m-acid-base-salt-q-002",
+    "node_id": "chem-m-acid-base-salt",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "氢氧化钠（NaOH）和盐酸（HCl）反应的化学方程式为：________。",
+    "answer": "NaOH + HCl = NaCl + H₂O",
+    "steps": [
+      "1. 写出反应物：NaOH和HCl。",
+      "2. 分析反应类型：酸碱中和反应。",
+      "3. 写出生成物：NaCl和H₂O。",
+      "4. 配平化学方程式。"
+    ],
+    "common_errors": [
+      {
+        "error": "忘记配平或生成物写错。",
+        "hint": "中和反应生成盐和水，注意配平。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chem-m-acid-base-salt-q-003",
+    "node_id": "chem-m-acid-base-salt",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列物质中，能与硫酸铜溶液反应生成蓝色沉淀的是（  ）。",
+    "options": [
+      "A. 盐酸",
+      "B. 氢氧化钠",
+      "C. 氯化钠",
+      "D. 硝酸钾"
+    ],
+    "answer": "B. 氢氧化钠",
+    "steps": [
+      "1. 回顾常见沉淀：Cu(OH)₂是蓝色沉淀。",
+      "2. 分析选项：能与Cu²⁺反应生成Cu(OH)₂的是OH⁻。",
+      "3. 得出结论：B选项氢氧化钠能与硫酸铜反应生成蓝色沉淀。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将其他物质认为是能与Cu²⁺反应生成蓝色沉淀的物质。",
+        "hint": "牢记Cu²⁺与OH⁻反应生成Cu(OH)₂。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-acid-base-salt-q-004",
+    "node_id": "chem-m-acid-base-salt",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "将二氧化碳通入澄清石灰水中，反应的化学方程式为：________。",
+    "answer": "CO₂ + Ca(OH)₂ = CaCO₃↓ + H₂O",
+    "steps": [
+      "1. 写出反应物：CO₂和Ca(OH)₂。",
+      "2. 分析反应类型：酸碱中和反应。",
+      "3. 写出生成物：CaCO₃和H₂O。",
+      "4. 配平化学方程式，注意CaCO₃是沉淀。"
+    ],
+    "common_errors": [
+      {
+        "error": "忘记CaCO₃是沉淀符号或配平错误。",
+        "hint": "沉淀符号不可省略，配平需仔细。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-acid-base-salt-q-005",
+    "node_id": "chem-m-acid-base-salt",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "如何鉴别氯化钠溶液和碳酸钠溶液？",
+    "answer": "分别取少量待测液于试管中，滴加稀盐酸，若有气泡产生，则为碳酸钠溶液；若无明显现象，则为氯化钠溶液。",
+    "steps": [
+      "1. 分析两种溶液的性质：碳酸钠溶液与酸反应生成气体，氯化钠溶液不与酸反应。",
+      "2. 选择合适的试剂：稀盐酸。",
+      "3. 描述操作步骤和现象。"
+    ],
+    "common_errors": [
+      {
+        "error": "未说明具体操作步骤或现象描述不准确。",
+        "hint": "明确操作步骤和现象描述。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-acid-base-salt-q-006",
+    "node_id": "chem-m-acid-base-salt",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "如何除去氯化钠溶液中的少量碳酸钠？",
+    "answer": "向溶液中滴加适量的稀盐酸，至不再产生气泡为止，然后蒸发结晶得到纯净的氯化钠。",
+    "steps": [
+      "1. 分析杂质性质：碳酸钠与酸反应生成气体。",
+      "2. 选择合适的试剂：稀盐酸。",
+      "3. 描述操作步骤和现象。",
+      "4. 说明最终处理方法：蒸发结晶。"
+    ],
+    "common_errors": [
+      {
+        "error": "未说明具体操作步骤或未考虑最终处理方法。",
+        "hint": "明确操作步骤和最终处理方法。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-acid-base-salt-q-007",
+    "node_id": "chem-m-acid-base-salt",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "如何鉴别氢氧化钠溶液和氢氧化钙溶液？",
+    "answer": "分别取少量待测液于试管中，通入二氧化碳气体，若出现白色沉淀，则为氢氧化钙溶液；若无明显现象，则为氢氧化钠溶液。",
+    "steps": [
+      "1. 分析两种溶液的性质：氢氧化钙与二氧化碳反应生成沉淀，氢氧化钠与二氧化碳不反应。",
+      "2. 选择合适的试剂：二氧化碳气体。",
+      "3. 描述操作步骤和现象。"
+    ],
+    "common_errors": [
+      {
+        "error": "未说明具体操作步骤或现象描述不准确。",
+        "hint": "明确操作步骤和现象描述。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "chem-m-acid-base-salt-q-008",
+    "node_id": "chem-m-acid-base-salt",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "如何除去氯化钙溶液中的少量盐酸？",
+    "answer": "向溶液中加入过量的碳酸钙粉末，搅拌至不再产生气泡为止，然后过滤除去剩余的碳酸钙，得到纯净的氯化钙溶液。",
+    "steps": [
+      "1. 分析杂质性质：盐酸与碳酸钙反应生成气体。",
+      "2. 选择合适的试剂：碳酸钙。",
+      "3. 描述操作步骤和现象。",
+      "4. 说明最终处理方法：过滤。"
+    ],
+    "common_errors": [
+      {
+        "error": "未说明具体操作步骤或未考虑最终处理方法。",
+        "hint": "明确操作步骤和最终处理方法。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "chem-m-acid-base-salt-q-009",
+    "node_id": "chem-m-acid-base-salt",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "下列物质中，能与碳酸钠溶液反应生成白色沉淀的是（  ）。",
+    "options": [
+      "A. 氢氧化钠",
+      "B. 氯化钙",
+      "C. 盐酸",
+      "D. 硝酸钠"
+    ],
+    "answer": "B. 氯化钙",
+    "steps": [
+      "1. 分析碳酸钠的性质：碳酸钠与钙离子反应生成碳酸钙沉淀。",
+      "2. 分析选项：能与Na₂CO₃反应生成沉淀的是Ca²⁺。",
+      "3. 得出结论：B选项氯化钙能与碳酸钠反应生成白色沉淀。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将其他物质认为是能与Na₂CO₃反应生成沉淀的物质。",
+        "hint": "牢记Ca²⁺与CO₃²⁻反应生成CaCO₃沉淀。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "chem-m-acid-base-salt-q-010",
+    "node_id": "chem-m-acid-base-salt",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "如何鉴别氯化钡溶液和氯化钠溶液？",
+    "answer": "分别取少量待测液于试管中，滴加稀硫酸，若出现白色沉淀，则为氯化钡溶液；若无明显现象，则为氯化钠溶液。",
+    "steps": [
+      "1. 分析两种溶液的性质：氯化钡与硫酸根反应生成硫酸钡沉淀，氯化钠不与硫酸根反应。",
+      "2. 选择合适的试剂：稀硫酸。",
+      "3. 描述操作步骤和现象。"
+    ],
+    "common_errors": [
+      {
+        "error": "未说明具体操作步骤或现象描述不准确。",
+        "hint": "明确操作步骤和现象描述。"
+      }
+    ],
+    "exam_frequency": 1
+  }
+]

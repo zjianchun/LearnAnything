@@ -1,0 +1,216 @@
+[
+  {
+    "id": "phy-m-internal-energy-q-001",
+    "node_id": "phy-m-internal-energy",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列关于内能的说法中，正确的是（   ）。",
+    "options": [
+      "A. 物体的温度越高，内能越大",
+      "B. 物体的内能增加，温度一定升高",
+      "C. 物体的内能与温度无关",
+      "D. 物体的内能与物体的质量和温度有关"
+    ],
+    "answer": "D. 物体的内能与物体的质量和温度有关",
+    "steps": [
+      "1. 内能是物体内部所有分子动能和势能的总和。",
+      "2. 内能的大小与物体的质量、温度和状态有关。",
+      "3. 温度升高，内能通常增加，但内能增加不一定是温度升高。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A",
+        "hint": "物体的内能不仅与温度有关，还与质量有关。"
+      },
+      {
+        "error": "误选B",
+        "hint": "内能增加可能是由于物体状态改变，而非温度升高。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-internal-energy-q-002",
+    "node_id": "phy-m-internal-energy",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列关于热量的说法中，正确的是（   ）。",
+    "options": [
+      "A. 热量是内能的另一种表达方式",
+      "B. 热量是物体内能变化的量度",
+      "C. 热量总是从内能大的物体传递到内能小的物体",
+      "D. 热量总是从温度高的物体传递到温度低的物体"
+    ],
+    "answer": "D. 热量总是从温度高的物体传递到温度低的物体",
+    "steps": [
+      "1. 热量是热传递过程中内能变化的量度。",
+      "2. 热传递的方向是由高温物体到低温物体。",
+      "3. 热量的传递与物体的内能大小无直接关系。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A",
+        "hint": "热量是过程量，不是状态量。"
+      },
+      {
+        "error": "误选C",
+        "hint": "热传递的方向与内能大小无直接关系，而是与温度有关。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-internal-energy-q-003",
+    "node_id": "phy-m-internal-energy",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "将质量为2kg的冷水加热，温度从20℃升高到70℃，水吸收的热量为多少？（水的比热容为4.2×10³J/(kg·℃)）",
+    "answer": "4.2×10⁵J",
+    "steps": [
+      "1. 使用公式Q=cmΔt，其中c为比热容，m为质量，Δt为温度变化。",
+      "2. 代入数据：Q=4.2×10³J/(kg·℃)×2kg×(70℃-20℃)。",
+      "3. 计算得Q=4.2×10⁵J。"
+    ],
+    "common_errors": [
+      {
+        "error": "温度变化计算错误",
+        "hint": "注意温度变化是末温减去初温。"
+      },
+      {
+        "error": "单位换算错误",
+        "hint": "确保所有单位一致，避免计算错误。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-internal-energy-q-004",
+    "node_id": "phy-m-internal-energy",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "解释为什么在热传递过程中，内能总是从高温物体传递到低温物体。",
+    "answer": "在热传递过程中，高温物体的分子运动剧烈，内能较高，而低温物体的分子运动较慢，内能较低。根据热力学第二定律，热量总是自发地从高温物体传递到低温物体，直到两者的温度相等。",
+    "steps": [
+      "1. 解释分子运动与温度的关系。",
+      "2. 说明内能的高低与温度的关系。",
+      "3. 引用热力学第二定律解释热传递的方向。"
+    ],
+    "common_errors": [
+      {
+        "error": "未提及热力学第二定律",
+        "hint": "热传递方向是由热力学第二定律决定的。"
+      },
+      {
+        "error": "解释过于简单",
+        "hint": "需要详细说明分子运动与内能的关系。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-internal-energy-q-005",
+    "node_id": "phy-m-internal-energy",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "在一个绝热容器中，将一块热铁块放入冷水中，最终达到热平衡。分析铁块和水的内能变化。",
+    "answer": "在绝热容器中，铁块和水的总内能保持不变。铁块的内能减少，水的内能增加。铁块释放的热量等于水吸收的热量，最终两者达到相同的温度。",
+    "steps": [
+      "1. 说明绝热容器的特点。",
+      "2. 分析铁块和水的内能变化。",
+      "3. 解释热量传递与内能变化的关系。"
+    ],
+    "common_errors": [
+      {
+        "error": "未考虑绝热条件",
+        "hint": "在绝热条件下，总内能保持不变。"
+      },
+      {
+        "error": "未解释热量传递",
+        "hint": "需要说明铁块释放的热量等于水吸收的热量。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-internal-energy-q-006",
+    "node_id": "phy-m-internal-energy",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "将一块质量为1kg的铝块从100℃冷却到20℃，放出的热量为多少？（铝的比热容为0.9×10³J/(kg·℃)）",
+    "answer": "7.2×10⁴J",
+    "steps": [
+      "1. 使用公式Q=cmΔt，其中c为比热容，m为质量，Δt为温度变化。",
+      "2. 代入数据：Q=0.9×10³J/(kg·℃)×1kg×(20℃-100℃)。",
+      "3. 计算得Q=-7.2×10⁴J，负号表示放出热量。"
+    ],
+    "common_errors": [
+      {
+        "error": "温度变化计算错误",
+        "hint": "注意温度变化是末温减去初温。"
+      },
+      {
+        "error": "未考虑放热",
+        "hint": "放出的热量为负值。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-internal-energy-q-007",
+    "node_id": "phy-m-internal-energy",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "下列关于热量的计算公式中，正确的是（   ）。",
+    "options": [
+      "A. Q=cmΔt",
+      "B. Q=mL",
+      "C. Q=mcΔt",
+      "D. Q=cmΔT"
+    ],
+    "answer": "A. Q=cmΔt",
+    "steps": "1. 解释热量计算公式Q=cmΔt，其中c为比热容，m为质量，Δt为温度变化。",
+    "common_errors": [
+      {
+        "error": "误选B",
+        "hint": "Q=mL是潜热公式，不是热量计算公式。"
+      },
+      {
+        "error": "误选D",
+        "hint": "温度变化用小写t表示，大写T通常表示绝对温度。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "phy-m-internal-energy-q-008",
+    "node_id": "phy-m-internal-energy",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "解释为什么在热传递过程中，内能的变化量与热量传递量相等。",
+    "answer": "根据能量守恒定律，在热传递过程中，内能的变化量等于系统吸收或放出的热量。热量传递量是内能变化的量度，因此内能的变化量与热量传递量相等。",
+    "steps": [
+      "1. 说明能量守恒定律。",
+      "2. 解释热量传递与内能变化的关系。",
+      "3. 强调热量传递量是内能变化的量度。"
+    ],
+    "common_errors": [
+      {
+        "error": "未提及能量守恒定律",
+        "hint": "能量守恒是解释热量与内能关系的基础。"
+      },
+      {
+        "error": "解释过于简单",
+        "hint": "需要详细说明热量传递与内能变化的关系。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

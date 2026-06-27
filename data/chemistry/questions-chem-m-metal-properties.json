@@ -1,0 +1,237 @@
+[
+  {
+    "id": "chem-m-metal-properties-q-001",
+    "node_id": "chem-m-metal-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列金属中，密度最小的是？",
+    "options": [
+      "A. 铁",
+      "B. 铝",
+      "C. 铜",
+      "D. 铅"
+    ],
+    "answer": "B. 铝",
+    "steps": [
+      "1. 回忆常见金属的密度：铁的密度约为7.86 g/cm³，铝的密度约为2.70 g/cm³，铜的密度约为8.96 g/cm³，铅的密度约为11.34 g/cm³。",
+      "2. 比较各选项中金属的密度，铝的密度最小。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将铁或铜的密度记为最小",
+        "hint": "复习常见金属的密度数据，注意区分。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-metal-properties-q-002",
+    "node_id": "chem-m-metal-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "金属的物理性质包括导电性、导热性、_____和_____。",
+    "answer": "延展性, 金属光泽",
+    "steps": [
+      "1. 回忆金属的物理性质：导电性、导热性、延展性、金属光泽。",
+      "2. 填写空格，注意不要遗漏任何性质。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写成化学性质",
+        "hint": "注意题目要求的是物理性质，化学性质如氧化性、还原性等。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chem-m-metal-properties-q-003",
+    "node_id": "chem-m-metal-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列反应中，属于金属氧化反应的是？",
+    "options": [
+      "A. 2H₂ + O₂ = 2H₂O",
+      "B. 2Mg + O₂ = 2MgO",
+      "C. CuO + H₂ = Cu + H₂O",
+      "D. Zn + 2HCl = ZnCl₂ + H₂↑"
+    ],
+    "answer": "B. 2Mg + O₂ = 2MgO",
+    "steps": [
+      "1. 理解氧化反应的定义：物质与氧气发生的反应。",
+      "2. 分析各选项，A是氢气的燃烧反应，B是镁的氧化反应，C是还原反应，D是置换反应。",
+      "3. 确定B选项为金属氧化反应。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将置换反应或还原反应认为是氧化反应",
+        "hint": "注意氧化反应的定义，区分不同类型的反应。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-metal-properties-q-004",
+    "node_id": "chem-m-metal-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "将铁片放入硫酸铜溶液中，反应现象是？",
+    "options": [
+      "A. 铁片表面出现红色物质，溶液由蓝色变为浅绿色",
+      "B. 铁片表面出现蓝色物质，溶液由浅绿色变为蓝色",
+      "C. 铁片表面出现黑色物质，溶液由蓝色变为无色",
+      "D. 无明显现象"
+    ],
+    "answer": "A. 铁片表面出现红色物质，溶液由蓝色变为浅绿色",
+    "steps": [
+      "1. 写出反应方程式：Fe + CuSO₄ = FeSO₄ + Cu。",
+      "2. 分析现象：铁置换出铜，铜为红色固体，硫酸亚铁溶液为浅绿色。",
+      "3. 确定答案为A。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将溶液颜色变化记错",
+        "hint": "注意硫酸铜溶液为蓝色，硫酸亚铁溶液为浅绿色。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-metal-properties-q-005",
+    "node_id": "chem-m-metal-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述金属活动性顺序在判断金属与酸反应时的应用。",
+    "answer": "在金属活动性顺序中，排在氢前面的金属能与酸反应生成氢气，排在氢后面的金属不能与酸反应。例如，锌和盐酸反应生成氢气，而铜和盐酸不反应。",
+    "steps": [
+      "1. 解释金属活动性顺序的定义。",
+      "2. 说明排在氢前面的金属能与酸反应。",
+      "3. 举例说明，如锌和盐酸反应生成氢气。",
+      "4. 强调排在氢后面的金属不能与酸反应。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将金属活动性顺序的应用记错",
+        "hint": "注意金属活动性顺序中氢的位置，以及与酸反应的条件。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-metal-properties-q-006",
+    "node_id": "chem-m-metal-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "铝在空气中与氧气反应生成_____，该物质形成一层_____膜，起到保护作用。",
+    "answer": "氧化铝, 致密",
+    "steps": [
+      "1. 写出铝与氧气反应的方程式：4Al + 3O₂ = 2Al₂O₃。",
+      "2. 填写空格：铝与氧气反应生成氧化铝。",
+      "3. 解释氧化铝膜的性质：致密且稳定。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将氧化铝的性质记错",
+        "hint": "注意氧化铝膜的致密性和保护作用。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-metal-properties-q-007",
+    "node_id": "chem-m-metal-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列金属中，不能与稀盐酸反应的是？",
+    "options": [
+      "A. 锌",
+      "B. 铁",
+      "C. 铜",
+      "D. 镁"
+    ],
+    "answer": "C. 铜",
+    "steps": [
+      "1. 回忆金属活动性顺序：Mg > Al > Zn > Fe > Cu。",
+      "2. 确定铜在氢后面，不能与稀盐酸反应。",
+      "3. 其他选项中的金属都能与稀盐酸反应。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将铜的活动性记错",
+        "hint": "注意铜在金属活动性顺序中排在氢后面。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-metal-properties-q-008",
+    "node_id": "chem-m-metal-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "解释为什么铝制品在日常生活中不易生锈。",
+    "answer": "铝在空气中与氧气反应生成一层致密的氧化铝膜，这层膜能够防止内部的铝进一步氧化，因此铝制品在日常生活中不易生锈。",
+    "steps": [
+      "1. 解释铝的氧化反应。",
+      "2. 说明氧化铝膜的性质：致密且稳定。",
+      "3. 解释氧化铝膜的保护作用。",
+      "4. 总结铝制品不易生锈的原因。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将氧化铝膜的性质记错",
+        "hint": "注意氧化铝膜的致密性和保护作用。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-metal-properties-q-009",
+    "node_id": "chem-m-metal-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "简述金属的化学性质，并举例说明。",
+    "answer": "金属的化学性质包括：1. 与氧气反应，如铁生锈生成氧化铁；2. 与酸反应，如锌与盐酸反应生成氢气和氯化锌；3. 与盐溶液反应，如铁与硫酸铜反应生成硫酸亚铁和铜。",
+    "steps": [
+      "1. 列出金属的主要化学性质。",
+      "2. 对每种性质进行解释并举例说明。",
+      "3. 强调金属的置换反应和氧化反应。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将物理性质与化学性质混淆",
+        "hint": "注意区分金属的物理性质和化学性质。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-metal-properties-q-010",
+    "node_id": "chem-m-metal-properties",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "设计一个实验，证明金属活动性顺序中铝的活动性比铁强。",
+    "answer": "将铝片和铁片分别放入硫酸铜溶液中，观察现象。铝片表面会迅速出现红色铜，而铁片表面也会出现红色铜，但速度较慢。这说明铝的活动性比铁强。",
+    "steps": [
+      "1. 写出实验步骤：准备铝片和铁片，分别放入硫酸铜溶液中。",
+      "2. 观察现象：铝片和铁片表面都会出现红色铜，但铝的反应速度更快。",
+      "3. 分析原因：铝的活动性比铁强。",
+      "4. 得出结论：铝的活动性比铁强。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将实验现象记错",
+        "hint": "注意铝和铁与硫酸铜反应的现象差异。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

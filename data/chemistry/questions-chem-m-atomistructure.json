@@ -1,0 +1,226 @@
+[
+  {
+    "id": "chem-m-atomic-structure-q-001",
+    "node_id": "chem-m-atomic-structure",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列关于原子核外电子排布的说法中，正确的是？",
+    "options": [
+      "A. 电子总是先排满内层，再排外层",
+      "B. 电子在原子核外是静止不动的",
+      "C. 电子在原子核外做无规则运动",
+      "D. 电子的排布与原子的化学性质无关"
+    ],
+    "answer": "A. 电子总是先排满内层，再排外层",
+    "steps": [
+      "1. 回顾电子排布的基本原则：电子总是先排满内层，再排外层",
+      "2. 确认电子在原子核外是运动的，而不是静止的",
+      "3. 确认电子的排布与原子的化学性质密切相关"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B或C",
+        "hint": "电子在原子核外是运动的，而不是静止的；电子的运动是有规律的，而不是无规则的"
+      },
+      {
+        "error": "误选D",
+        "hint": "电子的排布直接影响原子的化学性质，例如最外层电子数决定元素的化学性质"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-atomic-structure-q-002",
+    "node_id": "chem-m-atomic-structure",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "写出氯原子（原子序数为17）的核外电子排布式：",
+    "answer": "1s²2s²2p⁶3s²3p⁵",
+    "steps": [
+      "1. 确认氯原子的原子序数为17",
+      "2. 按照电子排布原则，从内层到外层依次填充电子",
+      "3. 写出完整的电子排布式：1s²2s²2p⁶3s²3p⁵"
+    ],
+    "common_errors": [
+      {
+        "error": "漏写某个能级的电子",
+        "hint": "仔细核对每个能级的电子数，确保总数为17"
+      },
+      {
+        "error": "排布顺序错误",
+        "hint": "严格按照1s→2s→2p→3s→3p的顺序进行排布"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-atomic-structure-q-003",
+    "node_id": "chem-m-atomic-structure",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列元素中，原子核外电子排布与氖原子相同的是？",
+    "options": [
+      "A. 钠",
+      "B. 镁",
+      "C. 氧",
+      "D. 氟"
+    ],
+    "answer": "C. 氧",
+    "steps": [
+      "1. 确认氖原子的原子序数为10，核外电子排布为1s²2s²2p⁶",
+      "2. 比较各选项中元素的原子序数与电子排布",
+      "3. 确认氧原子的原子序数为8，核外电子排布为1s²2s²2p⁴，与氖原子相同的是最外层电子数"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A或B",
+        "hint": "钠和镁的原子序数分别为11和12，电子排布与氖原子不同"
+      },
+      {
+        "error": "误选D",
+        "hint": "氟原子的原子序数为9，电子排布为1s²2s²2p⁵，与氖原子不同"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-atomic-structure-q-004",
+    "node_id": "chem-m-atomic-structure",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "解释为什么钾原子（原子序数为19）在核外电子排布中，最外层电子数为1？",
+    "answer": "钾原子的电子排布为1s²2s²2p⁶3s²3p⁶4s¹。由于3d能级能量高于4s能级，电子优先填充4s能级，因此最外层电子数为1。",
+    "steps": [
+      "1. 写出钾原子的电子排布式：1s²2s²2p⁶3s²3p⁶4s¹",
+      "2. 解释电子优先填充4s能级的原因：4s能级能量低于3d能级",
+      "3. 得出结论：最外层电子数为1"
+    ],
+    "common_errors": [
+      {
+        "error": "电子排布式错误",
+        "hint": "注意4s能级在3d能级之前填充"
+      },
+      {
+        "error": "未解释优先填充的原因",
+        "hint": "解释4s能级能量低于3d能级的原因"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-atomic-structure-q-005",
+    "node_id": "chem-m-atomic-structure",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列元素中，原子核外电子排布为1s²2s²2p⁶3s²3p³的是？",
+    "options": [
+      "A. 磷",
+      "B. 硫",
+      "C. 氯",
+      "D. 氩"
+    ],
+    "answer": "A. 磷",
+    "steps": [
+      "1. 确认电子排布式1s²2s²2p⁶3s²3p³对应的原子序数为15",
+      "2. 比较各选项中元素的原子序数",
+      "3. 确认磷原子的原子序数为15"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B或C",
+        "hint": "硫和氯的原子序数分别为16和17，电子排布式不同"
+      },
+      {
+        "error": "误选D",
+        "hint": "氩的原子序数为18，电子排布式为1s²2s²2p⁶3s²3p⁶"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-atomic-structure-q-006",
+    "node_id": "chem-m-atomic-structure",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释为什么原子核外电子排布中，4s能级的能量低于3d能级，但电子优先填充4s能级？",
+    "answer": "根据能量最低原理，电子总是优先填充能量较低的能级。虽然4s能级在主量子数上大于3d能级，但4s能级的能量实际上低于3d能级，因此电子优先填充4s能级。",
+    "steps": [
+      "1. 解释能量最低原理：电子优先填充能量较低的能级",
+      "2. 解释4s能级能量低于3d能级的原因：主量子数不是决定能量的唯一因素",
+      "3. 得出结论：电子优先填充4s能级"
+    ],
+    "common_errors": [
+      {
+        "error": "未解释能量最低原理",
+        "hint": "明确指出电子优先填充能量较低的能级是能量最低原理的体现"
+      },
+      {
+        "error": "未解释4s能级能量低于3d能级的原因",
+        "hint": "解释主量子数不是决定能量的唯一因素"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-atomic-structure-q-007",
+    "node_id": "chem-m-atomic-structure",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "下列关于原子核外电子排布的说法中，正确的是？",
+    "options": [
+      "A. 电子的排布只受核电荷的影响",
+      "B. 电子的排布只受能级能量的影响",
+      "C. 电子的排布受核电荷和能级能量的共同影响",
+      "D. 电子的排布不受任何因素影响"
+    ],
+    "answer": "C. 电子的排布受核电荷和能级能量的共同影响",
+    "steps": [
+      "1. 确认电子的排布受多种因素影响",
+      "2. 确认核电荷和能级能量是影响电子排布的主要因素",
+      "3. 排除其他错误选项"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A或B",
+        "hint": "电子的排布受多种因素影响，而不是单一因素"
+      },
+      {
+        "error": "误选D",
+        "hint": "电子的排布受多种因素影响，而不是不受任何影响"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-atomic-structure-q-008",
+    "node_id": "chem-m-atomic-structure",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "写出铁原子（原子序数为26）的核外电子排布式：",
+    "answer": "1s²2s²2p⁶3s²3p⁶3d⁶4s²",
+    "steps": [
+      "1. 确认铁原子的原子序数为26",
+      "2. 按照电子排布原则，从内层到外层依次填充电子",
+      "3. 写出完整的电子排布式：1s²2s²2p⁶3s²3p⁶3d⁶4s²"
+    ],
+    "common_errors": [
+      {
+        "error": "漏写某个能级的电子",
+        "hint": "仔细核对每个能级的电子数，确保总数为26"
+      },
+      {
+        "error": "排布顺序错误",
+        "hint": "严格按照1s→2s→2p→3s→3p→3d→4s的顺序进行排布"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

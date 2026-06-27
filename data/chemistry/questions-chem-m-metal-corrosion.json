@@ -1,0 +1,230 @@
+[
+  {
+    "id": "chem-m-metal-corrosion-q-001",
+    "node_id": "chem-m-metal-corrosion",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列哪种金属在常温常压下最容易生锈？",
+    "options": [
+      "A. 铝",
+      "B. 铁",
+      "C. 金",
+      "D. 银"
+    ],
+    "answer": "B. 铁",
+    "steps": [
+      "铁在空气中容易与氧气和水反应生成氢氧化铁，进而形成铁锈。",
+      "铝、金和银在常温常压下不易生锈，铝会形成氧化铝保护层，金和银化学性质稳定。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选铝",
+        "hint": "虽然铝也容易氧化，但会形成致密的氧化铝保护层，阻止进一步氧化。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chem-m-metal-corrosion-q-002",
+    "node_id": "chem-m-metal-corrosion",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "铁锈的主要成分是_____。",
+    "answer": "氢氧化铁",
+    "steps": [
+      "铁锈的主要成分是氢氧化铁，化学式为Fe(OH)3。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填氧化铁",
+        "hint": "氧化铁是铁锈的成分之一，但不是主要成分。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-metal-corrosion-q-003",
+    "node_id": "chem-m-metal-corrosion",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列哪种方法不能有效防止铁生锈？",
+    "options": [
+      "A. 涂油",
+      "B. 放在潮湿环境中",
+      "C. 镀锌",
+      "D. 保持干燥"
+    ],
+    "answer": "B. 放在潮湿环境中",
+    "steps": [
+      "铁生锈需要水和氧气，涂油、镀锌和保持干燥都能有效防止铁生锈。",
+      "放在潮湿环境中会加速铁的生锈。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A",
+        "hint": "涂油可以隔绝空气和水，防止铁生锈。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-metal-corrosion-q-004",
+    "node_id": "chem-m-metal-corrosion",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "为了防止铁生锈，可以在铁制品表面镀上一层_____。",
+    "answer": "锌",
+    "steps": [
+      "镀锌可以形成牺牲阳极保护铁不被氧化。",
+      "锌在空气中会形成氧化锌保护层。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填铜",
+        "hint": "铜不能有效防止铁生锈，反而会加速铁的氧化。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-metal-corrosion-q-005",
+    "node_id": "chem-m-metal-corrosion",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列哪种金属可以用来制作牺牲阳极来保护铁？",
+    "options": [
+      "A. 铜",
+      "B. 锌",
+      "C. 银",
+      "D. 金"
+    ],
+    "answer": "B. 锌",
+    "steps": [
+      "牺牲阳极需要比铁更活泼的金属。",
+      "锌的活泼性比铁强，可以作为牺牲阳极。",
+      "铜、银和金都不如铁活泼。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A",
+        "hint": "铜不如铁活泼，不能作为牺牲阳极。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-metal-corrosion-q-006",
+    "node_id": "chem-m-metal-corrosion",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "解释为什么铝制品在空气中不易生锈。",
+    "answer": "铝在空气中容易与氧气反应生成氧化铝，氧化铝形成一层致密的保护膜，阻止铝进一步氧化，因此铝制品在空气中不易生锈。",
+    "steps": [
+      "铝与氧气反应生成氧化铝。",
+      "氧化铝形成致密的保护膜。",
+      "保护膜阻止铝进一步氧化。"
+    ],
+    "common_errors": [
+      {
+        "error": "未提到氧化铝保护膜",
+        "hint": "关键在于氧化铝形成的保护膜。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-metal-corrosion-q-007",
+    "node_id": "chem-m-metal-corrosion",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "铁生锈需要_____和_____两个条件。",
+    "answer": "氧气,水",
+    "steps": [
+      "铁生锈是铁与氧气和水共同作用的结果。"
+    ],
+    "common_errors": [
+      {
+        "error": "漏填水",
+        "hint": "水是铁生锈的必要条件之一。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chem-m-metal-corrosion-q-008",
+    "node_id": "chem-m-metal-corrosion",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "下列哪种方法可以减缓铁的生锈速度？",
+    "options": [
+      "A. 涂油漆",
+      "B. 放在盐水中",
+      "C. 加热",
+      "D. 放在酸中"
+    ],
+    "answer": "A. 涂油漆",
+    "steps": [
+      "涂油漆可以隔绝空气和水。",
+      "放在盐水中会加速铁的生锈。",
+      "加热和放在酸中都会加速铁的氧化。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B",
+        "hint": "盐水是电解质，会加速铁的生锈。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "chem-m-metal-corrosion-q-009",
+    "node_id": "chem-m-metal-corrosion",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "解释为什么不锈钢不易生锈。",
+    "answer": "不锈钢中含有铬元素，铬在空气中容易与氧气反应生成氧化铬，氧化铬形成一层致密的保护膜，阻止铁的氧化，因此不锈钢不易生锈。",
+    "steps": [
+      "不锈钢中含有铬。",
+      "铬与氧气反应生成氧化铬。",
+      "氧化铬形成保护膜。",
+      "保护膜阻止铁的氧化。"
+    ],
+    "common_errors": [
+      {
+        "error": "未提到铬",
+        "hint": "关键在于铬形成的保护膜。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "chem-m-metal-corrosion-q-010",
+    "node_id": "chem-m-metal-corrosion",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "设计一个实验，验证铁生锈需要水和氧气。",
+    "answer": "设计三个实验组：1. 将铁钉放在干燥的空气中；2. 将铁钉完全浸入水中并密封；3. 将铁钉部分浸入水中并暴露在空气中。观察铁钉的生锈情况。结果发现第3组铁钉生锈最严重，说明铁生锈需要水和氧气。",
+    "steps": [
+      "设计三个实验组。",
+      "观察铁钉的生锈情况。",
+      "分析实验结果。"
+    ],
+    "common_errors": [
+      {
+        "error": "未设计对照组",
+        "hint": "需要设计对照组来验证条件。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

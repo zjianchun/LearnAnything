@@ -1,0 +1,231 @@
+[
+  {
+    "id": "phy-m-atmospheric-pressure-q-001",
+    "node_id": "phy-m-atmospheric-pressure",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列关于大气压强的说法中，正确的是（  ）",
+    "options": [
+      "A. 大气压强随海拔高度的增加而减小",
+      "B. 大气压强随温度的升高而减小",
+      "C. 大气压强在晴天比阴天小",
+      "D. 大气压强在冬天比夏天小"
+    ],
+    "answer": "A. 大气压强随海拔高度的增加而减小",
+    "steps": [
+      "1. 大气压强是由于空气的重量产生的。",
+      "2. 随着海拔高度的增加，空气的密度减小，因此大气压强减小。",
+      "3. 温度变化和天气状况对大气压强的影响相对较小。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为温度或天气状况对大气压强的影响较大",
+        "hint": "温度和天气状况对大气压强的影响较小，主要影响因素是海拔高度。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "phy-m-atmospheric-pressure-q-002",
+    "node_id": "phy-m-atmospheric-pressure",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "一个标准大气压等于________毫米汞柱。",
+    "answer": "760",
+    "steps": [
+      "1. 一个标准大气压的定义是760毫米汞柱。",
+      "2. 这是大气压强的标准单位换算值。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填为其他数值，如750或780",
+        "hint": "记住标准大气压的数值是760毫米汞柱。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-atmospheric-pressure-q-003",
+    "node_id": "phy-m-atmospheric-pressure",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "在下列现象中，与大气压强无关的是（  ）",
+    "options": [
+      "A. 吸盘能吸附在光滑的墙面上",
+      "B. 医生用针筒抽取药液",
+      "C. 茶壶盖上留有小孔",
+      "D. 瀑布从高处流下"
+    ],
+    "answer": "D. 瀑布从高处流下",
+    "steps": [
+      "1. 吸盘吸附、针筒抽取药液和茶壶盖上的小孔都与大气压强有关。",
+      "2. 瀑布流动是由于重力作用，与大气压强无关。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为瀑布流动与大气压强有关",
+        "hint": "瀑布流动是由重力引起的，与大气压强无关。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-atmospheric-pressure-q-004",
+    "node_id": "phy-m-atmospheric-pressure",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "在海拔3000米的高山上，大气压强约为（  ）",
+    "options": [
+      "A. 0.7个标准大气压",
+      "B. 1个标准大气压",
+      "C. 1.3个标准大气压",
+      "D. 0.5个标准大气压"
+    ],
+    "answer": "A. 0.7个标准大气压",
+    "steps": [
+      "1. 海拔每升高1000米，大气压强大约降低0.1个标准大气压。",
+      "2. 在3000米高山上，大气压强约为0.7个标准大气压。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为大气压强随海拔升高而增加",
+        "hint": "大气压强随海拔升高而减小。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-atmospheric-pressure-q-005",
+    "node_id": "phy-m-atmospheric-pressure",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "解释为什么在高山上煮饭时，饭不容易煮熟。",
+    "answer": "在高山上，大气压强较低，水的沸点降低，导致水的沸点低于100摄氏度。由于水的温度无法达到100摄氏度，饭不容易煮熟。",
+    "steps": [
+      "1. 大气压强随海拔升高而减小。",
+      "2. 水的沸点与大气压强有关，大气压强降低时，水的沸点也降低。",
+      "3. 在高山上，水的沸点低于100摄氏度，因此饭不容易煮熟。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为水的沸点不变",
+        "hint": "水的沸点随大气压强的变化而变化。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-atmospheric-pressure-q-006",
+    "node_id": "phy-m-atmospheric-pressure",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "一个标准大气压等于________帕斯卡（Pa）。",
+    "answer": "101325",
+    "steps": [
+      "1. 一个标准大气压等于101325帕斯卡。",
+      "2. 这是大气压强的国际单位制表示。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填为其他数值，如100000或102000",
+        "hint": "记住标准大气压的数值是101325帕斯卡。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-atmospheric-pressure-q-007",
+    "node_id": "phy-m-atmospheric-pressure",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列关于大气压强的应用实例中，正确的是（  ）",
+    "options": [
+      "A. 医生用针筒抽取药液时，利用了大气压强",
+      "B. 吸管吸饮料时，利用了大气压强",
+      "C. 茶壶盖上留有小孔时，利用了大气压强",
+      "D. 以上都正确"
+    ],
+    "answer": "D. 以上都正确",
+    "steps": [
+      "1. 针筒抽取药液、吸管吸饮料和茶壶盖上的小孔都与大气压强有关。",
+      "2. 这些应用实例都利用了大气压强的原理。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为只有部分实例与大气压强有关",
+        "hint": "所有提到的实例都与大气压强有关。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "phy-m-atmospheric-pressure-q-008",
+    "node_id": "phy-m-atmospheric-pressure",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "解释为什么在高原地区，水的沸点会降低。",
+    "answer": "在高原地区，由于海拔较高，大气压强较低。根据水的沸点与大气压强的关系，大气压强降低时，水的沸点也降低。因此，在高原地区，水的沸点会低于100摄氏度。",
+    "steps": [
+      "1. 大气压强随海拔升高而减小。",
+      "2. 水的沸点与大气压强有关，大气压强降低时，水的沸点也降低。",
+      "3. 在高原地区，大气压强较低，所以水的沸点会降低。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为高原地区大气压强不变",
+        "hint": "高原地区大气压强较低。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-atmospheric-pressure-q-009",
+    "node_id": "phy-m-atmospheric-pressure",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "一个密闭容器内气体压强大于外界大气压强，解释其原因。",
+    "answer": "密闭容器内的气体压强大于外界大气压强，可能是由于以下原因：1. 容器内的气体被压缩，导致气体分子密度增加；2. 容器内的温度升高，导致气体分子的平均动能增加，从而使气体压强增大。",
+    "steps": [
+      "1. 气体压强的产生是由于气体分子对容器壁的碰撞。",
+      "2. 气体被压缩或温度升高都会导致气体分子的密度或平均动能增加。",
+      "3. 这些因素都会导致气体压强增大。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为气体压强只与体积有关",
+        "hint": "气体压强与体积、温度和分子数量都有关。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "phy-m-atmospheric-pressure-q-010",
+    "node_id": "phy-m-atmospheric-pressure",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "解释为什么用吸管吸饮料时，饮料会被吸上来。",
+    "answer": "用吸管吸饮料时，吸管内的空气被吸走，导致吸管内的压强减小，而外界大气压强大于吸管内的压强。大气压强将饮料压入吸管，从而使饮料被吸上来。",
+    "steps": [
+      "1. 吸管内的空气被吸走，导致吸管内的压强减小。",
+      "2. 外界大气压强大于吸管内的压强。",
+      "3. 大气压强将饮料压入吸管。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为饮料是被吸力吸上来的",
+        "hint": "饮料是被大气压强压上来的，而不是被吸力吸上来的。"
+      }
+    ],
+    "exam_frequency": 4
+  }
+]

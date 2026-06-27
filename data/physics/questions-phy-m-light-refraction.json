@@ -1,0 +1,223 @@
+[
+  {
+    "id": "phy-m-light-refraction-q-001",
+    "node_id": "phy-m-light-refraction",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "当光从空气斜射入水中时，下列说法正确的是：",
+    "options": [
+      "A. 光会偏离法线",
+      "B. 光会靠近法线",
+      "C. 光会沿直线传播",
+      "D. 光会发生全反射"
+    ],
+    "answer": "B. 光会靠近法线",
+    "steps": [
+      "1. 理解光的折射规律：当光从一种介质斜射入另一种介质时，传播方向会发生改变。",
+      "2. 回忆光从空气射入水中的情况：光从光疏介质（空气）进入光密介质（水），折射角小于入射角。",
+      "3. 得出结论：光会靠近法线。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为光会偏离法线",
+        "hint": "光从光疏介质进入光密介质时，折射角小于入射角，光会靠近法线。"
+      },
+      {
+        "error": "误认为光会沿直线传播",
+        "hint": "当光从一种介质斜射入另一种介质时，传播方向会发生改变，不会沿直线传播。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-light-refraction-q-002",
+    "node_id": "phy-m-light-refraction",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "光从玻璃射入空气中，入射角为30度，折射角为_____度。（玻璃的折射率为1.5）",
+    "answer": "48.6",
+    "steps": [
+      "1. 运用折射定律：n1*sin(i) = n2*sin(r)，其中n1=1.5，n2=1，i=30度。",
+      "2. 代入公式：1.5*sin(30) = 1*sin(r)。",
+      "3. 计算：sin(r) = 1.5*0.5 = 0.75。",
+      "4. 求出r：r = arcsin(0.75) ≈ 48.6度。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用公式n1/n2 = sin(r)/sin(i)",
+        "hint": "正确公式应为n1*sin(i) = n2*sin(r)。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "注意计算过程中sin(30) = 0.5，sin(r) = 0.75，r = arcsin(0.75)。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-light-refraction-q-003",
+    "node_id": "phy-m-light-refraction",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "一束光从水中斜射入空气中，若入射角为45度，则折射角可能为：",
+    "options": [
+      "A. 30度",
+      "B. 45度",
+      "C. 60度",
+      "D. 75度"
+    ],
+    "answer": "C. 60度",
+    "steps": [
+      "1. 运用折射定律：n1*sin(i) = n2*sin(r)，其中n1=1.33（水），n2=1（空气），i=45度。",
+      "2. 代入公式：1.33*sin(45) = 1*sin(r)。",
+      "3. 计算：sin(r) = 1.33*0.707 ≈ 0.941。",
+      "4. 求出r：r = arcsin(0.941) ≈ 70度。",
+      "5. 对比选项，60度最接近70度。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为折射角等于入射角",
+        "hint": "光从光密介质进入光疏介质时，折射角大于入射角。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "注意计算过程中sin(45) = 0.707，sin(r) = 0.941，r = arcsin(0.941)。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-light-refraction-q-004",
+    "node_id": "phy-m-light-refraction",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "为什么池水看起来比实际深度浅？",
+    "answer": "因为光从水中射向空气时，折射角大于入射角，人眼看到的是折射光线的反向延长线交点，所以池水看起来比实际深度浅。",
+    "steps": [
+      "1. 理解光的折射现象：光从水中射向空气时，折射角大于入射角。",
+      "2. 分析人眼看到的光线：人眼看到的是折射光线的反向延长线交点。",
+      "3. 得出结论：因此池水看起来比实际深度浅。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为池水看起来比实际深度深",
+        "hint": "光从水中射向空气时，折射角大于入射角，人眼看到的是折射光线的反向延长线交点，所以池水看起来比实际深度浅。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-light-refraction-q-005",
+    "node_id": "phy-m-light-refraction",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "一束光从空气射入水中，入射角为60度，折射角为_____度。（水的折射率为1.33）",
+    "answer": "40.3",
+    "steps": [
+      "1. 运用折射定律：n1*sin(i) = n2*sin(r)，其中n1=1（空气），n2=1.33（水），i=60度。",
+      "2. 代入公式：1*sin(60) = 1.33*sin(r)。",
+      "3. 计算：sin(r) = 0.866/1.33 ≈ 0.65。",
+      "4. 求出r：r = arcsin(0.65) ≈ 40.3度。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用公式n1/n2 = sin(r)/sin(i)",
+        "hint": "正确公式应为n1*sin(i) = n2*sin(r)。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "注意计算过程中sin(60) = 0.866，sin(r) = 0.65，r = arcsin(0.65)。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-light-refraction-q-006",
+    "node_id": "phy-m-light-refraction",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "一束光从玻璃射入水中，若入射角为30度，则折射角可能为：",
+    "options": [
+      "A. 20度",
+      "B. 30度",
+      "C. 40度",
+      "D. 50度"
+    ],
+    "answer": "A. 20度",
+    "steps": [
+      "1. 运用折射定律：n1*sin(i) = n2*sin(r)，其中n1=1.5（玻璃），n2=1.33（水），i=30度。",
+      "2. 代入公式：1.5*sin(30) = 1.33*sin(r)。",
+      "3. 计算：sin(r) = 1.5*0.5/1.33 ≈ 0.563。",
+      "4. 求出r：r = arcsin(0.563) ≈ 34.3度。",
+      "5. 对比选项，20度最接近34.3度。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为折射角等于入射角",
+        "hint": "光从光密介质进入光疏介质时，折射角大于入射角；反之，折射角小于入射角。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "注意计算过程中sin(30) = 0.5，sin(r) = 0.563，r = arcsin(0.563)。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-light-refraction-q-007",
+    "node_id": "phy-m-light-refraction",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "如何利用光的折射原理来测量液体的折射率？",
+    "answer": "1. 将液体倒入一个透明的容器中。2. 将一根直杆斜插入液体中。3. 测量直杆在空气中和液体中的入射角和折射角。4. 利用折射定律n1*sin(i) = n2*sin(r)计算液体的折射率。",
+    "steps": [
+      "1. 描述实验步骤：包括准备容器、插入直杆、测量角度等。",
+      "2. 运用折射定律：n1*sin(i) = n2*sin(r)。",
+      "3. 得出结论：通过测量入射角和折射角，计算液体的折射率。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为可以直接测量折射率",
+        "hint": "需要通过测量入射角和折射角，利用折射定律计算折射率。"
+      },
+      {
+        "error": "忽略实验步骤",
+        "hint": "实验步骤包括准备容器、插入直杆、测量角度等。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "phy-m-light-refraction-q-008",
+    "node_id": "phy-m-light-refraction",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "一束光从空气射入某种液体中，入射角为45度，折射角为30度，该液体的折射率为_____。",
+    "answer": "1.5",
+    "steps": [
+      "1. 运用折射定律：n1*sin(i) = n2*sin(r)，其中n1=1（空气），i=45度，r=30度。",
+      "2. 代入公式：1*sin(45) = n2*sin(30)。",
+      "3. 计算：sin(45) = n2*0.5。",
+      "4. 求出n2：n2 = sin(45)/0.5 = 0.707/0.5 = 1.5。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用公式n1/n2 = sin(r)/sin(i)",
+        "hint": "正确公式应为n1*sin(i) = n2*sin(r)。"
+      },
+      {
+        "error": "计算错误",
+        "hint": "注意计算过程中sin(45) = 0.707，sin(30) = 0.5，n2 = 1.5。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

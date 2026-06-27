@@ -1,0 +1,226 @@
+[
+  {
+    "id": "hist-m-song-technology-q-001",
+    "node_id": "hist-m-song-technology",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "以下哪项发明是宋代的重要科技成就？",
+    "options": [
+      "A. 火药",
+      "B. 指南针",
+      "C. 造纸术",
+      "D. 印刷术"
+    ],
+    "answer": "B. 指南针",
+    "steps": [
+      "1. 回顾宋代的重要科技发明。",
+      "2. 指南针在宋代被广泛应用于航海。",
+      "3. 火药、造纸术和印刷术都是中国早期的发明，但指南针在宋代得到重大改进和应用。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A，认为火药是宋代的主要发明",
+        "hint": "火药在唐代已经发明，宋代只是进一步应用。"
+      },
+      {
+        "error": "误选C或D",
+        "hint": "造纸术和印刷术是汉朝和唐朝的发明。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-song-technology-q-002",
+    "node_id": "hist-m-song-technology",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "宋代城市中，市民的娱乐活动丰富多样，其中最受欢迎的是______。",
+    "answer": "瓦舍",
+    "steps": [
+      "1. 了解宋代城市生活的基本情况。",
+      "2. 瓦舍是宋代城市中固定的娱乐场所，提供各种表演。",
+      "3. 填写瓦舍一词。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写“勾栏”或“戏院”",
+        "hint": "勾栏是瓦舍内的表演场地，戏院是现代概念。"
+      },
+      {
+        "error": "填写“茶馆”或“酒楼”",
+        "hint": "这些是商业场所而非主要娱乐场所。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-song-technology-q-003",
+    "node_id": "hist-m-song-technology",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "宋代哪位科学家在天文学方面有突出贡献？",
+    "options": [
+      "A. 沈括",
+      "B. 郭守敬",
+      "C. 毕昇",
+      "D. 蔡伦"
+    ],
+    "answer": "A. 沈括",
+    "steps": [
+      "1. 了解宋代著名科学家的主要贡献。",
+      "2. 沈括著有《梦溪笔谈》，在天文学方面有深入研究。",
+      "3. 郭守敬是元代科学家，毕昇发明了活字印刷术，蔡伦改进了造纸术。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B，认为郭守敬是宋代人",
+        "hint": "郭守敬是元代科学家。"
+      },
+      {
+        "error": "误选C或D",
+        "hint": "毕昇和蔡伦的贡献主要在印刷和造纸方面。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-song-technology-q-004",
+    "node_id": "hist-m-song-technology",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述宋代科技进步对当时社会生活的影响。",
+    "answer": "宋代科技进步，如指南针、火药和活字印刷术的发明和应用，极大地促进了航海、军事和文化的传播。指南针的应用推动了海上贸易的发展，火药改变了战争方式，活字印刷术促进了文化的传播和知识的普及。这些科技进步不仅提升了宋代的经济实力，也丰富了市民的日常生活。",
+    "steps": [
+      "1. 列举宋代的主要科技发明。",
+      "2. 分析这些发明对社会生活的影响。",
+      "3. 总结科技进步对社会各方面的推动作用。"
+    ],
+    "common_errors": [
+      {
+        "error": "只列举发明，未分析影响",
+        "hint": "需要具体说明科技进步对社会生活的影响。"
+      },
+      {
+        "error": "影响分析过于笼统",
+        "hint": "应结合具体例子进行分析。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-song-technology-q-005",
+    "node_id": "hist-m-song-technology",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下哪项不是宋代市民的日常生活内容？",
+    "options": [
+      "A. 逛瓦舍",
+      "B. 听评书",
+      "C. 看电影",
+      "D. 喝茶"
+    ],
+    "answer": "C. 看电影",
+    "steps": [
+      "1. 了解宋代市民的日常生活。",
+      "2. 瓦舍、评书和茶馆是宋代常见的娱乐和社交场所。",
+      "3. 电影是现代发明，不属于宋代市民的日常生活内容。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A或B",
+        "hint": "逛瓦舍和听评书是宋代市民的常见活动。"
+      },
+      {
+        "error": "误选D",
+        "hint": "喝茶在宋代非常普遍，是市民日常生活的一部分。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-song-technology-q-006",
+    "node_id": "hist-m-song-technology",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析宋代科技进步的原因。",
+    "answer": "宋代科技进步的原因主要有以下几点：1. 经济繁荣：宋代商品经济发达，城市化进程加快，为科技发展提供了物质基础。2. 文化氛围浓厚：宋代重文轻武，文化教育水平高，知识分子群体庞大，促进了科技文化的交流和创新。3. 政治环境相对稳定：宋代虽然面临外部威胁，但内部政治环境相对稳定，为科技发展创造了良好的环境。4. 对外交流频繁：宋代与周边国家和地区的贸易和文化交流频繁，促进了科技的传播和发展。",
+    "steps": [
+      "1. 从经济、文化、政治和对外交流等方面分析。",
+      "2. 结合具体史实进行说明。",
+      "3. 总结科技进步的多方面原因。"
+    ],
+    "common_errors": [
+      {
+        "error": "只分析一两个方面",
+        "hint": "需要全面分析多方面原因。"
+      },
+      {
+        "error": "缺乏具体史实支撑",
+        "hint": "应结合具体例子进行说明。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "hist-m-song-technology-q-007",
+    "node_id": "hist-m-song-technology",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "宋代在______方面取得了重大突破，发明了活字印刷术。",
+    "answer": "印刷",
+    "steps": [
+      "1. 回顾宋代的主要科技发明。",
+      "2. 活字印刷术是宋代在印刷技术方面的重大突破。",
+      "3. 填写“印刷”一词。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写“造纸”或“冶金”",
+        "hint": "这些不是宋代的主要科技突破。"
+      },
+      {
+        "error": "填写“农业”或“手工业”",
+        "hint": "这些是领域而非具体技术。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "hist-m-song-technology-q-008",
+    "node_id": "hist-m-song-technology",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "宋代科技进步对世界文明的发展有何影响？",
+    "options": [
+      "A. 促进了东西方文化交流",
+      "B. 推动了欧洲的文艺复兴",
+      "C. 奠定了现代科技的基础",
+      "D. 改变了全球贸易格局"
+    ],
+    "answer": "A. 促进了东西方文化交流",
+    "steps": [
+      "1. 分析宋代科技进步对世界的影响。",
+      "2. 指南针和火药等发明通过丝绸之路和海上贸易传播到西方。",
+      "3. 这些发明促进了东西方文化的交流和融合。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B",
+        "hint": "文艺复兴是欧洲自身的社会变革。"
+      },
+      {
+        "error": "误选C或D",
+        "hint": "宋代科技对现代科技和全球贸易的影响是间接的。"
+      }
+    ],
+    "exam_frequency": 1
+  }
+]

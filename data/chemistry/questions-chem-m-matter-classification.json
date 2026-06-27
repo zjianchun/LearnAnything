@@ -1,0 +1,188 @@
+[
+  {
+    "id": "chem-m-matter-classification-q-001",
+    "node_id": "chem-m-matter-classification",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列物质中，属于纯净物的是（   ）",
+    "options": [
+      "A. 空气",
+      "B. 矿泉水",
+      "C. 氧气",
+      "D. 食盐水"
+    ],
+    "answer": "C. 氧气",
+    "steps": [
+      "1. 理解纯净物的定义：纯净物是由一种物质组成的物质。",
+      "2. 分析每个选项：空气是混合物，矿泉水是混合物，氧气是纯净物，食盐水是混合物。",
+      "3. 得出结论：氧气是纯净物。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将混合物认为是纯净物",
+        "hint": "注意区分纯净物和混合物，纯净物只有一种物质组成。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-matter-classification-q-002",
+    "node_id": "chem-m-matter-classification",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "将下列物质分类：①水 ②铁 ③氯化钠 ④空气 ⑤牛奶。属于混合物的是（   ），属于纯净物的是（   ）。",
+    "answer": "④⑤；①②③",
+    "steps": [
+      "1. 理解混合物和纯净物的定义。",
+      "2. 分析每个物质：①水是纯净物，②铁是纯净物，③氯化钠是纯净物，④空气是混合物，⑤牛奶是混合物。",
+      "3. 分类填入答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆混合物和纯净物的概念",
+        "hint": "注意区分混合物和纯净物，混合物由两种或两种以上物质组成，纯净物只有一种物质组成。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-matter-classification-q-003",
+    "node_id": "chem-m-matter-classification",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列物质中，属于化合物的是（   ）",
+    "options": [
+      "A. 氢气",
+      "B. 氯化钠",
+      "C. 空气",
+      "D. 铜"
+    ],
+    "answer": "B. 氯化钠",
+    "steps": [
+      "1. 理解化合物的定义：化合物是由两种或两种以上元素组成的纯净物。",
+      "2. 分析每个选项：氢气是单质，氯化钠是化合物，空气是混合物，铜是单质。",
+      "3. 得出结论：氯化钠是化合物。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将单质认为是化合物",
+        "hint": "注意区分单质和化合物，单质只有一种元素组成，化合物由两种或两种以上元素组成。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-matter-classification-q-004",
+    "node_id": "chem-m-matter-classification",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列物质中，既属于氧化物又属于化合物的是（   ）",
+    "options": [
+      "A. 氧气",
+      "B. 二氧化碳",
+      "C. 空气",
+      "D. 氯化钠"
+    ],
+    "answer": "B. 二氧化碳",
+    "steps": [
+      "1. 理解氧化物的定义：氧化物是由两种元素组成，其中一种是氧元素的化合物。",
+      "2. 分析每个选项：氧气是单质，二氧化碳是氧化物，空气是混合物，氯化钠是化合物但不是氧化物。",
+      "3. 得出结论：二氧化碳既是氧化物又是化合物。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将单质或混合物认为是氧化物",
+        "hint": "注意氧化物必须是化合物，且必须含有氧元素。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-matter-classification-q-005",
+    "node_id": "chem-m-matter-classification",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "将下列物质分类：①二氧化碳 ②氮气 ③水 ④氧气 ⑤氢气。属于单质的是（   ），属于化合物的是（   ），属于氧化物的的是（   ）。",
+    "answer": "②④⑤；①③；①③",
+    "steps": [
+      "1. 理解单质、化合物和氧化物的定义。",
+      "2. 分析每个物质：①二氧化碳是化合物也是氧化物，②氮气是单质，③水是化合物也是氧化物，④氧气是单质，⑤氢气是单质。",
+      "3. 分类填入答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将氧化物认为是单质",
+        "hint": "注意氧化物必须是化合物，且必须含有氧元素。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-matter-classification-q-006",
+    "node_id": "chem-m-matter-classification",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释为什么金属氧化物一定是化合物。",
+    "answer": "金属氧化物是由金属元素和氧元素组成的物质。根据化合物的定义，化合物是由两种或两种以上元素组成的纯净物。因此，金属氧化物一定是化合物。",
+    "steps": [
+      "1. 明确金属氧化物的组成：金属元素和氧元素。",
+      "2. 回顾化合物的定义：化合物是由两种或两种以上元素组成的纯净物。",
+      "3. 得出结论：金属氧化物符合化合物的定义，所以一定是化合物。"
+    ],
+    "common_errors": [
+      {
+        "error": "认为金属氧化物可能是单质",
+        "hint": "金属氧化物必须含有两种元素，因此不可能是单质。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-matter-classification-q-007",
+    "node_id": "chem-m-matter-classification",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请举例说明混合物和纯净物的区别，并说明如何区分它们。",
+    "answer": "混合物是由两种或两种以上物质混合而成的，例如空气、矿泉水等。纯净物是由一种物质组成的，例如氧气、水等。区分它们的方法是观察物质的组成：如果一种物质由多种成分组成，则为混合物；如果只有一种成分，则为纯净物。",
+    "steps": [
+      "1. 定义混合物和纯净物。",
+      "2. 举例说明：混合物如空气、矿泉水；纯净物如氧气、水。",
+      "3. 说明区分方法：观察物质的组成。"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆混合物和纯净物的概念",
+        "hint": "注意混合物和纯净物的定义，混合物由多种物质组成，纯净物只有一种物质组成。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chem-m-matter-classification-q-008",
+    "node_id": "chem-m-matter-classification",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请说明氧化物、化合物和单质之间的关系，并举例说明。",
+    "answer": "单质是由一种元素组成的纯净物，例如氧气、氮气等。化合物是由两种或两种以上元素组成的纯净物，例如水、二氧化碳等。氧化物是化合物的一种特殊形式，是由两种元素组成，其中一种是氧元素的化合物，例如二氧化碳、水等。因此，氧化物一定是化合物，而化合物不一定是氧化物；单质既不是化合物也不是氧化物。",
+    "steps": [
+      "1. 定义单质、化合物和氧化物。",
+      "2. 说明它们之间的关系：氧化物是化合物的一种，化合物和单质是互斥的。",
+      "3. 举例说明：氧气是单质，水是化合物也是氧化物，二氧化碳是化合物也是氧化物。"
+    ],
+    "common_errors": [
+      {
+        "error": "认为氧化物可能是单质",
+        "hint": "氧化物必须是化合物，且必须含有氧元素。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

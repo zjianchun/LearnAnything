@@ -1,0 +1,178 @@
+[
+  {
+    "id": "math-m-triangle-basics-q-001",
+    "node_id": "math-m-triangle-basics",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "在三角形ABC中，∠A=50°，∠B=60°，则∠C的度数是？",
+    "options": [
+      "A. 50°",
+      "B. 60°",
+      "C. 70°",
+      "D. 80°"
+    ],
+    "answer": "C. 70°",
+    "steps": [
+      "1. 根据三角形内角和定理，三角形内角和为180°。",
+      "2. 计算∠C的度数：180° - ∠A - ∠B = 180° - 50° - 60° = 70°。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将∠A和∠B相加后直接得出结果。",
+        "hint": "注意三角形内角和为180°，需要用180°减去已知的两个角。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-triangle-basics-q-002",
+    "node_id": "math-m-triangle-basics",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "在等腰三角形ABC中，AB=AC，∠A=40°，则∠B的度数是________。",
+    "answer": "70°",
+    "steps": [
+      "1. 在等腰三角形中，两个底角相等。",
+      "2. 设∠B=∠C=x，则2x + 40° = 180°。",
+      "3. 解方程：2x = 140°，x = 70°。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将等腰三角形的顶角和底角混淆。",
+        "hint": "注意等腰三角形的两个底角相等，顶角为已知角。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-triangle-basics-q-003",
+    "node_id": "math-m-triangle-basics",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "在三角形ABC中，AB=5cm，BC=7cm，则AC的取值范围是？",
+    "options": [
+      "A. AC > 2cm",
+      "B. 2cm < AC < 12cm",
+      "C. AC > 5cm",
+      "D. 5cm < AC < 12cm"
+    ],
+    "answer": "B. 2cm < AC < 12cm",
+    "steps": [
+      "1. 根据三角形两边之和大于第三边，两边之差小于第三边。",
+      "2. AB + BC > AC，即5 + 7 > AC，AC < 12cm。",
+      "3. AB + AC > BC，即5 + AC > 7，AC > 2cm。",
+      "4. 综合得：2cm < AC < 12cm。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将两边之和大于第三边理解为两边之和等于第三边。",
+        "hint": "注意是大于而不是等于。"
+      },
+      {
+        "error": "忽略了三角形两边之差小于第三边的条件。",
+        "hint": "同时考虑两边之和和两边之差的条件。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-triangle-basics-q-004",
+    "node_id": "math-m-triangle-basics",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "已知三角形ABC中，∠A=30°，∠B=45°，求∠C的度数，并判断三角形ABC的形状。",
+    "answer": "∠C=105°，三角形ABC为钝角三角形。",
+    "steps": [
+      "1. 根据三角形内角和定理，∠C = 180° - ∠A - ∠B = 180° - 30° - 45° = 105°。",
+      "2. 因为∠C > 90°，所以三角形ABC为钝角三角形。"
+    ],
+    "common_errors": [
+      {
+        "error": "计算错误，误将∠C算成75°。",
+        "hint": "注意计算时要仔细，避免符号错误。"
+      },
+      {
+        "error": "判断三角形形状时误将锐角三角形当作钝角三角形。",
+        "hint": "判断三角形形状时，要看最大角的度数是否大于90°。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-triangle-basics-q-005",
+    "node_id": "math-m-triangle-basics",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "在直角三角形ABC中，∠C=90°，AB=10cm，BC=6cm，则AC的长度是________。",
+    "answer": "8cm",
+    "steps": [
+      "1. 根据勾股定理，AB² = AC² + BC²。",
+      "2. 代入数据：10² = AC² + 6²。",
+      "3. 解方程：100 = AC² + 36，AC² = 64，AC = 8cm。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将勾股定理记错为AC² = AB² + BC²。",
+        "hint": "注意勾股定理是斜边平方等于两直角边平方和。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-triangle-basics-q-006",
+    "node_id": "math-m-triangle-basics",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "在三角形ABC中，AB=6cm，AC=8cm，BC=10cm，则三角形ABC的面积是？",
+    "options": [
+      "A. 24cm²",
+      "B. 30cm²",
+      "C. 40cm²",
+      "D. 48cm²"
+    ],
+    "answer": "A. 24cm²",
+    "steps": [
+      "1. 判断三角形形状：6² + 8² = 10²，所以三角形ABC为直角三角形。",
+      "2. 直角三角形的面积公式为：1/2 × AB × AC = 1/2 × 6 × 8 = 24cm²。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将三角形面积算成1/2 × AB × BC。",
+        "hint": "注意直角三角形的面积是1/2 × 两直角边的乘积。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-triangle-basics-q-007",
+    "node_id": "math-m-triangle-basics",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "已知三角形ABC中，AB=5cm，AC=7cm，BC=9cm，求三角形ABC的面积。",
+    "answer": "√{21(21-5)(21-7)(21-9)}/4 = 17.41cm²",
+    "steps": [
+      "1. 使用海伦公式：面积=√[s(s-a)(s-b)(s-c)]，其中s为半周长。",
+      "2. 计算半周长：s = (5 + 7 + 9)/2 = 10.5cm。",
+      "3. 代入公式：面积=√[10.5(10.5-5)(10.5-7)(10.5-9)]。",
+      "4. 计算：面积=√[10.5 × 5.5 × 3.5 × 1.5] = √[303.1875] = 17.41cm²。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用勾股定理计算面积。",
+        "hint": "注意勾股定理只适用于直角三角形。"
+      },
+      {
+        "error": "计算半周长时出错。",
+        "hint": "仔细计算半周长，确保计算正确。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]
