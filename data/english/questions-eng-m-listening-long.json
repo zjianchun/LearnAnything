@@ -1,0 +1,248 @@
+[
+  {
+    "id": "eng-m-listening-long-q-001",
+    "node_id": "eng-m-listening-long",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "What time does the movie start?",
+    "options": [
+      "A. 6:30 PM",
+      "B. 7:00 PM",
+      "C. 7:30 PM",
+      "D. 8:00 PM"
+    ],
+    "answer": "B. 7:00 PM",
+    "steps": [
+      "Listen for the time mentioned in the dialogue.",
+      "Identify the specific time the movie starts.",
+      "Match the time with the options provided."
+    ],
+    "common_errors": [
+      {
+        "error": "Misunderstanding the time mentioned.",
+        "hint": "Pay attention to numbers and phrases like 'half-past' or 'quarter to'."
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-listening-long-q-002",
+    "node_id": "eng-m-listening-long",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "The speaker's favorite subject is ________.",
+    "answer": "math",
+    "steps": [
+      "Listen for the part where the speaker talks about their favorite subject.",
+      "Identify the subject mentioned.",
+      "Fill in the blank with the correct word."
+    ],
+    "common_errors": [
+      {
+        "error": "Writing the incorrect subject.",
+        "hint": "Focus on the word that clearly indicates the favorite subject."
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-listening-long-q-003",
+    "node_id": "eng-m-listening-long",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "Where are the speakers going to meet?",
+    "options": [
+      "A. At the library",
+      "B. At the park",
+      "C. At the cafe",
+      "D. At the school"
+    ],
+    "answer": "C. At the cafe",
+    "steps": [
+      "Identify the location mentioned in the dialogue.",
+      "Match the location with the options provided.",
+      "Select the correct answer."
+    ],
+    "common_errors": [
+      {
+        "error": "Confusing the locations mentioned.",
+        "hint": "Listen carefully for the exact place name or description."
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-listening-long-q-004",
+    "node_id": "eng-m-listening-long",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "What is the main topic of the conversation?",
+    "options": [
+      "A. A school project",
+      "B. A weekend plan",
+      "C. A family trip",
+      "D. A job interview"
+    ],
+    "answer": "B. A weekend plan",
+    "steps": [
+      "Identify the key points discussed in the conversation.",
+      "Determine the central theme.",
+      "Match the theme with the options provided."
+    ],
+    "common_errors": [
+      {
+        "error": "Focusing on minor details instead of the main topic.",
+        "hint": "Listen for the overarching subject rather than specific details."
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-listening-long-q-005",
+    "node_id": "eng-m-listening-long",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "The event will be held on __________.",
+    "answer": "Saturday",
+    "steps": [
+      "Listen for the day of the week mentioned.",
+      "Identify the correct day.",
+      "Fill in the blank with the day."
+    ],
+    "common_errors": [
+      {
+        "error": "Writing the incorrect day of the week.",
+        "hint": "Pay attention to the specific day mentioned, not the date."
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-listening-long-q-006",
+    "node_id": "eng-m-listening-long",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "What is the speaker's opinion about the new restaurant?",
+    "options": [
+      "A. It's too expensive.",
+      "B. It's very good.",
+      "C. It's too crowded.",
+      "D. It's not worth visiting."
+    ],
+    "answer": "B. It's very good.",
+    "steps": [
+      "Identify the speaker's tone and words used to describe the restaurant.",
+      "Determine the speaker's opinion.",
+      "Match the opinion with the options provided."
+    ],
+    "common_errors": [
+      {
+        "error": "Misinterpreting the speaker's tone.",
+        "hint": "Listen for adjectives and adverbs that indicate the speaker's attitude."
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-listening-long-q-007",
+    "node_id": "eng-m-listening-long",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "What is the reason the speaker can't attend the party?",
+    "answer": "Because he/she has to study for a test.",
+    "steps": [
+      "Listen for the reason given in the dialogue.",
+      "Identify the cause of the speaker's inability to attend.",
+      "Provide a complete answer."
+    ],
+    "common_errors": [
+      {
+        "error": "Not providing a complete answer.",
+        "hint": "Ensure the reason is clearly stated and includes necessary details."
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-listening-long-q-008",
+    "node_id": "eng-m-listening-long",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "What is the relationship between the two speakers?",
+    "options": [
+      "A. Teacher and student",
+      "B. Friends",
+      "C. Brother and sister",
+      "D. Colleagues"
+    ],
+    "answer": "B. Friends",
+    "steps": [
+      "Identify the tone and language used by the speakers.",
+      "Determine the relationship based on the conversation.",
+      "Match the relationship with the options provided."
+    ],
+    "common_errors": [
+      {
+        "error": "Misinterpreting the tone and language.",
+        "hint": "Pay attention to the way the speakers interact and the words they use."
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-listening-long-q-009",
+    "node_id": "eng-m-listening-long",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "What is the purpose of the meeting?",
+    "answer": "To discuss the upcoming project and assign tasks.",
+    "steps": [
+      "Listen for the key points discussed in the meeting.",
+      "Identify the main purpose of the meeting.",
+      "Provide a complete and accurate answer."
+    ],
+    "common_errors": [
+      {
+        "error": "Not identifying the main purpose.",
+        "hint": "Focus on the overall goal of the conversation, not just the details."
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-listening-long-q-010",
+    "node_id": "eng-m-listening-long",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "What is the speaker's final decision?",
+    "options": [
+      "A. To go to the concert",
+      "B. To stay at home",
+      "C. To go to the movies",
+      "D. To go shopping"
+    ],
+    "answer": "A. To go to the concert",
+    "steps": [
+      "Identify the options discussed by the speaker.",
+      "Determine the final choice made.",
+      "Match the choice with the options provided."
+    ],
+    "common_errors": [
+      {
+        "error": "Misidentifying the final decision.",
+        "hint": "Listen for the speaker's final statement or decision."
+      }
+    ],
+    "exam_frequency": 4
+  }
+]

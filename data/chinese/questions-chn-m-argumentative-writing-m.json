@@ -1,0 +1,201 @@
+[
+  {
+    "id": "chn-m-argumentative-writing-m-q-001",
+    "node_id": "chn-m-argumentative-writing-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "以下哪一项不属于议论文的三要素？",
+    "options": [
+      "论点",
+      "论据",
+      "论证",
+      "引言"
+    ],
+    "answer": "引言",
+    "steps": [
+      "议论文的三要素是论点、论据和论证。",
+      "引言是文章的开头部分，不属于议论文的三要素。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为引言是议论文的三要素之一",
+        "hint": "引言是文章结构的一部分，不是议论文的三要素。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chn-m-argumentative-writing-m-q-002",
+    "node_id": "chn-m-argumentative-writing-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "议论文中用来证明论点的事实和道理被称为_____。",
+    "answer": "论据",
+    "steps": [
+      "议论文的三要素是论点、论据和论证。",
+      "论据是用来证明论点的材料，包括事实和道理。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写为“论证”",
+        "hint": "论证是证明论点的过程，而不是材料本身。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chn-m-argumentative-writing-m-q-003",
+    "node_id": "chn-m-argumentative-writing-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "以下哪一项是议论文中常用的论证方法？",
+    "options": [
+      "比喻论证",
+      "拟人论证",
+      "夸张论证",
+      "排比论证"
+    ],
+    "answer": "比喻论证",
+    "steps": [
+      "议论文常用的论证方法包括举例论证、道理论证、对比论证、比喻论证等。",
+      "拟人、夸张和排比是修辞手法，不是论证方法。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为拟人、夸张是论证方法",
+        "hint": "这些是修辞手法，用于增强语言表现力，不是论证方法。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chn-m-argumentative-writing-m-q-004",
+    "node_id": "chn-m-argumentative-writing-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请简要说明什么是中心论点，并举例说明。",
+    "answer": "中心论点是议论文中作者所要阐述和证明的主要观点，是文章的核心。例如，在《谈骨气》一文中，作者提出的“我们中国人是有骨气的”就是中心论点。",
+    "steps": [
+      "解释中心论点的概念。",
+      "举例说明中心论点在文章中的作用。",
+      "结合具体文章进行分析。"
+    ],
+    "common_errors": [
+      {
+        "error": "将中心论点与分论点混淆",
+        "hint": "中心论点是文章的主要观点，分论点是支持中心论点的次要观点。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chn-m-argumentative-writing-m-q-005",
+    "node_id": "chn-m-argumentative-writing-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请分析以下论据的类型属于哪一类：'科学家们经过长期的研究，发现了基因的秘密。'",
+    "answer": "事实论据",
+    "steps": [
+      "判断论据是事实还是道理。",
+      "事实论据是指真实存在的事件、现象或数据。",
+      "该论据描述的是科学家们的研究成果，属于事实论据。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为是道理论据",
+        "hint": "道理论据是指经过验证的原理、定理或名言警句。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chn-m-argumentative-writing-m-q-006",
+    "node_id": "chn-m-argumentative-writing-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请简述对比论证的作用。",
+    "answer": "对比论证是通过将两种不同的事物或同一事物的不同方面进行比较，突出其中一个方面的特点或优劣，从而证明论点的作用。它可以使论证更加鲜明、有力，增强说服力。",
+    "steps": [
+      "解释对比论证的概念。",
+      "分析对比论证在论证中的作用。",
+      "总结对比论证的效果。"
+    ],
+    "common_errors": [
+      {
+        "error": "仅描述对比论证的形式，忽略其作用",
+        "hint": "重点在于说明对比论证如何增强说服力。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chn-m-argumentative-writing-m-q-007",
+    "node_id": "chn-m-argumentative-writing-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请分析以下论证方法：'俗话说：“失败是成功之母。”这句话告诉我们，失败并不可怕，重要的是从失败中吸取教训。'",
+    "answer": "道理论证",
+    "steps": [
+      "识别论证方法。",
+      "道理论证是通过引用名人名言、定理或原理来证明论点。",
+      "该论证方法引用了俗语，属于道理论证。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为是举例论证",
+        "hint": "举例论证是通过具体事例来证明论点，而该论证方法引用的是俗语。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chn-m-argumentative-writing-m-q-008",
+    "node_id": "chn-m-argumentative-writing-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请结合具体文章，分析议论文中如何运用多种论证方法进行论证。",
+    "answer": "在议论文中，作者常常会运用多种论证方法进行论证。例如，在《谈骨气》一文中，作者首先引用了孟子的“富贵不能淫，贫贱不能移，威武不能屈”来作为道理论据，接着列举了文天祥拒降元朝、闻一多面对国民党特务拍案而起等具体事例作为事实论据，最后运用对比论证，将有骨气的人与没有骨气的人进行对比，突出了有骨气的重要性。通过多种论证方法的综合运用，使论证更加全面、深刻，增强了文章的说服力。",
+    "steps": [
+      "选择一篇具体的议论文。",
+      "分析文章中运用的不同论证方法。",
+      "说明多种论证方法如何共同作用，增强论证效果。"
+    ],
+    "common_errors": [
+      {
+        "error": "仅列举论证方法，忽略其具体运用",
+        "hint": "重点在于分析论证方法在文章中的具体运用及其效果。"
+      }
+    ],
+    "exam_frequency": 6
+  },
+  {
+    "id": "chn-m-argumentative-writing-m-q-009",
+    "node_id": "chn-m-argumentative-writing-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请根据以下材料，自拟题目，写一段不少于100字的议论性文字。\n材料：'在学习和生活中，我们常常会遇到各种困难和挑战。面对这些困难，有人选择迎难而上，有人选择退缩逃避。'",
+    "answer": "题目：迎难而上，成就自我\n在学习和生活中，我们常常会遇到各种困难和挑战。面对这些困难，选择迎难而上的人，往往能够不断突破自我，取得更大的成就。正如爱迪生发明电灯时，经历了无数次失败，但他始终没有放弃，最终成功发明了电灯。相反，选择退缩逃避的人，只能原地踏步，无法实现自我价值。因此，我们应该勇敢地面对困难，迎难而上，成就更好的自己。",
+    "steps": [
+      "分析材料，确定中心论点。",
+      "选择合适的论证方法。",
+      "结合具体事例进行论证。",
+      "总结观点，呼应中心论点。"
+    ],
+    "common_errors": [
+      {
+        "error": "论点不明确",
+        "hint": "论点应清晰明确，能够概括文章的核心观点。"
+      }
+    ],
+    "exam_frequency": 6
+  }
+]

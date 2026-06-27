@@ -1,0 +1,230 @@
+[
+  {
+    "id": "eng-m-object-clause-q-001",
+    "node_id": "eng-m-object-clause",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "She asked me _____ I would go to the party with her.",
+    "options": [
+      "A. that",
+      "B. if",
+      "C. what",
+      "D. when"
+    ],
+    "answer": "B. if",
+    "steps": [
+      "1. 分析句子结构，发现ask后面接宾语从句。",
+      "2. 根据ask的语义，这里表示询问是否去参加派对。",
+      "3. 选择连接词if，表示是否。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选that",
+        "hint": "that引导宾语从句时没有实际意义，这里需要表达是否的含义。"
+      },
+      {
+        "error": "误选what或when",
+        "hint": "what询问内容，when询问时间，这里是询问是否。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-object-clause-q-002",
+    "node_id": "eng-m-object-clause",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "I believe _____ (he, is) telling the truth.",
+    "answer": "he is",
+    "steps": [
+      "1. 分析句子结构，believe后面接宾语从句。",
+      "2. 宾语从句中需要主语+谓语的结构。",
+      "3. 填入he is，构成he is telling the truth。"
+    ],
+    "common_errors": [
+      {
+        "error": "只填入he",
+        "hint": "缺少谓语动词is，导致句子不完整。"
+      },
+      {
+        "error": "填入him is",
+        "hint": "人称代词主格错误，him是宾格，应使用主格he。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-object-clause-q-003",
+    "node_id": "eng-m-object-clause",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "The teacher told us _____ waste water.",
+    "options": [
+      "A. don't",
+      "B. not to",
+      "C. to not",
+      "D. no"
+    ],
+    "answer": "B. not to",
+    "steps": [
+      "1. 分析句子结构，tell后面接宾语从句。",
+      "2. 宾语从句中需要使用不定式结构。",
+      "3. 根据tell的语义，这里表示告诉某人不要做某事，使用not to。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选don't",
+        "hint": "don't后面应该接动词原形，但这里已经有waste，不需要再加don't。"
+      },
+      {
+        "error": "误选no",
+        "hint": "no后面不能直接接动词，需要使用not to结构。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-object-clause-q-004",
+    "node_id": "eng-m-object-clause",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "I don't know _____ he will come here tomorrow.",
+    "options": [
+      "A. that",
+      "B. whether",
+      "C. what",
+      "D. how"
+    ],
+    "answer": "B. whether",
+    "steps": [
+      "1. 分析句子结构，know后面接宾语从句。",
+      "2. 根据句意，这里表示不知道他明天是否会来。",
+      "3. 选择连接词whether，表示是否。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选that",
+        "hint": "that引导宾语从句时没有实际意义，这里需要表达是否的含义。"
+      },
+      {
+        "error": "误选what或how",
+        "hint": "what询问内容，how询问方式，这里是询问是否。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-object-clause-q-005",
+    "node_id": "eng-m-object-clause",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "She said that she _____ (finish) her homework.",
+    "options": [
+      "A. has finished",
+      "B. had finished",
+      "C. finished",
+      "D. will finish"
+    ],
+    "answer": "B. had finished",
+    "steps": [
+      "1. 分析句子结构，said后面接宾语从句。",
+      "2. 主句是一般过去时，从句的动作发生在主句动作之前。",
+      "3. 使用过去完成时had finished，表示过去的过去。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选has finished",
+        "hint": "现在完成时不能用于过去时的从句中。"
+      },
+      {
+        "error": "误选finished",
+        "hint": "一般过去时不能表达动作的完成性。"
+      },
+      {
+        "error": "误选will finish",
+        "hint": "一般将来时不能用于过去时的从句中。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-object-clause-q-006",
+    "node_id": "eng-m-object-clause",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "He told me _____ (where, is) the library.",
+    "answer": "where the library is",
+    "steps": [
+      "1. 分析句子结构，told后面接宾语从句。",
+      "2. 宾语从句中需要使用陈述语序。",
+      "3. 填入where the library is，构成where引导的宾语从句。"
+    ],
+    "common_errors": [
+      {
+        "error": "填入where is the library",
+        "hint": "疑问词引导的宾语从句需要使用陈述语序。"
+      },
+      {
+        "error": "填入where the library was",
+        "hint": "主句是一般过去时，但宾语从句是客观事实，不受主句时态影响。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-object-clause-q-007",
+    "node_id": "eng-m-object-clause",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析句子 'She asked me if I could help her with her homework.' 中的宾语从句，并说明其用法。",
+    "answer": "宾语从句是 'if I could help her with her homework'。主句是 'She asked me'，其中asked是谓语，me是宾语，宾语从句充当asked的宾语。if表示是否，引导宾语从句，从句中使用了情态动词could，表示能够做某事。",
+    "steps": [
+      "1. 识别主句和宾语从句。",
+      "2. 分析连接词if的用法。",
+      "3. 说明宾语从句的构成和功能。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为if是疑问词",
+        "hint": "if在这里表示是否，不是疑问词。"
+      },
+      {
+        "error": "误认为could是过去时",
+        "hint": "could在这里表示能够，不是过去时。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-object-clause-q-008",
+    "node_id": "eng-m-object-clause",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析句子 'I wonder what time it is.' 中的宾语从句，并说明其用法。",
+    "answer": "宾语从句是 'what time it is'。主句是 'I wonder'，其中wonder是谓语，what time引导宾语从句，it is是宾语从句的主谓结构。what time询问时间，引导宾语从句，从句中使用陈述语序。",
+    "steps": [
+      "1. 识别主句和宾语从句。",
+      "2. 分析连接词what time的用法。",
+      "3. 说明宾语从句的构成和功能。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为what time是主句的宾语",
+        "hint": "what time是宾语从句的连接词，不是主句的宾语。"
+      },
+      {
+        "error": "误认为it is是疑问句",
+        "hint": "宾语从句中需要使用陈述语序。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

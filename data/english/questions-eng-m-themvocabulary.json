@@ -1,0 +1,220 @@
+[
+  {
+    "id": "eng-m-theme-vocabulary-q-001",
+    "node_id": "eng-m-theme-vocabulary",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "Which of the following is a place in a school?",
+    "options": [
+      "A. Library",
+      "B. Kitchen",
+      "C. Bank",
+      "D. Hospital"
+    ],
+    "answer": "A. Library",
+    "steps": [
+      "1. Identify the key word 'place in a school'.",
+      "2. Think of common places in a school such as classroom, library, playground, etc.",
+      "3. Compare with the options and choose the one that is commonly found in a school."
+    ],
+    "common_errors": [
+      {
+        "error": "Choosing 'Kitchen'",
+        "hint": "While a kitchen can be found in a school, it is not typically a place students visit frequently."
+      },
+      {
+        "error": "Choosing 'Bank' or 'Hospital'",
+        "hint": "These are not common places in a school."
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-theme-vocabulary-q-002",
+    "node_id": "eng-m-theme-vocabulary",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "What do you call the people who are related to you by blood or marriage?",
+    "options": [
+      "A. Friends",
+      "B. Family",
+      "C. Neighbors",
+      "D. Teachers"
+    ],
+    "answer": "B. Family",
+    "steps": [
+      "1. Identify the key phrase 'related to you by blood or marriage'.",
+      "2. Think of the term that encompasses parents, siblings, grandparents, etc.",
+      "3. Choose the option that best fits the description."
+    ],
+    "common_errors": [
+      {
+        "error": "Choosing 'Friends'",
+        "hint": "Friends are not related by blood or marriage."
+      },
+      {
+        "error": "Choosing 'Neighbors'",
+        "hint": "Neighbors are people who live nearby, not necessarily related."
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-theme-vocabulary-q-003",
+    "node_id": "eng-m-theme-vocabulary",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "Which of the following is a natural element?",
+    "options": [
+      "A. Car",
+      "B. Tree",
+      "C. House",
+      "D. Computer"
+    ],
+    "answer": "B. Tree",
+    "steps": [
+      "1. Identify the key phrase 'natural element'.",
+      "2. Think of things that are not man-made and are part of nature.",
+      "3. Choose the option that best fits the description."
+    ],
+    "common_errors": [
+      {
+        "error": "Choosing 'Car' or 'Computer'",
+        "hint": "These are man-made objects."
+      },
+      {
+        "error": "Choosing 'House'",
+        "hint": "A house is built by humans."
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-theme-vocabulary-q-004",
+    "node_id": "eng-m-theme-vocabulary",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "The _____ is a place where students study and learn new things.",
+    "answer": "classroom",
+    "steps": [
+      "1. Identify the key phrase 'place where students study and learn'.",
+      "2. Think of a common location in a school where this happens.",
+      "3. Fill in the blank with the correct word."
+    ],
+    "common_errors": [
+      {
+        "error": "Writing 'library'",
+        "hint": "While a library is for studying, it is not primarily for learning new things in a structured environment."
+      },
+      {
+        "error": "Writing 'school'",
+        "hint": "A school is too general; the question asks for a specific place."
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-theme-vocabulary-q-005",
+    "node_id": "eng-m-theme-vocabulary",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "In my family, my mother’s sister is my _____.",
+    "answer": "aunt",
+    "steps": [
+      "1. Identify the relationship described: mother's sister.",
+      "2. Recall the term for this relationship.",
+      "3. Fill in the blank with the correct word."
+    ],
+    "common_errors": [
+      {
+        "error": "Writing 'uncle'",
+        "hint": "An uncle is the brother of a parent, not the sister."
+      },
+      {
+        "error": "Writing 'cousin'",
+        "hint": "A cousin is the child of an aunt or uncle."
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-theme-vocabulary-q-006",
+    "node_id": "eng-m-theme-vocabulary",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "The sky is blue because of a natural phenomenon called _____.",
+    "answer": "scattering",
+    "steps": [
+      "1. Identify the key phrase 'natural phenomenon'.",
+      "2. Recall the scientific term for why the sky appears blue.",
+      "3. Fill in the blank with the correct word."
+    ],
+    "common_errors": [
+      {
+        "error": "Writing 'reflection'",
+        "hint": "Reflection is not the correct term for why the sky is blue."
+      },
+      {
+        "error": "Writing 'absorption'",
+        "hint": "Absorption does not explain the blue color of the sky."
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-theme-vocabulary-q-007",
+    "node_id": "eng-m-theme-vocabulary",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "Explain why trees are important to the environment.",
+    "answer": "Trees are important to the environment because they produce oxygen, provide habitat for animals, prevent soil erosion, and help in maintaining the water cycle. They also absorb carbon dioxide, which helps in reducing the effects of climate change.",
+    "steps": [
+      "1. Identify the key word 'important'.",
+      "2. Think of the various roles trees play in the environment.",
+      "3. Provide a detailed explanation of these roles."
+    ],
+    "common_errors": [
+      {
+        "error": "Listing only one or two benefits",
+        "hint": "Try to include multiple aspects such as ecological, environmental, and climatic benefits."
+      },
+      {
+        "error": "Focusing on aesthetic benefits",
+        "hint": "While trees are beautiful, the question asks for environmental importance."
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-theme-vocabulary-q-008",
+    "node_id": "eng-m-theme-vocabulary",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "Describe the role of a teacher in a school.",
+    "answer": "A teacher in a school is responsible for educating students, planning lessons, assessing student progress, and providing guidance and support. They help students learn new concepts, develop critical thinking skills, and prepare for future careers.",
+    "steps": [
+      "1. Identify the key word 'role'.",
+      "2. Think of the main responsibilities of a teacher.",
+      "3. Provide a comprehensive description of these responsibilities."
+    ],
+    "common_errors": [
+      {
+        "error": "Listing only teaching duties",
+        "hint": "Include other aspects such as guidance, support, and assessment."
+      },
+      {
+        "error": "Focusing on personal qualities",
+        "hint": "While important, the question asks for the role, not the characteristics of a teacher."
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

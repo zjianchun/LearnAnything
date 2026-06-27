@@ -1,0 +1,236 @@
+[
+  {
+    "id": "chn-m-argumentative-reading-q-001",
+    "node_id": "chn-m-argumentative-reading",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "以下哪一项不属于议论文的三要素？",
+    "options": [
+      "论点",
+      "论据",
+      "论证",
+      "叙述"
+    ],
+    "answer": "叙述",
+    "steps": [
+      "议论文的三要素是论点、论据和论证。",
+      "叙述是一种表达方式，而不是议论文的要素。",
+      "因此，答案是叙述。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将叙述当作议论文的要素",
+        "hint": "议论文的三要素是论点、论据和论证，叙述是一种表达方式。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chn-m-argumentative-reading-q-002",
+    "node_id": "chn-m-argumentative-reading",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "议论文的论证方法主要有举例论证、______、______和对比论证。",
+    "answer": "道理论证,比喻论证",
+    "steps": [
+      "常见的论证方法包括举例论证、道理论证、比喻论证和对比论证。",
+      "根据题目要求，填写两种论证方法。",
+      "因此，答案是道理论证和比喻论证。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误的论证方法",
+        "hint": "常见的论证方法有举例论证、道理论证、比喻论证和对比论证。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chn-m-argumentative-reading-q-003",
+    "node_id": "chn-m-argumentative-reading",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "以下哪一项是论点的主要特点？",
+    "options": [
+      "客观性",
+      "主观性",
+      "模糊性",
+      "多样性"
+    ],
+    "answer": "主观性",
+    "steps": [
+      "论点是作者对所论述问题提出的见解和主张。",
+      "论点具有主观性，因为它表达了作者的观点。",
+      "因此，答案是主观性。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为论点是客观的",
+        "hint": "论点是作者对问题的见解和主张，具有主观性。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chn-m-argumentative-reading-q-004",
+    "node_id": "chn-m-argumentative-reading",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下哪一项不属于常见的论证结构？",
+    "options": [
+      "总分总",
+      "分总",
+      "总分",
+      "因果"
+    ],
+    "answer": "因果",
+    "steps": [
+      "常见的论证结构包括总分总、分总、总分。",
+      "因果是一种逻辑关系，而不是论证结构。",
+      "因此，答案是因果。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将因果关系当作论证结构",
+        "hint": "因果是一种逻辑关系，而不是议论文的论证结构。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chn-m-argumentative-reading-q-005",
+    "node_id": "chn-m-argumentative-reading",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请简要说明举例论证的作用。",
+    "answer": "举例论证通过列举具体事例来证明论点，使论证更具体、更具说服力。",
+    "steps": [
+      "举例论证是通过具体事例来证明论点的方法。",
+      "具体事例可以使抽象的论点更易于理解。",
+      "因此，举例论证的作用是使论证更具体、更具说服力。"
+    ],
+    "common_errors": [
+      {
+        "error": "仅说明举例论证的定义而未说明作用",
+        "hint": "需要说明举例论证对论点证明的具体作用。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chn-m-argumentative-reading-q-006",
+    "node_id": "chn-m-argumentative-reading",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "如何判断一个段落是否使用了道理论证？",
+    "answer": "道理论证是通过引用名人名言、格言警句、科学原理等来证明论点。如果段落中出现了这些内容，则使用了道理论证。",
+    "steps": [
+      "道理论证是通过引用权威观点或科学原理来证明论点的方法。",
+      "检查段落中是否出现了名人名言、格言警句或科学原理。",
+      "如果出现了这些内容，则使用了道理论证。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将举例论证当作道理论证",
+        "hint": "道理论证是通过引用权威观点或科学原理来证明论点，而不是列举具体事例。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chn-m-argumentative-reading-q-007",
+    "node_id": "chn-m-argumentative-reading",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下哪一项是比喻论证的特点？",
+    "options": [
+      "通过具体事例证明论点",
+      "通过引用权威观点证明论点",
+      "通过打比方的方式证明论点",
+      "通过对比的方式证明论点"
+    ],
+    "answer": "通过打比方的方式证明论点",
+    "steps": [
+      "比喻论证是通过打比方的方式来证明论点。",
+      "打比方可以使抽象的论点更形象、更易于理解。",
+      "因此，答案是通过打比方的方式证明论点。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将其他论证方法当作比喻论证",
+        "hint": "比喻论证是通过打比方的方式来证明论点，而不是列举具体事例或引用权威观点。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chn-m-argumentative-reading-q-008",
+    "node_id": "chn-m-argumentative-reading",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析以下段落的论证方法：'古人云：'纸上得来终觉浅，绝知此事要躬行。'这句话告诉我们，实践是检验真理的唯一标准。'",
+    "answer": "该段落使用了道理论证的方法。通过引用古人的名言来证明实践的重要性。",
+    "steps": [
+      "分析段落中是否出现了名人名言或格言警句。",
+      "确认该名言是否用来证明论点。",
+      "因此，该段落使用了道理论证的方法。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将道理论证当作举例论证",
+        "hint": "道理论证是通过引用权威观点或科学原理来证明论点，而不是列举具体事例。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-argumentative-reading-q-009",
+    "node_id": "chn-m-argumentative-reading",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析以下段落的论证结构：'首先，诚信是立身之本。其次，诚信是交友之道。最后，诚信是经商之道。'",
+    "answer": "该段落的论证结构是总分结构。首先提出诚信的重要性，然后分别从立身、交友、经商三个方面进行阐述。",
+    "steps": [
+      "分析段落中是否出现了总述部分。",
+      "确认后续内容是否是对总述部分的展开。",
+      "因此，该段落的论证结构是总分结构。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将总分结构当作分总结构",
+        "hint": "总分结构是先提出总论点，然后分别进行阐述。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-argumentative-reading-q-010",
+    "node_id": "chn-m-argumentative-reading",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析以下段落的论证方法：'例如，科学家们通过实验发现，吸烟会导致多种疾病。这说明吸烟对健康有害。'",
+    "answer": "该段落使用了举例论证的方法。通过列举科学实验的具体事例来证明吸烟对健康的危害。",
+    "steps": [
+      "分析段落中是否出现了具体事例。",
+      "确认该事例是否用来证明论点。",
+      "因此，该段落使用了举例论证的方法。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将道理论证当作举例论证",
+        "hint": "举例论证是通过列举具体事例来证明论点，而不是引用权威观点或科学原理。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

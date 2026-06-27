@@ -1,0 +1,219 @@
+[
+  {
+    "id": "eng-m-cloze-test-q-001",
+    "node_id": "eng-m-cloze-test",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "My mother always tells me to _____ my manners when I am in public.",
+    "options": [
+      "A. mind",
+      "B. watch",
+      "C. look",
+      "D. see"
+    ],
+    "answer": "A. mind",
+    "steps": [
+      "1. 理解句意：我妈妈总是告诉我在公共场合要注意我的礼仪。",
+      "2. 分析选项：'mind'意为'注意'，'watch'意为'观看'，'look'意为'看'，'see'意为'看见'。",
+      "3. 根据句意选择合适的动词：'mind'最符合句意，表示'注意'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选'watch'或'look'",
+        "hint": "这两个词通常用于表示视觉上的观察，而'注意礼仪'需要使用'mind'。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-cloze-test-q-002",
+    "node_id": "eng-m-cloze-test",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "The teacher asked us to _____ the words on the blackboard.",
+    "answer": "copy",
+    "steps": [
+      "1. 理解句意：老师让我们在黑板上抄写这些单词。",
+      "2. 分析空格处需要的动词：'copy'表示'抄写'，符合句意。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填其他动词如'write'或'read'",
+        "hint": "'write'表示'写'，'read'表示'读'，都不符合句意。'copy'是抄写的意思。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-cloze-test-q-003",
+    "node_id": "eng-m-cloze-test",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "I was so tired that I could _____ keep my eyes open.",
+    "options": [
+      "A. hardly",
+      "B. almost",
+      "C. nearly",
+      "D. mostly"
+    ],
+    "answer": "A. hardly",
+    "steps": [
+      "1. 理解句意：我太累了，几乎不能睁开眼睛。",
+      "2. 分析选项：'hardly'表示'几乎不'，'almost'和'nearly'都表示'几乎'，'mostly'表示'大部分'。",
+      "3. 根据句意选择合适的副词：'hardly'最符合句意，表示'几乎不能'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选'almost'或'nearly'",
+        "hint": "这两个词表示'几乎'，但在此句中与否定意义不符。'hardly'表示'几乎不'，符合句意。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "eng-m-cloze-test-q-004",
+    "node_id": "eng-m-cloze-test",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "The old man _____ in the park every morning.",
+    "options": [
+      "A. walks",
+      "B. is walking",
+      "C. has walked",
+      "D. will walk"
+    ],
+    "answer": "A. walks",
+    "steps": [
+      "1. 理解句意：这位老人每天早上在公园里散步。",
+      "2. 分析选项：'walks'表示一般现在时，'is walking'表示现在进行时，'has walked'表示现在完成时，'will walk'表示一般将来时。",
+      "3. 根据时间状语'every morning'选择合适的时态：一般现在时最符合句意。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选'is walking'或'will walk'",
+        "hint": "现在进行时和一般将来时都不符合句意的时间状语'every morning'。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-cloze-test-q-005",
+    "node_id": "eng-m-cloze-test",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "She _____ to the party last night, but she was too busy.",
+    "options": [
+      "A. went",
+      "B. would go",
+      "C. had gone",
+      "D. would have gone"
+    ],
+    "answer": "D. would have gone",
+    "steps": [
+      "1. 理解句意：她昨晚本可以去参加聚会，但她太忙了。",
+      "2. 分析选项：'went'表示过去时，'would go'表示过去将来时，'had gone'表示过去完成时，'would have gone'表示过去将来完成时。",
+      "3. 根据句意选择合适的时态：'would have gone'表示本可以去做但未做，符合句意。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选'went'或'would go'",
+        "hint": "这两个选项都不能表达出'本可以但未做'的含义。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-cloze-test-q-006",
+    "node_id": "eng-m-cloze-test",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "He promised _____ me a book for my birthday.",
+    "answer": "to give",
+    "steps": [
+      "1. 理解句意：他承诺在我生日时给我一本书。",
+      "2. 分析空格处需要的动词形式：'promise to do sth.'表示'承诺做某事'，因此填入'infinitive'形式。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填其他形式如'giving'或'gave'",
+        "hint": "'promise'后面需要接'infinitive'形式，即'promise to do sth.'。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-cloze-test-q-007",
+    "node_id": "eng-m-cloze-test",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "The book is very interesting. I can't wait to _____ it.",
+    "options": [
+      "A. read",
+      "B. reading",
+      "C. be read",
+      "D. be reading"
+    ],
+    "answer": "A. read",
+    "steps": [
+      "1. 理解句意：这本书非常有趣。我迫不及待地想读它。",
+      "2. 分析选项：'read'表示'读'，'reading'表示'正在读'，'be read'表示'被读'，'be reading'表示'正在被读'。",
+      "3. 根据句意选择合适的动词形式：'read'最符合句意，表示'读'。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选'reading'或'be read'",
+        "hint": "这两个选项都不能表达出'迫不及待想读'的含义。'read'是动词原形，符合句意。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "eng-m-cloze-test-q-008",
+    "node_id": "eng-m-cloze-test",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "Please explain the difference between 'beside' and 'besides'.",
+    "answer": "The word 'beside' is a preposition meaning 'next to' or 'at the side of'. For example, 'He sat beside me'. On the other hand, 'besides' is a preposition meaning 'in addition to' or 'apart from'. For example, 'Besides English, he speaks French'. Additionally, 'besides' can also be used as an adverb meaning 'moreover' or 'furthermore'.",
+    "steps": [
+      "1. 解释'beside'的含义：作为介词，意为'在旁边'。",
+      "2. 解释'besides'的含义：作为介词，意为'除...之外'；作为副词，意为'而且'。",
+      "3. 提供例句以说明两者的区别。"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆两者的用法",
+        "hint": "记住'beside'是介词，意为'在旁边'；'besides'既是介词也是副词，意为'除...之外'或'而且'。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "eng-m-cloze-test-q-009",
+    "node_id": "eng-m-cloze-test",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "What is the difference between 'affect' and 'effect'?",
+    "answer": "The word 'affect' means 'to influence' or 'to pretend', while 'effect' means 'result' or 'to make happen'. For example, 'The weather affects my mood' and 'The medicine had a positive effect on the patient'.",
+    "steps": [
+      "1. 解释'affect'的含义：意为'影响'或'假装'。",
+      "2. 解释'effect'的含义：意为'结果'或'使发生'。",
+      "3. 提供例句以说明两者的区别。"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆两者的拼写和用法",
+        "hint": "记住'affect'是动词，意为'影响'或'假装'；'effect'是名词，意为'结果'，也可以作动词，意为'使发生'。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]
