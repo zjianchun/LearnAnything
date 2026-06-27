@@ -45,7 +45,7 @@ onMounted(async () => {
     <div v-else class="no-content">
       <h2>📚 该知识点课件待生成</h2>
       <p>「{{ node?.name }}」的互动课件还没有制作。</p>
-      <p class="hint" v-if="node?.teachany_node">官方课件标识：{{ node.teachany_node }}（可从 teachany.cn 拉取）</p>
+      <p class="hint" v-if="!hasContent">该知识点课件正在制作中</p>
       <router-link :to="`/practice/${nodeId}`" class="practice-link big">先去做题练习 →</router-link>
     </div>
   </div>

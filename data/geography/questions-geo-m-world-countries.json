@@ -1,0 +1,251 @@
+[
+  {
+    "id": "geo-m-world-countries-q-001",
+    "node_id": "geo-m-world-countries",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列哪个国家是世界上面积最大的国家？",
+    "options": [
+      "A. 中国",
+      "B. 美国",
+      "C. 俄罗斯",
+      "D. 加拿大"
+    ],
+    "answer": "C. 俄罗斯",
+    "steps": [
+      "1. 回忆世界主要国家的面积大小",
+      "2. 俄罗斯是世界上面积最大的国家",
+      "3. 确认选项C为正确答案"
+    ],
+    "common_errors": [
+      {
+        "error": "误选加拿大",
+        "hint": "加拿大是世界第二大面积国家"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-world-countries-q-002",
+    "node_id": "geo-m-world-countries",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "日本的首都是________。",
+    "answer": "东京",
+    "steps": [
+      "1. 回忆日本的首都名称",
+      "2. 确认日本的首都是东京"
+    ],
+    "common_errors": [
+      {
+        "error": "误填为大阪或京都",
+        "hint": "大阪和京都都是日本的重要城市，但不是首都"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-world-countries-q-003",
+    "node_id": "geo-m-world-countries",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "澳大利亚的首都是________。",
+    "options": [
+      "A. 悉尼",
+      "B. 墨尔本",
+      "C. 堪培拉",
+      "D. 布里斯班"
+    ],
+    "answer": "C. 堪培拉",
+    "steps": [
+      "1. 回忆澳大利亚的首都是哪个城市",
+      "2. 确认堪培拉是澳大利亚的首都"
+    ],
+    "common_errors": [
+      {
+        "error": "误选悉尼或墨尔本",
+        "hint": "悉尼和墨尔本都是澳大利亚的大城市，但不是首都"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-world-countries-q-004",
+    "node_id": "geo-m-world-countries",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列关于巴西的描述，正确的是________。",
+    "options": [
+      "A. 巴西的首都是圣保罗",
+      "B. 巴西人主要讲西班牙语",
+      "C. 巴西是南美洲面积最大的国家",
+      "D. 巴西的首都是里约热内卢"
+    ],
+    "answer": "C. 巴西是南美洲面积最大的国家",
+    "steps": [
+      "1. 回忆巴西的首都和语言",
+      "2. 确认巴西的首都是巴西利亚，语言是葡萄牙语",
+      "3. 确认巴西是南美洲面积最大的国家"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A或D",
+        "hint": "巴西的首都是巴西利亚"
+      },
+      {
+        "error": "误选B",
+        "hint": "巴西人主要讲葡萄牙语"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-world-countries-q-005",
+    "node_id": "geo-m-world-countries",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请简述美国的地形特征。",
+    "answer": "美国地形主要分为三大纵列带：西部是高大的科迪勒拉山系，中部是广阔的平原，东部是低矮的阿巴拉契亚山脉。",
+    "steps": [
+      "1. 回忆美国的地形特征",
+      "2. 描述美国西部的科迪勒拉山系",
+      "3. 描述美国中部的平原",
+      "4. 描述美国东部的阿巴拉契亚山脉"
+    ],
+    "common_errors": [
+      {
+        "error": "漏掉某一部分地形",
+        "hint": "美国地形分为三大纵列带，缺一不可"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-world-countries-q-006",
+    "node_id": "geo-m-world-countries",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列关于俄罗斯的描述，正确的是________。",
+    "options": [
+      "A. 俄罗斯的首都是圣彼得堡",
+      "B. 俄罗斯地跨亚欧两大洲",
+      "C. 俄罗斯人主要讲法语",
+      "D. 俄罗斯是南美洲的国家"
+    ],
+    "answer": "B. 俄罗斯地跨亚欧两大洲",
+    "steps": [
+      "1. 回忆俄罗斯的首都和地理位置",
+      "2. 确认俄罗斯的首都是莫斯科",
+      "3. 确认俄罗斯地跨亚欧两大洲"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A",
+        "hint": "俄罗斯的首都是莫斯科"
+      },
+      {
+        "error": "误选C",
+        "hint": "俄罗斯人主要讲俄语"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-world-countries-q-007",
+    "node_id": "geo-m-world-countries",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析日本经济发展的有利条件和不利条件。",
+    "answer": "有利条件：1. 海岸线曲折，多优良港湾，有利于发展海洋运输和对外贸易；2. 科技发达，教育水平高。不利条件：1. 自然资源匮乏；2. 国土面积狭小。",
+    "steps": [
+      "1. 回忆日本经济发展的有利条件",
+      "2. 描述日本海岸线特点和港口优势",
+      "3. 描述日本的科技和教育水平",
+      "4. 回忆日本经济发展的不利条件",
+      "5. 描述日本自然资源情况和国土面积限制"
+    ],
+    "common_errors": [
+      {
+        "error": "只分析有利条件或不利条件",
+        "hint": "需要全面分析有利和不利条件"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "geo-m-world-countries-q-008",
+    "node_id": "geo-m-world-countries",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请简述澳大利亚的农业特点。",
+    "answer": "澳大利亚的农业以畜牧业为主，特别是养羊业发达，被称为‘骑在羊背上的国家’。此外，澳大利亚的农业机械化程度高，农产品出口量大。",
+    "steps": [
+      "1. 回忆澳大利亚的农业类型",
+      "2. 描述澳大利亚的畜牧业特点",
+      "3. 描述澳大利亚的农业机械化程度和农产品出口情况"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到畜牧业",
+        "hint": "澳大利亚的农业还包括农业机械化等特点"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "geo-m-world-countries-q-009",
+    "node_id": "geo-m-world-countries",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列关于巴西的农业描述，正确的是________。",
+    "options": [
+      "A. 巴西的农业以小麦为主",
+      "B. 巴西是世界上最大的咖啡生产国",
+      "C. 巴西的农业以畜牧业为主",
+      "D. 巴西的农业以水稻为主"
+    ],
+    "answer": "B. 巴西是世界上最大的咖啡生产国",
+    "steps": [
+      "1. 回忆巴西的主要农产品",
+      "2. 确认巴西是世界上最大的咖啡生产国"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A或D",
+        "hint": "巴西的主要农产品是咖啡和大豆"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-world-countries-q-010",
+    "node_id": "geo-m-world-countries",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析美国成为世界强国的主要原因。",
+    "answer": "1. 地理位置优越：美国位于北美洲中部，东临大西洋，西临太平洋，南接墨西哥湾，交通便利。2. 自然资源丰富：美国拥有丰富的矿产资源和森林资源。3. 经济实力雄厚：美国是世界上最大的经济体，拥有先进的科技和制造业。4. 军事力量强大：美国拥有世界上最强大的军事力量。",
+    "steps": [
+      "1. 分析美国的地理位置优势",
+      "2. 描述美国的自然资源情况",
+      "3. 描述美国的经济实力",
+      "4. 描述美国的军事力量"
+    ],
+    "common_errors": [
+      {
+        "error": "遗漏某一方面的分析",
+        "hint": "需要全面分析地理位置、自然资源、经济和军事等方面"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

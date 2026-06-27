@@ -1,0 +1,245 @@
+[
+  {
+    "id": "geo-m-world-regions-q-001",
+    "node_id": "geo-m-world-regions",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "以下哪个大洲被赤道穿过中部？",
+    "options": [
+      "A. 亚洲",
+      "B. 非洲",
+      "C. 欧洲",
+      "D. 南美洲"
+    ],
+    "answer": "B. 非洲",
+    "steps": [
+      "1. 回忆世界七大洲的地理位置。",
+      "2. 确定赤道穿过的区域。",
+      "3. 确认赤道穿过非洲中部。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为亚洲被赤道穿过。",
+        "hint": "亚洲主要位于北半球，赤道只穿过其南部小部分岛屿。"
+      },
+      {
+        "error": "误以为欧洲被赤道穿过。",
+        "hint": "欧洲完全位于北半球，赤道不穿过。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-world-regions-q-002",
+    "node_id": "geo-m-world-regions",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "世界最大的沙漠是__________。",
+    "answer": "撒哈拉沙漠",
+    "steps": [
+      "1. 回忆世界主要沙漠的分布。",
+      "2. 确认撒哈拉沙漠的地理位置和面积。",
+      "3. 填写正确答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写阿拉伯沙漠。",
+        "hint": "阿拉伯沙漠面积小于撒哈拉沙漠。"
+      },
+      {
+        "error": "填写南极沙漠。",
+        "hint": "南极是冰原，不是传统意义上的沙漠。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-world-regions-q-003",
+    "node_id": "geo-m-world-regions",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "以下哪个大洋是世界上最大的海洋？",
+    "options": [
+      "A. 大西洋",
+      "B. 印度洋",
+      "C. 北冰洋",
+      "D. 太平洋"
+    ],
+    "answer": "D. 太平洋",
+    "steps": [
+      "1. 回忆世界四大洋的面积。",
+      "2. 确定太平洋的面积最大。",
+      "3. 确认太平洋的地理位置。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为大西洋是最大的。",
+        "hint": "大西洋面积小于太平洋。"
+      },
+      {
+        "error": "误以为印度洋是最大的。",
+        "hint": "印度洋面积排名第三。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-world-regions-q-004",
+    "node_id": "geo-m-world-regions",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述亚洲和欧洲的分界线。",
+    "answer": "亚洲和欧洲的分界线是乌拉尔山脉、乌拉尔河、大高加索山脉、博斯普鲁斯海峡、马尔马拉海和达达尼尔海峡。",
+    "steps": [
+      "1. 回忆亚洲和欧洲的地理位置。",
+      "2. 列出亚洲和欧洲之间的主要地理特征。",
+      "3. 详细描述分界线的具体位置。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到乌拉尔山脉。",
+        "hint": "分界线还包括乌拉尔河、大高加索山脉等。"
+      },
+      {
+        "error": "混淆亚洲和非洲的分界线。",
+        "hint": "亚洲和非洲的分界线是苏伊士运河。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-world-regions-q-005",
+    "node_id": "geo-m-world-regions",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下哪个国家位于南美洲？",
+    "options": [
+      "A. 巴西",
+      "B. 印度",
+      "C. 尼日利亚",
+      "D. 澳大利亚"
+    ],
+    "answer": "A. 巴西",
+    "steps": [
+      "1. 回忆南美洲的主要国家。",
+      "2. 确认巴西的地理位置。",
+      "3. 排除其他选项。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为印度位于南美洲。",
+        "hint": "印度位于南亚。"
+      },
+      {
+        "error": "误以为尼日利亚位于南美洲。",
+        "hint": "尼日利亚位于非洲。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-world-regions-q-006",
+    "node_id": "geo-m-world-regions",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述非洲气候类型的分布特点。",
+    "answer": "非洲气候类型呈对称分布，赤道附近为热带雨林气候，向南北两侧依次为热带草原气候、热带沙漠气候和地中海气候。",
+    "steps": [
+      "1. 回忆非洲的地理位置和气候带。",
+      "2. 描述赤道附近的典型气候类型。",
+      "3. 描述向南北两侧的气候类型变化。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到热带草原气候。",
+        "hint": "非洲气候类型多样，还包括热带雨林、热带沙漠等。"
+      },
+      {
+        "error": "混淆非洲和南美洲的气候分布。",
+        "hint": "南美洲气候分布与非洲不同，主要受安第斯山脉影响。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-world-regions-q-007",
+    "node_id": "geo-m-world-regions",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述北美洲的地形特点。",
+    "answer": "北美洲地形呈三大纵列带分布，西部为科迪勒拉山系，中部为广阔的平原，东部为阿巴拉契亚山脉和沿海平原。",
+    "steps": [
+      "1. 回忆北美洲的主要地形单元。",
+      "2. 描述西部、中部和东部的地形特征。",
+      "3. 总结地形分布规律。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到科迪勒拉山系。",
+        "hint": "北美洲地形还包括中部平原和东部山脉。"
+      },
+      {
+        "error": "混淆北美洲和南美洲的地形。",
+        "hint": "南美洲地形以安第斯山脉为主。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-world-regions-q-008",
+    "node_id": "geo-m-world-regions",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析澳大利亚的气候类型分布与地形的关系。",
+    "answer": "澳大利亚气候类型分布受地形影响显著。东部为大分水岭，受地形抬升影响，降水较多，形成温带海洋性气候和亚热带湿润气候；中部为广阔的平原和盆地，地势低平，降水稀少，形成干旱和半干旱气候；西部为高原，地形起伏较小，气候以热带沙漠气候为主。",
+    "steps": [
+      "1. 回忆澳大利亚的主要地形单元。",
+      "2. 分析地形对气候的影响。",
+      "3. 详细描述各区域的气候类型。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到地形影响，忽略气候类型。",
+        "hint": "需要具体说明地形如何影响气候类型分布。"
+      },
+      {
+        "error": "混淆澳大利亚和非洲的气候分布。",
+        "hint": "澳大利亚气候分布与非洲不同，主要受地形影响。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-world-regions-q-009",
+    "node_id": "geo-m-world-regions",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "比较南美洲和非洲的地理位置和气候特点。",
+    "answer": "地理位置上，南美洲位于西半球，主要在南北回归线之间；非洲位于东半球，横跨南北半球。气候特点上，南美洲气候类型多样，受安第斯山脉影响显著，主要有热带雨林气候、热带草原气候和高山气候；非洲气候类型呈对称分布，赤道附近为热带雨林气候，向南北两侧依次为热带草原气候、热带沙漠气候和地中海气候。",
+    "steps": [
+      "1. 回忆南美洲和非洲的地理位置。",
+      "2. 分析两洲的气候类型分布。",
+      "3. 比较两洲的地理位置和气候特点的异同。"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆两洲的气候类型。",
+        "hint": "南美洲和非洲的气候类型分布不同，需要分别分析。"
+      },
+      {
+        "error": "忽略地形对气候的影响。",
+        "hint": "南美洲气候受安第斯山脉影响显著。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

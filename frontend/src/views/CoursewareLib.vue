@@ -38,7 +38,7 @@ function gradeLabel(g: number): string {
 <template>
   <div class="lib">
     <h1>📚 课件库</h1>
-    <p class="subtitle">已自托管的可直接学；其余为 teachany.cn 可拉取课件</p>
+    <p class="subtitle">浏览全科课件，点击即可开始学习</p>
 
     <div class="subject-tabs">
       <button v-for="s in subjects" :key="s.subject" class="tab"
