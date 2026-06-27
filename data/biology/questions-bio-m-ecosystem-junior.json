@@ -1,0 +1,243 @@
+[
+  {
+    "id": "bio-m-ecosystem-junior-q-001",
+    "node_id": "bio-m-ecosystem-junior",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列不属于生态系统组成部分的是：",
+    "options": [
+      "A. 生产者",
+      "B. 消费者",
+      "C. 分解者",
+      "D. 阳光"
+    ],
+    "answer": "D. 阳光",
+    "steps": [
+      "1. 回顾生态系统的组成：生产者、消费者、分解者和非生物成分。",
+      "2. 分析选项：A、B、C分别是生产者、消费者和分解者，都是生态系统的组成部分。",
+      "3. D选项阳光属于非生物成分，但它是环境因素，不是生态系统的组成部分。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将阳光归为生态系统组成部分",
+        "hint": "阳光是环境因素，虽然对生态系统很重要，但不属于生态系统组成部分。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "bio-m-ecosystem-junior-q-002",
+    "node_id": "bio-m-ecosystem-junior",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "生态系统中，能进行光合作用的生物被称为________。",
+    "answer": "生产者",
+    "steps": [
+      "1. 回忆生态系统中不同生物的功能。",
+      "2. 能进行光合作用的生物是绿色植物，它们制造有机物，为生态系统提供能量。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写‘消费者’或‘分解者’",
+        "hint": "消费者是动物，分解者是细菌和真菌，它们都不能进行光合作用。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-ecosystem-junior-q-003",
+    "node_id": "bio-m-ecosystem-junior",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列哪一项是生态系统的非生物成分？",
+    "options": [
+      "A. 蚯蚓",
+      "B. 细菌",
+      "C. 水",
+      "D. 兔子"
+    ],
+    "answer": "C. 水",
+    "steps": [
+      "1. 明确非生物成分的定义：生态系统中不包括生物的部分。",
+      "2. 分析选项：A、B、D都是生物，C是环境因素。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将细菌归为非生物成分",
+        "hint": "细菌是分解者，属于生物。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-ecosystem-junior-q-004",
+    "node_id": "bio-m-ecosystem-junior",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "在一个草原生态系统中，狼与兔子的关系是：",
+    "options": [
+      "A. 竞争",
+      "B. 捕食",
+      "C. 共生",
+      "D. 寄生"
+    ],
+    "answer": "B. 捕食",
+    "steps": [
+      "1. 分析狼与兔子的关系：狼吃兔子。",
+      "2. 对比选项：捕食关系是指一种生物以另一种生物为食。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为是竞争关系",
+        "hint": "竞争关系是指两种生物争夺相同的资源，而狼和兔子不是这种关系。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-ecosystem-junior-q-005",
+    "node_id": "bio-m-ecosystem-junior",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "在生态系统中，________是连接生物与非生物成分的桥梁。",
+    "answer": "分解者",
+    "steps": [
+      "1. 理解分解者的作用：分解动植物遗体和排泄物。",
+      "2. 分解者将有机物分解为无机物，连接生物与非生物成分。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写‘生产者’或‘消费者’",
+        "hint": "生产者制造有机物，消费者消耗有机物，都不直接连接生物与非生物成分。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-ecosystem-junior-q-006",
+    "node_id": "bio-m-ecosystem-junior",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列哪一项不是生态系统的功能？",
+    "options": [
+      "A. 能量流动",
+      "B. 物质循环",
+      "C. 信息传递",
+      "D. 生物进化"
+    ],
+    "answer": "D. 生物进化",
+    "steps": [
+      "1. 回顾生态系统的三大功能：能量流动、物质循环和信息传递。",
+      "2. 分析选项：D选项生物进化是生物进化的结果，不是生态系统的功能。"
+    ],
+    "common_errors": [
+      {
+        "error": "误将生物进化归为生态系统功能",
+        "hint": "生物进化是生物界长期发展的过程，不是生态系统的直接功能。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-ecosystem-junior-q-007",
+    "node_id": "bio-m-ecosystem-junior",
+    "source": "AI-生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请简述生态系统中生产者、消费者和分解者的作用。",
+    "answer": "生产者通过光合作用制造有机物，为生态系统提供能量；消费者消耗生产者或其他消费者，获得能量；分解者分解动植物遗体和排泄物，将有机物分解为无机物，促进物质循环。",
+    "steps": [
+      "1. 分别阐述生产者、消费者和分解者的作用。",
+      "2. 强调它们在生态系统中的重要性。"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆不同生物的作用",
+        "hint": "注意区分生产者、消费者和分解者的具体功能。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-ecosystem-junior-q-008",
+    "node_id": "bio-m-ecosystem-junior",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "在一个森林生态系统中，食物链的起点是：",
+    "options": [
+      "A. 草",
+      "B. 树",
+      "C. 太阳",
+      "D. 土壤"
+    ],
+    "answer": "B. 树",
+    "steps": [
+      "1. 理解食物链的起点：通常是生产者。",
+      "2. 分析森林生态系统中主要的生产者是树木。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为草是起点",
+        "hint": "在森林生态系统中，草不是主要的生产者。"
+      },
+      {
+        "error": "误选择太阳",
+        "hint": "太阳是能量来源，但不是食物链的起点。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "bio-m-ecosystem-junior-q-009",
+    "node_id": "bio-m-ecosystem-junior",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释为什么生态系统的稳定性与生物多样性有关。",
+    "answer": "生物多样性越高，生态系统的稳定性越强。因为不同生物之间形成复杂的食物网和生态关系，当环境发生变化或某一物种数量减少时，其他物种可以填补生态位，维持生态平衡。",
+    "steps": [
+      "1. 解释生物多样性的概念。",
+      "2. 分析生物多样性与生态系统稳定性的关系。",
+      "3. 举例说明生物多样性对生态系统稳定性的重要性。"
+    ],
+    "common_errors": [
+      {
+        "error": "简单回答‘有关’",
+        "hint": "需要详细解释生物多样性与生态系统稳定性的具体关系。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "bio-m-ecosystem-junior-q-010",
+    "node_id": "bio-m-ecosystem-junior",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析生态系统中能量流动的特点。",
+    "answer": "生态系统中能量流动是单向的，从生产者开始，通过食物链和食物网逐级传递。能量在传递过程中逐级递减，大部分能量以热能形式散失，只有少量能量被生物体利用。",
+    "steps": [
+      "1. 明确能量流动的方向：单向流动。",
+      "2. 解释能量流动的途径：食物链和食物网。",
+      "3. 说明能量流动的特点：逐级递减。"
+    ],
+    "common_errors": [
+      {
+        "error": "认为能量可以循环",
+        "hint": "能量流动是单向的，不能循环。"
+      },
+      {
+        "error": "忽略能量递减的特点",
+        "hint": "能量在传递过程中逐级递减是重要特点。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

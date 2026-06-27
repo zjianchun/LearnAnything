@@ -1,0 +1,203 @@
+[
+  {
+    "id": "chn-m-classical-translation-q-001",
+    "node_id": "chn-m-classical-translation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列句子中，“之”字用法与其他三项不同的是哪一项？\nA. 学而时习之\nB. 吾欲之南海\nC. 友人惭，下车引之\nD. 水陆草木之花",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "D",
+    "steps": [
+      "1. 分析每个选项中“之”的用法。",
+      "2. A选项“之”代词，指代学过的内容；B选项“之”动词，去、到；C选项“之”代词，指代元方；D选项“之”助词，的。",
+      "3. 对比分析，D选项与其他三项不同。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为“之”都是代词",
+        "hint": "注意“之”的多种用法，如代词、动词、助词等。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chn-m-classical-translation-q-002",
+    "node_id": "chn-m-classical-translation",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "翻译句子：温故而知新，可以为师矣。",
+    "answer": "温习学过的知识，可以得到新的理解和体会，这样的人可以做老师了。",
+    "steps": [
+      "1. 解释重点词：故（学过的知识），而（连词，表顺承），可（可以），以（凭借）。",
+      "2. 翻译句子，注意句意通顺。",
+      "3. 调整语序，使句子符合现代汉语表达习惯。"
+    ],
+    "common_errors": [
+      {
+        "error": "将“故”误译为“所以”",
+        "hint": "注意“故”在不同语境下的不同含义。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chn-m-classical-translation-q-003",
+    "node_id": "chn-m-classical-translation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列句子中，“而”字用法与其他三项不同的是哪一项？\nA. 学而时习之\nB. 博学而笃志\nC. 人不知而不愠\nD. 温故而知新",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "steps": [
+      "1. 分析每个选项中“而”的用法。",
+      "2. A、B、D选项中“而”都是连词，表顺承；C选项中“而”连词，表转折。",
+      "3. 对比分析，C选项与其他三项不同。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为“而”都是表顺承",
+        "hint": "注意“而”的多种用法，如表顺承、表转折等。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chn-m-classical-translation-q-004",
+    "node_id": "chn-m-classical-translation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "翻译句子：人不知而不愠，不亦君子乎？",
+    "answer": "别人不了解我，我却不生气，不也是有才德的人吗？",
+    "steps": [
+      "1. 解释重点词：知（了解），而（连词，表转折），愠（生气，恼怒），亦（也），君子（有才德的人）。",
+      "2. 翻译句子，注意句意通顺。",
+      "3. 调整语序，使句子符合现代汉语表达习惯。"
+    ],
+    "common_errors": [
+      {
+        "error": "将“愠”误译为“怨恨”",
+        "hint": "注意“愠”在不同语境下的不同含义。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chn-m-classical-translation-q-005",
+    "node_id": "chn-m-classical-translation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "翻译句子：三人行，必有我师焉。",
+    "answer": "几个人同行，其中必定有我的老师。",
+    "steps": [
+      "1. 解释重点词：行（行走），必（必定），有（存在），我师（我的老师），焉（兼词，于之，在其中）。",
+      "2. 翻译句子，注意句意通顺。",
+      "3. 调整语序，使句子符合现代汉语表达习惯。"
+    ],
+    "common_errors": [
+      {
+        "error": "将“焉”误译为“哪里”",
+        "hint": "注意“焉”的多种用法，如兼词、代词等。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chn-m-classical-translation-q-006",
+    "node_id": "chn-m-classical-translation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "翻译句子：吾日三省吾身。",
+    "answer": "我每天多次进行自我反省。",
+    "steps": [
+      "1. 解释重点词：日（每天），三（多次），省（反省），身（自身）。",
+      "2. 翻译句子，注意句意通顺。",
+      "3. 调整语序，使句子符合现代汉语表达习惯。"
+    ],
+    "common_errors": [
+      {
+        "error": "将“三”误译为“三次”",
+        "hint": "注意“三”在不同语境下的不同含义。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chn-m-classical-translation-q-007",
+    "node_id": "chn-m-classical-translation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "翻译句子：士不可以不弘毅。",
+    "answer": "士人不可以不志向远大，意志坚定。",
+    "steps": [
+      "1. 解释重点词：士（士人），可以（能够），弘（广大，志向远大），毅（坚毅）。",
+      "2. 翻译句子，注意句意通顺。",
+      "3. 调整语序，使句子符合现代汉语表达习惯。"
+    ],
+    "common_errors": [
+      {
+        "error": "将“弘毅”误译为“宽广和毅力”",
+        "hint": "注意“弘毅”是一个词组，意为“志向远大，意志坚定”。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chn-m-classical-translation-q-008",
+    "node_id": "chn-m-classical-translation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "翻译句子：富贵不能淫，贫贱不能移，威武不能屈。",
+    "answer": "富贵不能使他的思想迷惑，贫贱不能使他的操守改变，威武不能使他的意志屈服。",
+    "steps": [
+      "1. 解释重点词：淫（使……迷惑），移（使……改变），屈（使……屈服）。",
+      "2. 翻译句子，注意句意通顺。",
+      "3. 调整语序，使句子符合现代汉语表达习惯。"
+    ],
+    "common_errors": [
+      {
+        "error": "将“淫”误译为“淫乱”",
+        "hint": "注意“淫”在不同语境下的不同含义。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-classical-translation-q-009",
+    "node_id": "chn-m-classical-translation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "翻译句子：天下英雄谁敌手？曹刘。生子当如孙仲谋。",
+    "answer": "天下英雄中谁能成为他的对手？只有曹操和刘备。 生儿子就要像孙仲谋那样。",
+    "steps": [
+      "1. 解释重点词：敌手（对手），生子（生儿子），当（应当），如（像）。",
+      "2. 翻译句子，注意句意通顺。",
+      "3. 调整语序，使句子符合现代汉语表达习惯。"
+    ],
+    "common_errors": [
+      {
+        "error": "将“生子”误译为“生孩子”",
+        "hint": "注意“生子”在不同语境下的不同含义。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]
