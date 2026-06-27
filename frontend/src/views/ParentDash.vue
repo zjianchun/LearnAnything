@@ -6,15 +6,47 @@ const today = ref<any>(null)
 const weekly = ref<any[]>([])
 const loading = ref(true)
 
+// AI配置
+const aiConfig = ref({ configured: false, model: '', upstream: '', key_preview: '' })
+const editModel = ref('')
+const editUpstream = ref('')
+const editKey = ref('')
+const saving = ref(false)
+const saveMsg = ref('')
+
 onMounted(async () => {
-  const [todayRes, weeklyRes] = await Promise.all([
+  const [todayRes, weeklyRes, configRes] = await Promise.all([
     api.get('/stats/today'),
     api.get('/stats/weekly'),
+    api.get('/tutor/config'),
   ])
   today.value = todayRes.data
   weekly.value = weeklyRes.data
+  aiConfig.value = configRes.data
+  editModel.value = configRes.data.model
+  editUpstream.value = configRes.data.upstream
   loading.value = false
 })
+
+async function saveConfig() {
+  saving.value = true
+  saveMsg.value = ''
+  try {
+    const payload: any = {}
+    if (editUpstream.value !== aiConfig.value.upstream) payload.upstream_base = editUpstream.value
+    if (editModel.value !== aiConfig.value.model) payload.model = editModel.value
+    if (editKey.value) payload.api_key = editKey.value
+    const { data } = await api.put('/tutor/config', payload)
+    aiConfig.value = data
+    editKey.value = ''
+    saveMsg.value = '✅ 已保存'
+  } catch (e: any) {
+    saveMsg.value = '✗ ' + (e?.message || '保存失败')
+  } finally {
+    saving.value = false
+    setTimeout(() => { saveMsg.value = '' }, 3000)
+  }
+}
 </script>
 
 <template>
@@ -71,6 +103,31 @@ onMounted(async () => {
         </div>
         <p v-else class="empty">暂无数据</p>
       </div>
+
+      <!-- AI学伴配置 -->
+      <div class="ai-config">
+        <h2>🤖 AI学伴配置</h2>
+        <p class="config-status">
+          状态：<span :class="aiConfig.configured ? 'on' : 'off'">{{ aiConfig.configured ? '已配置' : '未配置' }}</span>
+          <span v-if="aiConfig.key_preview" class="key-preview">Key: {{ aiConfig.key_preview }}</span>
+        </p>
+        <div class="config-form">
+          <label>API端点
+            <input v-model="editUpstream" placeholder="https://api.minimaxi.com/v1" />
+          </label>
+          <label>模型名称
+            <input v-model="editModel" placeholder="MiniMax-Text-01" />
+          </label>
+          <label>API Key（留空不改）
+            <input v-model="editKey" type="password" placeholder="sk-xxx..." />
+          </label>
+          <div class="config-actions">
+            <button @click="saveConfig" :disabled="saving">{{ saving ? '保存中...' : '保存配置' }}</button>
+            <span class="save-msg">{{ saveMsg }}</span>
+          </div>
+        </div>
+        <p class="config-hint">支持任何 OpenAI 兼容 API（MiniMax、DeepSeek、通义千问、GPT等）。修改即时生效，重启服务后回退到.env默认值。</p>
+      </div>
     </template>
   </div>
 </template>
@@ -101,4 +158,20 @@ onMounted(async () => {
 .day-rate { font-size: 0.8rem; color: #22c55e; }
 .loading { text-align: center; padding: 3rem; color: #999; }
 .empty { color: #aaa; }
+
+/* AI配置 */
+.ai-config { background: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-top: 1.5rem; }
+.ai-config h2 { font-size: 1.1rem; margin-bottom: 0.75rem; }
+.config-status { font-size: 0.85rem; color: #64748b; margin-bottom: 1rem; }
+.config-status .on { color: #22c55e; font-weight: 600; }
+.config-status .off { color: #ef4444; font-weight: 600; }
+.key-preview { margin-left: 1rem; font-family: monospace; font-size: 0.8rem; color: #94a3b8; }
+.config-form { display: flex; flex-direction: column; gap: 0.75rem; }
+.config-form label { font-size: 0.82rem; color: #475569; display: flex; flex-direction: column; gap: 0.3rem; }
+.config-form input { padding: 0.5rem 0.75rem; border: 1.5px solid #e2e8f0; border-radius: 8px; font-size: 0.88rem; font-family: monospace; }
+.config-actions { display: flex; align-items: center; gap: 1rem; margin-top: 0.5rem; }
+.config-actions button { padding: 0.5rem 1.2rem; background: #4361ee; color: #fff; border: none; border-radius: 8px; cursor: pointer; font-size: 0.85rem; }
+.config-actions button:disabled { background: #cbd5e1; }
+.save-msg { font-size: 0.82rem; color: #22c55e; }
+.config-hint { font-size: 0.75rem; color: #94a3b8; margin-top: 0.75rem; }
 </style>
