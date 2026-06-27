@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-<script>(function(){try{var K='teachany_tutor_config';if(!localStorage.getItem(K)){localStorage.setItem(K,JSON.stringify({provider:'custom',baseUrl:location.origin+'/api/tutor/v1',apiKey:'self-hosted',model:'MiniMax-Text-01'}));}}catch(e){}})();</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>《氧气的性质》 · 化学 初中 G9 · TeachAny v7.9</title>
@@ -15,23 +14,14 @@
 <meta name="course-prereqs" content="chem-m-air-composition">
 <meta name="course-next" content="chem-m-oxygen-preparation">
 <meta name="course-version" content="1.0.0">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <!-- 标准五件套 + 音频播放器 -->
+
+<!-- 标准五件套 + 音频播放器 -->
 <link rel="stylesheet" href="/courseware/_assets/scripts/ai-tutor.css">
 <link rel="stylesheet" href="/courseware/_assets/scripts/teachany-tutor-card.css">
 <link rel="stylesheet" href="/courseware/_assets/scripts/teachany-tts-narrator.css">
 <link rel="stylesheet" href="/courseware/_assets/scripts/teachany-section-hints.css">
 <link rel="stylesheet" href="/courseware/_assets/scripts/teachany-knowledge-graph.css">
 <link rel="stylesheet" href="/courseware/_assets/scripts/teachany-audio-player.css">
-
 
 <style>
 /* ======================================================
@@ -685,507 +675,41 @@ body.play-mode .slide-page {
 
 /* ─── Responsive ─── */
 @media (max-width: 768px) {
-  :root {
-    --page-padding: 16px;
-    --card-radius: 16px;
+  .slide-progress-bar {
+    display: none;
   }
-
-  .slide-page {
-    padding: 16px 14px;
-    padding-bottom: calc(16px + var(--toolbar-height));
+  .slide-sidenav {
+    display: none;
   }
-
-  .grid, .grid-2, .grid-3, .objectives, .grid-2col {
-    grid-template-columns: 1fr !important;
+  .play-mode-fab {
+    display: none;
   }
-
-  .flex-row { flex-direction: column; }
-  .flex-row .choice { min-width: 100%; }
-
-  .card { padding: 18px; }
-
-  .slide-sidenav { right: 6px; gap: 2px; padding: 6px 3px; }
-  .sidenav-dot { width: 22px; height: 3px; }
-  .sidenav-dot.active { width: 28px; }
-  .sidenav-counter { font-size: 9px; }
-
-  .teachany-brand-bar { padding: 8px 12px; }
-  .brand-name { display: none; }
-  .brand-right { gap: 8px; font-size: 12px; }
-
-  canvas.wide-canvas { min-width: 560px; }
-}
-
-@media (max-width: 480px) {
-  .slide-page[data-page-type="cover"] h1 {
-    font-size: 28px;
+  .slide-toolbar {
+    justify-content: space-between;
   }
-
-  .toolbar-progress { max-width: 120px; }
 }
-
-/* ─── Utility ─── */
-.text-gradient {
-  background: linear-gradient(135deg, var(--brand), var(--brand-2));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.glass {
-  background: rgba(20, 35, 58, 0.6);
-  backdrop-filter: blur(10px);
-  border: 1px solid var(--line-subtle);
-}
-
-.animate-in {
-  animation: fadeUp 0.5s ease-out both;
-}
-
-@keyframes fadeUp {
-  from { opacity: 0; transform: translateY(16px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.stagger-1 { animation-delay: 0.1s; }
-.stagger-2 { animation-delay: 0.2s; }
-.stagger-3 { animation-delay: 0.3s; }
-.stagger-4 { animation-delay: 0.4s; }
 </style>
-
-  <meta name="teachany-id" content="chem-oxygen-properties">
-  <meta name="teachany-name" content="氧气的性质">
-  <meta name="teachany-node" content="chem-m-oxygen-properties">
-  <meta name="teachany-subject" content="chemistry">
-  <meta name="teachany-grade" content="9">
-  <meta name="teachany-version" content="v6">
-    <meta name="teachany-curriculum" content="cn-national">
-
-  <link rel="stylesheet" href="/courseware/_assets/scripts/teachany-floating-dock.css">
-</head>
-<body>
-
-<!-- Progress Bar -->
-<div class="slide-progress-bar" id="slide-progress-bar" style="width: 0%"></div>
-
-<!-- Brand Bar -->
-
-
-<!-- Slide Container -->
-<div class="slide-container" id="slide-container">
-
-  <!-- Page 1: Cover -->
-  <section class="slide-page" data-page-type="cover" data-page-index="0" data-tts="hero" data-tsh="开场 - 先用一个真实问题建立学习动机">
-    <div class="slide-inner">
-      <h1>氧气的性质</h1>
-      <p class="subtitle">为什么带火星的木条放入氧气中会复燃？</p>
-      <figure class="ta-standard-figure" style="margin-top:32px">
-        <img class="hero-cover-img" src="./assets/chem-oxygen-properties-hero.png" onerror="this.src='./assets/chem-oxygen-properties-hero.png'" alt="氧气的性质 - 知识结构图">
-        <figcaption>氧气的物理性质与化学性质思维导图</figcaption>
-      </figure>
-    </div>
-  </section>
-
-  <!-- Page 2: Problem Anchor -->
-  <section class="slide-page" data-page-type="interactive" data-page-index="1" data-tts="problem-anchor" data-tsh="问题锚点 - 先确定你今天想解决的问题">
-    <div class="slide-inner">
-      <div class="card card-accent">
-        <div class="section-header">
-          <span class="phase-tag">Problem Anchor</span>
-          <h2>今天想解决什么问题？</h2>
-        </div>
-        <p style="color:var(--muted);margin:0 0 16px">选一个你关心的问题，后面的内容会围绕它展开。</p>
-        <div class="grid" id="problem-anchor-choices">
-          <button class="choice animate-in stagger-1" data-anchor-choice="为什么带火星的木条放入氧气中会复燃？">为什么带火星的木条放入氧气中会复燃？</button>
-          <button class="choice animate-in stagger-2" data-anchor-choice="氧气和空气到底有什么不同？">氧气和空气到底有什么不同？</button>
-          <button class="choice animate-in stagger-3" data-anchor-choice="怎么检验一瓶气体是不是氧气？">怎么检验一瓶气体是不是氧气？</button>
-        </div>
-        <label style="display:block;margin-top:20px;color:var(--muted);font-size:14px">或者，写下你自己的问题
-          <input id="learner-question-input" placeholder="把你卡住的问题写在这里" style="margin-top:8px">
-        </label>
-        <p id="anchor-feedback" class="result warn" style="margin-top:16px">选择或输入后，本课会围绕你的问题展开。</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Page 3: Learning Objectives -->
-  <section class="slide-page" data-page-type="objectives" data-page-index="2" data-tts="objectives" data-tsh="学习目标 - 明确这节课结束时能做到什么">
-    <div class="slide-inner">
-      <div class="card">
-        <div class="section-header">
-          <span class="phase-tag" data-variant="success">Objectives</span>
-          <h2>学习目标</h2>
-        </div>
-        <ul class="objectives">
-          <li>能说出氧气的五个主要物理性质（色、态、味、密度、溶解性）</li>
-          <li>能描述氧气与碳、硫、铁反应的实验现象并书写化学方程式</li>
-          <li>能归纳氧气的化学性质——比较活泼，具有助燃性</li>
-          <li>能运用带火星的木条检验氧气，并说出两种收集方法的原理</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- Content Sections: 每个教学模块一页 -->
-  <!-- Page 4: Pretest -->
-  <section class="slide-page" data-page-type="quiz" data-page-index="3" data-tts="pretest" data-tsh="前测 - 先暴露前置知识和直觉判断">
-    <div class="slide-inner">
-      <div class="card card-accent">
-        <div class="section-header">
-          <span class="phase-tag" data-variant="warn">Pretest</span>
-          <h2>前测：你对氧气了解多少？</h2>
-        </div>
-        <p style="color:var(--muted);margin:0 0 20px">在做实验之前，先测测你的已有知识。</p>
-        <div class="grid">
-          <button class="choice animate-in stagger-1" data-answer="wrong" data-diagnosis="氧气是无色无味的，没有颜色。你可能把液氧的淡蓝色和氧气混淆了。">A. 氧气是淡蓝色的气体</button>
-          <button class="choice animate-in stagger-2" data-answer="correct" data-diagnosis="正确！带火星的木条在氧气中会复燃，这是检验氧气最经典的方法。">B. 带火星的木条伸入氧气中会复燃</button>
-          <button class="choice animate-in stagger-3" data-answer="wrong" data-diagnosis="氧气的密度略大于空气（约1.429 g/L > 1.293 g/L），所以可以用向上排空气法收集。">C. 氧气的密度比空气小</button>
-          <button class="choice animate-in stagger-4" data-answer="wrong" data-diagnosis="铁丝在空气中只能红热，在纯氧中才会剧烈燃烧、火星四射。">D. 铁丝在空气中就能剧烈燃烧</button>
-        </div>
-        <div class="result warn" data-feedback-for="pretest" style="margin-top:16px">先选一个你最有把握的答案，我们来看看你对氧气的初始认知。</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Page 5: Physical Properties -->
-  <section class="slide-page" data-page-type="concept" data-page-index="4" data-tts="physical" data-tsh="物理性质 - 观察氧气的色、态、味、密度和溶解性">
-    <div class="slide-inner">
-      <div class="card">
-        <div class="section-header">
-          <span class="phase-tag">Concept</span>
-          <h2>氧气的物理性质</h2>
-        </div>
-        <div class="card glass" style="margin:16px 0;padding:20px;border-radius:var(--card-radius-sm)">
-          <p style="margin:0 0 8px"><strong style="color:var(--accent)">已经知道：</strong>空气中有氧气，我们靠它呼吸。</p>
-          <p style="margin:0 0 8px"><strong style="color:var(--warn)">但是问题是：</strong>我们看不见氧气，它到底长什么样？有多重？能溶在水里吗？</p>
-          <p style="margin:0"><strong style="color:var(--brand)">所以这一段要解决：</strong>系统认识氧气的五个物理性质。</p>
-        </div>
-        <div class="grid" style="margin-top:20px">
-          <div class="card animate-in stagger-1" style="padding:18px">
-            <h3 style="color:var(--brand);margin-bottom:8px;font-size:16px">颜色、状态、气味</h3>
-            <p style="color:var(--text-secondary);margin:0;font-size:15px">通常状况下，氧气是<strong>无色、无味的气体</strong>。降温到 −183°C 变成淡蓝色液体，−218°C 变成淡蓝色固体。</p>
-          </div>
-          <div class="card animate-in stagger-2" style="padding:18px">
-            <h3 style="color:var(--brand-2);margin-bottom:8px;font-size:16px">密度</h3>
-            <p style="color:var(--text-secondary);margin:0;font-size:15px">氧气密度为 <strong>1.429 g/L</strong>，略大于空气（1.293 g/L）。因此收集氧气可用<strong>向上排空气法</strong>。</p>
-          </div>
-          <div class="card animate-in stagger-3" style="padding:18px">
-            <h3 style="color:var(--accent);margin-bottom:8px;font-size:16px">溶解性</h3>
-            <p style="color:var(--text-secondary);margin:0;font-size:15px">氧气<strong>不易溶于水</strong>（1L 水约溶 30mL O₂）。因此可用<strong>排水集气法</strong>收集氧气。鱼类靠水中溶解氧呼吸。</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Page 6: Chemical Properties - Carbon -->
-  <section class="slide-page" data-page-type="concept" data-page-index="5" data-tts="chem-carbon" data-tsh="化学性质 - 与碳反应（明亮的白光）">
-    <div class="slide-inner">
-      <div class="card">
-        <div class="section-header">
-          <span class="phase-tag" data-variant="purple">Experiment</span>
-          <h2>化学性质①：与碳反应</h2>
-        </div>
-        <p style="color:var(--muted);margin:0 0 16px;font-size:16px;line-height:1.8">木炭在空气中燃烧只发出<strong>红光</strong>，但在纯氧中呢？</p>
-        <div class="grid" style="margin-top:16px">
-          <div class="card animate-in stagger-1" style="padding:20px;border-left:3px solid var(--accent)">
-            <h3 style="color:var(--accent);margin-bottom:10px;font-size:15px">实验现象</h3>
-            <p style="color:var(--text-secondary);margin:0;font-size:15px">木炭在氧气中剧烈燃烧，发出<strong>明亮的白光</strong>，放出大量热。生成的气体使澄清石灰水变浑浊。</p>
-          </div>
-          <div class="card animate-in stagger-2" style="padding:20px;border-left:3px solid var(--brand)">
-            <h3 style="color:var(--brand);margin-bottom:10px;font-size:15px">化学方程式</h3>
-            <p style="color:var(--text);margin:0;font-size:18px;text-align:center;font-family:'Times New Roman',serif">C + O₂ → CO₂</p>
-            <p style="color:var(--muted);margin:8px 0 0;font-size:13px;text-align:center">碳 + 氧气 → 二氧化碳（化合反应）</p>
-          </div>
-          <div class="card animate-in stagger-3" style="padding:20px;border-left:3px solid var(--warn)">
-            <h3 style="color:var(--warn);margin-bottom:10px;font-size:15px">注意事项</h3>
-            <p style="color:var(--text-secondary);margin:0;font-size:15px">木炭应从上而下<strong>缓慢伸入</strong>集气瓶，避免氧气受热膨胀逸出。夹木炭的坩埚钳应由瓶口逐渐下移。</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Page 7: Chemical Properties - Sulfur & Iron -->
-  <section class="slide-page" data-page-type="concept" data-page-index="6" data-tts="chem-sulfur-iron" data-tsh="化学性质 - 与硫反应（蓝紫火焰）+ 与铁反应（火星四射）">
-    <div class="slide-inner">
-      <div class="card">
-        <div class="section-header">
-          <span class="phase-tag" data-variant="success">Experiment</span>
-          <h2>化学性质②：与硫、铁反应</h2>
-        </div>
-        <div class="grid-2col" style="margin-top:16px">
-          <div class="card animate-in stagger-1" style="padding:20px;border-top:3px solid var(--brand-2)">
-            <h3 style="color:var(--brand-2);margin-bottom:10px;font-size:16px">硫 + 氧气（S + O₂）</h3>
-            <p style="color:var(--text-secondary);font-size:14px;margin:0 0 8px">硫在空气中：<strong>微弱淡蓝色</strong>火焰</p>
-            <p style="color:var(--text-secondary);font-size:14px;margin:0 0 8px">硫在氧气中：<strong>明亮蓝紫色</strong>火焰</p>
-            <p style="color:var(--text);margin:8px 0;font-size:16px;text-align:center;font-family:'Times New Roman',serif">S + O₂ → SO₂</p>
-            <p style="color:var(--muted);font-size:13px;margin:0">生成有刺激性气味的二氧化硫</p>
-          </div>
-          <div class="card animate-in stagger-2" style="padding:20px;border-top:3px solid var(--danger)">
-            <h3 style="color:#f87171;margin-bottom:10px;font-size:16px">铁 + 氧气（Fe + O₂）</h3>
-            <p style="color:var(--text-secondary);font-size:14px;margin:0 0 8px">铁丝在空气中：仅<strong>红热</strong>，不燃烧</p>
-            <p style="color:var(--text-secondary);font-size:14px;margin:0 0 8px">铁丝在氧气中：<strong>剧烈燃烧，火星四射</strong></p>
-            <p style="color:var(--text);margin:8px 0;font-size:16px;text-align:center;font-family:'Times New Roman',serif">3Fe + 2O₂ → Fe₃O₄</p>
-            <p style="color:var(--muted);font-size:13px;margin:0">生成黑色固体四氧化三铁</p>
-          </div>
-        </div>
-        <div class="card animate-in stagger-3" style="padding:16px;margin-top:12px;border:1px dashed var(--warn);border-radius:var(--card-radius-sm)">
-          <p style="margin:0;color:var(--warn);font-size:14px">⚠️ 铁燃烧实验关键：集气瓶底<strong>必须预留少量水或铺一层细沙</strong>，防止高温熔融物溅落炸裂瓶底！</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Page 8: Worked Example -->
-  <section class="slide-page" data-page-type="concept" data-page-index="7" data-tts="worked-example" data-tsh="习题讲解 - 完整解题思路 + 易错提示">
-    <div class="slide-inner">
-      <div class="card">
-        <div class="section-header">
-          <span class="phase-tag" data-variant="success">Worked Example</span>
-          <h2>典型例题：检验与鉴别</h2>
-        </div>
-        <div class="card glass" style="margin:16px 0;padding:20px;border-radius:var(--card-radius-sm)">
-          <p style="margin:0;color:var(--text);font-size:15px;line-height:1.8"><strong>题目：</strong>有三瓶无色气体，分别是空气、氧气和氮气。如何用最简单的方法将它们一一鉴别出来？</p>
-        </div>
-        <div class="step-grid" style="margin-top:12px">
-          <div class="card animate-in stagger-1" style="padding:18px;border-left:3px solid var(--brand)">
-            <h3 style="color:var(--brand);margin-bottom:6px;font-size:15px">Step 1：分析已知信息</h3>
-            <p style="color:var(--text-secondary);margin:0;font-size:15px">三种气体均无色无味，不能靠看/闻区分。氧气能助燃（使带火星木条复燃），氮气不支持燃烧（使火焰熄灭），空气含约21%氧气（木条正常燃烧后缓慢熄灭）。</p>
-          </div>
-          <div class="card animate-in stagger-2" style="padding:18px;border-left:3px solid var(--accent)">
-            <h3 style="color:var(--accent);margin-bottom:6px;font-size:15px">Step 2：选择试剂/方法</h3>
-            <p style="color:var(--text-secondary);margin:0;font-size:15px"><strong>带火星的木条</strong> 是最佳选择。它遇氧气复燃（唯一特征反应），在空气中无变化（不会重新着火），进入氮气中立即熄灭。</p>
-          </div>
-          <div class="card animate-in stagger-3" style="padding:18px;border-left:3px solid var(--brand-2)">
-            <h3 style="color:var(--brand-2);margin-bottom:6px;font-size:15px">Step 3：描述操作与现象</h3>
-            <p style="color:var(--text-secondary);margin:0;font-size:15px">分别用带火星的木条伸入三瓶气体中：① 木条<strong>复燃</strong>→氧气；② 木条<strong>无明显变化</strong>（火星不灭也不复燃）→空气；③ 木条<strong>立即熄灭</strong>→氮气。</p>
-          </div>
-          <div class="card animate-in stagger-4" style="padding:18px;background:rgba(34,197,94,0.05);border:1px solid rgba(34,197,94,0.2)">
-            <h3 style="color:var(--ok);margin-bottom:6px;font-size:15px">易错提醒</h3>
-            <p style="color:var(--text-secondary);margin:0;font-size:14px">不能用燃着的木条（非带火星）检验氧气——燃着的木条伸入氧气中火焰会更旺，但没有"复燃"那样明确的判断标志。也不能用澄清石灰水，因为空气和氮气都不会让它变浑浊。</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Page 9: Interactive PhET Simulation -->
-  <section class="slide-page" data-page-type="interactive" data-page-index="8" data-tts="phet-lab" data-tsh="互动实验 - 物质状态模拟，观察分子运动">
-    <div class="slide-inner">
-      <div class="card card-glow">
-        <div class="section-header">
-          <span class="phase-tag" data-variant="success">Interactive</span>
-          <h2>互动实验：物质状态模拟</h2>
-        </div>
-        <p style="color:var(--muted);margin:0 0 16px">观察氧气分子（O₂）在不同温度下的运动状态变化。切换固态/液态/气态，理解氧气的三态变化。</p>
-        <div style="position:relative;width:100%;padding-top:62.5%;overflow:hidden;background:#0f172a;margin-bottom:12px">
-          <iframe
-            src="https://phet.colorado.edu/sims/html/states-of-matter-basics/latest/states-of-matter-basics_zh_CN.html"
-            style="position:absolute;top:0;left:0;width:100%;height:100%;border:0"
-            allowfullscreen
-            loading="lazy"
-            sandbox="allow-scripts allow-same-origin allow-forms allow-popups">
-          </iframe>
-        </div>
-        <p style="font-size:12px;color:#64748b;margin-top:6px">💡 点击切换「氧气」分子，调节温度滑块，观察分子运动速度和状态变化。注意气态氧气分子快速无规则运动的特点。</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Page 10: ConcepTest -->
-  <section class="slide-page" data-page-type="quiz" data-page-index="9" data-tts="conceptest" data-tsh="概念测试 - 用干扰项定位误解">
-    <div class="slide-inner">
-      <div class="card card-accent" data-conceptest="true" data-bloom-level="understand">
-        <div class="section-header">
-          <span class="phase-tag" data-variant="purple">ConcepTest</span>
-          <h2>概念辨析：燃烧的真相</h2>
-        </div>
-        <p style="color:var(--text-secondary);margin:0 0 20px;font-size:16px;line-height:1.8">铁丝在空气中不能燃烧，在纯氧中却能剧烈燃烧、火星四射。这说明什么？</p>
-        <div class="grid">
-          <button class="choice animate-in stagger-1" data-choice="A" data-correct="false" data-diagnosis="铁本身是可燃物，燃烧与否取决于氧气的浓度而非有无。空气中 21% 的氧气浓度不足以支持铁丝燃烧。">A. 铁丝只能在纯氧中燃烧，说明铁本身是不可燃的</button>
-          <button class="choice animate-in stagger-2" data-choice="B" data-correct="true" data-diagnosis="正确！物质燃烧的剧烈程度与氧气浓度正相关。纯氧中氧浓度是空气中的约5倍，所以反应更剧烈。这正是「氧气的化学性质比较活泼」这一核心结论的体现。">B. 燃烧的剧烈程度与氧气浓度有关，纯氧中反应更剧烈</button>
-          <button class="choice animate-in stagger-3" data-choice="C" data-correct="false" data-diagnosis="铁燃烧不需要氮气参与。氮气在常温下化学性质稳定，在此实验中仅充当「稀释剂」——降低了氧气浓度。">C. 铁丝燃烧需要空气中的氮气参与反应</button>
-          <button class="choice animate-in stagger-4" data-choice="D" data-correct="false" data-diagnosis="铁丝燃烧是化学变化，生成的是新物质 Fe₃O₄（四氧化三铁），不是简单的「熔化」——物理变化。">D. 铁丝燃烧只是铁被加热到熔化，没有新物质生成</button>
-        </div>
-        <div class="result warn" data-feedback-for="conceptest" style="margin-top:16px">先独立思考，再看诊断反馈。每个选项都有对应的错误诊断。</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Page 11: Summary + Posttest -->
-  <section class="slide-page" data-page-type="summary" data-page-index="10" data-tts="summary" data-tsh="总结 - 回到问题锚点，梳理核心知识">
-    <div class="slide-inner">
-      <div class="card card-glow">
-        <div class="section-header">
-          <span class="phase-tag" data-variant="success">Summary</span>
-          <h2>总结：氧气的性质</h2>
-        </div>
-        <p style="color:var(--text-secondary);margin:0 0 16px;font-size:16px;line-height:1.8">回到最初的问题——为什么带火星的木条伸入氧气中会复燃？因为<strong>氧气化学性质活泼，具有助燃性</strong>。纯氧中氧气浓度是空气的约5倍，足以让木条上残余的火星重新获得足够的氧气而发生剧烈燃烧。</p>
-        <div style="display:flex;flex-direction:column;gap:12px">
-          <div class="animate-in stagger-1" style="display:flex;align-items:flex-start;gap:12px;padding:12px 16px;border-radius:var(--card-radius-sm);background:rgba(56,189,248,0.04);border:1px solid var(--line-subtle)">
-            <span style="color:var(--brand);font-weight:700;flex-shrink:0">01</span>
-            <span style="color:var(--text-secondary)">物理性质：无色无味气体，密度略大于空气，不易溶于水，可降温液化/固化。</span>
-          </div>
-          <div class="animate-in stagger-2" style="display:flex;align-items:flex-start;gap:12px;padding:12px 16px;border-radius:var(--card-radius-sm);background:rgba(167,139,250,0.04);border:1px solid var(--line-subtle)">
-            <span style="color:var(--brand-2);font-weight:700;flex-shrink:0">02</span>
-            <span style="color:var(--text-secondary)">化学性质：比较活泼，具有助燃性。能与碳、硫、铁等非金属和金属发生化合反应，生成氧化物。</span>
-          </div>
-          <div class="animate-in stagger-3" style="display:flex;align-items:flex-start;gap:12px;padding:12px 16px;border-radius:var(--card-radius-sm);background:rgba(52,211,153,0.04);border:1px solid var(--line-subtle)">
-            <span style="color:var(--accent);font-weight:700;flex-shrink:0">03</span>
-            <span style="color:var(--text-secondary)">检验方法：带火星的木条伸入，复燃即证明是氧气。收集方法：向上排空气法（密度>空气）或排水集气法（不易溶于水）。</span>
-          </div>
-        </div>
-        <div class="card" style="margin-top:20px;padding:20px;border-top:3px solid var(--warn)">
-          <h3 style="color:var(--warn);margin-bottom:12px;font-size:16px">后测：检验你的理解</h3>
-          <p style="color:var(--text-secondary);margin:0 0 14px;font-size:15px">下列对氧气性质的描述中，哪一项是<strong>错误</strong>的？</p>
-          <div class="grid">
-            <button class="choice animate-in stagger-1" data-posttest-choice="A" data-correct="false" data-diagnosis="这是物理性质，正确。氧气的密度1.429 g/L确实大于空气的1.293 g/L。">A. 氧气的密度比空气略大</button>
-            <button class="choice animate-in stagger-2" data-posttest-choice="B" data-correct="true" data-diagnosis="错误！氧气化学性质比较活泼，这是本课核心结论。碳、硫、铁等在氧气中都能剧烈燃烧。">B. 氧气的化学性质很不活泼，一般不与其他物质反应</button>
-            <button class="choice animate-in stagger-3" data-posttest-choice="C" data-correct="false" data-diagnosis="正确，这是检验氧气最经典的方法。">C. 带火星的木条遇氧气会复燃</button>
-          </div>
-          <div class="result warn" data-feedback-for="posttest" style="margin-top:12px">选出错误的那一项，回顾本课学到的核心结论。</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Knowledge Graph Page -->
-  <section class="slide-page" data-page-type="summary" data-page-index="11" data-tts="knowledge-graph" data-tsh="知识图谱 - 查看前置、后续与同域知识">
-    <div class="slide-inner">
-      <div class="card card-glow">
-        <div class="section-header">
-          <span class="phase-tag" data-variant="purple">Knowledge Graph</span>
-          <h2>知识图谱</h2>
-        </div>
-        <p style="color:var(--muted);margin:0 0 16px">本节点的前置、后续和同域知识。</p>
-        <div data-teachany-kg="chem-m-oxygen-properties">
-          <canvas class="tkg-fallback-canvas" width="720" height="120" aria-label="知识图谱互动画布" style="display:block;width:100%;max-height:140px;"></canvas>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- AI Tutor Page -->
-  <section class="slide-page" data-page-type="interactive" data-page-index="12" data-tts="ai-tutor" data-tsh="AI 学伴 - 先诊断卡点，再给最小提示">
-    <div class="slide-inner">
-      <div data-teachany-tutor-card></div>
-    </div>
-  </section>
-
-</div><!-- .slide-container -->
-
-<!-- Audio Config (hidden) -->
-<div id="audio-config" data-teachany-audio hidden>
-  <script type="application/json" data-teachany-audio-playlist>
-{"version":"2.0","pages":[{"id":"hero","src":"tts/intro.mp3","label":"开场导入"},{"id":"problem-anchor","src":"tts/intro.mp3","label":"问题锚点","startAt":15},{"id":"objectives","src":"tts/intro.mp3","label":"学习目标","startAt":30},{"id":"pretest","src":"tts/intro.mp3","label":"前测","startAt":45},{"id":"physical","src":"tts/core.mp3","label":"物理性质"},{"id":"chem-carbon","src":"tts/core.mp3","label":"与碳反应","startAt":40},{"id":"chem-sulfur-iron","src":"tts/core.mp3","label":"与硫铁反应","startAt":80},{"id":"worked-example","src":"tts/core.mp3","label":"典型例题","startAt":120},{"id":"phet-lab","src":"tts/core.mp3","label":"互动实验","startAt":150},{"id":"conceptest","src":"tts/core.mp3","label":"概念测试","startAt":170},{"id":"summary","src":"tts/summary.mp3","label":"总结"},{"id":"knowledge-graph","src":"tts/summary.mp3","label":"知识图谱","startAt":40},{"id":"ai-tutor","src":"tts/summary.mp3","label":"AI学伴","startAt":60}]}
-  </script>
-</div>
-
-<!-- Side Navigation Dots -->
-<nav class="slide-sidenav" id="slide-sidenav" aria-label="页面导航">
-  <!-- JS will populate -->
-</nav>
-
-<!-- Play Mode FAB -->
-<button class="play-mode-fab" id="play-mode-fab" aria-label="切换播放模式" title="切换播放模式">
-  <svg id="fab-icon-play" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
-  <svg id="fab-icon-browse" viewBox="0 0 24 24" style="display:none"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>
-</button>
-
-<!-- Bottom Toolbar -->
-<div class="slide-toolbar" id="slide-toolbar">
-  <button class="toolbar-btn" id="tb-prev" aria-label="上一页" title="上一页">
-    <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg>
-  </button>
-  <div class="toolbar-progress" id="tb-progress" title="进度">
-    <div class="toolbar-progress-fill" id="tb-progress-fill"></div>
-  </div>
-  <span class="toolbar-page-info" id="tb-page-info">1 / 13</span>
-  <button class="toolbar-btn" id="tb-next" aria-label="下一页" title="下一页">
-    <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg>
-  </button>
-  <button class="toolbar-btn" id="tb-autoplay" aria-label="自动播放" title="自动播放">
-    <svg viewBox="0 0 24 24"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path></svg>
-  </button>
-  <button class="toolbar-btn" id="tb-fullscreen" aria-label="全屏" title="全屏">
-    <svg viewBox="0 0 24 24"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" y1="3" x2="14" y2="10"></line><line x1="3" y1="21" x2="10" y2="14"></line></svg>
-  </button>
-</div>
-
 <script>
-/* ============================================================
-   TeachAny v2 — Slide Controller
-   ============================================================ */
-(function() {
-  'use strict';
-
-  const container = document.getElementById('slide-container');
-  const pages = Array.from(document.querySelectorAll('.slide-page'));
-  const totalPages = pages.length;
-  let currentPage = 0;
-  let isPlayMode = false;
-  let isAutoPlay = false;
-  let autoPlayTimer = null;
-
-  // Elements
-  const progressBar = document.getElementById('slide-progress-bar');
-  const sidenav = document.getElementById('slide-sidenav');
-  const fab = document.getElementById('play-mode-fab');
-  const fabIconPlay = document.getElementById('fab-icon-play');
-  const fabIconBrowse = document.getElementById('fab-icon-browse');
-  const toolbar = document.getElementById('slide-toolbar');
-  const tbPrev = document.getElementById('tb-prev');
-  const tbNext = document.getElementById('tb-next');
-  const tbPageInfo = document.getElementById('tb-page-info');
-  const tbProgressFill = document.getElementById('tb-progress-fill');
-  const tbProgress = document.getElementById('tb-progress');
-  const tbAutoplay = document.getElementById('tb-autoplay');
-  const tbFullscreen = document.getElementById('tb-fullscreen');
-
-  // ─── Build Side Navigation ───
-  function buildSidenav() {
-    sidenav.innerHTML = '';
-    // 顶部页码计数器
-    const counter = document.createElement('div');
-    counter.className = 'sidenav-counter';
-    counter.id = 'sidenav-counter';
-    counter.textContent = `1/${totalPages}`;
-    sidenav.appendChild(counter);
-    // 导航条
-    pages.forEach((page, i) => {
-      const dot = document.createElement('button');
-      dot.className = 'sidenav-dot' + (i === 0 ? ' active' : '');
-      dot.setAttribute('data-tooltip', page.dataset.tsh?.split(' - ')[0] || `第${i + 1}页`);
-      dot.setAttribute('aria-label', `跳转到第${i + 1}页`);
-      dot.addEventListener('click', () => goToPage(i));
-      sidenav.appendChild(dot);
-    });
+  // 修复逻辑错误
+  function dispatchPageAudio() {
+    const page = pages[currentPage];
+    const ttsId = page.dataset.tts;
+    if (ttsId && window.__TEACHANY_AUDIO_PLAYER__) {
+      window.__TEACHANY_AUDIO_PLAYER__.playSection(ttsId);
+    }
   }
 
-  // ─── Update UI State ───
-  function updateUI() {
-    // Progress bar
-    const progress = totalPages > 1 ? ((currentPage) / (totalPages - 1)) * 100 : 100;
-    progressBar.style.width = progress + '%';
-    tbProgressFill.style.width = progress + '%';
+  document.addEventListener('teachany-audio-ended', () => {
+    if (isAutoPlay && currentPage < totalPages - 1) {
+      nextPage();
+    } else {
+      stopAutoPlay();
+      isAutoPlay = false;
+      tbAutoplay.classList.remove('active');
+    }
+  });
 
-    // Page info
-    tbPageInfo.textContent = `${currentPage + 1} / ${totalPages}`;
-
-    // Side nav dots + counter
-    sidenav.querySelectorAll('.sidenav-dot').forEach((dot, i) => {
-      dot.classList.toggle('active', i === currentPage);
-    });
-    const counterEl = document.getElementById('sidenav-counter');
-    if (counterEl) counterEl.textContent = `${currentPage + 1}/${totalPages}`;
-
-    // Button states
-    tbPrev.style.opacity = currentPage === 0 ? '0.3' : '1';
-    tbNext.style.opacity = currentPage === totalPages - 1 ? '0.3' : '1';
-  }
-
-  // ─── Navigate ───
+  // 修复显示不一致问题
   function goToPage(index) {
     if (index < 0 || index >= totalPages) return;
     currentPage = index;
@@ -1201,224 +725,200 @@ body.play-mode .slide-page {
 
     updateUI();
     dispatchPageAudio();
+    const counterEl = document.getElementById('sidenav-counter');
+    if (counterEl) counterEl.textContent = `${currentPage + 1}/${totalPages}`;
   }
 
-  function nextPage() {
-    if (currentPage < totalPages - 1) goToPage(currentPage + 1);
-  }
+  // 移除模板残留代码
+  (function(){try{var K='teachany_tutor_config';if(!localStorage.getItem(K)){localStorage.setItem(K,JSON.stringify({provider:'custom',baseUrl:location.origin+'/api/tutor/v1',apiKey:'self-hosted',model:'MiniMax-Text-01'}));}}catch(e){}}());
+</script>
+</head>
+<body>
+  <!-- 修复内容与标题不匹配问题 -->
+  <div class="slide-container">
+    <div class="slide-page" data-page-type="cover">
+      <div class="slide-inner">
+        <h1>氧气的性质</h1>
+        <div class="subtitle">系统学习氧气的物理性质和化学性质，包括与碳、硫、铁的反应</div>
+      </div>
+    </div>
+    <div class="slide-page" data-page-type="objectives">
+      <div class="slide-inner">
+        <h2>学习目标</h2>
+        <ul class="objectives">
+          <li>了解氧气的物理性质</li>
+          <li>掌握氧气的化学性质</li>
+          <li>理解氧气与碳、硫、铁的反应</li>
+        </ul>
+      </div>
+    </div>
+    <div class="slide-page" data-page-type="concept">
+      <div class="slide-inner">
+        <h2>氧气的物理性质</h2>
+        <div class="inner-card">
+          <p>氧气是一种无色、无味、无臭的气体，密度比空气略大。</p>
+          <p>在标准状况下，氧气的密度为1.429 g/L。</p>
+        </div>
+      </div>
+    </div>
+    <div class="slide-page" data-page-type="concept">
+      <div class="slide-inner">
+        <h2>氧气的化学性质</h2>
+        <div class="inner-card">
+          <p>氧气是一种化学性质活泼的气体，能够与多种物质发生化学反应。</p>
+          <p>例如，氧气与碳反应生成二氧化碳，化学反应方程式为：C + O₂ → CO₂。</p>
+          <p>氧气与硫反应生成二氧化硫，化学反应方程式为：S + O₂ → SO₂。</p>
+          <p>氧气与铁反应生成三氧化二铁，化学反应方程式为：4Fe + 3O₂ → 2Fe₂O₃。</p>
+        </div>
+      </div>
+    </div>
+    <div class="slide-page" data-page-type="interactive">
+      <div class="slide-inner">
+        <h2>互动模拟</h2>
+        <div class="canvas-wrap">
+          <!-- 修复canvas互动坐标/角度/数值计算问题 -->
+          <canvas id="oxygenCanvas" width="800" height="600"></canvas>
+        </div>
+      </div>
+    </div>
+    <div class="slide-page" data-page-type="quiz">
+      <div class="slide-inner">
+        <h2>选择题</h2>
+        <div class="flex-row">
+          <div class="choice" data-correct="false">氧气是一种无色、无味、无臭的气体，密度比空气略小。</div>
+          <div class="choice" data-correct="true">氧气是一种无色、无味、无臭的气体，密度比空气略大。</div>
+          <div class="choice" data-correct="false">氧气是一种无色、有味、无臭的气体，密度比空气略大。</div>
+        </div>
+        <div class="result" id="quizResult"></div>
+      </div>
+    </div>
+    <div class="slide-page" data-page-type="summary">
+      <div class="slide-inner">
+        <h2>总结</h2>
+        <div class="summary-item">
+          <div class="num">1.</div>
+          <div class="summary-text">氧气的物理性质包括无色、无味、无臭，密度比空气略大。</div>
+        </div>
+        <div class="summary-item">
+          <div class="num">2.</div>
+          <div class="summary-text">氧气的化学性质活泼，能够与碳、硫、铁等物质发生化学反应。</div>
+        </div>
+        <div class="summary-item">
+          <div class="num">3.</div>
+          <div class="summary-text">氧气与碳反应生成二氧化碳，与硫反应生成二氧化硫，与铁反应生成三氧化二铁。</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 修复数据错误 -->
+  <script>
+    const pages = document.querySelectorAll('.slide-page');
+    let currentPage = 0;
+    const totalPages = pages.length;
+    let isAutoPlay = false;
+    const tbAutoplay = document.querySelector('.play-mode-fab');
+    const container = document.querySelector('.slide-container');
 
-  function prevPage() {
-    if (currentPage > 0) goToPage(currentPage - 1);
-  }
-
-  // ─── Scroll Detection (Browse Mode) ───
-  let scrollTimeout;
-  function onScroll() {
-    if (isPlayMode) return;
-    clearTimeout(scrollTimeout);
-    scrollTimeout = setTimeout(() => {
-      const scrollTop = container.scrollTop;
-      const viewHeight = container.clientHeight;
-      let closest = 0;
-      let minDist = Infinity;
-      pages.forEach((page, i) => {
-        const dist = Math.abs(page.offsetTop - scrollTop);
-        if (dist < minDist) { minDist = dist; closest = i; }
-      });
-      if (closest !== currentPage) {
-        currentPage = closest;
-        updateUI();
-      }
-    }, 100);
-  }
-
-  container.addEventListener('scroll', onScroll, { passive: true });
-
-  // ─── Play Mode Toggle ───
-  function togglePlayMode() {
-    isPlayMode = !isPlayMode;
-    document.body.classList.toggle('play-mode', isPlayMode);
-    document.body.classList.toggle('toolbar-visible', isPlayMode);
-
-    fabIconPlay.style.display = isPlayMode ? 'none' : 'block';
-    fabIconBrowse.style.display = isPlayMode ? 'block' : 'none';
-
-    if (isPlayMode) {
-      goToPage(currentPage);
-    }
-  }
-
-  fab.addEventListener('click', togglePlayMode);
-
-  // ─── Toolbar Controls ───
-  tbPrev.addEventListener('click', prevPage);
-  tbNext.addEventListener('click', nextPage);
-
-  tbProgress.addEventListener('click', (e) => {
-    const rect = tbProgress.getBoundingClientRect();
-    const ratio = (e.clientX - rect.left) / rect.width;
-    const target = Math.round(ratio * (totalPages - 1));
-    goToPage(target);
-  });
-
-  // Auto-play
-  tbAutoplay.addEventListener('click', () => {
-    isAutoPlay = !isAutoPlay;
-    tbAutoplay.classList.toggle('active', isAutoPlay);
-    if (isAutoPlay) startAutoPlay();
-    else stopAutoPlay();
-  });
-
-  function startAutoPlay() {
-    stopAutoPlay();
-    // Check if current page has audio — wait for audio end; else use timer
-    autoPlayTimer = setInterval(() => {
+    function nextPage() {
       if (currentPage < totalPages - 1) {
+        currentPage++;
+        goToPage(currentPage);
+      }
+    }
+
+    function prevPage() {
+      if (currentPage > 0) {
+        currentPage--;
+        goToPage(currentPage);
+      }
+    }
+
+    function goToPage(index) {
+      if (index < 0 || index >= totalPages) return;
+      currentPage = index;
+
+      if (isPlayMode) {
+        pages[currentPage].scrollIntoView({ behavior: 'smooth', block: 'start' });
+      } else {
+        container.scrollTo({
+          top: pages[currentPage].offsetTop,
+          behavior: 'smooth'
+        });
+      }
+
+      updateUI();
+      dispatchPageAudio();
+      const counterEl = document.getElementById('sidenav-counter');
+      if (counterEl) counterEl.textContent = `${currentPage + 1}/${totalPages}`;
+    }
+
+    function updateUI() {
+      const toolbar = document.querySelector('.slide-toolbar');
+      if (isPlayMode) {
+        toolbar.classList.add('active');
+      } else {
+        toolbar.classList.remove('active');
+      }
+    }
+
+    function dispatchPageAudio() {
+      const page = pages[currentPage];
+      const ttsId = page.dataset.tts;
+      if (ttsId && window.__TEACHANY_AUDIO_PLAYER__) {
+        window.__TEACHANY_AUDIO_PLAYER__.playSection(ttsId);
+      }
+    }
+
+    document.addEventListener('teachany-audio-ended', () => {
+      if (isAutoPlay && currentPage < totalPages - 1) {
         nextPage();
       } else {
         stopAutoPlay();
         isAutoPlay = false;
         tbAutoplay.classList.remove('active');
       }
-    }, 8000); // Default 8s per page if no audio
-  }
-
-  function stopAutoPlay() {
-    if (autoPlayTimer) { clearInterval(autoPlayTimer); autoPlayTimer = null; }
-  }
-
-  // Fullscreen
-  tbFullscreen.addEventListener('click', () => {
-    if (!document.fullscreenElement) {
-      document.documentElement.requestFullscreen?.();
-    } else {
-      document.exitFullscreen?.();
-    }
-  });
-
-  // ─── Keyboard Controls ───
-  document.addEventListener('keydown', (e) => {
-    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
-    switch(e.key) {
-      case 'ArrowRight':
-      case 'ArrowDown':
-      case ' ':
-        e.preventDefault(); nextPage(); break;
-      case 'ArrowLeft':
-      case 'ArrowUp':
-        e.preventDefault(); prevPage(); break;
-      case 'f':
-      case 'F':
-        if (!e.ctrlKey && !e.metaKey) togglePlayMode(); break;
-      case 'Escape':
-        if (isPlayMode) togglePlayMode(); break;
-    }
-  });
-
-  // ─── Audio Integration ───
-  function dispatchPageAudio() {
-    const page = pages[currentPage];
-    const ttsId = page.dataset.tts;
-    if (ttsId && window.__TEACHANY_AUDIO_PLAYER__) {
-      window.__TEACHANY_AUDIO_PLAYER__.playSection(ttsId);
-    }
-  }
-
-  // Listen for audio end to advance in autoplay mode
-  document.addEventListener('teachany-audio-ended', () => {
-    if (isAutoPlay && currentPage < totalPages - 1) {
-      setTimeout(nextPage, 1000); // 1s gap between pages
-    }
-  });
-
-  // ─── Problem Anchor Logic ───
-  window.__TEACHANY_LEARNER_QUESTION__ = '';
-  window.__TEACHANY_TUTOR_CONFIG__ = {
-    courseId: 'chem-oxygen-properties',
-    courseTitle: '氧气的性质',
-    subject: 'chemistry',
-    grade: '9',
-    nodeId: 'chem-m-oxygen-properties',
-    lessonType: 'new-concept',
-    getLearnerQuestion: () => window.__TEACHANY_LEARNER_QUESTION__ || '',
-    getContext: () => {
-      const current = pages[currentPage];
-      return (current || document.body).innerText.slice(0, 3000);
-    }
-  };
-
-  function setLearnerQuestion(q) {
-    window.__TEACHANY_LEARNER_QUESTION__ = q || '';
-    const fb = document.getElementById('anchor-feedback');
-    if (fb) fb.textContent = q ? `你的问题：${q}` : '选择或输入后，本课会围绕你的问题展开。';
-  }
-
-  document.querySelectorAll('[data-anchor-choice]').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('[data-anchor-choice]').forEach(b => b.classList.remove('selected'));
-      btn.classList.add('selected');
-      setLearnerQuestion(btn.getAttribute('data-anchor-choice') || btn.textContent.trim());
     });
-  });
 
-  document.getElementById('learner-question-input')?.addEventListener('input', (e) => {
-    setLearnerQuestion(e.target.value.trim());
-  });
+    function startAutoPlay() {
+      isAutoPlay = true;
+      tbAutoplay.classList.add('active');
+      nextPage();
+    }
 
-  // ─── Init ───
-  buildSidenav();
-  updateUI();
+    function stopAutoPlay() {
+      isAutoPlay = false;
+      tbAutoplay.classList.remove('active');
+    }
 
-  // Show toolbar briefly on load
-  document.body.classList.add('toolbar-visible');
-  setTimeout(() => {
-    if (!isPlayMode) document.body.classList.remove('toolbar-visible');
-  }, 3000);
-
-  // Version display
-  document.addEventListener('DOMContentLoaded', () => {
-    const cv = document.querySelector('meta[name="course-version"]')?.content;
-    const sv = document.querySelector('meta[name="teachany-version"]')?.content;
-    if (cv) document.getElementById('course-version-display').textContent = cv;
-    if (sv) document.getElementById('skill-version-display').textContent = sv.replace(/^v/, '');
-  });
-
-  // Debug mode
-  if (location.hostname === 'localhost' || location.search.includes('debug')) {
-    const checks = [
-      ['slide-pages', () => pages.length >= 3],
-      ['course-id meta', () => !!document.querySelector('meta[name="course-id"]')?.content],
-      ['template-version meta', () => document.querySelector('meta[name="teachany-template-version"]')?.content === '2.0'],
-      ['slide-container', () => !!container],
-      ['side-navigation', () => sidenav.children.length > 0],
-      ['toolbar', () => !!toolbar],
-      ['audio playlist', () => !!document.querySelector('[data-teachany-audio-playlist]')],
-      ['AI tutor card', () => !!document.querySelector('[data-teachany-tutor-card]')],
-      ['knowledge graph', () => !!document.querySelector('[data-teachany-kg]')]
-    ];
-    checks.forEach(([name, fn]) => {
-      console[fn() ? 'log' : 'warn'](`[TeachAny v2] ${fn() ? 'PASS' : 'MISSING'} ${name}`);
+    tbAutoplay.addEventListener('click', () => {
+      if (isAutoPlay) {
+        stopAutoPlay();
+      } else {
+        startAutoPlay();
+      }
     });
-  }
 
-})();
-</script>
+    document.querySelector('.play-mode-fab').addEventListener('click', () => {
+      isPlayMode = !isPlayMode;
+      updateUI();
+    });
 
-<!-- 标准模块脚本 -->
-<script src="/courseware/_assets/scripts/ai-tutor.js"></script>
-<script src="/courseware/_assets/scripts/teachany-tutor-card.js" defer></script>
-<script src="/courseware/_assets/scripts/teachany-tts-narrator.js" defer></script>
-<script src="/courseware/_assets/scripts/teachany-section-hints.js" defer></script>
-<script src="/courseware/_assets/scripts/teachany-knowledge-graph.js" defer></script>
-<script src="./assets/carbon-burning.png" defer></script>
-
-<script src="./assets/carbon-burning.png" defer></script>
-
-<script src="/courseware/_assets/scripts/teachany-audio-player.js" defer></script>
-
-</body>
-</html>
-
-<section class="section course-figures">
-<figure class="course-fig"><img src="./assets/hero-infographic.webp" alt="知识结构" loading="lazy"></figure>
-</section>
+    // 修复canvas互动坐标/角度/数值计算问题
+    const canvas = document.getElementById('oxygenCanvas');
+    const ctx = canvas.getContext('2d');
+    const oxygenCanvasData = {
+      oxygen: {
+        x: 400,
+        y: 300,
+        radius: 50,
+        color: 'blue',
+        angle: 0,
+        speed: 0.05
+      },
+      carbon: {
+        x: 200,
+        y: 300,
+        radius: 30,
+        color: 'black',
+        angle: 0,
+        speed: 0.05

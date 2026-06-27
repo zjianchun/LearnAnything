@@ -1,49 +1,83 @@
 [
   {
     "has_issues": true,
-    "severity": "high",
+    "severity": "medium",
     "issues": [
       {
         "type": "content_wrong",
-        "location": "课件标题和内容",
-        "description": "课件标题是'∠ 圆心角与圆周角'，但实际内容中包含了许多与圆心角和圆周角无关的知识点，例如三角形内角和（pre-q2）。这表明内容可能存在模板复用而未完全修改的问题。",
-        "fix_suggestion": "检查并修改课件内容，确保所有题目和解释都与圆心角和圆周角相关。例如，将pre-q2替换为与圆心角或圆周角相关的问题，如'圆心角和圆周角之间的关系是什么？'"
-      },
-      {
-        "type": "logic_mismatch",
-        "location": "drawInscribed函数",
-        "description": "在drawInscribed函数中，圆周角的计算逻辑存在问题。圆周角应为圆心角的一半，但代码中使用了反余弦函数计算圆周角，这不符合圆周角定理。",
-        "fix_suggestion": "修改圆周角的计算逻辑，使其符合圆周角定理，即圆周角等于圆心角的一半。例如：const inscribedAng = centralAng / 2;"
-      },
-      {
-        "type": "data_error",
-        "location": "drawInscribed函数",
-        "description": "在计算圆周角时，代码中使用了反余弦函数（Math.acos），但未对向量的点积进行归一化处理，这可能导致计算结果不准确。",
-        "fix_suggestion": "在计算反余弦之前，应将向量的点积除以向量的模长。例如：const inscribedAng = Math.acos((v1x*v2x + v1y*v2y) / (Math.sqrt(v1x*v1x + v1y*v1y) * Math.sqrt(v2x*v2x + v2y*v2y))) * 180 / Math.PI;"
+        "location": "reproInfoData 对象",
+        "description": "孢子繁殖（spore）被错误地归类为植物的无性生殖方式。孢子繁殖不仅限于植物，也包括真菌等低等生物，这与课件标题'植物的无性生殖'不完全匹配。",
+        "fix_suggestion": "将孢子繁殖从 reproInfoData 对象中移除，或者明确说明孢子繁殖在植物中的具体应用，例如仅讨论蕨类植物和苔藓的孢子繁殖。可以修改为：'spore:{title:'🍄 植物孢子繁殖',text:'蕨类植物和苔藓通过孢子繁殖，孢子在适宜环境下萌发生长为新个体。孢子是由母体产生的、能萌发的细胞，不需要受精。'},"
       },
       {
         "type": "display_bug",
-        "location": "drawCentral函数",
-        "description": "在drawCentral函数中，'弧AB'的文本显示位置不正确，文本内容与图形位置不匹配，可能导致显示错误。",
-        "fix_suggestion": "调整文本显示位置，使其与图形对应。例如：ctx.fillText(`弧AB = (${deg}/360)×2πr`, cx - 50, cy + r + 20);"
+        "location": "audioBar 隐藏函数",
+        "description": "在 togglePlay 函数中，audioBar 的隐藏类名拼写错误。代码中使用了 'hidde'，但正确的类名应该是 'hidden'。这会导致音频控制栏无法正确隐藏。",
+        "fix_suggestion": "将 'hidde' 改为 'hidden'。修改代码如下：'document.getElementById('audioBar').classList.add('hidden');'"
       },
       {
         "type": "logic_mismatch",
-        "location": "animateInscribed函数",
-        "description": "animateInscribed函数中，滑块的值从200增加到350，然后重置为200，这可能导致动画循环不符合预期。",
-        "fix_suggestion": "调整滑块值的范围和重置逻辑，使其符合动画需求。例如，可以将滑块值限制在0到360之间，并在达到360后重置为0：v = (v >= 360) ? 0 : v + 5;"
+        "location": "checkDrop 函数",
+        "description": "分类拖放练习中，土豆芽被错误地归类为无性生殖方式。土豆芽实际上是块茎繁殖的一种形式，虽然属于无性生殖，但课件中未明确说明，可能导致混淆。",
+        "fix_suggestion": "在 reproInfoData 对象中添加块茎繁殖的相关信息，或者在 checkDrop 函数中添加对土豆芽的明确解释。例如：'const reproInfoData = { ... , tuber: { title: '🥔 块茎繁殖', text: '土豆等植物通过块茎繁殖，块茎是地下茎的变态，能发育成新植株。' } };'"
       },
       {
         "type": "template_residual",
-        "location": "pre-q2问题",
-        "description": "pre-q2问题询问的是三角形内角和，这表明课件内容可能存在模板复用而未完全修改的问题。",
-        "fix_suggestion": "将pre-q2替换为与圆心角或圆周角相关的问题，例如：'圆心角和圆周角之间的关系是什么？'"
+        "location": "playlist 数组",
+        "description": "播放列表中包含 'asexual-compare' 主题，内容涉及无性生殖与有性生殖的比较，但课件标题仅聚焦于植物的无性生殖，可能导致内容偏离主题。",
+        "fix_suggestion": "将 'asexual-compare' 从 playlist 数组中移除，或者调整课件标题以包含更广泛的无性生殖内容。例如：将标题改为 '🌱 植物的无性与有性生殖'。"
+      },
+      {
+        "type": "data_error",
+        "location": "drawMethodFrame 函数中的嫁接示意图",
+        "description": "嫁接示意图中，接穗的高度为 60px，但嫁接口的位置却低于接穗（cvs.height-54-90），这在逻辑上不合理，因为接穗应位于嫁接口上方。",
+        "fix_suggestion": "调整嫁接口的位置，使其高于接穗。例如，将嫁接口的位置改为 'cvs.height-54-50'。修改代码如下：'ctx.fillText('嫁接口（愈合生长）', cvs.width/2+30, cvs.height-54-50);'"
       }
     ],
-    "summary": "课件存在多处内容、逻辑和显示问题，需要进行全面审查和修改以确保教学内容的准确性和一致性。",
-    "node_id": "math-m-circle-angle",
-    "subject": "math",
-    "node_name": "圆周角与圆心角"
+    "summary": "课件整体内容较为完整，但存在一些逻辑错误和内容问题，需要对孢子繁殖、块茎繁殖和嫁接示意图进行修正，并调整播放列表以更好地匹配主题。",
+    "node_id": "bio-m-asexual-reproduction",
+    "subject": "biology",
+    "node_name": "植物的无性生殖"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "标题与内容匹配",
+        "description": "课件标题为'生物圈是最大的生态系统'，但主要内容涉及多个生态系统的介绍，未充分强调生物圈作为最大生态系统的特点。",
+        "fix_suggestion": "在课件开头或总结部分增加关于生物圈作为最大生态系统的详细解释，例如生物圈如何整合所有生态系统，以及其独特性和重要性。可以考虑添加一个专门段落或交互元素来强化这一概念。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "showEcoInfo函数",
+        "description": "在交互中点击不同生态系统类型时，代码逻辑没有与生物圈作为最大生态系统的核心主题建立明确关联。",
+        "fix_suggestion": "在showEcoInfo函数中增加逻辑判断或注释，明确指出这些生态系统如何构成生物圈。例如，可以在显示生态信息时添加一句总结性描述，如'这些生态系统共同构成了生物圈'。"
+      },
+      {
+        "type": "display_bug",
+        "location": "CANVAS — Earth cross section",
+        "description": "在绘制地球剖面图时，'生物圈 ≈ 20km厚'的标签位置和样式可能与视觉层次不符，导致信息传达不清晰。",
+        "fix_suggestion": "调整生物圈标签的位置，使其更突出，例如将其放置在地球剖面图的顶部或底部，并使用更大的字体或不同的颜色来增强可见性。可以修改相关代码如下：\n```javascript\nctx.fillStyle='#fbbf24';\nctx.font='bold 18px sans-serif';\nctx.textAlign='center';\nctx.fillText('🌍 生物圈 ≈ 20km厚', cx, cy + R + 100);\n```"
+      },
+      {
+        "type": "data_error",
+        "location": "海洋生态系统描述",
+        "description": "海洋生态系统被描述为'地球上面积最大的生态系统（约占地表70%）'，但没有明确指出其与生物圈的关系，可能导致混淆。",
+        "fix_suggestion": "在海洋生态系统的描述中增加一句，说明海洋是生物圈的重要组成部分，例如：'海洋生态系统是生物圈的重要组成部分，对全球气候和生物多样性具有关键作用。'"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "checkDrop函数",
+        "description": "在拖放交互中，反馈信息没有明确提到生物圈作为最大生态系统的概念，而只是针对具体生态系统的分类进行判断。",
+        "fix_suggestion": "在反馈正确分类的反馈信息中，加入关于生物圈整合性的描述，例如：'🎉 完全正确！这些生态系统共同构成了生物圈。'"
+      }
+    ],
+    "summary": "课件内容与标题不完全匹配，生物圈作为最大生态系统的核心概念未得到充分体现，同时存在一些交互逻辑和显示问题。",
+    "node_id": "bio-m-biosphere-largest",
+    "subject": "biology",
+    "node_name": "生物圈是最大的生态系统"
   },
   {
     "has_issues": true,
@@ -51,39 +85,279 @@
     "issues": [
       {
         "type": "content_wrong",
-        "location": "课件标题/整体内容",
-        "description": "课件标题是⟂ 切线，但主要内容涉及的是直线与圆的位置关系，包括切线、圆心角、切点等概念。然而，课件代码中并未明确强调'垂直'这一关键点，与标题中的⟂符号不匹配。",
-        "fix_suggestion": "在课件内容中明确加入关于垂直关系的解释，例如在drawTangent函数中添加对切线垂直于半径的说明，或在开头部分加入对⟂符号的强调。修改后的标题可以更具体，例如'⟂ 切线与圆的位置关系'。"
+        "location": "section 'hero'",
+        "description": "课件标题为'细胞基础'，但开场音频文件's01.mp3'的标题是'走进细胞的世界'，内容可能偏离主题。",
+        "fix_suggestion": "确保开场音频内容与'细胞基础'主题一致，或者修改标题为更合适的描述，例如'细胞基础: 走进细胞的世界'。"
       },
       {
         "type": "logic_mismatch",
-        "location": "drawTangentLen函数",
-        "description": "在计算切点坐标时，代码中使用了错误的三角函数。代码中尝试使用Math.asin(r/pd)和Math.acos(r/pd)来计算角度，但根据几何关系，切点坐标应通过向量计算或使用正确的三角函数关系来确定。",
-        "fix_suggestion": "修正切点坐标的计算逻辑。例如，可以使用向量法或正确的三角函数关系来确定切点坐标。以下是修正后的代码片段：\n\n```javascript\nconst gamma = Math.acos(r / pd);\nconst a1x = cx + r * Math.cos(gamma);\nconst a1y = cy + r * Math.sin(gamma);\nconst a2x = cx + r * Math.cos(-gamma);\nconst a2y = cy + r * Math.sin(-gamma);\n```"
+        "location": "虚拟显微镜 Canvas 互动 - getZoomDescription 函数",
+        "description": "洋葱表皮细胞在高倍镜下（z >= 250）会显示液泡，但代码中液泡的显示条件是 z >= 250，而描述文字中液泡的描述出现在高倍镜（z < 350）而不是最高倍镜。",
+        "fix_suggestion": "修改 getZoomDescription 函数中洋葱表皮细胞的描述条件，使液泡的描述与显示条件一致。例如，将 '高倍镜' 条件改为 '最高倍'，或者调整显示条件。"
       },
       {
-        "type": "display_bug",
-        "location": "drawTangentLen函数",
-        "description": "当P点在圆内时，代码会显示'P在圆内，无切线'，但未隐藏或清除之前绘制的图形，导致图形与文本信息冲突。",
-        "fix_suggestion": "在显示'P在圆内，无切线'的文本后，添加清除图形或隐藏相关图形的逻辑。例如：\n\n```javascript\nif(sinA > 1){\n  ctx.fillStyle='#ef4444';\n  ctx.fillText('P在圆内，无切线', 10, 270);\n  return;\n}\n```"
+        "type": "logic_mismatch",
+        "location": "虚拟显微镜 Canvas 互动 - drawCheekCells 函数",
+        "description": "口腔上皮细胞在放大倍数 z >= 120 时会显示细胞核，但描述文字中细胞核的描述出现在 z >= 150，与显示条件不一致。",
+        "fix_suggestion": "修改 getZoomDescription 函数中口腔上皮细胞的描述条件，使细胞核的描述与显示条件一致。例如，将 '中倍镜' 条件改为 'z >= 120'。"
       },
       {
-        "type": "data_error",
-        "location": "drawTangentLen函数",
-        "description": "在计算PA和PB的长度时，代码中使用了Math.sqrt(pd*pd - r*r)，但未处理pd小于r的情况，这会导致数学错误（负数开平方）。",
-        "fix_suggestion": "在计算PA和PB之前，添加对pd和r关系的检查。例如：\n\n```javascript\nif(pd <= r){\n  ctx.fillStyle='#ef4444';\n  ctx.fillText('P在圆内或圆上，无切线', 10, 270);\n  return;\n}\nconst pa = Math.sqrt(pd*pd - r*r);\n```"
+        "type": "content_wrong",
+        "location": "section 'pretest'",
+        "description": "前测问题中关于生物体基本单位的选项解释存在误导。'器官'选项的解释提到'器官还可以继续分解为更小的单位--组织和细胞'，但没有明确指出细胞是基本单位。",
+        "fix_suggestion": "修改选项解释，明确指出细胞是生物体的基本单位。例如：'器官是由多个组织组成的，而组织和器官都由细胞构成，细胞是生物体的基本单位。'"
       },
       {
         "type": "template_residual",
-        "location": "整体代码结构",
-        "description": "代码中包含未完成的函数drawConstruct，疑似是模板代码未完全替换或清理。",
-        "fix_suggestion": "完成drawConstruct函数的实现，或从代码中移除未使用的函数和变量。"
+        "location": "section 'posttest'",
+        "description": "后测部分内容不完整，截断的句子没有提供完整的问题描述，无法判断其与'细胞基础'主题的相关性。",
+        "fix_suggestion": "补充完整后测问题内容，确保其与'细胞基础'主题相关。例如：'小明在显微镜下观察一个细胞,发现它有细胞膜、细胞质、细胞核,但没有细胞壁和叶绿体。这个细胞最可能是以下哪种类型？'"
+      },
+      {
+        "type": "display_bug",
+        "location": "虚拟显微镜 Canvas 互动 - draw 函数",
+        "description": "在切换样本类型时，显微镜结果显示的放大倍数和描述可能与实际显示内容不一致，因为 draw 函数在切换样本后没有重新计算 zoom。",
+        "fix_suggestion": "在切换样本类型时，重置 zoom 或重新调用 draw 函数以确保显示内容与当前样本和放大倍数一致。例如：在 btnOnion 和 btnCheek 的事件处理函数中调用 draw()。"
       }
     ],
-    "summary": "课件存在多处逻辑错误、数据错误和显示问题，需要对切线计算逻辑、异常处理和模板清理进行重点修复。",
-    "node_id": "math-m-circle-tangent",
-    "subject": "math",
-    "node_name": "直线与圆的位置关系"
+    "summary": "课件存在多处内容错误、逻辑不一致和显示问题，需要全面修订以确保教学内容的准确性和互动功能的可靠性。",
+    "node_id": "bio-m-cell-basics",
+    "subject": "biology",
+    "node_name": "细胞基础"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "section#pretest",
+        "description": "前测问题与细胞分化主题不直接相关。问题问的是细胞分裂的结果，而课件标题是细胞分化，可能导致学习者混淆。",
+        "fix_suggestion": "将前测问题修改为与细胞分化更相关的内容，例如：'细胞分化过程中，干细胞如何转变为特定类型的细胞？' 并提供相应的选项。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "canvas interaction logic",
+        "description": "滑块控制的分化进度与显示的阶段标签不完全对应。例如，当p=0.25时，阶段标签应为'开始分化'，但代码中使用了Math.floor(p*4)，导致标签为'未分化'，逻辑不一致。",
+        "fix_suggestion": "修改阶段标签逻辑，使其与滑块值更准确地对应。例如：使用Math.ceil(p*3)来对应['未分化', '开始分化', '分化中', '分化完成']。代码示例：\n```javascript\nconst si = Math.min(3, Math.ceil(p * 3));\n```"
+      },
+      {
+        "type": "display_bug",
+        "location": "canvas drawing logic",
+        "description": "在分化进度较低时（p接近0），干细胞标签'干细胞'显示位置不正确，与干细胞图形重叠，影响可读性。",
+        "fix_suggestion": "调整文本显示位置，使其在干细胞图形下方。例如：\n```javascript\nctx.fillText('干细胞', 380, 85);\n```"
+      },
+      {
+        "type": "data_error",
+        "location": "tissues array",
+        "description": "结缔组织的颜色代码有误。'#a78bfa'应为'#a78bfa'，但代码中颜色与透明度混合时使用了错误的格式，可能导致颜色显示不正确。",
+        "fix_suggestion": "确保颜色代码格式正确，并在混合时使用适当的透明度计算。例如：\n```javascript\nctx.fillStyle = `${t.color}${Math.round(alpha * 255).toString(16).padStart(2, '0')}`;\n```"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "posttest question",
+        "description": "后测问题中关于红细胞特性的解释不完全准确。虽然红细胞确实高度分化，但题目未明确说明其背景，可能引起误解。",
+        "fix_suggestion": "在题目描述中补充更多背景信息，例如：'白血病患者进行骨髓移植治疗，主要利用了骨髓中哪种细胞的特性？请选择最合适的答案。' 以确保问题更清晰。"
+      }
+    ],
+    "summary": "课件整体内容与主题相关，但存在一些逻辑不一致、显示问题和数据错误，需要进行中等程度的修正。",
+    "node_id": "bio-m-cell-division-junior",
+    "subject": "biology",
+    "node_name": "细胞分化"
+  },
+  {
+    "has_issues": true,
+    "severity": "high",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "Canvas 有丝分裂动画",
+        "description": "动画中关于染色体数量的描述存在错误。在间期，DNA复制后染色体数量应为92条，但代码中只绘制了8条染色体（代码中循环8次）。此外，末期子细胞中描述为46条染色体，但根据正常人体细胞分裂过程，每个子细胞应包含46条染色体。",
+        "fix_suggestion": "在间期部分，将循环次数从8次增加到46次以匹配实际染色体数量。例如：for(let i=0;i<46;i++)。在末期部分，确认子细胞染色体数量描述为46条是正确无误的，无需修改。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "Canvas 有丝分裂动画 - 后期",
+        "description": "在后期动画中，染色体被拉向两极的逻辑实现不完整。当前代码中，染色体被绘制在两极，但纺锤丝仅连接到赤道板中央，没有体现染色体被纺锤丝拉向两极的过程。",
+        "fix_suggestion": "修改后期部分的代码，使染色体沿着纺锤丝路径移动到两极。例如，可以在绘制染色体时加入动画效果，使染色体位置随时间从赤道板移动到两极。"
+      },
+      {
+        "type": "display_bug",
+        "location": "Canvas 有丝分裂动画 - 末期",
+        "description": "在末期动画中，子细胞的染色体颜色与之前阶段不一致。末期子细胞的染色体颜色为rgba(244,114,182,.6)，而前期和中期染色体颜色为#f472b6和rgba(244,114,182,.5)。这会导致视觉上不一致。",
+        "fix_suggestion": "统一染色体颜色为#f472b6或rgba(244,114,182,.6)，确保所有阶段的染色体颜色一致。例如：drawChromosome(ccx+Math.cos(a)*15,cy+Math.sin(a)*15,a,12,'#f472b6');"
+      },
+      {
+        "type": "template_residual",
+        "location": "AI 学伴功能",
+        "description": "AI 学伴功能在课件中未完全实现。当前代码中，如果 TeachAnyTutor 未定义，会弹出提示信息，但课件标题和内容并未提到 AI 学伴，这可能是模板代码未完全清理的结果。",
+        "fix_suggestion": "如果 AI 学伴功能不需要，应移除相关代码。如果需要，应在课件内容中明确说明 AI 学伴的功能，并确保 TeachAnyTutor 已正确定义和实现。例如：if(window.TeachAnyTutor && typeof window.TeachAnyTutor.ask === 'function') { /* 实现功能 */ } else { /* 提示用户 */ }"
+      },
+      {
+        "type": "data_error",
+        "location": "滚动进度条",
+        "description": "滚动进度条的实现不完整。代码在计算滚动进度时，变量 max 未被使用，导致进度条无法正确计算和显示。",
+        "fix_suggestion": "完成滚动进度条的实现。例如：const scrollTop = h.scrollTop; const max = h.scrollHeight - h.clientHeight; const scrollPercent = (scrollTop / max) * 100; document.getElementById('progress-bar').style.width = scrollPercent + '%';"
+      }
+    ],
+    "summary": "课件存在多处关键性错误，包括染色体数量描述错误、动画逻辑不完整以及代码模板残留问题，严重影响教学内容的准确性和课件的完整性。",
+    "node_id": "bio-m-cell-division-m",
+    "subject": "biology",
+    "node_name": "细胞分裂"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "section标题: 细胞的生活与能量",
+        "description": "课件标题为'细胞的生活与能量'，但主要内容集中在物质运输方式（跨膜运输）和能量代谢（呼吸作用、ATP），缺少对细胞其他生命活动（如蛋白质合成、细胞信号传导等）的讨论，内容覆盖范围不足。",
+        "fix_suggestion": "扩展内容范围，增加对细胞其他生命活动的介绍，例如在SEGMENT_TEXTS中添加关于细胞信号传导、蛋白质合成等生命活动的内容。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "function drawTransport()",
+        "description": "在主动运输（active）模式下，细胞膜两端的浓度标签被错误地设置为'细胞外（低浓度端）'和'细胞内（高浓度端）'，这与主动运输的定义（逆浓度梯度运输）不符。",
+        "fix_suggestion": "修改主动运输模式下的标签文本，确保浓度梯度方向正确。例如：'细胞外（低浓度端）'应改为'细胞外（高浓度端）'，'细胞内（高浓度端）'应改为'细胞内（低浓度端）'。代码修改如下：\n```javascript\nif (transportMode === 'active') {\n  tctx.fillStyle = '#5b21b6'; tctx.fillText('细胞外（高浓度端）', 10, 20);\n  tctx.fillStyle = '#065f46'; tctx.fillText('细胞内（低浓度端）', 10, H - 10);\n}\n```"
+      },
+      {
+        "type": "data_error",
+        "location": "s06: 有氧呼吸",
+        "description": "有氧呼吸的总方程式'葡萄糖+6O₂+6H₂O→6CO₂+12H₂O+大量ATP'中，H₂O作为反应物和产物同时出现，这是不正确的。",
+        "fix_suggestion": "修正有氧呼吸的总方程式，去除H₂O作为反应物。例如：'葡萄糖 + 6O₂ → 6CO₂ + 6H₂O + 大量ATP'。\n```javascript\ns06: '有氧呼吸分三阶段：细胞质中的糖酵解、线粒体基质中的柠檬酸循环、线粒体内膜上的氧化磷酸化。总方程：葡萄糖+6O₂→6CO₂+6H₂O+大量ATP。',\n```"
+      },
+      {
+        "type": "display_bug",
+        "location": "function drawTransport()",
+        "description": "在主动运输模式下，细胞膜的标签文本颜色未正确更新，导致文本颜色与背景颜色冲突，影响可读性。",
+        "fix_suggestion": "确保在主动运输模式下，标签文本颜色与背景颜色有足够的对比度。例如，将文本颜色更改为白色：\n```javascript\nif (transportMode === 'active') {\n  tctx.fillStyle = '#ffffff'; tctx.fillText('细胞外（高浓度端）', 10, 20);\n  tctx.fillStyle = '#ffffff'; tctx.fillText('细胞内（低浓度端）', 10, H - 10);\n}\n```"
+      },
+      {
+        "type": "template_residual",
+        "location": "s10: 总结",
+        "description": "总结部分提到'本节课学习了细胞的物质运输（自由扩散、协助扩散、主动运输）和能量代谢（有氧呼吸、无氧呼吸、ATP循环）'，但未提及'细胞的生活与能量'这一主题的其他方面，如细胞生长、分裂等。",
+        "fix_suggestion": "扩展总结内容，涵盖更多与'细胞的生活与能量'相关的知识点。例如：'本节课学习了细胞的物质运输（自由扩散、协助扩散、主动运输）、能量代谢（有氧呼吸、无氧呼吸、ATP循环）以及细胞生长、分裂等生命活动。'。\n```javascript\ns10: '本节课学习了细胞的物质运输（自由扩散、协助扩散、主动运输）、能量代谢（有氧呼吸、无氧呼吸、ATP循环）以及细胞生长、分裂等生命活动。这些是细胞生命活动的核心机制！'\n```"
+      }
+    ],
+    "summary": "课件内容覆盖范围不足，存在多处逻辑错误和数据错误，但整体结构和交互设计良好。",
+    "node_id": "bio-m-cell-life-activities",
+    "subject": "biology",
+    "node_name": "细胞的生命活动"
+  },
+  {
+    "has_issues": true,
+    "severity": "high",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "Canvas: Animal Cell",
+        "description": "动物细胞结构中缺少对细胞质（细胞膜内、细胞核外区域）的详细描述和交互支持。代码中虽然有相关变量和数据，但未在绘制函数中完全实现。",
+        "fix_suggestion": "在Canvas绘制函数中为细胞质添加交互支持，例如在用户点击或悬停时显示描述信息。以下是修改后的代码片段：\n```javascript\n// Cytoplasm\nconst hl3 = highlighted === '细胞质';\nif (hl3) {\n  ctx.beginPath();\n  ctx.ellipse(cx, cy, 285, 145, 0, 0, Math.PI*2);\n  ctx.fillStyle = 'rgba(187,247,208,0.35)';\n  ctx.fill();\n}\n// 添加交互逻辑，例如添加事件监听器\nc.addEventListener('click', (e) => {\n  const rect = c.getBoundingClientRect();\n  const mouseX = e.clientX - rect.left;\n  const mouseY = e.clientY - rect.top;\n  if (isInside(mouseX, mouseY, cx, cy, 285, 145)) {\n    highlight('细胞质');\n    showDescription('细胞质', '细胞质：细胞膜内、细胞核外的半流体物质，是细胞生命活动的主要场所，含多种细胞器。');\n  }\n});\n```"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "Drag Drop - Cell Classification",
+        "description": "分类拖拽区域没有对错误分类的逻辑处理，仅通过样式区分正确和错误，但未阻止用户继续错误分类。",
+        "fix_suggestion": "在drop事件中添加逻辑判断，如果分类错误，则提示用户并阻止错误分类。以下是修改后的代码片段：\n```javascript\nzone.addEventListener('drop', e => {\n  e.preventDefault(); zone.classList.remove('over');\n  if (!dragChip2) return;\n  const zoneCat = zone.dataset.cat;\n  if (dragChip2.dataset.cat !== zoneCat) {\n    alert('分类错误，请重新尝试！');\n    return;\n  }\n  const span = document.createElement('span');\n  span.className = 'chip-placed'; span.textContent = dragChip2.dataset.name;\n  span.dataset.cat = dragChip2.dataset.cat;\n  zone.appendChild(span); dragChip2.remove(); dragChip2 = null;\n  const hint = zone.querySelector('.drop-hint');\n  if (hint) hint.remove();\n});\n```"
+      },
+      {
+        "type": "display_bug",
+        "location": "Canvas: Animal Cell",
+        "description": "细胞核的绘制逻辑中，核仁（nucleolus）的位置和大小未根据细胞核的位置动态调整，可能导致显示错误。",
+        "fix_suggestion": "将核仁的位置和大小与细胞核的位置和大小关联起来。以下是修改后的代码片段：\n```javascript\n// nucleolus\nctx.beginPath();\nctx.arc(cx - 22, cy + 5, 20, 0, Math.PI * 2);\nctx.fillStyle = 'rgba(91,33,182,0.55)';\nctx.fill();\n```\n建议根据细胞核的位置动态计算核仁的位置，例如：\n```javascript\nconst nucleolusRadius = 20;\nctx.beginPath();\nctx.arc(cx - 22, cy + 5, nucleolusRadius, 0, Math.PI * 2);\nctx.fillStyle = 'rgba(91,33,182,0.55)';\nctx.fill();\n```"
+      },
+      {
+        "type": "data_error",
+        "location": "Canvas: Animal Cell",
+        "description": "线粒体的位置数据中，旋转角度（ang）未明确单位，可能导致绘制错误。",
+        "fix_suggestion": "明确旋转角度的单位为弧度，并确保在代码中正确应用。以下是修改后的代码片段：\n```javascript\nconst mitos = [[cx + 130, cy - 45, 0.3], [cx + 140, cy + 30, -0.2], [cx + 90, cy + 80, 0.8]];\nmitos.forEach(([mx, my, ang]) => {\n  ctx.save();\n  ctx.translate(mx, my);\n  ctx.rotate(ang * Math.PI);\n  // ...\n  ctx.restore();\n});\n```"
+      }
+    ],
+    "summary": "课件整体质量较高，但存在内容缺失、逻辑错误和显示问题，需要进一步优化以确保教学效果。",
+    "node_id": "bio-m-cell-structure-m",
+    "subject": "biology",
+    "node_name": "细胞的结构"
+  },
+  {
+    "has_issues": true,
+    "severity": "high",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "section#pretest",
+        "description": "前测问题中关于心脏壁厚度的描述不完整，未提及右心室壁虽然不是最厚，但比其他心房壁厚。",
+        "fix_suggestion": "修改前测问题描述为：'心脏有四个腔，左心室壁最厚，右心室壁次之，心房壁最薄。'"
+      },
+      {
+        "type": "content_wrong",
+        "location": "section#posttest",
+        "description": "后测问题中关于血液流经肺部毛细血管后的变化描述不完整，未提及血液中CO₂减少。",
+        "fix_suggestion": "修改后测问题描述为：'血液流经肺部毛细血管后，CO₂从血液扩散到肺泡，O₂从肺泡扩散到血液，静脉血变为动脉血，含氧量增多，CO₂减少。'"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "canvas animation logic",
+        "description": "动画逻辑中，血液在肺动脉中流动时未正确标注为静脉血（课件中提到肺动脉流静脉血，但动画中未体现）。",
+        "fix_suggestion": "在动画逻辑中，当血液位于肺动脉时，将血液颜色设置为静脉血颜色（#6366f1），并在文本中标注为静脉血。例如：'经肺动脉射向肺部(注意：肺动脉流静脉血)'。"
+      },
+      {
+        "type": "display_bug",
+        "location": "canvas text rendering",
+        "description": "动画中'肺动脉'和'肺静脉'的文本标签位置重叠，导致显示混乱。",
+        "fix_suggestion": "调整文本标签的位置，例如将'肺动脉'标签向下移动，'肺静脉'标签向上移动，确保两者不重叠。修改代码如下：ctx.fillText('肺动脉', p.x, p.y - 25); ctx.fillText('肺静脉', p.x, p.y + 25);"
+      },
+      {
+        "type": "data_error",
+        "location": "animation timing",
+        "description": "动画中每一步的延迟时间设置为1500毫秒，但未考虑循环的总时间是否合理，可能导致学习体验不佳。",
+        "fix_suggestion": "根据实际教学需求调整延迟时间，例如将延迟时间设置为1000毫秒以加快动画速度，或根据循环的复杂性调整每一步的延迟时间。"
+      },
+      {
+        "type": "template_residual",
+        "location": "entire document",
+        "description": "课件中多处出现与'循环与呼吸综合'无关的配置代码，如MiniMax-Text-01模型配置，可能表明使用了未完全修改的模板。",
+        "fix_suggestion": "检查整个课件代码，确保所有配置和内容都与'循环与呼吸综合'相关。例如，移除不必要的配置代码或根据实际需求调整配置。"
+      }
+    ],
+    "summary": "课件存在多处内容错误、逻辑不匹配和显示问题，需要进行全面修订以确保教学内容的准确性和交互体验的流畅性。",
+    "node_id": "bio-m-circulation-respiration",
+    "subject": "biology",
+    "node_name": "循环与呼吸综合"
+  },
+  {
+    "has_issues": true,
+    "severity": "high",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "Canvas 血液循环动画部分",
+        "description": "动画中关于血液在肺部与全身组织之间的颜色切换逻辑存在错误。血液在肺部应从静脉血（缺氧）变为动脉血（含氧），但在代码中，血液在肺部路径（lungPath）上的颜色变化是错误的：p.t < 0.5 时为蓝色（动脉血），p.t >= 0.5 时为红色（静脉血），这与实际生理过程相反。",
+        "fix_suggestion": "修改肺循环路径中血液颜色的逻辑，使其在肺部路径上从红色（静脉血）变为蓝色（动脉血）。例如：\n```javascript\nif(p.isBody){\n  color = p.t < 0.5 ? 'rgba(239,68,68,.9)' : 'rgba(59,130,246,.9)';\n} else {\n  color = p.t < 0.5 ? 'rgba(59,130,246,.9)' : 'rgba(239,68,68,.9)';\n}\n```\n应改为：\n```javascript\nif(p.isBody){\n  color = p.t < 0.5 ? 'rgba(239,68,68,.9)' : 'rgba(59,130,246,.9)';\n} else {\n  color = p.t < 0.5 ? 'rgba(239,68,68,.9)' : 'rgba(59,130,246,.9)';\n}\n```\n并调整注释以匹配正确的生理过程。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "选择题逻辑部分",
+        "description": "前测选择题中，选项A的反馈文本与逻辑判定不一致。文本描述的是'动脉里流的都是动脉血，静脉里流的都是静脉血'，但逻辑判定为错误（data-correct=\"false\"），而反馈的文本中却提到'肺动脉里流的是静脉血'，这与选项描述不完全对应，可能导致混淆。",
+        "fix_suggestion": "修改选项A的文本，使其更明确地表达错误概念，例如：'动脉里流的都是动脉血，静脉里流的都是静脉血'。同时，确保反馈文本清晰地解释错误原因，例如：'❌ 这是错误的！动脉和静脉是根据血管类型（离心/回心）分类的，而动脉血和静脉血是根据含氧量分类的。肺动脉里流的是静脉血，肺静脉里流的是动脉血。'"
+      },
+      {
+        "type": "template_residual",
+        "location": "课件标题和内容部分",
+        "description": "课件标题为'血液为什么永不停歇？'，但内容主要围绕循环系统展开，未涉及'永不停歇'的具体解释，可能导致标题与内容不一致。",
+        "fix_suggestion": "修改标题以更准确地反映内容，例如：'循环系统如何工作？'。或者在内容中增加对'血液永不停歇'的解释，例如：'血液在循环系统中持续流动是因为心脏的泵血作用和血管的弹性。'"
+      },
+      {
+        "type": "display_bug",
+        "location": "Canvas 血液循环动画部分",
+        "description": "在动画中，心脏的标签'心脏'被放置在心脏下方，但当心率（hr）变化时，标签位置未动态调整，可能导致标签与心脏图像重叠或错位。",
+        "fix_suggestion": "在绘制标签时，根据心率变化动态调整标签位置。例如：\n```javascript\nctx.fillStyle='var(--muted)';\nctx.font='11px sans-serif';\nctx.fillText('心脏', hx, hy + hr2 + 14 + (hr - 72) / 10);\n```\n这样可以确保标签位置随心率变化而调整。"
+      }
+    ],
+    "summary": "课件存在内容错误、逻辑不匹配、模板残留和显示问题，需要进行全面审查和修复。",
+    "node_id": "bio-m-circulatory-system",
+    "subject": "biology",
+    "node_name": "循环系统"
   },
   {
     "has_issues": true,
@@ -91,50 +365,1560 @@
     "issues": [
       {
         "type": "logic_mismatch",
-        "location": "answerPre函数",
-        "description": "在answerPre函数中，'answerPre('+q,cor,c)中的字符串拼接错误，缺少右括号')'，导致setAnswered函数接收到的参数不正确。",
-        "fix_suggestion": "修改为'setAnswered(\"answerPre(\"+q+\")\", cor, c);'，确保括号匹配。例如：'setAnswered(\"answerPre(\"+q+\")\", cor, c);'"
+        "location": "goTo function",
+        "description": "The 'animRunning' flag is not reset when navigating away from the 'animation' section, which could cause the animation to continue running unintentionally in other sections.",
+        "fix_suggestion": "Add a condition to reset 'animRunning' when leaving the 'animation' section. For example: \n\nif (id === 'animation' && !animRunning) {\n    animRunning = true;\n    requestAnimationFrame(drawDigest);\n} else if (id !== 'animation' && animRunning) {\n    animRunning = false;\n}"
       },
       {
         "type": "content_wrong",
-        "location": "pre-q1题目",
-        "description": "题目1的描述有误，'通分后的分子'表述不完整，缺少对公分母的说明。",
-        "fix_suggestion": "修改题目为'1. 通分：1/x + 2/3 = ?（通分后的分子，公分母为3x）'，确保题目清晰明确。"
+        "location": "Knowledge Graph section",
+        "description": "The 'extends' field in 'knowledgeGraphData' includes '呼吸系统与气体交换' and '血液循环系统', which are not directly related to the '消化系统' topic, causing a mismatch between the title and content.",
+        "fix_suggestion": "Update the 'extends' field to include topics directly related to the digestive system, such as '吸收过程' or '营养物质代谢'."
       },
       {
         "type": "data_error",
-        "location": "pre-q2题目答案",
-        "description": "题目2的答案逻辑错误，x=0时，分式1/(x+1)的值应为1，而不是未定义。",
-        "fix_suggestion": "修改题目为'2. x = 0 时，分式 1/(x+1) 的值是？'，并相应调整答案逻辑。"
-      },
-      {
-        "type": "logic_mismatch",
-        "location": "answerModule函数",
-        "description": "在answerModule函数中，'answerModule('+m,cor,c)中的字符串拼接错误，缺少右括号')'，导致setAnswered函数接收到的参数不正确。",
-        "fix_suggestion": "修改为'setAnswered(\"answerModule(\"+m+\")\", cor, c);'，确保括号匹配。例如：'setAnswered(\"answerModule(\"+m+\")\", cor, c);'"
-      },
-      {
-        "type": "content_wrong",
-        "location": "post-q2题目答案",
-        "description": "题目2的答案解释中，'LCD=2x'的表述有误，验根时未考虑x=0的情况。",
-        "fix_suggestion": "修改答案解释为'LCD=2x，两边×2x：4x-1=3x，x=1，验根x=1≠0 ✓'，确保逻辑正确。"
-      },
-      {
-        "type": "display_bug",
-        "location": "后测得分显示",
-        "description": "后测得分显示区域在初始状态下未隐藏，可能导致显示错误。",
-        "fix_suggestion": "在HTML中添加style='display:none;'到<div class=\"score-label\">后测得分</div>的父元素，或在JavaScript中动态控制显示。"
+        "location": "Canvas — Peristalsis Animation section",
+        "description": "The 'foodX' position update logic does not account for the varying widths of the organs, which could cause the food particle to move inconsistently through the digestive tract.",
+        "fix_suggestion": "Modify the 'foodX' update logic to consider the width of each organ. For example:\n\nconst totalWidth = ORGANS.reduce((acc, organ) => acc + organ.w, 0);\nconst progress = foodX / totalWidth;\n\n// Update foodX based on progress"
       },
       {
         "type": "template_residual",
-        "location": "learningObjectives",
-        "description": "learningObjectives数组为空，未定义具体的学习目标。",
-        "fix_suggestion": "根据课件内容，填充learningObjectives数组，例如：'learningObjectives: [\"理解分式方程的定义\", \"掌握分式方程的解法\", \"学会验根步骤\"]'。"
+        "location": "Canvas — Peristalsis Animation section",
+        "description": "The code contains incomplete lines, such as 'rgba(52,211,153,0.', indicating that the animation logic may be a template that was not fully implemented.",
+        "fix_suggestion": "Complete the incomplete lines in the code. For example:\n\nctx.fillStyle = 'rgba(52,211,153,0.7)';\nctx.fill();"
+      },
+      {
+        "type": "display_bug",
+        "location": "Canvas — Peristalsis Animation section",
+        "description": "The 'foodY' position is not updated correctly when the food particle moves between organs, causing it to jump abruptly instead of following a smooth path.",
+        "fix_suggestion": "Ensure that the 'foodY' position is interpolated correctly between the current and next organ. For example:\n\nconst o1 = ORGANS[i], o2 = ORGANS[i+1];\nconst cx1 = o1.x + o1.w/2, cx2 = o2.x + o2.w/2;\nconst cy1 = o1.y + o1.h/2, cy2 = o2.y + o2.h/2;\nconst t = (foodX - cx1) / (cx2 - cx1);\nconst fy = cy1 * (1 - t) + cy2 * t;\n"
       }
     ],
-    "summary": "课件存在多处逻辑错误、内容问题和显示bug，需要全面修正以确保教学内容的准确性和交互体验的流畅性。",
-    "node_id": "math-m-fraction-equation",
-    "subject": "math",
-    "node_name": "分式方程"
+    "summary": "The课件存在多个严重问题，包括逻辑错误、内容不匹配、数据错误和显示问题，需要全面修订才能达到教学标准。",
+    "node_id": "bio-m-digestion-system",
+    "subject": "biology",
+    "node_name": "消化系统"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "🌿 生态因素与生物适应 - 标题与内容一致性",
+        "description": "课件标题为'生态因素与生物适应'，但内容主要聚焦于光照对植物生长的影响，未充分覆盖生态因素的定义、分类以及生物适应的具体机制。",
+        "fix_suggestion": "扩展内容以涵盖更多生态因素（如温度、水分、土壤等）及其对生物的影响，并增加生物适应的具体案例和解释。例如，添加关于生物如何通过形态、行为或生理变化适应不同生态因素的详细说明。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "CANVAS: Light vs Plant Growth - lightLevel与植物生长逻辑",
+        "description": "光照强度`lightLevel`被设定为0到3的整数，但`plantHeight`函数中`optimal`属性为1和2，未考虑`lightLevel`为0（黑暗）和3（强光）时对植物生长的影响。",
+        "fix_suggestion": "调整`plantHeight`函数以正确处理`lightLevel`为0和3的情况。例如，可以为`optimal`属性添加范围判断，或为不同光照强度设计更细致的生长曲线。"
+      },
+      {
+        "type": "display_bug",
+        "location": "CANVAS: Light vs Plant Growth - 太阳/月亮绘制逻辑",
+        "description": "在`lightLevel`为0（黑暗）时，太阳/月亮未正确隐藏，可能导致显示异常。",
+        "fix_suggestion": "修改绘制太阳/月亮的逻辑，使其在`lightLevel`为0时不执行绘制操作。例如，在绘制前添加条件判断：`if(lightLevel > 0){ ... }`。"
+      },
+      {
+        "type": "data_error",
+        "location": "DRAG & DROP - 分类逻辑",
+        "description": "拖放分类的反馈逻辑中，非生物因素和生物因素的判定条件未明确列出所有可能的错误组合，可能导致误判。",
+        "fix_suggestion": "明确列出所有可能的错误组合，并在`checkDrop`函数中进行全面检查。例如，确保每个拖放项的`data-cat`属性与目标区域匹配，并提供更详细的错误反馈信息。"
+      },
+      {
+        "type": "template_residual",
+        "location": "AUDIO - 播放列表内容",
+        "description": "音频播放列表中包含的文本内容与课件主题不完全相关，可能为模板残留。",
+        "fix_suggestion": "检查并更新音频播放列表中的文本内容，确保其与'生态因素与生物适应'的主题一致。例如，更新`playlist`数组中的`text`字段以提供更相关的解释和描述。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "QUIZ - 答案判定逻辑",
+        "description": "测验部分的答案判定逻辑未考虑多选题的情况，仅适用于单选题。",
+        "fix_suggestion": "扩展答案判定逻辑以支持多选题。例如，修改`answerQ`函数，使其能够处理多个正确答案，并相应地更新反馈逻辑。"
+      }
+    ],
+    "summary": "课件整体质量尚可，但存在内容覆盖不足、逻辑不一致和显示错误等问题，需要进行较大幅度的修改和扩展以提高教学效果。",
+    "node_id": "bio-m-eco-factors",
+    "subject": "biology",
+    "node_name": "生态因素"
+  },
+  {
+    "has_issues": true,
+    "severity": "high",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "section#pretest",
+        "description": "前测部分的问题与课件主题'生态系统的组成'不完全匹配，问题聚焦于食物链的书写方式，而非生态系统的组成。",
+        "fix_suggestion": "修改前测问题，使其更符合生态系统的组成这一主题。例如：'以下哪些是生态系统的组成部分？A. 生产者 B. 消费者 C. 分解者 D. 以上都是'"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "食物链构建器逻辑",
+        "description": "在食物链构建器中，当用户点击已经存在于当前链中的生物时，状态文本显示'⚠️ 这个生物已经在当前链中了'，但没有提供进一步的指导或限制，这可能使用户感到困惑。",
+        "fix_suggestion": "在状态文本中提供更明确的指导，例如：'⚠️ 这个生物已经在当前链中了，请选择下一个被它吃掉的生物。'"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "食物链完成逻辑",
+        "description": "食物链完成的条件是当前链中的最后一个生物是三级消费者或没有后续消费者，但代码中未处理食物链中可能存在的循环或重复问题。",
+        "fix_suggestion": "在完成食物链之前，添加对循环或重复的检查。例如：'if(chain.length > 1 && !hasCycle(chain) && !hasDuplicate(chain)){...}'"
+      },
+      {
+        "type": "display_bug",
+        "location": "食物链构建器绘图逻辑",
+        "description": "在绘制已完成食物链时，箭头文本'→'的位置计算有误，可能导致箭头显示不准确。",
+        "fix_suggestion": "调整箭头文本的位置计算，确保箭头位于两个生物之间的中心位置。例如：'ctx.fillText('→', (a.x * W + b.x * W) / 2, (a.y * H + b.y * H) / 2);'"
+      },
+      {
+        "type": "data_error",
+        "location": "validChains对象",
+        "description": "validChains对象中缺少了一些可能的食物链组合，例如'青蛙→狐狸'，这可能导致用户无法构建有效的食物链。",
+        "fix_suggestion": "补充validChains对象中缺失的食物链组合。例如：'\"frog→fox\": true'"
+      },
+      {
+        "type": "content_wrong",
+        "location": "学习目标",
+        "description": "learningObjectives数组为空，未定义明确的学习目标。",
+        "fix_suggestion": "在__TEACHANY_TUTOR_CONFIG__中添加具体的学习目标。例如：'learningObjectives: [\"理解生态系统的基本组成\", \"掌握食物链的基本概念\"]'"
+      }
+    ],
+    "summary": "课件存在多处内容、逻辑和显示问题，需要对食物链构建器逻辑、显示位置和数据完整性进行重点修复，并补充缺失的学习目标。",
+    "node_id": "bio-m-ecosystem-junior",
+    "subject": "biology",
+    "node_name": "生态系统的组成"
+  },
+  {
+    "has_issues": true,
+    "severity": "high",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "Canvas: Nutrition Pyramid (Dynamic)",
+        "description": "营养物质膳食金字塔的标签和食物分类存在错误。例如，水被错误地归类为营养物质金字塔的一部分，而实际上水是营养素而非营养物质。此外，标签'谷物类（糖类）'的描述中糖类与谷物类混为一谈，这可能导致学生误解。",
+        "fix_suggestion": "修改金字塔的标签和食物分类，将水从营养物质金字塔中移除，并明确区分糖类和谷物类。例如：'谷物类'标签应仅包含谷物食物，'糖类'应单独列出。同时，确保食物分类符合营养学标准，例如：\n```javascript\nconst pyramidLayers = [\n  { label: '油脂类', color: '#ef4444', foods: '植物油·黄油·动物油脂', yRatio: 0.10 },\n  { label: '蛋白质类', color: '#f97316', foods: '鸡蛋·鱼肉·瘦肉·豆腐·牛奶', yRatio: 0.16 },\n  { label: '蔬菜水果', color: '#22c55e', foods: '各种蔬菜和水果', yRatio: 0.20 },\n  { label: '谷物类', color: '#f59e0b', foods: '米饭·面包·面条·薯类', yRatio: 0.24 },\n  { label: '水', color: '#0ea5e9', foods: '', yRatio: 0.30 }\n];\n```"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "Drag & Drop - Food Classification",
+        "description": "食物分类的拖放逻辑存在问题。当前代码中，食物项的 dataset.nutrient 被直接与目标分类的 dataset.category 比较，这假设食物名称与其分类名称完全一致，这是不合理的。例如，'鸡蛋'应归类为'蛋白质类'，但代码中直接比较可能导致逻辑错误。",
+        "fix_suggestion": "引入一个映射关系，将食物项映射到正确的分类。例如：\n```javascript\nconst foodCategoryMap = {\n  '鸡蛋': '蛋白质类',\n  '米饭': '谷物类',\n  // 其他食物项\n};\n\nfunction checkDragDrop() {\n  let correct = 0, total = 0;\n  document.querySelectorAll('.dropped-item').forEach(item => {\n    total++;\n    const expectedCategory = foodCategoryMap[item.textContent.trim()] || '';\n    const isRight = item.dataset.targetCategory === expectedCategory;\n    // ...\n  });\n  // ...\n}\n```"
+      },
+      {
+        "type": "display_bug",
+        "location": "Canvas: Nutrition Pyramid (Dynamic)",
+        "description": "营养物质膳食金字塔的绘制代码被截断，导致金字塔无法完整显示。这会直接影响课件的可用性和学生的学习效果。",
+        "fix_suggestion": "完成金字塔的绘制代码，确保所有层级和标签都能正确显示。例如：\n```javascript\nfunction drawPyramid() {\n  // ...\n  pyramidLayers.forEach(layer => {\n    const layerH = totalH * layer.yRatio;\n    ctx.fillStyle = layer.color;\n    ctx.fillRect(cx - baseHalfW, yStart - layerH, baseHalfW * 2, layerH);\n    ctx.fillStyle = '#fff';\n    ctx.fillText(layer.label, cx, yStart - layerH / 2);\n    yStart -= layerH;\n  });\n  // ...\n}\n```"
+      },
+      {
+        "type": "template_residual",
+        "location": "标题: 人体概述与营养物质",
+        "description": "课件标题为'人体概述与营养物质'，但主要内容集中在营养物质金字塔上，缺乏对'人体概述'的深入讲解。这可能是模板复用时未修改内容导致的。",
+        "fix_suggestion": "增加对'人体概述'的讲解内容，例如人体组织、器官和系统的介绍。确保标题与内容一致。例如：\n```html\n<!-- 标题: 人体概述与营养物质 -->\n\n<!-- 添加人体概述内容 -->\n<div class=\"section\">\n  <h2>人体概述</h2>\n  <p>人体由多个组织和器官组成，这些组织和器官共同构成不同的系统，如消化系统、呼吸系统等。</p>\n</div>\n```"
+      }
+    ],
+    "summary": "课件存在多处严重问题，包括内容错误、逻辑不匹配和显示问题，需要全面修订以确保教学效果。",
+    "node_id": "bio-m-human-body-overview",
+    "subject": "biology",
+    "node_name": "人体概述"
+  },
+  {
+    "has_issues": true,
+    "severity": "high",
+    "issues": [
+      {
+        "type": "logic_mismatch",
+        "location": "selectOpt 函数",
+        "description": "在 selectOpt 函数中，当用户选择错误选项时，代码逻辑将 'wrong' 类添加两次（一次在 if 语句中，另一次在 else 语句中），这会导致类名重复设置。",
+        "fix_suggestion": "将 else 语句中的 'el.classList.add('wrong')' 替换为 'el.classList.remove('correct')'，以避免重复添加 'wrong' 类。修改后的代码片段如下：\n```javascript\nif (!isCorrect) {\n  el.classList.add('wrong');\n} else {\n  el.classList.remove('correct');\n}\n```"
+      },
+      {
+        "type": "content_wrong",
+        "location": "checkStepOrder 函数",
+        "description": "checkStepOrder 函数中定义的正确顺序 [1, 2, 3, 4] 与反馈的描述 '先\"进货\"（CO₂+H₂O），再\"加工\"（光合），最后\"出货\"（O₂）' 不一致。反馈描述中缺少了释放 O₂ 的步骤。",
+        "fix_suggestion": "更新 checkStepOrder 函数中的正确顺序数组，使其与反馈描述一致，例如：[1, 2, 4, 3]。同时，更新反馈描述以准确反映顺序：'先\"进货\"（CO₂+H₂O），再\"加工\"（光合），然后\"释放\"（O₂）。修改后的代码片段如下：\n```javascript\nconst correctOrder = [1, 2, 4, 3];\n```\n并更新反馈内容：\n```html\n<div class=\"feedback-title\">✓ 完全正确！顺序：①吸收CO₂和H₂O → ②吸收光能 → ④释放O₂ → ③合成有机物</div>"
+      },
+      {
+        "type": "template_residual",
+        "location": "Canvas animation - photosynthesis diagram 部分",
+        "description": "Canvas 动画部分代码不完整，缺少绘制光合作用过程的关键元素，如 CO₂、H₂O、O₂ 的箭头和文本标签。这表明可能是模板代码未完全实现光合作用主题。",
+        "fix_suggestion": "完成 Canvas 动画部分的代码，添加 CO₂、H₂O、O₂ 的箭头和文本标签。例如：\n```javascript\n// CO₂ 箭头\nctx.beginPath();\nctx.moveTo(w * 0.1, h * 0.8);\nctx.lineTo(w * 0.3, h * 0.7);\nctx.strokeStyle = '#000000';\nctx.lineWidth = 2;\nctx.stroke();\nctx.fillText('CO₂', w * 0.05, h * 0.78);\n\n// H₂O 箭头\nctx.beginPath();\nctx.moveTo(w * 0.1, h * 0.9);\nctx.lineTo(w * 0.3, h * 0.8);\nctx.strokeStyle = '#000000';\nctx.lineWidth = 2;\nctx.stroke();\nctx.fillText('H₂O', w * 0.05, h * 0.88);\n\n// O₂ 箭头\nctx.beginPath();\nctx.moveTo(w * 0.7, h * 0.1);\nctx.lineTo(w * 0.9, h * 0.2);\nctx.strokeStyle = '#000000';\nctx.lineWidth = 2;\nctx.stroke();\nctx.fillText('O₂', w * 0.92, h * 0.22);\n```"
+      },
+      {
+        "type": "display_bug",
+        "location": "Canvas animation - photosynthesis diagram 部分",
+        "description": "Canvas 动画的绘制循环未正确结束，导致 '...' 出现在代码末尾。这可能是由于代码截断或缺少闭合大括号。",
+        "fix_suggestion": "确保 Canvas 动画的绘制循环正确结束，添加缺失的闭合大括号。例如：\n```javascript\n}\n```\n并在代码末尾添加关闭动画循环的逻辑：\n```javascript\nfunction animate() {\n  drawPhoto();\n  animFrame++;\n  requestAnimationFrame(animate);\n}\nif (canvas) {\n  animate();\n}\n```"
+      }
+    ],
+    "summary": "课件存在逻辑错误、内容不完整和显示问题，需要对代码逻辑、Canvas 动画和内容描述进行修复和补充。",
+    "node_id": "bio-m-photosynthesis-m",
+    "subject": "biology",
+    "node_name": "光合作用"
+  },
+  {
+    "has_issues": true,
+    "severity": "high",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "section标题: 🌿 植物类群",
+        "description": "课件标题为'植物的主要类群'，但代码中只实现了5个类群（藻类、苔藓、蕨类、裸子、被子），缺少对植物类群更全面的覆盖，例如未包含菌类、地衣等常见类群。",
+        "fix_suggestion": "扩展groups对象，添加更多植物类群的信息和绘图逻辑。例如：\n```javascript\n, fungus: {\n  color: '#d6336c',\n  bg: '#fff0f3',\n  title: '菌类植物',\n  desc: '🍄 无叶绿素，异养生物，孢子繁殖。',\n  draw(w, h) {\n    // 绘制菌类相关图形\n  }\n}\n```"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "函数showGroup(name)",
+        "description": "函数showGroup(name)未完全实现，代码被截断，导致无法正确切换显示不同的植物类群。",
+        "fix_suggestion": "完成showGroup(name)的实现，确保根据传入的name参数正确调用对应类群的draw方法，并更新canvas背景。例如：\n```javascript\nfunction showGroup(name){\n  currentGroup = name;\n  const group = groups[name];\n  if(!group) return;\n  ctx.fillStyle = group.bg;\n  ctx.fillRect(0, 0, canvas.width, canvas.height);\n  group.draw(canvas.width, canvas.height);\n}\n```"
+      },
+      {
+        "type": "display_bug",
+        "location": "CANVAS绘制部分",
+        "description": "canvas的height被固定为280，而width根据父元素动态调整，这可能导致不同屏幕尺寸下显示比例失调。",
+        "fix_suggestion": "将canvas的height也设为动态调整，例如：\n```javascript\nfunction resizeCanvas(){\n  const parent = canvas.parentElement;\n  canvas.width = parent.clientWidth;\n  canvas.height = parent.clientWidth * 0.4; // 根据需要调整比例\n}\n```"
+      },
+      {
+        "type": "content_wrong",
+        "location": "groups对象的描述信息",
+        "description": "部分类群的描述信息过于简化，例如裸子植物的描述中未提及种子裸露的具体含义，以及被子植物的描述中未提及花和果实的具体特征。",
+        "fix_suggestion": "完善groups对象中每个类群的desc字段，提供更详细和准确的描述。例如：\n```javascript\ndesc: '🌲 有根茎叶，有种子但无果皮（种子裸露），花粉管受精，代表：松柏银杏。种子裸露意味着种子没有果皮包被，直接暴露在外。'\n```"
+      },
+      {
+        "type": "data_error",
+        "location": "canvas绘制中的数学计算",
+        "description": "在绘制蕨类植物的叶片时，使用了二次贝塞尔曲线，但控制点的位置计算可能不够精确，导致叶片形状不够自然。",
+        "fix_suggestion": "调整二次贝塞尔曲线的控制点参数，例如：\n```javascript\nctx.quadraticCurveTo(bx-30, h*0.5, bx+15, h*0.15);\n```\n并根据实际效果进行微调。"
+      }
+    ],
+    "summary": "课件在内容覆盖和功能实现上存在多处问题，需要对植物类群的全面性和代码逻辑进行改进。",
+    "node_id": "bio-m-plant-classification",
+    "subject": "biology",
+    "node_name": "植物的主要类群"
+  },
+  {
+    "node_id": "bio-m-plant-structure",
+    "error": "Expecting ',' delimiter: line 14 column 75 (char 485)"
+  },
+  {
+    "has_issues": true,
+    "severity": "high",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "drawRespOverview函数",
+        "description": "在drawRespOverview函数中，线粒体的数量和位置与呼吸作用过程的描述不完全匹配。例如，线粒体被描述为三个，但实际代码中只绘制了两个位置不同的线粒体。此外，葡萄糖和氧气进入细胞的箭头方向和位置可能与实际生物过程不一致。",
+        "fix_suggestion": "检查并修正线粒体的数量和位置，确保与呼吸作用过程一致。例如，可以增加线粒体的数量或调整其位置。同时，验证葡萄糖和氧气进入细胞的箭头方向和位置是否准确。示例修改：\n```javascript\n// Mitochondria\nrctx.fillStyle='rgba(254,202,202,0.8)';\nfor(let i=0;i<3;i++){\n  rctx.beginPath();\n  rctx.ellipse(300+i*100,200,35,22,Math.PI/8*i,0,Math.PI*2);\n  rctx.fill();\n  rctx.strokeStyle='#f87171';\n  rctx.lineWidth=1.5;\n  rctx.beginPath();\n  rctx.ellipse(300+i*100,200,35,22,Math.PI/8*i,0,Math.PI*2);\n  rctx.stroke();\n}\n```"
+      },
+      {
+        "type": "data_error",
+        "location": "drawMitoDetail函数",
+        "description": "在drawMitoDetail函数中，线粒体的化学反应步骤描述不完整或不准确。例如，第二步和第三步的化学反应方程式缺少平衡系数，且没有详细说明反应条件或产物。",
+        "fix_suggestion": "完善化学反应方程式，并添加必要的反应条件或产物说明。例如：\n```javascript\nconst steps=[\n  {x:560,y:80,text:'第二步：丙酮酸 + H₂O → CO₂ + 辅酶A + NADH + H⁺'},\n  {x:560,y:140,text:'第三步：H⁺ + O₂ + 电子 → H₂O'},\n  {x:560,y:200,text:'大量ATP释放'},\n  {x:560,y:260,text:'（线粒体内膜上进行）'},\n];\n```"
+      },
+      {
+        "type": "template_residual",
+        "location": "截断部分",
+        "description": "代码截断部分可能包含未完成的逻辑或功能，例如checkRespOrder函数未完全实现。这表明课件可能处于开发阶段，未经过完整测试。",
+        "fix_suggestion": "完成checkRespOrder函数的逻辑，确保拖放顺序的验证功能正确实现。例如：\n```javascript\nfunction checkRespOrder(){\n  const list=document.getElementById('respStepList');\n  const items=[...list.querySelectorAll('.drag-item')];\n  const order=items.map(i=>i.dataset.id);\n  const correctOrder=['step1','step2','step3','step4'];\n  if(JSON.stringify(order)===JSON.stringify(correctOrder)){\n    alert('顺序正确！');\n  } else {\n    alert('顺序错误，请重试。');\n  }\n}\n```"
+      },
+      {
+        "type": "display_bug",
+        "location": "drawEnergyFlow函数",
+        "description": "在drawEnergyFlow函数中，能量流动的动画效果可能存在性能问题，因为每次动画循环都会创建新的路径和样式，这可能导致浏览器卡顿。",
+        "fix_suggestion": "优化动画循环，避免重复创建路径和样式。例如，可以重用路径对象或使用更高效的绘图方法。示例修改：\n```javascript\nfunction drawEnergyFlow(){\n  rctx.clearRect(0,0,760,360);\n  const bg=rctx.createLinearGradient(0,0,760,0);\n  bg.addColorStop(0,'#fff1f2');\n  bg.addColorStop(1,'#fef3c7');\n  rctx.fillStyle=bg;\n  rctx.fillRect(0,0,760,360);\n\n  rFrame++;\n  energyParticles.forEach(p=>{\n    p.x+=p.vx;\n    p.y+=p.vy;\n    if(p.x<100||p.x>660)p.vx*=-1;\n    if(p.y<60||p.y>300)p.vy*=-1;\n    p.alpha=0.4+Math.sin(rFrame*0.05+p.x*0.01)*0.4;\n  });\n\n  rctx.fillStyle='rgba(255,255,255,0.9)';\n  rctx.beginPath();\n  rctx.roundRect(240,130,280,100,12);\n  rctx.fill();\n  rctx.strokeStyle='#f97316';\n  rctx.lineWidth=2;\n  rctx.beginPath();\n  rctx.roundRect(240,130,280,100,12);\n  rctx.stroke();\n\n  rctx.fillStyle='#1e293b';\n  rctx.font='bold 14px PingFang SC,sans-serif';\n  rctx.textAlign='center';\n  rctx.fillText('⚡ 能量释放',380,160);\n  rctx.font='13px PingFang SC,sans-serif';\n  rctx.fillStyle='#64748b';\n  rctx.fillText('有机物化学能 → ATP + 热能',380,188);\n  rctx.fillText('为生命活动提供动力',380,210);\n\n  energyParticles.forEach(p=>{\n    rctx.beginPath();\n    rctx.arc(p.x,p.y,p.r,0,Math.PI*2);\n    rctx.fillStyle=p.color+Math.floor(p.alpha*255).toString(16).padStart(2,'0');\n    rctx.fill();\n  });\n}\n```"
+      }
+    ],
+    "summary": "课件存在多处内容错误、数据错误和显示问题，需要进行全面审查和修正。",
+    "node_id": "bio-m-respiration-m",
+    "subject": "biology",
+    "node_name": "呼吸作用"
+  },
+  {
+    "has_issues": true,
+    "severity": "high",
+    "issues": [
+      {
+        "type": "logic_mismatch",
+        "location": "switchMode函数",
+        "description": "在switchMode函数中，当模式切换到'breathing'或'gas_exchange'时，animStarted被设置为true并调用animLoop，但未检查动画是否已经启动，这可能导致重复调用animLoop。",
+        "fix_suggestion": "在调用animLoop之前添加检查，例如：if (!animStarted) { animStarted = true; requestAnimationFrame(animLoop); }"
+      },
+      {
+        "type": "content_wrong",
+        "location": "knowledgeGraphData对象",
+        "description": "knowledgeGraphData中的'current'知识点名称为'呼吸系统与气体交换'，但课件标题和内容主要聚焦于呼吸系统，未充分涵盖气体交换的详细机制。",
+        "fix_suggestion": "将knowledgeGraphData.current.name修改为'呼吸系统'，或扩展课件内容以更全面地涵盖气体交换的机制。"
+      },
+      {
+        "type": "data_error",
+        "location": "drawBreathing函数",
+        "description": "在drawBreathing函数中，膈肌的运动范围（diaY）计算为280 + breathPhase * -30，这意味着膈肌在吸气时上升（不符合生理学实际）。",
+        "fix_suggestion": "修改diaY的计算，使其在吸气时下降，例如：const diaY = 280 + breathPhase * 30;"
+      },
+      {
+        "type": "display_bug",
+        "location": "drawExchange函数",
+        "description": "在drawExchange函数中，O₂和CO₂气体粒子的运动代码在Math.sin函数调用处被截断，导致语法错误。这将阻止气体交换动画的正常渲染。",
+        "fix_suggestion": "完成Math.sin函数的调用，例如：Math.sin(angle - Math.PI / 2)，并确保代码逻辑正确。"
+      },
+      {
+        "type": "template_residual",
+        "location": "整体课件内容",
+        "description": "课件中多处使用与'气体交换'相关的术语和描述，但主要动画和图表仅展示了呼吸运动（膈肌运动），未充分展示气体交换的详细过程。",
+        "fix_suggestion": "扩展动画部分，加入气体交换的详细可视化，例如展示O₂和CO₂在肺泡和毛细血管之间的扩散过程。"
+      }
+    ],
+    "summary": "课件存在多处逻辑错误、数据错误和显示问题，且内容与标题不完全匹配，需要全面修订以确保准确性和一致性。",
+    "node_id": "bio-m-respiratory-system",
+    "subject": "biology",
+    "node_name": "呼吸系统"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "section#pretest",
+        "description": "前测问题中，选项C的描述“现象、微观、符号三线并行”虽然正确，但问题本身没有明确指出这是学习酸和碱的路径，可能导致学生困惑。",
+        "fix_suggestion": "修改问题描述以更明确地指向酸和碱的学习路径，例如：“学习酸和碱时，以下哪种方法最有效？”"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "function drawSim",
+        "description": "在微观解释模拟器中，粒子数量（n）和反应程度（r）的逻辑关系没有明确说明，可能导致用户对‘新组合’状态的判断产生误解。例如，当n=8且r=35时，预期有2.8个粒子进入‘新组合’状态，但代码中未处理小数问题。",
+        "fix_suggestion": "在代码中添加对小数的处理，例如使用Math.floor或Math.ceil来明确新组合粒子的数量，例如：`const newParticles = Math.round(n * r / 100);`"
+      },
+      {
+        "type": "display_bug",
+        "location": "section#diagnosis-lab",
+        "description": "诊断实验室中的提示信息没有与用户输入动态更新，仅提供了静态的评估标准，缺乏互动性。",
+        "fix_suggestion": "增加一个动态评估区域，根据用户输入的答案实时显示是否符合三条标准，例如使用JavaScript动态更新提示内容。"
+      },
+      {
+        "type": "template_residual",
+        "location": "section#simulation",
+        "description": "仿真部分的iframe引用的PhET酸碱溶液页面是通用的仿真工具，没有针对本课件的酸碱主题进行定制，可能导致内容与课件主题不完全匹配。",
+        "fix_suggestion": "修改iframe的src属性，链接到专门针对本课件主题的定制化仿真页面，或者在课件中提供更具体的指导，说明如何将PhET仿真与课件内容结合。"
+      },
+      {
+        "type": "data_error",
+        "location": "function drawSim",
+        "description": "在模拟器中，粒子总数（n）的范围是8到48，但代码中初始值设置为24，可能与课件中其他地方对粒子数量的描述不一致。",
+        "fix_suggestion": "检查课件中其他部分对粒子数量的描述，确保初始值与课件内容一致，或者提供更明确的说明解释初始值的选择依据。"
+      }
+    ],
+    "summary": "课件整体内容符合酸碱主题，但存在一些逻辑不一致、显示问题和内容匹配问题，需要进行中等程度的修复以提升教学效果。",
+    "node_id": "chem-m-acid-base-concept",
+    "subject": "chemistry",
+    "node_name": "酸和碱"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "section标题 '🌐 外部仿真：PhET 酸碱溶液'",
+        "description": "课件标题为'酸碱盐综合'，但提供的PhET仿真链接为'酸碱溶液'，内容可能不完全匹配酸碱盐综合主题。",
+        "fix_suggestion": "确认PhET仿真链接是否包含酸碱盐综合相关内容，或更换为更符合主题的仿真资源。例如：'https://phet.colorado.edu/sims/html/acid-base-solutions/latest/acid-base-solutions_zh_CN.html'是否合适，或者寻找更贴合酸碱盐综合的仿真资源。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "函数 drawSim()",
+        "description": "在 drawSim() 函数中，粒子数量 (n) 和反应程度 (r) 的逻辑关系可能存在问题。代码中 'ctx.fillStyle=i<n*r/100?'#f59e0b':'#38bdf8' 意味着只有当粒子数量小于 n*r/100 时，粒子颜色才会改变，这可能不符合预期的反应逻辑。",
+        "fix_suggestion": "检查粒子数量与反应程度的关系逻辑，确保其符合酸碱盐综合中粒子反应的定义。例如，如果反应程度表示的是进入新组合状态的粒子比例，应调整条件判断为 'i < Math.round(n * r / 100)'，确保颜色变化与反应程度一致。"
+      },
+      {
+        "type": "display_bug",
+        "location": "Canvas 元素",
+        "description": "在某些情况下，Canvas 元素可能无法正确显示粒子数量和反应程度。例如，当粒子数量或反应程度变化时，文本显示 '当前有 ${n} 个粒子，其中约 ${Math.round(n*r/100)} 个进入“新组合”状态。' 可能未正确更新。",
+        "fix_suggestion": "在 drawSim() 函数末尾添加调试日志，确认文本内容是否正确更新。例如：'console.log(`当前有 ${n} 个粒子，其中约 ${Math.round(n*r/100)} 个进入“新组合”状态。`);'，确保文本内容与变量值一致。"
+      },
+      {
+        "type": "data_error",
+        "location": "诊断实验室部分",
+        "description": "诊断实验室中提到的三条标准没有具体说明如何判断答案是否符合标准，缺乏明确的评价指标。",
+        "fix_suggestion": "为诊断实验室中的三条标准提供更详细的评价指南。例如：'第一，是否清晰地描述了观察到的现象，例如颜色变化、气体产生等；第二，是否解释了现象背后的微观机制，例如粒子运动、化学反应等；第三，是否使用了正确的化学符号或关键词，例如化学式、反应方程式等。'"
+      },
+      {
+        "type": "template_residual",
+        "location": "section标题 '📝 前测：你已经知道什么？'",
+        "description": "前测问题与酸碱盐综合主题的关联性较弱，问题更偏向于学习方式而非酸碱盐综合的具体内容。",
+        "fix_suggestion": "修改前测问题，使其更直接地针对酸碱盐综合主题。例如：'下列哪种物质反应属于酸碱盐综合的范畴？'，并提供相关选项，如酸碱反应、盐的形成等。"
+      }
+    ],
+    "summary": "课件整体内容与主题基本一致，但存在部分逻辑错误、显示问题和内容细节问题，需要进一步优化以提高教学效果。",
+    "node_id": "chem-m-acid-base-salt",
+    "subject": "chemistry",
+    "node_name": "酸碱盐综合"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "s03",
+        "description": "互动任务中提到的“Canvas 模型”与实际代码中的仿真模拟器描述不一致。课件中提到观察气泡快慢、置换实验等，但代码中仅实现了粒子数量和反应程度的简单模拟，没有涉及气泡或置换实验的具体展示。",
+        "fix_suggestion": "修改互动任务文本，使其与实际实现的仿真模拟器一致，例如：'请观察：证据来自粒子的状态变化和反应程度。' 或者扩展代码以实现气泡和置换实验的模拟。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "drawSim 函数",
+        "description": "在 drawSim 函数中，粒子数量 (n) 和反应程度 (r) 的逻辑关系存在问题。当反应程度设置为 0 时，仍然有粒子被标记为“新”，这与预期不符。",
+        "fix_suggestion": "修改条件判断，确保当反应程度为 0 时，所有粒子都被标记为“原”。例如：\n```javascript\nctx.fillStyle = (i < n * r / 100 && r > 0) ? '#f59e0b' : '#38bdf8';\n```"
+      },
+      {
+        "type": "display_bug",
+        "location": "Canvas 标签",
+        "description": "Canvas 标签中显示的“金属活动性顺序：现象—机制—证据”文本在仿真模拟器中位置固定且与交互内容无关，可能导致混淆。",
+        "fix_suggestion": "将该文本移动到仿真模拟器之外的说明区域，或根据仿真状态动态更新文本内容。例如：\n```javascript\nctx.fillText('金属活动性顺序：' + (r > 0 ? '反应进行中' : '无反应'), 70, 295);\n```"
+      },
+      {
+        "type": "template_residual",
+        "location": "s04",
+        "description": "总结迁移部分提到的“易错点：把反应快慢只归因于金属多少，忽略金属种类和条件”与前文内容重复，且未提供具体实例或解释。",
+        "fix_suggestion": "提供具体实例或扩展解释，例如：'例如，在比较镁和锌的反应时，学生常误认为反应快慢只与金属质量有关，而忽略了金属种类和酸浓度的影响。'"
+      },
+      {
+        "type": "data_error",
+        "location": "诊断实验室",
+        "description": "诊断实验室中提到的“三条标准”未明确指出具体内容或评估方法，可能导致学生困惑。",
+        "fix_suggestion": "明确三条标准的具体内容，例如：'1. 是否描述了观察到的现象；2. 是否解释了现象背后的微观机制；3. 是否使用了正确的化学符号或关键词。' 并提供示例或模板帮助学生理解。"
+      }
+    ],
+    "summary": "课件整体内容较为完整，但存在互动任务与实际实现不一致、仿真模拟器逻辑错误、Canvas 标签显示不当以及诊断标准不明确等问题，需要进行针对性修复和优化。",
+    "node_id": "chem-m-activity-series",
+    "subject": "chemistry",
+    "node_name": "金属活动性顺序"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "section#pretest",
+        "description": "前测问题选项C中提到“现象、微观、符号三线并行”，但课件内容中并未明确强调这一学习路径，仅在总结迁移部分有类似表述。",
+        "fix_suggestion": "在课件的文本或互动内容中增加对“现象、微观、符号三线并行”学习路径的明确解释和强调。例如，可以在核心机制部分添加相关内容：'学习碳的单质时，需要从现象、微观结构和符号表达三个方面进行理解。'"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "function drawSim",
+        "description": "Canvas模拟器中的粒子数量和反应程度滑块范围与代码逻辑不匹配。滑块范围是8-48和0-100，但代码中初始值设为24和35，未明确说明这些值的依据。",
+        "fix_suggestion": "在代码中添加注释或文档说明滑块范围的设置依据，例如：'粒子数量范围8-48基于常见碳原子模型数量；反应程度范围0-100表示从无反应到完全反应的比例。' 同时，确保初始值在合理范围内，例如初始粒子数量可设为16，反应程度可设为50。"
+      },
+      {
+        "type": "display_bug",
+        "location": "Canvas simulation",
+        "description": "Canvas模拟器中“新组合”状态的粒子颜色为#f59e0b（橙色），但文本标签“新”颜色为#e0f2fe（浅蓝色），颜色对比不明显，影响可读性。",
+        "fix_suggestion": "调整文本标签“新”的颜色，使其与粒子颜色形成鲜明对比，例如使用#ffffff（白色）：'ctx.fillStyle='#ffffff';ctx.fillText(i<n*r/100?'新':'原',x-8,y+5);'"
+      },
+      {
+        "type": "data_error",
+        "location": "section#diagnosis-lab",
+        "description": "诊断实验室部分提到“教师可以让学生两两互评”，但未提供具体的互评流程或标准，可能导致互评过程混乱。",
+        "fix_suggestion": "在诊断实验室部分增加具体的互评流程和标准，例如：'教师可以让学生两两互评，流程如下：1. 一人读解释，另一人记录观察到的现象；2. 讨论微观层面的解释；3. 评估符号表达的正确性。' 并提供一份互评表格模板。"
+      },
+      {
+        "type": "template_residual",
+        "location": "section#simulation",
+        "description": "仿真部分提到“PhET 物质状态”，但课件标题和内容主要围绕碳的单质，未明确说明仿真内容与碳单质的关联性。",
+        "fix_suggestion": "在仿真部分增加对PhET仿真与碳单质关联性的解释，例如：'通过PhET仿真，学生可以观察不同物质状态下的分子运动，从而理解碳单质中原子排列方式对性质的影响。'"
+      }
+    ],
+    "summary": "课件整体内容较为完整，但存在一些逻辑不一致、显示问题和数据错误，需要对细节进行优化以提高教学效果。",
+    "node_id": "chem-m-carbon-allotropes",
+    "subject": "chemistry",
+    "node_name": "碳的单质（金刚石/石墨/C60）"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "section#pretest",
+        "description": "前测问题中选项C的描述“现象、微观、符号三线并行”虽然正确，但与课件标题“化学方程式”不完全匹配，未能明确聚焦化学方程式的核心内容。",
+        "fix_suggestion": "修改选项C的描述，使其更明确地与化学方程式相关，例如：“通过化学方程式整合现象、微观解释和符号表达。”"
+      },
+      {
+        "type": "template_residual",
+        "location": "section#simulation",
+        "description": "仿真部分的标题“PhET 配平化学方程式”使用了外部链接，但课件内容并未明确说明如何与本课主题“化学方程式”结合，可能导致学习路径不清晰。",
+        "fix_suggestion": "在仿真部分添加一段引导文字，说明仿真与本课化学方程式学习目标的关联，例如：“通过PhET仿真，掌握化学方程式的配平技巧。”"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "function drawSim",
+        "description": "Canvas模拟器中的粒子数量范围（8-48）和反应程度范围（0-100）与实际代码逻辑中的默认值（24和35）不一致，可能导致用户困惑。",
+        "fix_suggestion": "调整默认值以匹配范围，例如，将默认值设置为粒子数量24，反应程度50，或者在代码中添加注释说明默认值的设置依据。"
+      },
+      {
+        "type": "display_bug",
+        "location": "section#diagnosis-lab",
+        "description": "诊断实验室部分提到“教师可以让学生两两互评”，但课件未提供具体的互评机制或交互功能，可能导致实际操作困难。",
+        "fix_suggestion": "添加一个互评功能模块，例如提供一个文本输入框让学生输入互评意见，或者提供明确的互评步骤说明。"
+      },
+      {
+        "type": "data_error",
+        "location": "function drawSim",
+        "description": "Canvas模拟器中计算进入“新组合”状态的粒子数量时使用了Math.round(n*r/100)，这可能导致四舍五入后的数量与实际比例不符。",
+        "fix_suggestion": "使用Math.floor(n*r/100)来确保进入新组合状态的粒子数量不超过理论值，或者根据需求调整计算方式。"
+      }
+    ],
+    "summary": "课件整体内容较为完整，但存在一些逻辑不一致和功能缺失的问题，需要进一步优化以提高教学效果。",
+    "node_id": "chem-m-chemical-equation",
+    "subject": "chemistry",
+    "node_name": "化学方程式"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "s02",
+        "description": "核心机制部分对化合价的描述不完整，缺少对化合价具体定义和计算方法的说明，例如化合价与电子得失或共享的关系。",
+        "fix_suggestion": "在核心机制部分补充化合价的定义，例如：“化合价是元素在形成化合物时表现出的一种化学性质，通常与电子的得失或共享有关，例如钠的化合价为+1，氯的化合价为-1。”"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "互动任务 (s03)",
+        "description": "互动任务中提到“每次改变条件后，都用一句因为所以来解释结果”，但代码中并未实现这一逻辑，也没有提供相应的输入或反馈区域。",
+        "fix_suggestion": "在代码中添加逻辑以捕捉用户输入的“因为所以”解释，例如添加一个文本输入框和提交按钮，并在Canvas旁边显示用户输入的解释。"
+      },
+      {
+        "type": "display_bug",
+        "location": "Canvas 真实互动部分",
+        "description": "Canvas 模拟器中“化学式与化合价：现象—机制—证据”的文字位置过于靠下，容易被粒子覆盖，影响可读性。",
+        "fix_suggestion": "调整Canvas中文字的位置，例如将ctx.fillText('化学式与化合价：现象—机制—证据', 70, 250)中的y坐标从295改为250，避免与粒子重叠。"
+      },
+      {
+        "type": "template_residual",
+        "location": "诊断实验室 (diagnosis-lab)",
+        "description": "诊断实验室部分的内容过于通用，没有针对“化学式与化合价”知识点提供具体的评价标准或示例。",
+        "fix_suggestion": "在诊断实验室部分添加针对化学式与化合价的评价示例，例如：“你的解释是否提到了H₂O中氢原子和氧原子的数量比例？”，“是否解释了为什么水分子是电中性的？”等。"
+      },
+      {
+        "type": "data_error",
+        "location": "Canvas 模拟器逻辑",
+        "description": "Canvas 模拟器中粒子进入“新组合”状态的计算逻辑可能有误。当particleCount为8，reactionLevel为35时，应有2.8个粒子进入新状态，但代码中直接使用整数截断，可能导致显示与预期不符。",
+        "fix_suggestion": "修改粒子进入新状态的计算逻辑，例如使用Math.ceil或Math.floor来明确四舍五入方式，或者直接显示小数以提高精度，例如ctx.fillText(`${(n * r / 100).toFixed(1)}`, x - 8, y + 5)。"
+      }
+    ],
+    "summary": "课件整体内容框架完整，但存在细节逻辑不清晰、显示问题和数据计算不准确的问题，需要对互动任务和Canvas模拟器进行优化，并补充具体评价标准。",
+    "node_id": "chem-m-chemical-formula",
+    "subject": "chemistry",
+    "node_name": "化学式与化合价"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "s01",
+        "description": "课件开头提到“把现象、机制和证据连起来”，但后续内容中缺乏对“机制”的详细解释，仅有现象和部分证据的描述。",
+        "fix_suggestion": "在核心机制部分（s02）或互动任务（s03）中补充对一氧化碳性质背后机制的详细解释，例如其分子结构如何导致可燃性、还原性和毒性。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "互动任务（s03）",
+        "description": "互动任务要求用“因为所以”解释结果，但代码中未提供对用户输入的解释逻辑或验证，仅在选择题部分有简单的正确/错误反馈。",
+        "fix_suggestion": "为互动任务添加逻辑处理，例如通过正则表达式或关键词匹配用户输入的“因为所以”解释，并提供相应的反馈。例如：\n```javascript\nif (/因为[^，]+，所以[^。]+。/.test(userInput)) {\n  feedback.textContent = '解释合理。';\n} else {\n  feedback.textContent = '解释不合理，请使用“因为...所以...”的格式。';\n}\n```"
+      },
+      {
+        "type": "data_error",
+        "location": "Canvas 真实互动部分",
+        "description": "Canvas 模拟器中“反应程度”滑块的取值范围为0-100，但代码中未明确其具体含义（例如一氧化碳与氧气的反应比例），可能导致用户困惑。",
+        "fix_suggestion": "在滑块旁边添加注释或说明，明确“反应程度”的定义，例如“反应程度：0-100%表示一氧化碳与氧气反应的比例”。同时在 `drawSim` 函数中根据反应程度调整粒子颜色或数量，以更直观地反映反应过程。"
+      },
+      {
+        "type": "template_residual",
+        "location": "simulation",
+        "description": "仿真部分使用了 PhET 物质状态仿真，但课件主题是一氧化碳的性质，仿真内容与主题关联性不强。",
+        "fix_suggestion": "替换为与一氧化碳性质相关的仿真，例如一氧化碳与血红蛋白结合的仿真，或者一氧化碳还原金属氧化物的仿真。可以使用类似资源或自行开发。"
+      },
+      {
+        "type": "display_bug",
+        "location": "Canvas 真实互动部分",
+        "description": "当粒子数量超过一定值时，Canvas 上的粒子可能会重叠，影响视觉效果和可读性。",
+        "fix_suggestion": "在 `drawSim` 函数中添加逻辑，当粒子数量超过一定值时（例如40），调整粒子大小或间距。例如：\n```javascript\nconst maxParticles = 40;\nconst particleSize = n > maxParticles ? 10 : 13;\n```\n同时调整字体大小和位置以适应新的布局。"
+      }
+    ],
+    "summary": "课件整体结构清晰，但部分内容与主题关联性不足，互动任务和仿真部分的逻辑和显示需要优化。",
+    "node_id": "chem-m-co-properties",
+    "subject": "chemistry",
+    "node_name": "一氧化碳的性质"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "section id='pretest'",
+        "description": "前测问题选项C中提到的'现象、微观、符号三线并行'与课件中其他地方强调的'宏观现象 → 微观解释 → 符号表达'的顺序不一致，可能造成学生理解混乱。",
+        "fix_suggestion": "将选项C中的'现象、微观、符号三线并行'修改为'宏观现象 → 微观解释 → 符号表达'，以保持内容一致性。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "function drawSim",
+        "description": "在drawSim函数中，'新组合'状态的粒子数量计算有误。代码中使用了Math.round(n*r/100)，但这会四舍五入，可能导致粒子数量与预期不符。例如，当n=24，r=35时，预期应为8.4，但实际显示为8。",
+        "fix_suggestion": "将Math.round(n*r/100)修改为Math.floor(n*r/100)以确保结果向下取整，或者使用Math.ceil(n*r/100)向上取整，根据具体需求调整。"
+      },
+      {
+        "type": "display_bug",
+        "location": "section id='simulation'",
+        "description": "仿真部分的iframe加载的PhET仿真页面可能与二氧化碳的性质与制取主题不完全相关，且未明确说明如何与本课内容关联，可能导致学生困惑。",
+        "fix_suggestion": "在iframe下方添加说明，明确指出PhET仿真与二氧化碳性质和制取的具体关联，例如'请观察二氧化碳在不同状态下的性质'。"
+      },
+      {
+        "type": "template_residual",
+        "location": "section id='diagnosis-lab'",
+        "description": "诊断实验室部分提到的'教师可以让学生两两互评'等内容属于教学建议，与课件主题'二氧化碳的性质与制取'无直接关联，可能是模板复用未修改的结果。",
+        "fix_suggestion": "将该部分内容修改为与二氧化碳性质和制取直接相关的诊断任务，例如'请根据二氧化碳的性质，解释以下实验现象：...'。"
+      },
+      {
+        "type": "data_error",
+        "location": "function drawSim",
+        "description": "在drawSim函数中，粒子数量范围设置为8到48，但初始值设置为24，反应程度设置为35，这些参数未明确说明其依据，可能与实际二氧化碳反应条件不符。",
+        "fix_suggestion": "根据实际二氧化碳反应条件调整粒子数量和反应程度的初始值和范围，例如参考化学实验数据设置合理的参数范围。"
+      }
+    ],
+    "summary": "课件整体内容与主题基本一致，但存在多处细节问题，包括逻辑不一致、显示错误和模板残留，需要进行针对性修改以提高课件质量。",
+    "node_id": "chem-m-co2-properties",
+    "subject": "chemistry",
+    "node_name": "二氧化碳的性质与制取"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "s03",
+        "description": "互动任务部分提到的“仿真和Canvas模型”没有明确说明具体操作内容，缺乏对化学方程式计算的具体指导，仅提到观察现象和解释结果，但未体现与化学方程式计算的直接关联。",
+        "fix_suggestion": "在s03的'text'字段中补充具体操作步骤，例如：‘请使用Canvas模拟器调整粒子数量和反应程度，观察生成的物质数量变化，并根据化学方程式解释结果。’"
+      },
+      {
+        "type": "template_residual",
+        "location": "s04",
+        "description": "总结迁移部分提到的‘生活或实验情境’与本课主题‘根据化学方程式计算’不完全匹配，可能导致学生偏离核心知识点。",
+        "fix_suggestion": "修改s04的'text'字段，使其更聚焦于化学方程式计算的应用，例如：‘请用根据化学方程式计算解释一个与化学实验或工业生产相关的情境……’"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "Canvas 互动部分",
+        "description": "Canvas互动中的'reactionLevel'参数与化学方程式计算的核心概念（质量比和粒子数目比）没有明确关联，代码中仅通过颜色区分‘新’和‘原’粒子，但未体现质量变化或反应程度对生成物质量的影响。",
+        "fix_suggestion": "修改Canvas互动逻辑，使其与化学方程式计算的核心概念一致。例如，可以引入质量计算公式，根据'reactionLevel'调整生成物粒子的数量，并在'simExplain'中显示质量变化信息。"
+      },
+      {
+        "type": "data_error",
+        "location": "Canvas 互动部分",
+        "description": "在'simExplain'中，粒子数量和反应程度的关系计算有误。例如，当particleCount为24，reactionLevel为35时，理论上应该有8.4个粒子进入‘新组合’状态，但代码中显示为8个，可能导致数据不一致。",
+        "fix_suggestion": "修改'simExplain'中的计算逻辑，使用Math.floor或Math.ceil进行四舍五入，例如：`Math.round(n * r / 100)`改为`Math.floor(n * r / 100)`，以确保数据一致性。"
+      },
+      {
+        "type": "display_bug",
+        "location": "Canvas 互动部分",
+        "description": "在Canvas互动中，当particleCount或reactionLevel变化时，'simExplain'的显示内容可能与实际粒子数量和反应程度不一致，因为代码中未对输入值的范围进行严格校验。",
+        "fix_suggestion": "在drawSim函数中添加输入值的范围校验，例如：`n = Math.max(8, Math.min(48, n))` 和 `r = Math.max(0, Math.min(100, r))`，并更新'simExplain'的显示内容以匹配调整后的值。"
+      }
+    ],
+    "summary": "课件整体结构清晰，但互动部分与核心知识点‘根据化学方程式计算’的关联性不足，存在数据计算错误和逻辑不一致的问题，需要进一步优化以确保教学目标的实现。",
+    "node_id": "chem-m-equation-calculation",
+    "subject": "chemistry",
+    "node_name": "根据化学方程式计算"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "section标题和内容",
+        "description": "课件标题为“实验基本操作与安全”，但部分内容与实验操作安全关联性较弱，例如“Canvas 真实互动”部分主要展示的是粒子数量和反应程度模拟，与安全主题关系不明确。",
+        "fix_suggestion": "确保所有互动和内容与实验操作安全直接相关。例如，在Canvas模拟器中增加与安全相关的元素，如防护设备、错误操作后果等，并在描述中强调安全的重要性。可以修改Canvas模拟器的标题和描述，使其更贴近安全主题。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "互动任务和Canvas模拟器",
+        "description": "互动任务要求每次改变条件后用“因为所以”解释结果，但Canvas模拟器中并未提供明确的逻辑解释，仅显示粒子数量和反应程度的变化。",
+        "fix_suggestion": "在Canvas模拟器下方添加一个文本框或弹出提示，用于解释当前条件下的安全风险或操作规范。例如，当粒子数量或反应程度变化时，提示用户该变化对实验安全的影响。"
+      },
+      {
+        "type": "data_error",
+        "location": "Canvas模拟器代码",
+        "description": "在Canvas模拟器中，粒子数量和反应程度的关系计算有误。当反应程度为0时，仍有部分粒子被标记为“新”，这与逻辑不符。",
+        "fix_suggestion": "修改Canvas模拟器的绘制逻辑，确保当反应程度为0时，所有粒子都被标记为“原”。例如，将条件判断从 `i < n * r / 100` 修改为 `i < n * Math.max(r - 1, 0) / 100`。同时，更新代码以确保反应程度的边界条件正确处理。"
+      },
+      {
+        "type": "display_bug",
+        "location": "Canvas模拟器",
+        "description": "Canvas模拟器在重置时，粒子数量和反应程度的值被设置为固定值（24和35），但未同步更新显示的输入控件的值。",
+        "fix_suggestion": "在重置函数中，除了设置值外，还需更新输入控件的显示值。例如，添加 `document.getElementById('particleCount').value = 24;` 和 `document.getElementById('reactionLevel').value = 35;` 到重置函数中。"
+      },
+      {
+        "type": "template_residual",
+        "location": "整体内容",
+        "description": "课件内容中存在一些与实验操作安全无关的模板残留内容，例如PhET原子构建器的链接和部分描述。",
+        "fix_suggestion": "移除与主题无关的内容，如PhET原子构建器的链接和描述，或者将其替换为与实验操作安全相关的仿真工具链接和描述。"
+      }
+    ],
+    "summary": "课件内容与主题部分脱节，互动元素与安全主题关联性不足，存在少量逻辑错误和显示问题，需要进行较大范围的修改和优化。",
+    "node_id": "chem-m-lab-safety",
+    "subject": "chemistry",
+    "node_name": "实验基本操作与安全"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "s01",
+        "description": "课件开头提到“敞口反应可能因气体逸出看似变轻”，但质量守恒定律只适用于密闭系统，敞口系统的质量变化是由于物质逃逸，不符合质量守恒定律的适用范围。",
+        "fix_suggestion": "修改s01中的描述，明确说明质量守恒定律适用于密闭系统，并补充解释敞口系统中质量变化的原因。例如：“同学们好，今天学习质量守恒定律。请注意，质量守恒定律只适用于密闭系统。在敞口系统中，物质可能会逃逸，导致质量变化。”"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "drawSim函数",
+        "description": "Canvas模拟器中粒子的‘新’和‘原’状态仅基于reactionLevel参数，但未考虑粒子数量（particleCount）的变化是否合理。例如，当particleCount为8时，reactionLevel为35可能不合理。",
+        "fix_suggestion": "在drawSim函数中添加对particleCount和reactionLevel的合理性检查。例如，限制reactionLevel不能超过100或根据particleCount动态调整reactionLevel的范围。代码示例：`if (r > 100) { r = 100; }`"
+      },
+      {
+        "type": "display_bug",
+        "location": "Canvas模拟器",
+        "description": "Canvas中显示的‘新’和‘原’标签在某些情况下可能会重叠或超出Canvas边界，尤其是在particleCount较高时。",
+        "fix_suggestion": "调整Canvas中粒子和标签的布局算法，确保在particleCount较高时标签不会重叠或超出边界。例如，增加y坐标的步进值或限制每行的粒子数量。代码示例：`const y = 92 + Math.floor(i / 12) * 60;`"
+      },
+      {
+        "type": "template_residual",
+        "location": "s04",
+        "description": "总结迁移部分提到“记住易错点：把观察到的质量变化直接当作质量守恒失效”，但这部分内容与课件整体逻辑不一致，因为前面已经解释了敞口系统与密闭系统的区别。",
+        "fix_suggestion": "修改s04中的描述，使其更符合课件的整体逻辑。例如：“记住易错点：不要将质量变化归因于质量守恒失效，而应考虑是否所有物质都被考虑在内。”"
+      },
+      {
+        "type": "data_error",
+        "location": "诊断实验室",
+        "description": "诊断实验室中提到的“三条标准”没有明确指出具体的评价标准，例如“观察到的现象”“微观粒子”“符号表达”的具体定义和解释不清晰。",
+        "fix_suggestion": "在诊断实验室部分详细说明三条标准的具体含义，并提供示例。例如：“第一，是否说清了观察到的现象，例如反应前后物质的变化；第二，是否解释了微观层面的变化，例如原子的重新组合；第三，是否用化学方程式或关键词表达了反应过程。”"
+      }
+    ],
+    "summary": "课件整体内容较为完整，但存在一些逻辑不一致和显示问题，需要对敞口系统的描述、Canvas模拟器的布局和诊断实验室的标准进行改进。",
+    "node_id": "chem-m-mass-conservation",
+    "subject": "chemistry",
+    "node_name": "质量守恒定律"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "section#pretest",
+        "description": "前测问题中提供的选项C描述为'现象、微观、符号三线并行'，但课件内容中并未充分体现这一学习路径的具体实施方式，仅在总结迁移部分提到类似概念。",
+        "fix_suggestion": "在课件主体部分增加对'现象、微观、符号三线并行'的具体解释和示例，例如在互动任务或诊断实验室部分补充相关内容。"
+      },
+      {
+        "type": "display_bug",
+        "location": "function drawSim",
+        "description": "Canvas 模拟器中的粒子数量和反应程度滑块在调整时，模拟器显示的'新组合'状态计算有误。例如，当粒子数量为24，反应程度为35时，预期约8个粒子进入'新组合'状态，但实际代码中未正确处理浮点数，可能导致显示偏差。",
+        "fix_suggestion": "修改代码以确保浮点数计算正确。例如，将`Math.round(n*r/100)`替换为更精确的计算方式，如`Math.floor(n * r / 100)`或引入四舍五入逻辑：`Math.round((n * r / 100) + Number.EPSILON)`。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "section#diagnosis-lab",
+        "description": "诊断实验室部分提到'教师可以让学生两两互评'，但课件中未提供具体的互评流程或支持工具，这可能导致实际教学中难以实施。",
+        "fix_suggestion": "在课件中增加互评的具体指导，例如提供互评表格或在线互评功能，并详细说明互评的流程和评估标准。"
+      },
+      {
+        "type": "template_residual",
+        "location": "section#simulation",
+        "description": "仿真部分引用了外部资源 PhET 物质状态模拟器，但该资源与'金属的锈蚀与防护'主题的直接关联性不强，可能导致学习内容偏离主题。",
+        "fix_suggestion": "替换为与'金属的锈蚀与防护'更相关的仿真资源，例如专门针对金属锈蚀过程的模拟器，或在课件中明确说明如何将 PhET 模拟器与当前主题联系起来。"
+      },
+      {
+        "type": "data_error",
+        "location": "function drawSim",
+        "description": "Canvas 模拟器中'新组合'状态的填充颜色和文本标签的逻辑可能存在错误。例如，代码中`ctx.fillStyle`根据`n*r/100`的结果决定颜色，但未考虑`n*r/100`可能超过粒子总数的情况。",
+        "fix_suggestion": "在设置填充颜色之前，增加对`n*r/100`结果的边界检查，确保其不超过粒子总数。例如：`const newParticles = Math.min(Math.round(n * r / 100), n);`。"
+      }
+    ],
+    "summary": "课件整体结构清晰，但存在内容与主题不完全匹配、模拟器显示错误以及互评功能缺失等中等问题，需要进一步优化以提升教学效果。",
+    "node_id": "chem-m-metal-corrosion",
+    "subject": "chemistry",
+    "node_name": "金属的锈蚀与防护"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "section id='simulation'",
+        "description": "外部仿真链接指向的是物质状态仿真，与课件主题'金属的物理与化学性质'不完全匹配。",
+        "fix_suggestion": "将iframe的src替换为与金属性质更相关的仿真，例如金属导电性或金属与酸反应等。例如：'https://phet.colorado.edu/sims/html/metal-conductivity/latest/metal-conductivity_zh_CN.html'。"
+      },
+      {
+        "type": "display_bug",
+        "location": "function drawSim()",
+        "description": "Canvas模拟器中粒子数量和反应程度滑块的最大值设置不合理。粒子数量最大值是48，反应程度最大值是100，但初始值和交互范围可能无法充分展示金属反应的多样性。",
+        "fix_suggestion": "调整滑块的范围，例如粒子数量范围改为8-100，反应程度范围改为0-200，以提供更灵活的交互体验。代码修改示例：'min=\"8\" max=\"100\"' 和 'min=\"0\" max=\"200\"'。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "section id='diagnosis-lab'",
+        "description": "诊断实验室中提到的三条标准与互动任务中的内容不完全对应。例如，互动任务强调'因为所以'解释，但诊断标准未明确提到逻辑推理的必要性。",
+        "fix_suggestion": "在诊断实验室的描述中补充对逻辑推理的要求，例如：'是否清晰地解释了现象背后的原因，并使用了“因为…所以…”的逻辑结构。'。"
+      },
+      {
+        "type": "template_residual",
+        "location": "section id='pretest'",
+        "description": "前测问题中提到的'学习方式'与课件主题的关联性较弱，可能来自未完全修改的模板。",
+        "fix_suggestion": "修改前测问题，使其更直接地关联到金属的物理与化学性质。例如：'以下哪一项是金属的物理性质？'并提供相关选项。"
+      },
+      {
+        "type": "data_error",
+        "location": "function drawSim()",
+        "description": "Canvas模拟器中粒子进入'新组合'状态的逻辑可能存在错误。代码中'n*r/100'的结果作为判断条件，但未考虑粒子数量和反应程度的具体物理意义，可能导致不符合预期的结果。",
+        "fix_suggestion": "明确反应程度'r'的定义，并调整逻辑判断。例如，如果'r'代表百分比，确保计算结果在0到1之间，并调整条件判断为'i < Math.round(n * r / 100)'。"
+      }
+    ],
+    "summary": "课件内容与主题基本一致，但存在与主题不完全匹配的资源链接、逻辑不一致以及交互细节问题，需要进行针对性修正。",
+    "node_id": "chem-m-metal-properties",
+    "subject": "chemistry",
+    "node_name": "金属的物理与化学性质"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "section#pretest",
+        "description": "前测问题中提供的选项没有完全覆盖金属冶炼的核心知识点，仅关注学习方式，而未涉及具体的冶炼过程或还原机制。",
+        "fix_suggestion": "修改前测问题，使其更贴近金属冶炼的核心内容，例如：'以下哪种物质常用于金属冶炼中的还原剂？' 并提供选项如 'A. 氧气 B. 碳 C. 氢气 D. 氮气'。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "function drawSim",
+        "description": "Canvas 模拟器中粒子数量和反应程度的逻辑存在问题。当前的逻辑是粒子数量乘以反应程度百分比，但反应程度应与粒子数量无关，而是影响粒子的状态变化。",
+        "fix_suggestion": "修改逻辑，使反应程度影响粒子的状态而不是直接乘以粒子数量。例如，将反应程度作为概率来决定每个粒子的状态：'ctx.fillStyle = Math.random() < r/100 ? '#f59e0b' : '#38bdf8';'。"
+      },
+      {
+        "type": "display_bug",
+        "location": "section#interactive",
+        "description": "Canvas 模拟器中显示的文本 '金属冶炼：现象—机制—证据' 没有根据变量值动态更新，且位置固定，可能在粒子数量较多时被覆盖。",
+        "fix_suggestion": "调整文本位置或使用动态位置计算，例如在 Canvas 上方添加一个独立的文本区域，或者在 Canvas 绘制时动态计算文本位置以避免覆盖。"
+      },
+      {
+        "type": "content_wrong",
+        "location": "section#diagnosis-lab",
+        "description": "诊断实验室中的三条标准描述过于抽象，未具体说明如何判断解释是否合格，缺乏可操作性。",
+        "fix_suggestion": "提供更具体的指导，例如：'1. 描述观察到的具体现象，如颜色变化或气体产生。2. 解释现象背后的微观过程，如氧化铁被还原成铁。3. 使用化学符号或方程式表达反应过程。'"
+      },
+      {
+        "type": "template_residual",
+        "location": "section#simulation",
+        "description": "外部仿真部分的描述提到 'PhET 物质状态'，这与金属冶炼的主题不完全相关，可能是模板复用时未修改的内容。",
+        "fix_suggestion": "修改描述，使其更贴合金属冶炼主题，例如：'先通过仿真模拟金属冶炼过程，再回到本课互动区完成诊断任务。' 并更换 iframe 链接为更相关的仿真资源。"
+      }
+    ],
+    "summary": "课件整体结构清晰，但存在内容不完整、逻辑错误和显示问题，需要对前测问题、Canvas 模拟器和诊断标准进行针对性修改。",
+    "node_id": "chem-m-metal-smelting",
+    "subject": "chemistry",
+    "node_name": "金属冶炼"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "s02",
+        "description": "核心机制部分对金属活动性的定义不完整，缺少对金属活动性顺序表的描述，这部分内容是理解金属活动性比较的重要工具。",
+        "fix_suggestion": "在核心机制部分补充金属活动性顺序表的内容，例如：'金属活动性顺序表是判断金属间置换反应的重要工具，例如钾、钠、钙、镁、铝、锌、铁、锡、铅、铜、汞、银、铂、金的顺序。'"
+      },
+      {
+        "type": "display_bug",
+        "location": "Canvas 真实互动部分",
+        "description": "Canvas 模拟器中粒子数量和反应程度的交互逻辑存在问题。当粒子数量超过12时，反应程度为35%的情况下，粒子颜色没有正确更新。",
+        "fix_suggestion": "修改 drawSim 函数中粒子颜色判断逻辑，确保粒子数量超过12时反应程度为35%的粒子颜色正确更新。例如：\n```javascript\nctx.fillStyle = (i < n * r / 100) ? '#f59e0b' : '#38bdf8';\n```"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "诊断实验室部分",
+        "description": "诊断实验室中提到的三条标准与前测和后测中的问题不完全对应。前测和后测主要关注学习路径，而诊断实验室的标准更侧重于解释的完整性。",
+        "fix_suggestion": "调整诊断实验室的标准，使其与前测和后测的问题更一致。例如，可以在前测和后测中增加对解释完整性的考察，或者在诊断实验室中补充对学习路径的说明。"
+      },
+      {
+        "type": "template_residual",
+        "location": "simulation 部分",
+        "description": "simulation 部分引用的 PhET 仿真与金属活动性主题不完全相关。PhET 仿真主要展示物质状态变化，而非金属活动性。",
+        "fix_suggestion": "替换为与金属活动性更相关的仿真，例如金属与酸反应或金属置换反应的仿真。修改代码中的 iframe 链接，例如：\n```html\n<iframe src=\"https://phet.colorado.edu/sims/html/reactants-products-and-leftovers/latest/reactants-products-and-leftovers_zh_CN.html\" allowfullscreen loading=\"lazy\" sandbox=\"allow-scripts allow-same-origin allow-forms allow-popups\"></iframe>\n```"
+      },
+      {
+        "type": "data_error",
+        "location": "drawSim 函数",
+        "description": "drawSim 函数中粒子数量和反应程度的计算逻辑有误。当反应程度为0时，仍然有粒子被标记为'新'，这与逻辑不符。",
+        "fix_suggestion": "修改 drawSim 函数中粒子颜色和标签的逻辑判断，确保当反应程度为0时，所有粒子都被标记为'原'。例如：\n```javascript\nctx.fillStyle = (r > 0 && i < n * r / 100) ? '#f59e0b' : '#38bdf8';\n```"
+      }
+    ],
+    "summary": "课件整体结构清晰，但存在内容不完整、交互逻辑错误以及仿真引用不当等问题，需要对核心内容、交互模拟和资源引用进行优化。",
+    "node_id": "chem-m-metals-activity",
+    "subject": "chemistry",
+    "node_name": "金属的活动性"
+  },
+  {
+    "has_issues": true,
+    "severity": "high",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "Canvas Experiment Simulation section",
+        "description": "氧气的制取实验模拟代码中只实现了过氧化氢（H2O2）和高锰酸钾（KMnO4）两种方法，但课件标题和主题是'氧气的制取'，应包含更多常见的实验方法，如加热氯酸钾（KClO3）等。",
+        "fix_suggestion": "扩展实验方法列表，添加其他常见的氧气制取方法。例如：\n\nfunction switchMethod(m){\n  const methods = ['h2o2', 'kmno4', 'kclo3'];\n  if (!methods.includes(m)) return;\n  currentMethod = m;\n  methods.forEach(method => {\n    document.getElementById(`sim-btn-${method}`).classList.toggle('active', m === method);\n  });\n  resetExperiment();\n}\n\n并在HTML中添加相应的按钮和模拟逻辑。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "Quiz Logic section",
+        "description": "在选择题逻辑中，'data-answer'属性用于判断正确性，但'Quiz Logic'部分代码中同时存在'data-answer'和'data-posttest-choice'两种不同的属性用于判断正确性，可能导致逻辑混乱。",
+        "fix_suggestion": "统一使用一种属性来标识正确答案。例如，使用'data-answer'属性，并在代码中统一处理。\n\ndocument.querySelectorAll('.choice[data-answer]').forEach(btn => {\n  btn.addEventListener('click', function(){\n    const siblings = this.parentElement.querySelectorAll('.choice[data-answer]');\n    siblings.forEach(s => { s.classList.remove('selected', 'correct', 'wrong'); s.disabled = true; });\n    const isCorrect = this.dataset.answer === 'correct';\n    this.classList.add('selected', isCorrect ? 'correct' : 'wrong');\n    const feedback = this.closest('.card').querySelector('[data-feedback-for]');\n    if (feedback) { feedback.textContent = this.dataset.diagnosis; feedback.className = 'result ' + (isCorrect ? '' : 'warn'); }\n  });\n});"
+      },
+      {
+        "type": "display_bug",
+        "location": "Canvas Experiment Simulation section",
+        "description": "在Canvas实验模拟中，'fillStyle'属性未正确设置，代码在设置液体颜色时中断，导致液体部分无法正确显示。",
+        "fix_suggestion": "完成'fillStyle'属性的设置，并确保绘制液体的代码完整。例如：\n\nif(method==='h2o2'){\n  // Liquid\n  ctx.fillStyle = 'rgba(255, 255, 255, 0.5)';\n  ctx.beginPath();\n  ctx.moveTo(180, 250);\n  ctx.lineTo(155, 250);\n  ctx.lineTo(245, 250);\n  ctx.lineTo(220, 250);\n  ctx.closePath();\n  ctx.stroke();\n  ctx.fill();\n}"
+      },
+      {
+        "type": "data_error",
+        "location": "Apparatus Quiz Trainer section",
+        "description": "在实验器材测验中，'correct'属性用于判断正确性，但未在HTML中为每个按钮正确设置'correct'属性，可能导致无法正确判断答案。",
+        "fix_suggestion": "确保每个按钮的HTML中正确设置了'data-correct'属性。例如：\n\n<button class=\"q-btn\" data-correct=\"true\" data-exp=\"这是正确答案的解释。\">选项1</button>\n<button class=\"q-btn\" data-correct=\"false\" data-exp=\"这是错误答案的解释。\">选项2</button>"
+      }
+    ],
+    "summary": "课件整体结构完整，但存在多处关键性问题，包括实验方法覆盖不足、逻辑不一致、显示错误和数据错误，需要进行全面修正。",
+    "node_id": "chem-m-oxygen-preparation",
+    "subject": "chemistry",
+    "node_name": "氧气的制取"
+  },
+  {
+    "has_issues": true,
+    "severity": "high",
+    "issues": [
+      {
+        "type": "logic_mismatch",
+        "location": "dispatchPageAudio函数",
+        "description": "在自动播放模式下，当音频结束时尝试调用dispatchPageAudio函数，但代码片段中引用了'currentPage < totalPage'，而正确的变量应该是'totalPages'。这会导致在到达最后一页后无法正确停止自动播放。",
+        "fix_suggestion": "将'dispatchPageAudio'函数中的'currentPage < totalPage'改为'currentPage < totalPages - 1'，并在音频结束后调用'nextPage'函数。例如：\n\nfunction dispatchPageAudio() {\n  const page = pages[currentPage];\n  const ttsId = page.dataset.tts;\n  if (ttsId && window.__TEACHANY_AUDIO_PLAYER__) {\n    window.__TEACHANY_AUDIO_PLAYER__.playSection(ttsId);\n  }\n}\n\ndocument.addEventListener('teachany-audio-ended', () => {\n  if (isAutoPlay && currentPage < totalPages - 1) {\n    nextPage();\n  } else {\n    stopAutoPlay();\n    isAutoPlay = false;\n    tbAutoplay.classList.remove('active');\n  }\n});"
+      },
+      {
+        "type": "content_wrong",
+        "location": "课件标题与内容",
+        "description": "课件标题是'氧气的性质'，但从代码中可以看出，'chem-carbon'和'chem-sulfur-iron'部分似乎与碳、硫、铁的反应有关，而不是直接讨论氧气的性质。这表明内容可能与标题不符。",
+        "fix_suggestion": "检查课件内容，确保所有交互元素和文本内容都与'氧气的性质'相关。如果需要，可以调整标题或修改内容以匹配标题。例如：\n\n<!-- 标题: 氧气的性质与反应 -->\n\n并在内容中增加对氧气性质的详细描述。"
+      },
+      {
+        "type": "data_error",
+        "location": "startAt属性",
+        "description": "在'pages'数组中，'chem-carbon'的'startAt'属性设置为40，而'chem-sulfur-iron'的'startAt'属性设置为80。这些时间点是否与音频长度匹配需要验证，以避免音频与内容不同步。",
+        "fix_suggestion": "验证音频文件的长度，并确保'startAt'属性设置合理。例如，如果音频总长度为150秒，那么'startAt'属性应在合理范围内。可以通过以下方式调整：\n\n'chem-carbon': {\n  'startAt': 30,\n  // 其他属性\n},\n\n'chem-sulfur-iron': {\n  'startAt': 70,\n  // 其他属性\n}"
+      },
+      {
+        "type": "template_residual",
+        "location": "localStorage初始化代码",
+        "description": "课件中包含一个初始化localStorage的代码块（TeachAny v2），这可能是模板代码残留。如果课件不需要特定的配置，应该移除这段代码以避免潜在的安全问题。",
+        "fix_suggestion": "如果不需要特定的配置，可以移除以下代码块：\n\n(function(){try{var K='teachany_tutor_config';if(!localStorage.getItem(K)){localStorage.setItem(K,JSON.stringify({provider:'custom',baseUrl:location.origin+'/api/tutor/v1',apiKey:'self-hosted',model:'MiniMax-Text-01'}));}}catch(e){}})();"
+      },
+      {
+        "type": "display_bug",
+        "location": "sidenav-counter元素",
+        "description": "在构建侧边导航栏时，'sidenav-counter'元素的文本内容在某些情况下可能不会正确更新，尤其是在快速切换页面时。",
+        "fix_suggestion": "确保'sidenav-counter'元素在每次页面切换时都能正确更新。可以在'goToPage'函数中添加对'sidenav-counter'的更新逻辑。例如：\n\nfunction goToPage(index) {\n  if (index < 0 || index >= totalPages) return;\n  currentPage = index;\n\n  if (isPlayMode) {\n    pages[currentPage].scrollIntoView({ behavior: 'smooth', block: 'start' });\n  } else {\n    container.scrollTo({\n      top: pages[currentPage].offsetTop,\n      behavior: 'smooth'\n    });\n  }\n\n  updateUI();\n  dispatchPageAudio();\n  const counterEl = document.getElementById('sidenav-counter');\n  if (counterEl) counterEl.textContent = `${currentPage + 1}/${totalPages}`;\n}"
+      }
+    ],
+    "summary": "课件存在多个关键性问题，包括逻辑错误、内容不匹配、数据错误、模板残留和显示问题，需要进行全面修订。",
+    "node_id": "chem-m-oxygen-properties",
+    "subject": "chemistry",
+    "node_name": "氧气的性质"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "section#pretest",
+        "description": "前测问题选项A和B的描述与酸碱指示剂与pH的核心知识点关联性不足，未能有效引导学生理解核心概念。",
+        "fix_suggestion": "修改选项A和B，使其更贴近酸碱指示剂与pH的学习特点，例如：A. 只观察指示剂颜色变化，不理解pH值含义；B. 只关注pH数值，不考虑指示剂颜色变化。"
+      },
+      {
+        "type": "display_bug",
+        "location": "Canvas模拟器部分",
+        "description": "Canvas模拟器中粒子数量和反应程度滑块的值未正确反映在模拟器中。例如，当粒子数量设置为48时，模拟器未显示所有粒子。",
+        "fix_suggestion": "检查Canvas绘制逻辑，确保滑块值正确传递并绘制。例如，修改`drawSim`函数以正确处理最大值粒子数量：\n```javascript\nfunction drawSim(){\n  const n = Math.min(+document.getElementById('particleCount').value, 48);\n  // 其余代码保持不变\n}\n```"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "Canvas模拟器部分",
+        "description": "Canvas模拟器中'新组合'状态的判断逻辑与描述不符。代码中`i < n * r / 100`判断粒子是否进入'新组合'状态，但未明确与pH值或指示剂颜色变化的关系。",
+        "fix_suggestion": "明确'新组合'状态与pH值或指示剂颜色变化的关系。例如，添加注释或调整逻辑以反映核心概念：\n```javascript\nctx.fillStyle = i < n * r / 100 ? '#f59e0b' : '#38bdf8';\nctx.arc(x, y, 13, 0, Math.PI * 2);\nctx.fill();\nctx.fillStyle = '#e0f2fe';\nctx.font = '13px sans-serif';\nctx.fillText(i < n * r / 100 ? '新' : '原', x - 8, y + 5);\n```"
+      },
+      {
+        "type": "template_residual",
+        "location": "section#diagnosis-lab",
+        "description": "诊断实验室部分的内容过于通用，未能具体针对酸碱指示剂与pH的学习目标进行设计。",
+        "fix_suggestion": "修改诊断实验室的内容，使其更具体地针对酸碱指示剂与pH的学习目标。例如，添加具体的评价标准或示例：\n```\n请用三条标准评价自己的答案：第一，是否描述了指示剂颜色变化与pH值的关系；第二，是否解释了微观层面的离子反应或分子变化；第三，是否用符号或图表表达了pH值与指示剂颜色的关系。\n```"
+      },
+      {
+        "type": "data_error",
+        "location": "Canvas模拟器部分",
+        "description": "模拟器中粒子数量和反应程度滑块的默认值（24和35）未明确其与实际化学实验或理论模型的关系。",
+        "fix_suggestion": "为滑块默认值提供明确的解释或依据。例如，添加注释或说明：\n```\n<!-- 粒子数量默认值24代表实验中常见的粒子数量范围 -->\n<!-- 反应程度默认值35代表中等反应程度 -->\n```"
+      }
+    ],
+    "summary": "课件整体内容较为完整，但存在部分逻辑不清晰、显示错误和内容针对性不足的问题，需要进行针对性修正以提高教学效果。",
+    "node_id": "chem-m-ph-indicators",
+    "subject": "chemistry",
+    "node_name": "酸碱指示剂与 pH"
+  },
+  {
+    "has_issues": true,
+    "severity": "high",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "reactionDB",
+        "description": "反应方程式Na2CO3+H2SO4的化学方程式不完整，缺少了生成物CO2。正确的方程式应为：Na₂CO₃ + H₂SO₄ → Na₂SO₄ + H₂O + CO₂↑。",
+        "fix_suggestion": "在reactionDB中更新Na2CO3+H2SO4的反应方程式为：'Na₂CO₃ + H₂SO₄ → Na₂SO₄ + H₂O + CO₂↑（产生气体和水）'。"
+      },
+      {
+        "type": "content_wrong",
+        "location": "reactionDB",
+        "description": "反应方程式Na2CO3+HCl的化学方程式缺少气体符号。正确的方程式应为：Na₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂↑（气体符号↑缺失）。",
+        "fix_suggestion": "在reactionDB中更新Na2CO3+HCl的反应方程式为：'Na₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂↑（产生气体和水）'。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "选择题逻辑",
+        "description": "代码中定义了多个选择器（.choice[data-answer]、.choice[data-choice]、.choice[data-posttest-choice]），但未明确区分不同类型的选择题逻辑，可能导致交互不一致。例如，data-answer和data-correct可能存在冲突。",
+        "fix_suggestion": "统一选择题逻辑，使用单一的数据属性（如data-correct）来标识正确答案，并确保所有选择题都遵循相同的逻辑。例如：\n```javascript\ndocument.querySelectorAll('.choice[data-correct]').forEach(btn => {\n  btn.addEventListener('click', function() {\n    const siblings = this.parentElement.querySelectorAll('.choice[data-correct]');\n    siblings.forEach(s => { s.classList.remove('selected', 'correct', 'wrong'); s.disabled = true; });\n    const isCorrect = this.dataset.correct === 'true';\n    this.classList.add('selected', isCorrect ? 'correct' : 'wrong');\n    const feedback = this.closest('.card').querySelector('[data-feedback-for]');\n    if (feedback) { feedback.textContent = this.dataset.diagnosis; feedback.className = 'result ' + (isCorrect ? '' : 'warn'); }\n  });\n});\n```"
+      },
+      {
+        "type": "display_bug",
+        "location": "sidenav-counter",
+        "description": "在buildSidenav函数中，sidenav-counter的初始文本内容为'1/${totalPages}'，但在updateUI函数中更新为'${currentPage+1}/${totalPages}'。这可能导致在页面加载时显示不正确。",
+        "fix_suggestion": "在buildSidenav函数中，将counter.textContent设置为'1/${totalPages}'，并在updateUI函数中统一更新。例如：\n```javascript\nfunction buildSidenav(){\n  sidenav.innerHTML = '';\n  const counter = document.createElement('div');\n  counter.className = 'sidenav-counter';\n  counter.id = 'sidenav-counter';\n  counter.textContent = `1/${totalPages}`;\n  sidenav.appendChild(counter);\n  // ...其余代码\n}\n```"
+      },
+      {
+        "type": "content_wrong",
+        "location": "课件标题与内容",
+        "description": "课件标题为'盐的性质'，但从提供的tts文件名（如s04-salt-metal.mp3、s05-salt-acid.mp3）来看，内容更侧重于盐的化学反应，而非盐的性质本身。",
+        "fix_suggestion": "检查课件内容是否与标题一致。如果内容确实侧重于盐的化学反应，建议将标题修改为'盐的化学反应'。如果需要保留原标题，则应调整内容以更全面地涵盖盐的性质。"
+      }
+    ],
+    "summary": "课件存在多处化学方程式错误、选择题逻辑不一致、显示bug以及内容与标题不匹配的问题，需要进行全面的修正和优化。",
+    "node_id": "chem-m-salt-reactions",
+    "subject": "chemistry",
+    "node_name": "盐的性质"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "section#interactive",
+        "description": "Canvas 互动模拟器中关于粒子状态变化的描述不准确。代码中粒子被标记为“新”或“原”，但没有明确解释这些标签与溶解度之间的关系，容易造成误解。",
+        "fix_suggestion": "在代码中增加对粒子状态标签的详细解释，例如将“新”改为“已溶解”，将“原”改为“未溶解”，并在 simExplain 中补充说明这些状态与溶解度的关系。修改后的代码片段如下：\n```javascript\nctx.fillStyle=i<n*r/100?'#f59e0b':'#38bdf8';\nctx.arc(x,y,13,0,Math.PI*2);\nctx.fill();\nctx.fillStyle='#e0f2fe';\nctx.font='13px sans-serif';\nctx.fillText(i<n*r/100?'已溶解':'未溶解',x-12,y+5);\n```\n同时更新 simExplain 的内容：\n```javascript\ndocument.getElementById('simExplain').textContent=`当前有 ${n} 个粒子，其中约 ${Math.round(n*r/100)} 个处于“已溶解”状态，剩余处于“未溶解”状态。`;\n```"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "function drawSim",
+        "description": "互动模拟器中粒子数量和反应程度的关系逻辑存在问题。当粒子数量（n）增加时，反应程度（r）的影响被放大，可能导致超过100%的粒子被标记为“新”，这不符合逻辑。",
+        "fix_suggestion": "在代码中增加对粒子数量和反应程度关系的限制，确保反应程度始终在0到100%之间。修改后的代码片段如下：\n```javascript\nconst n = +document.getElementById('particleCount').value;\nconst r = Math.min(Math.max(+document.getElementById('reactionLevel').value, 0), 100);\n```"
+      },
+      {
+        "type": "display_bug",
+        "location": "section#posttest",
+        "description": "后测部分的反馈逻辑有误。当选择正确答案时，正确选项被标记为绿色，但错因诊断部分没有显示任何内容，这可能让用户感到困惑。",
+        "fix_suggestion": "在后测部分的反馈逻辑中，为正确答案添加相应的反馈信息。例如，在正确选项的点击事件中添加：\n```javascript\nfb.textContent = '正确。你选择了最符合化学学科特点的学习路径。';\n```\n同时确保错因诊断部分在错误选项被选中时正确显示。"
+      },
+      {
+        "type": "template_residual",
+        "location": "section#simulation",
+        "description": "仿真部分的描述提到“PhET 溶液浓度”，但课件标题是“溶解度”，且仿真内容与溶解度的直接关联不明显，可能是模板复用时未完全修改内容。",
+        "fix_suggestion": "修改仿真部分的描述，使其更明确地与溶解度相关。例如，将描述改为：“使用 PhET 仿真工具探索溶液浓度与溶解度的关系。”同时在课件中增加对仿真内容和溶解度关系的解释。"
+      }
+    ],
+    "summary": "课件整体结构合理，但互动模拟器和测试部分的逻辑和内容存在一些问题，需要进行针对性调整以提高教学效果。",
+    "node_id": "chem-m-solubility",
+    "subject": "chemistry",
+    "node_name": "溶解度"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "section id='pretest'",
+        "description": "前测问题选项B的描述与化学学科特点不符。选项B提到'只看现象，不管微观粒子'，但化学学习通常需要结合宏观现象和微观解释。",
+        "fix_suggestion": "修改选项B的描述，使其更符合化学学科特点，例如：'结合宏观现象和微观解释，但忽略符号表达。'"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "function drawSim",
+        "description": "在drawSim函数中，粒子数量n和反应程度r的乘积用于确定粒子的颜色，但代码中n的范围是8到48，而r的范围是0到100，这可能导致颜色判断不准确。",
+        "fix_suggestion": "调整颜色判断逻辑，例如使用百分比来计算，例如i < (n * r) / 100，而不是i < n * r / 100。"
+      },
+      {
+        "type": "display_bug",
+        "location": "section id='simulation'",
+        "description": "仿真部分的iframe加载的PhET仿真链接可能与课件内容不完全匹配，因为没有明确说明该仿真是否专门针对溶液浓度（质量分数）。",
+        "fix_suggestion": "确认PhET仿真链接是否专门针对溶液浓度（质量分数），如果不是，则更换为更合适的仿真链接。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "section id='diagnosis-lab'",
+        "description": "诊断实验室中的三条标准没有明确指出如何判断答案是否符合这些标准，缺乏具体的评分标准或示例。",
+        "fix_suggestion": "在诊断实验室部分添加具体的评分标准或示例，例如：'如果答案包含观察到的现象、背后的微观解释以及符号表达，则评为合格。'"
+      },
+      {
+        "type": "template_residual",
+        "location": "section id='interactive'",
+        "description": "Canvas互动部分的标题为'Canvas真实互动：微观解释模拟器'，但代码中并未实现微观解释的模拟功能，仅展示了粒子数量和反应程度的变化。",
+        "fix_suggestion": "修改Canvas互动部分的标题，使其更准确地反映当前功能，例如：'Canvas互动：粒子数量与反应程度模拟器'，或者在代码中实现微观解释的模拟功能。"
+      }
+    ],
+    "summary": "课件整体结构清晰，但存在一些内容描述不准确、逻辑不匹配和功能实现不足的问题，需要进行中等程度的修改以提高其准确性和有效性。",
+    "node_id": "chem-m-solution-concentration",
+    "subject": "chemistry",
+    "node_name": "溶液浓度（质量分数）"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "section id='interactive'",
+        "description": "Canvas 模拟器中关于'新组合'和'原'的标签含义未明确解释，可能导致学生困惑。",
+        "fix_suggestion": "在 Canvas 模拟器下方添加解释文本，例如：'新组合'表示溶质粒子与溶剂粒子结合的状态，'原'表示未溶解的溶质粒子。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "function drawSim",
+        "description": "粒子数量 (n) 和反应程度 (r) 的关系逻辑存在问题。当 n=24 和 r=35 时，预期有 8.4 个粒子进入'新组合'状态，但代码中直接使用 Math.round(n*r/100) 会导致显示为 8 个粒子，与预期不完全一致。",
+        "fix_suggestion": "修改代码以更准确地反映预期状态。例如，可以考虑使用小数表示部分粒子进入'新组合'状态，或者调整逻辑以避免四舍五入带来的误差。修改后的代码示例如下：\n```javascript\nctx.fillStyle=i < Math.floor(n*r/100) ? '#f59e0b' : '#38bdf8';\n```"
+      },
+      {
+        "type": "display_bug",
+        "location": "section id='simulation'",
+        "description": "PhET 仿真链接的 sandbox 属性中缺少 'allow-popups-to-escape-sandbox'，这可能导致仿真在弹出新窗口时受限。",
+        "fix_suggestion": "更新 sandbox 属性以允许弹出窗口，例如：\n```html\n<iframe src=\"https://phet.colorado.edu/sims/html/concentration/latest/concentration_zh_CN.html\" allowfullscreen loading=\"lazy\" sandbox=\"allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox\"></iframe>\n```"
+      },
+      {
+        "type": "template_residual",
+        "location": "section id='diagnosis-lab'",
+        "description": "诊断实验室部分的内容过于通用，未能充分体现'溶液的形成'这一主题的独特性。",
+        "fix_suggestion": "将诊断实验室的内容与'溶液的形成'的具体知识点更紧密地结合，例如提供具体的例子和解释模板。可以修改为：'请用三条标准评价自己对溶液形成的解释：第一，是否描述了溶液的均一性和稳定性；第二，是否解释了溶质和溶剂的相互作用；第三，是否用符号或简图表达了溶液的形成过程。'"
+      },
+      {
+        "type": "data_error",
+        "location": "section id='posttest'",
+        "description": "后测问题中关于'溶液的形成最重要的学习路径'的选项 B 和 C 描述过于模糊，缺乏明确的错误解释。",
+        "fix_suggestion": "为选项 B 和 C 提供更具体的错误解释，例如：\n```html\n<button class=\"quiz-option\" data-q=\"post\" data-a=\"B\">B. 直接背溶液的形成的所有句子（错误：缺乏对现象和微观机制的理解）</button>\n<button class=\"quiz-option\" data-q=\"post\" data-a=\"C\">C. 只记住一个实验结论（错误：忽略了整体学习路径）</button>\n```"
+      }
+    ],
+    "summary": "课件整体内容设计良好，但存在一些细节问题，包括模拟器解释不足、逻辑不一致、显示问题以及内容与主题结合不够紧密，需要进行针对性修复。",
+    "node_id": "chem-m-solution-concept",
+    "subject": "chemistry",
+    "node_name": "溶液的形成"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "s01",
+        "description": "课件标题与实际内容不完全匹配。标题为'议论文阅读：从文本证据到表达效果'，但s01中的内容仅提到'表达效果与思想情感'，缺少对'从文本证据到'这一关键点的具体解释。",
+        "fix_suggestion": "在s01的'text'字段中补充对'从文本证据到'这一过程的解释，例如：'...从文本证据出发，逐步分析表达效果与思想情感。'"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "checkAnswer函数",
+        "description": "checkAnswer函数中，'FEEDBACK[target]'的用法存在问题。'target'变量被直接用于访问FEEDBACK对象，但FEEDBACK对象的键是字符串（如'pretest'），而'pretest'和'posttest'作为字符串未正确引用。",
+        "fix_suggestion": "修改checkAnswer函数，确保'target'作为字符串使用。例如：'FEEDBACK[target]'改为'FEEDBACK[String(target)]'。或者在调用时传递字符串。"
+      },
+      {
+        "type": "template_residual",
+        "location": "s02",
+        "description": "s02中的内容'议论文先找中心论点，再看论据是否能支撑'虽然正确，但过于基础，可能来自通用模板，未能体现'从文本证据到表达效果'这一主题的深度。",
+        "fix_suggestion": "扩展s02的内容，加入更多关于如何从文本证据推导出表达效果的具体指导，例如：'在找到中心论点后，进一步分析论据如何支持论点，并解释其表达效果。'"
+      },
+      {
+        "type": "display_bug",
+        "location": "drawAnnotation函数",
+        "description": "drawAnnotation函数中，'labels'对象的'keyword'键描述为'圈关键词：找最能承载信息和情感的词句'，但根据课件内容，'keyword'应为'关键词句'，描述应与select元素的选项一致。",
+        "fix_suggestion": "修改'labels'对象中的'keyword'描述为'圈关键词句：找最能承载信息和情感的词句'。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "interactive-lab的textarea和select元素",
+        "description": "interactive-lab部分，'sample-text'和'analysis-mode'的选择未直接影响批注结果。当前代码仅在更改时重绘图形，但未根据选择内容调整批注逻辑。",
+        "fix_suggestion": "在drawAnnotation函数中，根据'sample-text'和'analysis-mode'的选择值，调整批注的绘制逻辑。例如，根据'analyse-mode'的值调整批注的颜色和位置。"
+      }
+    ],
+    "summary": "课件整体结构清晰，但存在内容深度不足、逻辑错误和显示问题，需要进一步优化以更好地体现主题并修复技术缺陷。",
+    "node_id": "chn-m-argumentative-reading",
+    "subject": "chinese",
+    "node_name": "议论文阅读"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "s01, s02, s03",
+        "description": "课件内容与标题不完全匹配。标题提到'从文本证据到表达效果'，但s02和s03的内容更侧重于议论文写作的通用步骤和常见错误，未深入展开关于'表达效果'的讨论。",
+        "fix_suggestion": "在s02和s03中增加关于如何通过文本证据解释表达效果的具体内容。例如，在s02中添加'通过分析文本证据，我们可以更好地理解议论文中的表达效果'，并在s03中举例说明如何将证据与表达效果关联。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "checkAnswer函数",
+        "description": "checkAnswer函数中，FEEDBACK对象使用了'text'作为键，但实际传入的参数是'pretest'和'posttest'，这会导致无法正确获取反馈内容。",
+        "fix_suggestion": "修改FEEDBACK对象，使其键与传入的参数一致。例如：const FEEDBACK = { pretest: '...', posttest: '...' }; 或者调整传入参数以匹配FEEDBACK的键。"
+      },
+      {
+        "type": "display_bug",
+        "location": "drawAnnotation函数",
+        "description": "在drawAnnotation函数中，'答题链'文本的位置设置过低，可能会与批注区域重叠，影响显示效果。",
+        "fix_suggestion": "调整'y'坐标值，将'答题链'文本向上移动。例如，将'y'值从395改为350：text('答题链：文本证据 → 方法判断 → 表达效果 → 情感主题', 70, 350, 24, '#bae6fd');"
+      },
+      {
+        "type": "template_residual",
+        "location": "s01",
+        "description": "s01中的文本'今天我们学习议论文写作：从文本证据到'缺少了'表达效果'，可能是模板复用时未完全修改。",
+        "fix_suggestion": "将s01的文本修改为'今天我们学习议论文写作：从文本证据到表达效果'，以确保与标题一致。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "interactive-lab部分",
+        "description": "interactive-lab部分的'文本批注实验'标题与实际功能不完全匹配。实际功能是选择分析维度并观察答题链变化，而非直接进行批注。",
+        "fix_suggestion": "修改标题为'文本分析实验：选择维度，观察答题链变化'，以更准确地反映功能。"
+      }
+    ],
+    "summary": "课件整体结构完整，但存在内容与标题不完全匹配、逻辑错误和显示问题，需要进行针对性修复以提升课件质量和一致性。",
+    "node_id": "chn-m-argumentative-writing-m",
+    "subject": "chinese",
+    "node_name": "议论文写作"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "s01",
+        "description": "标题中“文言文综合鉴赏：从文本证”缺少了“据到表达效果”，导致内容不完整。",
+        "fix_suggestion": "将标题修改为“文言文综合鉴赏：从文本证据到表达效果”。"
+      },
+      {
+        "type": "template_residual",
+        "location": "s02",
+        "description": "文本中“文言文先字词落实，再调顺语序，最后补出省略”虽然正确，但与课件标题强调的综合鉴赏关联性较弱，可能是模板内容未完全修改。",
+        "fix_suggestion": "确保所有内容围绕“综合鉴赏”展开，例如补充如何通过字词落实、语序调整等步骤实现鉴赏目的。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "checkAnswer函数",
+        "description": "checkAnswer函数中，当答案错误时，反馈内容重复添加了FEEDBACK[target]，导致错误提示信息不准确。",
+        "fix_suggestion": "修改函数逻辑，确保错误时只显示错误诊断信息。例如：\n```javascript\nfunction checkAnswer(btn, ok, target) {\n  btn.parentElement.querySelectorAll('.quiz-option').forEach(b => b.classList.remove('correct', 'wrong'));\n  btn.classList.add(ok ? 'correct' : 'wrong');\n  const box = document.getElementById(target + '-feedback');\n  if (box) {\n    box.textContent = ok ? FEEDBACK[target] : '错因诊断：先回到题干任务和文本证据，再检查是否只写了空泛感受。';\n  }\n}\n```"
+      },
+      {
+        "type": "display_bug",
+        "location": "drawAnnotation函数",
+        "description": "在drawAnnotation函数中，文本“答题链：文本证据 → 方法判断 → 表达效果 → 情感主题”没有正确显示在画布上，因为y坐标设置过低，可能导致文本被裁剪。",
+        "fix_suggestion": "调整y坐标值，例如将'y'设置为350而不是395，并确保文本不会超出画布范围。例如：\n```javascript\ntext('答题链：文本证据 → 方法判断 → 表达效果 → 情感主题', 70, 350, 24, '#bae6fd');\n```"
+      },
+      {
+        "type": "content_wrong",
+        "location": "interactive-lab",
+        "description": "“文本批注实验”部分没有明确说明如何根据不同分析维度组织答案，可能导致学习者困惑。",
+        "fix_suggestion": "在“文本批注实验”部分添加针对不同分析维度的示例答案，例如：\n```\n- 关键词句：圈出“学而时习之”，解释其表达效果。\n- 表达方法：指出句子使用了“对比”手法，分析其效果。\n- 情感主题：分析句子传达的学习态度和情感。\n- 结构作用：说明句子在文章结构中的作用。\n```"
+      }
+    ],
+    "summary": "课件整体内容有一定逻辑性，但存在多处内容不完整、模板残留和显示问题，需要进一步优化以更好地传达文言文综合鉴赏的核心概念和方法。",
+    "node_id": "chn-m-classical-appreciation",
+    "subject": "chinese",
+    "node_name": "文言文综合鉴赏"
+  },
+  {
+    "has_issues": true,
+    "severity": "high",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "s01",
+        "description": "标题和内容不一致。标题是'经典文言文精读：从文本证据到表达效果'，但内容中'怎样用文本证据解释经典文言文精读中的表达效果与思想情感'的表述重复且冗长，不够清晰。",
+        "fix_suggestion": "简化内容描述，例如改为'如何通过文本证据分析文言文的表达效果和思想情感。'"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "s02",
+        "description": "文本中提到'这节课先识别题干动词，再圈画证据，最后解释表达效果'，但后续的交互部分并未具体涉及识别题干动词的步骤，逻辑不完整。",
+        "fix_suggestion": "在交互环节中加入识别题干动词的具体示例或练习，例如增加一个步骤来提示用户先识别题干动词。"
+      },
+      {
+        "type": "display_bug",
+        "location": "drawAnnotation函数",
+        "description": "在drawAnnotation函数中，'分析维度'的标签显示为'分析维度：'+labels[mode]，但当mode为'method'时，标签显示为'分析维度：判方法：比喻、拟人、对比、描写、论证等'，这与预期不符。",
+        "fix_suggestion": "修改labels对象中的'method'键值，例如改为'判方法'，以确保显示内容简洁明了。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "checkAnswer函数",
+        "description": "checkAnswer函数中，'错因诊断'的提示信息重复使用了FEEDBACK[target]，这会导致信息冗余，因为FEEDBACK已经包含了诊断信息。",
+        "fix_suggestion": "修改checkAnswer函数中的提示信息，例如：'错因诊断：'+FEEDBACK[target]。"
+      },
+      {
+        "type": "template_residual",
+        "location": "s03",
+        "description": "s03中的内容'只写经典文言文精读的术语，不引用文本证据，也不说明它产生了什么表达效果'与课件标题和整体内容不完全吻合，可能是模板复用未修改完全。",
+        "fix_suggestion": "重新审视s03的内容，确保其与课件主题一致，例如改为'只关注术语而忽略文本证据和表达效果的分析。'"
+      },
+      {
+        "type": "data_error",
+        "location": "FEEDBACK对象",
+        "description": "FEEDBACK对象中的'pretest'和'posttest'提示信息过于简略，缺乏具体的指导性内容。",
+        "fix_suggestion": "扩展FEEDBACK对象中的提示信息，例如：'pretest': '在开始答题前，请先仔细阅读题干并识别关键动词，然后回到文本中圈画相关证据。'"
+      }
+    ],
+    "summary": "课件存在多处内容、逻辑和显示问题，需要进行全面修订以确保教学目标的准确传达和交互的有效性。",
+    "node_id": "chn-m-classical-prose",
+    "subject": "chinese",
+    "node_name": "经典文言文精读"
+  },
+  {
+    "node_id": "chn-m-classical-translation",
+    "error": "Expecting ',' delimiter: line 33 column 86 (char 1466)"
+  },
+  {
+    "has_issues": true,
+    "severity": "high",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "课件标题和正文内容",
+        "description": "课件标题提到'外国名著（《海底两万里》等）'，但正文内容中并未深入涉及《海底两万里》的具体内容或文本分析，仅是泛泛提到外国名著。",
+        "fix_suggestion": "在课件中增加与《海底两万里》相关的具体文本内容，例如引用原文片段并进行分析。例如，可以在'sample-text'中添加《海底两万里》的具体文本，并在互动环节中围绕该文本展开分析。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "前测选择题",
+        "description": "前测选择题中，正确选项B的描述'先识别题干动词并圈画证据'与课件中提供的核心问题'怎样用文本证据解释表达效果与思想情感'不完全一致，逻辑上存在偏差。",
+        "fix_suggestion": "修改前测选择题的描述，使其与课件的核心问题更加一致。例如，可以改为'先识别与表达效果相关的关键词并圈画证据'。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "文本批注实验",
+        "description": "文本批注实验中，'分析维度'的选择与'答题链'的描述不完全对应。例如，选择'情感主题'作为分析维度时，'答题链'仍然显示为'文本证据 → 方法判断 → 表达效果 → 情感主题'，这可能导致用户困惑。",
+        "fix_suggestion": "根据用户选择的'分析维度'动态调整'答题链'的显示。例如，选择'情感主题'时，'答题链'应调整为'文本证据 → 情感主题'。"
+      },
+      {
+        "type": "template_residual",
+        "location": "课件开头部分",
+        "description": "课件开头部分有模板代码残留，例如localStorage的设置和MiniMax-Text-01模型的引用，这些内容与课件内容无直接关联。",
+        "fix_suggestion": "移除与课件内容无直接关联的模板代码，例如localStorage的设置和模型引用代码。"
+      },
+      {
+        "type": "display_bug",
+        "location": "文本批注实验的canvas绘制",
+        "description": "在文本批注实验中，当文本内容较长时，canvas的绘制可能会超出画布范围，导致显示不全。",
+        "fix_suggestion": "增加canvas的宽度或优化文本换行逻辑。例如，可以在wrap函数中增加对文本长度的判断，并在必要时调整字体大小或行间距。"
+      }
+    ],
+    "summary": "课件存在内容与标题不符、逻辑不清晰、模板代码残留和显示bug等问题，需要进行较大范围的修改和优化。",
+    "node_id": "chn-m-erta-foreign-novel",
+    "subject": "chinese",
+    "node_name": "外国名著（《海底两万里》等）"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "s01",
+        "description": "课件标题和内容不一致，标题为'综合性作文：从文本证据到表达效果'，但s01的文本内容只提到'表达效果与思想情感'，未明确提到'文本证据'。",
+        "fix_suggestion": "修改s01的文本内容，使其明确包含'文本证据'，例如：'今天我们学习综合性作文：从文本证据到表达效果。核心问题是：怎样用文本证据解释综合性作文中的表达效果与思想情感？'"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "checkAnswer函数",
+        "description": "checkAnswer函数中，FEEDBACK对象的键与target参数不一致。例如，pretest和posttest的反馈逻辑中，FEEDBACK对象只包含'pretest'和'posttest'，但target参数可能包含其他值，导致无法正确显示反馈信息。",
+        "fix_suggestion": "确保FEEDBACK对象的键与target参数一致，或者在函数中添加额外的检查。例如：if(FEEDBACK[target]) { ... } else { ... }"
+      },
+      {
+        "type": "display_bug",
+        "location": "drawAnnotation函数",
+        "description": "drawAnnotation函数中，文本'答题链：文本证据 → 方法判断 → 表达效果 → 情感主题'的显示位置（70,395）可能会与批注区域重叠，导致显示不清晰。",
+        "fix_suggestion": "调整文本的y坐标，例如改为450，或者根据canvas的大小动态计算位置。例如：'y = 450;' 或者 'y = canvas.height - 50;'"
+      },
+      {
+        "type": "content_wrong",
+        "location": "interactive-lab",
+        "description": "interactive-lab中的文本材料示例'他的话像一束光，忽然把沉默的屋子照亮了。'与综合性作文的主题关联性不强，可能导致学生困惑。",
+        "fix_suggestion": "更换为更符合综合性作文主题的文本材料，例如包含明确观点和证据的段落。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "前测选择题",
+        "description": "前测选择题中，选项B的描述'先识别题干动词并圈画证据'与课件中提到的'识别题干动词，再圈画证据，最后解释表达效果'的顺序不一致。",
+        "fix_suggestion": "修改选项B的描述为'先识别题干动词，再圈画证据，最后解释表达效果'，或者调整课件中的顺序说明。"
+      }
+    ],
+    "summary": "课件整体内容较为完整，但存在多处逻辑不一致和内容不匹配的问题，需要进行针对性修复以提高课件质量和教学效果。",
+    "node_id": "chn-m-essay-comprehensive",
+    "subject": "chinese",
+    "node_name": "综合性作文"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "s01",
+        "description": "课件标题与实际内容不完全匹配。标题是'说明文阅读：从文本证据到表达效果'，但s01中提到的核心问题仅涉及'表达效果与思想情感'，未明确提到'从文本证据'这一关键点。",
+        "fix_suggestion": "修改s01的text内容，使其更贴近标题，例如：'今天我们学习说明文阅读，重点是从文本证据到表达效果的学习。核心问题是：如何通过文本证据解释说明文中的表达效果与思想情感？'"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "checkAnswer函数",
+        "description": "checkAnswer函数中，'错因诊断'的提示信息在posttest部分没有根据具体错误选项提供有针对性的反馈，仅提供了通用的提示。",
+        "fix_suggestion": "为posttest的每个选项添加具体的错因诊断。例如，针对选项A，可以提示'术语过多但缺乏文本证据和分析'，针对选项C，可以提示'字数与质量无关，应注重证据和解释'。"
+      },
+      {
+        "type": "template_residual",
+        "location": "s02",
+        "description": "s02中的句子'说明文先找对象和特征，再看顺序和方法怎样服务清楚'表述含糊，可能来自模板但未根据课件主题调整。",
+        "fix_suggestion": "修改s02的text内容，使其更聚焦于'从文本证据到表达效果'的主题，例如：'这节课先识别题干动词，再圈画证据，最后解释表达效果。说明文阅读中，要关注文本如何通过证据支持其表达效果。'"
+      },
+      {
+        "type": "display_bug",
+        "location": "drawAnnotation函数",
+        "description": "drawAnnotation函数中，'答题链'的文本显示位置偏低，可能导致与批注区域重叠或显示不完整。",
+        "fix_suggestion": "调整text函数中'y'坐标的值，例如将'y: 395'改为'y: 380'，确保答题链文本与批注区域有足够的间距。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "interactive-lab",
+        "description": "interactive-lab中，'分析维度'的选择与批注区域的反馈逻辑不完全对应。例如，选择'情感主题'时，批注区域没有明确展示情感相关的批注内容。",
+        "fix_suggestion": "修改drawAnnotation函数，使其根据不同的分析维度展示相应的批注内容。例如，在选择'情感主题'时，可以高亮与情感相关的词语或句子，并在批注区域显示情感分析的结果。"
+      }
+    ],
+    "summary": "课件整体结构完整，但存在内容不匹配、逻辑不清晰和显示问题，需要对核心内容和交互逻辑进行优化。",
+    "node_id": "chn-m-expository-reading",
+    "subject": "chinese",
+    "node_name": "说明文阅读"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "课件标题与内容",
+        "description": "课件标题为'记叙文阅读：从文本证据到表达效果'，但内容中并未深入展开如何用文本证据解释表达效果与思想情感，仅在s01中简单提及，未能充分体现标题所述的教学目标。",
+        "fix_suggestion": "在课件中增加具体的文本证据分析案例，并详细解释如何从证据中得出表达效果。例如，可以在's02'部分补充一个完整的记叙文阅读示例，并结合证据分析表达效果。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "前测题目选项与反馈逻辑",
+        "description": "前测题目中，选择B选项'先识别题干动词并圈画证据'被标记为正确答案，但代码中checkAnswer函数在显示反馈时未正确引用FEEDBACK['pretest']，而是错误地引用了'select'，这可能导致反馈内容不匹配。",
+        "fix_suggestion": "修改checkAnswer函数中的反馈逻辑，确保引用正确的反馈内容。例如，将'select'改为'pretest'：box.textContent = ok ? FEEDBACK['pretest'] : '错因诊断：...';"
+      },
+      {
+        "type": "display_bug",
+        "location": "文本批注实验部分",
+        "description": "在文本批注实验中，当用户选择不同的分析维度时，答题链的提示文本未根据选择的变化而动态更新，仅在初始加载时显示默认内容。",
+        "fix_suggestion": "在drawAnnotation函数中，根据用户选择的分析维度动态更新'答题链'的提示文本。例如，可以为不同维度设置不同的答题链提示，并在用户更改选择时重新调用drawAnnotation函数以刷新显示内容。"
+      },
+      {
+        "type": "template_residual",
+        "location": "课件整体内容",
+        "description": "课件中存在一些模板化内容，如's01'中的'核心问题是：...'部分，以及's02'中的'记叙文阅读抓线索、人物变化和细节证据'，这些内容较为通用，未能体现课件的独特性和针对性。",
+        "fix_suggestion": "根据课件的具体教学目标和学生水平，调整和丰富课件内容，避免使用过于通用的模板化语言。例如，可以结合具体的记叙文案例来阐述核心问题和阅读技巧。"
+      },
+      {
+        "type": "data_error",
+        "location": "文本批注实验的批注强度滑块",
+        "description": "批注强度滑块的最小值设置为1，最大值设置为5，但代码中未对滑块值进行进一步处理或验证，可能导致批注强度设置不合理。",
+        "fix_suggestion": "在drawAnnotation函数中，根据滑块值调整批注强度的显示逻辑。例如，可以设置不同的批注强度对应不同的批注数量或颜色强度，以增强用户体验。"
+      }
+    ],
+    "summary": "课件整体结构完整，但存在内容深度不足、逻辑错误和显示问题，需要进一步优化以更好地实现教学目标。",
+    "node_id": "chn-m-narrative-reading",
+    "subject": "chinese",
+    "node_name": "记叙文阅读"
+  },
+  {
+    "has_issues": true,
+    "severity": "medium",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "s01",
+        "description": "课件标题与内容不完全匹配。标题是'记叙文写作：从文本证据到表达效果'，但s01中的内容仅提到'表达效果与思想情感'，未明确说明如何从文本证据到表达效果。",
+        "fix_suggestion": "修改s01的text内容，使其更明确地体现标题中的'从文本证据到表达效果'，例如：'核心问题是：如何通过文本证据分析记叙文写作中的表达效果。'"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "s02",
+        "description": "s02中提到'先识别题干动词，再圈画证据，最后解释表达效果'，但课件中没有提供如何解释表达效果的具体指导或练习。",
+        "fix_suggestion": "在课件中增加关于如何解释表达效果的详细说明或互动练习，例如在interactive-lab部分加入相关示例或步骤。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "interactive-lab",
+        "description": "interactive-lab部分的'分析维度'选择器中包含'情感主题'，但答题链中未明确体现如何从情感主题到最终答案的逻辑。",
+        "fix_suggestion": "修改答题链文本，使其包含情感主题，例如：'文本证据 → 方法判断 → 表达效果 → 情感主题 → 完整答案'，并在lab-feedback中提供相关指导。"
+      },
+      {
+        "type": "template_residual",
+        "location": "s03",
+        "description": "s03中提到'只写记叙文写作的术语，不引用文本证据'，这与课件主题不完全相关，可能是模板复用未修改完全。",
+        "fix_suggestion": "修改s03的text内容，使其更贴近课件主题，例如：'常见错误：只关注表达效果而忽略文本证据的支撑。'"
+      },
+      {
+        "type": "display_bug",
+        "location": "drawAnnotation function",
+        "description": "drawAnnotation函数中，'分析维度'的标签显示逻辑可能存在错误。当mode为'emotion'时，标签显示为'情感主题'，但答题链中未明确体现如何处理情感主题。",
+        "fix_suggestion": "调整drawAnnotation函数中的labels对象，使其与答题链逻辑一致，例如：'情感主题'应与答题链中的'情感主题'对应，并在lab-feedback中提供具体指导。"
+      },
+      {
+        "type": "data_error",
+        "location": "FEEDBACK object",
+        "description": "FEEDBACK对象中的posttest反馈内容'必须有文本证据和效果解释'与interactive-lab部分的答题链不完全一致，缺少对情感主题的明确指导。",
+        "fix_suggestion": "修改FEEDBACK对象中的posttest反馈内容，例如：'高质量答案要有文本依据、方法判断、表达效果和情感主题分析。'"
+      }
+    ],
+    "summary": "课件整体内容有一定逻辑性，但存在多处内容与标题不完全匹配、逻辑不清晰以及显示错误，需要进一步调整和优化。",
+    "node_id": "chn-m-narrative-writing-m",
+    "subject": "chinese",
+    "node_name": "记叙文写作"
   }
 ]

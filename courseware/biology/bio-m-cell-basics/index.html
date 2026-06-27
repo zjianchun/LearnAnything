@@ -62,7 +62,7 @@ body {
 a { color: #7dd3fc; }
 button, a, input, select, textarea { min-height: 44px; }
 img, video, canvas, svg { max-width: 100%; height: auto; }
-.teachany-brand-bar {
+.teachany-flag-bar {
   position: sticky;
   top: 0;
   z-index: 50;
@@ -102,7 +102,7 @@ input, textarea { width: 100%; border-radius: 12px; border: 1px solid var(--line
 .result { padding: 14px; border-radius: 12px; background: rgba(34,197,94,.1); border: 1px solid rgba(34,197,94,.25); }
 .warn { background: rgba(245,158,11,.1); border-color: rgba(245,158,11,.28); }
 @media (max-width: 600px) {
-  .teachany-brand-bar { padding: 8px 12px; }
+  .teachany-flag-bar { padding: 8px 12px; }
   .brand-name { display: none; }
   .brand-right { gap: 8px; font-size: 12px; }
   .hero { padding: 42px 16px 28px; }
@@ -148,9 +148,9 @@ input, textarea { width: 100%; border-radius: 12px; border: 1px solid var(--line
     <h2>今天的课件可以帮你解决什么问题?</h2>
     <p style="color:var(--muted)">先选一个你关心的问题。后面的例子、提示和 AI 学伴都会围绕这个问题来帮你推进。</p>
     <div class="grid" id="problem-anchor-choices">
-      <button class="choice" data-anchor-choice="为什么说细胞是生命的基本单位?">🔬 为什么说细胞是生命的基本单位?</button>
-      <button class="choice" data-anchor-choice="植物细胞和动物细胞看起来一样吗?">🌱 植物细胞和动物细胞看起来一样吗?</button>
-      <button class="choice" data-anchor-choice="第一个看到细胞的人看到了什么?">📖 第一个看到细胞的人看到了什么?</button>
+      <button class="choice" data-anchor-choice="为什么说细胞是生命的基本单位?" data-feedback="细胞是生命的基本单位，因为它们能够独立完成生命活动，是构建生物体的基本单位。">🔬 为什么说细胞是生命的基本单位?</button>
+      <button class="choice" data-anchor-choice="植物细胞和动物细胞看起来一样吗?" data-feedback="植物细胞和动物细胞在结构上有相似之处，但也存在显著差异，例如植物细胞有细胞壁和叶绿体，而动物细胞没有。">🌱 植物细胞和动物细胞看起来一样吗?</button>
+      <button class="choice" data-anchor-choice="第一个看到细胞的人看到了什么?" data-feedback="罗伯特·胡克在1665年首次观察到细胞，他看到的是软木塞的细胞壁，并将其命名为“cell”。">📖 第一个看到细胞的人看到了什么?</button>
     </div>
     <label style="display:block;margin-top:18px;color:var(--muted)">我有自己的问题
       <input id="learner-question-input" title="输入你的问题">
@@ -159,7 +159,7 @@ input, textarea { width: 100%; border-radius: 12px; border: 1px solid var(--line
   </div>
 </section>
 
-<section id="objectives" class="section" data-tts="objectives" data-tsh="学习目标 - 明确这节课结束时能做到什么">
+<section id="objectives" class="section" data-tts="objectives" data-tsh="学习目标 - 明确这节课结束后能做到什么">
   <div class="card">
     <span class="phase-tag">Learning Objectives</span>
     <h2>学习目标</h2>
@@ -418,7 +418,7 @@ input, textarea { width: 100%; border-radius: 12px; border: 1px solid var(--line
       ctx.closePath();
       ctx.fillStyle = 'rgba(255, 220, 200, 0.3)';
       ctx.fill();
-      ctx.strokeStyle = 'rgba(180, 120, 100, 0.5)';
+      ctx.strokeStyle = 'rgba(180, 120, 100, 0.5';
       ctx.lineWidth = Math.max(0.5, cellScale * 0.4);
       ctx.stroke();
 
@@ -426,7 +426,7 @@ input, textarea { width: 100%; border-radius: 12px; border: 1px solid var(--line
       if (z >= 120) {
         ctx.beginPath();
         ctx.arc(cell.x, cell.y, cellR * 0.25, 0, Math.PI * 2);
-        ctx.fillStyle = 'rgba(120, 60, 140, 0.6)';
+        ctx.fillStyle = 'rgba(120, 60, 140, 0.6';
         ctx.fill();
       }
     });
@@ -439,217 +439,40 @@ input, textarea { width: 100%; border-radius: 12px; border: 1px solid var(--line
     ctx.strokeStyle = '#333';
     ctx.lineWidth = 4;
     ctx.stroke();
-
-    // Labels
-    ctx.fillStyle = '#38bdf8';
-    ctx.font = '13px -apple-system, sans-serif';
-    ctx.fillText(`${z}x 口腔上皮细胞`, 20, 400);
-    if (z >= 120) {
-      ctx.fillStyle = '#a78bfa';
-      ctx.fillText('● 细胞核', 600, 400);
-    }
   }
 
   function draw() {
-    if (currentSample === 'onion') drawOnionCells(zoom);
-    else drawCheekCells(zoom);
-    display.textContent = zoom + 'x';
+    if (currentSample === 'onion') {
+      drawOnionCells(zoom);
+    } else {
+      drawCheekCells(zoom);
+    }
     result.textContent = `当前放大 ${zoom} 倍 - ${getZoomDescription(zoom, currentSample)}`;
   }
 
-  slider.addEventListener('input', () => { zoom = parseInt(slider.value); draw(); });
-  btnOnion.addEventListener('click', () => {
-    currentSample = 'onion';
-    btnOnion.classList.add('selected');
-    btnCheek.classList.remove('selected');
-    draw();
-  });
-  btnCheek.addEventListener('click', () => {
-    currentSample = 'cheek';
-    btnCheek.classList.add('selected');
-    btnOnion.classList.remove('selected');
+  slider.addEventListener('input', function() {
+    zoom = parseInt(slider.value);
+    display.textContent = `${zoom}x`;
     draw();
   });
 
-  btnOnion.classList.add('selected');
+  btnOnion.addEventListener('click', function() {
+    currentSample = 'onion';
+    draw();
+    btnOnion.classList.add('selected');
+    btnCheek.classList.remove('selected');
+  });
+
+  btnCheek.addEventListener('click', function() {
+    currentSample = 'cheek';
+    draw();
+    btnCheek.classList.add('selected';
+    btnOnion.classList.remove('selected');
+  });
+
   draw();
 })();
 </script>
 
-<!-- ==================== ConcepTest ==================== -->
-<section id="conceptest-1" class="section" data-tts="conceptest-1" data-tsh="概念测试 - 检验你对细胞学说的理解">
-  <div class="card" data-conceptest="true" data-bloom-level="understand">
-    <span class="phase-tag">ConcepTest</span>
-    <h2>概念检测:细胞学说</h2>
-    <p>下列关于细胞学说的描述,哪一项是<strong>正确的</strong>?</p>
-    <div class="grid">
-      <button class="choice" data-choice="A" data-correct="false" data-diagnosis="不完全正确。细胞学说指出所有动植物由细胞组成,但病毒等非细胞生物不在此范围内。注意区分'所有生物'和'所有动植物'的表述。">A. 世界上所有的生物都由细胞组成</button>
-      <button class="choice" data-choice="B" data-correct="true" data-diagnosis="正确!这正是细胞学说的核心内容之一。施莱登和施旺提出:动物和植物都由细胞组成,细胞是生物体结构和功能的基本单位。">B. 动植物都由细胞组成,细胞是生物体结构和功能的基本单位</button>
-      <button class="choice" data-choice="C" data-correct="false" data-diagnosis="这个说法混淆了层次。细胞学说讨论的是细胞与生物体的关系,不是分子与细胞的关系。蛋白质和DNA确实在细胞内,但这不是细胞学说的内容。">C. 细胞由蛋白质和DNA组成,这就是细胞学说</button>
-      <button class="choice" data-choice="D" data-correct="false" data-diagnosis="时间有误。细胞学说是1838-1839年由施莱登和施旺提出的。胡克在1665年发现并命名了细胞,但没有提出系统的学说。">D. 细胞学说是由胡克在1665年提出的</button>
-    </div>
-    <div class="result warn" data-feedback-for="conceptest-1" style="margin-top:12px">先独立判断,再看诊断反馈。</div>
-  </div>
-</section>
-
-<!-- ==================== 模块3:动植物细胞的区别概述 ==================== -->
-<section id="module-3" class="section" data-tts="module-3" data-tsh="核心模块3 - 对比动植物细胞的结构差异">
-  <div class="card">
-    <span class="phase-tag">Module 3</span>
-    <h2>动植物细胞的区别概述</h2>
-    <div class="card" data-role="abt-intro">
-      <p><strong>已经知道:</strong>动物和植物都是由细胞组成的多细胞生物。</p>
-      <p><strong>但是问题是:</strong>动物细胞和植物细胞的结构完全一样吗?如果不一样,区别在哪里?</p>
-      <p><strong>所以这一段要解决:</strong>找出动植物细胞的共有结构和各自的特有结构。</p>
-    </div>
-    <div class="grid" style="margin-top:16px">
-      <div>
-        <h3>✅ 共有结构</h3>
-        <p><strong>细胞膜</strong>:控制物质进出<br>
-        <strong>细胞质</strong>:生命活动的场所<br>
-        <strong>细胞核</strong>:储存遗传信息(DNA)</p>
-      </div>
-      <div>
-        <h3>🌿 植物细胞特有</h3>
-        <p><strong>细胞壁</strong>:支持和保护<br>
-        <strong>叶绿体</strong>:光合作用的场所<br>
-        <strong>液泡</strong>:储水、维持细胞形态</p>
-      </div>
-      <div>
-        <h3>💡 记忆技巧</h3>
-        <p>植物不能动,所以需要:<br>
-        • <strong>壁</strong>支撑、<strong>绿</strong>造食、<strong>泡</strong>储水<br>
-        口诀:"<strong>壁绿泡</strong>"三件套!</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ==================== 五镜头深层理解 ==================== -->
-<section id="deep-understanding" class="section" data-tts="deep-understanding" data-tsh="深层理解 - 用五个视角审视细胞概念">
-  <div class="card">
-    <span class="phase-tag">Deep Understanding</span>
-    <h2>五镜头看细胞</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>🔍 解释</h3>
-        <p>细胞是什么?一句话:能独立完成生命活动的最小结构单位。</p>
-      </div>
-      <div class="card">
-        <h3>🔄 类比</h3>
-        <p>细胞像一座微型工厂:细胞膜是大门,细胞核是总指挥部,细胞质是车间。</p>
-      </div>
-      <div class="card">
-        <h3>🌍 应用</h3>
-        <p>医生做切片检查,就是在显微镜下观察细胞是否异常来诊断疾病。</p>
-      </div>
-      <div class="card">
-        <h3>👁️ 视角</h3>
-        <p>从进化角度看:最初的生命就是单个细胞,多细胞生物是后来才演化出来的。</p>
-      </div>
-      <div class="card">
-        <h3>❤️ 同理</h3>
-        <p>想象你是一个细胞:要吃饭、工作、产生废物,和人的生活很相似!</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ==================== 外部互动工具嵌入:PhET 基因表达 ====================
-<section id="external-sim" class="section" data-tts="external-sim" data-tsh="仿真工具 - 在PhET中观察细胞内部的生命活动">
-  <div class="card">
-    <span class="phase-tag">External Simulation</span>
-    <h2>PhET 仿真:观察细胞内的基因表达</h2>
-    <p style="color:var(--muted)">细胞是生命活动的基本单位。下面的仿真让你看到细胞内部发生的基因表达过程--DNA 的信息如何被"读取"并指导蛋白质的合成。这就是细胞执行生命活动的微观证据!</p>
-    <div style="position:relative;width:100%;padding-top:62.5%;overflow:hidden;background:#0f172a">
-      <iframe
-        src="https://phet.colorado.edu/sims/html/gene-expression-essentials/latest/gene-expression-essentials_zh_CN.html"
-        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0"
-        allowfullscreen
-        loading="lazy"
-        sandbox="allow-scripts allow-same-origin allow-forms allow-popups">
-      </iframe>
-    </div>
-    <p style="font-size:12px;color:#64748b;margin-top:6px">💡 点击 DNA 片段上方的"转录因子",观察 RNA 聚合酶如何沿 DNA 移动并合成 mRNA。这个过程就在你身体的每一个细胞中不断进行着!</p>
-  </div>
-</section>
-
-<!-- ==================== 三段式作业分层 ==================== -->
-<section id="tiered-practice" class="section" data-bloom-level="create" data-scaffold="none" data-tts="tiered-practice" data-tsh="分层练习 - 从基础到拓展逐步提升">
-  <div class="card">
-    <span class="phase-tag">Tiered Practice</span>
-    <h2>分层练习</h2>
-    <div class="grid">
-      <div class="card" data-scaffold="full">
-        <h3>Level 1 基础巩固</h3>
-        <p>填空:细胞学说的两位创始人是____和____,他们提出所有动植物都由____组成。</p>
-      </div>
-      <div class="card" data-scaffold="partial">
-        <h3>Level 2 应用迁移</h3>
-        <p>如果你在显微镜下看到一个细胞有绿色粒状结构和明显的方形轮廓,你判断它是动物细胞还是植物细胞?为什么?</p>
-      </div>
-      <div class="card" data-scaffold="none">
-        <h3>Level 3 开放挑战</h3>
-        <p>病毒没有细胞结构,但能繁殖。你认为病毒算不算生物?请结合细胞学说谈谈你的观点。</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ==================== 后测 ==================== -->
-<section id="posttest" class="section" data-bloom-level="evaluate" data-tts="posttest" data-tsh="后测 - 用新情境检验是否学会">
-  <div class="card">
-    <span class="phase-tag">Posttest</span>
-    <h2>后测:辨别细胞类型</h2>
-    <p>小明在显微镜下观察一个细胞,发现它有细胞膜、细胞质、细胞核,但<strong>没有</strong>细胞壁和叶绿体。这个细胞最可能是:</p>
-    <div class="grid">
-      <button class="choice" data-posttest-choice="A" data-correct="false" data-diagnosis="洋葱表皮是植物细胞,应该有细胞壁。虽然洋葱不进行光合作用所以没有叶绿体,但细胞壁是植物细胞的标志性结构,题目说没有细胞壁,排除植物细胞。">A. 洋葱表皮细胞</button>
-      <button class="choice" data-posttest-choice="B" data-correct="true" data-diagnosis="正确!动物细胞有细胞膜、细胞质、细胞核,但没有细胞壁、叶绿体和液泡(或很小的液泡)。口腔上皮细胞是典型的动物细胞。">B. 人的口腔上皮细胞</button>
-      <button class="choice" data-posttest-choice="C" data-correct="false" data-diagnosis="叶片细胞属于植物细胞,应该有细胞壁和叶绿体。题目明确说没有这两种结构,所以不是植物叶片细胞。">C. 植物叶片细胞</button>
-    </div>
-    <div class="result warn" data-feedback-for="posttest" style="margin-top:12px">运用你学到的知识做出判断吧。</div>
-  </div>
-</section>
-
-<!-- ==================== 小结 ==================== -->
-<section id="summary" class="section" data-tts="summary" data-tsh="小结 - 回到开头的问题并形成可迁移结论">
-  <div class="card">
-    <span class="phase-tag">Summary</span>
-    <h2>小结：回答核心问题</h2>
-    <p>“所有生物体都由细胞构成吗？”——除病毒外，几乎所有生物都由细胞组成。细胞是生命活动的基本单位。</p>
-    <ul>
-      <li><strong>发现史</strong>：胡克1665年命名细胞，施莱登和施旺1838-1839年建立细胞学说</li>
-      <li><strong>核心</strong>：细胞能独立完成新陈代谢，是生物体的“基本砖块”</li>
-      <li><strong>对比</strong>：共有膜+质+核；植物额外有“壁绿泡”</li>
-    </ul>
-    <p style="color:var(--muted);margin-top:12px">🔜 下节课,我们将深入学习细胞各结构的详细功能--细胞的结构</p>
-  </div>
-</section>
-
-<section class="section" id="knowledge-graph" data-tts="knowledge-graph" data-tsh="知识图谱 - 查看前置、后续与同域知识">
-  <div class="card">
-    <span class="phase-tag">Knowledge Graph</span>
-    <h2>知识图谱</h2>
-    <p style="color:var(--muted)">本节点的前置、后续和同域知识由标准知识图谱模块自动渲染。</p>
-    <div data-teachany-kg="bio-m-cell-basics">
-      <canvas class="tkg-fallback-canvas" width="720" height="120" aria-label="知识图谱互动备用画布" style="display:block;width:100%;max-height:140px;"></canvas>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="teachany-ai-tutor-card" data-tts="ai-tutor" data-tsh="AI 学伴 - 先诊断卡点,再给最小提示">
-  <div data-teachany-tutor-card></div>
-</section>
-
-<!-- 标准模块脚本 -->
-<script src="/courseware/_assets/scripts/ai-tutor.js"></script>
-<script src="/courseware/_assets/scripts/teachany-tutor-card.js" defer></script>
-<script src="/courseware/_assets/scripts/teachany-tts-narrator.js" data-tts-disabled="true" defer></script>
-<script src="/courseware/_assets/scripts/teachany-section-hints.js" defer></script>
-<script src="/courseware/_assets/scripts/teachany-knowledge-graph.js" defer></script>
-<script src="/courseware/_assets/scripts/teachany-audio-player.js?v=bar-only-20260513" defer></script>
 </body>
 </html>
-
-<section class="section course-figures">
-</section>
