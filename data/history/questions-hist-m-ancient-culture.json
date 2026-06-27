@@ -1,0 +1,215 @@
+[
+  {
+    "id": "hist-m-ancient-culture-q-001",
+    "node_id": "hist-m-ancient-culture",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "以下哪一项是中国古代四大发明之一？",
+    "options": [
+      "A. 造纸术",
+      "B. 火药",
+      "C. 指南针",
+      "D. 以上都是"
+    ],
+    "answer": "D. 以上都是",
+    "steps": [
+      "了解中国古代四大发明包括造纸术、印刷术、火药和指南针。",
+      "逐一核对选项，确认每个选项都是四大发明的一部分。",
+      "选择包含所有四大发明的选项。"
+    ],
+    "common_errors": [
+      {
+        "error": "只选择了其中一个发明",
+        "hint": "注意题目中问的是四大发明，需要选择包含所有发明的选项。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-ancient-culture-q-002",
+    "node_id": "hist-m-ancient-culture",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "中国古代第一部诗歌总集是《_____》。",
+    "answer": "诗经",
+    "steps": [
+      "回忆中国古代文学成就，特别是诗歌方面的代表作。",
+      "确认《诗经》是中国古代第一部诗歌总集。",
+      "填写答案《诗经》。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写了《楚辞》或《汉乐府》",
+        "hint": "注意题目问的是第一部诗歌总集，《诗经》是最早的。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-ancient-culture-q-003",
+    "node_id": "hist-m-ancient-culture",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "以下哪位是儒家学派的创始人？",
+    "options": [
+      "A. 老子",
+      "B. 孔子",
+      "C. 孟子",
+      "D. 庄子"
+    ],
+    "answer": "B. 孔子",
+    "steps": [
+      "了解儒家学派的基本知识。",
+      "确认孔子是儒家学派的创始人。",
+      "选择正确选项。"
+    ],
+    "common_errors": [
+      {
+        "error": "选择了老子或庄子",
+        "hint": "老子是道家学派创始人，庄子是道家代表人物。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-ancient-culture-q-004",
+    "node_id": "hist-m-ancient-culture",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下哪一项不是中国古代的数学成就？",
+    "options": [
+      "A. 《九章算术》",
+      "B. 祖冲之计算圆周率",
+      "C. 《周髀算经》",
+      "D. 《几何原本》"
+    ],
+    "answer": "D. 《几何原本》",
+    "steps": [
+      "了解中国古代数学成就的主要著作和人物。",
+      "确认《几何原本》是古希腊数学家欧几里得的著作。",
+      "选择不属于中国古代数学成就的选项。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为《几何原本》是中国古代数学成就",
+        "hint": "《几何原本》是古希腊的数学著作。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-ancient-culture-q-005",
+    "node_id": "hist-m-ancient-culture",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "中国古代的书法艺术中，楷书四大家不包括_____。",
+    "answer": "王羲之",
+    "steps": [
+      "了解楷书四大家的构成，包括欧阳询、颜真卿、柳公权、赵孟頫。",
+      "确认王羲之是东晋书法家，不属于楷书四大家。",
+      "填写答案王羲之。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写了欧阳询或颜真卿",
+        "hint": "欧阳询和颜真卿都是楷书四大家之一。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-ancient-culture-q-006",
+    "node_id": "hist-m-ancient-culture",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述中国古代的四大发明及其对世界的影响。",
+    "answer": "中国古代四大发明包括造纸术、印刷术、火药和指南针。造纸术和印刷术促进了文化的传播和保存；火药改变了军事技术和战争方式；指南针推动了航海事业的发展，促进了世界贸易和文化交流。",
+    "steps": [
+      "列举中国古代四大发明。",
+      "分别说明每项发明对世界的影响。",
+      "组织语言，形成完整的解答。"
+    ],
+    "common_errors": [
+      {
+        "error": "遗漏了某一项发明",
+        "hint": "注意四大发明是造纸术、印刷术、火药和指南针。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-ancient-culture-q-007",
+    "node_id": "hist-m-ancient-culture",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下哪一项是北宋时期的重要科技成就？",
+    "options": [
+      "A. 造纸术",
+      "B. 活字印刷术",
+      "C. 火药",
+      "D. 指南针"
+    ],
+    "answer": "B. 活字印刷术",
+    "steps": [
+      "了解北宋时期的重要科技成就。",
+      "确认活字印刷术是北宋毕昇发明的。",
+      "选择正确选项。"
+    ],
+    "common_errors": [
+      {
+        "error": "选择了造纸术或火药",
+        "hint": "造纸术和火药是更早时期的发明。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-ancient-culture-q-008",
+    "node_id": "hist-m-ancient-culture",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析中国古代文化成就对现代社会的影响。",
+    "answer": "中国古代文化成就对现代社会的影响主要体现在以下几个方面：1. 科技方面，造纸术、印刷术等发明为现代信息传播奠定了基础；2. 思想方面，儒家思想强调的道德伦理观念对现代社会价值观有重要影响；3. 艺术方面，中国古代的书法、绘画等艺术形式丰富了现代艺术的表现形式；4. 医学方面，中医理论和方法在现代医学中仍有应用价值。",
+    "steps": [
+      "从科技、思想、艺术、医学等方面分析。",
+      "结合具体例子，说明对现代社会的影响。",
+      "组织语言，形成完整的解答。"
+    ],
+    "common_errors": [
+      {
+        "error": "只从单一方面分析",
+        "hint": "注意从多个角度分析中国古代文化成就对现代社会的影响。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "hist-m-ancient-culture-q-009",
+    "node_id": "hist-m-ancient-culture",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "比较中国古代科技成就与同时期世界其他文明的科技成就。",
+    "answer": "中国古代科技成就如造纸术、印刷术、火药、指南针等，在当时的世界处于领先地位，对世界文明发展有重要影响。同时期，其他文明如古希腊、古罗马在数学、哲学、建筑等方面也有突出成就，如欧几里得的几何学、罗马建筑技术等。中国古代科技成就更注重实用性和技术应用，而其他文明在理论科学方面有更多建树。",
+    "steps": [
+      "列举中国古代科技成就。",
+      "列举同时期其他文明的科技成就。",
+      "比较两者的特点和影响。"
+    ],
+    "common_errors": [
+      {
+        "error": "忽略其他文明的科技成就",
+        "hint": "注意比较需要同时考虑中国古代和其他文明的科技成就。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

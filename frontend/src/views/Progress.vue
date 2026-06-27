@@ -11,6 +11,13 @@ onMounted(async () => {
   loading.value = false
 })
 
+const SUBJECT_LABEL: Record<string, string> = {
+  math: '📐 数学', physics: '⚡ 物理', chemistry: '🧪 化学', english: '🔤 英语',
+  chinese: '📝 语文', biology: '🌱 生物', geography: '🗺️ 地理', history: '📜 历史',
+  politics: '⚖️ 道法',
+}
+function subjectLabel(s: string) { return SUBJECT_LABEL[s] || s }
+
 function masteryBar(m: number) {
   return { width: `${m * 100}%` }
 }
@@ -31,9 +38,7 @@ function masteryColor(m: number) {
     <div v-else>
       <div v-for="(nodes, subject) in masteryMap" :key="subject" class="subject-section">
         <h2>
-          <span v-if="subject === 'math'">📐 数学</span>
-          <span v-else-if="subject === 'physics'">🔬 物理</span>
-          <span v-else>🔤 英语</span>
+          <span>{{ subjectLabel(subject as string) }}</span>
           <span class="count">({{ nodes.filter((n: any) => n.mastery >= 0.8).length }}/{{ nodes.length }} 掌握)</span>
         </h2>
         <div class="node-list">
