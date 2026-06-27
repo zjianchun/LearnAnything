@@ -318,66 +318,6 @@ document.querySelectorAll('#sample-text,#analysis-mode,#mark-level').forEach(el=
 </div>
 
 
-<script>
-window.__TEACHANY_LEARNER_QUESTION__ = '';
-window.__TEACHANY_TUTOR_CONFIG__ = {
-  courseId: 'chn-m-whole-book-reading',
-  courseTitle: '整本书阅读方法：从文本证据到表达效果',
-  subject: 'chinese',
-  grade: '7',
-  nodeId: 'chn-m-whole-book-reading',
-  lessonType: 'experiment',
-  getLearnerQuestion: () => window.__TEACHANY_LEARNER_QUESTION__ || '',
-  getContext: () => {
-    const current = document.querySelector('section.current-section') || (location.hash ? document.querySelector(location.hash) : null);
-    return (current || document.body).innerText.slice(0, 3000);
-  }
-};
-
-function setTeachAnyLearnerQuestion(question) {
-  window.__TEACHANY_LEARNER_QUESTION__ = question || '';
-  const feedback = document.getElementById('anchor-feedback');
-  if (feedback) feedback.textContent = question ? `你的问题：${question}` : '选择或输入后，本课会围绕你的问题展开。';
-}
-
-document.querySelectorAll('[data-anchor-choice]').forEach((btn) => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('[data-anchor-choice]').forEach((item) => item.classList.remove('selected'));
-    btn.classList.add('selected');
-    setTeachAnyLearnerQuestion(btn.getAttribute('data-anchor-choice') || btn.textContent.trim());
-  });
-});
-document.getElementById('learner-question-input')?.addEventListener('input', (event) => {
-  setTeachAnyLearnerQuestion(event.target.value.trim());
-});
-
-document.addEventListener('DOMContentLoaded', () => {
-  const courseVersion = document.querySelector('meta[name="course-version"]')?.content;
-  const skillVersion = document.querySelector('meta[name="teachany-version"]')?.content;
-  if (courseVersion) document.getElementById('course-version-display').textContent = courseVersion;
-  if (skillVersion) document.getElementById('skill-version-display').textContent = skillVersion.replace(/^v/, '');
-});
-
-if (location.hostname === 'localhost' || location.search.includes('debug')) {
-  const checks = [
-    ['course-id meta', () => !!document.querySelector('meta[name="course-id"]')?.content],
-    ['viewport-fit', () => document.querySelector('meta[name="viewport"]')?.content.includes('viewport-fit=cover')],
-    ['brand bar', () => !!document.querySelector('.teachany-brand-bar')],
-    ['problem anchor', () => !!document.getElementById('problem-anchor')],
-    ['audio playlist', () => !!document.querySelector('[data-teachany-audio-playlist]')],
-    ['AI tutor card', () => !!document.querySelector('[data-teachany-tutor-card]')],
-    ['knowledge graph API', () => !!document.querySelector('[data-teachany-kg]')],
-    ['standard module links', () => ['ai-tutor.css','teachany-tutor-card.css','teachany-tts-narrator.css','teachany-section-hints.css','teachany-knowledge-graph.css','teachany-audio-player.css'].every((name) => document.documentElement.innerHTML.includes(name))],
-    ['standard module scripts', () => ['ai-tutor.js','teachany-tutor-card.js','teachany-tts-narrator.js','teachany-section-hints.js','teachany-knowledge-graph.js','teachany-audio-player.js'].every((name) => document.documentElement.innerHTML.includes(name))]
-  ];
-  checks.forEach(([name, fn]) => {
-    const ok = Boolean(fn());
-    console[ok ? 'log' : 'warn'](`[TeachAny self-check] ${ok ? 'PASS' : 'MISSING'} ${name}`);
-  });
-}
-</script>
-
-
 <script src="/courseware/_assets/scripts/ai-tutor.js"></script>
 <script src="/courseware/_assets/scripts/teachany-tutor-card.js" defer></script>
 <script src="/courseware/_assets/scripts/teachany-tts-narrator.js" data-tts-disabled="true" defer></script>

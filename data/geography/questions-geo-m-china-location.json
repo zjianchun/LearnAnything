@@ -1,0 +1,213 @@
+[
+  {
+    "id": "geo-m-china-location-q-001",
+    "node_id": "geo-m-china-location",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "中国的地理位置是（    ）。",
+    "options": [
+      "A. 东半球、南半球",
+      "B. 东半球、北半球",
+      "C. 西半球、南半球",
+      "D. 西半球、北半球"
+    ],
+    "answer": "B. 东半球、北半球",
+    "steps": [
+      "1. 中国的经度范围大约在73°E至135°E之间，属于东半球。",
+      "2. 中国的纬度范围大约在4°N至53°N之间，属于北半球。",
+      "3. 根据经纬度判断，中国位于东半球和北半球。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为中国在东西半球的分界线附近，误选西半球。",
+        "hint": "记住中国的经度范围73°E至135°E，完全位于东半球。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-china-location-q-002",
+    "node_id": "geo-m-china-location",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "中国最南端是位于海南省南沙群岛的（    ）。",
+    "answer": "曾母暗沙",
+    "steps": [
+      "1. 回忆中国领土四至点。",
+      "2. 最南端是位于海南省南沙群岛的曾母暗沙。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填‘南沙群岛’或‘海南岛’。",
+        "hint": "最南端是曾母暗沙，而不是整个南沙群岛或海南岛。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-china-location-q-003",
+    "node_id": "geo-m-china-location",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "中国领土总面积约为（    ）。",
+    "options": [
+      "A. 960万平方千米",
+      "B. 9600万平方千米",
+      "C. 860万平方千米",
+      "D. 1060万平方千米"
+    ],
+    "answer": "A. 960万平方千米",
+    "steps": [
+      "1. 回忆中国领土面积数据。",
+      "2. 中国领土总面积约为960万平方千米。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为中国领土面积超过1000万平方千米。",
+        "hint": "中国领土面积是960万平方千米，而不是更大或更小的数值。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-china-location-q-004",
+    "node_id": "geo-m-china-location",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "与中国相邻的国家中，面积最大的是（    ）。",
+    "options": [
+      "A. 俄罗斯",
+      "B. 印度",
+      "C. 蒙古",
+      "D. 哈萨克斯坦"
+    ],
+    "answer": "A. 俄罗斯",
+    "steps": [
+      "1. 列出与中国相邻的国家。",
+      "2. 比较这些国家的面积。",
+      "3. 俄罗斯是世界上面积最大的国家，也是与中国相邻的国家中面积最大的。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为印度或蒙古是中国相邻国家中面积最大的。",
+        "hint": "俄罗斯的面积远大于印度和蒙古。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-china-location-q-005",
+    "node_id": "geo-m-china-location",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "中国最大的岛屿是（    ）。",
+    "answer": "台湾岛",
+    "steps": [
+      "1. 回忆中国主要岛屿。",
+      "2. 比较这些岛屿的面积。",
+      "3. 台湾岛是中国最大的岛屿。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填‘海南岛’或‘崇明岛’。",
+        "hint": "海南岛是中国第二大岛屿，崇明岛是第三大岛屿。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-china-location-q-006",
+    "node_id": "geo-m-china-location",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述中国地理位置的优越性。",
+    "answer": "1. 中国位于亚洲东部，太平洋西岸，海陆兼备，有利于发展海洋事业和对外贸易。2. 纬度跨度大，南北气候差异明显，有利于发展多种农业。3. 东西跨度大，地形多样，资源丰富。",
+    "steps": [
+      "1. 分析中国海陆位置的特点。",
+      "2. 分析中国纬度位置的特点。",
+      "3. 总结地理位置对经济、农业、资源等方面的影响。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到海陆位置或纬度位置，忽略另一方面。",
+        "hint": "从多个角度分析地理位置的优越性，包括海陆位置、纬度位置等。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-china-location-q-007",
+    "node_id": "geo-m-china-location",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "与中国隔海相望的国家中，经济最发达的是（    ）。",
+    "options": [
+      "A. 日本",
+      "B. 韩国",
+      "C. 菲律宾",
+      "D. 马来西亚"
+    ],
+    "answer": "A. 日本",
+    "steps": [
+      "1. 列出与中国隔海相望的国家。",
+      "2. 比较这些国家的经济发展水平。",
+      "3. 日本是亚洲最发达的国家之一，也是经济最发达的国家。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为韩国或马来西亚经济最发达。",
+        "hint": "日本的经济规模和发展水平高于韩国和马来西亚。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-china-location-q-008",
+    "node_id": "geo-m-china-location",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析中国地理位置对气候的影响。",
+    "answer": "1. 中国纬度跨度大，南北气候差异明显。2. 东部临海，受海洋影响，降水较多。3. 西部深居内陆，降水稀少，气候干燥。4. 南方地区纬度较低，热量充足，冬季温暖。5. 北方地区纬度较高，冬季寒冷。",
+    "steps": [
+      "1. 分析纬度位置对气候的影响。",
+      "2. 分析海陆位置对气候的影响。",
+      "3. 总结地理位置对气候的具体影响。"
+    ],
+    "common_errors": [
+      {
+        "error": "忽略海陆位置对气候的影响。",
+        "hint": "地理位置对气候的影响不仅包括纬度，还包括海陆位置。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "geo-m-china-location-q-009",
+    "node_id": "geo-m-china-location",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "简述中国地理位置对经济发展的影响。",
+    "answer": "1. 中国海陆兼备，有利于发展海洋运输和对外贸易。2. 东部沿海地区经济发达，地理位置优越。3. 西部地区深居内陆，交通不便，经济发展相对落后。4. 南北跨度大，有利于发展多种农业和旅游业。",
+    "steps": [
+      "1. 分析海陆位置对经济的影响。",
+      "2. 分析地理位置对区域经济的影响。",
+      "3. 总结地理位置对经济发展的具体影响。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到海陆位置对经济的影响，忽略区域经济差异。",
+        "hint": "地理位置对经济的影响包括多个方面，如海陆位置、区域经济差异等。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

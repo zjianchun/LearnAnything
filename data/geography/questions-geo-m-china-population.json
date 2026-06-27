@@ -1,0 +1,214 @@
+[
+  {
+    "id": "geo-m-china-population-q-001",
+    "node_id": "geo-m-china-population",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "中国是世界上人口最多的国家，截至2021年，中国人口总数约为多少亿人？",
+    "options": [
+      "A. 12亿",
+      "B. 14亿",
+      "C. 16亿",
+      "D. 18亿"
+    ],
+    "answer": "B. 14亿",
+    "steps": [
+      "1. 回忆中国人口总数的数据：截至2021年，中国人口总数约为14亿人。",
+      "2. 对比选项，找出与数据相符的选项。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选C或D",
+        "hint": "注意中国人口总数并没有达到16亿或18亿，应仔细核对数据。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-china-population-q-002",
+    "node_id": "geo-m-china-population",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "中国共有____个民族，其中人口最多的少数民族是____族。",
+    "answer": "56, 壮",
+    "steps": [
+      "1. 回忆中国民族数量：全国共有56个民族。",
+      "2. 回忆人口最多的少数民族：壮族是中国人口最多的少数民族。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误民族数量",
+        "hint": "中国有56个民族，而不是55个或其他数字。"
+      },
+      {
+        "error": "填写错误少数民族",
+        "hint": "人口最多的少数民族是壮族，而不是其他民族。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-china-population-q-003",
+    "node_id": "geo-m-china-population",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "中国的少数民族主要分布在哪些地区？",
+    "options": [
+      "A. 东部沿海地区",
+      "B. 中部地区",
+      "C. 西部地区",
+      "D. 东北地区"
+    ],
+    "answer": "C. 西部地区",
+    "steps": [
+      "1. 回忆中国少数民族的分布特点：主要分布在中国的西部地区。",
+      "2. 对比选项，找出最符合的选项。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选D",
+        "hint": "虽然东北地区也有少数民族，但主要分布在西部地区。"
+      },
+      {
+        "error": "误选A或B",
+        "hint": "东部沿海和中部地区少数民族较少。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-china-population-q-004",
+    "node_id": "geo-m-china-population",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "中国实施计划生育政策的主要目的是什么？",
+    "options": [
+      "A. 控制人口数量",
+      "B. 提高人口素质",
+      "C. 调整人口结构",
+      "D. 鼓励生育"
+    ],
+    "answer": "A. 控制人口数量",
+    "steps": [
+      "1. 回忆计划生育政策实施的历史背景：为了控制过快的人口增长。",
+      "2. 分析各选项：控制人口数量是主要目的，其他选项虽然也有关系，但不是主要目的。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B或C",
+        "hint": "虽然提高人口素质和调整人口结构也是计划生育政策的目标，但主要目的是控制人口数量。"
+      },
+      {
+        "error": "误选D",
+        "hint": "鼓励生育与计划生育政策的初衷相反。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-china-population-q-005",
+    "node_id": "geo-m-china-population",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请简述中国人口分布的特点。",
+    "answer": "中国人口分布的特点是：东部地区人口稠密，西部地区人口稀疏。人口主要分布在黑河-腾冲线以东的地区。",
+    "steps": [
+      "1. 回忆中国人口分布的地理特征。",
+      "2. 描述黑河-腾冲线的意义：这条线将中国分为人口稠密和稀疏的两部分。",
+      "3. 总结人口分布的特点：东部稠密，西部稀疏。"
+    ],
+    "common_errors": [
+      {
+        "error": "描述不完整",
+        "hint": "应包括东西部差异和黑河-腾冲线的意义。"
+      },
+      {
+        "error": "描述错误",
+        "hint": "注意人口分布的总体趋势，不要误认为西部人口稠密。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-china-population-q-006",
+    "node_id": "geo-m-china-population",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请解释中国实施全面两孩政策的原因。",
+    "answer": "随着中国人口老龄化问题的加剧，劳动力减少，社会养老负担加重。为了应对这些问题，中国政府实施了全面两孩政策，以调整人口结构，增加劳动力供给。",
+    "steps": [
+      "1. 分析中国人口老龄化的现状。",
+      "2. 解释老龄化带来的问题：劳动力减少，社会养老负担加重。",
+      "3. 说明全面两孩政策的目的是调整人口结构，增加劳动力供给。"
+    ],
+    "common_errors": [
+      {
+        "error": "解释不完整",
+        "hint": "应包括老龄化问题、劳动力问题和社会养老问题。"
+      },
+      {
+        "error": "解释错误",
+        "hint": "注意政策的目的是调整人口结构，而不是单纯增加人口数量。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-china-population-q-007",
+    "node_id": "geo-m-china-population",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "中国少数民族政策的基本原则是什么？",
+    "options": [
+      "A. 民族平等",
+      "B. 民族团结",
+      "C. 民族区域自治",
+      "D. 以上都是"
+    ],
+    "answer": "D. 以上都是",
+    "steps": [
+      "1. 回忆中国少数民族政策的基本原则：民族平等、民族团结和民族区域自治。",
+      "2. 分析选项：A、B、C都是基本原则。",
+      "3. 得出结论：以上都是。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A或B或C",
+        "hint": "注意所有选项都是基本原则，而不是单一选项。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-china-population-q-008",
+    "node_id": "geo-m-china-population",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析中国人口老龄化对社会和经济的影响。",
+    "answer": "人口老龄化导致劳动力减少，劳动力成本上升，影响经济增长。同时，老龄化增加了社会养老负担，医疗和保障体系面临压力。此外，老龄化还会影响家庭结构和消费模式。",
+    "steps": [
+      "1. 分析老龄化对劳动力的影响：劳动力减少，劳动力成本上升。",
+      "2. 分析老龄化对社会的影响：增加社会养老负担，医疗和保障体系压力增大。",
+      "3. 分析老龄化对经济的影响：影响经济增长和家庭消费模式。"
+    ],
+    "common_errors": [
+      {
+        "error": "分析不全面",
+        "hint": "应包括对劳动力、社会和经济的影响。"
+      },
+      {
+        "error": "解释错误",
+        "hint": "注意老龄化对社会和经济的影响是复杂的，不能简单归结为单一方面。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

@@ -698,7 +698,7 @@
       legend.appendChild(span);
     });
     footer.appendChild(legend);
-    footer.appendChild(h("div", { text: "数据：data/trees + skill/assets/image-registry.json · 风格：与 tree.html 一致" }));
+    footer.appendChild(h("div", { text: "" }));
     el.appendChild(footer);
 
     // Render state

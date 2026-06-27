@@ -1,0 +1,249 @@
+[
+  {
+    "id": "geo-m-china-overview-q-001",
+    "node_id": "geo-m-china-overview",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "中国领土的最东端位于哪个省级行政区？",
+    "options": [
+      "A. 黑龙江省",
+      "B. 吉林省",
+      "C. 辽宁省",
+      "D. 台湾省"
+    ],
+    "answer": "A. 黑龙江省",
+    "steps": [
+      "1. 回忆中国领土四至点位置：最东端位于黑龙江省黑龙江与乌苏里江主航道中心线的相交处。",
+      "2. 对比选项，黑龙江省是正确答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选吉林省",
+        "hint": "吉林省虽然也位于东北地区，但最东端不在该省。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-china-overview-q-002",
+    "node_id": "geo-m-china-overview",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "中国的地势特点可以概括为西___,东___。",
+    "answer": "高,低",
+    "steps": [
+      "1. 回忆中国地势三大阶梯：西部为第一阶梯，海拔最高；东部为第二、三阶梯，海拔逐渐降低。",
+      "2. 填写答案：西部地势高，东部地势低。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写为“西低东高”",
+        "hint": "中国地势总体是西高东低，注意不要混淆。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-china-overview-q-003",
+    "node_id": "geo-m-china-overview",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "长江和黄河都流经的省级行政区是哪个？",
+    "options": [
+      "A. 青海省",
+      "B. 四川省",
+      "C. 甘肃省",
+      "D. 陕西省"
+    ],
+    "answer": "A. 青海省",
+    "steps": [
+      "1. 回忆长江和黄河的源头：两者都发源于青海省。",
+      "2. 对比选项，青海省是正确答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选四川省",
+        "hint": "虽然长江和黄河都流经四川省，但发源地是青海省。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-china-overview-q-004",
+    "node_id": "geo-m-china-overview",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "中国最大的平原是哪个？",
+    "options": [
+      "A. 东北平原",
+      "B. 华北平原",
+      "C. 长江中下游平原",
+      "D. 成都平原"
+    ],
+    "answer": "A. 东北平原",
+    "steps": [
+      "1. 回忆中国主要平原的面积：东北平原>华北平原>长江中下游平原>成都平原。",
+      "2. 对比选项，东北平原是正确答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选华北平原",
+        "hint": "虽然华北平原也很重要，但面积小于东北平原。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-china-overview-q-005",
+    "node_id": "geo-m-china-overview",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述中国气候的主要特点。",
+    "answer": "中国气候的主要特点是：1. 气候类型多样，包括温带季风气候、亚热带季风气候、温带大陆性气候、高原山地气候等；2. 季风气候显著，夏季高温多雨，冬季寒冷干燥；3. 降水量从东南沿海向西北内陆递减。",
+    "steps": [
+      "1. 列举中国主要气候类型。",
+      "2. 说明季风气候的特点。",
+      "3. 描述降水量分布规律。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到季风气候，忽略其他气候类型",
+        "hint": "中国气候类型多样，季风气候只是其中之一。"
+      },
+      {
+        "error": "降水量分布规律描述错误",
+        "hint": "降水量是从东南沿海向西北内陆递减，而不是相反。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-china-overview-q-006",
+    "node_id": "geo-m-china-overview",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "中国地势第一阶梯和第二阶梯的分界线是哪些山脉？",
+    "options": [
+      "A. 昆仑山-祁连山-横断山",
+      "B. 大兴安岭-太行山-巫山-雪峰山",
+      "C. 秦岭-淮河",
+      "D. 阴山-贺兰山"
+    ],
+    "answer": "A. 昆仑山-祁连山-横断山",
+    "steps": [
+      "1. 回忆中国地势三大阶梯的分界线。",
+      "2. 第一阶梯和第二阶梯的分界线是昆仑山-祁连山-横断山。",
+      "3. 对比选项，A选项是正确答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B选项",
+        "hint": "B选项是第二阶梯和第三阶梯的分界线。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-china-overview-q-007",
+    "node_id": "geo-m-china-overview",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析中国水资源分布的特点及其原因。",
+    "answer": "中国水资源分布的特点是：1. 南多北少，东多西少；2. 夏秋多，冬春少。原因：1. 受季风气候影响，降水主要集中在夏季；2. 南方地区受季风影响更显著，降水量更大；3. 东部地区靠近海洋，降水较多，而西部地区深居内陆，降水稀少。",
+    "steps": [
+      "1. 描述水资源分布的特点。",
+      "2. 分析降水量的季节分布。",
+      "3. 解释水资源分布特点的原因。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到南多北少，忽略东多西少",
+        "hint": "水资源分布不仅有南北差异，还有东西差异。"
+      },
+      {
+        "error": "原因分析不全面",
+        "hint": "需要结合气候和地理位置进行解释。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-china-overview-q-008",
+    "node_id": "geo-m-china-overview",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "中国最大的内流河是哪个？",
+    "options": [
+      "A. 长江",
+      "B. 黄河",
+      "C. 塔里木河",
+      "D. 雅鲁藏布江"
+    ],
+    "answer": "C. 塔里木河",
+    "steps": [
+      "1. 回忆中国主要河流的性质：长江、黄河是外流河；塔里木河是内流河；雅鲁藏布江是外流河。",
+      "2. 对比选项，塔里木河是正确答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选长江或黄河",
+        "hint": "长江和黄河都是外流河，不是内流河。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-china-overview-q-009",
+    "node_id": "geo-m-china-overview",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "简述中国主要地形区的分布及其特点。",
+    "answer": "中国主要地形区的分布及特点：1. 西部以高原和山地为主，包括青藏高原（世界最高的高原）、塔里木盆地（最大的内陆盆地）、天山山脉等；2. 东部以平原和丘陵为主，包括东北平原（最大的平原）、华北平原（第二大平原）、长江中下游平原（第三大平原）、东南丘陵等；3. 中部以高原和盆地为主，包括黄土高原（黄土覆盖）、内蒙古高原（地势平坦）、四川盆地（紫色盆地）等。",
+    "steps": [
+      "1. 描述西部地形区的分布及特点。",
+      "2. 描述东部地形区的分布及特点。",
+      "3. 描述中部地形区的分布及特点。"
+    ],
+    "common_errors": [
+      {
+        "error": "遗漏某些重要地形区",
+        "hint": "注意全面覆盖中国主要地形区，不要遗漏。"
+      },
+      {
+        "error": "特点描述不准确",
+        "hint": "每个地形区的特点需要准确描述，例如塔里木盆地是内陆盆地，而不是外流盆地。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-china-overview-q-010",
+    "node_id": "geo-m-china-overview",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "中国最大的淡水湖是___，最大的咸水湖是___。",
+    "answer": "鄱阳湖,青海湖",
+    "steps": [
+      "1. 回忆中国主要湖泊的性质：鄱阳湖是淡水湖，青海湖是咸水湖。",
+      "2. 确认两者分别是最大的淡水湖和咸水湖。",
+      "3. 填写答案：鄱阳湖和青海湖。"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆淡水湖和咸水湖",
+        "hint": "鄱阳湖是淡水湖，青海湖是咸水湖，注意不要混淆。"
+      }
+    ],
+    "exam_frequency": 4
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "id": "geo-m-china-rivers-q-001",
+    "node_id": "geo-m-china-rivers",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "中国长度最长的河流是？",
+    "options": [
+      "A. 长江",
+      "B. 黄河",
+      "C. 珠江",
+      "D. 淮河"
+    ],
+    "answer": "A. 长江",
+    "steps": [
+      "1. 回忆中国主要河流的长度。",
+      "2. 长江长度约为6300公里，是中国最长的河流。",
+      "3. 黄河长度约为5464公里，珠江长度约为2320公里，淮河长度约为1000公里。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为黄河是中国最长的河流。",
+        "hint": "黄河长度仅次于长江，是中国第二长河。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-china-rivers-q-002",
+    "node_id": "geo-m-china-rivers",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "中国面积最大的淡水湖是______。",
+    "answer": "鄱阳湖",
+    "steps": [
+      "1. 回忆中国五大淡水湖的面积大小。",
+      "2. 鄱阳湖面积约为4125平方公里，是中国面积最大的淡水湖。",
+      "3. 其他四大淡水湖分别是洞庭湖、太湖、洪泽湖、巢湖。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为洞庭湖是中国面积最大的淡水湖。",
+        "hint": "洞庭湖面积仅次于鄱阳湖，是中国第二大淡水湖。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-china-rivers-q-003",
+    "node_id": "geo-m-china-rivers",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "以下哪条河流最终注入渤海？",
+    "options": [
+      "A. 长江",
+      "B. 黄河",
+      "C. 珠江",
+      "D. 淮河"
+    ],
+    "answer": "B. 黄河",
+    "steps": [
+      "1. 回忆中国主要河流的注入地。",
+      "2. 黄河最终注入渤海。",
+      "3. 长江注入东海，珠江注入南海，淮河注入黄海。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为长江注入渤海。",
+        "hint": "长江注入东海，而不是渤海。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-china-rivers-q-004",
+    "node_id": "geo-m-china-rivers",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "长江中下游平原的主要河流是？",
+    "options": [
+      "A. 长江",
+      "B. 黄河",
+      "C. 珠江",
+      "D. 淮河"
+    ],
+    "answer": "A. 长江",
+    "steps": [
+      "1. 回忆长江中下游平原的地理位置。",
+      "2. 长江中下游平原位于长江中下游地区。",
+      "3. 长江是该地区的主要河流。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为黄河是长江中下游平原的主要河流。",
+        "hint": "黄河主要流经华北平原，而不是长江中下游平原。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-china-rivers-q-005",
+    "node_id": "geo-m-china-rivers",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "中国最长的内流河是______。",
+    "answer": "塔里木河",
+    "steps": [
+      "1. 回忆中国主要内流河的名称。",
+      "2. 塔里木河是中国最长的内流河。",
+      "3. 其他主要内流河包括额尔齐斯河、黑河等。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为额尔齐斯河是中国最长的内流河。",
+        "hint": "额尔齐斯河是外流河，最终注入北冰洋。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-china-rivers-q-006",
+    "node_id": "geo-m-china-rivers",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "长江三峡水利枢纽工程位于长江的哪一段？",
+    "options": [
+      "A. 上游",
+      "B. 中游",
+      "C. 下游",
+      "D. 河口"
+    ],
+    "answer": "A. 上游",
+    "steps": [
+      "1. 回忆长江三峡的地理位置。",
+      "2. 长江三峡位于长江上游地区。",
+      "3. 长江三峡水利枢纽工程也位于该地区。"
+    ],
+    "common_errors": [
+      {
+        "error": "误以为长江三峡水利枢纽工程位于长江中游。",
+        "hint": "长江三峡位于长江上游，而不是中游。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-china-rivers-q-007",
+    "node_id": "geo-m-china-rivers",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请简要说明长江对中国的经济和文化有哪些影响？",
+    "answer": "长江是中国重要的经济带，沿岸地区经济发达，交通便利。长江航运是中国内河航运的重要组成部分，连接了多个重要城市和港口。长江流域也是中国重要的农业区，水资源丰富。文化上，长江流域孕育了丰富的文化遗产，如三峡文化等。",
+    "steps": [
+      "1. 分析长江的经济影响。",
+      "2. 分析长江的文化影响。",
+      "3. 综合长江的经济和文化影响进行总结。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到长江的经济影响而忽略文化影响。",
+        "hint": "长江不仅有经济影响，还有丰富的文化影响。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "geo-m-china-rivers-q-008",
+    "node_id": "geo-m-china-rivers",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请简要说明黄河中下游地区的水土流失问题及其治理措施。",
+    "answer": "黄河中下游地区水土流失问题严重，主要原因是黄土高原的土质疏松、植被稀少和降水集中。治理措施包括植树造林、修建梯田、治理小流域等。",
+    "steps": [
+      "1. 分析黄河中下游地区的水土流失原因。",
+      "2. 提出具体的治理措施。",
+      "3. 综合分析水土流失问题和治理措施进行总结。"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到水土流失原因而未提出治理措施。",
+        "hint": "不仅要分析问题，还要提出相应的治理措施。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]
