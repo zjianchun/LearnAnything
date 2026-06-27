@@ -1,0 +1,244 @@
+[
+  {
+    "id": "hist-m-xinhai-revolution-q-001",
+    "node_id": "hist-m-xinhai-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "辛亥革命爆发的时间是？",
+    "options": [
+      "A. 1910年",
+      "B. 1911年",
+      "C. 1912年",
+      "D. 1913年"
+    ],
+    "answer": "B. 1911年",
+    "steps": [
+      "辛亥革命发生在1911年10月10日",
+      "这次起义被称为武昌起义",
+      "因此选择B选项"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为辛亥革命发生在1912年",
+        "hint": "辛亥革命发生在1911年，1912年是中华民国成立的时间"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-xinhai-revolution-q-002",
+    "node_id": "hist-m-xinhai-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "辛亥革命的领导者是________。",
+    "answer": "孙中山",
+    "steps": [
+      "辛亥革命的领导者是孙中山",
+      "他领导了同盟会等革命组织",
+      "最终推翻了清朝统治"
+    ],
+    "common_errors": [
+      {
+        "error": "误填为黄兴或章炳麟",
+        "hint": "虽然黄兴和章炳麟也是重要人物，但辛亥革命的主要领导人是孙中山"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-xinhai-revolution-q-003",
+    "node_id": "hist-m-xinhai-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "辛亥革命后，中华民国临时政府在南京成立，其第一任临时大总统是？",
+    "options": [
+      "A. 袁世凯",
+      "B. 孙中山",
+      "C. 黄兴",
+      "D. 黎元洪"
+    ],
+    "answer": "B. 孙中山",
+    "steps": [
+      "1912年1月1日，中华民国临时政府在南京成立",
+      "孙中山被推举为临时大总统",
+      "因此选择B选项"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为袁世凯是临时大总统",
+        "hint": "袁世凯是在孙中山之后成为大总统的"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-xinhai-revolution-q-004",
+    "node_id": "hist-m-xinhai-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "辛亥革命的主要指导思想是？",
+    "options": [
+      "A. 马克思主义",
+      "B. 三民主义",
+      "C. 君主立宪",
+      "D. 社会主义"
+    ],
+    "answer": "B. 三民主义",
+    "steps": [
+      "辛亥革命的指导思想是三民主义",
+      "由孙中山提出，包括民族、民权、民生",
+      "因此选择B选项"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为马克思主义是指导思想",
+        "hint": "马克思主义在当时尚未传入中国"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-xinhai-revolution-q-005",
+    "node_id": "hist-m-xinhai-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述辛亥革命的历史意义。",
+    "answer": "辛亥革命推翻了清朝统治，结束了中国两千多年的封建君主专制制度，建立了中华民国。它使民主共和观念深入人心，为中国的现代化进程奠定了基础。",
+    "steps": [
+      "首先指出辛亥革命推翻了清朝统治",
+      "其次说明结束封建君主专制制度",
+      "最后提到建立中华民国和民主共和观念的影响"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到推翻清朝而未提及建立民国",
+        "hint": "辛亥革命不仅推翻了清朝，还建立了中华民国"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-xinhai-revolution-q-006",
+    "node_id": "hist-m-xinhai-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "辛亥革命后，袁世凯篡夺了革命果实，其原因不包括以下哪项？",
+    "options": [
+      "A. 革命党人缺乏经验",
+      "B. 袁世凯掌握北洋军",
+      "C. 孙中山的妥协",
+      "D. 帝国主义支持袁世凯"
+    ],
+    "answer": "C. 孙中山的妥协",
+    "steps": [
+      "分析选项，A、B、D都是袁世凯篡权的原因",
+      "C选项孙中山的妥协不是主要原因",
+      "因此选择C选项"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为孙中山的妥协是主要原因",
+        "hint": "孙中山的妥协是结果而非原因"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-xinhai-revolution-q-007",
+    "node_id": "hist-m-xinhai-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "辛亥革命爆发于________年10月10日。",
+    "answer": "1911",
+    "steps": [
+      "辛亥革命爆发于1911年10月10日",
+      "这个日期被称为武昌起义",
+      "因此填入1911"
+    ],
+    "common_errors": [
+      {
+        "error": "误填为1910或1912",
+        "hint": "辛亥革命发生在1911年"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-xinhai-revolution-q-008",
+    "node_id": "hist-m-xinhai-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析辛亥革命对近代中国政治制度的影响。",
+    "answer": "辛亥革命结束了中国两千多年的封建君主专制制度，建立了亚洲第一个民主共和国——中华民国。它使民主共和观念深入人心，推动了中国政治制度的现代化进程。尽管革命成果被袁世凯篡夺，但辛亥革命为后来的新文化运动、五四运动等奠定了基础，对中国近代政治制度的变革产生了深远影响。",
+    "steps": [
+      "首先指出结束封建君主专制制度",
+      "其次提到建立中华民国",
+      "然后说明民主共和观念的影响",
+      "最后提到对后续运动的影响"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到结束封建制度而未提及民主共和",
+        "hint": "辛亥革命不仅结束了封建制度，还传播了民主共和观念"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "hist-m-xinhai-revolution-q-009",
+    "node_id": "hist-m-xinhai-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "以下哪一项不是辛亥革命的影响？",
+    "options": [
+      "A. 结束封建君主专制",
+      "B. 建立中华民国",
+      "C. 传播民主共和观念",
+      "D. 彻底消除封建残余"
+    ],
+    "answer": "D. 彻底消除封建残余",
+    "steps": [
+      "分析选项，A、B、C都是辛亥革命的影响",
+      "D选项过于绝对，辛亥革命并未彻底消除封建残余",
+      "因此选择D选项"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为辛亥革命彻底消除封建残余",
+        "hint": "辛亥革命虽然打击了封建制度，但并未彻底消除封建残余"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "hist-m-xinhai-revolution-q-010",
+    "node_id": "hist-m-xinhai-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "结合史实，论述辛亥革命对中国社会的影响。",
+    "answer": "辛亥革命对中国社会产生了深远影响。首先，它结束了中国两千多年的封建君主专制制度，建立了中华民国，推动了中国政治制度的现代化。其次，辛亥革命传播了民主共和观念，使民主共和思想深入人心，为后来的新文化运动、五四运动等奠定了思想基础。此外，辛亥革命也促进了中国民族资本主义的发展，推动了社会经济的现代化进程。然而，辛亥革命并未彻底改变中国的社会结构，封建残余势力依然存在，袁世凯的复辟帝制和北洋军阀的割据混战表明，革命成果的巩固和社会的全面变革还需要进一步的努力。",
+    "steps": [
+      "首先指出结束封建君主专制和建立中华民国",
+      "其次提到传播民主共和观念",
+      "然后说明对社会经济的影响",
+      "最后提到革命成果的局限性"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到政治影响而未提及社会经济",
+        "hint": "辛亥革命对社会经济也有重要影响"
+      }
+    ],
+    "exam_frequency": 1
+  }
+]

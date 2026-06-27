@@ -79,64 +79,9 @@
     return "帮我生成「" + name + "」的 TeachAny 交互式课件，知识点 ID 为 " + id + "。请按 TeachAny skill 规范输出完整 HTML 课件，包含教学目标、前测、核心讲解、真实互动模块、音频/视频资源、后测、知识图谱和质量校验。";
   }
 
-  function recordMakeCourseIntent(node, prompt) {
-    try {
-      if (window.TeachAnyHistory && typeof window.TeachAnyHistory.recordCreated === "function" && node) {
-        window.TeachAnyHistory.recordCreated("kg-intent-" + node.id, {
-          source: "knowledge-graph",
-          name: (node.name || node.id) + "（知识图谱制作意图）",
-          subject: node.subject || "",
-          grade: node.grade ? String(node.grade) : "",
-          node: node.id,
-          url: "",
-          prompt: prompt,
-          status: "draft"
-        });
-      }
-    } catch (_e) { /* ignore */ }
-  }
 
-  function renderMakeCourseBox(panel, node) {
-    if (!panel || !node) return;
-    var old = panel.querySelector(".tkg-make-course-box");
-    if (old) old.remove();
-    var prompt = coursewarePrompt(node);
-    var promptEl = h("div", { class: "tkg-prompt", text: prompt });
-    var feedback = h("span", { class: "tkg-copy-feedback", text: "已复制" });
-    var copyBtn = h("button", {
-      class: "tkg-make-course-btn secondary",
-      type: "button",
-      text: "📋 复制提示词",
-      on: {
-        click: function () {
-          var done = function () {
-            feedback.classList.add("visible");
-            setTimeout(function () { feedback.classList.remove("visible"); }, 1600);
-          };
-          if (navigator.clipboard && navigator.clipboard.writeText) {
-            navigator.clipboard.writeText(prompt).then(done).catch(done);
-          } else {
-            var ta = document.createElement("textarea");
-            ta.value = prompt;
-            document.body.appendChild(ta);
-            ta.select();
-            document.execCommand("copy");
-            document.body.removeChild(ta);
-            done();
-          }
-        }
-      }
-    });
-    var box = h("div", { class: "tkg-make-course-box" }, [
-      h("strong", { text: "✨ 制作课件" }),
-      h("p", { text: "复制下面提示词，在 CodeBuddy/TeachAny skill 中生成这个知识点的课件。" }),
-      promptEl,
-      h("div", { class: "tkg-make-actions" }, [copyBtn, feedback])
-    ]);
-    panel.appendChild(box);
-    panel.scrollTop = panel.scrollHeight;
-    recordMakeCourseIntent(node, prompt);
-  }
+
+
 
   function h(tag, attrs, children) {
     var svgTags = ["svg", "g", "circle", "line", "text", "path", "defs", "marker", "polygon", "rect"];
@@ -467,7 +412,6 @@
     } else {
       html += '<div class="gap-msg">该知识点暂无官方课件，欢迎贡献社区版本。</div>';
     }
-    html += '<button type="button" class="course-link tkg-make-course-btn" data-tkg-make-course="' + escapeHtml(node.id) + '">✨ 制作课件</button>';
     return html;
   }
 
@@ -580,10 +524,7 @@
       if (list.children.length) panel.appendChild(list);
     }
     panel.appendChild(h("button", {
-      class: "tkg-make-course-btn",
       type: "button",
-      text: "✨ 制作课件",
-      on: { click: function () { renderMakeCourseBox(panel, node); } }
     }));
   }
 
@@ -801,7 +742,6 @@
       var node = manifest.nodes[btn.getAttribute("data-tkg-make-course")];
       if (node) {
         focusNode(node.id);
-        renderMakeCourseBox(panel, node);
         scheduleHide();
       }
     });

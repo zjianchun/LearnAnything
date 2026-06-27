@@ -1,0 +1,242 @@
+[
+  {
+    "id": "hist-m-modern-china-development-q-001",
+    "node_id": "hist-m-modern-china-development",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "新中国成立的时间是？",
+    "options": [
+      "A. 1945年10月1日",
+      "B. 1949年10月1日",
+      "C. 1950年10月1日",
+      "D. 1951年10月1日"
+    ],
+    "answer": "B. 1949年10月1日",
+    "steps": [
+      "1. 明确新中国成立的具体时间",
+      "2. 记住1949年10月1日是中华人民共和国成立的日子",
+      "3. 对照选项选择正确答案"
+    ],
+    "common_errors": [
+      {
+        "error": "误选其他年份",
+        "hint": "牢记1949年10月1日是关键"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-modern-china-development-q-002",
+    "node_id": "hist-m-modern-china-development",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "新中国成立初期的国家性质是________。",
+    "answer": "社会主义国家",
+    "steps": [
+      "1. 回顾新中国成立初期的政治体制",
+      "2. 明确新中国是社会主义国家",
+      "3. 填写正确答案"
+    ],
+    "common_errors": [
+      {
+        "error": "填写资本主义国家",
+        "hint": "注意新中国是社会主义国家"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-modern-china-development-q-003",
+    "node_id": "hist-m-modern-china-development",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "新中国成立后的第一个五年计划开始于哪一年？",
+    "options": [
+      "A. 1949年",
+      "B. 1953年",
+      "C. 1956年",
+      "D. 1960年"
+    ],
+    "answer": "B. 1953年",
+    "steps": [
+      "1. 了解第一个五年计划的时间范围",
+      "2. 明确第一个五年计划开始于1953年",
+      "3. 选择正确答案"
+    ],
+    "common_errors": [
+      {
+        "error": "误选1949年",
+        "hint": "注意第一个五年计划是在新中国成立后几年开始的"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-modern-china-development-q-004",
+    "node_id": "hist-m-modern-china-development",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "新中国成立初期，我国在外交上提出了什么方针？",
+    "options": [
+      "A. 一边倒",
+      "B. 独立自主的和平外交",
+      "C. 另起炉灶",
+      "D. 打扫干净屋子再请客"
+    ],
+    "answer": "B. 独立自主的和平外交",
+    "steps": [
+      "1. 回顾新中国成立初期的外交政策",
+      "2. 了解独立自主的和平外交是新中国的基本外交方针",
+      "3. 对照选项选择正确答案"
+    ],
+    "common_errors": [
+      {
+        "error": "误选其他选项",
+        "hint": "注意独立自主的和平外交是基本方针"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-modern-china-development-q-005",
+    "node_id": "hist-m-modern-china-development",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述新中国成立对世界的影响。",
+    "answer": "新中国成立标志着占世界人口四分之一的中国人从此站起来了，极大地改变了世界政治格局，壮大了世界和平、民主和社会主义的力量，鼓舞了世界被压迫民族和被压迫人民争取解放的斗争。",
+    "steps": [
+      "1. 分析新中国成立对世界政治格局的影响",
+      "2. 考虑新中国成立对世界和平与发展的贡献",
+      "3. 总结新中国成立对世界被压迫民族和人民的影响"
+    ],
+    "common_errors": [
+      {
+        "error": "回答过于简略",
+        "hint": "需要全面考虑对世界政治格局、和平与发展等方面的影响"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-modern-china-development-q-006",
+    "node_id": "hist-m-modern-china-development",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "新中国成立初期，我国在经济建设中采取了什么策略？",
+    "options": [
+      "A. 优先发展重工业",
+      "B. 优先发展农业",
+      "C. 优先发展轻工业",
+      "D. 优先发展服务业"
+    ],
+    "answer": "A. 优先发展重工业",
+    "steps": [
+      "1. 了解新中国成立初期的经济政策",
+      "2. 明确优先发展重工业是当时的战略选择",
+      "3. 选择正确答案"
+    ],
+    "common_errors": [
+      {
+        "error": "误选其他选项",
+        "hint": "注意新中国成立初期重点发展重工业"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-modern-china-development-q-007",
+    "node_id": "hist-m-modern-china-development",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "新中国成立初期的土地改革开始于________年。",
+    "answer": "1950",
+    "steps": [
+      "1. 回顾土地改革的时间",
+      "2. 明确土地改革开始于1950年",
+      "3. 填写正确答案"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误年份",
+        "hint": "注意土地改革开始于1950年"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-modern-china-development-q-008",
+    "node_id": "hist-m-modern-china-development",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析新中国成立初期土地改革的意义。",
+    "answer": "土地改革彻底废除了封建剥削制度，解放了农村生产力，巩固了工农联盟和人民民主专政，为社会主义改造和社会主义建设创造了有利条件。",
+    "steps": [
+      "1. 分析土地改革对农村生产力的影响",
+      "2. 考虑土地改革对工农联盟的影响",
+      "3. 总结土地改革对社会主义改造和建设的影响"
+    ],
+    "common_errors": [
+      {
+        "error": "回答不完整",
+        "hint": "需要从多个角度分析土地改革的意义"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "hist-m-modern-china-development-q-009",
+    "node_id": "hist-m-modern-china-development",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "简述新中国成立后的经济建设成就。",
+    "answer": "新中国成立后的经济建设成就包括：完成了社会主义改造，建立了社会主义公有制经济；实施了第一个五年计划，取得了工业化的初步成果；农业基础设施建设取得进展，粮食产量稳步提高。",
+    "steps": [
+      "1. 回顾社会主义改造的完成情况",
+      "2. 总结第一个五年计划的成果",
+      "3. 列举农业基础设施建设成就"
+    ],
+    "common_errors": [
+      {
+        "error": "回答不全面",
+        "hint": "需要涵盖社会主义改造、工业化、农业等多个方面"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "hist-m-modern-china-development-q-010",
+    "node_id": "hist-m-modern-china-development",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "新中国成立初期，我国在国际上面临的主要挑战是什么？",
+    "options": [
+      "A. 经济封锁",
+      "B. 军事威胁",
+      "C. 政治孤立",
+      "D. 自然灾害"
+    ],
+    "answer": "A. 经济封锁",
+    "steps": [
+      "1. 分析新中国成立初期的国际环境",
+      "2. 了解西方国家对新中国的经济封锁政策",
+      "3. 选择正确答案"
+    ],
+    "common_errors": [
+      {
+        "error": "误选其他选项",
+        "hint": "注意经济封锁是当时的主要挑战"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

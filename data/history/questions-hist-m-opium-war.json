@@ -1,0 +1,213 @@
+[
+  {
+    "id": "hist-m-opium-war-q-001",
+    "node_id": "hist-m-opium-war",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "鸦片战争爆发于哪一年？",
+    "options": [
+      "A. 1839年",
+      "B. 1840年",
+      "C. 1841年",
+      "D. 1842年"
+    ],
+    "answer": "B. 1840年",
+    "steps": [
+      "鸦片战争是第一次中英战争，爆发于1840年6月。",
+      "英国以林则徐虎门销烟为借口发动战争。",
+      "因此，正确答案是1840年。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为战争爆发于1839年",
+        "hint": "虎门销烟发生在1839年，但战争爆发于1840年。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-opium-war-q-002",
+    "node_id": "hist-m-opium-war",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "鸦片战争后，中国被迫签订的第一个不平等条约是《______》。",
+    "answer": "南京条约",
+    "steps": [
+      "鸦片战争结束后，中英签订了《南京条约》。",
+      "这是中国近代史上第一个不平等条约。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填为《北京条约》",
+        "hint": "《北京条约》是在第二次鸦片战争后签订的。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-opium-war-q-003",
+    "node_id": "hist-m-opium-war",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "鸦片战争期间，清朝的主要领导者是：",
+    "options": [
+      "A. 道光帝",
+      "B. 咸丰帝",
+      "C. 光绪帝",
+      "D. 乾隆帝"
+    ],
+    "answer": "A. 道光帝",
+    "steps": [
+      "鸦片战争发生在1840-1842年。",
+      "道光帝在位时间为1820-1850年。",
+      "因此，正确答案是道光帝。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为咸丰帝是主要领导者",
+        "hint": "咸丰帝在位时间为1850-1861年，晚于鸦片战争。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-opium-war-q-004",
+    "node_id": "hist-m-opium-war",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "鸦片战争后，中国被迫开放的通商口岸中，不包括以下哪个城市？",
+    "options": [
+      "A. 广州",
+      "B. 厦门",
+      "C. 上海",
+      "D. 天津"
+    ],
+    "answer": "D. 天津",
+    "steps": [
+      "《南京条约》规定开放广州、厦门、福州、宁波、上海五处为通商口岸。",
+      "天津并非《南京条约》中规定的通商口岸。",
+      "因此，正确答案是天津。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为天津是《南京条约》中规定的通商口岸",
+        "hint": "天津是在第二次鸦片战争后开放的。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-opium-war-q-005",
+    "node_id": "hist-m-opium-war",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "鸦片战争期间，英军的主要战术是：",
+    "options": [
+      "A. 游击战",
+      "B. 运动战",
+      "C. 炮舰政策",
+      "D. 焦土政策"
+    ],
+    "answer": "C. 炮舰政策",
+    "steps": [
+      "鸦片战争期间，英军凭借其强大的海军力量，采用炮舰政策。",
+      "通过海上炮击和登陆作战，英军迅速突破清军防线。",
+      "因此，正确答案是炮舰政策。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为英军采用游击战",
+        "hint": "游击战并非英军在鸦片战争中的主要战术。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-opium-war-q-006",
+    "node_id": "hist-m-opium-war",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "鸦片战争后，清政府被迫支付赔款共计______银元。",
+    "answer": "2100万",
+    "steps": [
+      "《南京条约》规定清政府向英国支付赔款2100万银元。",
+      "这笔赔款加剧了清政府的财政负担。"
+    ],
+    "common_errors": [
+      {
+        "error": "误填为3000万",
+        "hint": "3000万银元是《北京条约》中的赔款数额。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-opium-war-q-007",
+    "node_id": "hist-m-opium-war",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述鸦片战争对中国社会的影响。",
+    "answer": "鸦片战争后，中国开始沦为半殖民地半封建社会。经济上，中国被迫打开国门，外国商品大量涌入，冲击了传统手工业；政治上，清政府的统治受到挑战，国家主权开始丧失；思想上，中国的有识之士开始觉醒，寻求救亡图存的道路。",
+    "steps": [
+      "分析鸦片战争对中国经济、政治、思想的影响。",
+      "结合史实，指出中国社会性质的变化。",
+      "总结鸦片战争对中国社会的深远影响。"
+    ],
+    "common_errors": [
+      {
+        "error": "只关注经济影响，忽略政治和思想影响",
+        "hint": "鸦片战争的影响是全方位的，需全面分析。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-opium-war-q-008",
+    "node_id": "hist-m-opium-war",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析鸦片战争爆发的根本原因。",
+    "answer": "鸦片战争爆发的根本原因是英国工业革命后，资本主义经济迅速发展，需要开拓海外市场和原料产地。中国自给自足的封建经济制度和闭关锁国政策阻碍了英国的经济扩张。此外，清政府的腐败无能也使得英国有机可乘。",
+    "steps": [
+      "分析英国发动战争的经济动因。",
+      "探讨中国当时的政治经济状况。",
+      "总结战争爆发的根本原因。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为是虎门销烟引发了战争",
+        "hint": "虎门销烟只是导火索，根本原因在于经济利益的冲突。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "hist-m-opium-war-q-009",
+    "node_id": "hist-m-opium-war",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "比较鸦片战争前后中国社会性质的变化。",
+    "answer": "鸦片战争前，中国是一个独立的封建国家，封建自然经济占主导地位。鸦片战争后，中国开始沦为半殖民地半封建社会，国家主权受到侵犯，外国资本主义经济开始侵入，传统封建经济逐渐解体。",
+    "steps": [
+      "分析鸦片战争前中国的社会性质。",
+      "探讨鸦片战争后中国社会性质的变化。",
+      "总结鸦片战争对中国社会性质的影响。"
+    ],
+    "common_errors": [
+      {
+        "error": "忽略半殖民地半封建社会的特点",
+        "hint": "需明确指出中国社会的半殖民地半封建性质。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]
