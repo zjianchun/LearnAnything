@@ -1,0 +1,244 @@
+[
+  {
+    "id": "bio-m-circulation-respiration-q-001",
+    "node_id": "bio-m-circulation-respiration",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "人体心脏的四个腔中，壁最厚的是哪个？",
+    "options": [
+      "A. 左心房",
+      "B. 右心房",
+      "C. 左心室",
+      "D. 右心室"
+    ],
+    "answer": "C. 左心室",
+    "steps": [
+      "1. 心脏的四个腔分别是左心房、右心房、左心室和右心室。",
+      "2. 左心室负责将血液泵入全身，因此需要更大的压力和力量。",
+      "3. 为了提供更大的压力，左心室的壁是最厚的。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选右心室",
+        "hint": "右心室负责将血液泵入肺循环，压力较小，壁较薄。"
+      },
+      {
+        "error": "误选左心房",
+        "hint": "左心房接收来自肺部的血液，壁较薄。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "bio-m-circulation-respiration-q-002",
+    "node_id": "bio-m-circulation-respiration",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "人体呼吸运动中，_________（填器官名称）收缩时，胸廓容积增大，气体进入肺。",
+    "answer": "膈肌",
+    "steps": [
+      "1. 呼吸运动包括吸气和呼气两个过程。",
+      "2. 吸气时，膈肌收缩，胸廓容积增大，气体进入肺。",
+      "3. 呼气时，膈肌舒张，胸廓容积减小，气体排出体外。"
+    ],
+    "common_errors": [
+      {
+        "error": "填成肋间肌",
+        "hint": "肋间肌收缩时也会导致胸廓容积增大，但主要负责的是膈肌。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-circulation-respiration-q-003",
+    "node_id": "bio-m-circulation-respiration",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列哪种血管中流动的是含氧量低的静脉血？",
+    "options": [
+      "A. 肺动脉",
+      "B. 肺静脉",
+      "C. 主动脉",
+      "D. 上腔静脉"
+    ],
+    "answer": "A. 肺动脉",
+    "steps": [
+      "1. 肺动脉将含氧量低的静脉血从心脏输送到肺部。",
+      "2. 肺静脉将含氧量高的动脉血从肺部输送到心脏。",
+      "3. 主动脉和上腔静脉分别输送动脉血和静脉血。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B. 肺静脉",
+        "hint": "肺静脉输送的是含氧量高的动脉血。"
+      },
+      {
+        "error": "误选D. 上腔静脉",
+        "hint": "上腔静脉输送的是含氧量低的静脉血，但题目要求的是流动在肺循环中的血管。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "bio-m-circulation-respiration-q-004",
+    "node_id": "bio-m-circulation-respiration",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "人体血液循环中，_________（填血管名称）将动脉血输送到全身各部位。",
+    "answer": "主动脉",
+    "steps": [
+      "1. 血液循环分为体循环和肺循环。",
+      "2. 体循环中，左心室将动脉血泵入主动脉。",
+      "3. 主动脉将动脉血输送到全身各部位。"
+    ],
+    "common_errors": [
+      {
+        "error": "填成肺动脉",
+        "hint": "肺动脉输送的是静脉血。"
+      },
+      {
+        "error": "填成上腔静脉",
+        "hint": "上腔静脉输送的是静脉血。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-circulation-respiration-q-005",
+    "node_id": "bio-m-circulation-respiration",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请解释肺循环中血液成分的变化过程。",
+    "answer": "在肺循环中，血液从右心室进入肺动脉，流经肺部毛细血管网时，血液中的二氧化碳通过肺泡壁扩散到肺泡中，而肺泡中的氧气则扩散到血液中，使血液中的含氧量增加，二氧化碳含量减少，血液由静脉血变为动脉血。",
+    "steps": [
+      "1. 血液从右心室进入肺动脉。",
+      "2. 血液流经肺部毛细血管网。",
+      "3. 二氧化碳通过肺泡壁扩散到肺泡中，氧气从肺泡扩散到血液中。",
+      "4. 血液由静脉血变为动脉血。"
+    ],
+    "common_errors": [
+      {
+        "error": "认为血液成分没有变化",
+        "hint": "在肺循环中，血液的含氧量和二氧化碳含量都会发生变化。"
+      },
+      {
+        "error": "认为血液变为静脉血",
+        "hint": "在肺循环中，血液由静脉血变为动脉血。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-circulation-respiration-q-006",
+    "node_id": "bio-m-circulation-respiration",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列关于人体呼吸系统的说法，正确的是哪个？",
+    "options": [
+      "A. 呼吸系统由呼吸道和肺组成",
+      "B. 呼吸道仅包括气管和支气管",
+      "C. 肺是气体交换的主要场所",
+      "D. 呼吸运动仅靠肋间肌完成"
+    ],
+    "answer": "C. 肺是气体交换的主要场所",
+    "steps": [
+      "1. 呼吸系统由呼吸道和肺组成，但呼吸道包括鼻、咽、喉、气管和支气管。",
+      "2. 肺是气体交换的主要场所。",
+      "3. 呼吸运动由肋间肌和膈肌共同完成。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A",
+        "hint": "呼吸道不仅包括气管和支气管，还包括鼻、咽、喉。"
+      },
+      {
+        "error": "误选D",
+        "hint": "呼吸运动由肋间肌和膈肌共同完成。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "bio-m-circulation-respiration-q-007",
+    "node_id": "bio-m-circulation-respiration",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释体循环中血液成分的变化过程。",
+    "answer": "在体循环中，血液从左心室进入主动脉，流经全身各部位的毛细血管网时，血液中的氧气通过毛细血管壁扩散到组织细胞中，而组织细胞中的二氧化碳则扩散到血液中，使血液中的含氧量减少，二氧化碳含量增加，血液由动脉血变为静脉血。",
+    "steps": [
+      "1. 血液从左心室进入主动脉。",
+      "2. 血液流经全身各部位的毛细血管网。",
+      "3. 氧气通过毛细血管壁扩散到组织细胞中，二氧化碳从组织细胞扩散到血液中。",
+      "4. 血液由动脉血变为静脉血。"
+    ],
+    "common_errors": [
+      {
+        "error": "认为血液成分没有变化",
+        "hint": "在体循环中，血液的含氧量和二氧化碳含量都会发生变化。"
+      },
+      {
+        "error": "认为血液变为动脉血",
+        "hint": "在体循环中，血液由动脉血变为静脉血。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-circulation-respiration-q-008",
+    "node_id": "bio-m-circulation-respiration",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "人体血液循环中，_________（填血管名称）将静脉血输送到肺部进行气体交换。",
+    "answer": "肺动脉",
+    "steps": [
+      "1. 肺循环中，血液从右心室进入肺动脉。",
+      "2. 肺动脉将静脉血输送到肺部进行气体交换。",
+      "3. 肺静脉将动脉血从肺部输送到心脏。"
+    ],
+    "common_errors": [
+      {
+        "error": "填成肺静脉",
+        "hint": "肺静脉输送的是动脉血。"
+      },
+      {
+        "error": "填成主动脉",
+        "hint": "主动脉输送的是动脉血。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-circulation-respiration-q-009",
+    "node_id": "bio-m-circulation-respiration",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请说明人体血液循环系统与呼吸系统的关系。",
+    "answer": "人体血液循环系统与呼吸系统密切相关。呼吸系统负责将氧气从外界吸入体内，并将二氧化碳排出体外。而血液循环系统则负责将氧气输送到全身各部位，并将二氧化碳从全身各部位带回肺部进行气体交换。具体来说，肺循环中，血液在肺部进行气体交换，氧气进入血液，二氧化碳排出体外；体循环中，血液将氧气输送到全身各部位，并将二氧化碳带回肺部。",
+    "steps": [
+      "1. 呼吸系统负责吸入氧气和排出二氧化碳。",
+      "2. 血液循环系统负责运输氧气和二氧化碳。",
+      "3. 肺循环中，血液在肺部进行气体交换。",
+      "4. 体循环中，血液将氧气输送到全身各部位，并将二氧化碳带回肺部。"
+    ],
+    "common_errors": [
+      {
+        "error": "认为两者没有直接关系",
+        "hint": "两者之间存在密切的协作关系。"
+      },
+      {
+        "error": "认为呼吸系统负责运输氧气",
+        "hint": "呼吸系统仅负责气体交换，运输由血液循环系统完成。"
+      }
+    ],
+    "exam_frequency": 4
+  }
+]

@@ -1,0 +1,244 @@
+[
+  {
+    "id": "bio-m-respiratory-system-q-001",
+    "node_id": "bio-m-respiratory-system",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "人体呼吸系统中，气体交换的主要场所是？",
+    "options": [
+      "A. 鼻腔",
+      "B. 气管",
+      "C. 支气管",
+      "D. 肺泡"
+    ],
+    "answer": "D. 肺泡",
+    "steps": [
+      "1. 理解呼吸系统的主要功能是进行气体交换",
+      "2. 回顾气体交换发生在肺泡中，因为肺泡壁薄且有丰富的毛细血管网",
+      "3. 排除其他选项，因为它们主要是气体进出肺部的通道"
+    ],
+    "common_errors": [
+      {
+        "error": "误选鼻腔",
+        "hint": "鼻腔只是气体进入体内的通道，不是气体交换的主要场所"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "bio-m-respiratory-system-q-002",
+    "node_id": "bio-m-respiratory-system",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "呼吸运动包括________和________两个过程。",
+    "answer": "吸气, 呼气",
+    "steps": [
+      "1. 理解呼吸运动是肺通气的过程",
+      "2. 回顾呼吸运动包括吸气和呼气两个阶段",
+      "3. 填写正确答案"
+    ],
+    "common_errors": [
+      {
+        "error": "填写'呼入'和'呼出'",
+        "hint": "注意呼吸运动的专业术语是'吸气'和'呼气'"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-respiratory-system-q-003",
+    "node_id": "bio-m-respiratory-system",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列哪一项不是呼吸系统的功能？",
+    "options": [
+      "A. 进行气体交换",
+      "B. 调节体温",
+      "C. 发出声音",
+      "D. 过滤空气"
+    ],
+    "answer": "B. 调节体温",
+    "steps": [
+      "1. 回顾呼吸系统的基本功能",
+      "2. 分析每个选项：气体交换是主要功能，发出声音与喉部有关，过滤空气是鼻腔的功能",
+      "3. 确认调节体温不是呼吸系统的功能，而是循环系统的功能之一"
+    ],
+    "common_errors": [
+      {
+        "error": "误选D",
+        "hint": "过滤空气确实是呼吸系统的功能之一"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-respiratory-system-q-004",
+    "node_id": "bio-m-respiratory-system",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "在呼吸过程中，氧气进入血液的方式是？",
+    "options": [
+      "A. 主动运输",
+      "B. 被动扩散",
+      "C. 胞吞",
+      "D. 胞吐"
+    ],
+    "answer": "B. 被动扩散",
+    "steps": [
+      "1. 理解气体交换的原理",
+      "2. 回顾氧气从肺泡进入血液的过程：肺泡中氧气浓度高，血液中氧气浓度低",
+      "3. 确定氧气通过被动扩散进入血液",
+      "4. 排除其他选项，因为它们不符合气体交换的原理"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A",
+        "hint": "主动运输需要消耗能量，而气体交换是自发的过程"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-respiratory-system-q-005",
+    "node_id": "bio-m-respiratory-system",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请解释为什么在剧烈运动后我们会感到呼吸急促。",
+    "answer": "剧烈运动时，身体需要更多的氧气来产生能量，同时产生更多的二氧化碳。呼吸急促是为了增加肺通气量，以便吸入更多的氧气并排出更多的二氧化碳。",
+    "steps": [
+      "1. 理解剧烈运动对氧气和二氧化碳的需求变化",
+      "2. 解释呼吸急促的原因：增加肺通气量",
+      "3. 总结：呼吸急促是为了满足身体对氧气和二氧化碳交换的需求"
+    ],
+    "common_errors": [
+      {
+        "error": "解释过于简单",
+        "hint": "需要结合氧气和二氧化碳的需求变化来解释"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-respiratory-system-q-006",
+    "node_id": "bio-m-respiratory-system",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列关于肺泡的描述，哪一项是正确的？",
+    "options": [
+      "A. 肺泡壁很薄，仅由一层扁平上皮细胞构成",
+      "B. 肺泡内有丰富的毛细血管网",
+      "C. 肺泡是气体交换的场所",
+      "D. 以上都对"
+    ],
+    "answer": "D. 以上都对",
+    "steps": [
+      "1. 分析每个选项的正确性",
+      "2. 确认肺泡壁薄且有毛细血管网",
+      "3. 确认肺泡是气体交换的场所",
+      "4. 选择D，因为所有描述都正确"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A或B",
+        "hint": "虽然A和B都正确，但D是更完整的答案"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "bio-m-respiratory-system-q-007",
+    "node_id": "bio-m-respiratory-system",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "人体呼吸过程中，________是氧气和二氧化碳交换的主要场所。",
+    "answer": "肺泡",
+    "steps": [
+      "1. 理解呼吸过程中气体交换的场所",
+      "2. 回顾肺泡的结构和功能",
+      "3. 填写正确答案"
+    ],
+    "common_errors": [
+      {
+        "error": "填写'肺'",
+        "hint": "虽然气体交换发生在肺中，但更准确的答案是'肺泡'"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-respiratory-system-q-008",
+    "node_id": "bio-m-respiratory-system",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请描述呼吸运动中肋间肌和膈肌的变化。",
+    "answer": "吸气时，肋间肌收缩，肋骨上提，胸廓扩大，同时膈肌收缩，膈顶下降，胸腔体积增大，肺内气压下降，气体进入肺部。呼气时，肋间肌和膈肌舒张，肋骨下降，胸廓缩小，膈顶上升，胸腔体积减小，肺内气压升高，气体排出体外。",
+    "steps": [
+      "1. 描述吸气时肋间肌和膈肌的变化",
+      "2. 描述呼气时肋间肌和膈肌的变化",
+      "3. 总结呼吸运动中肌肉的变化对肺通气的影响"
+    ],
+    "common_errors": [
+      {
+        "error": "描述不完整",
+        "hint": "需要详细描述肋间肌和膈肌在吸气和呼气时的变化"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-respiratory-system-q-009",
+    "node_id": "bio-m-respiratory-system",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "下列关于呼吸系统的描述，哪一项是错误的？",
+    "options": [
+      "A. 呼吸系统包括呼吸道和肺",
+      "B. 呼吸道分为上呼吸道和下呼吸道",
+      "C. 肺是唯一进行气体交换的器官",
+      "D. 鼻腔是呼吸道的一部分"
+    ],
+    "answer": "C. 肺是唯一进行气体交换的器官",
+    "steps": [
+      "1. 分析每个选项的正确性",
+      "2. 确认A、B、D的描述都是正确的",
+      "3. 指出C是错误的，因为肺泡而不是整个肺是气体交换的场所"
+    ],
+    "common_errors": [
+      {
+        "error": "误选D",
+        "hint": "鼻腔确实是呼吸道的一部分"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-respiratory-system-q-010",
+    "node_id": "bio-m-respiratory-system",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释为什么吸烟会对呼吸系统造成伤害。",
+    "answer": "吸烟时，烟草中的有害物质如尼古丁、焦油等会进入呼吸道和肺。尼古丁会使人上瘾，焦油会积聚在呼吸道和肺中，刺激支气管，加重感染，并可能导致肺癌。此外，吸烟还会破坏肺泡的结构，影响气体交换，导致呼吸功能下降。",
+    "steps": [
+      "1. 解释吸烟时有害物质的进入途径",
+      "2. 说明有害物质对呼吸系统的具体影响",
+      "3. 总结吸烟对呼吸系统的长期危害"
+    ],
+    "common_errors": [
+      {
+        "error": "解释不全面",
+        "hint": "需要详细说明吸烟对呼吸系统的多方面影响"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

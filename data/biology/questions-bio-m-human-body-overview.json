@@ -1,0 +1,208 @@
+[
+  {
+    "id": "bio-m-human-body-overview-q-001",
+    "node_id": "bio-m-human-body-overview",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "人体最大的器官是以下哪一个？",
+    "options": [
+      "A. 心脏",
+      "B. 肺",
+      "C. 皮肤",
+      "D. 肝脏"
+    ],
+    "answer": "C. 皮肤",
+    "steps": [
+      "1. 回顾人体主要器官的功能和大小。",
+      "2. 心脏主要负责血液循环，肺负责呼吸，肝脏负责代谢。",
+      "3. 皮肤是覆盖全身的器官，面积最大。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为心脏或肝脏是最大的器官。",
+        "hint": "心脏和肝脏虽然重要，但面积远小于皮肤。"
+      },
+      {
+        "error": "误认为肺是最大的器官。",
+        "hint": "肺的体积较大，但面积小于皮肤。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "bio-m-human-body-overview-q-002",
+    "node_id": "bio-m-human-body-overview",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "人体有______块骨头。",
+    "answer": "206",
+    "steps": [
+      "1. 回忆人体骨骼系统的基本知识。",
+      "2. 成人人体共有206块骨头。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误数量，如300或100。",
+        "hint": "注意成人人体骨骼数量是206块。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-human-body-overview-q-003",
+    "node_id": "bio-m-human-body-overview",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "以下哪一项不属于人体八大系统之一？",
+    "options": [
+      "A. 消化系统",
+      "B. 循环系统",
+      "C. 运动系统",
+      "D. 能量系统"
+    ],
+    "answer": "D. 能量系统",
+    "steps": [
+      "1. 回顾人体八大系统：消化系统、循环系统、呼吸系统、泌尿系统、运动系统、神经系统、内分泌系统、生殖系统。",
+      "2. 确认能量系统不是人体八大系统之一。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为能量系统是人体八大系统之一。",
+        "hint": "人体八大系统中没有能量系统。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-human-body-overview-q-004",
+    "node_id": "bio-m-human-body-overview",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "人体中，负责运输氧气和二氧化碳的细胞是？",
+    "options": [
+      "A. 白细胞",
+      "B. 红细胞",
+      "C. 血小板",
+      "D. 淋巴细胞"
+    ],
+    "answer": "B. 红细胞",
+    "steps": [
+      "1. 回顾血液中各种细胞的功能。",
+      "2. 红细胞负责运输氧气和二氧化碳。",
+      "3. 白细胞负责免疫反应，血小板负责凝血，淋巴细胞参与免疫。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为白细胞或淋巴细胞负责运输氧气和二氧化碳。",
+        "hint": "白细胞和淋巴细胞主要参与免疫反应。"
+      },
+      {
+        "error": "误认为血小板负责运输氧气和二氧化碳。",
+        "hint": "血小板主要功能是凝血。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-human-body-overview-q-005",
+    "node_id": "bio-m-human-body-overview",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "人体消化系统中，______是主要的消化和吸收场所。",
+    "answer": "小肠",
+    "steps": [
+      "1. 回顾消化系统的组成和功能。",
+      "2. 小肠是消化和吸收的主要场所。",
+      "3. 胃主要进行初步消化，大肠主要吸收水分。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误，如胃或大肠。",
+        "hint": "胃主要进行初步消化，大肠主要吸收水分。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "bio-m-human-body-overview-q-006",
+    "node_id": "bio-m-human-body-overview",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述人体循环系统的组成和功能。",
+    "answer": "人体循环系统由心脏、血管和血液组成。心脏是泵血的动力器官，血管分为动脉、静脉和毛细血管，血液负责运输氧气、营养物质和代谢废物。",
+    "steps": [
+      "1. 列出循环系统的组成部分：心脏、血管、血液。",
+      "2. 描述心脏的功能：泵血。",
+      "3. 描述血管的分类和功能。",
+      "4. 描述血液的功能：运输氧气、营养物质和代谢废物。"
+    ],
+    "common_errors": [
+      {
+        "error": "遗漏心脏或血管的描述。",
+        "hint": "循环系统由心脏、血管和血液组成。"
+      },
+      {
+        "error": "描述不完整，如只提到运输氧气。",
+        "hint": "血液还运输营养物质和代谢废物。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-human-body-overview-q-007",
+    "node_id": "bio-m-human-body-overview",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释人体神经系统如何协调身体各部分的活动。",
+    "answer": "人体神经系统分为中枢神经系统和周围神经系统。中枢神经系统包括脑和脊髓，负责处理信息并发出指令。周围神经系统包括脑神经和脊神经，负责将指令传递到身体各部分，并将感觉信息传回中枢神经系统。",
+    "steps": [
+      "1. 描述神经系统的组成：中枢神经系统和周围神经系统。",
+      "2. 解释中枢神经系统的功能：处理信息和发出指令。",
+      "3. 解释周围神经系统的功能：传递指令和感觉信息。",
+      "4. 说明神经系统如何协调身体活动：中枢神经系统发出指令，周围神经系统传递指令到各部分。"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆中枢神经系统和周围神经系统的功能。",
+        "hint": "中枢神经系统负责处理信息和发出指令，周围神经系统负责传递指令和感觉信息。"
+      },
+      {
+        "error": "描述不完整，遗漏某个重要组成部分。",
+        "hint": "神经系统包括中枢神经系统和周围神经系统。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-human-body-overview-q-008",
+    "node_id": "bio-m-human-body-overview",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析人体内分泌系统如何调节新陈代谢。",
+    "answer": "人体内分泌系统通过分泌激素来调节新陈代谢。例如，甲状腺分泌的甲状腺激素可以促进细胞代谢，增加能量消耗；胰岛素可以降低血糖，促进葡萄糖的利用和储存。内分泌系统通过激素的调节作用，维持人体内环境的稳定。",
+    "steps": [
+      "1. 解释内分泌系统的功能：通过分泌激素调节新陈代谢。",
+      "2. 举例说明激素的作用：甲状腺激素促进细胞代谢，胰岛素降低血糖。",
+      "3. 解释内分泌系统如何维持内环境稳定：通过激素的调节作用。"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆内分泌系统和神经系统。",
+        "hint": "内分泌系统通过激素调节新陈代谢，神经系统通过神经信号传递信息。"
+      },
+      {
+        "error": "描述不完整，遗漏某个重要激素的作用。",
+        "hint": "甲状腺激素和胰岛素是调节新陈代谢的重要激素。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

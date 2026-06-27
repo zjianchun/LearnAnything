@@ -1,0 +1,183 @@
+[
+  {
+    "id": "math-m-geometry-congruent-triangles-q-001",
+    "node_id": "math-m-geometry-congruent-triangles",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "如图，已知△ABC≌△DEF，∠A=∠D，∠B=∠E，AB=DE，那么下列等式中错误的是（）",
+    "options": [
+      "A. ∠C=∠F",
+      "B. AC=DF",
+      "C. BC=EF",
+      "D. AC=EF"
+    ],
+    "answer": "D. AC=EF",
+    "steps": [
+      "根据全等三角形的性质，对应边相等，对应角相等。",
+      "已知△ABC≌△DEF，则有∠A=∠D，∠B=∠E，AB=DE。",
+      "根据对应边相等，AC应等于DF，BC应等于EF。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为AC=EF",
+        "hint": "根据全等三角形的对应关系，AC应与DF对应，BC应与EF对应。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-geometry-congruent-triangles-q-002",
+    "node_id": "math-m-geometry-congruent-triangles",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "如图，已知△ABC≌△DEF，AB=5cm，BC=6cm，AC=7cm，则DE的长度为________cm。",
+    "answer": "5",
+    "steps": [
+      "根据全等三角形的性质，对应边相等。",
+      "已知△ABC≌△DEF，则有AB=DE，BC=EF，AC=DF。",
+      "因此，DE的长度等于AB的长度，即5cm。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为DE等于其他边长",
+        "hint": "根据全等三角形的对应关系，DE应与AB对应。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-geometry-congruent-triangles-q-003",
+    "node_id": "math-m-geometry-congruent-triangles",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "如图，已知△ABC≌△DEF，∠C=70°，则∠F的度数为（）",
+    "options": [
+      "A. 70°",
+      "B. 110°",
+      "C. 55°",
+      "D. 90°"
+    ],
+    "answer": "A. 70°",
+    "steps": [
+      "根据全等三角形的性质，对应角相等。",
+      "已知△ABC≌△DEF，则有∠C=∠F。",
+      "因此，∠F的度数等于∠C的度数，即70°。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为∠F等于其他角度",
+        "hint": "根据全等三角形的对应关系，∠F应与∠C对应。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-geometry-congruent-triangles-q-004",
+    "node_id": "math-m-geometry-congruent-triangles",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "如图，已知△ABC≌△DEF，∠A=50°，∠B=60°，求∠E的度数。",
+    "answer": "解：\n1. 根据三角形内角和定理，△ABC中，∠A + ∠B + ∠C = 180°。\n2. 代入已知条件，50° + 60° + ∠C = 180°，解得∠C = 70°。\n3. 根据全等三角形的性质，∠E = ∠B = 60°。\n4. 因此，∠E的度数为60°。",
+    "steps": [
+      "根据三角形内角和定理，△ABC中，∠A + ∠B + ∠C = 180°。",
+      "代入已知条件，50° + 60° + ∠C = 180°，解得∠C = 70°。",
+      "根据全等三角形的性质，∠E = ∠B = 60°。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为∠E等于∠A",
+        "hint": "根据全等三角形的对应关系，∠E应与∠B对应。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-geometry-congruent-triangles-q-005",
+    "node_id": "math-m-geometry-congruent-triangles",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "如图，已知△ABC≌△DEF，AB=8cm，BC=10cm，AC=12cm，求△DEF的周长。",
+    "answer": "解：\n1. 根据全等三角形的性质，对应边相等。\n2. 则有AB=DE=8cm，BC=EF=10cm，AC=DF=12cm。\n3. △DEF的周长为DE + EF + DF = 8cm + 10cm + 12cm = 30cm。\n4. 因此，△DEF的周长为30cm。",
+    "steps": [
+      "根据全等三角形的性质，对应边相等。",
+      "则有AB=DE=8cm，BC=EF=10cm，AC=DF=12cm。",
+      "△DEF的周长为DE + EF + DF = 8cm + 10cm + 12cm = 30cm。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为△DEF的周长等于△ABC的周长",
+        "hint": "根据全等三角形的性质，对应边相等，因此可以直接计算△DEF的周长。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-geometry-congruent-triangles-q-006",
+    "node_id": "math-m-geometry-congruent-triangles",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "如图，已知△ABC≌△DEF，∠A=40°，∠C=80°，求∠D的度数。",
+    "answer": "解：\n1. 根据三角形内角和定理，△ABC中，∠A + ∠B + ∠C = 180°。\n2. 代入已知条件，40° + ∠B + 80° = 180°，解得∠B = 60°。\n3. 根据全等三角形的性质，∠D = ∠B = 60°。\n4. 因此，∠D的度数为60°。",
+    "steps": [
+      "根据三角形内角和定理，△ABC中，∠A + ∠B + ∠C = 180°。",
+      "代入已知条件，40° + ∠B + 80° = 180°，解得∠B = 60°。",
+      "根据全等三角形的性质，∠D = ∠B = 60°。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为∠D等于∠A",
+        "hint": "根据全等三角形的对应关系，∠D应与∠B对应。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-geometry-congruent-triangles-q-007",
+    "node_id": "math-m-geometry-congruent-triangles",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "如图，已知△ABC≌△DEF，AB=6cm，BC=8cm，AC=10cm，∠A=90°，求△DEF的面积。",
+    "answer": "解：\n1. 根据全等三角形的性质，对应边相等，对应角相等。\n2. 则有AB=DE=6cm，BC=EF=8cm，AC=DF=10cm，∠A=∠D=90°。\n3. △DEF是直角三角形，面积为(1/2) × DE × DF = (1/2) × 6cm × 10cm = 30cm²。\n4. 因此，△DEF的面积为30cm²。",
+    "steps": [
+      "根据全等三角形的性质，对应边相等，对应角相等。",
+      "则有AB=DE=6cm，BC=EF=8cm，AC=DF=10cm，∠A=∠D=90°。",
+      "△DEF是直角三角形，面积为(1/2) × DE × DF = (1/2) × 6cm × 10cm = 30cm²。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为△DEF不是直角三角形",
+        "hint": "根据已知条件，∠A=90°，因此△DEF也是直角三角形。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "math-m-geometry-congruent-triangles-q-008",
+    "node_id": "math-m-geometry-congruent-triangles",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "如图，已知△ABC≌△DEF，AB=5cm，BC=7cm，AC=9cm，∠A=30°，求△DEF的各边长和∠D的度数。",
+    "answer": "解：\n1. 根据全等三角形的性质，对应边相等，对应角相等。\n2. 则有AB=DE=5cm，BC=EF=7cm，AC=DF=9cm，∠A=∠D=30°。\n3. 因此，△DEF的各边长为DE=5cm，EF=7cm，DF=9cm。\n4. ∠D的度数为30°。",
+    "steps": [
+      "根据全等三角形的性质，对应边相等，对应角相等。",
+      "则有AB=DE=5cm，BC=EF=7cm，AC=DF=9cm，∠A=∠D=30°。",
+      "因此，△DEF的各边长为DE=5cm，EF=7cm，DF=9cm。",
+      "∠D的度数为30°。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为∠D不等于∠A",
+        "hint": "根据全等三角形的对应关系，∠D应与∠A对应。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

@@ -1,0 +1,239 @@
+[
+  {
+    "id": "chn-m-poetry-appreciation-q-001",
+    "node_id": "chn-m-poetry-appreciation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列诗句中，哪一句描写的是春天的景色？",
+    "options": [
+      "A. 停车坐爱枫林晚，霜叶红于二月花",
+      "B. 随风潜入夜，润物细无声",
+      "C. 孤舟蓑笠翁，独钓寒江雪",
+      "D. 接天莲叶无穷碧，映日荷花别样红"
+    ],
+    "answer": "B. 随风潜入夜，润物细无声",
+    "steps": [
+      "1. 分析每句诗的意象和季节特征",
+      "2. A选项描写的是秋天，C选项描写的是冬天，D选项描写的是夏天",
+      "3. B选项中'润物细无声'描写的是春雨，符合春天的特征"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A选项",
+        "hint": "A选项中的'霜叶'是秋天的典型意象"
+      },
+      {
+        "error": "误选D选项",
+        "hint": "D选项中的'荷花'是夏天的典型意象"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chn-m-poetry-appreciation-q-002",
+    "node_id": "chn-m-poetry-appreciation",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "《静夜思》中表达诗人思乡之情的句子是：'举头望明月，________。'",
+    "answer": "低头思故乡",
+    "steps": [
+      "1. 回忆《静夜思》的全文",
+      "2. 找到表达诗人情感的句子",
+      "3. 填写下半句"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误，如'低头思家人'",
+        "hint": "注意诗句的准确记忆"
+      },
+      {
+        "error": "填写不完整",
+        "hint": "确保填写完整的句子"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "chn-m-poetry-appreciation-q-003",
+    "node_id": "chn-m-poetry-appreciation",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列诗句中，哪一句运用了比喻的修辞手法？",
+    "options": [
+      "A. 不知细叶谁裁出，二月春风似剪刀",
+      "B. 白毛浮绿水，红掌拨清波",
+      "C. 举头望明月，低头思故乡",
+      "D. 孤帆远影碧空尽，唯见长江天际流"
+    ],
+    "answer": "A. 不知细叶谁裁出，二月春风似剪刀",
+    "steps": [
+      "1. 分析每句诗的修辞手法",
+      "2. 找出运用比喻手法的句子",
+      "3. A选项中'二月春风似剪刀'是明显的比喻"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B选项",
+        "hint": "B选项是描写动作，没有运用比喻"
+      },
+      {
+        "error": "误选C选项",
+        "hint": "C选项是直抒胸臆，没有运用比喻"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chn-m-poetry-appreciation-q-004",
+    "node_id": "chn-m-poetry-appreciation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "分析《望庐山瀑布》中'飞流直下三千尺，疑是银河落九天'这两句诗的表达效果。",
+    "answer": "这两句诗运用了夸张和比喻的修辞手法，形象地描绘了瀑布的雄伟壮观。'飞流直下三千尺'运用夸张手法，突出了瀑布的落差之大；'疑是银河落九天'运用比喻手法，将瀑布比作银河，生动地表现了瀑布的壮丽景象。",
+    "steps": [
+      "1. 分析诗句中运用的修辞手法",
+      "2. 解释修辞手法的表达效果",
+      "3. 结合诗句内容进行具体分析"
+    ],
+    "common_errors": [
+      {
+        "error": "未指出修辞手法",
+        "hint": "注意分析诗句中的夸张和比喻"
+      },
+      {
+        "error": "分析过于简略",
+        "hint": "需要结合诗句内容进行具体分析"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chn-m-poetry-appreciation-q-005",
+    "node_id": "chn-m-poetry-appreciation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述《早寒江上有怀》中'木落雁南度，北风江上寒'这两句诗的意境。",
+    "answer": "这两句诗描绘了一幅秋天萧瑟的景象。'木落'指树木凋零，'雁南度'指大雁南飞，'北风'指寒冷的北风，'江上寒'指江面上寒冷的空气。整幅画面充满了凄凉和寒冷的氛围，表达了诗人内心的孤寂和惆怅。",
+    "steps": [
+      "1. 解释诗句中关键词的含义",
+      "2. 分析诗句描绘的景象",
+      "3. 结合诗人情感进行意境分析"
+    ],
+    "common_errors": [
+      {
+        "error": "未结合诗人情感",
+        "hint": "注意分析诗句所表达的意境和情感"
+      },
+      {
+        "error": "分析过于表面",
+        "hint": "需要深入分析诗句所营造的意境"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chn-m-poetry-appreciation-q-006",
+    "node_id": "chn-m-poetry-appreciation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "分析《钱塘湖春行》中'乱花渐欲迷人眼，浅草才能没马蹄'这两句诗的表现手法。",
+    "answer": "这两句诗运用了拟人手法，'乱花渐欲迷人眼'将花拟人化，形容花盛开得繁茂，让人眼花缭乱；'浅草才能没马蹄'将草拟人化，形容草刚长出不久，只能没过马蹄。诗句通过描写花草的动态变化，展现了西湖春天的生机勃勃。",
+    "steps": [
+      "1. 分析诗句中运用的修辞手法",
+      "2. 解释修辞手法的表达效果",
+      "3. 结合诗句内容进行具体分析"
+    ],
+    "common_errors": [
+      {
+        "error": "未指出修辞手法",
+        "hint": "注意分析诗句中的拟人手法"
+      },
+      {
+        "error": "分析过于简略",
+        "hint": "需要结合诗句内容进行具体分析"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chn-m-poetry-appreciation-q-007",
+    "node_id": "chn-m-poetry-appreciation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述《黄鹤楼送孟浩然之广陵》中'孤帆远影碧空尽，唯见长江天际流'这两句诗的意境。",
+    "answer": "这两句诗描绘了一幅友人离别的画面。'孤帆远影碧空尽'指友人的船渐渐远去，最终消失在碧蓝的天空尽头；'唯见长江天际流'指诗人只能看到长江水向天边流去。整幅画面充满了离别的惆怅和孤独感，表达了诗人对友人的不舍和思念。",
+    "steps": [
+      "1. 解释诗句中关键词的含义",
+      "2. 分析诗句描绘的景象",
+      "3. 结合诗人情感进行意境分析"
+    ],
+    "common_errors": [
+      {
+        "error": "未结合诗人情感",
+        "hint": "注意分析诗句所表达的意境和情感"
+      },
+      {
+        "error": "分析过于表面",
+        "hint": "需要深入分析诗句所营造的意境"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chn-m-poetry-appreciation-q-008",
+    "node_id": "chn-m-poetry-appreciation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析《登高》中'无边落木萧萧下，不尽长江滚滚来'这两句诗的艺术特色。",
+    "answer": "这两句诗运用了对偶和夸张的手法。'无边落木萧萧下，不尽长江滚滚来'对仗工整，'无边'对'不尽'，'落木'对'长江'，'萧萧下'对'滚滚来'，展现了秋天的萧瑟景象和长江的雄伟气势。诗句通过描写落叶和长江的动态变化，表达了诗人对时光流逝的感慨和对人生无常的感叹。",
+    "steps": [
+      "1. 分析诗句中运用的修辞手法",
+      "2. 解释修辞手法的表达效果",
+      "3. 结合诗句内容进行具体分析"
+    ],
+    "common_errors": [
+      {
+        "error": "未指出修辞手法",
+        "hint": "注意分析诗句中的对偶和夸张"
+      },
+      {
+        "error": "分析过于简略",
+        "hint": "需要结合诗句内容进行具体分析"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-poetry-appreciation-q-009",
+    "node_id": "chn-m-poetry-appreciation",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "简述《泊船瓜洲》中'春风又绿江南岸'这句诗的炼字艺术。",
+    "answer": "这句诗中的'绿'字是炼字的典范。'绿'字原本是形容词，在这里用作动词，赋予了春风以生命力，形象地描绘了春风带来的生机勃勃的景象。同时，'绿'字也表达了诗人对江南春天的喜爱和赞美之情。",
+    "steps": [
+      "1. 分析诗句中关键词的含义",
+      "2. 解释关键词的表达效果",
+      "3. 结合诗句内容进行具体分析"
+    ],
+    "common_errors": [
+      {
+        "error": "未指出关键词",
+        "hint": "注意分析诗句中的'绿'字"
+      },
+      {
+        "error": "分析过于简略",
+        "hint": "需要结合诗句内容进行具体分析"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

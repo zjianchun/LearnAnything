@@ -14,19 +14,46 @@ const editKey = ref('')
 const saving = ref(false)
 const saveMsg = ref('')
 
+// 学科开关
+const allSubjects = ref<string[]>([])
+const enabledSubjects = ref<string[]>([])
+const subjectSaving = ref(false)
+
+const SUBJECT_LABEL: Record<string, string> = {
+  math: '📐 数学', physics: '⚡ 物理', chemistry: '🧪 化学', english: '🔤 英语',
+  chinese: '📝 语文', biology: '🌱 生物', geography: '🗺️ 地理', history: '📜 历史',
+  politics: '⚖️ 道法',
+}
+
 onMounted(async () => {
-  const [todayRes, weeklyRes, configRes] = await Promise.all([
+  const [todayRes, weeklyRes, configRes, subRes] = await Promise.all([
     api.get('/stats/today'),
     api.get('/stats/weekly'),
     api.get('/tutor/config'),
+    api.get('/settings/subjects'),
   ])
   today.value = todayRes.data
   weekly.value = weeklyRes.data
   aiConfig.value = configRes.data
   editModel.value = configRes.data.model
   editUpstream.value = configRes.data.upstream
+  allSubjects.value = subRes.data.all
+  enabledSubjects.value = subRes.data.enabled
   loading.value = false
 })
+
+async function toggleSubject(subject: string) {
+  subjectSaving.value = true
+  const enabled = enabledSubjects.value.includes(subject)
+    ? enabledSubjects.value.filter(s => s !== subject)
+    : [...enabledSubjects.value, subject]
+  try {
+    const { data } = await api.put('/settings/subjects', { enabled })
+    enabledSubjects.value = data.enabled
+  } finally {
+    subjectSaving.value = false
+  }
+}
 
 async function saveConfig() {
   saving.value = true
@@ -104,6 +131,18 @@ async function saveConfig() {
         <p v-else class="empty">暂无数据</p>
       </div>
 
+      <!-- 学科开关 -->
+      <div class="subject-toggle">
+        <h2>📚 学科管理</h2>
+        <p class="toggle-hint">关闭的学科将在学生端所有页面隐藏</p>
+        <div class="toggle-grid">
+          <label v-for="s in allSubjects" :key="s" class="toggle-item" :class="{ off: !enabledSubjects.includes(s) }">
+            <input type="checkbox" :checked="enabledSubjects.includes(s)" @change="toggleSubject(s)" :disabled="subjectSaving" />
+            <span>{{ SUBJECT_LABEL[s] || s }}</span>
+          </label>
+        </div>
+      </div>
+
       <!-- AI学伴配置 -->
       <div class="ai-config">
         <h2>🤖 AI学伴配置</h2>
@@ -161,6 +200,15 @@ async function saveConfig() {
 
 /* AI配置 */
 .ai-config { background: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-top: 1.5rem; }
+
+/* 学科开关 */
+.subject-toggle { background: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-top: 1.5rem; }
+.subject-toggle h2 { font-size: 1.1rem; margin-bottom: 0.3rem; }
+.toggle-hint { font-size: 0.78rem; color: #94a3b8; margin-bottom: 1rem; }
+.toggle-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 0.6rem; }
+.toggle-item { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 0.75rem; border-radius: 8px; cursor: pointer; font-size: 0.88rem; background: #f0fdf4; border: 1px solid #bbf7d0; transition: all 0.2s; }
+.toggle-item.off { background: #f8fafc; border-color: #e2e8f0; opacity: 0.6; }
+.toggle-item input { accent-color: #22c55e; }
 .ai-config h2 { font-size: 1.1rem; margin-bottom: 0.75rem; }
 .config-status { font-size: 0.85rem; color: #64748b; margin-bottom: 1rem; }
 .config-status .on { color: #22c55e; font-weight: 600; }

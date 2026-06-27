@@ -1,0 +1,188 @@
+[
+  {
+    "id": "bio-m-cell-division-m-q-001",
+    "node_id": "bio-m-cell-division-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "细胞分裂过程中，染色体复制发生在哪个时期？",
+    "options": [
+      "A. 分裂间期",
+      "B. 分裂前期",
+      "C. 分裂中期",
+      "D. 分裂后期"
+    ],
+    "answer": "A. 分裂间期",
+    "steps": [
+      "1. 理解细胞分裂的基本过程，包括分裂间期和分裂期",
+      "2. 知道染色体复制发生在分裂间期，为分裂期做准备",
+      "3. 对比各选项，确认分裂间期是染色体复制的时期"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为染色体复制发生在分裂期",
+        "hint": "染色体复制在分裂间期完成，为分裂期做准备"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "bio-m-cell-division-m-q-002",
+    "node_id": "bio-m-cell-division-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "在植物细胞有丝分裂末期，形成的新细胞壁来自于？",
+    "options": [
+      "A. 细胞膜",
+      "B. 高尔基体",
+      "C. 中心体",
+      "D. 线粒体"
+    ],
+    "answer": "B. 高尔基体",
+    "steps": [
+      "1. 了解植物细胞有丝分裂末期的特点",
+      "2. 知道新细胞壁的形成与高尔基体有关",
+      "3. 排除其他选项，确认高尔基体是形成新细胞壁的关键结构"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为新细胞壁来自细胞膜",
+        "hint": "新细胞壁由高尔基体分泌的纤维素形成"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-cell-division-m-q-003",
+    "node_id": "bio-m-cell-division-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列关于细胞分裂的描述，正确的是？",
+    "options": [
+      "A. 细胞分裂过程中，细胞核先分裂",
+      "B. 细胞分裂过程中，细胞质先分裂",
+      "C. 细胞分裂过程中，染色体不发生变化",
+      "D. 细胞分裂过程中，DNA不复制"
+    ],
+    "answer": "A. 细胞分裂过程中，细胞核先分裂",
+    "steps": [
+      "1. 理解细胞分裂的基本顺序",
+      "2. 知道细胞核分裂是细胞分裂的关键步骤",
+      "3. 对比各选项，确认细胞核先于细胞质分裂"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为细胞质先分裂",
+        "hint": "细胞核分裂是细胞分裂的第一步"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-cell-division-m-q-004",
+    "node_id": "bio-m-cell-division-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "在动物细胞有丝分裂过程中，_____（结构）负责牵引染色体运动。",
+    "answer": "中心体",
+    "steps": [
+      "1. 回顾动物细胞有丝分裂的特点",
+      "2. 知道中心体在分裂过程中形成纺锤体",
+      "3. 确认中心体负责牵引染色体运动"
+    ],
+    "common_errors": [
+      {
+        "error": "误填为高尔基体",
+        "hint": "高尔基体与细胞壁形成有关，不负责染色体运动"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-cell-division-m-q-005",
+    "node_id": "bio-m-cell-division-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "细胞分裂过程中，DNA复制后，细胞进入_____期。",
+    "answer": "分裂",
+    "steps": [
+      "1. 理解细胞分裂的阶段划分",
+      "2. 知道DNA复制后进入分裂期",
+      "3. 确认分裂期是细胞分裂的核心阶段"
+    ],
+    "common_errors": [
+      {
+        "error": "误填为间期",
+        "hint": "间期是DNA复制前的阶段"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "bio-m-cell-division-m-q-006",
+    "node_id": "bio-m-cell-division-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "在植物细胞有丝分裂末期，_____（结构）开始形成新的细胞壁。",
+    "answer": "高尔基体",
+    "steps": [
+      "1. 回顾植物细胞有丝分裂末期的特点",
+      "2. 知道高尔基体负责分泌纤维素形成新细胞壁",
+      "3. 确认高尔基体是形成新细胞壁的关键结构"
+    ],
+    "common_errors": [
+      {
+        "error": "误填为中心体",
+        "hint": "中心体在植物细胞中不常见，不负责细胞壁形成"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-cell-division-m-q-007",
+    "node_id": "bio-m-cell-division-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释细胞分裂过程中染色体数目变化的原因。",
+    "answer": "在细胞分裂过程中，染色体数目变化是由于染色体的复制和分离。在分裂间期，DNA复制，染色体数目加倍。在分裂期，染色体分离，平均分配到两个子细胞中，因此每个子细胞中染色体数目与母细胞相同。",
+    "steps": [
+      "1. 解释染色体复制发生在分裂间期",
+      "2. 说明分裂期染色体分离的过程",
+      "3. 总结染色体数目变化的原因"
+    ],
+    "common_errors": [
+      {
+        "error": "未提及染色体复制",
+        "hint": "染色体复制是染色体数目变化的关键"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-cell-division-m-q-008",
+    "node_id": "bio-m-cell-division-m",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请描述动物细胞有丝分裂与植物细胞有丝分裂的主要区别。",
+    "answer": "动物细胞有丝分裂与植物细胞有丝分裂的主要区别在于细胞质分裂的方式。动物细胞通过收缩环形成分裂沟完成细胞质分裂，而植物细胞通过形成细胞板完成细胞质分裂。此外，动物细胞有中心体，而植物细胞没有。",
+    "steps": [
+      "1. 说明细胞质分裂方式的区别",
+      "2. 提到中心体的差异",
+      "3. 总结主要区别"
+    ],
+    "common_errors": [
+      {
+        "error": "未提及细胞板和分裂沟的区别",
+        "hint": "细胞板和分裂沟是区分动物和植物细胞分裂的关键"
+      }
+    ],
+    "exam_frequency": 4
+  }
+]

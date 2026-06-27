@@ -1,0 +1,251 @@
+[
+  {
+    "id": "bio-m-plant-classification-q-001",
+    "node_id": "bio-m-plant-classification",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列植物中，属于被子植物的是？",
+    "options": [
+      "A. 银杏",
+      "B. 蕨类植物",
+      "C. 水稻",
+      "D. 苔藓植物"
+    ],
+    "answer": "C. 水稻",
+    "steps": [
+      "1. 被子植物是指种子外有果皮包被的植物。",
+      "2. 银杏是裸子植物，种子外无果皮包被。",
+      "3. 蕨类植物和苔藓植物不产生种子。",
+      "4. 水稻是典型的被子植物，种子外有果皮包被。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为银杏是被子植物",
+        "hint": "银杏是裸子植物，种子外无果皮包被。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "bio-m-plant-classification-q-002",
+    "node_id": "bio-m-plant-classification",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "苔藓植物一般具有_____和_____，但没有真正的根。",
+    "answer": "茎,叶",
+    "steps": [
+      "1. 苔藓植物是简单的绿色植物。",
+      "2. 它们具有茎和叶的结构。",
+      "3. 它们的根是假根，不能真正吸收水分和养分。"
+    ],
+    "common_errors": [
+      {
+        "error": "填成'根和叶'",
+        "hint": "苔藓植物没有真正的根，只有假根。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-plant-classification-q-003",
+    "node_id": "bio-m-plant-classification",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列关于蕨类植物的描述，正确的是？",
+    "options": [
+      "A. 有种子",
+      "B. 有根、茎、叶的分化",
+      "C. 没有输导组织",
+      "D. 生活在水中"
+    ],
+    "answer": "B. 有根、茎、叶的分化",
+    "steps": [
+      "1. 蕨类植物是较高级的孢子植物。",
+      "2. 它们有根、茎、叶的分化。",
+      "3. 它们有输导组织。",
+      "4. 它们主要生活在潮湿的环境中，但不一定在水中。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为蕨类植物有种子",
+        "hint": "蕨类植物是孢子植物，不产生种子。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-plant-classification-q-004",
+    "node_id": "bio-m-plant-classification",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列植物中，属于裸子植物的是？",
+    "options": [
+      "A. 桃树",
+      "B. 苏铁",
+      "C. 葫芦藓",
+      "D. 蕨菜"
+    ],
+    "answer": "B. 苏铁",
+    "steps": [
+      "1. 裸子植物的种子是裸露的，没有果皮包被。",
+      "2. 苏铁是典型的裸子植物。",
+      "3. 桃树是被子植物，种子外有果皮包被。",
+      "4. 葫芦藓是苔藓植物，蕨菜是蕨类植物。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为桃树是裸子植物",
+        "hint": "桃树是被子植物，种子外有果皮包被。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-plant-classification-q-005",
+    "node_id": "bio-m-plant-classification",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请简述被子植物和裸子植物的主要区别。",
+    "answer": "被子植物的种子外有果皮包被，而裸子植物的种子是裸露的，没有果皮包被。被子植物的种子在果实内，裸子植物的种子通常聚成球果状。",
+    "steps": [
+      "1. 明确被子植物和裸子植物的定义。",
+      "2. 比较种子是否有果皮包被。",
+      "3. 说明种子在果实内的位置差异。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为裸子植物有果实",
+        "hint": "裸子植物没有果实，只有种子。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-plant-classification-q-006",
+    "node_id": "bio-m-plant-classification",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列植物中，生活在水中的是？",
+    "options": [
+      "A. 葫芦藓",
+      "B. 水稻",
+      "C. 紫菜",
+      "D. 苏铁"
+    ],
+    "answer": "C. 紫菜",
+    "steps": [
+      "1. 分析各选项植物的生活环境。",
+      "2. 葫芦藓通常生长在潮湿的土壤中。",
+      "3. 水稻生长在湿润的土壤中。",
+      "4. 紫菜是藻类植物，生活在水中。",
+      "5. 苏铁生长在陆地上。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为葫芦藓生活在水中",
+        "hint": "葫芦藓生活在潮湿的土壤中，不是水中。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-plant-classification-q-007",
+    "node_id": "bio-m-plant-classification",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 2,
+    "question": "藻类植物、苔藓植物和蕨类植物都属于_____植物。",
+    "answer": "孢子",
+    "steps": [
+      "1. 分析各植物类群的繁殖方式。",
+      "2. 藻类、苔藓和蕨类植物都通过孢子繁殖。",
+      "3. 不产生种子。"
+    ],
+    "common_errors": [
+      {
+        "error": "填成'种子植物'",
+        "hint": "只有被子植物和裸子植物是种子植物。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-plant-classification-q-008",
+    "node_id": "bio-m-plant-classification",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请说明为什么苔藓植物被认为是植物从水生到陆生过渡的类群。",
+    "answer": "苔藓植物具有简单的茎和叶结构，但只有假根，没有真正的根，这表明它们在进化上处于从水生到陆生的过渡阶段。它们需要生活在潮湿的环境中，依赖水的环境进行繁殖，这体现了水生植物的特征。同时，它们能够在陆地上生存，展示了向陆生植物进化的趋势。",
+    "steps": [
+      "1. 分析苔藓植物的结构特点。",
+      "2. 解释其对水的依赖性。",
+      "3. 说明其生存环境的特殊性。",
+      "4. 总结其在植物进化中的地位。"
+    ],
+    "common_errors": [
+      {
+        "error": "认为苔藓植物是完全的陆生植物",
+        "hint": "苔藓植物对水的依赖性强，不能完全脱离水环境。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-plant-classification-q-009",
+    "node_id": "bio-m-plant-classification",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "下列关于藻类植物的描述，正确的是？",
+    "options": [
+      "A. 有根、茎、叶的分化",
+      "B. 生活在水中",
+      "C. 有种子",
+      "D. 有输导组织"
+    ],
+    "answer": "B. 生活在水中",
+    "steps": [
+      "1. 分析藻类植物的结构特点。",
+      "2. 藻类植物没有根、茎、叶的分化。",
+      "3. 藻类植物没有种子。",
+      "4. 藻类植物没有输导组织。",
+      "5. 藻类植物生活在水中。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为藻类植物有根、茎、叶的分化",
+        "hint": "藻类植物是简单的植物，没有根、茎、叶的分化。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-plant-classification-q-010",
+    "node_id": "bio-m-plant-classification",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请简述植物类群从低等到高等的进化顺序，并说明其主要特征的变化。",
+    "answer": "植物类群的进化顺序是：藻类植物→苔藓植物→蕨类植物→裸子植物→被子植物。藻类植物结构简单，没有根、茎、叶的分化，生活在水中。苔藓植物开始有简单的茎和叶，但只有假根，生活在潮湿的环境中。蕨类植物有根、茎、叶的分化，有输导组织，生活在潮湿的环境中。裸子植物和被子植物有种子，裸子植物的种子是裸露的，被子植物的种子有果皮包被。",
+    "steps": [
+      "1. 列出植物类群的进化顺序。",
+      "2. 分析每个类群的主要特征。",
+      "3. 说明从低等到高等的变化趋势。",
+      "4. 总结植物进化的主要特点。"
+    ],
+    "common_errors": [
+      {
+        "error": "认为苔藓植物有真正的根",
+        "hint": "苔藓植物只有假根，没有真正的根。"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]

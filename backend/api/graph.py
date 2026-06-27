@@ -2,6 +2,7 @@
 import json
 from fastapi import APIRouter
 from db.database import get_db
+from api.settings import get_enabled_subjects
 
 router = APIRouter()
 
@@ -48,7 +49,8 @@ async def list_subjects():
                 "learning": r["learning"], "avg_mastery": round(r["avg_mastery"] or 0, 3),
             })
         result.sort(key=lambda x: x["order"])
-        return result
+        enabled = get_enabled_subjects()
+        return [r for r in result if r["subject"] in enabled]
     finally:
         await db.close()
 

@@ -1,0 +1,237 @@
+[
+  {
+    "id": "bio-m-asexual-reproduction-q-001",
+    "node_id": "bio-m-asexual-reproduction",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列哪种繁殖方式属于无性生殖？",
+    "options": [
+      "A. 种子繁殖",
+      "B. 营养繁殖",
+      "C. 配子结合",
+      "D. 受精卵发育"
+    ],
+    "answer": "B. 营养繁殖",
+    "steps": [
+      "1. 理解无性生殖的定义：无性生殖不涉及配子的结合。",
+      "2. 分析各选项：种子繁殖涉及受精卵发育，配子结合是有性生殖，受精卵发育涉及配子结合。",
+      "3. 营养繁殖是通过植物的营养器官（如根、茎、叶）进行的繁殖，属于无性生殖。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选种子繁殖",
+        "hint": "种子繁殖涉及受精过程，属于有性生殖。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "bio-m-asexual-reproduction-q-002",
+    "node_id": "bio-m-asexual-reproduction",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "植物的无性生殖方式包括________、________和________。",
+    "answer": "扦插,嫁接,压条",
+    "steps": [
+      "1. 回忆无性生殖的常见方式。",
+      "2. 常见的无性生殖方式有扦插、嫁接、压条等。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写错误或不完整",
+        "hint": "常见无性生殖方式包括扦插、嫁接、压条等。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-asexual-reproduction-q-003",
+    "node_id": "bio-m-asexual-reproduction",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列哪种植物的繁殖方式属于嫁接？",
+    "options": [
+      "A. 土豆",
+      "B. 苹果",
+      "C. 水稻",
+      "D. 玉米"
+    ],
+    "answer": "B. 苹果",
+    "steps": [
+      "1. 理解嫁接的定义：嫁接是将一种植物的枝或芽接到另一种植物的茎或根上。",
+      "2. 分析各选项：土豆通常通过块茎繁殖，水稻和玉米通过种子繁殖，苹果常用嫁接繁殖。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选土豆",
+        "hint": "土豆是通过块茎繁殖的，不是嫁接。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-asexual-reproduction-q-004",
+    "node_id": "bio-m-asexual-reproduction",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列关于无性生殖的叙述，正确的是？",
+    "options": [
+      "A. 无性生殖产生的后代具有双亲的遗传特性",
+      "B. 无性生殖产生的后代与亲代完全相同",
+      "C. 无性生殖过程中不发生遗传物质的重组",
+      "D. 无性生殖只发生在植物中"
+    ],
+    "answer": "C. 无性生殖过程中不发生遗传物质的重组",
+    "steps": [
+      "1. 分析无性生殖的特点：无性生殖不涉及配子的结合。",
+      "2. 理解遗传物质的重组：在无性生殖中，遗传物质不发生重组。",
+      "3. 排除错误选项：A选项错误，后代只具有亲代的遗传特性；B选项错误，后代与亲代不完全相同；D选项错误，无性生殖也发生在一些动物中。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B",
+        "hint": "无性生殖产生的后代与亲代在基因上相同，但表型上可能有所不同。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-asexual-reproduction-q-005",
+    "node_id": "bio-m-asexual-reproduction",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请简述植物无性生殖的优点。",
+    "answer": "植物无性生殖的优点包括：1. 繁殖速度快，能在短时间内产生大量后代；2. 保持亲本的优良特性，后代与亲本基因型一致；3. 适用于一些难以通过种子繁殖的植物。",
+    "steps": [
+      "1. 思考无性生殖的特点。",
+      "2. 结合实际应用，总结无性生殖的优点。"
+    ],
+    "common_errors": [
+      {
+        "error": "回答不完整",
+        "hint": "从繁殖速度、遗传特性和适用性等方面进行总结。"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "bio-m-asexual-reproduction-q-006",
+    "node_id": "bio-m-asexual-reproduction",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "下列哪种植物的繁殖方式属于压条？",
+    "options": [
+      "A. 草莓",
+      "B. 葡萄",
+      "C. 玫瑰",
+      "D. 菊花"
+    ],
+    "answer": "B. 葡萄",
+    "steps": [
+      "1. 理解压条的定义：压条是将植物的枝条埋入土中，待其生根后与母株分离。",
+      "2. 分析各选项：草莓通过匍匐茎繁殖，葡萄常用压条繁殖，玫瑰和菊花常用扦插繁殖。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选草莓",
+        "hint": "草莓是通过匍匐茎繁殖的，不是压条。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-asexual-reproduction-q-007",
+    "node_id": "bio-m-asexual-reproduction",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请举例说明植物的无性生殖方式在实际农业生产中的应用。",
+    "answer": "在农业生产中，常见的无性生殖应用包括：1. 扦插繁殖，如菊花、葡萄等；2. 嫁接繁殖，如苹果、梨等果树；3. 压条繁殖，如葡萄、茉莉等。",
+    "steps": [
+      "1. 思考无性生殖方式。",
+      "2. 结合实际农业生产中的应用场景进行举例。"
+    ],
+    "common_errors": [
+      {
+        "error": "举例不恰当",
+        "hint": "选择常见的农业应用场景进行说明。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "bio-m-asexual-reproduction-q-008",
+    "node_id": "bio-m-asexual-reproduction",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "下列关于植物无性生殖的叙述，错误的是？",
+    "options": [
+      "A. 无性生殖可以保持亲本的优良特性",
+      "B. 无性生殖产生的后代具有较强的适应能力",
+      "C. 无性生殖可以快速繁殖植物",
+      "D. 无性生殖不涉及配子的结合"
+    ],
+    "answer": "B. 无性生殖产生的后代具有较强的适应能力",
+    "steps": [
+      "1. 分析无性生殖的特点：保持亲本特性、快速繁殖、不涉及配子结合。",
+      "2. 理解无性生殖的局限性：后代适应能力较弱。",
+      "3. 排除正确选项：A、C、D选项都是无性生殖的特点。"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A",
+        "hint": "无性生殖可以保持亲本的优良特性。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "bio-m-asexual-reproduction-q-009",
+    "node_id": "bio-m-asexual-reproduction",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释为什么无性生殖产生的后代与亲本基因型相同，但表型上可能有所不同。",
+    "answer": "无性生殖产生的后代与亲本基因型相同，因为无性生殖不涉及遗传物质的重组。但表型上可能有所不同是因为环境因素的影响，如光照、水分、土壤等条件的变化会影响植物的生长和发育，从而导致表型的差异。",
+    "steps": [
+      "1. 理解无性生殖的遗传机制。",
+      "2. 考虑环境因素的影响。",
+      "3. 结合基因型和表型的关系进行解释。"
+    ],
+    "common_errors": [
+      {
+        "error": "忽略环境因素",
+        "hint": "表型不仅受基因型影响，还受环境因素的影响。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "bio-m-asexual-reproduction-q-010",
+    "node_id": "bio-m-asexual-reproduction",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析无性生殖的局限性，并提出相应的改进措施。",
+    "answer": "无性生殖的局限性包括：1. 后代适应能力较弱，容易受到病虫害的侵袭；2. 遗传多样性低，可能导致物种退化。改进措施包括：1. 通过基因工程引入新的基因，提高后代的适应能力；2. 采用多品种杂交的方式，增加遗传多样性；3. 加强病虫害的防治和管理。",
+    "steps": [
+      "1. 分析无性生殖的局限性。",
+      "2. 结合生物学知识，提出改进措施。",
+      "3. 考虑实际应用中的可行性。"
+    ],
+    "common_errors": [
+      {
+        "error": "改进措施不具体",
+        "hint": "改进措施应具体可行，结合实际应用场景进行说明。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

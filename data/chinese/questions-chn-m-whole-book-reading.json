@@ -1,0 +1,189 @@
+[
+  {
+    "id": "chn-m-whole-book-reading-q-001",
+    "node_id": "chn-m-whole-book-reading",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "以下哪一项不属于整本书阅读的基本方法？",
+    "options": [
+      "A. 略读",
+      "B. 精读",
+      "C. 跳读",
+      "D. 默读"
+    ],
+    "answer": "D. 默读",
+    "steps": [
+      "1. 回顾整本书阅读的基本方法：略读、精读、跳读等。",
+      "2. 分析每个选项，默读是一种阅读方式，但不属于整本书阅读的特定方法。",
+      "3. 确定答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为默读是整本书阅读方法",
+        "hint": "默读是一种阅读方式，而非整本书阅读的特定方法。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chn-m-whole-book-reading-q-002",
+    "node_id": "chn-m-whole-book-reading",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "在整本书阅读中，______可以帮助我们快速了解书籍的大致内容和结构。",
+    "answer": "略读",
+    "steps": [
+      "1. 理解题目要求，填写一种整本书阅读方法。",
+      "2. 分析题目中提到的'快速了解'，对应的是略读。",
+      "3. 填写答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "填写精读或跳读",
+        "hint": "精读适用于深入理解，跳读适用于寻找特定信息，均不符合题目要求。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chn-m-whole-book-reading-q-003",
+    "node_id": "chn-m-whole-book-reading",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "以下哪一项是整本书阅读中精读的目的？",
+    "options": [
+      "A. 了解书籍大致内容",
+      "B. 深入理解文本细节",
+      "C. 寻找特定信息",
+      "D. 提高阅读速度"
+    ],
+    "answer": "B. 深入理解文本细节",
+    "steps": [
+      "1. 回顾精读的定义和目的。",
+      "2. 分析每个选项，精读强调深入理解文本细节。",
+      "3. 确定答案。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为精读的目的是了解大致内容",
+        "hint": "了解大致内容是略读的目的，而非精读。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "chn-m-whole-book-reading-q-004",
+    "node_id": "chn-m-whole-book-reading",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请简要说明跳读在整本书阅读中的作用。",
+    "answer": "跳读可以帮助读者快速找到特定信息或章节，节省时间，提高阅读效率。",
+    "steps": [
+      "1. 理解跳读的定义。",
+      "2. 分析跳读在整本书阅读中的作用。",
+      "3. 组织语言，简要说明。"
+    ],
+    "common_errors": [
+      {
+        "error": "认为跳读适用于所有阅读场景",
+        "hint": "跳读主要用于寻找特定信息，不适用于深入理解文本。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-whole-book-reading-q-005",
+    "node_id": "chn-m-whole-book-reading",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "在整本书阅读中，以下哪一项是提高阅读效率的有效方法？",
+    "options": [
+      "A. 逐字逐句阅读",
+      "B. 边读边做笔记",
+      "C. 反复阅读同一段落",
+      "D. 忽略不懂的词汇"
+    ],
+    "answer": "B. 边读边做笔记",
+    "steps": [
+      "1. 分析每个选项。",
+      "2. 逐字逐句阅读和反复阅读同一段落会降低效率。",
+      "3. 忽略不懂的词汇不利于理解。",
+      "4. 边读边做笔记可以帮助记忆和理解，提高效率。"
+    ],
+    "common_errors": [
+      {
+        "error": "选择忽略不懂的词汇",
+        "hint": "忽略不懂的词汇会影响对文本的理解。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-whole-book-reading-q-006",
+    "node_id": "chn-m-whole-book-reading",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "请举例说明在整本书阅读中如何运用略读。",
+    "answer": "在阅读小说时，可以先略读每章的开头和结尾，了解章节的主要内容，再决定是否深入阅读。",
+    "steps": [
+      "1. 理解略读的定义。",
+      "2. 举例说明略读的应用场景。",
+      "3. 组织语言，简要说明。"
+    ],
+    "common_errors": [
+      {
+        "error": "举例说明精读或跳读",
+        "hint": "题目要求说明略读，需明确区分不同阅读方法。"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "chn-m-whole-book-reading-q-007",
+    "node_id": "chn-m-whole-book-reading",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请分析精读和跳读在整本书阅读中的区别。",
+    "answer": "精读强调深入理解文本细节，需要花费较多时间；而跳读主要用于寻找特定信息或章节，节省时间，提高效率。",
+    "steps": [
+      "1. 回顾精读和跳读的定义。",
+      "2. 分析两者的主要区别。",
+      "3. 组织语言，详细说明。"
+    ],
+    "common_errors": [
+      {
+        "error": "混淆精读和跳读的应用场景",
+        "hint": "精读适用于深入理解，跳读适用于寻找特定信息。"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "chn-m-whole-book-reading-q-008",
+    "node_id": "chn-m-whole-book-reading",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请结合实际案例，谈谈在整本书阅读中如何运用多种阅读方法。",
+    "answer": "在阅读《红楼梦》时，可以先略读每章的标题和开头，了解大致内容；再精读关键章节，深入理解人物关系和情节发展；最后跳读寻找特定信息，如某个人物的具体描写。",
+    "steps": [
+      "1. 分析题目要求，结合实际案例。",
+      "2. 举例说明如何运用略读、精读和跳读。",
+      "3. 组织语言，详细说明。"
+    ],
+    "common_errors": [
+      {
+        "error": "未结合实际案例",
+        "hint": "题目要求结合实际案例，需明确举例说明。"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]
