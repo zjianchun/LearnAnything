@@ -19,6 +19,14 @@ const allSubjects = ref<string[]>([])
 const enabledSubjects = ref<string[]>([])
 const subjectSaving = ref(false)
 
+// 课件制作
+const makeSubject = ref('math')
+const makeTopic = ref('')
+const makeFocus = ref('')
+const makeGrade = ref('初二')
+const making = ref(false)
+const makeResult = ref<any>(null)
+
 const SUBJECT_LABEL: Record<string, string> = {
   math: '📐 数学', physics: '⚡ 物理', chemistry: '🧪 化学', english: '🔤 英语',
   chinese: '📝 语文', biology: '🌱 生物', geography: '🗺️ 地理', history: '📜 历史',
@@ -41,6 +49,25 @@ onMounted(async () => {
   enabledSubjects.value = subRes.data.enabled
   loading.value = false
 })
+
+async function makeCourseware() {
+  if (!makeTopic.value.trim()) return
+  making.value = true
+  makeResult.value = null
+  try {
+    const { data } = await api.post('/make/generate', {
+      subject: makeSubject.value,
+      topic: makeTopic.value,
+      grade: makeGrade.value,
+      focus: makeFocus.value,
+    })
+    makeResult.value = data
+  } catch (e: any) {
+    makeResult.value = { error: e?.response?.data?.error || e?.message || '生成失败' }
+  } finally {
+    making.value = false
+  }
+}
 
 async function toggleSubject(subject: string) {
   subjectSaving.value = true
@@ -143,6 +170,44 @@ async function saveConfig() {
         </div>
       </div>
 
+      <!-- 课件制作 -->
+      <div class="make-courseware">
+        <h2>✨ 制作课件</h2>
+        <p class="toggle-hint">输入知识点，AI 自动生成互动课件</p>
+        <div class="make-form">
+          <div class="make-row">
+            <label>学科
+              <select v-model="makeSubject">
+                <option v-for="s in allSubjects" :key="s" :value="s">{{ SUBJECT_LABEL[s] }}</option>
+              </select>
+            </label>
+            <label>年级
+              <select v-model="makeGrade">
+                <option>初一</option><option>初二</option><option>初三</option>
+              </select>
+            </label>
+          </div>
+          <label>知识点名称 *
+            <input v-model="makeTopic" placeholder="如：一次函数与二元一次方程组" />
+          </label>
+          <label>教学重点（可选）
+            <input v-model="makeFocus" placeholder="如：图像法求解方程组、交点坐标含义" />
+          </label>
+          <div class="config-actions">
+            <button @click="makeCourseware" :disabled="making || !makeTopic.trim()">
+              {{ making ? '生成中(约30秒)...' : '🎨 生成课件' }}
+            </button>
+          </div>
+          <div v-if="makeResult" class="make-result">
+            <div v-if="makeResult.ok" class="make-ok">
+              ✅ 课件已生成！
+              <router-link :to="makeResult.learn_url">→ 去查看</router-link>
+            </div>
+            <div v-else class="err">✗ {{ makeResult.error }}</div>
+          </div>
+        </div>
+      </div>
+
       <!-- AI学伴配置 -->
       <div class="ai-config">
         <h2>🤖 AI学伴配置</h2>
@@ -203,6 +268,18 @@ async function saveConfig() {
 
 /* 学科开关 */
 .subject-toggle { background: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-top: 1.5rem; }
+
+/* 课件制作 */
+.make-courseware { background: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-top: 1.5rem; }
+.make-courseware h2 { font-size: 1.1rem; margin-bottom: 0.3rem; }
+.make-form { display: flex; flex-direction: column; gap: 0.75rem; }
+.make-form label { font-size: 0.82rem; color: #475569; display: flex; flex-direction: column; gap: 0.3rem; }
+.make-form input, .make-form select { padding: 0.5rem 0.75rem; border: 1.5px solid #e2e8f0; border-radius: 8px; font-size: 0.88rem; }
+.make-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+.make-result { margin-top: 0.5rem; }
+.make-ok { color: #16a34a; font-size: 0.88rem; }
+.make-ok a { color: #4361ee; margin-left: 0.5rem; }
+.err { color: #dc2626; font-size: 0.85rem; }
 .subject-toggle h2 { font-size: 1.1rem; margin-bottom: 0.3rem; }
 .toggle-hint { font-size: 0.78rem; color: #94a3b8; margin-bottom: 1rem; }
 .toggle-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 0.6rem; }

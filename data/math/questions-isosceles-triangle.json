@@ -1,0 +1,201 @@
+[
+  {
+    "id": "math-m-isosceles-triangle-q-001",
+    "node_id": "math-m-isosceles-triangle",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "在等腰三角形中，若一个底角为50°，则顶角为多少度？",
+    "options": [
+      "A. 50°",
+      "B. 80°",
+      "C. 65°",
+      "D. 100°"
+    ],
+    "answer": "B. 80°",
+    "steps": [
+      "等腰三角形的两个底角相等，已知一个底角为50°，则另一个底角也为50°。",
+      "三角形内角和为180°，因此顶角为180° - 50° - 50° = 80°。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为顶角为50°",
+        "hint": "等腰三角形的两个底角相等，顶角需要通过内角和计算得出。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-isosceles-triangle-q-002",
+    "node_id": "math-m-isosceles-triangle",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "等边三角形的周长为18 cm，则其边长为多少？",
+    "answer": "6 cm",
+    "steps": [
+      "等边三角形的三条边长度相等。",
+      "周长为18 cm，因此边长为18 cm ÷ 3 = 6 cm。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为边长为18 cm",
+        "hint": "周长是三条边的总长度，需要除以3得到边长。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-isosceles-triangle-q-003",
+    "node_id": "math-m-isosceles-triangle",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "已知等腰三角形的一个角为30°，则这个三角形的最大角为多少度？",
+    "options": [
+      "A. 30°",
+      "B. 60°",
+      "C. 90°",
+      "D. 120°"
+    ],
+    "answer": "D. 120°",
+    "steps": [
+      "等腰三角形中，已知一个角为30°，则这个角可能是底角或顶角。",
+      "若30°为底角，则顶角为180° - 30° - 30° = 120°，符合题意。",
+      "若30°为顶角，则底角为(180° - 30°) ÷ 2 = 75°，不符合题意（因为30°不是最大角）。"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为30°为顶角",
+        "hint": "需要考虑30°为底角的情况，并计算顶角。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-isosceles-triangle-q-004",
+    "node_id": "math-m-isosceles-triangle",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "等腰三角形的腰长为5 cm，底边长为6 cm，求其面积。",
+    "answer": "12 cm²",
+    "steps": [
+      "等腰三角形的面积可以通过底和高计算。",
+      "先使用勾股定理计算高：设高为h，则5² = h² + (6/2)²，即25 = h² + 9，解得h = 4 cm。",
+      "面积 = (底 × 高) ÷ 2 = (6 × 4) ÷ 2 = 12 cm²。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用公式或计算错误",
+        "hint": "确保使用正确的勾股定理公式，并仔细计算。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-isosceles-triangle-q-005",
+    "node_id": "math-m-isosceles-triangle",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "等边三角形的面积为16√3 cm²，求其边长。",
+    "answer": "8 cm",
+    "steps": [
+      "等边三角形的面积公式为：(边长² × √3) ÷ 4。",
+      "设边长为a，则( a² × √3 ) ÷ 4 = 16√3。",
+      "解方程：a² × √3 = 64√3，a² = 64，a = 8 cm。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用公式或计算错误",
+        "hint": "确保使用正确的面积公式，并仔细解方程。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-isosceles-triangle-q-006",
+    "node_id": "math-m-isosceles-triangle",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "等腰三角形的周长为16 cm，腰长为5 cm，求底边长。",
+    "answer": "6 cm",
+    "steps": [
+      "设底边长为x，则2 × 5 + x = 16。",
+      "解方程：10 + x = 16，x = 6 cm。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用周长公式",
+        "hint": "注意周长是所有边的长度之和。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-isosceles-triangle-q-007",
+    "node_id": "math-m-isosceles-triangle",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "等腰三角形的顶角为100°，求底角。",
+    "answer": "40°",
+    "steps": [
+      "等腰三角形的两个底角相等。",
+      "顶角为100°，则2 × 底角 + 100° = 180°。",
+      "解方程：2 × 底角 = 80°，底角 = 40°。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用内角和公式",
+        "hint": "确保使用正确的内角和公式，并正确解方程。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-isosceles-triangle-q-008",
+    "node_id": "math-m-isosceles-triangle",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "等腰三角形ABC中，AB = AC = 10 cm，BC = 12 cm，求三角形ABC的面积。",
+    "answer": "48 cm²",
+    "steps": [
+      "使用海伦公式计算面积：面积 = √(s(s-a)(s-b)(s-c))，其中s为半周长，a, b, c为边长。",
+      "半周长s = (10 + 10 + 12) ÷ 2 = 16 cm。",
+      "面积 = √(16(16-10)(16-10)(16-12)) = √(16 × 6 × 6 × 4) = √2304 = 48 cm²。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用公式或计算错误",
+        "hint": "确保使用正确的海伦公式，并仔细计算。"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-isosceles-triangle-q-009",
+    "node_id": "math-m-isosceles-triangle",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "等腰三角形ABC中，AB = AC，∠A = 30°，BC = 6 cm，求AB。",
+    "answer": "6 cm",
+    "steps": [
+      "在等腰三角形中，AB = AC。",
+      "∠A = 30°，则∠B = ∠C = (180° - 30°) ÷ 2 = 75°。",
+      "使用正弦定理：AB/sin C = BC/sin A。",
+      "AB = (6 × sin 75°) ÷ sin 30° = 6 cm。"
+    ],
+    "common_errors": [
+      {
+        "error": "误用正弦定理",
+        "hint": "确保正确使用正弦定理，并正确计算角度的正弦值。"
+      }
+    ],
+    "exam_frequency": 4
+  }
+]

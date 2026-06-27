@@ -1,0 +1,199 @@
+[
+  {
+    "id": "hist-m-new-democratic-revolution-q-001",
+    "node_id": "hist-m-new-democratic-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "新民主主义革命开始的标志事件是？",
+    "options": [
+      "A. 辛亥革命",
+      "B. 五四运动",
+      "C. 中国共产党成立",
+      "D. 南昌起义"
+    ],
+    "answer": "B. 五四运动",
+    "steps": [
+      "1. 回顾新民主主义革命的时间范围（1919-1949）",
+      "2. 确认五四运动发生在1919年，是中国新民主主义革命的开端",
+      "3. 排除辛亥革命（1911年，旧民主主义革命）",
+      "4. 排除中国共产党成立（1921年）",
+      "5. 排除南昌起义（1927年）"
+    ],
+    "common_errors": [
+      {
+        "error": "误选辛亥革命",
+        "hint": "辛亥革命属于旧民主主义革命"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-new-democratic-revolution-q-002",
+    "node_id": "hist-m-new-democratic-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "新民主主义革命的总路线可以概括为：无产阶级领导的，_______的，反对帝国主义、封建主义和官僚资本主义的革命。",
+    "answer": "人民大众",
+    "steps": [
+      "1. 回忆新民主主义革命总路线的核心内容",
+      "2. 明确革命主体是'无产阶级领导的'",
+      "3. 明确革命性质是'反对帝国主义、封建主义和官僚资本主义的'",
+      "4. 补充中间缺少的'人民大众'"
+    ],
+    "common_errors": [
+      {
+        "error": "填写'工农联盟'",
+        "hint": "工农联盟是革命力量的重要组成部分，但不是总路线的完整表述"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-new-democratic-revolution-q-003",
+    "node_id": "hist-m-new-democratic-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "以下哪一项不属于新民主主义革命的任务？",
+    "options": [
+      "A. 推翻帝国主义统治",
+      "B. 推翻封建主义统治",
+      "C. 推翻官僚资本主义统治",
+      "D. 推翻民族资本主义统治"
+    ],
+    "answer": "D. 推翻民族资本主义统治",
+    "steps": [
+      "1. 回顾新民主主义革命三大任务：反帝、反封、反官僚资本主义",
+      "2. 分析各选项",
+      "3. 确认民族资本主义不是革命对象，而是团结对象"
+    ],
+    "common_errors": [
+      {
+        "error": "误选C",
+        "hint": "官僚资本主义是新民主主义革命的重要对象"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-new-democratic-revolution-q-004",
+    "node_id": "hist-m-new-democratic-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "新民主主义革命时期，中国共产党领导的土地革命的核心内容是？",
+    "options": [
+      "A. 没收地主土地分配给农民",
+      "B. 保留地主土地所有制",
+      "C. 实行土地国有化",
+      "D. 维持封建土地制度"
+    ],
+    "answer": "A. 没收地主土地分配给农民",
+    "steps": [
+      "1. 理解土地革命是新民主主义革命的重要内容",
+      "2. 回顾土地革命的政策演变",
+      "3. 确认核心内容是没收地主土地分配给农民",
+      "4. 排除其他不符合历史事实的选项"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B",
+        "hint": "保留地主土地所有制是改良主义做法，不是革命政策"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-new-democratic-revolution-q-005",
+    "node_id": "hist-m-new-democratic-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述新民主主义革命和旧民主主义革命的主要区别。",
+    "answer": "1. 领导阶级不同：新民主主义革命由无产阶级领导，旧民主主义革命由资产阶级领导；2. 革命目标不同：新民主主义革命目标是建立人民民主专政的共和国，旧民主主义革命目标是建立资产阶级共和国；3. 革命性质不同：新民主主义革命属于世界无产阶级革命的一部分，旧民主主义革命属于资产阶级革命；4. 革命动力不同：新民主主义革命依靠工农联盟和广大人民群众，旧民主主义革命主要依靠民族资产阶级。",
+    "steps": [
+      "1. 从领导阶级、革命目标、革命性质、革命动力四个方面进行分析",
+      "2. 逐一阐述每个方面的具体区别",
+      "3. 注意语言的准确性和逻辑性"
+    ],
+    "common_errors": [
+      {
+        "error": "只关注某一方面的区别",
+        "hint": "需要全面分析多个方面的区别"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-new-democratic-revolution-q-006",
+    "node_id": "hist-m-new-democratic-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "新民主主义革命时期，中国共产党在抗日根据地实行的土地政策是？",
+    "options": [
+      "A. 没收地主土地",
+      "B. 减租减息",
+      "C. 土地改革",
+      "D. 维持现状"
+    ],
+    "answer": "B. 减租减息",
+    "steps": [
+      "1. 回顾抗日战争时期中国共产党的土地政策",
+      "2. 理解减租减息政策的背景和目的",
+      "3. 确认这是抗日民族统一战线下的特殊政策",
+      "4. 排除其他不符合历史事实的选项"
+    ],
+    "common_errors": [
+      {
+        "error": "误选A",
+        "hint": "没收地主土地是土地革命战争时期政策"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "hist-m-new-democratic-revolution-q-007",
+    "node_id": "hist-m-new-democratic-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "分析新民主主义革命胜利的伟大意义。",
+    "answer": "1. 结束了中国半殖民地半封建社会的历史，实现了民族独立和人民解放；2. 建立了新中国，为中国的现代化建设和社会主义革命奠定了基础；3. 改变了世界政治格局，壮大了世界和平、民主和社会主义的力量；4. 为殖民地半殖民地国家争取民族独立和人民解放提供了宝贵经验。",
+    "steps": [
+      "1. 从国内意义和国际意义两个层面进行分析",
+      "2. 详细阐述每个层面的具体内容",
+      "3. 注意结合历史背景和实际影响"
+    ],
+    "common_errors": [
+      {
+        "error": "只关注国内意义",
+        "hint": "需要同时考虑国际影响"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "hist-m-new-democratic-revolution-q-008",
+    "node_id": "hist-m-new-democratic-revolution",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "结合史实，论述中国共产党在新民主主义革命中的领导作用。",
+    "answer": "1. 政治领导：制定正确的革命纲领和路线，如新民主主义革命总路线；2. 思想领导：传播马克思主义，开展思想启蒙运动，如五四运动；3. 组织领导：建立各级党组织，开展武装斗争，如南昌起义、秋收起义等；4. 群众工作：发动和组织群众，开展土地革命和根据地建设；5. 统一战线：建立抗日民族统一战线，团结一切可以团结的力量。",
+    "steps": [
+      "1. 从政治领导、思想领导、组织领导、群众工作、统一战线五个方面进行分析",
+      "2. 结合具体史实进行论证",
+      "3. 注意逻辑清晰，论据充分"
+    ],
+    "common_errors": [
+      {
+        "error": "论述不全面",
+        "hint": "需要从多个角度进行论述"
+      }
+    ],
+    "exam_frequency": 5
+  }
+]

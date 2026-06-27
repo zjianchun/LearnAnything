@@ -1,0 +1,258 @@
+[
+  {
+    "id": "math-m-geometry-quadrilaterals-q-001",
+    "node_id": "math-m-geometry-quadrilaterals",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "下列四边形中，既是轴对称图形又是中心对称图形的是",
+    "options": [
+      "A. 平行四边形",
+      "B. 矩形",
+      "C. 梯形",
+      "D. 直角梯形"
+    ],
+    "answer": "B. 矩形",
+    "steps": [
+      "矩形是轴对称图形（对称轴是两组对边中点的连线）",
+      "矩形也是中心对称图形（对称中心是对角线的交点）",
+      "其他选项要么不具备轴对称性，要么不具备中心对称性"
+    ],
+    "common_errors": [
+      {
+        "error": "误选平行四边形",
+        "hint": "平行四边形是中心对称图形，但不是轴对称图形"
+      },
+      {
+        "error": "误选梯形",
+        "hint": "梯形不一定是轴对称图形，更不是中心对称图形"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "math-m-geometry-quadrilaterals-q-002",
+    "node_id": "math-m-geometry-quadrilaterals",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "一个正方形的边长为5cm，则它的对角线长为_____cm。",
+    "answer": "5√2",
+    "steps": [
+      "正方形的对角线可以通过勾股定理计算",
+      "设对角线长为d，则d²=5²+5²",
+      "d=5√2"
+    ],
+    "common_errors": [
+      {
+        "error": "直接用边长乘以2",
+        "hint": "正方形的对角线长度应通过勾股定理计算"
+      },
+      {
+        "error": "计算错误",
+        "hint": "注意运算的准确性"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-geometry-quadrilaterals-q-003",
+    "node_id": "math-m-geometry-quadrilaterals",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "平行四边形ABCD中，∠A=70°，则∠B的度数为",
+    "options": [
+      "A. 70°",
+      "B. 110°",
+      "C. 140°",
+      "D. 35°"
+    ],
+    "answer": "B. 110°",
+    "steps": [
+      "平行四边形对角互补，邻角互补",
+      "∠A+∠B=180°",
+      "∠B=110°"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为∠A=∠B",
+        "hint": "平行四边形邻角互补，不是相等"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "math-m-geometry-quadrilaterals-q-004",
+    "node_id": "math-m-geometry-quadrilaterals",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "已知四边形ABCD中，AB∥CD，AD∥BC，且AB=CD=5cm，AD=BC=8cm，求四边形ABCD的面积。",
+    "answer": "40平方厘米",
+    "steps": [
+      "四边形ABCD是平行四边形",
+      "平行四边形的面积公式为：底×高",
+      "取AB为底，高为AD，则面积为5×8=40平方厘米"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为是矩形",
+        "hint": "题目只给出平行四边形的条件，没有矩形条件"
+      },
+      {
+        "error": "计算错误",
+        "hint": "注意底和高的对应关系"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-geometry-quadrilaterals-q-005",
+    "node_id": "math-m-geometry-quadrilaterals",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "梯形ABCD中，AB∥CD，AB=10cm，CD=4cm，高为6cm，求梯形ABCD的中位线长度。",
+    "answer": "7cm",
+    "steps": [
+      "梯形的中位线长度等于上底加下底的和的一半",
+      "中位线长度=(AB+CD)/2",
+      "中位线长度=(10+4)/2=7cm"
+    ],
+    "common_errors": [
+      {
+        "error": "误用上下底之和",
+        "hint": "中位线长度应为上下底和的一半"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-geometry-quadrilaterals-q-006",
+    "node_id": "math-m-geometry-quadrilaterals",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "矩形ABCD中，对角线AC和BD相交于点O，若AC=10cm，则BO的长为",
+    "options": [
+      "A. 10cm",
+      "B. 5cm",
+      "C. 2.5cm",
+      "D. 20cm"
+    ],
+    "answer": "B. 5cm",
+    "steps": [
+      "矩形对角线互相平分",
+      "BO=AC/2",
+      "BO=10/2=5cm"
+    ],
+    "common_errors": [
+      {
+        "error": "误认为BO=AC",
+        "hint": "矩形对角线互相平分，不是相等"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "math-m-geometry-quadrilaterals-q-007",
+    "node_id": "math-m-geometry-quadrilaterals",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "正方形ABCD的边长为6cm，点E是边BC的中点，连接AE和DE，求四边形AEDC的周长。",
+    "answer": "18+3√5 cm",
+    "steps": [
+      "四边形AEDC的周长=AE+ED+DC+CA",
+      "AE=√(AB²+BE²)=√(36+9)=3√5 cm",
+      "ED=3√5 cm",
+      "DC=6 cm",
+      "CA=6√2 cm",
+      "周长=3√5+3√5+6+6√2=18+3√5 cm"
+    ],
+    "common_errors": [
+      {
+        "error": "误用边长计算AE",
+        "hint": "AE应为直角三角形ABE的斜边"
+      },
+      {
+        "error": "计算错误",
+        "hint": "注意运算的准确性"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "math-m-geometry-quadrilaterals-q-008",
+    "node_id": "math-m-geometry-quadrilaterals",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "梯形ABCD中，AB∥CD，AB=8cm，CD=4cm，∠A=60°，∠B=45°，求梯形ABCD的面积。",
+    "answer": "12(√3+1) 平方厘米",
+    "steps": [
+      "过点D作DE⊥AB于E，过点C作CF⊥AB于F",
+      "DE=4√3 cm，CF=4 cm",
+      "梯形面积=(AB+CD)×(DE+CF)/2/2=12(√3+1) 平方厘米"
+    ],
+    "common_errors": [
+      {
+        "error": "误用直角三角形计算",
+        "hint": "注意梯形中直角三角形的应用"
+      },
+      {
+        "error": "计算错误",
+        "hint": "注意运算的准确性"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "math-m-geometry-quadrilaterals-q-009",
+    "node_id": "math-m-geometry-quadrilaterals",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "已知菱形ABCD的周长为20cm，对角线AC和BD相交于点O，若AC=8cm，求BD的长。",
+    "answer": "6cm",
+    "steps": [
+      "菱形对角线互相垂直平分",
+      "设AC=8cm，则AO=4cm",
+      "设BO=x，则BO²+AO²=AB²",
+      "x²+16=25",
+      "x=3",
+      "BD=2x=6cm"
+    ],
+    "common_errors": [
+      {
+        "error": "误用平行四边形性质",
+        "hint": "菱形对角线互相垂直平分，不是平行四边形的一般性质"
+      }
+    ],
+    "exam_frequency": 2
+  },
+  {
+    "id": "math-m-geometry-quadrilaterals-q-010",
+    "node_id": "math-m-geometry-quadrilaterals",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "矩形ABCD中，对角线AC和BD相交于点O，若∠AOB=120°，AB=4cm，求矩形ABCD的面积。",
+    "answer": "16√3 平方厘米",
+    "steps": [
+      "矩形对角线互相平分且相等",
+      "AO=BO=CO=DO",
+      "∠AOB=120°，则∠AOD=60°",
+      "AO=BO=2√3 cm",
+      "矩形面积=AB×AD=4×4√3=16√3 平方厘米"
+    ],
+    "common_errors": [
+      {
+        "error": "误用正方形性质",
+        "hint": "矩形对角线互相平分且相等，但不是正方形"
+      }
+    ],
+    "exam_frequency": 2
+  }
+]

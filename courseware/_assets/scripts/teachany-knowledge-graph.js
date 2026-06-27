@@ -54,10 +54,9 @@
 
   var COURSEWARE_BASE_URL = "/";
 
-  function coursewareUrl(course) {
-    if (!course || !course.path) return null;
-    if (/^https?:\/\//i.test(course.path)) return course.path;
-    return COURSEWARE_BASE_URL + "/" + String(course.path).replace(/^\/+/, "").replace(/\/$/, "") + "/index.html";
+  function coursewareUrl(course, nodeId) {
+    if (!course) return null;
+    return "/learn/" + (nodeId || course.id || "");
   }
 
   function hasCourse(node) {
@@ -405,7 +404,7 @@
       html += '<div style="margin-top:8px;font-size:12px;line-height:1.55;color:rgba(226,232,240,0.85)">' + (node.curriculum_points[0] || "").slice(0, 80) + '</div>';
     }
     if (hasCrs && node.courses && node.courses[0]) {
-      var url = coursewareUrl(node.courses[0]);
+      var url = coursewareUrl(node.courses[0], node.id);
       if (url) {
         html += '<a class="course-link" href="' + url + '" target="_top">🚀 打开课件：' + escapeHtml(node.courses[0].name || node.courses[0].id) + '</a>';
       }
@@ -716,7 +715,7 @@
     function onNodeClick(n, ev) {
       // 有课件 → 打开课件；无课件 → 聚焦到详情面板
       if (hasCourse(n) && n.id !== currentId) {
-        var url = coursewareUrl(n.courses[0]);
+        var url = coursewareUrl(n.courses[0], n.id);
         if (url) { window.open(url, "_top"); return; }
       }
       focusNode(n.id);
