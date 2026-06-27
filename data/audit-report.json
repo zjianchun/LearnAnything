@@ -1,0 +1,140 @@
+[
+  {
+    "has_issues": true,
+    "severity": "high",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "课件标题和内容",
+        "description": "课件标题是'∠ 圆心角与圆周角'，但实际内容中包含了许多与圆心角和圆周角无关的知识点，例如三角形内角和（pre-q2）。这表明内容可能存在模板复用而未完全修改的问题。",
+        "fix_suggestion": "检查并修改课件内容，确保所有题目和解释都与圆心角和圆周角相关。例如，将pre-q2替换为与圆心角或圆周角相关的问题，如'圆心角和圆周角之间的关系是什么？'"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "drawInscribed函数",
+        "description": "在drawInscribed函数中，圆周角的计算逻辑存在问题。圆周角应为圆心角的一半，但代码中使用了反余弦函数计算圆周角，这不符合圆周角定理。",
+        "fix_suggestion": "修改圆周角的计算逻辑，使其符合圆周角定理，即圆周角等于圆心角的一半。例如：const inscribedAng = centralAng / 2;"
+      },
+      {
+        "type": "data_error",
+        "location": "drawInscribed函数",
+        "description": "在计算圆周角时，代码中使用了反余弦函数（Math.acos），但未对向量的点积进行归一化处理，这可能导致计算结果不准确。",
+        "fix_suggestion": "在计算反余弦之前，应将向量的点积除以向量的模长。例如：const inscribedAng = Math.acos((v1x*v2x + v1y*v2y) / (Math.sqrt(v1x*v1x + v1y*v1y) * Math.sqrt(v2x*v2x + v2y*v2y))) * 180 / Math.PI;"
+      },
+      {
+        "type": "display_bug",
+        "location": "drawCentral函数",
+        "description": "在drawCentral函数中，'弧AB'的文本显示位置不正确，文本内容与图形位置不匹配，可能导致显示错误。",
+        "fix_suggestion": "调整文本显示位置，使其与图形对应。例如：ctx.fillText(`弧AB = (${deg}/360)×2πr`, cx - 50, cy + r + 20);"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "animateInscribed函数",
+        "description": "animateInscribed函数中，滑块的值从200增加到350，然后重置为200，这可能导致动画循环不符合预期。",
+        "fix_suggestion": "调整滑块值的范围和重置逻辑，使其符合动画需求。例如，可以将滑块值限制在0到360之间，并在达到360后重置为0：v = (v >= 360) ? 0 : v + 5;"
+      },
+      {
+        "type": "template_residual",
+        "location": "pre-q2问题",
+        "description": "pre-q2问题询问的是三角形内角和，这表明课件内容可能存在模板复用而未完全修改的问题。",
+        "fix_suggestion": "将pre-q2替换为与圆心角或圆周角相关的问题，例如：'圆心角和圆周角之间的关系是什么？'"
+      }
+    ],
+    "summary": "课件存在多处内容、逻辑和显示问题，需要进行全面审查和修改以确保教学内容的准确性和一致性。",
+    "node_id": "math-m-circle-angle",
+    "subject": "math",
+    "node_name": "圆周角与圆心角"
+  },
+  {
+    "has_issues": true,
+    "severity": "high",
+    "issues": [
+      {
+        "type": "content_wrong",
+        "location": "课件标题/整体内容",
+        "description": "课件标题是⟂ 切线，但主要内容涉及的是直线与圆的位置关系，包括切线、圆心角、切点等概念。然而，课件代码中并未明确强调'垂直'这一关键点，与标题中的⟂符号不匹配。",
+        "fix_suggestion": "在课件内容中明确加入关于垂直关系的解释，例如在drawTangent函数中添加对切线垂直于半径的说明，或在开头部分加入对⟂符号的强调。修改后的标题可以更具体，例如'⟂ 切线与圆的位置关系'。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "drawTangentLen函数",
+        "description": "在计算切点坐标时，代码中使用了错误的三角函数。代码中尝试使用Math.asin(r/pd)和Math.acos(r/pd)来计算角度，但根据几何关系，切点坐标应通过向量计算或使用正确的三角函数关系来确定。",
+        "fix_suggestion": "修正切点坐标的计算逻辑。例如，可以使用向量法或正确的三角函数关系来确定切点坐标。以下是修正后的代码片段：\n\n```javascript\nconst gamma = Math.acos(r / pd);\nconst a1x = cx + r * Math.cos(gamma);\nconst a1y = cy + r * Math.sin(gamma);\nconst a2x = cx + r * Math.cos(-gamma);\nconst a2y = cy + r * Math.sin(-gamma);\n```"
+      },
+      {
+        "type": "display_bug",
+        "location": "drawTangentLen函数",
+        "description": "当P点在圆内时，代码会显示'P在圆内，无切线'，但未隐藏或清除之前绘制的图形，导致图形与文本信息冲突。",
+        "fix_suggestion": "在显示'P在圆内，无切线'的文本后，添加清除图形或隐藏相关图形的逻辑。例如：\n\n```javascript\nif(sinA > 1){\n  ctx.fillStyle='#ef4444';\n  ctx.fillText('P在圆内，无切线', 10, 270);\n  return;\n}\n```"
+      },
+      {
+        "type": "data_error",
+        "location": "drawTangentLen函数",
+        "description": "在计算PA和PB的长度时，代码中使用了Math.sqrt(pd*pd - r*r)，但未处理pd小于r的情况，这会导致数学错误（负数开平方）。",
+        "fix_suggestion": "在计算PA和PB之前，添加对pd和r关系的检查。例如：\n\n```javascript\nif(pd <= r){\n  ctx.fillStyle='#ef4444';\n  ctx.fillText('P在圆内或圆上，无切线', 10, 270);\n  return;\n}\nconst pa = Math.sqrt(pd*pd - r*r);\n```"
+      },
+      {
+        "type": "template_residual",
+        "location": "整体代码结构",
+        "description": "代码中包含未完成的函数drawConstruct，疑似是模板代码未完全替换或清理。",
+        "fix_suggestion": "完成drawConstruct函数的实现，或从代码中移除未使用的函数和变量。"
+      }
+    ],
+    "summary": "课件存在多处逻辑错误、数据错误和显示问题，需要对切线计算逻辑、异常处理和模板清理进行重点修复。",
+    "node_id": "math-m-circle-tangent",
+    "subject": "math",
+    "node_name": "直线与圆的位置关系"
+  },
+  {
+    "has_issues": true,
+    "severity": "high",
+    "issues": [
+      {
+        "type": "logic_mismatch",
+        "location": "answerPre函数",
+        "description": "在answerPre函数中，'answerPre('+q,cor,c)中的字符串拼接错误，缺少右括号')'，导致setAnswered函数接收到的参数不正确。",
+        "fix_suggestion": "修改为'setAnswered(\"answerPre(\"+q+\")\", cor, c);'，确保括号匹配。例如：'setAnswered(\"answerPre(\"+q+\")\", cor, c);'"
+      },
+      {
+        "type": "content_wrong",
+        "location": "pre-q1题目",
+        "description": "题目1的描述有误，'通分后的分子'表述不完整，缺少对公分母的说明。",
+        "fix_suggestion": "修改题目为'1. 通分：1/x + 2/3 = ?（通分后的分子，公分母为3x）'，确保题目清晰明确。"
+      },
+      {
+        "type": "data_error",
+        "location": "pre-q2题目答案",
+        "description": "题目2的答案逻辑错误，x=0时，分式1/(x+1)的值应为1，而不是未定义。",
+        "fix_suggestion": "修改题目为'2. x = 0 时，分式 1/(x+1) 的值是？'，并相应调整答案逻辑。"
+      },
+      {
+        "type": "logic_mismatch",
+        "location": "answerModule函数",
+        "description": "在answerModule函数中，'answerModule('+m,cor,c)中的字符串拼接错误，缺少右括号')'，导致setAnswered函数接收到的参数不正确。",
+        "fix_suggestion": "修改为'setAnswered(\"answerModule(\"+m+\")\", cor, c);'，确保括号匹配。例如：'setAnswered(\"answerModule(\"+m+\")\", cor, c);'"
+      },
+      {
+        "type": "content_wrong",
+        "location": "post-q2题目答案",
+        "description": "题目2的答案解释中，'LCD=2x'的表述有误，验根时未考虑x=0的情况。",
+        "fix_suggestion": "修改答案解释为'LCD=2x，两边×2x：4x-1=3x，x=1，验根x=1≠0 ✓'，确保逻辑正确。"
+      },
+      {
+        "type": "display_bug",
+        "location": "后测得分显示",
+        "description": "后测得分显示区域在初始状态下未隐藏，可能导致显示错误。",
+        "fix_suggestion": "在HTML中添加style='display:none;'到<div class=\"score-label\">后测得分</div>的父元素，或在JavaScript中动态控制显示。"
+      },
+      {
+        "type": "template_residual",
+        "location": "learningObjectives",
+        "description": "learningObjectives数组为空，未定义具体的学习目标。",
+        "fix_suggestion": "根据课件内容，填充learningObjectives数组，例如：'learningObjectives: [\"理解分式方程的定义\", \"掌握分式方程的解法\", \"学会验根步骤\"]'。"
+      }
+    ],
+    "summary": "课件存在多处逻辑错误、内容问题和显示bug，需要全面修正以确保教学内容的准确性和交互体验的流畅性。",
+    "node_id": "math-m-fraction-equation",
+    "subject": "math",
+    "node_name": "分式方程"
+  }
+]
