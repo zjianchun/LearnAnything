@@ -1,0 +1,245 @@
+[
+  {
+    "id": "geo-m-terrain-types-q-001",
+    "node_id": "geo-m-terrain-types",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "以下哪种地形类型是地球上分布最广的地形？",
+    "options": [
+      "A. 山地",
+      "B. 平原",
+      "C. 高原",
+      "D. 丘陵"
+    ],
+    "answer": "B. 平原",
+    "steps": [
+      "1. 回忆地球表面各种地形类型的分布面积",
+      "2. 平原是地球上分布最广的地形，占地球陆地面积的1/3以上",
+      "3. 对比各选项，平原的分布面积最大"
+    ],
+    "common_errors": [
+      {
+        "error": "误选山地或高原",
+        "hint": "山地和高原虽然海拔较高，但分布面积不如平原广"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-terrain-types-q-002",
+    "node_id": "geo-m-terrain-types",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 1,
+    "question": "世界上最高的高原是_____，平均海拔超过4000米。",
+    "answer": "青藏高原",
+    "steps": [
+      "1. 回忆世界著名高原的名称和特点",
+      "2. 青藏高原是世界上最高的高原，平均海拔超过4000米",
+      "3. 填写正确答案"
+    ],
+    "common_errors": [
+      {
+        "error": "误填为安第斯山脉或喜马拉雅山脉",
+        "hint": "这些是山脉，不是高原"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-terrain-types-q-003",
+    "node_id": "geo-m-terrain-types",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 1,
+    "question": "以下哪种地形类型主要由火山活动形成？",
+    "options": [
+      "A. 平原",
+      "B. 丘陵",
+      "C. 火山",
+      "D. 盆地"
+    ],
+    "answer": "C. 火山",
+    "steps": [
+      "1. 了解各种地形类型的形成原因",
+      "2. 火山主要由火山活动形成",
+      "3. 对比其他选项，平原、丘陵和盆地主要由地壳运动和侵蚀作用形成"
+    ],
+    "common_errors": [
+      {
+        "error": "误选平原或盆地",
+        "hint": "这些地形类型主要由地壳运动和侵蚀作用形成"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-terrain-types-q-004",
+    "node_id": "geo-m-terrain-types",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下关于地形的描述，哪一项是正确的？",
+    "options": [
+      "A. 丘陵的海拔高度一般不超过200米",
+      "B. 山地是地表起伏最小的地形类型",
+      "C. 高原的顶部一定是平坦的",
+      "D. 盆地一定是地势低洼的区域"
+    ],
+    "answer": "A. 丘陵的海拔高度一般不超过200米",
+    "steps": [
+      "1. 回顾丘陵、山地、高原和盆地的定义和特点",
+      "2. 丘陵的海拔高度一般不超过200米",
+      "3. 验证其他选项的错误：山地起伏大，高原顶部不一定平坦，盆地不一定地势低洼"
+    ],
+    "common_errors": [
+      {
+        "error": "误选B或C",
+        "hint": "山地起伏大，高原顶部不一定平坦"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-terrain-types-q-005",
+    "node_id": "geo-m-terrain-types",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述平原和高原的主要区别。",
+    "answer": "平原和高原的主要区别在于海拔高度和地形起伏。平原的海拔较低，地形起伏小，而高原的海拔较高，地形起伏相对较小但顶部平坦。",
+    "steps": [
+      "1. 明确平原和高原的定义",
+      "2. 比较两者的海拔高度",
+      "3. 比较两者的地形起伏特点",
+      "4. 组织语言进行回答"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到海拔高度而忽略地形起伏",
+        "hint": "平原和高原的区别不仅在于海拔，还在于地形起伏"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-terrain-types-q-006",
+    "node_id": "geo-m-terrain-types",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 2,
+    "question": "以下哪种地形类型是河流侵蚀作用的主要产物？",
+    "options": [
+      "A. 山地",
+      "B. 峡谷",
+      "C. 高原",
+      "D. 丘陵"
+    ],
+    "answer": "B. 峡谷",
+    "steps": [
+      "1. 了解河流侵蚀作用对地形的影响",
+      "2. 峡谷主要由河流侵蚀作用形成",
+      "3. 对比其他选项，山地、高原和丘陵主要由地壳运动和风化作用形成"
+    ],
+    "common_errors": [
+      {
+        "error": "误选山地或丘陵",
+        "hint": "这些地形类型主要由地壳运动和风化作用形成"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-terrain-types-q-007",
+    "node_id": "geo-m-terrain-types",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 2,
+    "question": "简述山地和丘陵的主要区别。",
+    "answer": "山地和丘陵的主要区别在于海拔高度和地形起伏。山地的海拔较高，地形起伏大，而丘陵的海拔较低，地形起伏相对较小。",
+    "steps": [
+      "1. 明确山地和丘陵的定义",
+      "2. 比较两者的海拔高度",
+      "3. 比较两者的地形起伏特点",
+      "4. 组织语言进行回答"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到海拔高度而忽略地形起伏",
+        "hint": "山地和丘陵的区别不仅在于海拔，还在于地形起伏"
+      }
+    ],
+    "exam_frequency": 5
+  },
+  {
+    "id": "geo-m-terrain-types-q-008",
+    "node_id": "geo-m-terrain-types",
+    "source": "AI生成-武汉中考风格",
+    "type": "choice",
+    "difficulty": 3,
+    "question": "以下关于地形类型的描述，哪一项是错误的？",
+    "options": [
+      "A. 盆地可以是地势较高的区域",
+      "B. 高原的顶部一定是平坦的",
+      "C. 山地是地表起伏最大的地形类型",
+      "D. 平原是地表起伏最小的地形类型"
+    ],
+    "answer": "B. 高原的顶部一定是平坦的",
+    "steps": [
+      "1. 回顾各种地形类型的定义和特点",
+      "2. 确认高原的顶部不一定平坦",
+      "3. 验证其他选项的正确性：盆地可以是地势较高的区域，山地是地表起伏最大的地形类型，平原是地表起伏最小的地形类型"
+    ],
+    "common_errors": [
+      {
+        "error": "误选C或D",
+        "hint": "山地和平原的定义是明确的，不容混淆"
+      }
+    ],
+    "exam_frequency": 3
+  },
+  {
+    "id": "geo-m-terrain-types-q-009",
+    "node_id": "geo-m-terrain-types",
+    "source": "AI生成-武汉中考风格",
+    "type": "short_answer",
+    "difficulty": 3,
+    "question": "请解释为什么平原是地球上最适宜人类居住的地形类型。",
+    "answer": "平原是地球上最适宜人类居住的地形类型，因为平原海拔较低，地形起伏小，便于建设和发展基础设施。此外，平原地区土壤肥沃，水源充足，有利于农业发展。",
+    "steps": [
+      "1. 分析平原的地形特点",
+      "2. 考虑平原对人类活动的影响",
+      "3. 结合农业和基础设施建设的需求",
+      "4. 组织语言进行回答"
+    ],
+    "common_errors": [
+      {
+        "error": "只提到土壤肥沃而忽略其他因素",
+        "hint": "适宜居住的因素包括地形、土壤、水源等多个方面"
+      }
+    ],
+    "exam_frequency": 4
+  },
+  {
+    "id": "geo-m-terrain-types-q-010",
+    "node_id": "geo-m-terrain-types",
+    "source": "AI生成-武汉中考风格",
+    "type": "fill",
+    "difficulty": 3,
+    "question": "世界上最大的盆地是_____，位于非洲。",
+    "answer": "刚果盆地",
+    "steps": [
+      "1. 回忆世界著名盆地的名称和位置",
+      "2. 刚果盆地是世界上最大的盆地，位于非洲",
+      "3. 填写正确答案"
+    ],
+    "common_errors": [
+      {
+        "error": "误填为塔里木盆地或四川盆地",
+        "hint": "这些是中国的主要盆地，不是世界上最大的盆地"
+      }
+    ],
+    "exam_frequency": 3
+  }
+]
