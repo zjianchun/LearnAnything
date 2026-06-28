@@ -8,6 +8,7 @@ const routes = [
   { path: '/path', component: () => import('../views/LearningPath.vue') },
   { path: '/library', component: () => import('../views/CoursewareLib.vue') },
   { path: '/pbl', component: () => import('../views/PBL.vue') },
+  { path: '/memory', component: () => import('../views/Memory.vue') },
   { path: '/learn/:nodeId', component: () => import('../views/Learn.vue') },
   { path: '/practice', component: () => import('../views/Practice.vue') },
   { path: '/practice/:nodeId', component: () => import('../views/Practice.vue') },
