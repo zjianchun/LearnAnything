@@ -11142,5 +11142,1559 @@
     "source_pdf": "数学_模拟卷_2026_2026_数学黄金卷01（考试版）.pdf",
     "source_page": 1,
     "figure_url": "/exam-pages/math/811b087b0f95.webp"
+  },
+  {
+    "question_num": "1",
+    "question": "中国古代数学著作《九章算术》就最早提到了负数；$-\\frac{1}{2}$ 的相反数是（ ）\nA. $\\frac{1}{2}$  B. $-\\frac{1}{2}$  C. $2$  D. $-2$",
+    "answer": "B",
+    "type": "choice",
+    "difficulty": 1,
+    "node_keywords": [
+      "相反数",
+      "绝对值",
+      "有理数"
+    ],
+    "exam_frequency": 4,
+    "figure_description": null,
+    "source_pdf": "数学_模拟卷_2026_2026_数学（武汉卷）（全解全析）.pdf",
+    "source_page": 0
+  },
+  {
+    "question_num": "2",
+    "question": "如图所示图形中是轴对称图形的是（ ）\nA.  \nB.  \nC.  \nD.",
+    "answer": "B",
+    "type": "choice",
+    "difficulty": 1,
+    "node_keywords": [
+      "轴对称图形",
+      "对称轴",
+      "图形的认识"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "四个备选图形：A为不规则图形（非轴对称）；B为轴对称图形（左右对称）；C为非轴对称图形；D为非轴对称图形。其中B沿某条直线折叠后两边能完全重合。",
+    "source_pdf": "数学_模拟卷_2026_2026_数学（武汉卷）（全解全析）.pdf",
+    "source_page": 0,
+    "figure_url": "/exam-pages/math/12167540a44f.webp"
+  },
+  {
+    "question_num": "3",
+    "question": "下列事件中，是随机事件的是（ ）\nA. 明天太阳从东方升起\nB. 平面内不共线的三点确定一个圆\nC. 任意画一个三角形，其内角和是 $540°$\nD. 经过有交通信号的路口时遇见红灯",
+    "answer": "D",
+    "type": "choice",
+    "difficulty": 1,
+    "node_keywords": [
+      "随机事件",
+      "必然事件",
+      "不可能事件"
+    ],
+    "exam_frequency": 4,
+    "figure_description": null,
+    "source_pdf": "数学_模拟卷_2026_2026_数学（武汉卷）（全解全析）.pdf",
+    "source_page": 0
+  },
+  {
+    "question_num": "4",
+    "question": "我们知道某些代数恒等式可用一些卡片拼成的图形面积来解释．现有三种类型卡片A、B、C，想要拼成如图所示长方形，则还需要C类型卡片（ ）张\nA. 3  B. 4  C. 5  D. 6",
+    "answer": "C",
+    "type": "choice",
+    "difficulty": 2,
+    "node_keywords": [
+      "多项式乘多项式",
+      "长方形面积公式",
+      "代数恒等式"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "由三种卡片A、B、C拼成的大长方形图形：长边由A、B、C三种卡片横向拼接而成，宽边由若干A和C卡片纵向排列。已知部分A、B、C卡片已放置，需要确定C类型卡片还需要几张才能完整拼成该长方形。根据解析，大长方形面积为 $2a^2+5ab+3b^2$（或类似表达式），需C类卡片5张。",
+    "source_pdf": "数学_模拟卷_2026_2026_数学（武汉卷）（全解全析）.pdf",
+    "source_page": 0,
+    "figure_url": "/exam-pages/math/12167540a44f.webp"
+  },
+  {
+    "question_num": "5",
+    "question": "下列各种现象中，属于中心投影现象的是（ ）\nA. 阳光下旗杆的影子\nB. 台灯下书本的影子\nC. 太阳光下广告牌的影子\nD. 正午阳光下的树影",
+    "answer": "B",
+    "type": "choice",
+    "difficulty": 1,
+    "node_keywords": [
+      "中心投影",
+      "平行投影",
+      "投影"
+    ],
+    "exam_frequency": 3,
+    "figure_description": null,
+    "source_pdf": "数学_模拟卷_2026_2026_数学（武汉卷）（全解全析）.pdf",
+    "source_page": 0
+  },
+  {
+    "question_num": "6",
+    "question": "两条直线与在同一直角坐标系中的图像位置可能是（ ）",
+    "answer": null,
+    "type": "choice",
+    "difficulty": 2,
+    "node_keywords": [
+      "一次函数",
+      "正比例函数",
+      "直角坐标系",
+      "图像位置"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "题目在图片底部被截断，选项内容不完整。需要根据两条直线在同一平面直角坐标系中可能的图像位置进行判断（通常涉及斜率、截距关系）。",
+    "source_pdf": "数学_模拟卷_2026_2026_数学（武汉卷）（全解全析）.pdf",
+    "source_page": 0,
+    "figure_url": "/exam-pages/math/12167540a44f.webp"
+  },
+  {
+    "question_num": "6",
+    "question": "如图，一次函数$y_1=kx+b$与一次函数$y_2=mx+n$的图象如图所示，下列结论错误的是（  ）\nA. $k>0$，$m<0$\nB. 当$x<2$时，$y_1>y_2$\nC. $kx+b=mx+n$的解是$x=2$\nD. $y_1$随$x$的增大而增大",
+    "answer": "C",
+    "type": "choice",
+    "difficulty": 2,
+    "node_keywords": [
+      "一次函数图像",
+      "一次函数性质",
+      "方程与函数关系"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "平面直角坐标系中两条直线相交：第一象限内一条直线从左下到右上（k>0），与另一条从左上到右下（m<0）的直线交于点(2, y)，两直线分别交y轴于正负不同位置",
+    "source_pdf": "数学_模拟卷_2026_2026_数学（武汉卷）（全解全析）.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/316c7d80be44.webp"
+  },
+  {
+    "question_num": "7",
+    "question": "如图，反比例函数$y=\\frac{k}{x}$的图象与直线$y=ax+b$交于点$A$，与$x$轴交于点$B$，与$y$轴交于点$C$，连接$OA$、$OB$，则$\\frac{S_{\\triangle AOB}}{S_{\\triangle BOC}}$的值为（  ）",
+    "answer": "A",
+    "type": "choice",
+    "difficulty": 2,
+    "node_keywords": [
+      "反比例函数",
+      "一次函数",
+      "三角形面积",
+      "k的几何意义"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "平面直角坐标系中，反比例函数y=k/x（k>0）的图象位于第一象限，一条直线经过该曲线上的点A（第一象限），分别交x轴正半轴于点B、y轴正半轴于点C",
+    "source_pdf": "数学_模拟卷_2026_2026_数学（武汉卷）（全解全析）.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/316c7d80be44.webp"
+  },
+  {
+    "question_num": "8",
+    "question": "若$\\frac{x+1}{x-a}=\\frac{1}{x}$且$a$、$b$为正整数，当分式方程$\\frac{x}{x-1}+\\frac{b}{x-1}=2$的解为整数时，所有符合条件的$b$的值之和为（  ）\nA. 277\nB. 240\nC. 272\nD. 256",
+    "answer": "C",
+    "type": "choice",
+    "difficulty": 3,
+    "node_keywords": [
+      "分式方程",
+      "增根",
+      "整数解",
+      "正整数"
+    ],
+    "exam_frequency": 4,
+    "figure_description": null,
+    "source_pdf": "数学_模拟卷_2026_2026_数学（武汉卷）（全解全析）.pdf",
+    "source_page": 1
+  },
+  {
+    "question_num": "9",
+    "question": "如图，在平面直角坐标系中，$\\triangle ABC$的一条直角边在$x$轴上，点$A$的坐标为$(6,0)$；中，$\\angle BAC=90°$，$AB=AC$，连接$BC$，点$M$是$AB$中点，连接$OM$，将以点$O$为旋转中心按顺时针方向旋转，在旋转过程中，线段$CM$的最小值是（  ）\nA. 3\nB. 2\nC. $\\sqrt{5}$\nD. $2\\sqrt{2}$",
+    "answer": "D",
+    "type": "choice",
+    "difficulty": 3,
+    "node_keywords": [
+      "直角三角形",
+      "坐标变换",
+      "旋转变换",
+      "中位线",
+      "点到直线距离"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "平面直角坐标系中，直角三角形ABC的直角顶点为A(6,0)，直角边AB在x轴上，B在原点O的左侧（O为坐标原点），AB=AC，另一条直角边AC垂直于x轴向上，点C的坐标为(6, 6)（等腰直角三角形），M为AB的中点",
+    "source_pdf": "数学_模拟卷_2026_2026_数学（武汉卷）（全解全析）.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/316c7d80be44.webp"
+  },
+  {
+    "question_num": "16",
+    "question": "如图，正方形ABCD和正方形CEFG的顶点在同一条直线上，顶点B、E在同一条直线上，F是DG的中点，∠DBC的平分线过点F，交BC于点H，连接交于点，连接. 以下四个结论：①；②；③；④；其中正确的有（填序号）.",
+    "answer": "①③",
+    "type": "choice",
+    "difficulty": 3,
+    "node_keywords": [
+      "正方形的性质",
+      "等量代换",
+      "直角三角形斜边中线",
+      "外接圆",
+      "圆周角定理",
+      "中位线",
+      "平行线分线段成比例"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "正方形ABCD和正方形CEFG，A、C、G三点共线（位于同一条水平直线上），B、E在另一条直线上。F为DG的中点。BD的角平分线（或∠DBC的角平分线）过点F交BC于H，连接相关线段。需判断四个几何结论的正确性。",
+    "source_pdf": "数学_模拟卷_2026_2026_数学（武汉卷）（全解全析）.pdf",
+    "source_page": 4,
+    "figure_url": "/exam-pages/math/4f8e2c446bb9.webp"
+  },
+  {
+    "question_num": "(4)",
+    "question": "如图所示，点即所求；由作图可知：∴，∴，∴，∴点与点关于对称，由圆的对称性可知：(8分)【点睛】本题考查中心对称，平行四边边的判定和性质，全等三角形的判定和性质，垂径定理，圆周角定理等知识点，综合性强，熟练掌握相关知识点，是解题的关键。",
+    "answer": "见解析",
+    "type": "proof",
+    "difficulty": 2,
+    "node_keywords": [
+      "中心对称",
+      "平行四边形判定和性质",
+      "全等三角形",
+      "垂径定理",
+      "圆周角定理"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "作图题，涉及点的对称关系与圆的性质；具体图形标注缺失，仅展示结论性描述",
+    "source_pdf": "数学_模拟卷_2026_2026_数学（武汉卷）（全解全析）.pdf",
+    "source_page": 7,
+    "figure_url": "/exam-pages/math/065de2684199.webp"
+  },
+  {
+    "question_num": "10",
+    "question": "发石车（图1）是古代一种攻城器械，据《三国志》记载：曹操创制发石车，攻破袁绍军壁楼，如图2，发石车位于点O处，其前方有一堵壁楼，其防御墙的竖直截面为矩形ABCD，墙宽BC为2米，点B与点O的水平距离为23米，垂直距离为6米，以点O为原点，水平方向为x轴方向，建立坐标系，将石块当作一个点看，其飞行路线近似看作抛物线。\n(1)若发射石块在空中飞行的最大高度为9米。\n①求函数解析式（不写x的范围）；\n②石块能否飞越防御墙？\n(2)若要使石块恰好落在防御墙顶部BC上（包括点B、C），求出a的取值范围？",
+    "answer": "(1)① y=ax-$\\frac{1}{18}$ax²（a>0）；②石块不能飞越防御墙；(2) $\\frac{1}{23}\\leq a\\leq\\frac{1}{22}$",
+    "type": "short_answer",
+    "difficulty": 2,
+    "node_keywords": [
+      "二次函数实际应用",
+      "抛物线",
+      "最值问题",
+      "二次函数解析式"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "图1：古代发石车示意图；图2：防御墙竖直截面为矩形ABCD，BC=2米（墙宽），B点位于上方右侧，D点位于下方右侧，A点位于上方左侧，C点位于下方左侧；O为发石车位置，位于矩形左侧；O到B的水平距离为23米，垂直距离为6米（B在O的右上方6米处）；以O为原点建立坐标系，x轴水平向右",
+    "source_pdf": "数学_模拟卷_2026_2026_数学（武汉卷）（全解全析）.pdf",
+    "source_page": 7,
+    "figure_url": "/exam-pages/math/065de2684199.webp"
+  },
+  {
+    "question_num": "11",
+    "question": "在△ABC中，E是边BC上一动点，连接AE。\n(1)如图1，若∠B=∠CAE，AE交∠BCF的平分线于点M，求证：AE=CF（注：根据上下文条件判断）。\n(2)在（1）的条件下，如图2，若，以AE为边，在右侧作正方形AEFG，连接CG，当点E在BC上运动时（不与B、C重合），∠BCG的大小是否发生变化，如果变化，请说明理由，如果不变，请求出∠BCG的度数。\n(3)如图3，点P在正方形的边延长线上，且∠BAP=30°，在直线AP的右侧作△APQ，且∠APQ=90°，R为线段AQ的中点，当点E从点B运动到点C时，求出点R运动路径长度，并简要说明理由。",
+    "answer": "(1)见解析；(2)∠BCG不变，∠BCG=45°；(3)理由见解析，路径长度等于BC的一半",
+    "type": "proof",
+    "difficulty": 3,
+    "node_keywords": [
+      "全等三角形",
+      "正方形性质",
+      "三角形中位线定理",
+      "动点轨迹",
+      "几何变换"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "图1：△ABC中，E在BC边上，AE与∠BCF平分线交于M点；图2：在AE右侧作正方形AEFG，C点位于正方形左上方，连接CG；图3：在正方形边延长线上取点P，∠BAP=30°，在直线AP右侧作△APQ使∠APQ=90°，R为AQ中点（具体几何标注因图片缺失部分细节）",
+    "source_pdf": "数学_模拟卷_2026_2026_数学（武汉卷）（全解全析）.pdf",
+    "source_page": 7,
+    "figure_url": "/exam-pages/math/065de2684199.webp"
+  },
+  {
+    "question_num": "1",
+    "question": "实数3的相反数是 (A) 3 (B) $\\frac{1}{3}$ (C) $-\\frac{1}{3}$ (D) -3",
+    "answer": null,
+    "type": "choice",
+    "difficulty": 1,
+    "node_keywords": [
+      "相反数"
+    ],
+    "exam_frequency": 3,
+    "figure_description": null,
+    "source_pdf": "数学_真题_2023_湖北省武汉市中考数学真题试卷.pdf",
+    "source_page": 0
+  },
+  {
+    "question_num": "2",
+    "question": "现实世界中，对称现象无处不在，中国的方块字中有些也具有对称性。下列汉字是轴对称图形的是 (A) 国 (B) 家 (C) 昌 (D) 盛",
+    "answer": null,
+    "type": "choice",
+    "difficulty": 1,
+    "node_keywords": [
+      "轴对称图形"
+    ],
+    "exam_frequency": 3,
+    "figure_description": "选项中的四个汉字：国、家、昌、盛",
+    "source_pdf": "数学_真题_2023_湖北省武汉市中考数学真题试卷.pdf",
+    "source_page": 0,
+    "figure_url": "/exam-pages/math/9da69834ced6.webp"
+  },
+  {
+    "question_num": "3",
+    "question": "掷两枚质地均匀的骰子，下列事件是随机事件的是 (A) 点数的和为1 (B) 点数的和为6 (C) 点数的和大于12 (D) 点数的和小于13",
+    "answer": null,
+    "type": "choice",
+    "difficulty": 1,
+    "node_keywords": [
+      "随机事件"
+    ],
+    "exam_frequency": 3,
+    "figure_description": null,
+    "source_pdf": "数学_真题_2023_湖北省武汉市中考数学真题试卷.pdf",
+    "source_page": 0
+  },
+  {
+    "question_num": "4",
+    "question": "计算$(2a^2)^3$的结果是 (A) $2a^5$ (B) $6a^5$ (C) $8a^5$ (D) $8a^6$",
+    "answer": null,
+    "type": "choice",
+    "difficulty": 1,
+    "node_keywords": [
+      "幂的运算"
+    ],
+    "exam_frequency": 3,
+    "figure_description": null,
+    "source_pdf": "数学_真题_2023_湖北省武汉市中考数学真题试卷.pdf",
+    "source_page": 0
+  },
+  {
+    "question_num": "5",
+    "question": "如图是由4个相同的小正方体组成的几何体，它的左视图是 (A) (B) (C) (D)",
+    "answer": null,
+    "type": "choice",
+    "difficulty": 2,
+    "node_keywords": [
+      "三视图",
+      "左视图"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "正视图：由4个相同小正方体组成的几何体，前下方有1个独立的小正方体，后上方堆叠3个小正方体呈L形。四个选项(A)(B)(C)(D)均为由若干小正方形组成的平面图形，分别显示不同的左视图可能性：(A)三个小正方形呈L形排列（左1右2上方1）；(B)三个小正方形呈L形排列；(C)三个小正方形横排；(D)三个小正方形呈L形排列",
+    "source_pdf": "数学_真题_2023_湖北省武汉市中考数学真题试卷.pdf",
+    "source_page": 0,
+    "figure_url": "/exam-pages/math/9da69834ced6.webp"
+  },
+  {
+    "question_num": "6",
+    "question": "关于反比例函数$y=\\frac{3}{x}$，下列结论正确的是 (A) 图象位于第二、四象限 (B) 图象与坐标轴有公共点 (C) 图象所在的每一个象限内，y随x的增大而减小 (D) 图象经过点$(a, a+2)$，则a=1",
+    "answer": null,
+    "type": "choice",
+    "difficulty": 2,
+    "node_keywords": [
+      "反比例函数",
+      "图象性质"
+    ],
+    "exam_frequency": 4,
+    "figure_description": null,
+    "source_pdf": "数学_真题_2023_湖北省武汉市中考数学真题试卷.pdf",
+    "source_page": 0
+  },
+  {
+    "question_num": "7",
+    "question": "某校即将举行田径运动会，\"体育达人\"小明从\"跳高\"\"跳远\"\"100米\"\"400米\"四个项目中，随机选择两项，则他选择\"100米\"与\"400米\"两个项目的概率是 (A) $\\frac{1}{2}$ (B) $\\frac{1}{4}$ (C) $\\frac{1}{6}$ (D) $\\frac{1}{12}$",
+    "answer": null,
+    "type": "choice",
+    "difficulty": 2,
+    "node_keywords": [
+      "概率",
+      "古典概型",
+      "组合"
+    ],
+    "exam_frequency": 4,
+    "figure_description": null,
+    "source_pdf": "数学_真题_2023_湖北省武汉市中考数学真题试卷.pdf",
+    "source_page": 0
+  },
+  {
+    "question_num": "8",
+    "question": "已知$x^2-x-1=0$，计算$\\left(\\frac{2}{x+1}-\\frac{1}{x}\\right) \\div \\frac{x^2-x}{x^2+2x+1}$的值是 (A) 1 (B) -1 (C) 2 (D) -2",
+    "answer": null,
+    "type": "choice",
+    "difficulty": 3,
+    "node_keywords": [
+      "分式化简求值",
+      "一元二次方程"
+    ],
+    "exam_frequency": 4,
+    "figure_description": null,
+    "source_pdf": "数学_真题_2023_湖北省武汉市中考数学真题试卷.pdf",
+    "source_page": 0
+  },
+  {
+    "question_num": "9",
+    "question": "如图，在四边形ABCD中，$AB \\parallel CD$，$AD \\perp AB$，以D为圆心，AD为半径的弧恰好与BC相切，切点为E，若$\\frac{AB}{CD}=\\frac{1}{3}$，则$\\sin C$的值是 (A) $\\frac{2}{3}$ (B) $\\frac{\\sqrt{5}}{3}$ (C) $\\frac{3}{4}$ (D) $\\frac{\\sqrt{7}}{4}$",
+    "answer": null,
+    "type": "choice",
+    "difficulty": 3,
+    "node_keywords": [
+      "圆与切线",
+      "直角三角形",
+      "三角函数"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "四边形ABCD，其中A在左上角，B在A右侧上方，AD⊥AB（D在A正下方），AB∥CD，C在D右侧，BC与以D为圆心、DA为半径的圆弧相切于点E。图中标注顶点A、B、C、D和切点E的位置关系",
+    "source_pdf": "数学_真题_2023_湖北省武汉市中考数学真题试卷.pdf",
+    "source_page": 0,
+    "figure_url": "/exam-pages/math/9da69834ced6.webp"
+  },
+  {
+    "question_num": "10",
+    "question": "皮克定理是格点几何学中的一个重要定理，它揭示了以格点为顶点的多边形的面积$S=N+\\frac{1}{2}L-1$，其中N、L分别表示这个多边形内部与边界上的格点个数。在平面直角坐标系中，横、纵坐标都是整数的点为格点，已知$A(0, 30)$，$B(20, 10)$，$O(0, 0)$，则$\\triangle ABO$内部的格点个数是 (A) 266 (B) 270 (C) 271 (D) 285",
+    "answer": null,
+    "type": "choice",
+    "difficulty": 3,
+    "node_keywords": [
+      "皮克定理",
+      "格点",
+      "三角形面积"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "在平面直角坐标系中，A点坐标(0, 30)，B点坐标(20, 10)，O点坐标(0, 0)，三角形ABO的三个顶点。AB连线从A到B，BO连线从B到O，OA连线从O到A（沿y轴）",
+    "source_pdf": "数学_真题_2023_湖北省武汉市中考数学真题试卷.pdf",
+    "source_page": 0,
+    "figure_url": "/exam-pages/math/9da69834ced6.webp"
+  },
+  {
+    "question_num": "11",
+    "question": "写出一个小于4的正无理数是 _______________ .",
+    "answer": null,
+    "type": "fill",
+    "difficulty": 1,
+    "node_keywords": [
+      "无理数",
+      "实数"
+    ],
+    "exam_frequency": 3,
+    "figure_description": null,
+    "source_pdf": "数学_真题_2023_湖北省武汉市中考数学真题试卷.pdf",
+    "source_page": 1
+  },
+  {
+    "question_num": "12",
+    "question": "新时代十年来，我国建成世界上规模最大的社会保障体系，其中基本医疗保险的参保人数由5.4亿增加到13.6亿，参保率稳定在95%，将数据13.6亿用科学记数法表示为$1.36\\times 10^n$的形式，则$n$的值是 _______________ .（备注：1亿=100 000 000）",
+    "answer": null,
+    "type": "fill",
+    "difficulty": 1,
+    "node_keywords": [
+      "科学记数法"
+    ],
+    "exam_frequency": 4,
+    "figure_description": null,
+    "source_pdf": "数学_真题_2023_湖北省武汉市中考数学真题试卷.pdf",
+    "source_page": 1
+  },
+  {
+    "question_num": "13",
+    "question": "如图，将$45°$的$\\angle AOB$按下面的方式放置在一把刻度尺上：顶点$O$与尺下沿的端点重合，$OA$与尺下沿重合，$OB$与尺上沿的交点$B$在尺上的读数为2cm. 若按相同的方式将$37°$的$\\angle AOC$放置在该刻度尺上，则$OC$与尺上沿的交点$C$在尺上的读数是 _______________ cm.（结果精确到0.1cm，参考数据$\\sin 37°\\approx 0.60$，$\\cos 37°\\approx 0.80$，$\\tan 37°\\approx 0.75$）",
+    "answer": null,
+    "type": "fill",
+    "difficulty": 2,
+    "node_keywords": [
+      "三角函数",
+      "解直角三角形"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "第13题图：显示一把刻度尺，下沿从0开始，上沿从1开始。第一个图中，O为左下端点，OA沿下沿，OB与上沿相交于B，B点读数为2cm，对应45°角；第二个图中，OC与上沿相交于C，对应37°角。",
+    "source_pdf": "数学_真题_2023_湖北省武汉市中考数学真题试卷.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/c66c9ca8ee6e.webp"
+  },
+  {
+    "question_num": "14",
+    "question": "我国古代数学著作《九章算术》记载：\"今有善行者行一百步，不善行者行六十步. 今不善行者先行一百步，善行者追之，问几何步及之？\"如图是善行者和不善行者行走路程$s$（单位：步）关于善行者的行走时间$t$的函数图象，则两图象交点$P$的纵坐标是 _______________ .",
+    "answer": null,
+    "type": "fill",
+    "difficulty": 2,
+    "node_keywords": [
+      "一次函数",
+      "函数图象交点",
+      "方程应用"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "第14题图：s-t坐标系，s轴上有刻度100和160，t轴上有刻度0到5。两图分别为：A图为两条直线（分别从原点出发的善行者直线和不善行者直线）相交于P点，P点横坐标约在2-3之间；另一图为s轴显示160和100标度，t轴显示5，P点位于上方直线上。",
+    "source_pdf": "数学_真题_2023_湖北省武汉市中考数学真题试卷.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/c66c9ca8ee6e.webp"
+  },
+  {
+    "question_num": "15",
+    "question": "抛物线$y=ax^2+bx+c$（$a$，$b$，$c$是常数，$c<0$）经过$(1,1)$，$(m, 0)$，$(n, 0)$三点，且$n\\geq 3$. 下列四个结论：\n①$b<0$；\n②$4ac-b^2<4a$；\n③当$n=3$时，若点$(2, t)$在该抛物线上，则$t>1$；\n④若关于$x$的一元二次方程$ax^2+bx+c=x$有两个相等的实数根，则$0<m\\leq \\frac{1}{3}$.\n其中正确的是 _______________ （填写序号）.",
+    "answer": null,
+    "type": "fill",
+    "difficulty": 3,
+    "node_keywords": [
+      "二次函数",
+      "抛物线",
+      "判别式",
+      "函数图象性质"
+    ],
+    "exam_frequency": 5,
+    "figure_description": null,
+    "source_pdf": "数学_真题_2023_湖北省武汉市中考数学真题试卷.pdf",
+    "source_page": 1
+  },
+  {
+    "question_num": "16",
+    "question": "如图，$DE$平分等边$\\triangle ABC$的面积，折叠$\\triangle BDE$得到$\\triangle FDE$，$AC$分别与$DF$，$EF$相交于$G$，$H$两点. 若$DG=m$，$EH=n$，用含$m$，$n$的式子表示$GH$的长是 _______________ .",
+    "answer": null,
+    "type": "fill",
+    "difficulty": 3,
+    "node_keywords": [
+      "等边三角形",
+      "翻折变换",
+      "图形面积"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "第16题图：等边三角形ABC，B在左下，C在右下，A在顶部。D点在AB边上，E点在BC边上。沿DE折叠△BDE得到△FDE，F点位于三角形内部偏上。AC边与DF相交于G点，与EF相交于H点。",
+    "source_pdf": "数学_真题_2023_湖北省武汉市中考数学真题试卷.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/c66c9ca8ee6e.webp"
+  },
+  {
+    "question_num": "17",
+    "question": "（本小题满分8分）\n解不等式组 $\\begin{cases} 2x-4<2 & ① \\\\ 3x+2\\geq x & ② \\end{cases}$ 请按下列步骤完成解答.\n（Ⅰ）解不等式①，得 _______________；\n（Ⅱ）解不等式②，得 _______________；\n（Ⅲ）把不等式①和②的解集在数轴上表示出来；\n（Ⅳ）原不等式组的解集是 _______________ .",
+    "answer": null,
+    "type": "short_answer",
+    "difficulty": 2,
+    "node_keywords": [
+      "一元一次不等式组",
+      "数轴表示"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "数轴图：显示从-2到4的整数刻度（-2, -1, 0, 1, 2, 3, 4），需要在该数轴上表示两个不等式的解集及其公共部分。",
+    "source_pdf": "数学_真题_2023_湖北省武汉市中考数学真题试卷.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/c66c9ca8ee6e.webp"
+  },
+  {
+    "question_num": "18",
+    "question": "（本小题满分8分）\n如图，在四边形$ABCD$中，$AD\\parallel BC$，$\\angle B=\\angle D$，点$E$在$BA$的延长线上，连接$CE$.\n（1）求证：$\\angle E=\\angle ECD$；\n（2）若$\\angle E=60°$，$CE$平分$\\angle BCD$，直接写出$\\triangle BCE$的形状.",
+    "answer": null,
+    "type": "proof",
+    "difficulty": 2,
+    "node_keywords": [
+      "平行线性质",
+      "角平分线",
+      "三角形判定"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "第18题图：四边形ABCD，AD平行于BC。A在左上，B在左下，D在右上，C在右下。E点在BA的延长线上（即A的左上方）。连接CE形成三角形BCE。",
+    "source_pdf": "数学_真题_2023_湖北省武汉市中考数学真题试卷.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/c66c9ca8ee6e.webp"
+  },
+  {
+    "question_num": "19",
+    "question": "（本小题满分8分）\n某校为了解学生参加家务劳动的情况，随机抽取了部分学生在某个休息日做家务的劳动时间$t$（单位：h）作为样本，将收集的数据整理后分为A、B、C、D、E五个组别，其中A组的数据分别为：0.5，0.4，0.4，0.4，0.3，绘制成如下不完整的统计图表.\n\n各组劳动时间的频数分布表：\n| 组别 | 时间t/h | 频数 |\n| A | 0<t≤0.5 | 5 |\n| B | 0.5<t≤1 | a |\n| C | 1<t≤1.5 | 20 |\n| D | 1.5<t≤2 | 15 |\n| E | t>2 | 8 |\n\n各组劳动时间的扇形统计图：A组、B组、C组、D组25%、E组\n\n请根据以上信息解答下列问题.\n（1）A组数据的众数是 _______________；\n（2）这次调查的样本容量是 _______________，B组所在扇形的圆心角的大小是 _______________；\n（3）若该校有1200名学生，估计该校学生劳动时间超过1h的人数.",
+    "answer": null,
+    "type": "short_answer",
+    "difficulty": 2,
+    "node_keywords": [
+      "统计图表",
+      "众数",
+      "样本容量",
+      "扇形统计图",
+      "频率估计"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "统计图表包含两部分：①频数分布表（5行数据）；②扇形统计图被分为A组、B组、C组、D组(25%)、E组五个扇形区域，D组标注百分比为25%。",
+    "source_pdf": "数学_真题_2023_湖北省武汉市中考数学真题试卷.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/c66c9ca8ee6e.webp"
+  },
+  {
+    "question_num": "20",
+    "question": "（本小题满分8分）\n如图，$OA$，$OB$，$OC$都是$\\odot O$的半径，$\\angle ACB=2\\angle BAC$.\n（1）求证：$\\angle AOB=2\\angle BOC$；\n（2）若$AB=4$，$BC=\\sqrt{5}$，求$\\odot O$的半径.",
+    "answer": null,
+    "type": "proof",
+    "difficulty": 3,
+    "node_keywords": [
+      "圆周角定理",
+      "圆心角",
+      "三角函数",
+      "解直角三角形"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "第20题图：圆O，A点在圆上偏左下，B点在圆上偏右下，C点在圆上偏右上。OA、OB、OC都是从圆心O出发的半径。三角形ABC内接于圆，∠ACB在C点处，∠BAC在A点处。",
+    "source_pdf": "数学_真题_2023_湖北省武汉市中考数学真题试卷.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/c66c9ca8ee6e.webp"
+  },
+  {
+    "question_num": "21",
+    "question": "（本小题满分8分）如图是由小正方形形成的8×6网格，每个小正方形的顶点叫做格点。正方形ABCD四个顶点都是格点，E是AD上的格点。仅用无刻度的直尺在给定网格中完成画图，画图过程用虚线表示。\n（1）在图（1）中，先将线段BE绕点B顺时针旋转90°，画出对应线段BF，再在CD上画点G，并连接BG，使∠GBE=45°。\n（2）在图（2）中，M是BE与网格线的交点，先画点M关于BD的对称点N，再在BD上画点H，并连接MH，使∠BHM=∠MBD。",
+    "answer": null,
+    "type": "experiment",
+    "difficulty": 2,
+    "node_keywords": [
+      "网格作图",
+      "旋转",
+      "对称",
+      "角度"
+    ],
+    "exam_frequency": 3,
+    "figure_description": "图（1）：8×6网格中的正方形ABCD，B位于左上角，A在右上角，C在左下角，D在右下角。E为AD边上的格点，连接BE。图（2）：相同正方形，M为BE与某网格线的交点。题目要求在网格中完成相应作图。",
+    "source_pdf": "数学_真题_2023_湖北省武汉市中考数学真题试卷.pdf",
+    "source_page": 2,
+    "figure_url": "/exam-pages/math/1b01ecf3b1d0.webp"
+  },
+  {
+    "question_num": "22",
+    "question": "（本小题满分10分）某课外科技活动小组研制了一种航模飞机，通过实验，收集了飞机相对于出发点的飞行水平距离x（单位：m）、飞行时间t（单位：s）、飞行高度y（单位：m），实验的数据如下表：\n飞行时间t/s：0, 2, 4, 6, 8, …\n飞行水平距离x/m：0, 10, 20, 30, 40, …\n飞行高度y/m：0, 22, 40, 54, 64, …\n探究发现：x与t、y与t之间的数量关系可以用我们已学过的函数来描述。直接写出x关于t、y关于t的函数解析式（不要求写出自变量的取值范围）。\n问题解决：如图，活动小组在水平安全线上A处设置一个高度可以变化的发射平台试飞该航模飞机，根据上面的探究发现解决下列问题。\n（1）若发射平台相对于安全线的高度为0 m，求飞机落到安全线时飞行的水平距离。\n（2）在安全线上设置回收区域MN，AM=125m，MN=5m，若飞机落到MN内（不包括端点M、N），求发射平台相对于安全线的高度变化范围。",
+    "answer": null,
+    "type": "short_answer",
+    "difficulty": 3,
+    "node_keywords": [
+      "二次函数",
+      "一次函数",
+      "实际应用",
+      "函数解析式",
+      "不等式"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "图中显示一架航模飞机从点A发射，沿抛物线轨迹飞行，最终落向水平安全线上的MN区域（MN位于A右侧，M在N左侧）。",
+    "source_pdf": "数学_真题_2023_湖北省武汉市中考数学真题试卷.pdf",
+    "source_page": 2,
+    "figure_url": "/exam-pages/math/1b01ecf3b1d0.webp"
+  },
+  {
+    "question_num": "23",
+    "question": "（本小题满分10分）\n问题提出：如图（1），E是菱形ABCD边BC上一点，△AEF是等腰直角三角形，AE=EF，∠AEF=∠ABC=α（α≥90°），AF交CD于点G。探究∠GCF与α的数量关系。\n问题探究：\n（1）先将问题特殊化，如图（2），当α=90°时，直接写出∠GCF的大小。\n（2）再探究一般情形，如图（1），求∠GCF与α的数量关系。\n问题拓展：将图（1）特殊化，如图（3），当α=120°时，若DG/CG=1/2，求BE/CE的值。",
+    "answer": null,
+    "type": "proof",
+    "difficulty": 3,
+    "node_keywords": [
+      "菱形",
+      "等腰直角三角形",
+      "相似三角形",
+      "角度关系"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "图（1）：菱形ABCD，A在左上，D在右上，B在左下，C在右下；E在BC上；F在CD右侧；G为AF与CD的交点；△AEF为等腰直角三角形，AE=EF，∠AEF=α。图（2）：与图（1）相同，特殊化为α=90°。图（3）：与图（1）相同，特殊化为α=120°，且DG/CG=1/2。",
+    "source_pdf": "数学_真题_2023_湖北省武汉市中考数学真题试卷.pdf",
+    "source_page": 2,
+    "figure_url": "/exam-pages/math/1b01ecf3b1d0.webp"
+  },
+  {
+    "question_num": "24",
+    "question": "（本小题满分12分）抛物线C₁：y=x²-2x-8交x轴于A、B两点（A在B的左边），交y轴于点C。\n（1）直接写出A、B、C三点的坐标。\n（2）如图（1），作直线x=t（0<t<4），分别交x轴、线段BC、抛物线C₁于D、E、F三点，连接CF。若△BDE∽△CEF，求t的值。\n（3）如图（2），将抛物线C₁平移得到抛物线C₂，其顶点为原点。直线y=2x与抛物线C₂交于O、G两点，过OG的中点H作直线MN（异于直线OG）交抛物线C₂于M、N两点，直线MO与直线GN交于点P，问点P是否在一条定直线上？若是，求该直线的解析式；若不是，请说明理由。",
+    "answer": null,
+    "type": "proof",
+    "difficulty": 3,
+    "node_keywords": [
+      "二次函数",
+      "平移",
+      "相似三角形",
+      "动点问题",
+      "定直线问题"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "图（1）：抛物线C₁：y=x²-2x-8开口向上，与x轴交于A(负半轴)和B(正半轴)，与y轴交于C(负半轴)；直线x=t为一条竖直线，与x轴、线段BC、抛物线分别交于D、E、F。图（2）：抛物线C₂顶点为原点，开口向上；直线y=2x经过原点，与C₂交于G点；H为OG中点；MN为过H的竖直弦，交C₂于M(上方)、N(下方)；MO与GN交于P点。",
+    "source_pdf": "数学_真题_2023_湖北省武汉市中考数学真题试卷.pdf",
+    "source_page": 2,
+    "figure_url": "/exam-pages/math/1b01ecf3b1d0.webp"
+  },
+  {
+    "question_num": "23(1)",
+    "question": "题目文本未在本页完整显示，根据解答可推断：证明$\\angle ACE=\\angle BCD$，进而证明$\\triangle ACE\\sim\\triangle BCD$",
+    "answer": "$\\angle ACE=\\angle BCD$，$\\triangle ACE\\sim\\triangle BCD$",
+    "type": "proof",
+    "difficulty": 3,
+    "node_keywords": [
+      "相似三角形",
+      "空间几何",
+      "角相等"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "三维立体图：顶点A在顶部，右后方有点B，底面顶点有C、D，E位于AB边上。连接AC、BD、CE、DE等线段。图中还标注有AF、EG、FG、EH等辅助线，H在BD延长线上",
+    "source_pdf": "数学_答案_2024_2024_2024年武汉九年级调研考试数学参考答案及评分标准.pdf",
+    "source_page": 2,
+    "figure_url": "/exam-pages/math/bd6a9f9073be.webp"
+  },
+  {
+    "question_num": "23(2)",
+    "question": "题目文本未在本页完整显示",
+    "answer": "$\\dfrac{1}{2}$",
+    "type": "short_answer",
+    "difficulty": 3,
+    "node_keywords": [
+      "空间几何",
+      "线段比例"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "三维立体图：顶点A在顶部，B、C、D在底部，E在AB上，F是BC中点，G是AF中点，H在BD延长线",
+    "source_pdf": "数学_答案_2024_2024_2024年武汉九年级调研考试数学参考答案及评分标准.pdf",
+    "source_page": 2,
+    "figure_url": "/exam-pages/math/bd6a9f9073be.webp"
+  },
+  {
+    "question_num": "23(3)",
+    "question": "连接$EG$、$EF$、$GF$，求证$\\triangle EGF$是等腰直角三角形。延长$FG$交$BD$于点$H$，连接$EH$、$AF$",
+    "answer": "证明过程：$F$是$BC$中点，$AF\\perp BC$，$\\angle AFB=90°$；$AF\\parallel BD$，$\\angle FAG=\\angle HDG$；$G$是$AF$中点，$AG=GD$；$\\angle AGF=\\angle DGH$；$\\triangle AFG\\cong\\triangle DHG$，$AF=DH$；$AF=CF$，故$DH=CF$；$\\angle BDE=\\angle ECB$，$ED=EC$，$\\triangle EDH\\cong\\triangle ECF$；$EH=EF$，$\\angle DEH=\\angle CEF$；$\\angle DEC=90°$，$\\angle HEF=90°$；$\\triangle EFH$是等腰直角三角形，$GH=GF$；$EG\\perp GF$，$EG=GF$，$\\triangle EGF$是等腰直角三角形",
+    "type": "proof",
+    "difficulty": 3,
+    "node_keywords": [
+      "全等三角形",
+      "等腰直角三角形",
+      "中点",
+      "平行线",
+      "空间几何综合"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "三维立体图：顶点A在顶部，B、C、D为底面三顶点，E在AB边上，F在BC上（中点），G在AF上（中点），H在BD延长线上。连接AC、BD、CE、DE、AF、EG、EF、GF、EH、DH等线段，标注有Zheng字样的虚线（表示辅助线）",
+    "source_pdf": "数学_答案_2024_2024_2024年武汉九年级调研考试数学参考答案及评分标准.pdf",
+    "source_page": 2,
+    "figure_url": "/exam-pages/math/bd6a9f9073be.webp"
+  },
+  {
+    "question_num": "24(1)",
+    "question": "题目文本未在本页完整显示，根据答案推断：求抛物线的解析式",
+    "answer": "$y=x^2+2x-3$",
+    "type": "short_answer",
+    "difficulty": 1,
+    "node_keywords": [
+      "二次函数",
+      "抛物线方程",
+      "待定系数法"
+    ],
+    "exam_frequency": 5,
+    "figure_description": null,
+    "source_pdf": "数学_答案_2024_2024_2024年武汉九年级调研考试数学参考答案及评分标准.pdf",
+    "source_page": 2
+  },
+  {
+    "question_num": "24(2)",
+    "question": "过点$D$作$DS\\perp x$轴于点$S$，取点$T(-6,0)$，直线$TC$交抛物线于点$E$。已知$A(-3,0)$，$D(-1,-4)$，$C(0,-3)$，求满足条件的点$E$（使$\\angle ECO=\\angle DAO$）",
+    "answer": "$\\tan\\angle OAD=2$，$\\tan\\angle TCO=2$，$\\angle ECO=\\angle DAO$，$E$为满足条件的点。设$TC$的解析式为$y=px+q$，代入得$\\begin{cases}0=-6p+q\\\\-3=q\\end{cases}$",
+    "type": "short_answer",
+    "difficulty": 3,
+    "node_keywords": [
+      "二次函数",
+      "一次函数",
+      "正切函数",
+      "几何综合",
+      "角度相等"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "平面直角坐标系中的抛物线$y=x^2+2x-3$，标注点$A(-3,0)$、$D(-1,-4)$、$C(0,-3)$、$T(-6,0)$、$S$在$x$轴上，$DS\\perp x$轴",
+    "source_pdf": "数学_答案_2024_2024_2024年武汉九年级调研考试数学参考答案及评分标准.pdf",
+    "source_page": 2,
+    "figure_url": "/exam-pages/math/bd6a9f9073be.webp"
+  },
+  {
+    "question_num": "19",
+    "question": "(8分) (1) ①______ 50  ②______ 30\n(2) 补全条形统计图\n(3) $1200 \\times \\dfrac{20+5}{50} = 600$（人）\n答：估计600人。",
+    "answer": "50, 30, 补全条形统计图（C为20人）, 估计600人",
+    "type": "short_answer",
+    "difficulty": 2,
+    "node_keywords": [
+      "条形统计图",
+      "扇形统计图",
+      "用样本估计总体"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "条形统计图：横轴为组别A、B、C、D，纵轴为人数（0到20以上），数据为A=10人，B=15人，C=20人（待补全），D=5人；扇形统计图：圆被分为四部分，标有A、B、C、D，其中D=10%，B=m%，A和C为其他百分比。",
+    "source_pdf": "数学_答案_2026_七一华源中学2025-2026学年五调九年级数学归纳小结.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/68bcd465147e.webp"
+  },
+  {
+    "question_num": "20",
+    "question": "(8分) (1) 作 $DF \\perp BC$ 于 $F$。求证：$BC$ 是 $\\odot O$ 的切线。\n(2) 已知 $\\sin C = \\dfrac{AB}{BC} = \\dfrac{5}{13}$，设 $AB=5a$，$BC=13a$，$AD=DF=r$，求 $r$ 和 $\\tan\\angle DBE$。",
+    "answer": "(1) 证明：∵BD平分∠ABC，DA⊥AB，∴DF=DA，∴DF为⊙O的半径，∴DF⊥BC，∴BC是⊙O的切线。\n(2) △BDA≌△BDF，BF=5a，CF=8a，Rt△CDF中 $r^2+(8a)^2=(12a-r)^2$，解得 $r=\\dfrac{10a}{3}$，$\\tan\\angle DBE=\\dfrac{DF}{BF}=\\dfrac{10a/3}{5a}=\\dfrac{2}{3}$",
+    "type": "proof",
+    "difficulty": 3,
+    "node_keywords": [
+      "切线的判定",
+      "角平分线的性质",
+      "全等三角形",
+      "解直角三角形",
+      "圆的切线"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "几何图形：△ABC中，A在左上方，B在左下，C在右下，⊙O的圆心D在三角形内部，AB=5a，BC=13a（B到F=5a，F到C=8a），DC=12a，F为DF⊥BC的垂足，E为DC与圆的交点，DE=12a-r，DF=r，AD=r。",
+    "source_pdf": "数学_答案_2026_七一华源中学2025-2026学年五调九年级数学归纳小结.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/68bcd465147e.webp"
+  },
+  {
+    "question_num": "21",
+    "question": "(8分) (1) 在图1中画图；(2) 在图2中画图。",
+    "answer": null,
+    "type": "experiment",
+    "difficulty": 2,
+    "node_keywords": [
+      "格点作图",
+      "三角形的中位线",
+      "轴对称变换",
+      "旋转变换"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "图1：方格纸上，△ABC三点分布在格点上，A在上方，B在左下，C在右下方，BC边较长，图中有点D在AB的延长线上有点E；图2：方格纸上同样的△ABC，BC边加粗，有点Q在A右上方，有点M在BC附近。",
+    "source_pdf": "数学_答案_2026_七一华源中学2025-2026学年五调九年级数学归纳小结.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/68bcd465147e.webp"
+  },
+  {
+    "question_num": "22",
+    "question": "(1) ① 设铅球飞行时间为t秒，水平距离为x米，已知x=6t，铅球高度y与时间t的函数关系式为y=-5t²+½t+2，求y与x的函数关系式；② 求铅球落地时的水平距离。\n(2) 已知运动员投掷铅球时，水平距离x（米）与出手时间t（秒）满足x=at，其中a为常数。设铅球飞行高度y（米）与时间t（秒）满足y=-5t²+at+2。已知铅球飞行最远水平距离为18米，求铅球能飞行的最大高度。",
+    "answer": "(1) ① y=-5/36 x²+1/12 x+2；② 6米。(2) 最大高度为18/5米",
+    "type": "short_answer",
+    "difficulty": 2,
+    "node_keywords": [
+      "二次函数",
+      "抛物线应用",
+      "顶点坐标",
+      "最值问题",
+      "函数关系式"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "图示为一个直角坐标系，y轴标注为y/m（竖直向上），x轴标注为x/m（水平向右）。原点在O点附近，左下方画有一个人物图示（铅球运动员），从该位置出发画出一条抛物线轨迹，抛物线开口向下，先上升后下降，最终落到x轴上某点。",
+    "source_pdf": "数学_答案_2026_七一华源中学2025-2026学年五调九年级数学归纳小结.pdf",
+    "source_page": 2,
+    "figure_url": "/exam-pages/math/678329b46432.webp"
+  },
+  {
+    "question_num": "23",
+    "question": "(1) 如图1，在矩形ABCD中，E是BC上一点，BE=4，EC=3，∠AEB=60°，连接AE，过点E作EF⊥AE交CD于F。求证：△ABE∽△ECF。\n(2) 如图2，在（1）的条件下，连接AF交CE的延长线于G，过G作GH⊥EF于H。若∠GEF=30°，求证：△GAE∽△GCH，并求AB/CE的值。\n(3) 如图3，在（1）的条件下，连接BF交AE于M，连接DM交CE于N，求BN/NF的值或相关比值。",
+    "answer": "(1) 证明见解析；(2) AB/CE = 6/5；(3) 11 或 80/7",
+    "type": "proof",
+    "difficulty": 3,
+    "node_keywords": [
+      "相似三角形",
+      "矩形",
+      "三角函数",
+      "角度关系",
+      "辅助线"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "【图1】矩形ABCD，A在左上，B在左下，C在右下，D在右上。E在BC上靠近B的位置，F在CD上靠近D的位置。AE和EF相交于E点，∠AEB和∠AEF处有直角标记。\n【图2】在图1基础上添加：AF连线，CE延长线与AF交于G点，G点到EF的垂线GH，H在EF上。标注角度：∠GAE=30°，∠GEF=30°，还有30°和20°等角度标注。设GH=a，则EG=3a，FH=a，CH=2a，AE=6a。\n【图3】在图1基础上添加：BF连线交AE于M点，DM连线交CE（或BF相关线）于N点。M点位于矩形内部靠近E的上方，N点位于矩形内部偏右上方位置。",
+    "source_pdf": "数学_答案_2026_七一华源中学2025-2026学年五调九年级数学归纳小结.pdf",
+    "source_page": 2,
+    "figure_url": "/exam-pages/math/678329b46432.webp"
+  },
+  {
+    "question_num": "20",
+    "question": "（1）证明：∵∠BAC=2∠DBC，设∠DBC=α，则∠BAC=2α。∵BD为△ABC的高，垂足为D，∴∠BDC=90°，∴∠C=90°-∠DBC=90°-α，∴∠ABC=180°-∠C-∠BAC=90°-α，∴∠C=∠ABC，∴AB=AC。\n\n（2）解：连接并延长AO交BC于点E，连接OB，OC，则OA=OB=OC，∵∠ADB=∠CDB=90°，AB=AC=10，BD=6，∴AD=√(AB²-BD²)=√(10²-6²)=8。∴CD=AC-AD=10-8=2，∴BC=√(CD²+BD²)=√(2²+6²)=2√10。∵AB=AC，OB=OC，∴点A、O在BC垂直平分线上，∴AE垂直平分BC，∴BE=CE=(1/2)BC=√10，∴AE=√(AB²-BE²)=√(10²-(√10)²)=3√10。∵BE²+OE²=OB²，且OE=AE-OA=3√10-OB，∴(√10)²+(3√10-OB)²=OB²，解得OB=(5/3)√10。∴⊙O的半径长为(5/3)√10。",
+    "answer": "（1）证明见题目；（2）⊙O的半径长为$\\dfrac{5}{3}\\sqrt{10}$",
+    "type": "proof",
+    "difficulty": 3,
+    "node_keywords": [
+      "圆周角定理",
+      "垂径定理",
+      "勾股定理",
+      "等腰三角形判定",
+      "三角形外接圆半径"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "圆⊙O中，A在圆顶部，B在左下，C在右下，三角形ABC内接于圆。D在弦AC上，连接BD作为高。E在BC上，连接AO并延长交BC于E，连接OB、OC。标注AB=AC=10，BD=6，O为圆心。",
+    "source_pdf": "数学_答案_2026_武昌区2025-2026学年下学期五调九年级数学标答及评分标准.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/fdcf39bd07ba.webp"
+  },
+  {
+    "question_num": "21",
+    "question": "武资网每个画图任务4分。（图1：在方格纸中，已知线段AB、B'C'及点D、F、G、H，作出△AB'C'绕某点旋转得到△ABC的对应图形。图2：在方格纸中，已知线段AB、BC及点D、E，作出符合要求的几何变换图形。）",
+    "answer": "见参考答案图1和图2",
+    "type": "experiment",
+    "difficulty": 2,
+    "node_keywords": [
+      "图形的旋转",
+      "图形的变换",
+      "方格纸作图"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "图1：方格纸中标注点A（左下）、B（左中）、C（右上）、D、B'、F、G、H（右下），有虚线辅助线。图2：方格纸中标注点A（左下）、B（左中上）、C（右上）、D、E（中下），含多条虚线辅助线表示变换轨迹。两图均涉及格点上的旋转变换作图。",
+    "source_pdf": "数学_答案_2026_武昌区2025-2026学年下学期五调九年级数学标答及评分标准.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/fdcf39bd07ba.webp"
+  },
+  {
+    "question_num": "22",
+    "question": "解：（1）设单个A型箱满载质量为m kg，单个B型箱满载质量为n kg，根据信息1列方程组：\n$$\\begin{cases} 2m+3n=39 \\\\ 3m+2n=41 \\end{cases}$$\n解之，得$\\begin{cases} m=9 \\\\ n=7 \\end{cases}$\n答：单个A型箱满载质量为9 kg，单个B型箱满载质量为7 kg。",
+    "answer": "单个A型箱满载质量为9 kg，单个B型箱满载质量为7 kg",
+    "type": "short_answer",
+    "difficulty": 2,
+    "node_keywords": [
+      "二元一次方程组的应用",
+      "实际应用题"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "本题无图。题目情境为两种型号箱子（设A型箱满载质量为m kg，B型箱满载质量为n kg），根据已知信息列方程组求解。",
+    "source_pdf": "数学_答案_2026_武昌区2025-2026学年下学期五调九年级数学标答及评分标准.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/fdcf39bd07ba.webp"
+  },
+  {
+    "question_num": "1",
+    "question": "镂空砖雕是我国传统建筑装饰艺术的重要形式，以青砖或水泥为材料，通过透雕技法形成镂空图案，兼具实用性与文化内涵。下列镂空砖雕图案中是轴对称图形不是中心对称图形的是（　　）\nA. （八边形内含方框图案）\nB. （圆形窗格图案）\nC. （圆形蜂窝状图案）\nD. （菱形网格图案）",
+    "answer": "D",
+    "type": "choice",
+    "difficulty": 2,
+    "node_keywords": [
+      "轴对称图形",
+      "中心对称图形"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "四个镂空砖雕图案：A为八边形内含方框的对称图案；B为圆形窗格图案；C为圆形蜂窝状图案；D为菱形网格图案（轴对称但非中心对称）",
+    "source_pdf": "数学_答案_2026_武汉经开外校2025-2026学年下学期九年级数学独立作业（七）手写答案.pdf",
+    "source_page": 0,
+    "figure_url": "/exam-pages/math/9ccb8fae9605.webp"
+  },
+  {
+    "question_num": "2",
+    "question": "下列事件是必然事件的是（　　）\nA. 经过有交通信号灯的路口，遇到红灯\nB. 射击运动员射击一次，命中靶心\nC. 任意画一个三角形，其内角和是360°\nD. 明天太阳从东方升起",
+    "answer": "D",
+    "type": "choice",
+    "difficulty": 1,
+    "node_keywords": [
+      "必然事件",
+      "随机事件",
+      "不可能事件"
+    ],
+    "exam_frequency": 4,
+    "figure_description": null,
+    "source_pdf": "数学_答案_2026_武汉经开外校2025-2026学年下学期九年级数学独立作业（七）手写答案.pdf",
+    "source_page": 0
+  },
+  {
+    "question_num": "3",
+    "question": "如图，由4个相同的小正方体组成的几何体，则该几何体的俯视图是（　　）\nA. （2×2方格右上角缺角）\nB. （2×2方格左上角缺角）\nC. （L形排列）\nD. （2×2完整方格）",
+    "answer": "D",
+    "type": "choice",
+    "difficulty": 2,
+    "node_keywords": [
+      "三视图",
+      "俯视图"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "由4个相同小正方体组成的几何体，主视方向为左前方观察，底层3个呈L形，上层1个叠在其中一角",
+    "source_pdf": "数学_答案_2026_武汉经开外校2025-2026学年下学期九年级数学独立作业（七）手写答案.pdf",
+    "source_page": 0,
+    "figure_url": "/exam-pages/math/9ccb8fae9605.webp"
+  },
+  {
+    "question_num": "4",
+    "question": "《2025年中国卫星导航与位置服务产业发展白皮书》显示，去年我国卫星导航与位置服务产业总产值达5758亿元。将\"5758亿\"用科学记数法表示为（　　）\nA. $5.758\\times 10^{10}$\nB. $5.758\\times 10^{11}$\nC. $0.5758\\times 10^{12}$\nD. $57.58\\times 10^{10}$",
+    "answer": "B",
+    "type": "choice",
+    "difficulty": 1,
+    "node_keywords": [
+      "科学记数法"
+    ],
+    "exam_frequency": 5,
+    "figure_description": null,
+    "source_pdf": "数学_答案_2026_武汉经开外校2025-2026学年下学期九年级数学独立作业（七）手写答案.pdf",
+    "source_page": 0
+  },
+  {
+    "question_num": "5",
+    "question": "下列计算中正确的是（　　）\nA. $(x^2)^3=x^5$\nB. $(-3x^2y)^2=9x$\nC. $x^6\\div x^2=x^3$\nD. $-x^2\\cdot x=-x^3$",
+    "answer": "D",
+    "type": "choice",
+    "difficulty": 2,
+    "node_keywords": [
+      "幂的运算",
+      "同底数幂乘除",
+      "幂的乘方"
+    ],
+    "exam_frequency": 5,
+    "figure_description": null,
+    "source_pdf": "数学_答案_2026_武汉经开外校2025-2026学年下学期九年级数学独立作业（七）手写答案.pdf",
+    "source_page": 0
+  },
+  {
+    "question_num": "6",
+    "question": "如图，在$\\triangle ABC$中，$AB=AC$。分别以点$A$和点$B$为圆心，大于$\\frac{1}{2}AB$的长为半径作弧，两弧交于$M$，$N$两点，作直线$MN$，与$AC$交于点$D$，连接$BD$，若$\\angle A=42°$，则$\\angle CBD$的度数为（　　）\nA. $21°$\nB. $27°$\nC. $30°$\nD. $34.5°$",
+    "answer": "B",
+    "type": "choice",
+    "difficulty": 3,
+    "node_keywords": [
+      "尺规作图",
+      "线段垂直平分线",
+      "等腰三角形性质"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "等腰三角形ABC，AB=AC，顶角∠A=42°，底角各69°。M、N在三角形上方外侧，直线MN与AC交于点D，与AB的延长线交于某点。连接BD，∠CBD=27°",
+    "source_pdf": "数学_答案_2026_武汉经开外校2025-2026学年下学期九年级数学独立作业（七）手写答案.pdf",
+    "source_page": 0,
+    "figure_url": "/exam-pages/math/9ccb8fae9605.webp"
+  },
+  {
+    "question_num": "7",
+    "question": "如果一个三位数中任意两个相邻数字之差的绝对值不超过1，则称该三位数为\"平稳数\"。用1，2，3这三个数字随机组成一个无重复数字的三位数，恰好是\"平稳数\"的概率为（　　）\nA. $\\frac{5}{9}$\nB. $\\frac{1}{2}$\nC. $\\frac{2}{3}$\nD. $\\frac{2}{9}$",
+    "answer": "C",
+    "type": "choice",
+    "difficulty": 3,
+    "node_keywords": [
+      "概率",
+      "古典概型",
+      "列举法"
+    ],
+    "exam_frequency": 5,
+    "figure_description": null,
+    "source_pdf": "数学_答案_2026_武汉经开外校2025-2026学年下学期九年级数学独立作业（七）手写答案.pdf",
+    "source_page": 0
+  },
+  {
+    "question_num": "8",
+    "question": "为增强居民的节水意识，某市自来水公司采用以用户为单位分段计费的方式，即每月用水量不超过10吨时，每吨收费a元；若超过10吨，则10吨水按每吨a元收费，超过10吨的部分按每吨b元收费。如图是自来水公司绘制的水费y（元）与当月用水量x（吨）之间的图象，则下列结论不正确的是（　　）\nA. $a=1.5$\nB. $b=2$\nC. 若小明家当月用水量为14吨，则应缴水费23元\nD. 若小红家6月份缴水费30元，则当月用水量为18.5吨",
+    "answer": "D",
+    "type": "choice",
+    "difficulty": 3,
+    "node_keywords": [
+      "一次函数",
+      "分段计费",
+      "图象分析"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "y(元)为纵轴，x(吨)为横轴的折线图：在x=10时，y=15；在x=20时，y=35。折线经过原点，第一段斜率较小，第二段斜率较大",
+    "source_pdf": "数学_答案_2026_武汉经开外校2025-2026学年下学期九年级数学独立作业（七）手写答案.pdf",
+    "source_page": 0,
+    "figure_url": "/exam-pages/math/9ccb8fae9605.webp"
+  },
+  {
+    "question_num": "9",
+    "question": "如图，P是以正方形ABCD的顶点A为圆心，AB为半径的弧BD上的点。连接AP，CP，将线段CP绕点P顺时针旋转90°后得到线段PQ，连接AQ。若AB=1，则$\\triangle APQ$的最大面积是（　　）\nA. $\\frac{1}{4}$\nB. $\\frac{2-\\sqrt{3}}{2}$\nC. $\\frac{\\sqrt{2}-1}{2}$\nD. $\\frac{\\sqrt{2}+1}{4}$",
+    "answer": "C",
+    "type": "choice",
+    "difficulty": 3,
+    "node_keywords": [
+      "旋转",
+      "正方形",
+      "扇形",
+      "三角形面积"
+    ],
+    "exam_frequency": 3,
+    "figure_description": "正方形ABCD，A在左下、B在右下、C在右上、D在左上。P在以A为圆心、AB为半径的弧BD上（即四分之一圆弧），连接AP、CP，将CP绕P顺时针旋转90°得到PQ，Q点落在正方形内",
+    "source_pdf": "数学_答案_2026_武汉经开外校2025-2026学年下学期九年级数学独立作业（七）手写答案.pdf",
+    "source_page": 0,
+    "figure_url": "/exam-pages/math/9ccb8fae9605.webp"
+  },
+  {
+    "question_num": "10",
+    "question": "我们探究发现，关于x，y的方程x+2y=3的正整数解有1组，x+2y=5的正整数解有2组，x+2y=7的正整数解有3组，…，那么关于x，y，z的方程x+2y+2z=15的正整数解有（　　）\nA. 7组\nB. 21组\nC. 28组\nD. 42组",
+    "answer": "B",
+    "type": "choice",
+    "difficulty": 3,
+    "node_keywords": [
+      "方程的正整数解",
+      "分类讨论",
+      "找规律"
+    ],
+    "exam_frequency": 4,
+    "figure_description": null,
+    "source_pdf": "数学_答案_2026_武汉经开外校2025-2026学年下学期九年级数学独立作业（七）手写答案.pdf",
+    "source_page": 0
+  },
+  {
+    "question_num": "11",
+    "question": "如图，记录了三个城市某年一月份的平均气温，其中平均气温最低的城市是____.\n表格：城市 北京 上海 天津；平均气温 -3.8℃ 4.7℃ -4.2℃",
+    "answer": null,
+    "type": "fill",
+    "difficulty": 1,
+    "node_keywords": [
+      "负数比较大小",
+      "统计表阅读"
+    ],
+    "exam_frequency": 3,
+    "figure_description": "三城市一月份平均气温表格：北京 -3.8℃、上海 4.7℃、天津 -4.2℃",
+    "source_pdf": "数学_答案_2026_武汉经开外校2025-2026学年下学期九年级数学独立作业（七）手写答案.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/9c86a43897cb.webp"
+  },
+  {
+    "question_num": "12",
+    "question": "杠杆平衡时，\"阻力×阻力臂=动力×动力臂\"。已知动力和动力臂分别为1800N和0.4m，阻力为$F(N)$，阻力臂为$l(m)$，则阻力$F$关于阻力臂$l$的函数表达式为____.",
+    "answer": null,
+    "type": "fill",
+    "difficulty": 1,
+    "node_keywords": [
+      "反比例函数",
+      "杠杆原理"
+    ],
+    "exam_frequency": 3,
+    "figure_description": null,
+    "source_pdf": "数学_答案_2026_武汉经开外校2025-2026学年下学期九年级数学独立作业（七）手写答案.pdf",
+    "source_page": 1
+  },
+  {
+    "question_num": "13",
+    "question": "如果关于$x$的方程$\\dfrac{ax}{x-2}+\\dfrac{4}{2-x}=1$无解，则$a$的值为____.",
+    "answer": null,
+    "type": "fill",
+    "difficulty": 2,
+    "node_keywords": [
+      "分式方程无解",
+      "增根"
+    ],
+    "exam_frequency": 4,
+    "figure_description": null,
+    "source_pdf": "数学_答案_2026_武汉经开外校2025-2026学年下学期九年级数学独立作业（七）手写答案.pdf",
+    "source_page": 1
+  },
+  {
+    "question_num": "14",
+    "question": "某商场从安全和便利的角度出发，准备将自动扶梯由原来的阶梯式改造成斜坡式，如图，已知商场的层高$AD$为6m，坡角$\\angle ABD$为$30°$，改进后的斜坡式自动扶梯的坡角$\\angle ACB=16°$，请你计算改造后的自动扶梯增加的水平长度$BC$=____m (结果精确到0.1m，参考数据：$\\sin 16°\\approx 0.28$，$\\cos 16°\\approx 0.96$，$\\tan 16°\\approx 0.29$，$\\sqrt{3}\\approx 1.732$)",
+    "answer": null,
+    "type": "fill",
+    "difficulty": 2,
+    "node_keywords": [
+      "解直角三角形",
+      "三角函数应用"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "图中显示一人推购物车上斜坡。地面上有C、B、D三点，C在最左，B在中间，D在最右。C点处有16°的坡角，B点处有30°的坡角，D点正上方A点，AD=6m为层高（垂直线段）。CB为增加的水平长度。",
+    "source_pdf": "数学_答案_2026_武汉经开外校2025-2026学年下学期九年级数学独立作业（七）手写答案.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/9c86a43897cb.webp"
+  },
+  {
+    "question_num": "15",
+    "question": "如图，在四边形$ABCD$中，$\\angle BAC=60°$，$AB=AC$，$CD//AB$，$\\angle ADB=2\\angle DBC$，则$\\dfrac{CD}{AD}$的值为____.",
+    "answer": null,
+    "type": "fill",
+    "difficulty": 3,
+    "node_keywords": [
+      "相似三角形",
+      "等腰三角形",
+      "平行线性质"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "四边形ABCD，CD//AB，AB=AC，∠BAC=60°。BD为对角线，分割出△ABD和△BCD，并标有x+1、x、x、1、√2等线段标记。",
+    "source_pdf": "数学_答案_2026_武汉经开外校2025-2026学年下学期九年级数学独立作业（七）手写答案.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/9c86a43897cb.webp"
+  },
+  {
+    "question_num": "16",
+    "question": "已知二次函数$y=ax^2-(4a+1)x+3$，$x_0=a+\\dfrac{1}{a}$，下列结论：\n①该二次函数的图象经过点$(1,2)$和$(3,0)$；\n②该函数图象与$x$轴一定有交点；\n③若$a>0$，当$x\\geq 2$时，$y$随$x$的增大而增大；\n④若二次函数的图象经过$A(1-t,m)$、$B(4+t,m)$两点，则二次函数的最小值为$-\\dfrac{1}{4}$；\n⑤若$a<-1$，则关于$x$的方程$ax^2-(4a+1)|x|+3a+3=2$的根有4个.\n其中正确的是____(填写序号).",
+    "answer": null,
+    "type": "fill",
+    "difficulty": 3,
+    "node_keywords": [
+      "二次函数综合",
+      "根的判别式",
+      "绝对值方程",
+      "函数最值"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "二次函数图象示意：抛物线开口向下，对称轴$x=2$，与y轴交于(0,3)，与x轴交于x=1和x=3附近。标注有(1,2)、(3,0)、x=1、x=2、x=3等关键点。",
+    "source_pdf": "数学_答案_2026_武汉经开外校2025-2026学年下学期九年级数学独立作业（七）手写答案.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/9c86a43897cb.webp"
+  },
+  {
+    "question_num": "17",
+    "question": "解不等式组：$\\begin{cases} 1-3(x-1) < 8-x \\\\ \\dfrac{x-2}{2}+1 \\geq x \\end{cases}$",
+    "answer": null,
+    "type": "short_answer",
+    "difficulty": 1,
+    "node_keywords": [
+      "一元一次不等式组",
+      "不等式解集"
+    ],
+    "exam_frequency": 4,
+    "figure_description": null,
+    "source_pdf": "数学_答案_2026_武汉经开外校2025-2026学年下学期九年级数学独立作业（七）手写答案.pdf",
+    "source_page": 1
+  },
+  {
+    "question_num": "18",
+    "question": "如图，在$\\square ABCD$中，$E,F$分别是$BC,AD$的中点。\n(1) 求证：四边形$AECF$是平行四边形；\n(2) 连接$AC$。请添加一个与线段相关的条件，使四边形$AECF$是矩形。(无需说明理由)",
+    "answer": null,
+    "type": "proof",
+    "difficulty": 2,
+    "node_keywords": [
+      "平行四边形判定与性质",
+      "矩形判定",
+      "三角形中位线"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "平行四边形ABCD，顶点A在上左，D在上右，B在左下，C在右下。F在AD中点，E在BC中点。连接AC、CE、AF。",
+    "source_pdf": "数学_答案_2026_武汉经开外校2025-2026学年下学期九年级数学独立作业（七）手写答案.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/9c86a43897cb.webp"
+  },
+  {
+    "question_num": "19",
+    "question": "跳绳是一项集健身与娱乐为一体的体育活动，有利于学生的身心健康发展。颐立中学为了解全校学生60秒钟的跳绳次数，随机抽取部分学生进行测试，并将测试所得数据整理成不完整的频数分布表和扇形统计图。\nA组学生跳绳次数(单位：次)如下：65  70  73  80  85  95  96  96  98\n\n频数分布表：\n| 组别 | 次数$x$(单位：次) | 频数 |\n| A组 | $60\\leq x<100$ | 9 |\n| B组 | $100\\leq x<140$ | $m$ |\n| C组 | $140\\leq x<180$ | 12 |\n| D组 | $180\\leq x<220$ | 3 |\n\n根据以上信息回答下列问题：\n(1) 在这次调查中，一共抽取了多少名学生？\n(2) $A$组学生跳绳次数的中位数是____，$m$的值是____；\n(3) 若颐立中学共有1500名学生，估计该校60秒钟的跳绳次数在$100\\leq x<140$范围的学生有多少名。",
+    "answer": null,
+    "type": "short_answer",
+    "difficulty": 2,
+    "node_keywords": [
+      "频数分布表",
+      "扇形统计图",
+      "中位数",
+      "样本估计总体"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "扇形统计图分为四个扇区：A组、B组（最大）、C组占20%、D组（最小）。频数分布表给出四组数据的次数区间及频数（A组9人，C组12人，D组3人，B组m未知）。",
+    "source_pdf": "数学_答案_2026_武汉经开外校2025-2026学年下学期九年级数学独立作业（七）手写答案.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/9c86a43897cb.webp"
+  },
+  {
+    "question_num": "20",
+    "question": "如图，⊙O是△ABC的外接圆，∠BAC=45°。过点O作DF⊥AB，垂足为E，交AC于点D，交⊙O于点F。过点F作⊙O的切线，交CA的延长线于点G。\n（1）求证：FD=FG；\n（2）若AB=6，FG=5，求⊙O的半径。",
+    "answer": "（1）切线⇒DF⊥FG⇒DF∥AB；∴∠DAF=∠A=45°=∠ADF ∴FK=FD\n（2）FK=FD=5且△DAE∽△DGF ∴AE/FK = DE/DF = 2/5 ⇒ EF=(2/5)DF=2；Rt△OBE中 r²=(r-2)²+3² ⇒ r=13/4",
+    "type": "proof",
+    "difficulty": 3,
+    "node_keywords": [
+      "圆周角定理",
+      "相似三角形",
+      "切线性质",
+      "勾股定理"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "圆O是△ABC的外接圆，C在圆上方，A在左下，B在右下，∠BAC=45°。过点O作DF⊥AB，垂足为E（位于AB中点附近），交AC于点D，交⊙O于点F。过点F作⊙O的切线FG，切点为F，交CA的延长线于点G（G位于A左下方）。标注角度：∠BAC=45°，∠DAF=45°。标注线段：AE=2, EF=2, FK=5, GF=5, AB=6, FG=5。O点处标有r和r-2。",
+    "source_pdf": "数学_答案_2026_武汉经开外校2025-2026学年下学期九年级数学独立作业（七）手写答案.pdf",
+    "source_page": 2,
+    "figure_url": "/exam-pages/math/d0b0b26ba3e5.webp"
+  },
+  {
+    "question_num": "21",
+    "question": "如图是由小正方形组成的5×4的网格，每个小正方形的顶点叫作格点，△ABC的三个顶点都是格点。仅用无刻度直尺在给定网格中完成下列2个问题，每个问题的画线不得超过五条。\n（1）在图①中，先将线段CB绕点C逆时针旋转90°得线段CD；\n（2）在图①中，在BD上画一点E，使得$S_{\\triangle ABE}=\\frac{1}{2}S_{\\triangle ABC}$；\n（3）在图②中，画线段AB绕点A顺时针旋转2∠BAC至AF；\n（4）在图②中，在AC上画点G，使得FG∥BC。",
+    "answer": "（2）中线⇒中点转换；（3）作△AC对称点；（4）作△BF对称点",
+    "type": "experiment",
+    "difficulty": 3,
+    "node_keywords": [
+      "网格作图",
+      "旋转变换",
+      "相似三角形",
+      "中位线"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "图①和图②均为5×4的小正方形网格。△ABC的三个顶点A、B、C都是格点，A在左侧，B在右上方，C在右侧。图①中，线段CB绕C逆时针旋转90°得到线段CD，D在网格下方，红色线段连接了B、D、E、C等点。图②中，画有蓝色辅助线和红色虚线，展示了作AC对称点和BF对称点的构造过程。",
+    "source_pdf": "数学_答案_2026_武汉经开外校2025-2026学年下学期九年级数学独立作业（七）手写答案.pdf",
+    "source_page": 2,
+    "figure_url": "/exam-pages/math/d0b0b26ba3e5.webp"
+  },
+  {
+    "question_num": "22",
+    "question": "小磊和小明练习打网球。在一次击球过程中，小磊从点O正上方1.8米的A点将球击出。\n信息一：在如图所示的平面直角坐标系中，O为原点，OA在y轴上，球的运动路线可以看作是二次函数$y=ax^2+bx+1.8$（a，b为常数）图象的一部分，其中y（米）是球的高度，x（米）是球和原点的水平距离，图象经过点（2，3.2），（4，4.2）。\n信息二：球和原点的水平距离x（米）与时间t（秒）（$0\\leq t\\leq 1.6$）之间近似满足一次函数关系，部分数据如下：\n表：t（秒）：0, 0.4, 0.6, ...；x（米）：0, 4, 6, ...\n（1）求y与x的函数关系式；\n（2）网球被击出后经过多长时间达到最大高度？最大高度是多少？\n（3）当t为1.6秒时，小明将球击回，球在第一象限的运动路线可以看作是二次函数$y=-0.02x^2+px+m$（p，m为常数）图象的一部分，其中y（米）是球的高度，x（米）是球和原点的水平距离。当网球所在点的横坐标x为2，纵坐标y大于等于1.8时，p的取值范围为____（直接写出结果）",
+    "answer": "（1）代入点（2,3.2）、（4,4.2）⇒ y=-0.05x²+0.8x+1.8\n（2）y=-0.05(x-8)²+5 ⇒ x=8时t，最大高度5米，t=0.8秒\n（3）t=1.6⇒ x=1.6×10=16 ⇒ y=1.8，球在点A'(16,1.8)代入 y=-0.02x²+px+m ⇒ m=69.2-16p；x=2时 y=-0.02×4+2p+69.2-16p≥1.8 ⇒ p≤0.36",
+    "type": "short_answer",
+    "difficulty": 3,
+    "node_keywords": [
+      "二次函数",
+      "一次函数",
+      "函数图象",
+      "实际应用"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "平面直角坐标系，O为原点。A点位于y轴上1.8米处。坐标系中显示二次函数图象，经过点（2, 3.2）和（4, 4.2）。y轴标注1.8、3.2、4.2；x轴标注2、4。表格列出t和x的对应数据：(0,0), (0.4,4), (0.6,6)。",
+    "source_pdf": "数学_答案_2026_武汉经开外校2025-2026学年下学期九年级数学独立作业（七）手写答案.pdf",
+    "source_page": 2,
+    "figure_url": "/exam-pages/math/d0b0b26ba3e5.webp"
+  },
+  {
+    "question_num": "23",
+    "question": "如图，梯形$ABCD$中，$AD\\parallel BC$，$AB=AD$，$\\angle ABC=2\\angle BCD=2\\alpha$。\n(1) 求证：$BD^2=AD\\cdot BC$；\n(2) 若点$M$、$N$分别在$AD$、$CD$上，连$BN$，且$\\angle BNC=\\angle BMD$。\n① 若$\\alpha=30°$（如图2），求证：$CN=\\sqrt{3}MD$；\n② 若$\\alpha=45°$，以$BM$为边作正方形$BMNE$，$NE$交$BC$于点$F$（如图3）。当$AB=3$，$MD=2$时，直接写出$\\triangle FEC$的面积是______。",
+    "answer": "4/3",
+    "type": "proof",
+    "difficulty": 3,
+    "node_keywords": [
+      "梯形",
+      "相似三角形",
+      "正方形",
+      "面积计算"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "图1（梯形ABCD）：AD∥BC，AB=AD，顶点A在左上、D在右上、B在左下、C在右下。标注α=α于∠ABC和∠BCD处（∠BCD=α，∠ABC=2α），BD为对角线。\n图2（α=30°情形）：梯形ABCD中M在AD上、N在CD上，标注M、N位置，连BM、BN。图中标注α=30°于∠MBC和∠CBN附近。\n图3（α=45°情形）：M在AD上（标注MD=2），N在CD上（标注ND=√2），以BM为边作正方形BMNE（E在BC下方），F为NE与BC的交点。标注AB=3，∠ABM=45°，MD=2，ND=√2，∠1、∠2等角度。",
+    "source_pdf": "数学_答案_2026_武汉经开外校2025-2026学年下学期九年级数学独立作业（七）手写答案.pdf",
+    "source_page": 3,
+    "figure_url": "/exam-pages/math/43150ab87aae.webp"
+  },
+  {
+    "question_num": "24",
+    "question": "如图，在平面直角坐标系$xOy$中，抛物线$y=ax^2+bx$过点$(-1,3)$，且对称轴为直线$x=1$，直线$y=kx-k$与抛物线交于$A$、$B$两点，与$x$轴交于点$C$。\n(1) 求抛物线的函数表达式；\n(2) 当$k=1$时，直线$AB$与$y$轴交于点$D$，与直线$x=2$交于点$E$。若抛物线$y=(x-h)^2-1$与线段$DE$有公共点，求$h$的取值范围；\n(3) 过点$C$与$AB$垂直的直线交抛物线于$P$、$Q$两点，$M$、$N$分别是$AB$、$PQ$的中点。试探究：当$k$变化时，抛物线的对称轴上是否存在定点$T$，使得$TC$总是平分$\\angle MTN$？若存在，求出$T$的坐标；若不存在，请说明理由。",
+    "answer": "(1) $y=x^2-2x$；(2) $-\\frac{1}{4} \\leq h \\leq 2+\\sqrt{2}$；(3) 存在，$T(1,-\\frac{1}{2})$",
+    "type": "short_answer",
+    "difficulty": 3,
+    "node_keywords": [
+      "二次函数",
+      "抛物线",
+      "垂直平分线",
+      "角平分线",
+      "对称轴",
+      "判别式"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "图1（问题(2)用）：坐标系xOy，抛物线$y=x^2-2x$开口向上，过点A在第一象限，B在y轴负半轴附近（D在B下方，B与D均在y轴上），C在x轴正半轴上，直线$y=x-1$与抛物线交于A、B，C为与x轴交点。标注A、E(2,1)、B、D、C(1,0)附近。\n图2（问题(3)用）：坐标系xOy，抛物线$y=kx-k$（红色直线）与抛物线交于A、B两点，P、Q为另一抛物线上两点，N为PQ中点，M为AB中点（均在x=1直线附近），E在直线y=x-1上，T(1,t)在对称轴x=1上。C为直线与x轴交点(1,0)，D为直线与y轴交点(0,-k)。标注对称轴x=1，tan∠CTN=tan∠CTM关系式。",
+    "source_pdf": "数学_答案_2026_武汉经开外校2025-2026学年下学期九年级数学独立作业（七）手写答案.pdf",
+    "source_page": 3,
+    "figure_url": "/exam-pages/math/43150ab87aae.webp"
+  },
+  {
+    "question_num": "20",
+    "question": "如图，⊙O中，OB=OC，OD⊥BC于点D，CD是⊙O的切线。\n（1）求证：BD是⊙O的切线；\n（2）设BC交OD于点F，若AC=AO=OC，求阴影部分的周长。",
+    "answer": "（1）连接OC，∵OB=OC，OD⊥BC，∴∠COD=∠BOD，又∵OD=OD，∴△COD≌△BOD(SAS)，∴∠DCO=∠DBO，又∵CD是⊙O的切线，∴∠DCO=90°，∴∠DCO=∠DBO=90°，∴BD⊥OB，又∵OB为半径，∴BD是⊙O的切线；\n（2）∵AC=AO=OC，∴△AOC是等边三角形，∴∠A=60°，∵AB是⊙O的直径，∴∠ACB=∠BFO=90°，∴AC//OD，∴∠A=∠BOD=60°，在Rt△DBO中，BO=3，∠BOD=60°，∴OD=6，BD=3√3，∴DE=OD-OE=3，l_BE弧长=(60/360)×2π×3=π，∴阴影部分的周长=BD+DE+l_BE弧长=3√3+3+π",
+    "type": "proof",
+    "difficulty": 3,
+    "node_keywords": [
+      "圆的切线",
+      "全等三角形",
+      "等边三角形",
+      "弧长计算",
+      "圆周角定理"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "圆O内含弦BC，OD⊥BC于点D（D在BC上），CD为圆O的切线交于C点；AC=AO=OC使得△AOC为等边三角形，AB为直径；BC与OD交于点F；阴影部分由线段BD、DE及圆弧BE组成",
+    "source_pdf": "数学_答案_2026_江岸区2025-2026学年下学期五调九年级数学试卷标答_2.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/376e83bab2b2.webp"
+  },
+  {
+    "question_num": "21",
+    "question": "如图，在方格纸中，△ABC的三个顶点都在格点上。\n（1）作图：将△ABC向右平移4个单位长度，得到△A'B'C'（画出图形并标注字母）；\n（2）作图：将△ABC绕点C顺时针旋转90°，得到△FCG（画出图形并标注字母，要求M为AB的中点对应位置）。",
+    "answer": "画图如图(1)(2)所示，每个画图任务4分",
+    "type": "experiment",
+    "difficulty": 2,
+    "node_keywords": [
+      "平移变换",
+      "旋转变换",
+      "坐标变换"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "图1：在方格纸中显示直角三角形ABC，C在左上角，A在C的下方左，B在右下角，虚线显示平移后得到的对应点位置；图2：同样显示△ABC，C在左上角，A在C下方，旋转90°后得到点F在下方、点G在右侧，M为对应中点",
+    "source_pdf": "数学_答案_2026_江岸区2025-2026学年下学期五调九年级数学试卷标答_2.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/376e83bab2b2.webp"
+  },
+  {
+    "question_num": "22",
+    "question": "物理兴趣小组进行火箭模型实验，火箭离地面高度h(米)与时间t(秒)的关系式为h=-5t²+v₀t。已知重力加速度使得系数为-5，火箭最高点高度为80米（某实验楼的高度）。\n（1）求火箭的初速度v₀；\n（2）求火箭离地面的高度有两次与实验楼的高度相同的时间间隔；\n（3）当6<t≤7时，求火箭离地面的高度范围。",
+    "answer": "（1）依题意，∵-5<0，∴t=v₀/10，h_max=v₀²/20=80，则v₀=40 m/s；\n（2）由(1)得h=-5t²+40t，令h=18.75（实验楼高度假设值），解得t₁=0.5，t₂=7.5，∴Δt=7.5-0.5=7s；\n（3）当6<t≤7时，h的范围为某区间",
+    "type": "short_answer",
+    "difficulty": 3,
+    "node_keywords": [
+      "二次函数",
+      "函数最值",
+      "一元二次方程",
+      "函数值域"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "无图，纯文字题，火箭高度h与时间t的二次函数关系h=-5t²+v₀t",
+    "source_pdf": "数学_答案_2026_江岸区2025-2026学年下学期五调九年级数学试卷标答_2.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/376e83bab2b2.webp"
+  },
+  {
+    "question_num": "7（续）",
+    "question": "（题目不完整，仅显示选项）A. $\\frac{1}{2}$  B. $\\frac{1}{3}$  C. $\\frac{1}{4}$  D. $\\frac{1}{6}$",
+    "answer": null,
+    "type": "choice",
+    "difficulty": 1,
+    "node_keywords": [
+      "概率"
+    ],
+    "exam_frequency": 3,
+    "figure_description": null,
+    "source_pdf": "数学_答案_2026_洪山区2025-2026学年下学期五调九年级数学试卷含标答_2.pdf",
+    "source_page": 1
+  },
+  {
+    "question_num": "8",
+    "question": "沙漏是一种测量时间的装置．用沙漏计时时，下方容器内沙子高度 $y$（单位：cm）与漏沙时间 $t$（单位：min）的函数关系如图所示．则沙子高度从 1 cm 上升到 3 cm 所用的时间是（  ）\nA. 2 min\nB. 4 min\nC. 6 min\nD. 8 min",
+    "answer": null,
+    "type": "choice",
+    "difficulty": 2,
+    "node_keywords": [
+      "一次函数",
+      "实际应用"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "图左侧为沙漏实物图。右侧为直角坐标系中的图象：y轴标记'5'，x轴标记'10'，是一条过原点的射线，斜率为5/10=1/2，即y=（1/2）t。",
+    "source_pdf": "数学_答案_2026_洪山区2025-2026学年下学期五调九年级数学试卷含标答_2.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/60d19e2f1502.webp"
+  },
+  {
+    "question_num": "9",
+    "question": "如图，在 $\\triangle ABC$ 中，$AB=AC$，以 $AB$ 为直径的 $\\odot O$ 交 $AC$ 于点 $E$，交 $BC$ 于点 $D$，$P$ 为 $AC$ 延长线上一点，且 $BP$ 是 $\\odot O$ 的切线，连接 $BE$．若 $\\angle PBC=30°$，$AB=10$，则图中阴影部分的面积（  ）\nA. $\\frac{25\\pi}{6}$\nB. $\\frac{25\\pi}{3}$\nC. $\\frac{25\\sqrt{3}}{4}$\nD. $\\frac{25\\sqrt{3}}{2}$",
+    "answer": null,
+    "type": "choice",
+    "difficulty": 3,
+    "node_keywords": [
+      "圆",
+      "等腰三角形",
+      "切线",
+      "扇形面积"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "图中显示△ABC为等腰三角形(AB=AC)，圆心O在AB上（AB为直径），圆O与AC交于E点，与BC交于D点，P在AC延长线上，BP为圆O切线。连接BE。∠PBC=30°，AB=10。阴影部分为△BDP减去△BDE或类似区域（具体由BD与BE围成）。",
+    "source_pdf": "数学_答案_2026_洪山区2025-2026学年下学期五调九年级数学试卷含标答_2.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/60d19e2f1502.webp"
+  },
+  {
+    "question_num": "10",
+    "question": "如图 1，点 $Q$ 从 $A$ 处出发，沿线段 $AB$ 向 $B$ 处运动，设 $AQ=x(0\\le x\\le n)$，$PQ^2=y$．如图 2，$y$ 关于 $x$ 的函数图象与 $y$ 轴交于点 $C$，最低点 $D(m,81)$，且经过 $E(1,225)$ 和 $F(n,225)$ 两点．则 $n$ 的值是（  ）\nA. 22\nB. 23\nC. 24\nD. 25",
+    "answer": null,
+    "type": "choice",
+    "difficulty": 3,
+    "node_keywords": [
+      "二次函数",
+      "动点问题",
+      "最值"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "图1：直线AB上有动点Q（起点为A），P为B下方一点，AQ=x。图2：坐标系中抛物线形图象，y轴交于点C，开口向上，最低点D(m,81)，经过E(1,225)和F(n,225)，E、F在x轴上的投影分别为1和n。",
+    "source_pdf": "数学_答案_2026_洪山区2025-2026学年下学期五调九年级数学试卷含标答_2.pdf",
+    "source_page": 1,
+    "figure_url": "/exam-pages/math/60d19e2f1502.webp"
+  },
+  {
+    "question_num": "二、填空题标题",
+    "question": "二、填空题（共 6 小题，每小题 3 分，武资网共 18 分）下列各题不需要写出解答过程，请将答案直接写在答题卡指定的位置．",
+    "answer": null,
+    "type": "fill",
+    "difficulty": 1,
+    "node_keywords": [
+      "考试说明"
+    ],
+    "exam_frequency": 3,
+    "figure_description": null,
+    "source_pdf": "数学_答案_2026_洪山区2025-2026学年下学期五调九年级数学试卷含标答_2.pdf",
+    "source_page": 1
+  },
+  {
+    "question_num": "20",
+    "question": "（本小题满分8分）如图，$\\triangle ABC$内接于$\\odot O$，$CD$为直径，直线$AE$是$\\odot O$切线，切点为$A$，延长$BD$交直线$AE$于点$F$，$CD$与$AB$于点$M$，若$\\angle BFA=90°$．\n（1）求证：$AO$平分$\\angle BAC$；\n（2）若$BD=BM=2$，求$\\sin\\angle BCD$的值．",
+    "answer": null,
+    "type": "proof",
+    "difficulty": 3,
+    "node_keywords": [
+      "圆周角定理",
+      "切线性质",
+      "等腰三角形",
+      "三角函数",
+      "直角三角形"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "图中显示一个以O为圆心的圆，△ABC内接于圆，C、D是直径的两个端点（D在左侧，C在右侧），M是线段DC上的点（靠近D），O是圆心，B在圆的下部，BD延长后与过A的切线AE交于F点（F在A的左上方），E在A的右上方，∠BFA=90°。点M位于DO之间，AB与CD相交于M。",
+    "source_pdf": "数学_答案_2026_洪山区2025-2026学年下学期五调九年级数学试卷含标答_2.pdf",
+    "source_page": 4,
+    "figure_url": "/exam-pages/math/d75f9146ad43.webp"
+  },
+  {
+    "question_num": "21",
+    "question": "（本小题满分8分）如图，是由边长为1的小正方形组成的$6\\times 7$正方形网格，$\\triangle ABC$为格点三角形，$P$为格线上的点．仅用无刻度直尺在给定的网格中完成两个画图任务，每个任务的面线不得超过七条线．\n（1）在图1中，先作平行四边形$ABCD$，再在边$CD$上找一点$M$，使$PM$平分四边形$ABCD$的面积；\n（2）在图2中，先在$\\triangle ABC$内格点处作点$T$，使$\\triangle TBC$是以$BC$为斜边的等腰直角三角形；再作$P$关于$BC$的对称点$N$．",
+    "answer": null,
+    "type": "experiment",
+    "difficulty": 3,
+    "node_keywords": [
+      "格点作图",
+      "平行四边形",
+      "面积平分",
+      "等腰直角三角形",
+      "轴对称",
+      "尺规作图"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "图1和图2均显示一个6×7的小正方形网格（每个小方格边长为1），网格中绘制有格点三角形ABC：A位于上方某列，B位于下方偏左位置，C位于右下方，P点在三角形内靠近B的位置且在格线上。图1中需在此网格上先作平行四边形ABCD再找点M；图2中需在三角形内找格点T构造以BC为斜边的等腰直角三角形TBC，再作P关于BC的对称点N。",
+    "source_pdf": "数学_答案_2026_洪山区2025-2026学年下学期五调九年级数学试卷含标答_2.pdf",
+    "source_page": 4,
+    "figure_url": "/exam-pages/math/d75f9146ad43.webp"
+  },
+  {
+    "question_num": "22",
+    "question": "（本小题满分10分）近年来，随着科技的不断发展，汽车自动驾驶技术已经非常成熟．小明发现在汽车自动驾驶侧方停车过程中，可将车辆后轴中心点的运动轨迹近似看作三段轨迹的组合，如下图所示．以路沿所在直线为$x$轴（单位：m），车辆开始倒车的点$A$到路沿的距离所在直线为$y$轴（单位：m）建立平面直角坐标系．车辆从点$A(0,3)$开始倒车，轨迹依次经过点$B$、$C$、$D$，其中停车过程分三阶段：阶段Ⅰ（打方向倒车）：轨迹近似为抛物线，且对称轴为$y$轴，阶段Ⅰ在点$B$处结束，且已知$B$点的横坐标为$1.5$．阶段Ⅱ（回正直线微调）：车辆沿线段$BC$倒车，且直线$BC$与$x$轴夹角为$45°$．已知$C(2,0.7)$．阶段Ⅲ（反向打方向入库）：轨迹近似为抛物线，并经过点$C$与点$D(4,0.7)$．且轨迹与路沿距离的最小值为$0.5$ m.\n\n（1）求阶段Ⅱ倒车路程$BC$；\n\n（2）写出点$B$的坐标________，并求阶段Ⅰ轨迹的函数表达式；\n\n（3）为保障倒车安全，汽车会在与路沿的距离不大于$0.55$ m时触发警报．求触发警报的这段时间内汽车行驶的水平距离．",
+    "answer": null,
+    "type": "short_answer",
+    "difficulty": 3,
+    "node_keywords": [
+      "二次函数",
+      "抛物线",
+      "直角三角形",
+      "应用题"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "图示汽车侧方停车三阶段：阶段Ⅰ打方向倒车（车辆从A向B运动，轨迹为抛物线）、阶段Ⅱ回正直线微调（B到C，与x轴夹角45°）、阶段Ⅲ反向打方向入库（C到D，轨迹为另一段抛物线）。右侧直角坐标系中：A在y轴上距O为3处，B在x=1.5的抛物线上，C点坐标(2,0.7)，D点坐标(4,0.7)，D在x轴上方。三个小图分别显示停车三阶段中车辆与车位、路沿的位置关系。",
+    "source_pdf": "数学_答案_2026_洪山区2025-2026学年下学期五调九年级数学试卷含标答_2.pdf",
+    "source_page": 5,
+    "figure_url": "/exam-pages/math/23e8a8d2e87c.webp"
+  },
+  {
+    "question_num": "23",
+    "question": "（本小题满分10分）等腰三角形三线合一性质：等腰三角形的顶角平分线、底边上的中线、底边上的高相互重合．这一条性质在几何证明中广泛运用．\n\n探究性质：在等腰$Rt\\triangle ABC$中，$\\angle ABC=90°$，$\\angle BCA$的平分线$CF\\perp BF$，垂足为$F$，①如图1，是否可以在线段$AC$上找一点$G$，使得$CB=CG$，如果可以请在图1中作出点$G$；②$BO$平分$\\angle ABC$，交$AC$于点$O$，$BO$与$CF$交于点$E$，判断$\\triangle BOG$与$\\triangle COE$是否全等________（填写\"是\"或\"否\"）；③$\\dfrac{BF}{CE}=$________.\n\n初步运用：在等腰$\\triangle ABC$中，$\\angle ABC=120°$，$\\angle BCA$的平分线$CF\\perp BF$，垂足为$F$，$BO$平分$\\angle ABC$，交$AC$于点$O$，$BO$与$CF$交于点$E$，求$\\dfrac{BF}{CE}$的值；\n\n灵活运用：在平行四边形$ABCD$中，$\\angle BCD=\\alpha$，点$P$为$BC$上一点，$PF\\perp BF$，垂足为$F$，$\\angle BPF=\\dfrac{1}{4}\\angle BCD$，$\\angle ABC$的平分线$BT$与$PF$交于点$E$，直接写出$\\dfrac{BF}{PE}=$________（用含$\\alpha$的式子表示）",
+    "answer": null,
+    "type": "proof",
+    "difficulty": 3,
+    "node_keywords": [
+      "等腰三角形",
+      "三线合一",
+      "全等三角形",
+      "平行四边形",
+      "角平分线"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "图1：等腰直角三角形ABC，∠ABC=90°，A在左上，B在左下，C在右下，F在AB上，E在BC附近，G在AC上，O在AC上。图3：与图1类似，标记F、E、O、G点。图2：平行四边形ABCD，A在左上，D在右上，C在右下，B在左下，T在AD上，P在BC上，E在BT与PF交点处，F在垂足位置。三个图中均有标记的角度关系和垂直关系。",
+    "source_pdf": "数学_答案_2026_洪山区2025-2026学年下学期五调九年级数学试卷含标答_2.pdf",
+    "source_page": 5,
+    "figure_url": "/exam-pages/math/23e8a8d2e87c.webp"
+  },
+  {
+    "question_num": "24",
+    "question": "（本小题满分12分）如图，抛物线$L: y=ax^2+bx+c$与$x$轴的两个交点分别为$A(-2,0)$，$B(3,0)$，与$y$轴的交点是$C(0,t)$，且$t<0$。\n（1）当$t=-3$时，直接写出抛物线$L$的解析式；\n（2）在（1）的条件下，过$C$点的直线交抛物线于另一点$P$，若$P$在第一象限且使得$\\angle PCB=\\angle ACO$，求$P$点坐标；\n（3）如图2，点$F$是$y$轴上与点$C$关于原点对称的点，$EF//x$轴交抛物线于$y$轴右侧点$E$，$CD//x$轴交抛物线于$y$轴右侧点$D$，$M$是线段$CF$上一动点，连$ME$，$MD$，若$\\triangle MEF$与$\\triangle MCD$相似，并且符合条件的点$M$恰有两个，求$t$的值及点$M$的坐标。",
+    "answer": null,
+    "type": "short_answer",
+    "difficulty": 3,
+    "node_keywords": [
+      "二次函数",
+      "抛物线与x轴交点",
+      "相似三角形",
+      "动点问题",
+      "分类讨论"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "图1：抛物线$L:y=ax^2+bx+c$开口向上，与$x$轴交于$A(-2,0)$和$B(3,0)$，与$y$轴交于$C(0,t)$且$t<0$（$C$在$x$轴下方），原点$O$在$A$和$B$之间。\n图2：抛物线同上，$C(0,t)$在$y$轴负半轴，$F$在$y$轴正半轴且$OF=OC$（$F$与$C$关于原点对称），$D$在$y$轴右侧抛物线上且$CD//x$轴，$E$在$y$轴右侧抛物线上且$EF//x$轴（$E$与$F$同高），$M$在线段$CF$上。",
+    "source_pdf": "数学_答案_2026_洪山区2025-2026学年下学期五调九年级数学试卷含标答_2.pdf",
+    "source_page": 6,
+    "figure_url": "/exam-pages/math/e1b7f0645000.webp"
+  },
+  {
+    "question_num": "20",
+    "question": "（续上题答案）∵同弧所对圆周角相等，∴∠ACD=∠ABF；∵OC=OA，∴∠OAC=∠OCA；∴∠BAO=∠OAC；∴AO平分∠BAC。（2）延长AO交BC于点G。∵CD为⊙O的直径，∴∠DBC=90°。又∵OA∥BF，∴∠OGC=∠DBC=90°，即AG⊥BC，∴BG=CG。又∵OC=OD，∴OG=½BD=1。∵BD=BM，OA∥BF，∴∠BDM=∠BMD=∠AMO=∠AOM，∴AM=AO。设⊙O的半径为r，在Rt△AGB和Rt△OGC中，∴BG²=AB²-AG²=(r+2)²-(r+1)²，CG²=OC²-OG²=r²-1²，又∵BG=CG，∴(r+2)²-(r+1)²=r²-1²，解得：r=1±√5。∵r>0，∴r=1+√5。∴sin∠BCD=OG/OC=(√5-1)/4。",
+    "answer": "AO平分∠BAC；sin∠BCD=(√5-1)/4",
+    "type": "proof",
+    "difficulty": 3,
+    "node_keywords": [
+      "圆周角定理",
+      "等腰三角形",
+      "垂径定理",
+      "解方程",
+      "三角函数"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "圆O中，CD为直径，A、B、C、D、F、E在圆上，F在圆外延长线，OA与BC交于G点，M在BD上，O为圆心。CD为直径，AG⊥BC于G，BD=BM。",
+    "source_pdf": "数学_答案_2026_洪山区2025-2026学年下学期五调九年级数学试卷含标答_2.pdf",
+    "source_page": 8,
+    "figure_url": "/exam-pages/math/09741154b461.webp"
+  },
+  {
+    "question_num": "21",
+    "question": "画图如图（1）（2），每个画图任务4分。",
+    "answer": "见图中绘制",
+    "type": "experiment",
+    "difficulty": 2,
+    "node_keywords": [
+      "尺规作图",
+      "基本作图"
+    ],
+    "exam_frequency": 4,
+    "figure_description": "（1）方格图中有A、B、C、D、M、P等点，需要完成作图；（2）方格图中有A、B、C、N、P等点，需要完成作图。",
+    "source_pdf": "数学_答案_2026_洪山区2025-2026学年下学期五调九年级数学试卷含标答_2.pdf",
+    "source_page": 8,
+    "figure_url": "/exam-pages/math/09741154b461.webp"
+  },
+  {
+    "question_num": "22",
+    "question": "解：（1）过点C作CE⊥BE于E点。∵B点横坐标为1.5，C(2,0.7)，∴CE=0.5，又∵CE∥x轴，∴∠BCE=45°，∴BE=CE=0.5。BC=√((0.5)²+(0.5)²)=√2/2。（2）B(1.5,1.2)，∵第一段抛物线对称轴为y轴，且经过A(0,3)，∴设y₁=a₂x²+3。",
+    "answer": "（1）BC=√2/2；（2）B(1.5,1.2)，y₁=a₂x²+3",
+    "type": "short_answer",
+    "difficulty": 3,
+    "node_keywords": [
+      "坐标几何",
+      "抛物线",
+      "距离公式",
+      "45°角"
+    ],
+    "exam_frequency": 5,
+    "figure_description": "坐标系中，B点坐标(1.5, yB)，C(2, 0.7)，过C作CE⊥BE，CE∥x轴，CE=0.5，BE=CE=0.5，∠BCE=45°，形成等腰直角三角形BCE。",
+    "source_pdf": "数学_答案_2026_洪山区2025-2026学年下学期五调九年级数学试卷含标答_2.pdf",
+    "source_page": 8,
+    "figure_url": "/exam-pages/math/09741154b461.webp"
   }
 ]

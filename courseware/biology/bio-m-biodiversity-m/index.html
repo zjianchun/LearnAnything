@@ -485,7 +485,7 @@ input,textarea{width:100%;border:1px solid var(--line);background:#0b1628;color:
 
 <script>
 window.__TEACHANY_LEARNER_QUESTION__='';
-window.__TEACHANY_TUTOR_CONFIG__={courseId:'bio-m-biodiversity-m',courseTitle:'生物多样性及其保护',subject:'biology',grade:'8',nodeId:'bio-m-biodiversity-m',lessonType:'new-concept',getLearnerQuestion:()=>window.__TEACHANY_LEARNER_QUESTION__||'',getContext:()=>{const c=document.querySelector('section.current-section')||(location.hash?document.querySelector(location.hash):null);return(c||document.body).innerText.slice(0,3000)}};
+window.__TEACHANY_TUTOR_CONFIG__={courseId:'bio-m-biodiversity-m',courseTitle:'生物多样性及其保护',subject:'biology',grade:8,nodeId:'bio-m-biodiversity-m',lessonType:'new-concept',getLearnerQuestion:()=>window.__TEACHANY_LEARNER_QUESTION__||'',getContext:()=>{const c=document.querySelector('section.current-section')||(location.hash?document.querySelector(location.hash):null);return(c||document.body).innerText.slice(0,3000)}};
 function setTeachAnyLearnerQuestion(q){window.__TEACHANY_LEARNER_QUESTION__=q||'';const f=document.getElementById('anchor-feedback');if(f)f.textContent=q?`你的问题：${q}`:'选择或输入后，本课会围绕你的问题展开。';}
 document.querySelectorAll('[data-anchor-choice]').forEach(btn=>{btn.addEventListener('click',()=>{document.querySelectorAll('[data-anchor-choice]').forEach(b=>b.classList.remove('selected'));btn.classList.add('selected');setTeachAnyLearnerQuestion(btn.getAttribute('data-anchor-choice')||btn.textContent.trim());});});
 document.getElementById('learner-question-input')?.addEventListener('input',e=>{setTeachAnyLearnerQuestion(e.target.value.trim());});
