@@ -50,6 +50,11 @@ courseware_dir = Path(__file__).parent.parent / "courseware"
 courseware_dir.mkdir(exist_ok=True)
 app.mount("/courseware", StaticFiles(directory=str(courseware_dir), html=True), name="courseware")
 
+# 试卷页面截图
+exam_pages_dir = ROOT / "data" / "exam-pages"
+exam_pages_dir.mkdir(parents=True, exist_ok=True)
+app.mount("/exam-pages", StaticFiles(directory=str(exam_pages_dir)), name="exam-pages")
+
 
 @app.get("/api/health")
 async def health():
