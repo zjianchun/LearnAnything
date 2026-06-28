@@ -197,7 +197,7 @@ def process_pdf(pdf_path: Path) -> dict:
             print(f"    p{p+1}: {result['count']}题", end=" ", flush=True)
         elif result["status"] == "fail":
             print(f"    p{p+1}: ✗{result['reason']}", end=" ", flush=True)
-        time.sleep(3)  # rate limit
+        time.sleep(1)  # minimal rate limit buffer
 
     print()
     return {
@@ -213,6 +213,7 @@ def main():
     parser.add_argument("--subject", type=str, default=None)
     parser.add_argument("--limit", type=int, default=0)
     parser.add_argument("--resume", action="store_true", help="跳过已处理的PDF")
+    parser.add_argument("--skip", type=int, default=0, help="跳过前N份PDF")
     args = parser.parse_args()
 
     # 收集所有PDF
@@ -234,6 +235,8 @@ def main():
                 pass
         pdfs = [p for p in pdfs if p.name not in done_files]
 
+    if args.skip > 0:
+        pdfs = pdfs[args.skip:]
     if args.limit > 0:
         pdfs = pdfs[:args.limit]
 
