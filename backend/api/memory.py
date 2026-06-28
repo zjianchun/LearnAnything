@@ -10,8 +10,11 @@ INTERVALS = {0: 0, 1: 1, 2: 3, 3: 7, 4: 15, 5: 30, 6: 9999}
 
 
 @router.get("/today")
-async def today_queue(subject: str = "", limit: int = 30):
+async def today_queue(subject: str = "", limit: int = 0):
     """获取今日复习队列(到期复习+新卡)"""
+    from api.settings import _load
+    if limit <= 0:
+        limit = _load().get("daily_new_cards", 20)
     today = str(date.today())
     db = await get_db()
     try:
@@ -140,3 +143,23 @@ async def memory_stats(subject: str = ""):
         }
     finally:
         await db.close()
+
+
+@router.get("/daily-target")
+async def get_daily_target():
+    """获取每日新卡目标（默认20，家长可调）"""
+    from api.settings import _load
+    settings = _load()
+    return {"daily_new_cards": settings.get("daily_new_cards", 20)}
+
+
+@router.put("/daily-target")
+async def set_daily_target(req: Request):
+    """家长设置每日新卡数量"""
+    body = await req.json()
+    count = max(5, min(100, body.get("count", 20)))
+    from api.settings import _load, _save
+    settings = _load()
+    settings["daily_new_cards"] = count
+    _save(settings)
+    return {"daily_new_cards": count}
