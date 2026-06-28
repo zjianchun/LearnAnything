@@ -4,12 +4,36 @@ import api from '../api'
 
 const errors = ref<any[]>([])
 const loading = ref(true)
+const explaining = ref<Record<string, boolean>>({})
+const explainUrls = ref<Record<string, string>>({})
 
 onMounted(async () => {
   const { data } = await api.get('/stats/error-book')
   errors.value = data
   loading.value = false
+  // 检查已有讲解缓存
+  for (const err of data) {
+    const { data: check } = await api.get(`/explain/check/${err.question_id}`)
+    if (check.exists) explainUrls.value[err.question_id] = check.learn_url
+  }
 })
+
+async function getExplain(err: any) {
+  explaining.value[err.question_id] = true
+  try {
+    const { data } = await api.post('/explain/generate', {
+      question_id: err.question_id,
+      question: err.question,
+      answer: err.correct_answer || '',
+      user_answer: err.user_answer || '',
+      node_name: err.node_name,
+      subject: err.subject || 'math',
+    })
+    if (data.ok) explainUrls.value[err.question_id] = data.learn_url
+  } finally {
+    explaining.value[err.question_id] = false
+  }
+}
 </script>
 
 <template>
@@ -33,7 +57,14 @@ onMounted(async () => {
           <span class="review-info">
             复习阶段：{{ ['新错题', '1天后', '3天后', '7天后'][err.review_stage] || '待复习' }}
           </span>
-          <router-link :to="`/practice/${err.node_id}`" class="review-btn">去复习</router-link>
+          <div class="footer-actions">
+            <button v-if="!explainUrls[err.question_id]" @click="getExplain(err)"
+              :disabled="explaining[err.question_id]" class="explain-btn">
+              {{ explaining[err.question_id] ? '生成中...' : '📖 讲解' }}
+            </button>
+            <router-link v-else :to="explainUrls[err.question_id]" class="explain-btn ready">📖 讲解</router-link>
+            <router-link :to="`/practice/${err.node_id}`" class="review-btn">去复习</router-link>
+          </div>
         </div>
       </div>
     </div>
@@ -52,11 +83,15 @@ onMounted(async () => {
 .error-count { font-size: 0.8rem; color: #ef4444; }
 .question-text { color: #555; font-size: 0.95rem; line-height: 1.5; margin-bottom: 0.75rem; }
 .error-footer { display: flex; justify-content: space-between; align-items: center; }
+.footer-actions { display: flex; gap: 0.5rem; align-items: center; }
 .review-info { font-size: 0.8rem; color: #888; }
 .review-btn {
   padding: 0.4rem 1rem; background: #4361ee; color: #fff;
   border-radius: 6px; text-decoration: none; font-size: 0.85rem;
 }
+.explain-btn { padding: 0.4rem 0.8rem; background: #7c3aed; color: #fff; border: none; border-radius: 6px; cursor: pointer; font-size: 0.82rem; text-decoration: none; }
+.explain-btn:disabled { background: #a78bfa; cursor: wait; }
+.explain-btn.ready { background: #22c55e; }
 .empty-state { text-align: center; padding: 4rem; color: #888; }
 .loading { text-align: center; padding: 3rem; color: #999; }
 </style>

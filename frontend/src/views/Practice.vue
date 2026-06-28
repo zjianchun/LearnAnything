@@ -14,6 +14,8 @@ const loading = ref(true)
 const mastery = ref(0)
 const score = ref({ correct: 0, total: 0 })
 const nodeList = ref<any[]>([])
+const explaining = ref(false)
+const explainUrl = ref('')
 
 onMounted(async () => {
   if (nodeId.value) {
@@ -58,7 +60,26 @@ async function submitAnswer() {
 function next() {
   feedback.value = null
   userAnswer.value = ''
+  explainUrl.value = ''
   current.value++
+}
+
+async function getExplain() {
+  const q = questions.value[current.value]
+  explaining.value = true
+  try {
+    const { data } = await api.post('/explain/generate', {
+      question_id: q.id,
+      question: q.question,
+      answer: feedback.value?.correct_answer || q.answer,
+      user_answer: userAnswer.value,
+      node_name: q.node_name || nodeId.value,
+      subject: q.subject || 'math',
+    })
+    if (data.ok) explainUrl.value = data.learn_url
+  } finally {
+    explaining.value = false
+  }
 }
 
 function restart() {
@@ -139,6 +160,12 @@ function restart() {
           <ol><li v-for="s in feedback.steps" :key="s">{{ s }}</li></ol>
         </div>
         <button @click="next" class="next-btn">{{ current < questions.length - 1 ? '下一题 →' : '查看结果' }}</button>
+        <div v-if="!feedback.correct" class="explain-area">
+          <button v-if="!explainUrl" @click="getExplain" :disabled="explaining" class="explain-btn">
+            {{ explaining ? '生成讲解中...' : '📖 看详细讲解' }}
+          </button>
+          <router-link v-else :to="explainUrl" class="explain-btn ready">📖 查看讲解 →</router-link>
+        </div>
       </div>
     </div>
   </div>
@@ -191,4 +218,8 @@ function restart() {
 .score { font-size: 2rem; font-weight: 700; color: #4361ee; }
 .loading { text-align: center; padding: 3rem; color: #999; }
 .empty-state { text-align: center; padding: 3rem; }
+.explain-area { margin-top: 0.75rem; }
+.explain-btn { padding: 0.5rem 1rem; background: #7c3aed; color: #fff; border: none; border-radius: 8px; cursor: pointer; font-size: 0.85rem; text-decoration: none; display: inline-block; }
+.explain-btn:disabled { background: #a78bfa; cursor: wait; }
+.explain-btn.ready { background: #22c55e; }
 </style>
