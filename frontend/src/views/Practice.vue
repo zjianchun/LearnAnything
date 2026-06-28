@@ -2,6 +2,7 @@
 import { ref, onMounted } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import api from '../api'
+import { renderLatex } from '../utils/latex'
 
 const route = useRoute()
 const router = useRouter()
@@ -138,12 +139,16 @@ function restart() {
       </div>
       <p class="meta">第 {{ current + 1 }}/{{ questions.length }} 题 · 难度 {{ '⭐'.repeat(questions[current].difficulty) }}</p>
 
-      <div class="question-text">{{ questions[current].question }}</div>
+      <div class="question-text" v-html="renderLatex(questions[current].question)"></div>
+
+      <!-- 题目配图 -->
+      <img v-if="questions[current].figure_url" :src="questions[current].figure_url" class="question-figure" alt="题目图片" />
+      <p v-else-if="questions[current].figure_description" class="figure-desc">📐 {{ questions[current].figure_description }}</p>
 
       <div v-if="questions[current].options?.length" class="options">
         <label v-for="(opt, i) in questions[current].options" :key="i" class="option"
           :class="{ selected: userAnswer === opt }" @click="!feedback && (userAnswer = opt)">
-          {{ opt }}
+          <span v-html="renderLatex(opt)"></span>
         </label>
       </div>
       <input v-else v-model="userAnswer" placeholder="输入答案" class="answer-input"
@@ -194,6 +199,8 @@ function restart() {
 .progress-fill { height: 100%; background: #4361ee; border-radius: 2px; transition: width 0.3s; }
 .meta { font-size: 0.85rem; color: #888; margin-bottom: 1rem; }
 .question-text { font-size: 1.1rem; line-height: 1.6; margin-bottom: 1.5rem; }
+.question-figure { max-width: 100%; max-height: 300px; border-radius: 8px; margin-bottom: 1rem; border: 1px solid #e2e8f0; }
+.figure-desc { font-size: 0.85rem; color: #64748b; background: #f8fafc; padding: 0.6rem 1rem; border-radius: 8px; margin-bottom: 1rem; border-left: 3px solid #4361ee; }
 .options { display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 1rem; }
 .option {
   padding: 0.75rem 1rem; border: 2px solid #e8e8e8; border-radius: 8px; cursor: pointer; transition: all 0.15s;
