@@ -85,3 +85,43 @@ CREATE TABLE IF NOT EXISTS daily_stats (
     questions_correct INTEGER DEFAULT 0,
     nodes_learned TEXT DEFAULT '[]'
 );
+
+CREATE TABLE IF NOT EXISTS tasks (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title TEXT NOT NULL,
+    type TEXT NOT NULL DEFAULT 'custom',   -- practice/courseware/memory/custom
+    subject TEXT,
+    node_id TEXT,
+    target_count INTEGER DEFAULT 0,
+    deadline TEXT NOT NULL,                 -- YYYY-MM-DD
+    repeat_frequency TEXT,                  -- null/daily/weekly
+    repeat_end TEXT,
+    note TEXT,
+    status TEXT DEFAULT 'active',           -- active/completed/expired
+    created_at TEXT DEFAULT (datetime('now','localtime')),
+    completed_at TEXT,
+    result_data TEXT                        -- JSON: {correct_rate, time_spent, ...}
+);
+
+CREATE TABLE IF NOT EXISTS memory_cards (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    subject TEXT NOT NULL,
+    category TEXT,                          -- vocab/grammar/reading_words/poem/facts
+    front TEXT NOT NULL,
+    back TEXT NOT NULL,
+    audio_url TEXT,
+    source TEXT,
+    difficulty INTEGER DEFAULT 1
+);
+
+CREATE TABLE IF NOT EXISTS memory_progress (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    card_id INTEGER NOT NULL,
+    stage INTEGER DEFAULT 0,               -- 0-6
+    review_date TEXT NOT NULL,             -- YYYY-MM-DD
+    correct_streak INTEGER DEFAULT 0,
+    total_reviews INTEGER DEFAULT 0,
+    total_correct INTEGER DEFAULT 0,
+    last_reviewed TEXT,
+    FOREIGN KEY (card_id) REFERENCES memory_cards(id)
+);

@@ -27,6 +27,11 @@ const makeGrade = ref('初二')
 const making = ref(false)
 const makeResult = ref<any>(null)
 
+// 任务系统
+const taskList = ref<any[]>([])
+const newTask = ref({ title: '', type: 'custom', subject: 'math', node_id: '', target_count: 10, deadline: '', repeat_frequency: '', note: '' })
+const taskCreating = ref(false)
+
 const SUBJECT_LABEL: Record<string, string> = {
   math: '📐 数学', physics: '⚡ 物理', chemistry: '🧪 化学', english: '🔤 英语',
   chinese: '📝 语文', biology: '🌱 生物', geography: '🗺️ 地理', history: '📜 历史',
@@ -47,8 +52,30 @@ onMounted(async () => {
   editUpstream.value = configRes.data.upstream
   allSubjects.value = subRes.data.all
   enabledSubjects.value = subRes.data.enabled
+  // 加载任务
+  const taskRes = await api.get('/tasks/list')
+  taskList.value = taskRes.data
+  // 默认截止时间为明天
+  const tomorrow = new Date(); tomorrow.setDate(tomorrow.getDate() + 1)
+  newTask.value.deadline = tomorrow.toISOString().slice(0, 10)
   loading.value = false
 })
+
+async function createTask() {
+  if (!newTask.value.title.trim()) return
+  taskCreating.value = true
+  try {
+    await api.post('/tasks/create', newTask.value)
+    const { data } = await api.get('/tasks/list')
+    taskList.value = data
+    newTask.value.title = ''
+    newTask.value.note = ''
+  } finally { taskCreating.value = false }
+}
+async function deleteTask(id: number) {
+  await api.delete(`/tasks/${id}`)
+  taskList.value = taskList.value.filter(t => t.id !== id)
+}
 
 async function makeCourseware() {
   if (!makeTopic.value.trim()) return
@@ -156,6 +183,52 @@ async function saveConfig() {
           </div>
         </div>
         <p v-else class="empty">暂无数据</p>
+      </div>
+
+      <!-- 任务管理 -->
+      <div class="task-section">
+        <h2>📋 任务布置</h2>
+        <div class="task-form">
+          <input v-model="newTask.title" placeholder="任务标题（如：完成一次函数10道题）" class="task-input" />
+          <div class="task-row">
+            <select v-model="newTask.type">
+              <option value="practice">做题</option>
+              <option value="courseware">看课件</option>
+              <option value="memory">背诵</option>
+              <option value="custom">自定义</option>
+            </select>
+            <select v-model="newTask.subject">
+              <option v-for="s in allSubjects" :key="s" :value="s">{{ SUBJECT_LABEL[s] }}</option>
+            </select>
+            <input v-model="newTask.deadline" type="date" />
+          </div>
+          <div class="task-row">
+            <input v-model.number="newTask.target_count" type="number" min="0" placeholder="目标量" style="width:80px" />
+            <select v-model="newTask.repeat_frequency">
+              <option value="">不重复</option>
+              <option value="daily">每天</option>
+              <option value="weekly">每周</option>
+            </select>
+            <input v-model="newTask.note" placeholder="备注（可选）" style="flex:1" />
+          </div>
+          <button @click="createTask" :disabled="taskCreating || !newTask.title.trim()" class="task-btn">
+            {{ taskCreating ? '...' : '+ 布置任务' }}
+          </button>
+        </div>
+        <div v-if="taskList.length" class="task-list">
+          <div v-for="t in taskList.slice(0,10)" :key="t.id" class="task-item" :class="{ done: t.status==='completed', overdue: t.deadline < new Date().toISOString().slice(0,10) && t.status==='active' }">
+            <div class="task-info">
+              <span class="task-title">{{ t.title }}</span>
+              <span class="task-meta">{{ t.deadline }} · {{ t.repeat_frequency === 'daily' ? '每天' : t.repeat_frequency === 'weekly' ? '每周' : '单次' }}</span>
+            </div>
+            <div class="task-status">
+              <span v-if="t.status==='completed'" class="badge-done">✅</span>
+              <span v-else-if="t.deadline < new Date().toISOString().slice(0,10)" class="badge-overdue">⚠️过期</span>
+              <span v-else class="badge-active">⏳</span>
+              <button @click="deleteTask(t.id)" class="del-btn">✕</button>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- 学科开关 -->
@@ -268,6 +341,28 @@ async function saveConfig() {
 
 /* 学科开关 */
 .subject-toggle { background: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-top: 1.5rem; }
+
+/* 任务管理 */
+.task-section { background: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-top: 1.5rem; }
+.task-section h2 { font-size: 1.1rem; margin-bottom: 0.75rem; }
+.task-form { display: flex; flex-direction: column; gap: 0.6rem; }
+.task-input { padding: 0.5rem 0.75rem; border: 1.5px solid #e2e8f0; border-radius: 8px; font-size: 0.9rem; }
+.task-row { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.task-row select, .task-row input { padding: 0.4rem 0.6rem; border: 1.5px solid #e2e8f0; border-radius: 8px; font-size: 0.82rem; }
+.task-btn { padding: 0.5rem 1.2rem; background: #4361ee; color: #fff; border: none; border-radius: 8px; cursor: pointer; font-size: 0.85rem; align-self: flex-start; margin-top: 0.3rem; }
+.task-btn:disabled { background: #cbd5e1; }
+.task-list { margin-top: 1rem; display: flex; flex-direction: column; gap: 0.5rem; }
+.task-item { display: flex; justify-content: space-between; align-items: center; padding: 0.6rem 0.8rem; border-radius: 8px; background: #f8fafc; border: 1px solid #e2e8f0; }
+.task-item.done { opacity: 0.6; }
+.task-item.overdue { border-color: #fca5a5; background: #fef2f2; }
+.task-info { flex: 1; }
+.task-title { font-size: 0.88rem; font-weight: 500; color: #1e293b; }
+.task-meta { display: block; font-size: 0.72rem; color: #94a3b8; margin-top: 0.15rem; }
+.task-status { display: flex; align-items: center; gap: 0.4rem; }
+.badge-done { font-size: 0.8rem; }
+.badge-overdue { font-size: 0.72rem; color: #dc2626; font-weight: 600; }
+.badge-active { font-size: 0.8rem; }
+.del-btn { background: none; border: none; color: #94a3b8; cursor: pointer; font-size: 0.9rem; padding: 0.2rem; }
 
 /* 课件制作 */
 .make-courseware { background: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-top: 1.5rem; }

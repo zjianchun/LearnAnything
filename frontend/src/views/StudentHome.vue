@@ -5,22 +5,48 @@ import api from '../api'
 const plan = ref<any>(null)
 const loading = ref(true)
 const error = ref(false)
+const todayTasks = ref<any[]>([])
 
 onMounted(async () => {
   try {
-    const { data } = await api.get('/plan/today')
-    plan.value = data.plan
+    const [planRes, taskRes] = await Promise.all([
+      api.get('/plan/today').catch(() => ({ data: { plan: null } })),
+      api.get('/tasks/today').catch(() => ({ data: [] })),
+    ])
+    plan.value = planRes.data.plan
+    todayTasks.value = taskRes.data
   } catch {
     error.value = true
   } finally {
     loading.value = false
   }
 })
+
+async function completeTask(id: number) {
+  await api.post(`/tasks/${id}/complete`, { result: {} })
+  todayTasks.value = todayTasks.value.filter(t => t.id !== id)
+}
 </script>
 
 <template>
   <div class="home">
     <h1>👋 今日学习计划</h1>
+
+    <!-- 家长布置的任务 -->
+    <div v-if="todayTasks.length" class="parent-tasks">
+      <h3>📋 今日任务</h3>
+      <div v-for="t in todayTasks" :key="t.id" class="ptask" :class="{ overdue: t.overdue }">
+        <div class="ptask-info">
+          <span class="ptask-title">{{ t.title }}</span>
+          <span class="ptask-meta">{{ t.note || '' }} · 截止 {{ t.deadline }}</span>
+        </div>
+        <button v-if="t.type==='custom'" @click="completeTask(t.id)" class="ptask-btn">✓ 完成</button>
+        <router-link v-else-if="t.type==='practice' && t.node_id" :to="`/practice/${t.node_id}`" class="ptask-btn">去做题</router-link>
+        <router-link v-else-if="t.type==='memory'" to="/memory" class="ptask-btn">去背诵</router-link>
+        <router-link v-else-if="t.type==='courseware' && t.node_id" :to="`/learn/${t.node_id}`" class="ptask-btn">去学习</router-link>
+        <button v-else @click="completeTask(t.id)" class="ptask-btn">✓ 完成</button>
+      </div>
+    </div>
 
     <div v-if="loading" class="loading">加载中...</div>
 
@@ -89,4 +115,13 @@ onMounted(async () => {
 .empty-state { text-align: center; padding: 3rem; margin-bottom: 2rem; background: #fff; border-radius: 12px; }
 .empty-state p { font-size: 1.2rem; margin-bottom: 0.5rem; }
 .hint { font-size: 0.9rem; color: #888; }
+.parent-tasks { background: #fff; border-radius: 12px; padding: 1.25rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-bottom: 1.5rem; }
+.parent-tasks h3 { margin-bottom: 0.75rem; font-size: 1rem; }
+.ptask { display: flex; justify-content: space-between; align-items: center; padding: 0.6rem 0; border-bottom: 1px solid #f1f5f9; }
+.ptask:last-child { border-bottom: none; }
+.ptask.overdue { background: #fef2f2; margin: 0 -0.5rem; padding: 0.6rem 0.5rem; border-radius: 6px; border-bottom: none; }
+.ptask-title { font-weight: 500; color: #1e293b; font-size: 0.9rem; }
+.ptask-meta { display: block; font-size: 0.72rem; color: #94a3b8; }
+.ptask.overdue .ptask-title::after { content: ' ⚠️过期'; color: #dc2626; font-size: 0.75rem; }
+.ptask-btn { padding: 0.35rem 0.8rem; background: #4361ee; color: #fff; border: none; border-radius: 6px; font-size: 0.8rem; cursor: pointer; text-decoration: none; }
 </style>

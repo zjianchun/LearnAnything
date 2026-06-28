@@ -185,7 +185,7 @@ def main():
         except Exception as e:
             print(f"✗ {e}")
             report.append({"node_id": task["node_id"], "error": str(e)})
-        time.sleep(1)
+        time.sleep(3)
 
     client.close()
 

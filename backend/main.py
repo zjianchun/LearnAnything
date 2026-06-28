@@ -12,7 +12,7 @@ except ImportError:
     pass
 
 from db.database import init_db
-from api import diagnosis, questions, stats, study_plan, tts, graph, tutor, courseware, pbl, settings, make_courseware, explain
+from api import diagnosis, questions, stats, study_plan, tts, graph, tutor, courseware, pbl, settings, make_courseware, explain, tasks
 
 
 @asynccontextmanager
@@ -42,6 +42,7 @@ app.include_router(pbl.router, prefix="/api/pbl", tags=["PBL探究"])
 app.include_router(settings.router, prefix="/api/settings", tags=["系统设置"])
 app.include_router(make_courseware.router, prefix="/api/make", tags=["课件制作"])
 app.include_router(explain.router, prefix="/api/explain", tags=["错题讲解"])
+app.include_router(tasks.router, prefix="/api/tasks", tags=["任务系统"])
 
 # 静态课件目录
 courseware_dir = Path(__file__).parent.parent / "courseware"
