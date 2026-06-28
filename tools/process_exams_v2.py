@@ -21,7 +21,7 @@ for line in (ROOT / ".env").read_text().splitlines():
 
 API_KEY = env.get("MINIMAX_API_KEY", "")
 API_BASE = env.get("OPENAI_API_BASE", "https://api.minimax.chat/v1")
-MODEL = "MiniMax-Text-01"
+MODEL = "MiniMax-M3"
 
 SUBJECT_MAP = {
     "数学": "math", "物理": "physics", "化学": "chemistry",
@@ -65,8 +65,8 @@ def detect_subject(filename: str, path: str) -> tuple:
     return "unknown", "未知"
 
 
-def render_page(page, dpi=200) -> bytes:
-    """渲染PDF页为PNG bytes"""
+def render_page(page, dpi=150) -> bytes:
+    """渲染PDF页为PNG bytes (用于发AI)"""
     pix = page.get_pixmap(dpi=dpi)
     return pix.tobytes("png")
 
@@ -111,13 +111,6 @@ def process_page(pdf_path: Path, page_num: int, subject: str, subject_zh: str, e
     img_bytes = render_page(page)
     doc.close()
 
-    # 保存页面PNG
-    page_id = hashlib.md5(f"{pdf_path.name}_{page_num}".encode()).hexdigest()[:12]
-    img_dir = PAGE_IMG_DIR / subject
-    img_dir.mkdir(parents=True, exist_ok=True)
-    img_path = img_dir / f"{page_id}.png"
-    img_path.write_bytes(img_bytes)
-
     # 调AI提取
     img_b64 = base64.b64encode(img_bytes).decode()
     prompt = EXTRACT_PROMPT.format(exam_info=exam_info, subject_zh=subject_zh)
@@ -125,6 +118,10 @@ def process_page(pdf_path: Path, page_num: int, subject: str, subject_zh: str, e
 
     if not result:
         return {"page": page_num, "status": "fail", "reason": "AI无返回", "questions": []}
+
+    # 剥离<think>...</think>思考链
+    if "<think>" in result:
+        result = re.sub(r'<think>[\s\S]*?</think>', '', result).strip()
 
     # 清理markdown代码块
     if result.startswith("```"):
@@ -136,12 +133,38 @@ def process_page(pdf_path: Path, page_num: int, subject: str, subject_zh: str, e
         questions = json.loads(result.strip())
         if not isinstance(questions, list):
             questions = questions.get("questions", []) if isinstance(questions, dict) else []
-        # 给每个题目加上图片路径
-        figure_url = f"/exam-pages/{subject}/{page_id}.png"
+
+        # 判断本页是否有题需要图片（figure_description非null）
+        has_figure = any(
+            isinstance(q, dict) and q.get("figure_description") not in (None, "null", "")
+            for q in questions
+        )
+
+        figure_url = None
+        if has_figure:
+            # 只有有图才保存WebP
+            page_id = hashlib.md5(f"{pdf_path.name}_{page_num}".encode()).hexdigest()[:12]
+            img_dir = PAGE_IMG_DIR / subject
+            img_dir.mkdir(parents=True, exist_ok=True)
+            img_path = img_dir / f"{page_id}.webp"
+            # 转WebP保存
+            from PIL import Image
+            import io
+            img = Image.open(io.BytesIO(img_bytes))
+            img.save(str(img_path), format="WEBP", quality=80)
+            figure_url = f"/exam-pages/{subject}/{page_id}.webp"
+
+        # 给有图的题加figure_url
         for q in questions:
+            if not isinstance(q, dict):
+                continue
             q["source_pdf"] = pdf_path.name
             q["source_page"] = page_num
-            q["figure_url"] = figure_url  # 原页截图
+            if figure_url and q.get("figure_description") not in (None, "null", ""):
+                q["figure_url"] = figure_url
+            else:
+                q.pop("figure_url", None)
+        questions = [q for q in questions if isinstance(q, dict)]
         return {"page": page_num, "status": "ok", "questions": questions, "count": len(questions)}
     except json.JSONDecodeError:
         return {"page": page_num, "status": "fail", "reason": "JSON解析失败", "questions": []}
