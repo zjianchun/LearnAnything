@@ -246,6 +246,7 @@ def main():
 
     all_questions = {}  # subject -> [questions]
     ok, fail, skip = 0, 0, 0
+    last_save_time = time.time()
 
     for i, pdf in enumerate(pdfs):
         print(f"[{i+1}/{len(pdfs)}] {pdf.name}... ", end="", flush=True)
@@ -263,9 +264,10 @@ def main():
             fail += 1
             print(f"✗ {result.get('reason', '未知错误')}")
 
-        # 每10个PDF保存一次(防丢失)
-        if (i + 1) % 10 == 0:
+        # 每10个PDF或每30分钟保存一次
+        if (i + 1) % 10 == 0 or (time.time() - last_save_time) > 1800:
             save_results(all_questions)
+            last_save_time = time.time()
             print(f"  💾 中间保存 ({sum(len(v) for v in all_questions.values())}题)")
 
     # 最终保存
