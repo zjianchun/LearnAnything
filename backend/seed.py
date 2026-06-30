@@ -53,13 +53,15 @@ def main():
         for q in questions:
             try:
                 conn.execute(
-                    """INSERT OR IGNORE INTO questions (id, node_id, type, difficulty, question, options, correct_answer, hint, steps)
-                       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)""",
-                    (q.get("id"), q.get("node_id"), q.get("type", "choice"),
-                     q.get("difficulty", 1), q.get("question", ""),
+                    """INSERT OR IGNORE INTO questions (id, node_id, source, type, difficulty, question, options, answer, steps, common_errors)
+                       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+                    (q.get("id"), q.get("node_id"), q.get("source", ""),
+                     q.get("type", "choice"), q.get("difficulty", 1),
+                     q.get("question", ""),
                      json.dumps(q.get("options", []), ensure_ascii=False),
-                     q.get("correct_answer", ""), q.get("hint", ""),
-                     json.dumps(q.get("steps", []), ensure_ascii=False))
+                     q.get("answer") or q.get("correct_answer", ""),
+                     json.dumps(q.get("steps", []), ensure_ascii=False),
+                     json.dumps(q.get("common_errors", []), ensure_ascii=False))
                 )
                 q_total += 1
             except Exception:
