@@ -17,17 +17,27 @@ const score = ref({ correct: 0, total: 0 })
 const nodeList = ref<any[]>([])
 const explaining = ref(false)
 const explainUrl = ref('')
+const selectedSubject = ref('')
+const subjects = ref<any[]>([])
 
 onMounted(async () => {
   if (nodeId.value) {
     await loadQuestions()
   } else {
-    await loadNodeList()
+    await loadSubjects()
   }
 })
 
-async function loadNodeList() {
-  const { data } = await api.get('/questions/nodes/math')
+async function loadSubjects() {
+  const { data } = await api.get('/graph/subjects')
+  subjects.value = data
+  loading.value = false
+}
+
+async function selectSubject(subject: string) {
+  selectedSubject.value = subject
+  loading.value = true
+  const { data } = await api.get(`/questions/nodes/${subject}`)
   nodeList.value = data
   loading.value = false
 }
@@ -96,9 +106,24 @@ function restart() {
   <div class="practice">
     <div v-if="loading" class="loading">加载中...</div>
 
+    <!-- 科目选择 -->
+    <div v-else-if="!selectedSubject && !nodeId" class="subject-select">
+      <h1>✏️ 选择练习科目</h1>
+      <div class="subject-grid">
+        <div v-for="s in subjects" :key="s.subject" class="subject-card" @click="selectSubject(s.subject)">
+          <span class="subject-icon">{{ s.icon }}</span>
+          <span class="subject-name">{{ s.name }}</span>
+          <span class="subject-total">{{ s.total }}个知识点</span>
+        </div>
+      </div>
+    </div>
+
     <!-- 知识点选择 -->
     <div v-else-if="!nodeId" class="node-select">
-      <h1>✏️ 选择练习知识点</h1>
+      <h1>
+        <span class="back-link" @click="selectedSubject=''; nodeList=[]">← </span>
+        选择练习知识点
+      </h1>
       <div class="node-list">
         <div v-for="node in nodeList" :key="node.node_id" class="node-card" @click="selectNode(node.node_id)">
           <div class="node-info">
@@ -178,6 +203,18 @@ function restart() {
 
 <style scoped>
 .practice { max-width: 640px; margin: 0 auto; }
+.subject-select h1 { margin-bottom: 1.5rem; }
+.subject-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.subject-card {
+  display: flex; flex-direction: column; align-items: center; gap: 0.5rem;
+  background: #fff; border-radius: 12px; padding: 1.25rem 0.75rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06); cursor: pointer; transition: transform 0.15s;
+}
+.subject-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+.subject-icon { font-size: 2rem; }
+.subject-name { font-weight: 600; color: #333; }
+.subject-total { font-size: 0.75rem; color: #888; }
+.back-link { cursor: pointer; color: #4361ee; }
 .node-select h1 { margin-bottom: 1.5rem; }
 .node-list { display: flex; flex-direction: column; gap: 0.75rem; }
 .node-card {
