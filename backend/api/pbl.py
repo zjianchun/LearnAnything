@@ -14,7 +14,7 @@ from db.database import get_db
 
 router = APIRouter()
 
-ROOT = Path(__file__).parent.parent.parent
+ROOT = Path(__file__).parent.parent
 PBL_INDEX = ROOT / "data" / "pbl-index.json"
 CW_DIR = ROOT / "courseware"
 TEACHANY_PBL_API = "https://www.teachany.cn/api/pbl/analyze"

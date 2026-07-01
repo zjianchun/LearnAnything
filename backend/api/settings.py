@@ -5,7 +5,7 @@ from fastapi import APIRouter, Request
 
 router = APIRouter()
 
-SETTINGS_FILE = Path(__file__).parent.parent.parent / "data" / "settings.json"
+SETTINGS_FILE = Path(__file__).parent.parent / "data" / "settings.json"
 
 ALL_SUBJECTS = ["math", "physics", "chemistry", "english", "chinese",
                 "biology", "geography", "history", "politics"]

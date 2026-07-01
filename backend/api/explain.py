@@ -7,7 +7,7 @@ from fastapi.responses import JSONResponse
 
 router = APIRouter()
 
-ROOT = Path(__file__).parent.parent.parent
+ROOT = Path(__file__).parent.parent
 CW_DIR = ROOT / "courseware"
 
 API_KEY = lambda: os.environ.get("MINIMAX_API_KEY", "")

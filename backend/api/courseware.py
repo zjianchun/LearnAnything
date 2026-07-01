@@ -6,7 +6,7 @@ from db.database import get_db
 
 router = APIRouter()
 
-ROOT = Path(__file__).parent.parent.parent
+ROOT = Path(__file__).parent.parent  # /app
 CW_DIR = ROOT / "courseware"
 CW_INDEX_FILE = ROOT / "data" / "courseware-index.json"
 

@@ -7,7 +7,7 @@ import edge_tts
 
 router = APIRouter()
 
-COURSEWARE_DIR = Path(__file__).parent.parent.parent / "courseware"
+COURSEWARE_DIR = Path(__file__).parent.parent / "courseware"
 
 VOICES = {
     "zh": "zh-CN-XiaoxiaoNeural",

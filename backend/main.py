@@ -46,7 +46,7 @@ app.include_router(tasks.router, prefix="/api/tasks", tags=["任务系统"])
 app.include_router(memory.router, prefix="/api/memory", tags=["记忆系统"])
 
 # 静态课件目录
-ROOT = Path(__file__).parent.parent
+ROOT = Path(__file__).parent
 courseware_dir = ROOT / "courseware"
 courseware_dir.mkdir(exist_ok=True)
 app.mount("/courseware", StaticFiles(directory=str(courseware_dir), html=True), name="courseware")
