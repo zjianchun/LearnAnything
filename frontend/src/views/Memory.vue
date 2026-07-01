@@ -120,32 +120,169 @@ function switchSubject(s: string) { subject.value = s; load() }
 </template>
 
 <style scoped>
-.memory h1 { margin-bottom: 0.5rem; }
-.tabs { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 1.25rem; align-items: center; }
-.tabs button { padding: 0.4rem 0.8rem; border: 1px solid #e2e8f0; background: #fff; border-radius: 20px; font-size: 0.85rem; cursor: pointer; }
-.tabs button.active { background: #4361ee; color: #fff; border-color: #4361ee; }
-.mode-switch { margin-left: auto; display: flex; gap: 0.3rem; }
-.mode-switch button { padding: 0.3rem 0.7rem; font-size: 0.78rem; border-radius: 6px; }
-.progress-text { font-size: 0.82rem; color: #64748b; margin-bottom: 1rem; }
-.flip-card { min-height: 200px; background: #fff; border-radius: 16px; box-shadow: 0 4px 16px rgba(0,0,0,0.08); display: flex; align-items: center; justify-content: center; padding: 2rem; cursor: pointer; font-size: 1.3rem; color: #1e293b; text-align: center; position: relative; transition: transform 0.3s; }
-.flip-card .card-back { display: none; color: #4361ee; }
+.memory { padding-top: 0.5rem; }
+.memory h1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+}
+
+/* 科目 Tab */
+.tabs {
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+.tabs button {
+  padding: 0.4rem 0.75rem;
+  border: 1.5px solid var(--color-border);
+  background: var(--color-surface);
+  border-radius: 20px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  font-weight: 500;
+}
+.tabs button.active {
+  background: var(--color-primary);
+  color: #fff;
+  border-color: var(--color-primary);
+}
+.mode-switch { margin-left: auto; display: flex; gap: 0.25rem; }
+.mode-switch button { padding: 0.3rem 0.6rem; font-size: 0.72rem; border-radius: 6px; }
+
+/* 进度 */
+.progress-text {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  margin-bottom: 1rem;
+  font-variant-numeric: tabular-nums;
+}
+
+/* 翻卡 */
+.flip-card {
+  min-height: 200px;
+  background: var(--color-surface);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 2rem;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--color-text);
+  text-align: center;
+  transition: transform 0.2s ease, background 0.3s;
+  line-height: 1.6;
+}
+.flip-card:active { transform: scale(0.97); }
+.flip-card .card-back { display: none; color: var(--color-primary); font-weight: 600; }
 .flip-card.flipped .card-front { display: none; }
 .flip-card.flipped .card-back { display: block; }
-.flip-card.flipped { cursor: default; background: #f0fdf4; }
-.action-row { display: flex; gap: 1rem; justify-content: center; margin-top: 1.25rem; }
-.btn-wrong { padding: 0.6rem 1.5rem; background: #fef2f2; color: #dc2626; border: 2px solid #fca5a5; border-radius: 10px; font-size: 1rem; cursor: pointer; }
-.btn-right { padding: 0.6rem 1.5rem; background: #f0fdf4; color: #16a34a; border: 2px solid #86efac; border-radius: 10px; font-size: 1rem; cursor: pointer; }
-.hint { text-align: center; color: #94a3b8; font-size: 0.85rem; margin-top: 1rem; }
+.flip-card.flipped { cursor: default; background: #F0FDF4; }
+
+.action-row {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+.btn-wrong, .btn-right {
+  padding: 0.7rem 1.8rem;
+  border-radius: 24px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+.btn-wrong:active, .btn-right:active { transform: scale(0.95); }
+.btn-wrong { background: #FEF2F2; color: #DC2626; border: 2px solid #FECACA; }
+.btn-right { background: #F0FDF4; color: #16A34A; border: 2px solid #86EFAC; }
+
+.hint {
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+/* 拼写 */
 .spell-area { text-align: center; }
-.spell-prompt { font-size: 1.3rem; font-weight: 600; color: #1e293b; background: #fff; border-radius: 16px; padding: 2rem; box-shadow: 0 4px 16px rgba(0,0,0,0.08); margin-bottom: 1.25rem; }
-.spell-input { width: 100%; max-width: 320px; padding: 0.7rem 1rem; border: 2px solid #e2e8f0; border-radius: 10px; font-size: 1.1rem; text-align: center; }
-.spell-input.correct { border-color: #22c55e; background: #f0fdf4; }
-.spell-input.wrong { border-color: #ef4444; background: #fef2f2; }
-.spell-btn { margin-top: 0.75rem; padding: 0.5rem 1.5rem; background: #4361ee; color: #fff; border: none; border-radius: 8px; font-size: 0.9rem; cursor: pointer; }
-.spell-feedback { margin-top: 1rem; }
-.next-btn { margin-top: 0.75rem; padding: 0.5rem 1.2rem; background: #4361ee; color: #fff; border: none; border-radius: 8px; cursor: pointer; }
-.done-card { text-align: center; padding: 3rem; background: #fff; border-radius: 16px; box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
-.stats-bar { margin-top: 1rem; font-size: 0.85rem; color: #64748b; }
-.green { color: #22c55e; } .yellow { color: #eab308; }
-.loading, .empty { text-align: center; padding: 3rem; color: #94a3b8; }
+.spell-prompt {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--color-text);
+  background: var(--color-surface);
+  border-radius: var(--radius-xl);
+  padding: 2rem 1.5rem;
+  box-shadow: var(--shadow-lg);
+  margin-bottom: 1.25rem;
+}
+.spell-input {
+  width: 100%;
+  max-width: 300px;
+  padding: 0.75rem 1rem;
+  border: 2px solid var(--color-border);
+  border-radius: 24px;
+  font-size: 1rem;
+  text-align: center;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.spell-input:focus { border-color: var(--color-primary); }
+.spell-input.correct { border-color: var(--color-accent); background: #F0FDF4; }
+.spell-input.wrong { border-color: var(--color-danger); background: #FEF2F2; }
+
+.spell-btn {
+  margin-top: 0.75rem;
+  padding: 0.6rem 1.5rem;
+  background: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.spell-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.spell-feedback { margin-top: 1rem; font-size: 0.95rem; }
+.next-btn {
+  margin-top: 0.75rem;
+  padding: 0.5rem 1.2rem;
+  background: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.85rem;
+}
+
+/* 完成 */
+.done-card {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  background: var(--color-surface);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+}
+.done-card h2 { font-size: 1.3rem; margin-bottom: 0.5rem; }
+.stats-bar {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: var(--color-text-secondary);
+}
+.green { color: var(--color-accent); }
+.yellow { color: var(--color-warning); }
+
+.loading, .empty {
+  text-align: center;
+  padding: 3rem;
+  color: var(--color-text-muted);
+}
 </style>

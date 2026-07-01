@@ -2,21 +2,24 @@
 import { ref, onMounted } from 'vue'
 import api from '../api'
 
-const plan = ref<any>(null)
-const loading = ref(true)
-const error = ref(false)
 const todayTasks = ref<any[]>([])
+const stats = ref({ streak: 0, todayMinutes: 0, mastered: 0 })
+const loading = ref(true)
+const greeting = ref('')
 
 onMounted(async () => {
+  const hour = new Date().getHours()
+  if (hour < 12) greeting.value = '早上好 ☀️'
+  else if (hour < 18) greeting.value = '下午好 🌤️'
+  else greeting.value = '晚上好 🌙'
+
   try {
-    const [planRes, taskRes] = await Promise.all([
-      api.get('/plan/today').catch(() => ({ data: { plan: null } })),
+    const [taskRes, statsRes] = await Promise.all([
       api.get('/tasks/today').catch(() => ({ data: [] })),
+      api.get('/plan/today').catch(() => ({ data: { stats: null } })),
     ])
-    plan.value = planRes.data.plan
     todayTasks.value = taskRes.data
-  } catch {
-    error.value = true
+    if (statsRes.data?.stats) stats.value = statsRes.data.stats
   } finally {
     loading.value = false
   }
@@ -30,98 +33,299 @@ async function completeTask(id: number) {
 
 <template>
   <div class="home">
-    <h1>👋 今日学习计划</h1>
+    <!-- 顶部问候 -->
+    <header class="hero">
+      <div class="hero-text">
+        <h1>{{ greeting }}</h1>
+        <p class="subtitle">继续加油，每天进步一点点</p>
+      </div>
+      <div class="hero-avatar">🎯</div>
+    </header>
 
-    <!-- 家长布置的任务 -->
-    <div v-if="todayTasks.length" class="parent-tasks">
-      <h3>📋 今日任务</h3>
-      <div v-for="t in todayTasks" :key="t.id" class="ptask" :class="{ overdue: t.overdue }">
-        <div class="ptask-info">
-          <span class="ptask-title">{{ t.title }}</span>
-          <span class="ptask-meta">{{ t.note || '' }} · 截止 {{ t.deadline }}</span>
-        </div>
-        <button v-if="t.type==='custom'" @click="completeTask(t.id)" class="ptask-btn">✓ 完成</button>
-        <router-link v-else-if="t.type==='practice' && t.node_id" :to="`/practice/${t.node_id}`" class="ptask-btn">去做题</router-link>
-        <router-link v-else-if="t.type==='memory'" to="/memory" class="ptask-btn">去背诵</router-link>
-        <router-link v-else-if="t.type==='courseware' && t.node_id" :to="`/learn/${t.node_id}`" class="ptask-btn">去学习</router-link>
-        <button v-else @click="completeTask(t.id)" class="ptask-btn">✓ 完成</button>
+    <!-- 今日数据卡 -->
+    <div class="stats-row">
+      <div class="stat-pill">
+        <span class="stat-num tabular-nums">{{ stats.streak }}</span>
+        <span class="stat-label">连续天</span>
+      </div>
+      <div class="stat-pill">
+        <span class="stat-num tabular-nums">{{ stats.todayMinutes }}</span>
+        <span class="stat-label">今日分钟</span>
+      </div>
+      <div class="stat-pill">
+        <span class="stat-num tabular-nums">{{ stats.mastered }}</span>
+        <span class="stat-label">已掌握</span>
       </div>
     </div>
 
-    <div v-if="loading" class="loading">加载中...</div>
+    <!-- 今日任务 -->
+    <section class="section">
+      <h2 class="section-title">今日任务</h2>
 
-    <div v-else-if="error || !plan" class="empty-state">
-      <p>📋 暂无今日计划</p>
-      <p class="hint">完成入学诊断后，系统将自动生成学习计划</p>
-    </div>
+      <div v-if="loading" class="skeleton-list">
+        <div class="skeleton-item" v-for="i in 3" :key="i"></div>
+      </div>
 
-    <div v-else class="plan-grid">
-      <div v-for="(tasks, subject) in plan" :key="subject" class="subject-card">
-        <h2>
-          <span v-if="subject === 'math'">📐 数学</span>
-          <span v-else-if="subject === 'physics'">🔬 物理</span>
-          <span v-else>🔤 英语</span>
-        </h2>
-        <ul>
-          <li v-for="task in tasks" :key="task.node_id" class="task-item">
-            <span class="task-type">
-              {{ task.type === 'learn' ? '📖 新学' : task.type === 'review' ? '🔄 复习' : '✏️ 练习' }}
+      <div v-else-if="todayTasks.length === 0" class="empty-card">
+        <span class="empty-icon">🎉</span>
+        <p>今日任务全部完成！</p>
+        <p class="empty-hint">去自由练习巩固一下吧</p>
+      </div>
+
+      <div v-else class="task-list">
+        <div v-for="t in todayTasks" :key="t.id" class="task-card" :class="{ overdue: t.overdue }">
+          <div class="task-left">
+            <span class="task-type-badge" :class="t.type">
+              {{ t.type === 'practice' ? '✏️' : t.type === 'memory' ? '🧠' : t.type === 'courseware' ? '📖' : '📋' }}
             </span>
-            <router-link :to="task.type === 'practice' ? `/practice/${task.node_id}` : `/learn/${task.node_id}`">
-              {{ task.name }}
-            </router-link>
-            <span class="task-time">{{ task.minutes }}分钟</span>
-          </li>
-        </ul>
-        <p v-if="!tasks || tasks.length === 0" class="empty">暂无任务</p>
+            <div class="task-info">
+              <span class="task-title">{{ t.title }}</span>
+              <span class="task-meta">{{ t.note || '完成即可' }}</span>
+            </div>
+          </div>
+          <button v-if="t.type==='custom'" @click="completeTask(t.id)" class="task-action done">完成</button>
+          <router-link v-else-if="t.type==='practice' && t.node_id" :to="`/practice/${t.node_id}`" class="task-action go">做题</router-link>
+          <router-link v-else-if="t.type==='memory'" to="/memory" class="task-action go">背诵</router-link>
+          <router-link v-else-if="t.type==='courseware' && t.node_id" :to="`/learn/${t.node_id}`" class="task-action go">学习</router-link>
+          <button v-else @click="completeTask(t.id)" class="task-action done">完成</button>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="quick-actions">
-      <router-link to="/diagnosis" class="action-btn">🎯 学情诊断</router-link>
-      <router-link to="/errors" class="action-btn">📝 错题复习</router-link>
-      <router-link to="/progress" class="action-btn">📈 查看进度</router-link>
-    </div>
+    <!-- 快捷入口 -->
+    <section class="section">
+      <h2 class="section-title">快捷入口</h2>
+      <div class="quick-grid">
+        <router-link to="/diagnosis" class="quick-item">
+          <span class="quick-icon">🎯</span>
+          <span class="quick-label">学情诊断</span>
+        </router-link>
+        <router-link to="/errors" class="quick-item">
+          <span class="quick-icon">📝</span>
+          <span class="quick-label">错题复习</span>
+        </router-link>
+        <router-link to="/library" class="quick-item">
+          <span class="quick-icon">📖</span>
+          <span class="quick-label">课件库</span>
+        </router-link>
+        <router-link to="/path" class="quick-item">
+          <span class="quick-icon">🗺️</span>
+          <span class="quick-label">学习路径</span>
+        </router-link>
+      </div>
+    </section>
   </div>
 </template>
 
 <style scoped>
-.home h1 { margin-bottom: 1.5rem; }
-.plan-grid {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1rem; margin-bottom: 2rem;
+.home {
+  padding-top: 0.5rem;
 }
-.subject-card {
-  background: #fff; border-radius: 12px; padding: 1.25rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
 }
-.subject-card h2 { font-size: 1.1rem; margin-bottom: 0.75rem; }
-.task-item {
-  display: flex; align-items: center; gap: 0.5rem;
-  padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0;
+.hero h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
 }
-.task-item a { color: #333; text-decoration: none; flex: 1; }
-.task-item a:hover { color: #4361ee; }
-.task-time { font-size: 0.8rem; color: #999; }
-.task-type { font-size: 0.8rem; }
-.quick-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
-.action-btn {
-  padding: 0.75rem 1.5rem; background: #4361ee; color: #fff;
-  border-radius: 8px; text-decoration: none; font-size: 0.9rem; transition: transform 0.1s;
+.subtitle {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  margin-top: 0.2rem;
 }
-.action-btn:hover { transform: translateY(-2px); }
-.loading { text-align: center; padding: 3rem; color: #999; }
-.empty { color: #aaa; font-size: 0.9rem; }
-.empty-state { text-align: center; padding: 3rem; margin-bottom: 2rem; background: #fff; border-radius: 12px; }
-.empty-state p { font-size: 1.2rem; margin-bottom: 0.5rem; }
-.hint { font-size: 0.9rem; color: #888; }
-.parent-tasks { background: #fff; border-radius: 12px; padding: 1.25rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-bottom: 1.5rem; }
-.parent-tasks h3 { margin-bottom: 0.75rem; font-size: 1rem; }
-.ptask { display: flex; justify-content: space-between; align-items: center; padding: 0.6rem 0; border-bottom: 1px solid #f1f5f9; }
-.ptask:last-child { border-bottom: none; }
-.ptask.overdue { background: #fef2f2; margin: 0 -0.5rem; padding: 0.6rem 0.5rem; border-radius: 6px; border-bottom: none; }
-.ptask-title { font-weight: 500; color: #1e293b; font-size: 0.9rem; }
-.ptask-meta { display: block; font-size: 0.72rem; color: #94a3b8; }
-.ptask.overdue .ptask-title::after { content: ' ⚠️过期'; color: #dc2626; font-size: 0.75rem; }
-.ptask-btn { padding: 0.35rem 0.8rem; background: #4361ee; color: #fff; border: none; border-radius: 6px; font-size: 0.8rem; cursor: pointer; text-decoration: none; }
+.hero-avatar {
+  width: 48px;
+  height: 48px;
+  background: var(--color-primary-bg);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+/* Stats */
+.stats-row {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+.stat-pill {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.8rem 0.5rem;
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+.stat-num {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  line-height: 1.2;
+}
+.stat-label {
+  font-size: 0.7rem;
+  color: var(--color-text-muted);
+  margin-top: 0.2rem;
+}
+
+/* Sections */
+.section {
+  margin-bottom: 2rem;
+}
+.section-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 0.75rem;
+}
+
+/* Task List */
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.task-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.9rem 1rem;
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.15s ease;
+}
+.task-card:active {
+  transform: scale(0.98);
+}
+.task-card.overdue {
+  border-left: 3px solid var(--color-danger);
+}
+.task-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.task-type-badge {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  background: var(--color-primary-bg);
+}
+.task-info {
+  display: flex;
+  flex-direction: column;
+}
+.task-title {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-text);
+}
+.task-meta {
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+  margin-top: 0.1rem;
+}
+.task-action {
+  padding: 0.4rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.task-action.go {
+  background: var(--color-primary);
+  color: #fff;
+}
+.task-action.go:hover {
+  background: #5a4bd6;
+}
+.task-action.done {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+/* Empty */
+.empty-card {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+.empty-icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.empty-card p {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--color-text);
+}
+.empty-hint {
+  font-size: 0.8rem !important;
+  color: var(--color-text-muted) !important;
+  font-weight: 400 !important;
+  margin-top: 0.3rem;
+}
+
+/* Skeleton */
+.skeleton-list { display: flex; flex-direction: column; gap: 0.6rem; }
+.skeleton-item {
+  height: 60px;
+  background: linear-gradient(90deg, #f0f0f3 25%, #e8e8eb 50%, #f0f0f3 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: var(--radius-md);
+}
+@keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+
+/* Quick Grid */
+.quick-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+}
+.quick-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 1rem 0.5rem;
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  text-decoration: none;
+  transition: transform 0.15s ease;
+}
+.quick-item:active {
+  transform: scale(0.95);
+}
+.quick-icon {
+  font-size: 1.5rem;
+}
+.quick-label {
+  font-size: 0.7rem;
+  color: var(--color-text-secondary);
+  font-weight: 500;
+}
 </style>
