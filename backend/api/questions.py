@@ -68,7 +68,7 @@ async def get_practice_questions(node_id: str, count: int = 5):
         error_ids = [r["question_id"] for r in error_rows]
 
         cursor = await db.execute(
-            "SELECT id, node_id, type, difficulty, question, options, answer, steps, common_errors FROM questions WHERE node_id=?",
+            "SELECT id, node_id, type, difficulty, question, options, answer, steps, common_errors, figure_url, figure_description FROM questions WHERE node_id=?",
             (node_id,)
         )
         q_rows = await cursor.fetchall()
@@ -76,7 +76,8 @@ async def get_practice_questions(node_id: str, count: int = 5):
             {"id": r["id"], "node_id": r["node_id"], "type": r["type"], "difficulty": r["difficulty"],
              "question": r["question"], "options": json.loads(r["options"] or "[]"),
              "answer": r["answer"], "steps": json.loads(r["steps"] or "[]"),
-             "common_errors": json.loads(r["common_errors"] or "[]")}
+             "common_errors": json.loads(r["common_errors"] or "[]"),
+             "figure_url": r["figure_url"] or "", "figure_description": r["figure_description"] or ""}
             for r in q_rows
         ]
 

@@ -50,6 +50,8 @@ CREATE TABLE IF NOT EXISTS questions (
     common_errors TEXT,
     tags TEXT DEFAULT '[]',
     exam_frequency INTEGER DEFAULT 0,
+    figure_url TEXT DEFAULT '',
+    figure_description TEXT DEFAULT '',
     FOREIGN KEY (node_id) REFERENCES knowledge_nodes(node_id)
 );
 
