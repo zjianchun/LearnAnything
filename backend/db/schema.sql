@@ -45,7 +45,7 @@ CREATE TABLE IF NOT EXISTS questions (
     difficulty INTEGER DEFAULT 1,
     question TEXT NOT NULL,
     options TEXT,
-    answer TEXT NOT NULL,
+    answer TEXT DEFAULT '',
     steps TEXT,
     common_errors TEXT,
     tags TEXT DEFAULT '[]',

@@ -59,7 +59,7 @@ def main():
                      q.get("type", "choice"), q.get("difficulty", 1),
                      q.get("question", ""),
                      json.dumps(q.get("options", []), ensure_ascii=False),
-                     q.get("answer") or q.get("correct_answer", ""),
+                     q.get("answer") or q.get("correct_answer") or "",
                      json.dumps(q.get("steps", []), ensure_ascii=False),
                      json.dumps(q.get("common_errors", []), ensure_ascii=False),
                      q.get("figure_url", ""),
