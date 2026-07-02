@@ -44,12 +44,6 @@ const isActive = (path: string) => {
           <span class="nav-label">{{ item.label }}</span>
         </router-link>
       </nav>
-      <div class="sidebar-footer">
-        <router-link to="/parent" class="nav-item parent-link">
-          <span class="nav-icon">👨‍👩‍👦</span>
-          <span class="nav-label">家长面板</span>
-        </router-link>
-      </div>
     </aside>
 
     <!-- 主内容区 -->
@@ -183,12 +177,6 @@ body {
 }
 .nav-icon { font-size: 1.15rem; width: 24px; text-align: center; }
 .nav-label { white-space: nowrap; }
-
-.sidebar-footer {
-  padding-top: 1rem;
-  border-top: 1px solid var(--border);
-}
-.parent-link { color: var(--text-3); }
 
 /* ===== 主内容区 ===== */
 .main-area {
