@@ -89,7 +89,11 @@ function openSubject(s: string) {
 .ov-num.yellow { color: var(--warning); }
 .ov-label { font-size: 0.65rem; color: var(--text-3); margin-top: 0.1rem; font-weight: 500; }
 
-.grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.6rem; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.6rem; }
+
+@media (max-width: 768px) {
+  .grid { grid-template-columns: repeat(2, 1fr); }
+}
 .card {
   background: var(--surface); border-radius: var(--radius-md); padding: 1rem;
   box-shadow: var(--shadow-sm); cursor: pointer; transition: transform 0.5s var(--ease);

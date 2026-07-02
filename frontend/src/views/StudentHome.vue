@@ -207,7 +207,7 @@ async function completeTask(id: number) {
 /* Quick Row */
 .quick-row {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 0.6rem;
 }
 .quick-card {

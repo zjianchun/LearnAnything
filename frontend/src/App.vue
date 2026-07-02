@@ -1,45 +1,79 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router'
-import { computed } from 'vue'
 
 const route = useRoute()
 
-const tabs = [
+const navItems = [
   { path: '/', icon: '🏠', label: '首页' },
-  { path: '/graph', icon: '🧭', label: '图谱' },
+  { path: '/graph', icon: '🧭', label: '全科图谱' },
   { path: '/practice', icon: '✏️', label: '练习' },
-  { path: '/memory', icon: '🧠', label: '记忆' },
-  { path: '/progress', icon: '📊', label: '我的' },
+  { path: '/memory', icon: '🧠', label: '记忆训练' },
+  { path: '/library', icon: '📖', label: '课件库' },
+  { path: '/path', icon: '🗺️', label: '学习路径' },
+  { path: '/diagnosis', icon: '🎯', label: '学情诊断' },
+  { path: '/errors', icon: '📝', label: '错题本' },
+  { path: '/pbl', icon: '🔬', label: 'PBL探究' },
+  { path: '/progress', icon: '📊', label: '我的进度' },
 ]
 
-const currentTab = computed(() => {
-  return tabs.find(t => t.path === route.path)?.path || ''
-})
+const mobileNav = navItems.slice(0, 5)
+
+const isActive = (path: string) => {
+  if (path === '/') return route.path === '/'
+  return route.path.startsWith(path)
+}
 </script>
 
 <template>
-  <div class="app">
-    <main class="main-content">
+  <div class="app-shell">
+    <!-- 侧边栏 (平板/电脑) -->
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <span class="brand-icon">⚡</span>
+        <span class="brand-text">WayToSuper</span>
+      </div>
+      <nav class="sidebar-nav">
+        <router-link
+          v-for="item in navItems"
+          :key="item.path"
+          :to="item.path"
+          class="nav-item"
+          :class="{ active: isActive(item.path) }"
+        >
+          <span class="nav-icon">{{ item.icon }}</span>
+          <span class="nav-label">{{ item.label }}</span>
+        </router-link>
+      </nav>
+      <div class="sidebar-footer">
+        <router-link to="/parent" class="nav-item parent-link">
+          <span class="nav-icon">👨‍👩‍👦</span>
+          <span class="nav-label">家长面板</span>
+        </router-link>
+      </div>
+    </aside>
+
+    <!-- 主内容区 -->
+    <main class="main-area">
       <router-view />
     </main>
 
-    <nav class="tab-bar">
+    <!-- 底部 Tab (仅手机) -->
+    <nav class="mobile-tab">
       <router-link
-        v-for="tab in tabs"
-        :key="tab.path"
-        :to="tab.path"
+        v-for="item in mobileNav"
+        :key="item.path"
+        :to="item.path"
         class="tab-item"
-        :class="{ active: currentTab === tab.path }"
+        :class="{ active: isActive(item.path) }"
       >
-        <span class="tab-icon">{{ tab.icon }}</span>
-        <span class="tab-label">{{ tab.label }}</span>
+        <span class="tab-icon">{{ item.icon }}</span>
+        <span class="tab-label">{{ item.label }}</span>
       </router-link>
     </nav>
   </div>
 </template>
 
 <style>
-/* ===== Global Reset & Design Tokens ===== */
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 
 :root {
@@ -65,6 +99,7 @@ const currentTab = computed(() => {
   --radius-lg: 24px;
   --radius-xl: 32px;
   --ease: cubic-bezier(0.32, 0.72, 0, 1);
+  --sidebar-w: 240px;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -82,66 +117,142 @@ body {
 </style>
 
 <style scoped>
-.app {
+.app-shell {
   min-height: 100dvh;
-  padding-bottom: 80px;
+  display: flex;
 }
 
-.main-content {
-  max-width: 440px;
-  margin: 0 auto;
-  padding: 1.25rem 1.25rem 2rem;
-}
-
-/* ===== Tab Bar ===== */
-.tab-bar {
+/* ===== 侧边栏 (>=768px 显示) ===== */
+.sidebar {
   position: fixed;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 0;
+  left: 0;
+  width: var(--sidebar-w);
+  height: 100dvh;
+  background: var(--surface);
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 0.75rem;
+  z-index: 100;
+}
+
+.sidebar-brand {
   display: flex;
   align-items: center;
-  gap: 0.25rem;
-  height: 68px;
-  max-width: 400px;
-  width: calc(100% - 2rem);
-  padding: 0 0.5rem;
-  background: var(--surface);
-  border-radius: 22px 22px 0 0;
-  box-shadow: 0 -8px 40px rgba(90, 76, 219, 0.06), 0 -2px 8px rgba(0,0,0,0.02);
-  z-index: 1000;
-  padding-bottom: env(safe-area-inset-bottom);
+  gap: 0.6rem;
+  padding: 0 0.75rem;
+  margin-bottom: 2rem;
+}
+.brand-icon { font-size: 1.5rem; }
+.brand-text {
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: var(--text-1);
 }
 
-.tab-item {
+.sidebar-nav {
   flex: 1;
   display: flex;
   flex-direction: column;
+  gap: 0.2rem;
+  overflow-y: auto;
+}
+
+.nav-item {
+  display: flex;
   align-items: center;
-  gap: 2px;
-  text-decoration: none;
-  color: var(--text-3);
-  font-size: 0.62rem;
-  font-weight: 500;
-  padding: 0.5rem 0;
+  gap: 0.7rem;
+  padding: 0.65rem 0.75rem;
   border-radius: var(--radius-sm);
-  transition: all 0.5s var(--ease);
+  text-decoration: none;
+  color: var(--text-2);
+  font-size: 0.88rem;
+  font-weight: 500;
+  transition: all 0.3s var(--ease);
 }
-
-.tab-icon {
-  font-size: 1.3rem;
-  transition: transform 0.5s var(--ease);
-}
-
-.tab-label {
-  letter-spacing: 0.01em;
-}
-
-.tab-item.active {
+.nav-item:hover {
+  background: var(--accent-soft);
   color: var(--accent);
 }
+.nav-item.active {
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 700;
+}
+.nav-icon { font-size: 1.15rem; width: 24px; text-align: center; }
+.nav-label { white-space: nowrap; }
 
-.tab-item.active .tab-icon {
-  transform: translateY(-2px) scale(1.1);
+.sidebar-footer {
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+.parent-link { color: var(--text-3); }
+
+/* ===== 主内容区 ===== */
+.main-area {
+  flex: 1;
+  margin-left: var(--sidebar-w);
+  padding: 2rem 3rem;
+  max-width: 820px;
+}
+
+/* ===== 底部 Tab (仅手机) ===== */
+.mobile-tab {
+  display: none;
+}
+
+/* ===== 响应式 ===== */
+
+/* 平板竖屏 */
+@media (max-width: 1024px) {
+  :root { --sidebar-w: 200px; }
+  .main-area { padding: 1.5rem 2rem; }
+}
+
+/* 手机 */
+@media (max-width: 768px) {
+  .sidebar { display: none; }
+
+  .main-area {
+    margin-left: 0;
+    padding: 1rem 1.25rem 5.5rem;
+    max-width: 100%;
+  }
+
+  .mobile-tab {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 64px;
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.04);
+    z-index: 1000;
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .tab-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    text-decoration: none;
+    color: var(--text-3);
+    font-size: 0.62rem;
+    font-weight: 500;
+    padding: 0.4rem 0.6rem;
+    border-radius: var(--radius-sm);
+    transition: all 0.3s var(--ease);
+  }
+  .tab-icon { font-size: 1.3rem; transition: transform 0.3s var(--ease); }
+  .tab-label { letter-spacing: 0.01em; }
+  .tab-item.active { color: var(--accent); }
+  .tab-item.active .tab-icon { transform: translateY(-2px) scale(1.1); }
 }
 </style>
