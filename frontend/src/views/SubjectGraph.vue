@@ -75,85 +75,38 @@ function openSubject(s: string) {
 
 <style scoped>
 .sgraph { padding-top: 0.5rem; }
-.sgraph h1 {
-  font-size: 1.4rem;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  margin-bottom: 0.25rem;
-}
-.subtitle { color: var(--color-text-muted); font-size: 0.82rem; margin-bottom: 1.5rem; }
+.sgraph h1 { font-size: 1.5rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 0.2rem; }
+.subtitle { color: var(--text-3); font-size: 0.78rem; margin-bottom: 1.5rem; font-weight: 500; }
 
-/* 总览 */
 .overall {
-  display: flex;
-  justify-content: space-around;
-  background: var(--color-surface);
-  border-radius: var(--radius-lg);
-  padding: 1.1rem 1rem;
-  box-shadow: var(--shadow-sm);
-  margin-bottom: 1.5rem;
+  display: flex; justify-content: space-around;
+  background: var(--surface); border-radius: var(--radius-lg); padding: 1.1rem 0.5rem;
+  box-shadow: var(--shadow-sm); margin-bottom: 1.5rem;
 }
 .ov-item { display: flex; flex-direction: column; align-items: center; }
-.ov-num {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--color-text);
-  font-variant-numeric: tabular-nums;
-}
-.ov-num.green { color: var(--color-accent); }
-.ov-num.yellow { color: var(--color-warning); }
-.ov-label { font-size: 0.7rem; color: var(--color-text-muted); margin-top: 0.1rem; }
+.ov-num { font-size: 1.4rem; font-weight: 800; color: var(--text-1); font-variant-numeric: tabular-nums; }
+.ov-num.green { color: var(--success); }
+.ov-num.yellow { color: var(--warning); }
+.ov-label { font-size: 0.65rem; color: var(--text-3); margin-top: 0.1rem; font-weight: 500; }
 
-/* 卡片网格 */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 0.75rem;
-}
+.grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.6rem; }
 .card {
-  background: var(--color-surface);
-  border-radius: var(--radius-md);
-  padding: 1rem;
-  box-shadow: var(--shadow-sm);
-  cursor: pointer;
-  transition: transform 0.15s ease;
+  background: var(--surface); border-radius: var(--radius-md); padding: 1rem;
+  box-shadow: var(--shadow-sm); cursor: pointer; transition: transform 0.5s var(--ease);
 }
-.card:active { transform: scale(0.97); }
-.card-head {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  margin-bottom: 0.6rem;
-}
-.icon { font-size: 1.3rem; }
-.name { font-size: 0.9rem; font-weight: 600; color: var(--color-text); flex: 1; }
-.count { font-size: 0.7rem; color: var(--color-text-muted); font-variant-numeric: tabular-nums; }
+.card:active { transform: scale(0.96); }
+.card-head { display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.6rem; }
+.icon { font-size: 1.2rem; }
+.name { font-size: 0.85rem; font-weight: 700; color: var(--text-1); flex: 1; }
+.count { font-size: 0.68rem; color: var(--text-3); font-variant-numeric: tabular-nums; }
 
-/* 进度条 */
-.bar-bg {
-  height: 6px;
-  background: var(--color-border);
-  border-radius: 3px;
-  overflow: hidden;
-  margin-bottom: 0.5rem;
-}
-.bar-fill {
-  height: 100%;
-  background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
-  border-radius: 3px;
-  transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-}
+.bar-bg { height: 5px; background: var(--border); border-radius: 3px; overflow: hidden; margin-bottom: 0.5rem; }
+.bar-fill { height: 100%; background: var(--accent); border-radius: 3px; transition: width 0.6s var(--ease); }
 
-.card-foot {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 0.7rem;
-  color: var(--color-text-secondary);
-}
-.dot-row { display: flex; align-items: center; gap: 0.3rem; }
+.card-foot { display: flex; justify-content: space-between; align-items: center; font-size: 0.68rem; color: var(--text-3); }
+.dot-row { display: flex; align-items: center; gap: 0.25rem; }
 .dot-row i { width: 7px; height: 7px; border-radius: 50%; display: inline-block; }
-.enter { color: var(--color-primary); font-weight: 500; }
+.enter { color: var(--accent); font-weight: 600; }
 
-.loading { text-align: center; padding: 3rem; color: var(--color-text-muted); }
+.loading { text-align: center; padding: 3rem; color: var(--text-3); }
 </style>

@@ -121,168 +121,76 @@ function switchSubject(s: string) { subject.value = s; load() }
 
 <style scoped>
 .memory { padding-top: 0.5rem; }
-.memory h1 {
-  font-size: 1.4rem;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  margin-bottom: 0.5rem;
-}
+.memory h1 { font-size: 1.5rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
 
-/* 科目 Tab */
-.tabs {
-  display: flex;
-  gap: 0.35rem;
-  flex-wrap: wrap;
-  margin-bottom: 1.5rem;
-  align-items: center;
-}
+.tabs { display: flex; gap: 0.3rem; flex-wrap: wrap; margin-bottom: 1.5rem; align-items: center; }
 .tabs button {
-  padding: 0.4rem 0.75rem;
-  border: 1.5px solid var(--color-border);
-  background: var(--color-surface);
-  border-radius: 20px;
-  font-size: 0.8rem;
-  cursor: pointer;
-  transition: all 0.15s ease;
-  font-weight: 500;
+  padding: 0.4rem 0.7rem; border: 1.5px solid var(--border); background: var(--surface);
+  border-radius: 20px; font-size: 0.78rem; cursor: pointer; font-weight: 600; font-family: var(--font);
+  transition: all 0.3s var(--ease);
 }
-.tabs button.active {
-  background: var(--color-primary);
-  color: #fff;
-  border-color: var(--color-primary);
-}
-.mode-switch { margin-left: auto; display: flex; gap: 0.25rem; }
-.mode-switch button { padding: 0.3rem 0.6rem; font-size: 0.72rem; border-radius: 6px; }
+.tabs button.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+.mode-switch { margin-left: auto; display: flex; gap: 0.2rem; }
+.mode-switch button { padding: 0.3rem 0.6rem; font-size: 0.7rem; border-radius: 6px; }
 
-/* 进度 */
-.progress-text {
-  font-size: 0.78rem;
-  color: var(--color-text-muted);
-  margin-bottom: 1rem;
-  font-variant-numeric: tabular-nums;
-}
+.progress-text { font-size: 0.75rem; color: var(--text-3); margin-bottom: 1rem; font-weight: 500; font-variant-numeric: tabular-nums; }
 
-/* 翻卡 */
 .flip-card {
-  min-height: 200px;
-  background: var(--color-surface);
-  border-radius: var(--radius-xl);
-  box-shadow: var(--shadow-lg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2.5rem 2rem;
-  cursor: pointer;
-  font-size: 1.25rem;
-  font-weight: 500;
-  color: var(--color-text);
-  text-align: center;
-  transition: transform 0.2s ease, background 0.3s;
-  line-height: 1.6;
+  min-height: 220px; background: var(--surface); border-radius: var(--radius-xl); box-shadow: var(--shadow-lg);
+  display: flex; align-items: center; justify-content: center; padding: 2.5rem 2rem;
+  cursor: pointer; font-size: 1.2rem; font-weight: 600; color: var(--text-1); text-align: center;
+  transition: transform 0.5s var(--ease); line-height: 1.6;
 }
 .flip-card:active { transform: scale(0.97); }
-.flip-card .card-back { display: none; color: var(--color-primary); font-weight: 600; }
+.flip-card .card-back { display: none; color: var(--accent); }
 .flip-card.flipped .card-front { display: none; }
 .flip-card.flipped .card-back { display: block; }
-.flip-card.flipped { cursor: default; background: #F0FDF4; }
+.flip-card.flipped { cursor: default; background: var(--success-soft); }
 
-.action-row {
-  display: flex;
-  gap: 0.75rem;
-  justify-content: center;
-  margin-top: 1.25rem;
-}
+.action-row { display: flex; gap: 0.75rem; justify-content: center; margin-top: 1.25rem; }
 .btn-wrong, .btn-right {
-  padding: 0.7rem 1.8rem;
-  border-radius: 24px;
-  font-size: 0.9rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: transform 0.1s ease;
+  padding: 0.7rem 1.8rem; border-radius: 28px; font-size: 0.88rem; font-weight: 700;
+  cursor: pointer; transition: transform 0.3s var(--ease); font-family: var(--font);
 }
-.btn-wrong:active, .btn-right:active { transform: scale(0.95); }
-.btn-wrong { background: #FEF2F2; color: #DC2626; border: 2px solid #FECACA; }
-.btn-right { background: #F0FDF4; color: #16A34A; border: 2px solid #86EFAC; }
+.btn-wrong:active, .btn-right:active { transform: scale(0.93); }
+.btn-wrong { background: #FEF2F2; color: var(--danger); border: 1.5px solid #FECACA; }
+.btn-right { background: var(--success-soft); color: #059669; border: 1.5px solid #A7F3D0; }
 
-.hint {
-  text-align: center;
-  color: var(--color-text-muted);
-  font-size: 0.8rem;
-  margin-top: 1rem;
-}
+.hint { text-align: center; color: var(--text-3); font-size: 0.78rem; margin-top: 1rem; font-weight: 500; }
 
-/* 拼写 */
 .spell-area { text-align: center; }
 .spell-prompt {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: var(--color-text);
-  background: var(--color-surface);
-  border-radius: var(--radius-xl);
-  padding: 2rem 1.5rem;
-  box-shadow: var(--shadow-lg);
-  margin-bottom: 1.25rem;
+  font-size: 1.15rem; font-weight: 700; color: var(--text-1); background: var(--surface);
+  border-radius: var(--radius-xl); padding: 2rem 1.5rem; box-shadow: var(--shadow-lg); margin-bottom: 1.25rem;
 }
 .spell-input {
-  width: 100%;
-  max-width: 300px;
-  padding: 0.75rem 1rem;
-  border: 2px solid var(--color-border);
-  border-radius: 24px;
-  font-size: 1rem;
-  text-align: center;
-  outline: none;
-  transition: border-color 0.2s;
+  width: 100%; max-width: 280px; padding: 0.8rem 1rem; border: 1.5px solid var(--border);
+  border-radius: 28px; font-size: 1rem; text-align: center; font-family: var(--font);
+  outline: none; transition: border-color 0.3s var(--ease);
 }
-.spell-input:focus { border-color: var(--color-primary); }
-.spell-input.correct { border-color: var(--color-accent); background: #F0FDF4; }
-.spell-input.wrong { border-color: var(--color-danger); background: #FEF2F2; }
+.spell-input:focus { border-color: var(--accent); }
+.spell-input.correct { border-color: var(--success); background: var(--success-soft); }
+.spell-input.wrong { border-color: var(--danger); background: #FEF2F2; }
 
 .spell-btn {
-  margin-top: 0.75rem;
-  padding: 0.6rem 1.5rem;
-  background: var(--color-primary);
-  color: #fff;
-  border: none;
-  border-radius: 24px;
-  font-size: 0.88rem;
-  font-weight: 600;
-  cursor: pointer;
+  margin-top: 0.75rem; padding: 0.6rem 1.5rem; background: var(--accent); color: #fff; border: none;
+  border-radius: 28px; font-size: 0.85rem; font-weight: 700; cursor: pointer; font-family: var(--font);
 }
 .spell-btn:disabled { opacity: 0.5; cursor: not-allowed; }
-.spell-feedback { margin-top: 1rem; font-size: 0.95rem; }
+.spell-feedback { margin-top: 1rem; font-size: 0.9rem; }
 .next-btn {
-  margin-top: 0.75rem;
-  padding: 0.5rem 1.2rem;
-  background: var(--color-primary);
-  color: #fff;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 0.85rem;
+  margin-top: 0.75rem; padding: 0.55rem 1.2rem; background: var(--accent); color: #fff; border: none;
+  border-radius: 20px; cursor: pointer; font-weight: 600; font-size: 0.82rem; font-family: var(--font);
 }
 
-/* 完成 */
 .done-card {
-  text-align: center;
-  padding: 3rem 1.5rem;
-  background: var(--color-surface);
-  border-radius: var(--radius-xl);
-  box-shadow: var(--shadow-lg);
+  text-align: center; padding: 3rem 1.5rem; background: var(--surface);
+  border-radius: var(--radius-xl); box-shadow: var(--shadow-lg);
 }
-.done-card h2 { font-size: 1.3rem; margin-bottom: 0.5rem; }
-.stats-bar {
-  margin-top: 1rem;
-  font-size: 0.8rem;
-  color: var(--color-text-secondary);
-}
-.green { color: var(--color-accent); }
-.yellow { color: var(--color-warning); }
+.done-card h2 { font-size: 1.3rem; font-weight: 800; margin-bottom: 0.5rem; }
+.stats-bar { margin-top: 1rem; font-size: 0.78rem; color: var(--text-3); font-weight: 500; }
+.green { color: var(--success); }
+.yellow { color: var(--warning); }
 
-.loading, .empty {
-  text-align: center;
-  padding: 3rem;
-  color: var(--color-text-muted);
-}
+.loading, .empty { text-align: center; padding: 3rem; color: var(--text-3); font-weight: 500; }
 </style>

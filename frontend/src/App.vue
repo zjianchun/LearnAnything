@@ -23,7 +23,6 @@ const currentTab = computed(() => {
       <router-view />
     </main>
 
-    <!-- 底部导航栏 -->
     <nav class="tab-bar">
       <router-link
         v-for="tab in tabs"
@@ -40,122 +39,109 @@ const currentTab = computed(() => {
 </template>
 
 <style>
-/* ===== 全局样式重置 ===== */
+/* ===== Global Reset & Design Tokens ===== */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
 :root {
-  --color-primary: #6C5CE7;
-  --color-primary-light: #A29BFE;
-  --color-primary-bg: #F8F7FF;
-  --color-accent: #00B894;
-  --color-accent-light: #55EFC4;
-  --color-warning: #FDCB6E;
-  --color-danger: #FF7675;
-  --color-success: #00B894;
-  --color-bg: #FAFBFC;
-  --color-surface: #FFFFFF;
-  --color-text: #2D3436;
-  --color-text-secondary: #636E72;
-  --color-text-muted: #B2BEC3;
-  --color-border: #F0F0F3;
-  --radius-sm: 8px;
-  --radius-md: 14px;
-  --radius-lg: 20px;
-  --radius-xl: 28px;
-  --shadow-sm: 0 2px 8px rgba(108, 92, 231, 0.06);
-  --shadow-md: 0 4px 16px rgba(108, 92, 231, 0.08);
-  --shadow-lg: 0 8px 32px rgba(108, 92, 231, 0.12);
-  --font-body: 'PingFang SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;
+  --bg: #F8F9FA;
+  --surface: #FFFFFF;
+  --text-1: #1A1A2E;
+  --text-2: #4A4A68;
+  --text-3: #9B9BB4;
+  --accent: #5B4CDB;
+  --accent-soft: #EEEDFC;
+  --success: #2ECC87;
+  --success-soft: #E8F9F0;
+  --warning: #F5A623;
+  --danger: #E74C5F;
+  --border: #F0F0F5;
+  --shadow-xs: 0 1px 3px rgba(90, 76, 219, 0.03);
+  --shadow-sm: 0 2px 8px rgba(90, 76, 219, 0.04), 0 1px 2px rgba(0,0,0,0.02);
+  --shadow-md: 0 4px 24px rgba(90, 76, 219, 0.06), 0 2px 8px rgba(0,0,0,0.02);
+  --shadow-lg: 0 12px 48px rgba(90, 76, 219, 0.08), 0 4px 12px rgba(0,0,0,0.03);
+  --radius-sm: 12px;
+  --radius-md: 18px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --ease: cubic-bezier(0.32, 0.72, 0, 1);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+* { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-  font-family: var(--font-body);
-  background: var(--color-bg);
-  color: var(--color-text);
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text-1);
   -webkit-font-smoothing: antialiased;
-  line-height: 1.6;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
 }
 
-/* 数字等宽 */
 .tabular-nums { font-variant-numeric: tabular-nums; }
 </style>
 
 <style scoped>
 .app {
-  min-height: 100vh;
   min-height: 100dvh;
-  padding-bottom: 72px;
-  background: var(--color-bg);
+  padding-bottom: 80px;
 }
 
 .main-content {
-  max-width: 480px;
+  max-width: 440px;
   margin: 0 auto;
-  padding: 1rem 1rem 2rem;
+  padding: 1.25rem 1.25rem 2rem;
 }
 
-/* ===== 底部 Tab Bar ===== */
+/* ===== Tab Bar ===== */
 .tab-bar {
   position: fixed;
   bottom: 0;
-  left: 0;
-  right: 0;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  height: 64px;
-  background: var(--color-surface);
-  border-top: 1px solid var(--color-border);
-  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.04);
+  gap: 0.25rem;
+  height: 68px;
+  max-width: 400px;
+  width: calc(100% - 2rem);
+  padding: 0 0.5rem;
+  background: var(--surface);
+  border-radius: 22px 22px 0 0;
+  box-shadow: 0 -8px 40px rgba(90, 76, 219, 0.06), 0 -2px 8px rgba(0,0,0,0.02);
   z-index: 1000;
   padding-bottom: env(safe-area-inset-bottom);
 }
 
 .tab-item {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2px;
   text-decoration: none;
-  color: var(--color-text-muted);
-  font-size: 0.65rem;
-  padding: 0.4rem 0.8rem;
+  color: var(--text-3);
+  font-size: 0.62rem;
+  font-weight: 500;
+  padding: 0.5rem 0;
   border-radius: var(--radius-sm);
-  transition: all 0.2s ease;
-  position: relative;
+  transition: all 0.5s var(--ease);
 }
 
 .tab-icon {
-  font-size: 1.4rem;
-  transition: transform 0.2s ease;
+  font-size: 1.3rem;
+  transition: transform 0.5s var(--ease);
 }
 
 .tab-label {
-  font-weight: 500;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
 }
 
 .tab-item.active {
-  color: var(--color-primary);
+  color: var(--accent);
 }
 
 .tab-item.active .tab-icon {
-  transform: scale(1.15);
-}
-
-.tab-item.active::after {
-  content: '';
-  position: absolute;
-  top: -1px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 20px;
-  height: 3px;
-  background: var(--color-primary);
-  border-radius: 0 0 3px 3px;
+  transform: translateY(-2px) scale(1.1);
 }
 </style>
